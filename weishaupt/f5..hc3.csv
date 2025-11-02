@@ -1,10 +1,10 @@
 # type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment
 *b,,,,,"F1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-b,,Set,Sollwerte HC3->SC ,"F0",,"0507",,Status,,_8_Opdataheat,,, ,Action,,_8_Opdataaction,,, ,SetTemp,,_16_Temp2,,, ,SetPressure,,_16_Pressure,,, ,OutputDegree,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
+b,,Set,Target values HC3->SC ,"F0",,"0507",,Status,,_8_Opdataheat,,, ,Action,,_8_Opdataaction,,, ,SetTemp,,_16_Temp2,,, ,SetPressure,,_16_Pressure,,, ,OutputDegree,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
 
-!include,hc.processvalues.inc,,Prozesswerte Heizkreisregler,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hc.user.inc,,Parameter Endanwender - Heizkreis,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hc.userholiday.inc,,Parameter Endanwender - Urlaub,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hc.expert.inc,,Parameter Heizungsfachmann - Heizkreis,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hc.expert2.inc,,Parameter Heizungsfachmann - Heizkreis 2 Fußbodenheizung,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hc.timer.inc,,Zeitprogramme Heizkreis,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+!include,hc.processvalues.inc,,Process values ​​heating circuit controller,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+!include,hc.user.inc,,End-user parameters - heating circuit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+!include,hc.userholiday.inc,,End-user parameters - Vacation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+!include,hc.expert.inc,,Heating engineer parameters - heating circuit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+!include,hc.expert2.inc,,Heating engineer parameters - Heating circuit 2 underfloor heating,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+!include,hc.timer.inc,,Heating circuit time programs,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
