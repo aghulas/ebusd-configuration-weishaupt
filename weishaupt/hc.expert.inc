@@ -1,11 +1,11 @@
 # type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
-#,,Parameter Heizungsfachmann - Heizkreis,,,,,,,,,,,
+#,,Heating engineer parameters - heating circuit,,,,,,,,,,,
 *r,,,,,,"0902",,,,,,,
 *w,,,,,,"0903",,,,,,,
 
 r,,RoomInfluence,Raumeinfluss (341) ,,,,"0F0102",RoomInfluence,,_16_Roominfluence,,,
 w,,RoomInfluence, ,,,,"0F01",,,_16_Roominfluence,,,
-r,,RoomSensorCorrection,Raumfühlerkorrektur (342) ,,,,"090102",RoomSensorCorrection,,_16_Temp10,,,
+r,,RoomSensorCorrection,Room Sensor Correction (342) ,,,,"090102",RoomSensorCorrection,,_16_Temp10,,,
 w,,RoomSensorCorrection, ,,,,"0901",,,_16_Temp10,,,
 r,,Adaption,Adaption (343) ,,,,"150102",Adaption,,_16_OnOff,,,
 w,,Adaption, ,,,,"1501",,,_16_OnOff,,,

@@ -1,5 +1,5 @@
 # type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment
-#,,Zeitprogramme Heizkreis,,,,,,,,,,,
+#,,Heating circuit time programs,,,,,,,,,,,
 *r,,,,,,"0902",,,,,,,
 *w,,,,,,"0903",,,,,,,
 
