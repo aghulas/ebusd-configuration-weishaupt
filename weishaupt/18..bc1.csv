@@ -1,6 +1,0 @@
-#instruction,parameter,comment
-!include,sc.processvalues.inc,Process values
-!include,sc.enduser.inc,End user
-!include,sc.statistic.inc,Statistics
-!include,sc.manufacturer.inc,Manufacturer
-!include,sc.errorhistory.inc,Error history
