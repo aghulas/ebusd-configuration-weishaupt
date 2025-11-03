@@ -4,3 +4,4 @@
 !include,sc.statistic.inc,Statistics
 !include,sc.manufacturer.inc,Manufacturer
 !include,sc.errorhistory.inc,Error History
+!include,sc.systemheatcontrol.inc,System heat control
