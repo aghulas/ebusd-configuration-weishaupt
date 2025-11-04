@@ -4,3 +4,6 @@ b,,Cmd,Target values ​B2->BC ,"10",,"0507",,Status,,_8_Opdataheat,,, ,Action,,
 
 *n,,,,"13",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 n,,CmdAck,Target values ​BC->B2 ,,"10","0504",,Temp0,,_8_Percent,,, ,Temp1,,_8_Temp2,,, ,OutputDegree,,_8_Percent,,, 
+
+*c,,,,"13","FE",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+c,,Message,Broadcast Message ,,,"FE01",,Msg,,STR:10,,, ,
