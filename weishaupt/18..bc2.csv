@@ -1,10 +1,4 @@
 #instruction,parameter,comment
 *n,,,,,"10",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-n,,Set,Target values ​​B1->BC ,"13",,"0507",,Status,,_8_Opdataheat,,, ,Action,,_8_Opdataaction,,, ,SetTemp,,_16_Temp2,,, ,SetPressure,,_16_Pressure,,, ,OutputDegree,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
+n,,Set,Target values ​​B2->BC ,"13",,"0507",,Status,,_8_Opdataheat,,, ,Action,,_8_Opdataaction,,, ,SetTemp,,_16_Temp2,,, ,SetPressure,,_16_Pressure,,, ,OutputDegree,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
 
-!include,sc.processvalues.inc,Process Values
-!include,sc.enduser.inc,End User
-!include,sc.statistic.inc,Statistics
-!include,sc.manufacturer.inc,Manufacturer
-!include,sc.errorhistory.inc,Error History
-!include,sc.systemheatcontrol.inc,System heat control
