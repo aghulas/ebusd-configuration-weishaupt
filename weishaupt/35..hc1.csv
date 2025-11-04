@@ -5,13 +5,3 @@ n,,Set,Target values ​​HC1->SC ,"30",,"0507",,Status,,_8_Opdataheat,,, ,Acti
 b,,BCAST1, ,"30",,,"7600",,,UIN,,,
 b,,BCAST2, ,"30",,,"7800",,,UIN,,,
 
-!include,hc.processvalues.inc,,Process values ​​heating circuit controller,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hc.user.inc,,End-user parameters - heating circuit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hc.userholiday.inc,,End-user parameters - Vacation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hc.expert.inc,,Heating engineer parameters - heating circuit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hc.timer.inc,,Heating circuit time programs,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hwc.processvalues.inc,,Process values ​​heating circuit controller - Warmwasser,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hwc.user.inc,,End-user parameters - hot water,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hwc.expert.inc,,Heating engineer parameters - hot water,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hwc.timer.inc,,Hot water time program,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hwc.timercc.inc,,Circulation pump timer program,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
