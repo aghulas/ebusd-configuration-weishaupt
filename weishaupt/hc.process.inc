@@ -8,8 +8,8 @@ r,,ExternalTemperature,Outside temperature ,,,,"0C0002",ExternalTemperature,,_16
 r,,SupplyTemperatureWTC,Flow temperature WTC ,,,,"0D0002",SupplyTemperatureWTC,,_16_Temp10,,,
 r,,SupplyTemperatureHC,Flow temperature (heating circuit) ,,,,"0F0002",SupplyTemperatureHC,,_16_Temp10,,,
 r,,RoomTemperature,Room temperature ,,,,"110002",RoomTemperature,,_16_Temp10,,,
-r,,MixedExternalTemperature,Mixed outside temperature ,,,,"1A0A02",MixedExternalTemperature,,_16_Temp10,,,
-r,,DHWTemperature,Hot water temperature ,,,,"0E0002",,,_16_Temp10,,,
+r,,AveragedExternalTemperature,Averaged outside temperature ,,,,"1A0A02",AveragedExternalTemperature,,_16_Temp10,,,
+r,,DHWTemperature,DH water temperature ,,,,"0E0002",,,_16_Temp10,,,
 
 r,,MaxSupplyTemperature,Maximum flow temperature (352) ,,,,"280002",MaxSupplyTemperature,,_16_Temp10,,,
 w,,MaxSupplyTemperature, ,,,,"2800",,,_16_Temp10,,,
