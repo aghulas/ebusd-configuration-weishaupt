@@ -3,4 +3,4 @@
 b,,Cmd,Target values ​B1->BC ,"10",,"0507",,Status,,_8_Opdataheat,,, ,Action,,_8_Opdataaction,,, ,SetTemp,,_16_Temp2,,, ,SetPressure,,_16_Pressure,,, ,OutputDegree,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
 
 *n,,,,"03",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-n,,CmdAck,Target values ​BC->B1 ,,"10","0504",,Status,,_8_Opdataheat,,, ,Temp0,,_8_Temp2,,, ,Temp1,,_8_Temp2,,, ,Temp2,,_8_Temp2,,, 
+n,,CmdAck,Target values ​BC->B1 ,,"10","0504",,Status,,_8_Opdataheat,,, ,Temp0,,_8_Temp2,,, ,Temp1,,_8_Temp2,,, ,Temp2,,_8_Percent,,, 
