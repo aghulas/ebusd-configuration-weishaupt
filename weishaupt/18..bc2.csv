@@ -1,4 +1,4 @@
 #instruction,parameter,comment
-*b,,,,,"03",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-b,,Set,Target values ​​B2->BC ,"10",,"0507",,Status,,_8_Opdataheat,,, ,Action,,_8_Opdataaction,,, ,SetTemp,,_16_Temp2,,, ,SetPressure,,_16_Pressure,,, ,OutputDegree,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
+*b,,,,,"13",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+b,,Set,Target values ​B2->BC ,"10",,"0507",,Status,,_8_Opdataheat,,, ,Action,,_8_Opdataaction,,, ,SetTemp,,_16_Temp2,,, ,SetPressure,,_16_Pressure,,, ,OutputDegree,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
 
