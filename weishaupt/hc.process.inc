@@ -10,6 +10,13 @@ r,,SupplyTemperatureHC,Flow temperature (heating circuit) ,,,,"0F0002",SupplyTem
 r,,RoomTemperature,Room temperature ,,,,"110002",RoomTemperature,,_16_Temp10,,,
 r,,MixedExternalTemperature,Mixed outside temperature ,,,,"1A0A02",MixedExternalTemperature,,_16_Temp10,,,
 
+r,,HeatingDemand,Heat demand heating circuit 3 ,,,"5000","5903BD",,s,_8_Skip,,, ,,s,_8_Temp0,,,
+r,,DHWTemperature,Hot water temperature ,,,,"0E0002",,,_16_Temp10,,,
+
+r,,Uknown6, ,,,,"0C0A02",Uknown5,,_16_Temp10,,,
+r,,Uknown7, ,,,,"290A02",Uknown5,,_16_Temp10,,,
+r,,Uknown9, ,,,,"990102",Uknown5,,_16_Temp10,,,
+
 r,,MaxSupplyTemperature,Maximum flow temperature (352) ,,,,"280002",MaxSupplyTemperature,,_16_Temp10,,,
 w,,MaxSupplyTemperature, ,,,,"2800",,,_16_Temp10,,,
 r,,MinSupplyTemperature,Minimum flow temperature (351) ,,,,"2B0102",MinSupplyTemperature,,_16_Temp10,,,
