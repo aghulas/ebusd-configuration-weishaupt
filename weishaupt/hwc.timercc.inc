@@ -45,8 +45,7 @@ w,,ZP.Sa.2,Circulation program Sa 2 Start/End (User 166) ,,,,"611A",,,_8_TimeSta
 r,,ZP.Sa.3,Circulation program Sa 3 Start/End (User 166) ,,,,"621A02",,,_8_TimeStart,,, ,,,_8_TimeEnd,,,
 w,,ZP.Sa.3,Circulation program Sa 3 Start/End (User 166) ,,,,"621A",,,_8_TimeStart,,, ,,,_8_TimeEnd,,,
 #,,Sunntag,,,,,,,,,,,
-r,,ZP.Su.1,Circulation program 
-1 Start/End (User 167) ,,,,"701A02",,,_8_TimeStart,,, ,,,_8_TimeEnd,,,
+r,,ZP.Su.1,Circulation program Su 1 Start/End (User 167) ,,,,"701A02",,,_8_TimeStart,,, ,,,_8_TimeEnd,,,
 w,,ZP.Su.1,Circulation program Su 1 Start/End (User 167) ,,,,"701A",,,_8_TimeStart,,, ,,,_8_TimeEnd,,,
 r,,ZP.Su.2,Circulation program Su 2 Start/End (User 167) ,,,,"711A02",,,_8_TimeStart,,, ,,,_8_TimeEnd,,,
 w,,ZP.Su.2,Circulation program Su 2 Start/End (User 167) ,,,,"711A",,,_8_TimeStart,,, ,,,_8_TimeEnd,,,
