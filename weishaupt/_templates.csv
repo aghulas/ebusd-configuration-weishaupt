@@ -42,7 +42,7 @@ _16_Minutes,UIN,,min,Minuten
 _16_OnOff,UIN,0x0000=Aus;0x0001=An,,
 _16_Percent,UIN,,%,Prozent
 _16_Pressure,D2B,,bar,Druck
-_16_ProgramChooseSwitch,UIN,0x01=Standby;0x03=NormalTemperature;0x04=AbsenkTemperature;0x05=Sommer;0x0b=Programm 1;0x0c=Programm 2;0x0d=Programm 3,,Programmwahlschalter
+_16_ProgramChooseSwitch,UIN,0x01=Standby;0x03=NormalTemperature;0x04=Lowering temperature;0x05=Summer;0x0b=Program 1;0x0c=Program 2;0x0d=Program 3,,Program selector switch
 # Raumeinfluss - Werte von 0 - 20 und 0xFFFF für off,,,,
 _16_Roominfluence,UIN,,,Raumeinfluss
 _16_Seconds,UIN,,s,Sekunden
