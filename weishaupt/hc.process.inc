@@ -26,6 +26,12 @@ w,,Unknown4, ,,,,"8502",,,_16_Temp10,,,
 r,,Unknown5, ,,,,"B10902",Unknown5,,_16_Temp10,,,
 w,,Unknown5, ,,,,"B109",,,_16_Temp10,,,
 
+r,,Unknown11, ,,,,"047602",Unknown5,,SIN,,,
+w,,Unknown11, ,,,,"0476",,,SIN,,,
+r,,Unknown12, ,,,,"047802",Unknown5,,SIN,,,
+w,,Unknown12, ,,,,"0478",,,SIN,,,
+
+
 r,,Unknown6, ,,,,"0C0A02",Unknown5,,_16_Temp10,,,
 r,,Unknown7, ,,,,"290A02",Unknown5,,_16_Temp10,,,
 r,,Unknown9, ,,,,"990102",Unknown5,,_16_Temp10,,,
