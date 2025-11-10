@@ -6,6 +6,3 @@ r,,ProcessValues3,Process values ,,,,"B2017C01C40302",,s,_8_Skip,,, ,Byte1,s,UCH
 r,,ProcessValues4,Process values ,,,,"880122015B115F01660168",,s,_8_Skip,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,, ,Byte6,s,UCH,,,
 r,,ProcessValues5,Process values ,,,,"1F016A116E118901B3",,s,_8_Skip,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,, ,Byte6,s,UCH,,,
 r,,ProcessValues6,Process values ,,,,"603308",,s,_8_Skip,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,,
-
-
-

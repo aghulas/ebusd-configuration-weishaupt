@@ -2,5 +2,3 @@
 *r,,,,,,"5000",,,,,,,
 r,,Manufacturer1,Manufacturer ,,,,"C5B201",,s,_8_Skip,,, ,BurnerOptions,s,_8_BurnerOptions,,,Brenneroptionen ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,, ,Byte6,s,UCH,,, ,STBShutdownTempBoiler,s,temp0,,,STB Abschalttemperatur Kessel ,STWShutdownTempBoiler,s,temp0,,,STW Abschalttemperatur Kessel ,ASTBShutdownTempFlueGas,s,temp0,,,ASTB Abschalttemperatur Abgas ,Byte10,s,UCH,,, ,S19,s,UCH,,,S19 ,S20,s,UCH,,,S20 
 r,,Manufacturer2,Manufacturer ,,,,"41720D",,s,_8_Skip,,, ,FanControllerP,s,UCH,,,Gebläseregler (P-Anteil) ,FanControllerI,s,UCH,,,Gebläseregler (I-Anteil) ,Byte3,s,UCH,,, ,S15,s,UCH,,,S15 ,S16,s,UCH,,,S16 ,Byte6,s,UCH,,, ,Byte7,s,UCH,,, ,Byte8,s,UCH,,,
-
-
