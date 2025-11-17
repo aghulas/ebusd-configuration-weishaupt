@@ -2,10 +2,8 @@
 #,,Process values ​​heating circuit controller,,,,,,,,,,,,
 *r,,,,,,"0902",,,,,,,
 *w,,,,,,"0903",,,,,,,
-#,,HC1 and HC2,,,,,,,,,,,,
 
 ### 00
-
 
 #02 00
 r,,HeatDemand,Heat demand HK ,,,,"020002",HeatDemand,,_16_Temp10,,,
@@ -99,7 +97,7 @@ r,,FloorDryingFunction,Screed function (381) ,,,,"1A0102",FloorDryingFunction,,_
 
 #1B 01
 r,,StartOfHoliday,Start of vacation (181) ,,,,"1B0104",Day,,_16_HolidayDay,,,Day ,Month,,_16_HolidayMonth,,,Month
-# w,,StartOfHoliday, ,,,,"1B01",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
+w,,StartOfHoliday, ,,,,"1B01",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
 r,,StartOfHoliday.Day,Start of vacation Day (181) ,,,,"1B0102",,,_16_HolidayDay,,,
 w,,StartOfHoliday.Day, ,,,,"1B01",,,_16_HolidayDay,,,
 
@@ -109,7 +107,7 @@ w,,StartOfHoliday.Month, ,,,,"1C0102",,,_16_HolidayMonth,,,
 
 #1E 01
 r,,EndOfHoliday, (182) ,,,,"1E0104",Day,,_16_HolidayDay,,,Day ,Month,,_16_HolidayMonth,,,Month
-# w,,EndOfHoliday, ,,,,"1E01",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
+w,,EndOfHoliday, ,,,,"1E01",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
 r,,EndOfHoliday.Day, Day (182) ,,,,"1E0102",,,_16_HolidayDay,,,
 w,,EndOfHoliday.Day, ,,,,"1E01",,,_16_HolidayDay,,,
 
