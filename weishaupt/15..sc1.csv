@@ -2,17 +2,5 @@
 *b,,,,,"FE",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 b,,Act,Broadcast with actual values ,,,"500A",,Status1,,_8_Status,,, ,Operatingphase,,_8_Operatingphase,,,Betriebsphase ,Ukn2_1,,BI0,,, ,Ukn2_2,,BI1,,, ,Ukn2_3,,BI2,,, ,Flame,,BI3,,, ,GasValve1,,BI4,,, ,GasValve2,,BI5,,, ,Pump,,BI6,,, ,Error,,BI7,,, ,Ukn3_1,,BI0,,, ,SoWi,,BI1,0=Summer;1=Winter,, ,Ukn3_3,,BI2,,, ,Ukn3_4,,BI3,,, ,Ukn3_5,,BI4,,, ,Ukn3_6,,BI5,,, ,Ukn3_7,,BI6,,, ,SettingUV,,BI7,0=Heating;1=DHW,, ,Load,,_8_Load,,,Laststellung ,SupplyTemp,,_8_Temp2,,,Vorlauftemperatur ,FlueGasTemp,,_8_Temp2,,,Abgastemperatur ,DHWTemp,,_8_Temp2,,,Warmwassertemperatur ,UknTemp,,_8_Temp2,,, ,ExternalTemp,,_8_Temp1,,,Außentemperatur ,TrendTemp,,_16_Temp0,,,Temperaturtrend ,SupplySetTemp,,_8_Temp0,,,Vorlauf Solltemperatur
 
-!include,hc.00.inc,,Register 00,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hc.01.inc,,Register 01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hc.02.inc,,Register 02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hc.03.inc,,Register 03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hc.09.inc,,Register 09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hc.0A.inc,,Register 0A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hc.14.inc,,Register 14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hc.15.inc,,Register 15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hc.16.inc,,Register 16,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hc.17.inc,,Register 17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hc.1A.inc,,Register 1A,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hc.76.inc,,Register 76,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,hc.78.inc,,Register 78,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
 
