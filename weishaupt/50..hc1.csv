@@ -3,6 +3,9 @@
 c,,Exch1,Target values ​​HC4->SC ,,"50","5014","0100",SetTemp1,,_8_Temp2,,, ,SetTemp2,,_16_Temp2,,, ,Status,,_8_Opdataheat,,, ,s,,_8_Skip,,, ,OutputDegree,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
 c,,Exch3,Target values ​​HC4->SC ,,"50","5014","0300",SetTemp1,,_8_Temp2,,, ,SetTemp2,,_16_Temp2,,, ,Status,,_8_Opdataheat,,, ,s,,_8_Skip,,, ,OutputDegree,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
 
+*r,,,,,,"0902",,,,,,,
+*w,,,,,,"0903",,,,,,,
+
 !include,hc.00.inc,,Register 00,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 !include,hc.01.inc,,Register 01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #!include,hc.02.inc,,Register 02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
