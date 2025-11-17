@@ -95,7 +95,7 @@ r,,FloorDryingFunction,Screed function (381) ,,,,"1A0102",FloorDryingFunction,,_
 r,,StartOfHoliday,Start of vacation (181) ,,,,"1B0104",Day,,_16_HolidayDay,,,Day ,Month,,_16_HolidayMonth,,,Month
 w,,StartOfHoliday, ,,,,"1B01",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
 r,,StartOfHoliday.Day,Start of vacation Day (181) ,,,,"1B0102",,,_16_HolidayDay,,,
-w,,StartOfHoliday.Day, ,,,,"1B01",,,_16_HolidayDay,,,
+#w,,StartOfHoliday.Day, ,,,,"1B01",,,_16_HolidayDay,,,
 
 #1C 01
 r,,StartOfHoliday.Month,Start of vacation Month (181) ,,,,"1C0102",,,_16_HolidayMonth,,,
