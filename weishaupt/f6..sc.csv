@@ -4,3 +4,4 @@ b,,InfoBroadcast,Info Broadcast ,,,"0700",,Temparature,,_16_Temp2,,, ,Time,,BTI,
 b,,InfoBroadcast1,Info Broadcast ,,,"0903","7600", Unknown11,,SIN,,,
 b,,InfoBroadcast2,Info Broadcast ,,,"0903","7800", Unknown12,,SIN,,,
 
+!include,register.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
