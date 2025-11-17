@@ -51,10 +51,7 @@ w,,MaxSupplyTemperature, ,,,,"2800",MaxSupplyTemperature,,_16_Temp10,,,
 
 #2B 00
 r,,MaxMixerRuntime,Maximum mixer runtime (356) ,,,,"2B0002",MaxMixerRuntime,,_16_Seconds,,,
-w,,MaxMixerRuntime, ,,,,"2B00",,,_16_Seconds,,,# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
-#,,Process values ​​heating circuit controller,,,,,,,,,,,,
-
-
+w,,MaxMixerRuntime, ,,,,"2B00",,,_16_Seconds,,,
 
 #01 01
 r,,LegionnairesFunction,Legionella function (363) ,,,,"010102",,,_16_Legionnairesday,,,
@@ -167,22 +164,16 @@ r,,Unknown2, ,,,,"410102",Unknown2,,_16_Temp10,,,
 w,,Unknown2, ,,,,"4101",Unknown2,,_16_Temp10,,,
 
 #99 01
-r,,Unknown9, ,,,,"990102",Unknown9,,_16_Temp10,,,# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
-#,,Process values ​​heating circuit controller,,,,,,,,,,,,
-
+r,,Unknown9, ,,,,"990102",Unknown9,,_16_Temp10,,,
 
 
 #85 02
 r,,Unknown4, ,,,,"850202",Unknown4,,_16_Temp10,,,
-w,,Unknown4, ,,,,"8502",Unknown4,,_16_Temp10,,,# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
-#,,Process values ​​heating circuit controller,,,,,,,,,,,,
-
+w,,Unknown4, ,,,,"8502",Unknown4,,_16_Temp10,,,
 
 
 #59 03
-r,,Unknown10, ,,,,"590302",Unknown10,,_16_Temp10,,,# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
-#,,Process values ​​heating circuit controller,,,,,,,,,,,,
-
+r,,Unknown10, ,,,,"590302",Unknown10,,_16_Temp10,,,
 
 
 #73 09
@@ -192,9 +183,6 @@ w,,Unknown3, ,,,,"7309",Unknown2,,_16_Temp10,,,
 #81 09
 r,,Unknown5, ,,,,"B10902",Unknown5,,_16_Temp10,,,
 w,,Unknown5, ,,,,"B109",Unknown5,,_16_Temp10,,,
-# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
-#,,Process values ​​heating circuit controller,,,,,,,,,,,,
-
 
 
 #1C 0A 
@@ -220,9 +208,6 @@ r,,FloorDryingTemperature,Screed temperature (383) ,,,,"130A02",FloorDryingTempe
 
 #29 0A
 r,,Unknown7, ,,,,"290A02",Unknown7,,_16_Temp10,,,
-# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
-#,,HP1 Heating Program,,,,,,,,,,,,
-
 
 
 #10 14
@@ -307,9 +292,7 @@ w,,HP1.Su.2,Heating Program 1 Su 2 Start/End (User 127) ,,,,"7114",,,_8_TimeStar
 
 #72 14
 r,,HP1.Su.3,Heating Program 1 Su 3 Start/End (User 127) ,,,,"721402",,,_8_TimeStart,,, ,,,_8_TimeEnd,,,
-w,,HP1.Su.3,Heating Program 1 Su 3 Start/End (User 127) ,,,,"7214",,,_8_TimeStart,,, ,,,_8_TimeEnd,,,# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
-#,,HP2 Heating Program,,,,,,,,,,,,
-
+w,,HP1.Su.3,Heating Program 1 Su 3 Start/End (User 127) ,,,,"7214",,,_8_TimeStart,,, ,,,_8_TimeEnd,,,
 
 
 #10 15
@@ -481,9 +464,6 @@ w,,HP3.Su.2,Heating Program 3 Su 2 Start/End (User 147) ,,,,"7116",,,_8_TimeStar
 #72 16
 r,,HP3.Su.3,Heating Program 3 Su 3 Start/End (User 147) ,,,,"721602",,,_8_TimeStart,,, ,,,_8_TimeEnd,,,
 w,,HP3.Su.3,Heating Program 3 Su 3 Start/End (User 147) ,,,,"7216",,,_8_TimeStart,,, ,,,_8_TimeEnd,,,
-# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
-#,,HP3 Heating Program,,,,,,,,,,,,
-
 
 
 #10 16
@@ -569,9 +549,6 @@ w,,HP3.Su.2,Heating Program 3 Su 2 Start/End (User 147) ,,,,"7116",,,_8_TimeStar
 #72 16
 r,,HP3.Su.3,Heating Program 3 Su 3 Start/End (User 147) ,,,,"721602",,,_8_TimeStart,,, ,,,_8_TimeEnd,,,
 w,,HP3.Su.3,Heating Program 3 Su 3 Start/End (User 147) ,,,,"7216",,,_8_TimeStart,,, ,,,_8_TimeEnd,,,
-# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
-#,,WP Hot Water Program,,,,,,,,,,,,
-
 
 
 #10 17
@@ -656,10 +633,7 @@ w,,WP.Su.2,Hot Water Program Su 2 Start/End (User 157) ,,,,"7117",,,_8_TimeStart
 
 #72 17
 r,,WP.Su.3,Hot Water Program Su 3 Start/End (User 157) ,,,,"721702",,,_8_TimeStart,,, ,,,_8_TimeEnd,,,
-w,,WP.Su.3,Hot Water Program Su 3 Start/End (User 157) ,,,,"7217",,,_8_TimeStart,,, ,,,_8_TimeEnd,,,# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
-#,,ZP Circulation Program,,,,,,,,,,,,
-
-
+w,,WP.Su.3,Hot Water Program Su 3 Start/End (User 157) ,,,,"7217",,,_8_TimeStart,,, ,,,_8_TimeEnd,,,
 
 #10 1A
 r,,ZP.Mo.1,Circulation Program Mo 1 Start/End (User 161) ,,,,"101A02",,,_8_TimeStart,,, ,,,_8_TimeEnd,,,
@@ -743,18 +717,12 @@ w,,ZP.Su.2,Circulation Program Su 2 Start/End (User 167) ,,,,"711A",,,_8_TimeSta
 
 #72 1A
 r,,ZP.Su.3,Circulation Program Su 3 Start/End (User 167) ,,,,"721A02",,,_8_TimeStart,,, ,,,_8_TimeEnd,,,
-w,,ZP.Su.3,Circulation Program Su 3 Start/End (User 167) ,,,,"721A",,,_8_TimeStart,,, ,,,_8_TimeEnd,,,# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
-#,,Process values ​​heating circuit controller,,,,,,,,,,,,
-
+w,,ZP.Su.3,Circulation Program Su 3 Start/End (User 167) ,,,,"721A",,,_8_TimeStart,,, ,,,_8_TimeEnd,,,
 
 
 #04 76
 r,,Unknown11, ,,,,"047602",Unknown11,,SIN,,,
 w,,Unknown11, ,,,,"0476",Unknown11,,SIN,,,
-# type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
-#,,Process values ​​heating circuit controller,,,,,,,,,,,,
-
-
 
 #04 78
 r,,Unknown12, ,,,,"047802",Unknown12,,SIN,,,
