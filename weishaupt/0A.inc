@@ -3,7 +3,6 @@
 *r,,,,,,"0902",,,,,,,
 *w,,,,,,"0903",,,,,,,
 
-
 #1C 0A 
 r,,RoomThermostat,Room thermostat (344) ,,,,"1C0A02",RoomThermostat,,_16_Temp1,,,
 w,,RoomThermostat, ,,,,"1C0A",,,_16_Temp1,,,
