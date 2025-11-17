@@ -8,5 +8,3 @@ n,,Burner,Target values ​BC->B1 ,,,"500A",,Status1,,_8_Status,,, ,Operatingpha
 
 *c,,,,"13",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 c,,Message,Broadcast Message ,,"FE","FE01",,Msg,,STR:10,,, ,
-
-!include,hc.process.inc,,Process values ​​heating circuit controller,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
