@@ -10,31 +10,31 @@ r,,HeatDemand,Heat demand HK ,,,,"020002",HeatDemand,,_16_Temp10,,,
 r,,SupplySetValueHC,Flow temperature setpoint (heating circuit) ,,,,"040002",SupplySetValueHC,,_16_Temp10,,,
 
 #05 00
-r,,NormalSetTemp,Normal target temperature (171) ,,,,"050002",NormalSetTemp,,_16_Temp10,,,
-w,,NormalSetTemp, ,,,,"0500",,,_16_Temp10,,,
+#r,,NormalSetTemp,Normal target temperature (171) ,,,,"050002",NormalSetTemp,,_16_Temp10,,,
+#w,,NormalSetTemp, ,,,,"0500",,,_16_Temp10,,,
 
 #08 00
-r,,ReducedSetTemp,Setback target temperature (172) ,,,,"080002",ReducedSetTemp,,_16_Temp10,,,
-w,,ReducedSetTemp, ,,,,"0800",,,_16_Temp10,,,
+#r,,ReducedSetTemp,Setback target temperature (172) ,,,,"080002",ReducedSetTemp,,_16_Temp10,,,
+#w,,ReducedSetTemp, ,,,,"0800",,,_16_Temp10,,,
 
 #0C 00
-r,,ExternalTemperature,Outside temperature ,,,,"0C0002",ExternalTemperature,,_16_Temp10,,,
+#r,,ExternalTemperature,Outside temperature ,,,,"0C0002",ExternalTemperature,,_16_Temp10,,,
 
 #0D 00
-r,,SupplyTemperatureWTC,Flow temperature WTC ,,,,"0D0002",SupplyTemperatureWTC,,_16_Temp10,,,
+#r,,SupplyTemperatureWTC,Flow temperature WTC ,,,,"0D0002",SupplyTemperatureWTC,,_16_Temp10,,,
 
 #0F 00
 r,,SupplyTemperatureHC,Flow temperature (heating circuit) ,,,,"0F0002",SupplyTemperatureHC,,_16_Temp10,,,
 
 #11 00
-r,,RoomTemperature,Room temperature ,,,,"110002",RoomTemperature,,_16_Temp10,,,
+#r,,RoomTemperature,Room temperature ,,,,"110002",RoomTemperature,,_16_Temp10,,,
 
 #12 00
-r,,RoomSetValue,Room setpoint ,,,,"120002",RoomSetValue,,_16_Temp10,,,
+#r,,RoomSetValue,Room setpoint ,,,,"120002",RoomSetValue,,_16_Temp10,,,
 
 #13 00
-r,,DHWSetpoint,Hot water setpoint (176) ,,,,"130002",,,_16_Temp10,,,
-w,,DHWSetpoint, ,,,,"1300",,,_16_Temp10,,,
+#r,,DHWSetpoint,Hot water setpoint (176) ,,,,"130002",,,_16_Temp10,,,
+#w,,DHWSetpoint, ,,,,"1300",,,_16_Temp10,,,
 
 #1A 00
 r,,AveragedExternalTemperature,Averaged outside temperature ,,,,"1A0A02",AveragedExternalTemperature,,_16_Temp10,,,
@@ -43,7 +43,7 @@ r,,AveragedExternalTemperature,Averaged outside temperature ,,,,"1A0A02",Average
 r,,DHWSetValue,Hot water setpoint ,,,,"030002",,,_16_Temp10,,,
 
 #0E 00
-r,,DHWTemperature,DH water temperature ,,,,"0E0002",,,_16_Temp10,,,
+#r,,DHWTemperature,DH water temperature ,,,,"0E0002",,,_16_Temp10,,,
 
 #28 00
 r,,MaxSupplyTemperature,Maximum flow temperature (352) ,,,,"280002",MaxSupplyTemperature,,_16_Temp10,,,
@@ -54,20 +54,20 @@ r,,MaxMixerRuntime,Maximum mixer runtime (356) ,,,,"2B0002",MaxMixerRuntime,,_16
 w,,MaxMixerRuntime, ,,,,"2B00",,,_16_Seconds,,,
 
 #01 01
-r,,LegionnairesFunction,Legionella function (363) ,,,,"010102",,,_16_Legionnairesday,,,
-w,,LegionnairesFunction, ,,,,"0101",,,_16_Legionnairesday,,,
+#r,,LegionnairesFunction,Legionella function (363) ,,,,"010102",,,_16_Legionnairesday,,,
+#w,,LegionnairesFunction, ,,,,"0101",,,_16_Legionnairesday,,,
 
 #0F 01
-r,,RoomInfluence,Spatial influence (341) ,,,,"0F0102",RoomInfluence,,_16_Roominfluence,,,
-w,,RoomInfluence, ,,,,"0F01",,,_16_Roominfluence,,,
+#r,,RoomInfluence,Spatial influence (341) ,,,,"0F0102",RoomInfluence,,_16_Roominfluence,,,
+#w,,RoomInfluence, ,,,,"0F01",,,_16_Roominfluence,,,
 
 #09 01
-r,,RoomSensorCorrection,Room Sensor Correction (342) ,,,,"090102",RoomSensorCorrection,,_16_Temp10,,,
-w,,RoomSensorCorrection, ,,,,"0901",,,_16_Temp10,,,
+#r,,RoomSensorCorrection,Room Sensor Correction (342) ,,,,"090102",RoomSensorCorrection,,_16_Temp10,,,
+#w,,RoomSensorCorrection, ,,,,"0901",,,_16_Temp10,,,
 
 #0E 01
-r,,Gradient,Steepness (175) ,,,,"0E0102",Gradient,,_16_Gradient10,,,
-w,,Gradient, ,,,,"0E01",,,_16_Gradient10,,,
+#r,,Gradient,Steepness (175) ,,,,"0E0102",Gradient,,_16_Gradient10,,,
+#w,,Gradient, ,,,,"0E01",,,_16_Gradient10,,,
 
 #10 01
 r,,SwitchOnSetting,Switch-on delay (353) ,,,,"100102",SwitchOnSetting,,_16_Minutes,,,

@@ -50,8 +50,8 @@ r,,MaxSupplyTemperature,Maximum flow temperature (352) ,,,,"280002",MaxSupplyTem
 w,,MaxSupplyTemperature, ,,,,"2800",MaxSupplyTemperature,,_16_Temp10,,,
 
 #2B 00
-r,,MaxMixerRuntime,Maximum mixer runtime (356) ,,,,"2B0002",MaxMixerRuntime,,_16_Seconds,,,
-w,,MaxMixerRuntime, ,,,,"2B00",,,_16_Seconds,,,
+#r,,MaxMixerRuntime,Maximum mixer runtime (356) ,,,,"2B0002",MaxMixerRuntime,,_16_Seconds,,,
+#w,,MaxMixerRuntime, ,,,,"2B00",,,_16_Seconds,,,
 
 #01 01
 r,,LegionnairesFunction,Legionella function (363) ,,,,"010102",,,_16_Legionnairesday,,,
@@ -89,7 +89,7 @@ r,,SummerWinterChangeOverTemperature,Summer/winter changeover temperature (174) 
 w,,SummerWinterChangeOverTemperature, ,,,,"1601",,,_16_Temp10,,,
 
 #1A 01
-r,,FloorDryingFunction,Screed function (381) ,,,,"1A0102",FloorDryingFunction,,_16_Floordrying,,,
+#r,,FloorDryingFunction,Screed function (381) ,,,,"1A0102",FloorDryingFunction,,_16_Floordrying,,,
 
 #1B 01
 r,,StartOfHoliday,Start of vacation (181) ,,,,"1B0104",Day,,_16_HolidayDay,,,Day ,Month,,_16_HolidayMonth,,,Month
@@ -120,24 +120,24 @@ r,,MinSupplyTemperature,Minimum flow temperature (351) ,,,,"2B0102",MinSupplyTem
 w,,MinSupplyTemperature, ,,,,"2B01",MinSupplyTemperature,,_16_Temp10,,,
 
 #2D 01
-r,,HolidayTemp,Holiday temperature (183) ,,,,"2D0102",,,_16_TempReduced,,,
-w,,HolidayTemp, ,,,,"2D01",,,_16_TempReduced,,,
+#r,,HolidayTemp,Holiday temperature (183) ,,,,"2D0102",,,_16_TempReduced,,,
+#w,,HolidayTemp, ,,,,"2D01",,,_16_TempReduced,,,
 
 #2E 01
-r,,SwitchOffSetting,Switch-off delay (354) ,,,,"2E0102",SwitchOffSetting,,_16_Minutes,,,
-w,,SwitchOffSetting, ,,,,"2E01",,,_16_Minutes,,,
+#r,,SwitchOffSetting,Switch-off delay (354) ,,,,"2E0102",SwitchOffSetting,,_16_Minutes,,,
+#w,,SwitchOffSetting, ,,,,"2E01",,,_16_Minutes,,,
 
 #2F 01
-r,,MaxPumpSpeed,Max Pump speed (358) ,,,,"2F0102",MaxPumpSpeed,,_16_Percent,,,
-w,,MaxPumpSpeed, ,,,,"2F01",,,_16_Percent,,
+#r,,MaxPumpSpeed,Max Pump speed (358) ,,,,"2F0102",MaxPumpSpeed,,_16_Percent,,,
+#w,,MaxPumpSpeed, ,,,,"2F01",,,_16_Percent,,
 
 #30 01,
-r,,MinPumpSpeed,Min Pump speed (359) ,,,,"300102",MinPumpSpeed,,_16_Percent,,,
-w,,MinPumpSpeed, ,,,,"3001",,,_16_Percent,,,
+#r,,MinPumpSpeed,Min Pump speed (359) ,,,,"300102",MinPumpSpeed,,_16_Percent,,,
+#w,,MinPumpSpeed, ,,,,"3001",,,_16_Percent,,,
 
 #31 01
-r,,SpeedVariation,Speed ​​variant (357) ,,,,"310102",SpeedVariation,,_16_Speedvariation,,,
-w,,SpeedVariation, ,,,,"3101",,,_16_Speedvariation,,,
+#r,,SpeedVariation,Speed ​​variant (357) ,,,,"310102",SpeedVariation,,_16_Speedvariation,,,
+#w,,SpeedVariation, ,,,,"3101",,,_16_Speedvariation,,,
 
 #32 01
 r,,Reduces,Reduced (350) ,,,,"320102",Reduces,,_16_TempReduced,,,
@@ -152,18 +152,18 @@ w,,Reduces, ,,,,"3201",,,_16_TempReduced,,,
 #w,,MaxDHWTemp, ,,,,"3401",,,_16_Temp10,,,
 
 #35 01
-r,,DHWMode,WW-Mode (361) ,,,,"350102",,,_16_DhwMode,,,
-w,,DHWMode, ,,,,"3501",,,_16_DhwMode,,,
+#r,,DHWMode,WW-Mode (361) ,,,,"350102",,,_16_DhwMode,,,
+#w,,DHWMode, ,,,,"3501",,,_16_DhwMode,,,
 
 #37 01
-r,,DHWOperation,WW operation (360) ,,,,"370102",DHWOperation,,_16_DhwOperation,,,
-w,,DHWOperation, ,,,,"3701",,,_16_DhwOperation,,,
+#r,,DHWOperation,WW operation (360) ,,,,"370102",DHWOperation,,_16_DhwOperation,,,
+#w,,DHWOperation, ,,,,"3701",,,_16_DhwOperation,,,
 
 #41 01
 #r,,Unknown2, ,,,,"410102",Unknown2,,_16_Temp10,,,
 #w,,Unknown2, ,,,,"4101",Unknown2,,_16_Temp10,,,
 
-#99 01
+#99 01 (room temperature ?)
 r,,Unknown9, ,,,,"990102",Unknown9,,_16_Temp10,,,
 
 
@@ -201,7 +201,7 @@ w,,FrostProtection, ,,,,"140A",,,_16_Temp10,,,
 r,,Unknown6, ,,,,"0C0A02",Unknown6,,_16_Temp10,,,
 
 #12 0A
-r,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
+#r,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
 
 #13 0A
 #r,,FloorDryingTemperature,Screed temperature (383) ,,,,"130A02",FloorDryingTemperature,,_16_Temp1,,,
