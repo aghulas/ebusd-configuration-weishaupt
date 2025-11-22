@@ -7,7 +7,7 @@
 r,,HeatDemand,Heat demand HK ,,,,"020002",HeatDemand,,_16_Temp10,,,
 
 #04 00
-#r,,SupplySetValueHC,Flow temperature setpoint (heating circuit) ,,,,"040002",SupplySetValueHC,,_16_Temp10,,,
+r,,SupplySetValueHC,Flow temperature setpoint (heating circuit) ,,,,"040002",SupplySetValueHC,,_16_Temp10,,,
 
 #05 00
 r,,NormalSetTemp,Normal target temperature (171) ,,,,"050002",NormalSetTemp,,_16_Temp10,,,
@@ -24,20 +24,20 @@ r,,ExternalTemperature,Outside temperature ,,,,"0C0002",ExternalTemperature,,_16
 r,,SupplyTemperatureWTC,Flow temperature WTC ,,,,"0D0002",SupplyTemperatureWTC,,_16_Temp10,,,
 
 #0F 00
-#r,,SupplyTemperatureHC,Flow temperature (heating circuit) ,,,,"0F0002",SupplyTemperatureHC,,_16_Temp10,,,
+r,,SupplyTemperatureHC,Flow temperature (heating circuit) ,,,,"0F0002",SupplyTemperatureHC,,_16_Temp10,,,
 
 #11 00
-#r,,RoomTemperature,Room temperature ,,,,"110002",RoomTemperature,,_16_Temp10,,,
+r,,RoomTemperature,Room temperature ,,,,"110002",RoomTemperature,,_16_Temp10,,,
 
 #12 00
-#r,,RoomSetValue,Room setpoint ,,,,"120002",RoomSetValue,,_16_Temp10,,,
+r,,RoomSetValue,Room setpoint ,,,,"120002",RoomSetValue,,_16_Temp10,,,
 
 #13 00
 r,,DHWSetpoint,Hot water setpoint (176) ,,,,"130002",,,_16_Temp10,,,
 w,,DHWSetpoint, ,,,,"1300",,,_16_Temp10,,,
 
 #1A 00
-#r,,AveragedExternalTemperature,Averaged outside temperature ,,,,"1A0A02",AveragedExternalTemperature,,_16_Temp10,,,
+r,,AveragedExternalTemperature,Averaged outside temperature ,,,,"1A0A02",AveragedExternalTemperature,,_16_Temp10,,,
 
 #03 00
 r,,DHWSetValue,Hot water setpoint ,,,,"030002",,,_16_Temp10,,,
@@ -50,8 +50,8 @@ r,,MaxSupplyTemperature,Maximum flow temperature (352) ,,,,"280002",MaxSupplyTem
 w,,MaxSupplyTemperature, ,,,,"2800",MaxSupplyTemperature,,_16_Temp10,,,
 
 #2B 00
-#r,,MaxMixerRuntime,Maximum mixer runtime (356) ,,,,"2B0002",MaxMixerRuntime,,_16_Seconds,,,
-#w,,MaxMixerRuntime, ,,,,"2B00",,,_16_Seconds,,,
+r,,MaxMixerRuntime,Maximum mixer runtime (356) ,,,,"2B0002",MaxMixerRuntime,,_16_Seconds,,,
+w,,MaxMixerRuntime, ,,,,"2B00",,,_16_Seconds,,,
 
 #01 01
 r,,LegionnairesFunction,Legionella function (363) ,,,,"010102",,,_16_Legionnairesday,,,
@@ -89,7 +89,7 @@ r,,SummerWinterChangeOverTemperature,Summer/winter changeover temperature (174) 
 w,,SummerWinterChangeOverTemperature, ,,,,"1601",,,_16_Temp10,,,
 
 #1A 01
-#r,,FloorDryingFunction,Screed function (381) ,,,,"1A0102",FloorDryingFunction,,_16_Floordrying,,,
+r,,FloorDryingFunction,Screed function (381) ,,,,"1A0102",FloorDryingFunction,,_16_Floordrying,,,
 
 #1B 01
 r,,StartOfHoliday,Start of vacation (181) ,,,,"1B0104",Day,,_16_HolidayDay,,,Day ,Month,,_16_HolidayMonth,,,Month
@@ -120,65 +120,79 @@ r,,MinSupplyTemperature,Minimum flow temperature (351) ,,,,"2B0102",MinSupplyTem
 w,,MinSupplyTemperature, ,,,,"2B01",MinSupplyTemperature,,_16_Temp10,,,
 
 #2D 01
-#r,,HolidayTemp,Holiday temperature (183) ,,,,"2D0102",,,_16_TempReduced,,,
-#w,,HolidayTemp, ,,,,"2D01",,,_16_TempReduced,,,
+r,,HolidayTemp,Holiday temperature (183) ,,,,"2D0102",,,_16_TempReduced,,,
+w,,HolidayTemp, ,,,,"2D01",,,_16_TempReduced,,,
 
 #2E 01
-#r,,SwitchOffSetting,Switch-off delay (354) ,,,,"2E0102",SwitchOffSetting,,_16_Minutes,,,
-#w,,SwitchOffSetting, ,,,,"2E01",,,_16_Minutes,,,
+r,,SwitchOffSetting,Switch-off delay (354) ,,,,"2E0102",SwitchOffSetting,,_16_Minutes,,,
+w,,SwitchOffSetting, ,,,,"2E01",,,_16_Minutes,,,
 
 #2F 01
-#r,,MaxPumpSpeed,Max Pump speed (358) ,,,,"2F0102",MaxPumpSpeed,,_16_Percent,,,
-#w,,MaxPumpSpeed, ,,,,"2F01",,,_16_Percent,,
+r,,MaxPumpSpeed,Max Pump speed (358) ,,,,"2F0102",MaxPumpSpeed,,_16_Percent,,,
+w,,MaxPumpSpeed, ,,,,"2F01",,,_16_Percent,,
 
 #30 01,
-#r,,MinPumpSpeed,Min Pump speed (359) ,,,,"300102",MinPumpSpeed,,_16_Percent,,,
-#w,,MinPumpSpeed, ,,,,"3001",,,_16_Percent,,,
+r,,MinPumpSpeed,Min Pump speed (359) ,,,,"300102",MinPumpSpeed,,_16_Percent,,,
+w,,MinPumpSpeed, ,,,,"3001",,,_16_Percent,,,
 
 #31 01
-#r,,SpeedVariation,Speed ​​variant (357) ,,,,"310102",SpeedVariation,,_16_Speedvariation,,,
-#w,,SpeedVariation, ,,,,"3101",,,_16_Speedvariation,,,
+r,,SpeedVariation,Speed ​​variant (357) ,,,,"310102",SpeedVariation,,_16_Speedvariation,,,
+w,,SpeedVariation, ,,,,"3101",,,_16_Speedvariation,,,
 
 #32 01
 r,,Reduces,Reduced (350) ,,,,"320102",Reduces,,_16_TempReduced,,,
 w,,Reduces, ,,,,"3201",,,_16_TempReduced,,,
 
 #33 01
-#r,,DHWMin,Hot water Min (177) ,,,,"330102",,,_16_Temp10,,,
-#w,,DHWMin, ,,,,"3301",,,_16_Temp10,,,
+r,,DHWMin,Hot water Min (177) ,,,,"330102",,,_16_Temp10,,,
+w,,DHWMin, ,,,,"3301",,,_16_Temp10,,,
 
 #34 01
-#r,,MaxDHWTemp,Max-WW-Temp (362) ,,,,"340102",,,_16_Temp10,,,
-#w,,MaxDHWTemp, ,,,,"3401",,,_16_Temp10,,,
+r,,MaxDHWTemp,Max-WW-Temp (362) ,,,,"340102",,,_16_Temp10,,,
+w,,MaxDHWTemp, ,,,,"3401",,,_16_Temp10,,,
 
 #35 01
-#r,,DHWMode,WW-Mode (361) ,,,,"350102",,,_16_DhwMode,,,
-#w,,DHWMode, ,,,,"3501",,,_16_DhwMode,,,
+r,,DHWMode,WW-Mode (361) ,,,,"350102",,,_16_DhwMode,,,
+w,,DHWMode, ,,,,"3501",,,_16_DhwMode,,,
 
 #37 01
-#r,,DHWOperation,WW operation (360) ,,,,"370102",DHWOperation,,_16_DhwOperation,,,
-#w,,DHWOperation, ,,,,"3701",,,_16_DhwOperation,,,
+r,,DHWOperation,WW operation (360) ,,,,"370102",DHWOperation,,_16_DhwOperation,,,
+w,,DHWOperation, ,,,,"3701",,,_16_DhwOperation,,,
 
 #41 01
-#r,,Unknown2, ,,,,"410102",Unknown2,,_16_Temp10,,,
-#w,,Unknown2, ,,,,"4101",Unknown2,,_16_Temp10,,,
+r,,Unknown2, ,,,,"410102",Unknown2,,_16_Temp10,,,
+w,,Unknown2, ,,,,"4101",Unknown2,,_16_Temp10,,,
 
-#99 01 (room temperature ?)
+#8F 01
+r,,Unknown15, ,,,,"8F0102",Unknown15,,_16_Temp10,,,
+
+#99 01
 r,,Unknown9, ,,,,"990102",Unknown9,,_16_Temp10,,,
+
+#A9 01
+r,,Unknown13, ,,,,"A90102",Unknown13,,_16_Temp10,,,
+
+#AA 01
+r,,Unknown14, ,,,,"AA0102",Unknown14,,_16_Temp10,,,
+
+
 
 
 #85 02
-#r,,Unknown4, ,,,,"850202",Unknown4,,_16_Temp10,,,
-#w,,Unknown4, ,,,,"8502",Unknown4,,_16_Temp10,,,
+r,,Unknown4, ,,,,"850202",Unknown4,,_16_Temp10,,,
+w,,Unknown4, ,,,,"8502",Unknown4,,_16_Temp10,,,
 
 
 #59 03
-#r,,Unknown10, ,,,,"590302",Unknown10,,_16_Temp10,,,
+r,,Unknown10, ,,,,"590302",Unknown10,,_16_Temp10,,,
+
+#E9 04
+r,,Unknown16, ,,,,"E90402",Unknown16,,_16_Temp10,,,
 
 
 #73 09
-#r,,Unknown3, ,,,,"730902",Unknown2,,_16_Temp10,,,
-#w,,Unknown3, ,,,,"7309",Unknown2,,_16_Temp10,,,
+r,,Unknown3, ,,,,"730902",Unknown2,,_16_Temp10,,,
+w,,Unknown3, ,,,,"7309",Unknown2,,_16_Temp10,,,
 
 #81 09
 r,,Unknown5, ,,,,"B10902",Unknown5,,_16_Temp10,,,
@@ -194,20 +208,20 @@ r,,FrostProtection,Room frost protection (173) ,,,,"140A02",FrostProtection,,_16
 w,,FrostProtection, ,,,,"140A",,,_16_Temp10,,,
 
 #20 0A
-#r,,Unknown1, ,,,,"200A02",Unknown1,,_16_Temp10,,,
-#w,,Unknown1, ,,,,"200A",Unknown1,,_16_Temp10,,,
+r,,Unknown1, ,,,,"200A02",Unknown1,,_16_Temp10,,,
+w,,Unknown1, ,,,,"200A",Unknown1,,_16_Temp10,,,
 
 #0C 0A
 r,,Unknown6, ,,,,"0C0A02",Unknown6,,_16_Temp10,,,
 
 #12 0A
-#r,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
+r,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
 
 #13 0A
-#r,,FloorDryingTemperature,Screed temperature (383) ,,,,"130A02",FloorDryingTemperature,,_16_Temp1,,,
+r,,FloorDryingTemperature,Screed temperature (383) ,,,,"130A02",FloorDryingTemperature,,_16_Temp1,,,
 
 #29 0A
-#r,,Unknown7, ,,,,"290A02",Unknown7,,_16_Temp10,,,
+r,,Unknown7, ,,,,"290A02",Unknown7,,_16_Temp10,,,
 
 
 #10 14
@@ -550,9 +564,9 @@ w,,ZP.Su.3,Circulation Program Su 3 Start/End (User 167) ,,,,"721A",,,_8_TimeSta
 
 
 #04 76
-#r,,Unknown11, ,,,,"047602",Unknown11,,SIN,,,
-#w,,Unknown11, ,,,,"0476",Unknown11,,SIN,,,
+r,,Unknown11, ,,,,"047602",Unknown11,,SIN,,,
+w,,Unknown11, ,,,,"0476",Unknown11,,SIN,,,
 
 #04 78
-#r,,Unknown12, ,,,,"047802",Unknown12,,SIN,,,
-#w,,Unknown12, ,,,,"0478",Unknown12,,SIN,,,
+r,,Unknown12, ,,,,"047802",Unknown12,,SIN,,,
+w,,Unknown12, ,,,,"0478",Unknown12,,SIN,,,
