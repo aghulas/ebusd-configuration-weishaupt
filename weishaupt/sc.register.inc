@@ -207,9 +207,6 @@ w,,RoomThermostat, ,,,,"1C0A",,,_16_Temp1,,,
 r,,FrostProtection,Room frost protection (173) ,,,,"140A02",FrostProtection,,_16_Temp10,,,
 w,,FrostProtection, ,,,,"140A",,,_16_Temp10,,,
 
-#20 0A
-r,,Unknown1, ,,,,"200A02",Unknown1,,_16_Temp10,,,
-w,,Unknown1, ,,,,"200A",Unknown1,,_16_Temp10,,,
 
 #0C 0A
 r,,Unknown6, ,,,,"0C0A02",Unknown6,,_16_Temp10,,,
@@ -221,7 +218,8 @@ r,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
 r,,FloorDryingTemperature,Screed temperature (383) ,,,,"130A02",FloorDryingTemperature,,_16_Temp1,,,
 
 #20 0A
-r,,Unknown17, ,,,,"200A02",Unknown17,,_16_Temp10,,,
+r,,Unknown1, ,,,,"200A02",Unknown1,,_16_Temp10,,,
+w,,Unknown1, ,,,,"200A",Unknown1,,_16_Temp10,,,
 
 #29 0A
 r,,Unknown7, ,,,,"290A02",Unknown7,,_16_Temp10,,,
