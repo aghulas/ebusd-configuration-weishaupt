@@ -573,5 +573,5 @@ r,,Unknown12, ,,,,"047802",Unknown12,,SIN,,,
 w,,Unknown12, ,,,,"0478",Unknown12,,SIN,,,
 
 #FB FD
-r,,Unknown18, ,,,,"FBFD02",Unknown18,,SIN,,,
-w,,Unknown18, ,,,,"FBFD",Unknown18,,SIN,,,
+r,,Unknown8, ,,,,"FBFD02",Unknown8,,SIN,,,
+w,,Unknown8, ,,,,"FBFD",Unknown8,,SIN,,,

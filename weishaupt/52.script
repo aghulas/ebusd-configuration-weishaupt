@@ -1,0 +1,71 @@
+echo HeatDemand; ebusctl read -f -d 52 HeatDemand
+echo SupplySetValueHC;ebusctl read -f -d 52 SupplySetValueHC
+echo NormalSetTemp;ebusctl read -f -d 52 NormalSetTemp
+echo ReducedSetTemp; ebusctl read -f -d 52 ReducedSetTemp
+echo ExternalTemperature; ebusctl read -f -d 52 ExternalTemperature
+echo SupplyTemperatureWTC; ebusctl read -f -d 52 SupplyTemperatureWTC
+echo SupplyTemperatureHC; ebusctl read -f -d 52 SupplyTemperatureHC
+echo RoomTemperature; ebusctl read -f -d 52 RoomTemperature
+echo RoomSetValue; ebusctl read -f -d 52 RoomSetValue
+echo DHWSetpoint; ebusctl read -f -d 52 DHWSetpoint
+echo AveragedExternalTemperature; ebusctl read -f -d 52 AveragedExternalTemperature
+echo DHWSetValue; ebusctl read -f -d 52 DHWSetValue
+echo DHWTemperature; ebusctl read -f -d 52 DHWTemperature
+echo MaxSupplyTemperature; ebusctl read -f -d 52 MaxSupplyTemperature
+echo MaxMixerRuntime; ebusctl read -f -d 52 MaxMixerRuntime
+echo LegionnairesFunction; ebusctl read -f -d 52 LegionnairesFunction
+echo RoomInfluence; ebusctl read -f -d 52 RoomInfluence
+echo RoomSensorCorrection; ebusctl read -f -d 52 RoomSensorCorrection
+echo Gradient; ebusctl read -f -d 52 Gradient
+echo SwitchOnSetting; ebusctl read -f -d 52 SwitchOnSetting
+echo BoilerMKIncrease; ebusctl read -f -d 52 BoilerMKIncrease
+echo ProgramChooseSwitch; ebusctl read -f -d 52 ProgramChooseSwitch
+echo Adaption; ebusctl read -f -d 52 Adaption
+echo SummerWinterChangeOverTemperature; ebusctl read -f -d 52 SummerWinterChangeOverTemperature
+echo FloorDryingFunction; ebusctl read -f -d 52 FloorDryingFunction
+echo StartOfHoliday.Day; ebusctl read -f -d 52 StartOfHoliday.Day
+echo StartOfHoliday.Month; ebusctl read -f -d 52 StartOfHoliday.Month
+echo EndOfHoliday.Day; ebusctl read -f -d 52 EndOfHoliday.Day
+echo EndOfHoliday.Month; ebusctl read -f -d 52 EndOfHoliday.Month
+echo TypeOfConstruction; ebusctl read -f -d 52 TypeOfConstruction
+echo MinSupplyTemperature; ebusctl read -f -d 52 MinSupplyTemperature
+echo HolidayTemp; ebusctl read -f -d 52 HolidayTemp
+echo SwitchOffSetting; ebusctl read -f -d 52 SwitchOffSetting
+echo MaxPumpSpeed; ebusctl read -f -d 52 MaxPumpSpeed
+echo MinPumpSpeed; ebusctl read -f -d 52 MinPumpSpeed
+echo SpeedVariation; ebusctl read -f -d 52 SpeedVariation
+echo Reduces; ebusctl read -f -d 52 Reduces
+echo DHWMin; ebusctl read -f -d 52 DHWMin
+echo MaxDHWTemp; ebusctl read -f -d 52 MaxDHWTemp
+echo DHWMode; ebusctl read -f -d 52 DHWMode
+echo DHWOperation; ebusctl read -f -d 52 DHWOperation
+
+echo RoomThermostat; ebusctl read -f -d 52 RoomThermostat
+echo FrostProtection; ebusctl read -f -d 52 FrostProtection
+
+echo FloorDryingDay; ebusctl read -f -d 52 FloorDryingDay
+echo FloorDryingTemperature; ebusctl read -f -d 52 FloorDryingTemperature
+echo HP1.Mo.1; ebusctl read -f -d 52 HP1.Mo.1
+echo HP1.Mo.2; ebusctl read -f -d 52 HP1.Mo.2
+echo HP1.Tu.1; ebusctl read -f -d 52 HP1.Tu.1
+echo HP1.We.1; ebusctl read -f -d 52 HP1.We.1
+echo WP.Mo.1; ebusctl read -f -d 52 WP.Mo.1
+echo P.Mo.1; ebusctl read -f -d 52 ZP.Mo.1
+
+
+echo Unknown1; ebusctl read -f -d 52 Unknown1
+echo Unknown2; ebusctl read -f -d 52 Unknown2
+echo Unknown3; ebusctl read -f -d 52 Unknown3
+echo Unknown4; ebusctl read -f -d 52 Unknown4
+echo Unknown5; ebusctl read -f -d 52 Unknown5
+echo Unknown6; ebusctl read -f -d 52 Unknown6
+echo Unknown7; ebusctl read -f -d 52 Unknown7
+echo Unknown8; ebusctl read -f -d 52 Unknown8
+echo Unknown9; ebusctl read -f -d 52 Unknown9
+echo Unknown10; ebusctl read -f -d 52 Unknown10
+echo Unknown11; ebusctl read -f -d 52 Unknown11
+echo Unknown12; ebusctl read -f -d 52 Unknown12
+echo Unknown13; ebusctl read -f -d 52 Unknown13
+echo Unknown14; ebusctl read -f -d 52 Unknown14
+echo Unknown15; ebusctl read -f -d 52 Unknown15
+echo Unknown16; ebusctl read -f -d 52 Unknown16
