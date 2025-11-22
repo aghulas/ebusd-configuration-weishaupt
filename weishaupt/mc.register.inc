@@ -220,6 +220,9 @@ r,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
 #13 0A
 r,,FloorDryingTemperature,Screed temperature (383) ,,,,"130A02",FloorDryingTemperature,,_16_Temp1,,,
 
+#20 0A
+r,,Unknown17, ,,,,"200A02",Unknown17,,_16_Temp10,,,
+
 #29 0A
 r,,Unknown7, ,,,,"290A02",Unknown7,,_16_Temp10,,,
 
@@ -570,3 +573,7 @@ w,,Unknown11, ,,,,"0476",Unknown11,,SIN,,,
 #04 78
 r,,Unknown12, ,,,,"047802",Unknown12,,SIN,,,
 w,,Unknown12, ,,,,"0478",Unknown12,,SIN,,,
+
+#FB FD
+r,,Unknown18, ,,,,"FBFD02",Unknown18,,SIN,,,
+w,,Unknown18, ,,,,"FBFD",Unknown18,,SIN,,,
