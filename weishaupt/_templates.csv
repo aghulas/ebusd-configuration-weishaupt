@@ -39,7 +39,8 @@ _16_HolidayMonth,UIN,0x0000=Off;0x0001=January;0x0002=February;0x0003=March;0x00
 _16_Hours,UIN,,h,Hour
 _16_Legionnairesday,UIN,0x0000=Off,,Legionella Function
 _16_Minutes,UIN,,min,Mintue
-_16_OnOff,UIN,0x0000=Off;0x0001=On,,
+_16_OnOff,UIN,0x0000=Off;0x0001=On;
+_16_OnOff2,UIN,0x0000=Off;0x0080=On,,
 _16_Percent,UIN,,%,Percent
 _16_Pressure,D2B,,bar,Pressure
 _16_ProgramChooseSwitch,UIN,0x01=Standby;0x03=NormalTemperature;0x04=Lowering temperature;0x05=Summer;0x0b=Program 1;0x0c=Program 2;0x0d=Program 3,,Program selector switch
@@ -51,7 +52,7 @@ _16_Temp0,D2B,,°C,Temperature
 _16_Temp1,SIN,,°C,Temperature
 _16_Temp2,D2C,,°C,Temperature
 _16_Temp10,SIN,10,°C,Temperature
-_16_TempReduced,UIN,0x0000=Antifreeze temperature;0x0001=Lowering temperature,,
+_16_TempReduced,UIN,0x0000=Antifreeze;0x0001=Setback,,
 _16_Skip,IGN:2,,,
 
 
