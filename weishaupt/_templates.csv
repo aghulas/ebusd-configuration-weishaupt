@@ -52,6 +52,7 @@ _16_Temp0,D2B,,°C,Temperature
 _16_Temp1,SIN,,°C,Temperature
 _16_Temp2,D2C,,°C,Temperature
 _16_Temp10,SIN,10,°C,Temperature
+_16_TempK10,SIN,10,°K,Temperature Kelvin
 _16_TempReduced,UIN,0x0000=Antifreeze;0x0001=Setback,,
 _16_Skip,IGN:2,,,
 

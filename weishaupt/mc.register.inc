@@ -50,8 +50,8 @@ r,,SupplyMaxTemparature,Maximum Supply Temperature (422) ,,,,"280002",SupplyMaxT
 w,,SupplyMaxTemparature, ,,,,"2800",SupplyMaxTemparature,,_16_Temp10,,,
 
 #2B 00
-r,,MixerParameter,Maximum mixer runtime (356) ,,,,"2B0002",MixerParameter,,_16_Temp10,,,
-w,,MixerParameter, ,,,,"2B00",,,_16_Temp10,,,
+r,,MixerParameter,Mixer Parameter (425) ,,,,"2B0002",MixerParameter,,_16_TempK10,,,
+w,,MixerParameter, ,,,,"2B00",,,_16_TempK10,,,
 
 #01 01
 r,,LegionnairesFunction,Legionella function (363) ,,,,"010102",,,_16_Legionnairesday,,,
@@ -62,8 +62,8 @@ r,,RoomFactorP,Room Factor-P (508) ,,,,"0F0102",RoomFactorP,,_16_RoomFactorP,,,
 w,,RoomFactorP, ,,,,"0F01",,,_16_RoomFactorP,,,
 
 #09 01
-r,,RoomSensorCorrection,Room Sensor Correction (342) ,,,,"090102",RoomSensorCorrection,,_16_Temp10,,,
-w,,RoomSensorCorrection, ,,,,"0901",,,_16_Temp10,,,
+r,,RoomSensorCorrection,Room Sensor Correction (101) ,,,,"090102",RoomSensorCorrection,,_16_TempK10,,,
+w,,RoomSensorCorrection, ,,,,"0901",,,_16_TempK10,,,
 
 #0E 01
 r,,Gradient,Steepness (175) ,,,,"0E0102",Gradient,,_16_Gradient10,,,
@@ -74,8 +74,8 @@ r,,SwitchOnSetting,Switch-on delay (353) ,,,,"100102",SwitchOnSetting,,_16_Minut
 w,,SwitchOnSetting, ,,,,"1001",,,_16_Minutes,,,
 
 #11 01
-r,,BoilerMCBoost,Boiler MK increase(355) ,,,,"110102",BoilerMCBoost,,_16_Temp10,,,
-w,,BoilerMCBoost, ,,,,"1101",,,_16_Temp10,,,
+r,,BoilerMCBoost,Boiler MC Boost(424) ,,,,"110102",BoilerMCBoost,,_16_TempK10,,,
+w,,BoilerMCBoost, ,,,,"1101",,,_16_TempK10,,,
 
 #12 01
 r,,ProgramChooseSwitch,Program selector switch position ,,,,"120102",ProgramChooseSwitch,,_16_ProgramChooseSwitch,,,
