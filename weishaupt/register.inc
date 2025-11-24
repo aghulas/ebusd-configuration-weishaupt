@@ -58,8 +58,8 @@ r,,LegionnairesFunction,Legionella function (363) ,,,,"010102",,,_16_Legionnaire
 w,,LegionnairesFunction, ,,,,"0101",,,_16_Legionnairesday,,,
 
 #0F 01
-r,,RoomInfluence,Room Factor-P (508) ,,,,"0F0102",RoomInfluence,,_16_Roominfluence,,,
-w,,RoomInfluence, ,,,,"0F01",,,_16_Roominfluence,,,
+r,,RoomFactorP,Room Factor-P (508) ,,,,"0F0102",RoomFactorP,,_16_RoomFactorP,,,
+w,,RoomFactorP, ,,,,"0F01",,,_16_RoomFactorP,,,
 
 #09 01
 r,,RoomSensorCorrection,Room Sensor Correction (342) ,,,,"090102",RoomSensorCorrection,,_16_Temp10,,,
