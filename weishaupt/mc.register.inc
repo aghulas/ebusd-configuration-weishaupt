@@ -10,12 +10,12 @@ r,,HeatDemand,Heat demand HK ,,,,"020002",HeatDemand,,_16_Temp10,,,
 r,,SupplySetValueHC,Flow temperature setpoint (heating circuit) ,,,,"040002",SupplySetValueHC,,_16_Temp10,,,
 
 #05 00
-r,,NormalSetTemp,Normal target temperature (171) ,,,,"050002",NormalSetTemp,,_16_Temp10,,,
-w,,NormalSetTemp, ,,,,"0500",,,_16_Temp10,,,
+r,,NormalRoomTemp,Normal Room Temperature (112) ,,,,"050002",NormalRoomTemp,,_16_Temp10,,,
+w,,NormalRoomTemp, ,,,,"0500",,,_16_Temp10,,,
 
 #08 00
-r,,ReducedSetTemp,Setback target temperature (172) ,,,,"080002",ReducedSetTemp,,_16_Temp10,,,
-w,,ReducedSetTemp, ,,,,"0800",,,_16_Temp10,,,
+r,,SetbackRoomTemp,Setback Room tRmperature (113) ,,,,"080002",SetbackRoomTemp,,_16_Temp10,,,
+w,,SetbackRoomTemp, ,,,,"0800",,,_16_Temp10,,,
 
 #0C 00
 r,,ExternalTemperature,Outside temperature ,,,,"0C0002",ExternalTemperature,,_16_Temp10,,,
@@ -50,8 +50,8 @@ r,,SupplyMaxTemparature,Maximum Supply Temperature (422) ,,,,"280002",SupplyMaxT
 w,,SupplyMaxTemparature, ,,,,"2800",SupplyMaxTemparature,,_16_Temp10,,,
 
 #2B 00
-r,,MaxMixerRuntime,Maximum mixer runtime (356) ,,,,"2B0002",MaxMixerRuntime,,_16_Seconds,,,
-w,,MaxMixerRuntime, ,,,,"2B00",,,_16_Seconds,,,
+r,,MixerParameter,Maximum mixer runtime (356) ,,,,"2B0002",MixerParameter,,_16_Temp10,,,
+w,,MixerParameter, ,,,,"2B00",,,_16_Temp10,,,
 
 #01 01
 r,,LegionnairesFunction,Legionella function (363) ,,,,"010102",,,_16_Legionnairesday,,,

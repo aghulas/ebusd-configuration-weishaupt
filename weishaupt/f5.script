@@ -1,7 +1,7 @@
 echo HeatDemand; ebusctl read -f -d f5 HeatDemand
 echo SupplySetValueHC;ebusctl read -f -d f5 SupplySetValueHC
-echo NormalSetTemp;ebusctl read -f -d f5 NormalSetTemp
-echo ReducedSetTemp; ebusctl read -f -d f5 ReducedSetTemp
+echo NormalRoomTemp;ebusctl read -f -d f5 NormalRoomTemp
+echo SetbackRoomTemp; ebusctl read -f -d f5 SetbackRoomTemp
 echo ExternalTemperature; ebusctl read -f -d f5 ExternalTemperature
 echo SupplyTemperatureWTC; ebusctl read -f -d f5 SupplyTemperatureWTC
 echo SupplyTemperatureHC; ebusctl read -f -d f5 SupplyTemperatureHC
@@ -12,7 +12,7 @@ echo AveragedExternalTemperature; ebusctl read -f -d f5 AveragedExternalTemperat
 echo DHWSetValue; ebusctl read -f -d f5 DHWSetValue
 echo DHWTemperature; ebusctl read -f -d f5 DHWTemperature
 echo SupplyMaxTemparature; ebusctl read -f -d f5 SupplyMaxTemparature
-echo MaxMixerRuntime; ebusctl read -f -d f5 MaxMixerRuntime
+echo MixerParameter; ebusctl read -f -d f5 MixerParameter
 echo LegionnairesFunction; ebusctl read -f -d f5 LegionnairesFunction
 echo RoomFactorP; ebusctl read -f -d f5 RoomFactorP
 echo RoomSensorCorrection; ebusctl read -f -d f5 RoomSensorCorrection
