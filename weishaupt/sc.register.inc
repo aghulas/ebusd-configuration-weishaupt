@@ -7,7 +7,7 @@
 r,,HeatDemand,Heat demand HK ,,,,"020002",HeatDemand,,_16_Temp10,,,
 
 #04 00
-r,,SupplySetValueHC,Flow temperature setpoint (heating circuit) ,,,,"040002",SupplySetValueHC,,_16_Temp10,,,
+r,,NormalSupplySetPoint,Normal Supply SetPoint (115)) ,,,,"040002",NormalSupplySetPoint,,_16_Temp10,,,
 
 #05 00
 r,,NormalRoomTemp,Normal Room Temperature (112) ,,,,"050002",NormalRoomTemp,,_16_Temp10,,,

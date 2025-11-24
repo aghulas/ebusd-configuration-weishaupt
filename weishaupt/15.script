@@ -1,5 +1,5 @@
 echo HeatDemand; ebusctl read -f -d 15 HeatDemand
-echo SupplySetValueHC;ebusctl read -f -d 15 SupplySetValueHC
+echo NormalSupplySetPoint;ebusctl read -f -d 15 NormalSupplySetPoint
 echo NormalRoomTemp;ebusctl read -f -d 15 NormalRoomTemp
 echo SetbackRoomTemp; ebusctl read -f -d 15 SetbackRoomTemp
 echo ExternalTemperature; ebusctl read -f -d 15 ExternalTemperature
