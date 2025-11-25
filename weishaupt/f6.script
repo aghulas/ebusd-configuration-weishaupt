@@ -4,7 +4,7 @@ echo RoomNormalTemp;ebusctl read -f -d f6 RoomNormalTemp
 echo RoomSetbackTemp; ebusctl read -f -d f6 RoomSetbackTemp
 echo OutsideTemp; ebusctl read -f -d f6 OutsideTemp
 echo SupplyTempWTC; ebusctl read -f -d f6 SupplyTempWTC
-echo SupplyTempHC; ebusctl read -f -d f6 SupplyTempHC
+echo HCSupplyTemp; ebusctl read -f -d f6 HCSupplyTemp
 echo RoomTemp; ebusctl read -f -d f6 RoomTemp
 echo RoomSetValue; ebusctl read -f -d f6 RoomSetValue
 echo DHWSetpoint; ebusctl read -f -d f6 DHWSetpoint
@@ -58,6 +58,7 @@ echo Unknown2; ebusctl read -f -d f6 Unknown2
 echo Unknown3; ebusctl read -f -d f6 Unknown3
 echo Unknown4; ebusctl read -f -d f6 Unknown4
 echo Unknown5; ebusctl read -f -d f6 Unknown5
+echo Unknown6; ebusctl read -f -d f6 Unknown6
 echo Unknown7; ebusctl read -f -d f6 Unknown7
 echo Unknown8; ebusctl read -f -d f6 Unknown8
 echo Unknown9; ebusctl read -f -d f6 Unknown9

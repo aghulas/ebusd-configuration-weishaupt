@@ -24,7 +24,7 @@ r,,OutsideTemp,Outside Temperature ,,,,"0C0002",OutsideTemp,,_16_Temp10,,,
 r,,SupplyTempWTC,Flow temperature WTC ,,,,"0D0002",SupplyTempWTC,,_16_Temp10,,,
 
 #0F 00
-r,,SupplyTempHC,Flow temperature (heating circuit) ,,,,"0F0002",SupplyTempHC,,_16_Temp10,,,
+r,,HCSupplyTemp,Heating Circuit Supply Temperature (523) ,,,,"0F0002",HCSupplyTemp,,_16_Temp10,,,
 
 #11 00
 r,,RoomTemp,Room temperature ,,,,"110002",RoomTemp,,_16_Temp10,,,
@@ -162,6 +162,9 @@ w,,DHWOperation, ,,,,"3701",,,_16_DhwOperation,,,
 #41 01
 r,,Unknown2, ,,,,"410102",Unknown2,,_16_Temp10,,,
 w,,Unknown2, ,,,,"4101",Unknown2,,_16_Temp10,,,
+
+#8F 41
+r,,Unknown6, ,,,,"410102",Unknown6,,_16_Temp10,,,
 
 #8F 01
 r,,Unknown15, ,,,,"8F0102",Unknown15,,_16_Temp10,,,
