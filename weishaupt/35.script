@@ -78,13 +78,13 @@ echo WP.Fr.1; ebusctl read -f -d 35 WP.Fr.1
 echo WP.Sa.1; ebusctl read -f -d 35 WP.Sa.1
 echo WP.Su.1; ebusctl read -f -d 35 WP.Su.1
 
-echo P.Mo.1; ebusctl read -f -d 35 P.Mo.1
-echo P.Tu.1; ebusctl read -f -d 35 P.Tu.1
-echo P.We.1; ebusctl read -f -d 35 P.We.1
-echo P.Th.1; ebusctl read -f -d 35 P.Th.1
-echo P.Fr.1; ebusctl read -f -d 35 P.Fr.1
-echo P.Sa.1; ebusctl read -f -d 35 P.Sa.1
-echo P.Su.1; ebusctl read -f -d 35 P.Su.1
+echo ZP.Mo.1; ebusctl read -f -d 35 ZP.Mo.1
+echo ZP.Tu.1; ebusctl read -f -d 35 ZP.Tu.1
+echo ZP.We.1; ebusctl read -f -d 35 ZP.We.1
+echo ZP.Th.1; ebusctl read -f -d 35 ZP.Th.1
+echo ZP.Fr.1; ebusctl read -f -d 35 ZP.Fr.1
+echo ZP.Sa.1; ebusctl read -f -d 35 ZP.Sa.1
+echo ZP.Su.1; ebusctl read -f -d 35 ZP.Su.1
 
 
 echo Unknown1; ebusctl read -f -d 35 Unknown1
