@@ -128,16 +128,16 @@ r,,SwitchOffSetting,Switch-off delay (354) ,,,,"2E0102",SwitchOffSetting,,_16_Mi
 w,,SwitchOffSetting, ,,,,"2E01",,,_16_Minutes,,,
 
 #2F 01
-r,,MaxPumpSpeed,Max Pump speed (358) ,,,,"2F0102",MaxPumpSpeed,,_16_Percent,,,
-w,,MaxPumpSpeed, ,,,,"2F01",,,_16_Percent,,
+r,,PumpMaxSpeed,Max Pump speed (358) ,,,,"2F0102",PumpMaxSpeed,,_16_Percent,,,
+w,,PumpMaxSpeed, ,,,,"2F01",,,_16_Percent,,
 
 #30 01,
-r,,MinPumpSpeed,Min Pump speed (359) ,,,,"300102",MinPumpSpeed,,_16_Percent,,,
-w,,MinPumpSpeed, ,,,,"3001",,,_16_Percent,,,
+r,,PumpMinSpeed,Min Pump speed (359) ,,,,"300102",PumpMinSpeed,,_16_Percent,,,
+w,,PumpMinSpeed, ,,,,"3001",,,_16_Percent,,,
 
 #31 01
-r,,SpeedVariation,Speed ​​variant (357) ,,,,"310102",SpeedVariation,,_16_Speedvariation,,,
-w,,SpeedVariation, ,,,,"3101",,,_16_Speedvariation,,,
+r,,PumpVSDvariable,VSD variable (429) ,,,,"310102",PumpVSDvariable,,_16_PumpVariationSpeed,,,
+w,,PumpVSDvariable, ,,,,"3101",,,_16_PumpVariationSpeed,,,
 
 #32 01
 r,,Reduct,Reduct (501) ,,,,"320102",Reduct,,_16_TempReduced,,,
@@ -148,8 +148,8 @@ r,,DHWMin,Hot water Min (177) ,,,,"330102",,,_16_Temp10,,,
 w,,DHWMin, ,,,,"3301",,,_16_Temp10,,,
 
 #34 01
-r,,MaxDHWTemp,Max-WW-Temp (362) ,,,,"340102",,,_16_Temp10,,,
-w,,MaxDHWTemp, ,,,,"3401",,,_16_Temp10,,,
+r,,DHWMaxTemp, DHW maximum Temp (601) ,,,,"340102",,,_16_Temp10,,,
+w,,DHWMaxTemp, ,,,,"3401",,,_16_Temp10,,,
 
 #35 01
 r,,DHWMode,WW-Mode (361) ,,,,"350102",,,_16_DhwMode,,,

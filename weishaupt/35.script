@@ -31,12 +31,12 @@ echo TypeOfConstruction; ebusctl read -f -d 35 TypeOfConstruction
 echo SupplyMinTemp; ebusctl read -f -d 35 SupplyMinTemp
 echo HolidayTemp; ebusctl read -f -d 35 HolidayTemp
 echo SwitchOffSetting; ebusctl read -f -d 35 SwitchOffSetting
-echo MaxPumpSpeed; ebusctl read -f -d 35 MaxPumpSpeed
-echo MinPumpSpeed; ebusctl read -f -d 35 MinPumpSpeed
-echo SpeedVariation; ebusctl read -f -d 35 SpeedVariation
+echo PumpMaxSpeed; ebusctl read -f -d 35 PumpMaxSpeed
+echo PumpMinSpeed; ebusctl read -f -d 35 PumpMinSpeed
+echo PumpVSDvariable; ebusctl read -f -d 35 PumpVSDvariable
 echo Reduct; ebusctl read -f -d 35 Reduct
 echo DHWMin; ebusctl read -f -d 35 DHWMin
-echo MaxDHWTemp; ebusctl read -f -d 35 MaxDHWTemp
+echo DHWMaxTemp; ebusctl read -f -d 35 DHWMaxTemp
 echo DHWMode; ebusctl read -f -d 35 DHWMode
 echo DHWOperation; ebusctl read -f -d 35 DHWOperation
 
@@ -45,12 +45,46 @@ echo FrostProtection; ebusctl read -f -d 35 FrostProtection
 
 echo FloorDryingDay; ebusctl read -f -d 35 FloorDryingDay
 echo FloorDryingTemp; ebusctl read -f -d 35 FloorDryingTemp
+
 echo HP1.Mo.1; ebusctl read -f -d 35 HP1.Mo.1
-echo HP1.Mo.2; ebusctl read -f -d 35 HP1.Mo.2
 echo HP1.Tu.1; ebusctl read -f -d 35 HP1.Tu.1
 echo HP1.We.1; ebusctl read -f -d 35 HP1.We.1
+echo HP1.Th.1; ebusctl read -f -d 35 HP1.Th.1
+echo HP1.Fr.1; ebusctl read -f -d 35 HP1.Fr.1
+echo HP1.Sa.1; ebusctl read -f -d 35 HP1.Sa.1
+echo HP1.Su.1; ebusctl read -f -d 35 HP1.Su.1
+
+echo HP1.Mo.2; ebusctl read -f -d 35 HP1.Mo.2
+echo HP1.Tu.2; ebusctl read -f -d 35 HP1.Tu.2
+echo HP1.We.2; ebusctl read -f -d 35 HP1.We.2
+echo HP1.Th.2; ebusctl read -f -d 35 HP1.Th.2
+echo HP1.Fr.2; ebusctl read -f -d 35 HP1.Fr.2
+echo HP1.Sa.2; ebusctl read -f -d 35 HP1.Sa.2
+echo HP1.Su.2; ebusctl read -f -d 35 HP1.Su.2
+
+echo HP1.Mo.3; ebusctl read -f -d 35 HP1.Mo.3
+echo HP1.Tu.3; ebusctl read -f -d 35 HP1.Tu.3
+echo HP1.We.3; ebusctl read -f -d 35 HP1.We.3
+echo HP1.Th.3; ebusctl read -f -d 35 HP1.Th.3
+echo HP1.Fr.3; ebusctl read -f -d 35 HP1.Fr.3
+echo HP1.Sa.3; ebusctl read -f -d 35 HP1.Sa.3
+echo HP1.Su.3; ebusctl read -f -d 35 HP1.Su.3
+
 echo WP.Mo.1; ebusctl read -f -d 35 WP.Mo.1
-echo P.Mo.1; ebusctl read -f -d 35 ZP.Mo.1
+echo WP.Tu.1; ebusctl read -f -d 35 WP.Tu.1
+echo WP.We.1; ebusctl read -f -d 35 WP.We.1
+echo WP.Th.1; ebusctl read -f -d 35 WP.Th.1
+echo WP.Fr.1; ebusctl read -f -d 35 WP.Fr.1
+echo WP.Sa.1; ebusctl read -f -d 35 WP.Sa.1
+echo WP.Su.1; ebusctl read -f -d 35 WP.Su.1
+
+echo P.Mo.1; ebusctl read -f -d 35 P.Mo.1
+echo P.Tu.1; ebusctl read -f -d 35 P.Tu.1
+echo P.We.1; ebusctl read -f -d 35 P.We.1
+echo P.Th.1; ebusctl read -f -d 35 P.Th.1
+echo P.Fr.1; ebusctl read -f -d 35 P.Fr.1
+echo P.Sa.1; ebusctl read -f -d 35 P.Sa.1
+echo P.Su.1; ebusctl read -f -d 35 P.Su.1
 
 
 echo Unknown1; ebusctl read -f -d 35 Unknown1
