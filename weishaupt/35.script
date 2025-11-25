@@ -11,7 +11,7 @@ echo DHWSetpoint; ebusctl read -f -d 35 DHWSetpoint
 echo OutsideWeightedTemp; ebusctl read -f -d 35 OutsideWeightedTemp
 echo DHWSetValue; ebusctl read -f -d 35 DHWSetValue
 echo DHWTemp; ebusctl read -f -d 35 DHWTemp
-echo SupplyMaxTemparature; ebusctl read -f -d 35 SupplyMaxTemparature
+echo SupplyMaxTemp; ebusctl read -f -d 35 SupplyMaxTemp
 echo MixerParameter; ebusctl read -f -d 35 MixerParameter
 echo LegionnairesFunction; ebusctl read -f -d 35 LegionnairesFunction
 echo RoomFactorP; ebusctl read -f -d 35 RoomFactorP
@@ -28,7 +28,7 @@ echo StartOfHoliday.Month; ebusctl read -f -d 35 StartOfHoliday.Month
 echo EndOfHoliday.Day; ebusctl read -f -d 35 EndOfHoliday.Day
 echo EndOfHoliday.Month; ebusctl read -f -d 35 EndOfHoliday.Month
 echo TypeOfConstruction; ebusctl read -f -d 35 TypeOfConstruction
-echo SupplyMinTemparature; ebusctl read -f -d 35 SupplyMinTemparature
+echo SupplyMinTemp; ebusctl read -f -d 35 SupplyMinTemp
 echo HolidayTemp; ebusctl read -f -d 35 HolidayTemp
 echo SwitchOffSetting; ebusctl read -f -d 35 SwitchOffSetting
 echo MaxPumpSpeed; ebusctl read -f -d 35 MaxPumpSpeed

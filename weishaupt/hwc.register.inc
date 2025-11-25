@@ -46,8 +46,8 @@ r,,DHWSetValue,Hot water setpoint ,,,,"030002",,,_16_Temp10,,,
 r,,DHWTemp,Domestic Hot Water temperature ,,,,"0E0002",,,_16_Temp10,,,
 
 #28 00
-r,,SupplyMaxTemparature,Maximum Supply Temperature (422) ,,,,"280002",SupplyMaxTemparature,,_16_Temp10,,,
-w,,SupplyMaxTemparature, ,,,,"2800",SupplyMaxTemparature,,_16_Temp10,,,
+r,,SupplyMaxTemp,Maximum Supply Temperature (422) ,,,,"280002",SupplyMaxTemp,,_16_Temp10,,,
+w,,SupplyMaxTemp, ,,,,"2800",SupplyMaxTemp,,_16_Temp10,,,
 
 #2B 00
 r,,MixerParameter,Mixer Parameter (425) ,,,,"2B0002",MixerParameter,,_16_TempK10,,,
