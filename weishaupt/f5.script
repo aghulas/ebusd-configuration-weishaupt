@@ -70,6 +70,54 @@ echo HP1.Fr.3; ebusctl read -f -d f5 HP1.Fr.3
 echo HP1.Sa.3; ebusctl read -f -d f5 HP1.Sa.3
 echo HP1.Su.3; ebusctl read -f -d f5 HP1.Su.3
 
+echo HP2.Mo.1; ebusctl read -f -d f5 HP2.Mo.1
+echo HP2.Tu.1; ebusctl read -f -d f5 HP2.Tu.1
+echo HP2.We.1; ebusctl read -f -d f5 HP2.We.1
+echo HP2.Th.1; ebusctl read -f -d f5 HP2.Th.1
+echo HP2.Fr.1; ebusctl read -f -d f5 HP2.Fr.1
+echo HP2.Sa.1; ebusctl read -f -d f5 HP2.Sa.1
+echo HP2.Su.1; ebusctl read -f -d f5 HP2.Su.1
+
+echo HP2.Mo.2; ebusctl read -f -d f5 HP2.Mo.2
+echo HP2.Tu.2; ebusctl read -f -d f5 HP2.Tu.2
+echo HP2.We.2; ebusctl read -f -d f5 HP2.We.2
+echo HP2.Th.2; ebusctl read -f -d f5 HP2.Th.2
+echo HP2.Fr.2; ebusctl read -f -d f5 HP2.Fr.2
+echo HP2.Sa.2; ebusctl read -f -d f5 HP2.Sa.2
+echo HP2.Su.2; ebusctl read -f -d f5 HP2.Su.2
+
+echo HP2.Mo.3; ebusctl read -f -d f5 HP2.Mo.3
+echo HP2.Tu.3; ebusctl read -f -d f5 HP2.Tu.3
+echo HP2.We.3; ebusctl read -f -d f5 HP2.We.3
+echo HP2.Th.3; ebusctl read -f -d f5 HP2.Th.3
+echo HP2.Fr.3; ebusctl read -f -d f5 HP2.Fr.3
+echo HP2.Sa.3; ebusctl read -f -d f5 HP2.Sa.3
+echo HP2.Su.3; ebusctl read -f -d f5 HP2.Su.3
+
+echo HP3.Mo.1; ebusctl read -f -d f5 HP3.Mo.1
+echo HP3.Tu.1; ebusctl read -f -d f5 HP3.Tu.1
+echo HP3.We.1; ebusctl read -f -d f5 HP3.We.1
+echo HP3.Th.1; ebusctl read -f -d f5 HP3.Th.1
+echo HP3.Fr.1; ebusctl read -f -d f5 HP3.Fr.1
+echo HP3.Sa.1; ebusctl read -f -d f5 HP3.Sa.1
+echo HP3.Su.1; ebusctl read -f -d f5 HP3.Su.1
+
+echo HP3.Mo.2; ebusctl read -f -d f5 HP3.Mo.2
+echo HP3.Tu.2; ebusctl read -f -d f5 HP3.Tu.2
+echo HP3.We.2; ebusctl read -f -d f5 HP3.We.2
+echo HP3.Th.2; ebusctl read -f -d f5 HP3.Th.2
+echo HP3.Fr.2; ebusctl read -f -d f5 HP3.Fr.2
+echo HP3.Sa.2; ebusctl read -f -d f5 HP3.Sa.2
+echo HP3.Su.2; ebusctl read -f -d f5 HP3.Su.2
+
+echo HP3.Mo.3; ebusctl read -f -d f5 HP3.Mo.3
+echo HP3.Tu.3; ebusctl read -f -d f5 HP3.Tu.3
+echo HP3.We.3; ebusctl read -f -d f5 HP3.We.3
+echo HP3.Th.3; ebusctl read -f -d f5 HP3.Th.3
+echo HP3.Fr.3; ebusctl read -f -d f5 HP3.Fr.3
+echo HP3.Sa.3; ebusctl read -f -d f5 HP3.Sa.3
+echo HP3.Su.3; ebusctl read -f -d f5 HP3.Su.3
+
 echo WP.Mo.1; ebusctl read -f -d f5 WP.Mo.1
 echo WP.Tu.1; ebusctl read -f -d f5 WP.Tu.1
 echo WP.We.1; ebusctl read -f -d f5 WP.We.1
