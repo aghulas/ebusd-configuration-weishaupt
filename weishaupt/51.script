@@ -2,13 +2,13 @@ echo HeatDemand; ebusctl read -f -d 51 HeatDemand
 echo NormalSupplySetPoint;ebusctl read -f -d 51 NormalSupplySetPoint
 echo NormalRoomTemp;ebusctl read -f -d 51 NormalRoomTemp
 echo SetbackRoomTemp; ebusctl read -f -d 51 SetbackRoomTemp
-echo OutsideTemperature; ebusctl read -f -d 51 OutsideTemperature
+echo OutsideTemp; ebusctl read -f -d 51 OutsideTemp
 echo SupplyTemperatureWTC; ebusctl read -f -d 51 SupplyTemperatureWTC
 echo SupplyTemperatureHC; ebusctl read -f -d 51 SupplyTemperatureHC
 echo RoomTemperature; ebusctl read -f -d 51 RoomTemperature
 echo RoomSetValue; ebusctl read -f -d 51 RoomSetValue
 echo DHWSetpoint; ebusctl read -f -d 51 DHWSetpoint
-echo WeightedOutsideTemperature; ebusctl read -f -d 51 WeightedOutsideTemperature
+echo OutsideWeightedTemp; ebusctl read -f -d 51 OutsideWeightedTemp
 echo DHWSetValue; ebusctl read -f -d 51 DHWSetValue
 echo DHWTemperature; ebusctl read -f -d 51 DHWTemperature
 echo SupplyMaxTemparature; ebusctl read -f -d 51 SupplyMaxTemparature
@@ -58,7 +58,7 @@ echo Unknown2; ebusctl read -f -d 51 Unknown2
 echo Unknown3; ebusctl read -f -d 51 Unknown3
 echo Unknown4; ebusctl read -f -d 51 Unknown4
 echo Unknown5; ebusctl read -f -d 51 Unknown5
-echo BlendedOutsideTemperature; ebusctl read -f -d 51 BlendedOutsideTemperature
+echo OutsideBlendedTemp; ebusctl read -f -d 51 OutsideBlendedTemp
 echo Unknown7; ebusctl read -f -d 51 Unknown7
 echo Unknown8; ebusctl read -f -d 51 Unknown8
 echo Unknown9; ebusctl read -f -d 51 Unknown9
