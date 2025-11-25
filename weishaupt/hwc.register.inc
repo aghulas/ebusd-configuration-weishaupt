@@ -18,7 +18,7 @@ r,,SetbackRoomTemp,Setback Room tRmperature (113) ,,,,"080002",SetbackRoomTemp,,
 w,,SetbackRoomTemp, ,,,,"0800",,,_16_Temp10,,,
 
 #0C 00
-r,,ExternalTemperature,Outside temperature ,,,,"0C0002",ExternalTemperature,,_16_Temp10,,,
+r,,OutsideTemperature,Outside Temperature ,,,,"0C0002",OutsideTemperature,,_16_Temp10,,,
 
 #0D 00
 r,,SupplyTemperatureWTC,Flow temperature WTC ,,,,"0D0002",SupplyTemperatureWTC,,_16_Temp10,,,
@@ -37,7 +37,7 @@ r,,DHWSetpoint,Hot water setpoint (176) ,,,,"130002",,,_16_Temp10,,,
 w,,DHWSetpoint, ,,,,"1300",,,_16_Temp10,,,
 
 #1A 00
-r,,AveragedExternalTemperature,Averaged outside temperature ,,,,"1A0A02",AveragedExternalTemperature,,_16_Temp10,,,
+r,,WeightedOutsideTemperature,Weighted Outside Temperature ,,,,"1A0A02",WeightedOutsideTemperature,,_16_Temp10,,,
 
 #03 00
 r,,DHWSetValue,Hot water setpoint ,,,,"030002",,,_16_Temp10,,,
@@ -207,9 +207,8 @@ w,,RoomThermostat, ,,,,"1C0A",,,_16_Temp1,,,
 r,,FrostProtection,Room frost protection (173) ,,,,"140A02",FrostProtection,,_16_Temp10,,,
 w,,FrostProtection, ,,,,"140A",,,_16_Temp10,,,
 
-
 #0C 0A
-r,,Unknown6, ,,,,"0C0A02",Unknown6,,_16_Temp10,,,
+r,,BlendedOutsideTemperature,Blended Outside Temperature ,,,,"0C0A02",BlendedOutsideTemperature,,_16_Temp10,,,
 
 #12 0A
 r,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
