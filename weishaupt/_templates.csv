@@ -37,7 +37,7 @@ _16_Gradient10,SIN,10,,SteepNess
 _16_HolidayDay,UIN,0x0000=Off,,Day
 _16_HolidayMonth,UIN,0x0000=Off;0x0001=January;0x0002=February;0x0003=March;0x0004=April;0x0005=May;0x0006=June;0x0007=July;0x0008=August;0x0009=September;0x000A=October;0x000B=November;0x000C=December,,Monat
 _16_Hours,UIN,,h,Hour
-_16_Legionnairesday,UIN,0x0000=Off,,Legionella Function
+_16_Legionelladay,UIN,0x0000=Off,,Legionella Function
 _16_Minutes,UIN,,min,Mintue
 _16_OnOff,UIN,0x0000=Off;0x0001=On;
 _16_OnOff2,UIN,0x0000=Off;0x0080=On,,

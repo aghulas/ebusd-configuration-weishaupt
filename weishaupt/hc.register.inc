@@ -7,15 +7,15 @@
 r,,HeatDemand,Heat demand HK ,,,,"020002",HeatDemand,,_16_Temp10,,,
 
 #04 00
-r,,NormalSupplySetPoint,Normal Supply SetPoint (115)) ,,,,"040002",NormalSupplySetPoint,,_16_Temp10,,,
+r,,SupplyNormalSetPoint,Normal Supply SetPoint (115)) ,,,,"040002",SupplyNormalSetPoint,,_16_Temp10,,,
 
 #05 00
-r,,NormalRoomTemp,Normal Room Temperature (112) ,,,,"050002",NormalRoomTemp,,_16_Temp10,,,
-w,,NormalRoomTemp, ,,,,"0500",,,_16_Temp10,,,
+r,,RoomNormalTemp,Normal Room Temperature (112) ,,,,"050002",RoomNormalTemp,,_16_Temp10,,,
+w,,RoomNormalTemp, ,,,,"0500",,,_16_Temp10,,,
 
 #08 00
-r,,SetbackRoomTemp,Setback Room tRmperature (113) ,,,,"080002",SetbackRoomTemp,,_16_Temp10,,,
-w,,SetbackRoomTemp, ,,,,"0800",,,_16_Temp10,,,
+r,,RoomSetbackTemp,Setback Room tRmperature (113) ,,,,"080002",RoomSetbackTemp,,_16_Temp10,,,
+w,,RoomSetbackTemp, ,,,,"0800",,,_16_Temp10,,,
 
 #0C 00
 r,,OutsideTemp,Outside Temperature ,,,,"0C0002",OutsideTemp,,_16_Temp10,,,
@@ -54,8 +54,8 @@ r,,MixerParameter,Mixer Parameter (425) ,,,,"2B0002",MixerParameter,,_16_TempK10
 w,,MixerParameter, ,,,,"2B00",,,_16_TempK10,,,
 
 #01 01
-r,,LegionnairesFunction,Legionella function (363) ,,,,"010102",,,_16_Legionnairesday,,,
-w,,LegionnairesFunction, ,,,,"0101",,,_16_Legionnairesday,,,
+r,,LegionellaFunction,Legionella Protection Function (605) ,,,,"010102",,,_16_Legionelladay,,,
+w,,LegionellaFunction, ,,,,"0101",,,_16_Legionelladay,,,
 
 #0F 01
 r,,RoomFactorP,Room Factor-P (508) ,,,,"0F0102",RoomFactorP,,_16_RoomFactorP,,,
