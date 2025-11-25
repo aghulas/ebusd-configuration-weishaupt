@@ -58,7 +58,6 @@ echo Unknown2; ebusctl read -f -d 35 Unknown2
 echo Unknown3; ebusctl read -f -d 35 Unknown3
 echo Unknown4; ebusctl read -f -d 35 Unknown4
 echo Unknown5; ebusctl read -f -d 35 Unknown5
-echo OutsideBlendedTemp; ebusctl read -f -d 35 OutsideBlendedTemp
 echo Unknown7; ebusctl read -f -d 35 Unknown7
 echo Unknown8; ebusctl read -f -d 35 Unknown8
 echo Unknown9; ebusctl read -f -d 35 Unknown9
