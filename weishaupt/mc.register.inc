@@ -163,9 +163,6 @@ w,,DHWOperation, ,,,,"3701",,,_16_DhwOperation,,,
 r,,Unknown2, ,,,,"410102",Unknown2,,_16_Temp10,,,
 w,,Unknown2, ,,,,"4101",Unknown2,,_16_Temp10,,,
 
-#8F 41
-r,,Unknown6, ,,,,"410102",Unknown6,,_16_Temp10,,,
-
 #8F 01
 r,,Unknown15, ,,,,"8F0102",Unknown15,,_16_Temp10,,,
 

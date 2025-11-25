@@ -59,7 +59,6 @@ echo Unknown2; ebusctl read -f -d 51 Unknown2
 echo Unknown3; ebusctl read -f -d 51 Unknown3
 echo Unknown4; ebusctl read -f -d 51 Unknown4
 echo Unknown5; ebusctl read -f -d 51 Unknown5
-echo Unknown6; ebusctl read -f -d 51 Unknown6
 echo Unknown7; ebusctl read -f -d 51 Unknown7
 echo Unknown8; ebusctl read -f -d 51 Unknown8
 echo Unknown9; ebusctl read -f -d 51 Unknown9
