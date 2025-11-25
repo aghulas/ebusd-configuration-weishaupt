@@ -3,14 +3,14 @@ echo NormalSupplySetPoint;ebusctl read -f -d f6 NormalSupplySetPoint
 echo NormalRoomTemp;ebusctl read -f -d f6 NormalRoomTemp
 echo SetbackRoomTemp; ebusctl read -f -d f6 SetbackRoomTemp
 echo OutsideTemp; ebusctl read -f -d f6 OutsideTemp
-echo SupplyTemperatureWTC; ebusctl read -f -d f6 SupplyTemperatureWTC
-echo SupplyTemperatureHC; ebusctl read -f -d f6 SupplyTemperatureHC
-echo RoomTemperature; ebusctl read -f -d f6 RoomTemperature
+echo SupplyTempWTC; ebusctl read -f -d f6 SupplyTempWTC
+echo SupplyTempHC; ebusctl read -f -d f6 SupplyTempHC
+echo RoomTemp; ebusctl read -f -d f6 RoomTemp
 echo RoomSetValue; ebusctl read -f -d f6 RoomSetValue
 echo DHWSetpoint; ebusctl read -f -d f6 DHWSetpoint
 echo OutsideWeightedTemp; ebusctl read -f -d f6 OutsideWeightedTemp
 echo DHWSetValue; ebusctl read -f -d f6 DHWSetValue
-echo DHWTemperature; ebusctl read -f -d f6 DHWTemperature
+echo DHWTemp; ebusctl read -f -d f6 DHWTemp
 echo SupplyMaxTemparature; ebusctl read -f -d f6 SupplyMaxTemparature
 echo MixerParameter; ebusctl read -f -d f6 MixerParameter
 echo LegionnairesFunction; ebusctl read -f -d f6 LegionnairesFunction
@@ -21,7 +21,7 @@ echo SwitchOnSetting; ebusctl read -f -d f6 SwitchOnSetting
 echo BoilerMCBoost; ebusctl read -f -d f6 BoilerMCBoost
 echo ProgramChooseSwitch; ebusctl read -f -d f6 ProgramChooseSwitch
 echo Adaption; ebusctl read -f -d f6 Adaption
-echo SummerWinterChangeOverTemperature; ebusctl read -f -d f6 SummerWinterChangeOverTemperature
+echo SummerWinterChangeOverTemp; ebusctl read -f -d f6 SummerWinterChangeOverTemp
 echo FloorDryingFunction; ebusctl read -f -d f6 FloorDryingFunction
 echo StartOfHoliday.Day; ebusctl read -f -d f6 StartOfHoliday.Day
 echo StartOfHoliday.Month; ebusctl read -f -d f6 StartOfHoliday.Month
@@ -44,7 +44,7 @@ echo RoomThermostat; ebusctl read -f -d f6 RoomThermostat
 echo FrostProtection; ebusctl read -f -d f6 FrostProtection
 
 echo FloorDryingDay; ebusctl read -f -d f6 FloorDryingDay
-echo FloorDryingTemperature; ebusctl read -f -d f6 FloorDryingTemperature
+echo FloorDryingTemp; ebusctl read -f -d f6 FloorDryingTemp
 echo HP1.Mo.1; ebusctl read -f -d f6 HP1.Mo.1
 echo HP1.Mo.2; ebusctl read -f -d f6 HP1.Mo.2
 echo HP1.Tu.1; ebusctl read -f -d f6 HP1.Tu.1
