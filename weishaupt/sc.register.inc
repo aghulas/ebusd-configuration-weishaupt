@@ -21,13 +21,13 @@ w,,SetbackRoomTemp, ,,,,"0800",,,_16_Temp10,,,
 r,,OutsideTemp,Outside Temperature ,,,,"0C0002",OutsideTemp,,_16_Temp10,,,
 
 #0D 00
-r,,SupplyTemperatureWTC,Flow temperature WTC ,,,,"0D0002",SupplyTemperatureWTC,,_16_Temp10,,,
+r,,SupplyTempWTC,Flow temperature WTC ,,,,"0D0002",SupplyTempWTC,,_16_Temp10,,,
 
 #0F 00
-r,,SupplyTemperatureHC,Flow temperature (heating circuit) ,,,,"0F0002",SupplyTemperatureHC,,_16_Temp10,,,
+r,,SupplyTempHC,Flow temperature (heating circuit) ,,,,"0F0002",SupplyTempHC,,_16_Temp10,,,
 
 #11 00
-r,,RoomTemperature,Room temperature ,,,,"110002",RoomTemperature,,_16_Temp10,,,
+r,,RoomTemp,Room temperature ,,,,"110002",RoomTemp,,_16_Temp10,,,
 
 #12 00
 r,,RoomSetValue,Room setpoint ,,,,"120002",RoomSetValue,,_16_Temp10,,,
@@ -43,7 +43,7 @@ r,,OutsideWeightedTemp,Weighted Outside Temperature ,,,,"1A0A02",OutsideWeighted
 r,,DHWSetValue,Hot water setpoint ,,,,"030002",,,_16_Temp10,,,
 
 #0E 00
-r,,DHWTemperature,DH water temperature ,,,,"0E0002",,,_16_Temp10,,,
+r,,DHWTemp,Domestic Hot Water temperature ,,,,"0E0002",,,_16_Temp10,,,
 
 #28 00
 r,,SupplyMaxTemparature,Maximum Supply Temperature (422) ,,,,"280002",SupplyMaxTemparature,,_16_Temp10,,,
@@ -85,8 +85,8 @@ r,,Adaption,Adaption (507) ,,,,"150102",Adaption,,_16_OnOff2,,,
 w,,Adaption, ,,,,"1501",,,_16_OnOff2,,,
 
 #16 01
-r,,SummerWinterChangeOverTemperature,Summer/winter changeover temperature (174) ,,,,"160102",SuWiChangeOverTemperature,,_16_Temp10,,,
-w,,SummerWinterChangeOverTemperature, ,,,,"1601",,,_16_Temp10,,,
+r,,SummerWinterChangeOverTemp,Summer/winter changeover temperature (174) ,,,,"160102",SuWiChangeOverTemp,,_16_Temp10,,,
+w,,SummerWinterChangeOverTemp, ,,,,"1601",,,_16_Temp10,,,
 
 #1A 01
 r,,FloorDryingFunction,Screed function (381) ,,,,"1A0102",FloorDryingFunction,,_16_Floordrying,,,
@@ -116,8 +116,8 @@ r,,TypeOfConstruction,Construction method (371) ,,,,"280102",,,_16_Constructiont
 w,,TypeOfConstruction, ,,,,"2801",,,_16_Constructiontype,,,
 
 #2B 01
-r,,SupplyMinTemparature,Minimum Supply Temperature (421) ,,,,"2B0102",SupplyMinTemparature,,_16_Temp10,,,
-w,,SupplyMinTemparature, ,,,,"2B01",SupplyMinTemparature,,_16_Temp10,,,
+r,,SupplyMinTemp,Minimum Supply Temperature (421) ,,,,"2B0102",SupplyMinTemp,,_16_Temp10,,,
+w,,SupplyMinTemp, ,,,,"2B01",SupplyMinTemp,,_16_Temp10,,,
 
 #2D 01
 r,,HolidayTemp,Holiday temperature (183) ,,,,"2D0102",,,_16_TempReduced,,,
@@ -214,7 +214,7 @@ r,,OutsideBlendedTemp,Blended Outside Temperature ,,,,"0C0A02",OutsideBlendedTem
 r,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
 
 #13 0A
-r,,FloorDryingTemperature,Screed temperature (383) ,,,,"130A02",FloorDryingTemperature,,_16_Temp1,,,
+r,,FloorDryingTemp,Screed temperature (383) ,,,,"130A02",FloorDryingTemp,,_16_Temp1,,,
 
 #20 0A
 r,,Unknown1, ,,,,"200A02",Unknown1,,_16_Temp10,,,
