@@ -42,7 +42,7 @@ echo DHWOperation; ebusctl read -f -d f5 DHWOperation
 
 echo RoomThermostat; ebusctl read -f -d f5 RoomThermostat
 echo FrostProtection; ebusctl read -f -d f5 FrostProtection
-
+echo OutsideBlendedTemp; ebusctl read -d -d f5 OutsideBlendedTemp
 echo FloorDryingDay; ebusctl read -f -d f5 FloorDryingDay
 echo FloorDryingTemp; ebusctl read -f -d f5 FloorDryingTemp
 
