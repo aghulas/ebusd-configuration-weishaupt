@@ -33,17 +33,17 @@ r,,RoomTemp,Room temperature ,,,,"110002",RoomTemp,,_16_Temp10,,,
 r,,RoomSetValue,Room setpoint ,,,,"120002",RoomSetValue,,_16_Temp10,,,
 
 #13 00
-r,,DHWSetpoint,Hot water setpoint (176) ,,,,"130002",,,_16_Temp10,,,
+r,,DHWSetpoint,Hot water setpoint (176) ,,,,"130002",DHWSetpoint,,_16_Temp10,,,
 w,,DHWSetpoint, ,,,,"1300",,,_16_Temp10,,,
 
 #1A 00
 r,,OutsideWeightedTemp,Weighted Outside Temperature ,,,,"1A0A02",OutsideWeightedTemp,,_16_Temp10,,,
 
 #03 00
-r,,DHWSetValue,Hot water setpoint ,,,,"030002",,,_16_Temp10,,,
+r,,DHWSetValue,Hot water setpoint ,,,,"030002",DHWSetValue,,_16_Temp10,,,
 
 #0E 00
-r,,DHWTemp,Domestic Hot Water temperature ,,,,"0E0002",,,_16_Temp10,,,
+r,,DHWTemp,Domestic Hot Water temperature ,,,,"0E0002",DHWTemp,,_16_Temp10,,,
 
 #28 00
 r,,SupplyMaxTemp,Maximum Supply Temperature (422) ,,,,"280002",SupplyMaxTemp,,_16_Temp10,,,
@@ -54,7 +54,7 @@ r,,MixerParameter,Mixer Parameter (425) ,,,,"2B0002",MixerParameter,,_16_TempK10
 w,,MixerParameter, ,,,,"2B00",,,_16_TempK10,,,
 
 #01 01
-r,,LegionellaFunction,Legionella Protection Function (605) ,,,,"010102",,,_16_Legionelladay,,,
+r,,LegionellaFunction,Legionella Protection Function (605) ,,,,"010102",LegionellaFunction,,_16_Legionelladay,,,
 w,,LegionellaFunction, ,,,,"0101",,,_16_Legionelladay,,,
 
 #0F 01
