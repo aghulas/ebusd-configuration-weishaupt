@@ -3,7 +3,7 @@ echo SupplyNormalSetPoint;ebusctl read -f -d 35 SupplyNormalSetPoint
 echo RoomNormalTemp;ebusctl read -f -d 35 RoomNormalTemp
 echo RoomSetbackTemp; ebusctl read -f -d 35 RoomSetbackTemp
 echo OutsideTemp; ebusctl read -f -d 35 OutsideTemp
-echo SupplyTempWTC; ebusctl read -f -d 35 SupplyTempWTC
+echo WTCSupplyTemp; ebusctl read -f -d 35 WTCSupplyTemp
 echo HCSupplyTemp; ebusctl read -f -d 35 HCSupplyTemp
 echo RoomTemp; ebusctl read -f -d 35 RoomTemp
 echo RoomSetValue; ebusctl read -f -d 35 RoomSetValue
@@ -30,7 +30,7 @@ echo EndOfHoliday.Month; ebusctl read -f -d 35 EndOfHoliday.Month
 echo TypeOfConstruction; ebusctl read -f -d 35 TypeOfConstruction
 echo SupplyMinTemp; ebusctl read -f -d 35 SupplyMinTemp
 echo HolidayTemp; ebusctl read -f -d 35 HolidayTemp
-echo SwitchOffSetting; ebusctl read -f -d 35 SwitchOffSetting
+echo WtcDelay; ebusctl read -f -d 35 WtcDelay
 echo PumpMaxSpeed; ebusctl read -f -d 35 PumpMaxSpeed
 echo PumpMinSpeed; ebusctl read -f -d 35 PumpMinSpeed
 echo PumpVSDvariable; ebusctl read -f -d 35 PumpVSDvariable

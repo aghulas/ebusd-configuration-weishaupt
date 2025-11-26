@@ -21,7 +21,7 @@ w,,RoomSetbackTemp, ,,,,"0800",,,_16_Temp10,,,
 r,,OutsideTemp,Outside Temperature ,,,,"0C0002",OutsideTemp,,_16_Temp10,,,
 
 #0D 00
-r,,SupplyTempWTC,Flow temperature WTC ,,,,"0D0002",SupplyTempWTC,,_16_Temp10,,,
+r,,WTCSupplyTemp,Flow temperature WTC ,,,,"0D0002",WTCSupplyTemp,,_16_Temp10,,,
 
 #0F 00
 r,,HCSupplyTemp,Heating Circuit Supply Temperature (523) ,,,,"0F0002",HCSupplyTemp,,_16_Temp10,,,
@@ -124,8 +124,8 @@ r,,HolidayTemp,Holiday temperature (183) ,,,,"2D0102",,,_16_TempReduced,,,
 w,,HolidayTemp, ,,,,"2D01",,,_16_TempReduced,,,
 
 #2E 01
-r,,SwitchOffSetting,Switch-off delay (354) ,,,,"2E0102",SwitchOffSetting,,_16_Minutes,,,
-w,,SwitchOffSetting, ,,,,"2E01",,,_16_Minutes,,,
+r,,WtcDelay,WTC delay(430) ,,,,"2E0102",WtcDelay,,_16_Minutes,,,
+w,,WtcDelay, ,,,,"2E01",,,_16_Minutes,,,
 
 #2F 01
 r,,PumpMaxSpeed,Max Pump speed (358) ,,,,"2F0102",PumpMaxSpeed,,_16_Percent,,,
