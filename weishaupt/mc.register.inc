@@ -160,27 +160,27 @@ w,,Reduct, ,,,,"3201",,,_16_TempReduced,,,
 #w,,DHWOperation, ,,,,"3701",,,_16_DhwOperation,,,
 
 #41 01
-r,,Unknown2, ,,,,"410102",Unknown2,,_16_Temp10,,,
-w,,Unknown2, ,,,,"4101",Unknown2,,_16_Temp10,,,
+#r,,Unknown2, ,,,,"410102",Unknown2,,_16_Temp10,,,
+#w,,Unknown2, ,,,,"4101",Unknown2,,_16_Temp10,,,
 
 #8F 01
 r,,Unknown15, ,,,,"8F0102",Unknown15,,_16_Temp10,,,
 
 #99 01
-r,,Unknown9, ,,,,"990102",Unknown9,,_16_Temp10,,,
+#r,,Unknown9, ,,,,"990102",Unknown9,,_16_Temp10,,,
 
 #A9 01
-r,,Unknown13, ,,,,"A90102",Unknown13,,_16_Temp10,,,
+#r,,Unknown13, ,,,,"A90102",Unknown13,,_16_Temp10,,,
 
 #AA 01
-r,,Unknown14, ,,,,"AA0102",Unknown14,,_16_Temp10,,,
+#r,,Unknown14, ,,,,"AA0102",Unknown14,,_16_Temp10,,,
 
 
 
 
 #85 02
-r,,Unknown4, ,,,,"850202",Unknown4,,_16_Temp10,,,
-w,,Unknown4, ,,,,"8502",Unknown4,,_16_Temp10,,,
+#r,,Unknown4, ,,,,"850202",Unknown4,,_16_Temp10,,,
+#w,,Unknown4, ,,,,"8502",Unknown4,,_16_Temp10,,,
 
 
 #59 03
@@ -191,12 +191,12 @@ r,,Unknown16, ,,,,"E90402",Unknown16,,_16_Temp10,,,
 
 
 #73 09
-r,,Unknown3, ,,,,"730902",Unknown2,,_16_Temp10,,,
-w,,Unknown3, ,,,,"7309",Unknown2,,_16_Temp10,,,
+#r,,Unknown3, ,,,,"730902",Unknown2,,_16_Temp10,,,
+#w,,Unknown3, ,,,,"7309",Unknown2,,_16_Temp10,,,
 
 #81 09
-r,,Unknown5, ,,,,"B10902",Unknown5,,_16_Temp10,,,
-w,,Unknown5, ,,,,"B109",Unknown5,,_16_Temp10,,,
+#r,,Unknown5, ,,,,"B10902",Unknown5,,_16_Temp10,,,
+#w,,Unknown5, ,,,,"B109",Unknown5,,_16_Temp10,,,
 
 
 #1C 0A 
@@ -217,11 +217,11 @@ w,,Unknown5, ,,,,"B109",Unknown5,,_16_Temp10,,,
 #r,,FloorDryingTemp,Screed temperature (383) ,,,,"130A02",FloorDryingTemp,,_16_Temp1,,,
 
 #20 0A
-#r,,Unknown1, ,,,,"200A02",Unknown1,,_16_Temp10,,,
-#w,,Unknown1, ,,,,"200A",Unknown1,,_16_Temp10,,,
+r,,Unknown1, ,,,,"200A02",Unknown1,,_16_Temp10,,,
+w,,Unknown1, ,,,,"200A",Unknown1,,_16_Temp10,,,
 
 #29 0A
-#r,,Unknown7, ,,,,"290A02",Unknown7,,_16_Temp10,,,
+r,,Unknown7, ,,,,"290A02",Unknown7,,_16_Temp10,,,
 
 
 #10 14
@@ -564,12 +564,12 @@ w,,Unknown5, ,,,,"B109",Unknown5,,_16_Temp10,,,
 
 
 #04 76
-r,,Unknown11, ,,,,"047602",Unknown11,,SIN,,,
-w,,Unknown11, ,,,,"0476",Unknown11,,SIN,,,
+#r,,Unknown11, ,,,,"047602",Unknown11,,SIN,,,
+#w,,Unknown11, ,,,,"0476",Unknown11,,SIN,,,
 
 #04 78
-r,,Unknown12, ,,,,"047802",Unknown12,,SIN,,,
-w,,Unknown12, ,,,,"0478",Unknown12,,SIN,,,
+#r,,Unknown12, ,,,,"047802",Unknown12,,SIN,,,
+#w,,Unknown12, ,,,,"0478",Unknown12,,SIN,,,
 
 #FB FD
 r,,Unknown8, ,,,,"FBFD02",Unknown8,,SIN,,,

@@ -217,8 +217,8 @@ r,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
 r,,FloorDryingTemp,Screed temperature (383) ,,,,"130A02",FloorDryingTemp,,_16_Temp1,,,
 
 #20 0A
-r,,Unknown1, ,,,,"200A02",Unknown1,,_16_Temp10,,,
-w,,Unknown1, ,,,,"200A",Unknown1,,_16_Temp10,,,
+#r,,Unknown1, ,,,,"200A02",Unknown1,,_16_Temp10,,,
+#w,,Unknown1, ,,,,"200A",Unknown1,,_16_Temp10,,,
 
 #29 0A
 #r,,Unknown7, ,,,,"290A02",Unknown7,,_16_Temp10,,,
@@ -564,12 +564,12 @@ w,,HP2.Su.3,Heating Program 2 Su 3 Start/End (User 137) ,,,,"7215",,,_8_TimeEnd,
 
 
 #04 76
-r,,Unknown11, ,,,,"047602",Unknown11,,SIN,,,
-w,,Unknown11, ,,,,"0476",Unknown11,,SIN,,,
+#r,,Unknown11, ,,,,"047602",Unknown11,,SIN,,,
+#w,,Unknown11, ,,,,"0476",Unknown11,,SIN,,,
 
 #04 78
-r,,Unknown12, ,,,,"047802",Unknown12,,SIN,,,
-w,,Unknown12, ,,,,"0478",Unknown12,,SIN,,,
+#r,,Unknown12, ,,,,"047802",Unknown12,,SIN,,,
+#w,,Unknown12, ,,,,"0478",Unknown12,,SIN,,,
 
 #FB FD
 #r,,Unknown8, ,,,,"FBFD02",Unknown8,,SIN,,,
