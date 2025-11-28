@@ -94,25 +94,25 @@ r,,FloorDryingFunction,Screed function (381) ,,,,"1A0102",FloorDryingFunction,,_
 #1B 01
 r,,StartOfHoliday,Start of vacation (181) ,,,,"1B0104",Day,,_16_HolidayDay,,,Day ,Month,,_16_HolidayMonth,,,Month
 w,,StartOfHoliday, ,,,,"1B01",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
-r,,StartOfHoliday.Day,Start of vacation Day (181) ,,,,"1B0102",,,_16_HolidayDay,,,
+r,,StartOfHoliday.Day,Start of vacation Day (181) ,,,,"1B0102",StartOfHoliday.Day,,_16_HolidayDay,,,
 #w,,StartOfHoliday.Day, ,,,,"1B01",,,_16_HolidayDay,,,
 
 #1C 01
-r,,StartOfHoliday.Month,Start of vacation Month (181) ,,,,"1C0102",,,_16_HolidayMonth,,,
+r,,StartOfHoliday.Month,Start of vacation Month (181) ,,,,"1C0102",StartOfHoliday.Month,,_16_HolidayMonth,,,
 w,,StartOfHoliday.Month, ,,,,"1C0102",,,_16_HolidayMonth,,,
 
 #1E 01
 r,,EndOfHoliday, (182) ,,,,"1E0104",Day,,_16_HolidayDay,,,Day ,Month,,_16_HolidayMonth,,,Month
 w,,EndOfHoliday, ,,,,"1E01",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
-r,,EndOfHoliday.Day, Day (182) ,,,,"1E0102",,,_16_HolidayDay,,,
+r,,EndOfHoliday.Day, Day (182) ,,,,"1E0102",EndOfHoliday.Day,,_16_HolidayDay,,,
 #w,,EndOfHoliday.Day, ,,,,"1E01",,,_16_HolidayDay,,,
 
 #1F 01
-r,,EndOfHoliday.Month, Month (182) ,,,,"1F0102",,,_16_HolidayMonth,,,
+r,,EndOfHoliday.Month, Month (182) ,,,,"1F0102",EndOfHoliday.Month,,_16_HolidayMonth,,,
 w,,EndOfHoliday.Month, ,,,,"1F01",,,_16_HolidayMonth,,,
 
 #28 01
-r,,TypeOfConstruction,Construction method (371) ,,,,"280102",,,_16_Constructiontype,,,
+r,,TypeOfConstruction,Construction method (371) ,,,,"280102",TypeOfConstruction,,_16_Constructiontype,,,
 w,,TypeOfConstruction, ,,,,"2801",,,_16_Constructiontype,,,
 
 #2B 01
@@ -144,15 +144,15 @@ w,,TypeOfConstruction, ,,,,"2801",,,_16_Constructiontype,,,
 #w,,Reduct, ,,,,"3201",,,_16_TempReduced,,,
 
 #33 01
-#r,,DHWMin,Hot water Min (177) ,,,,"330102",,,_16_Temp10,,,
+#r,,DHWMin,Hot water Min (177) ,,,,"330102",DHWMin,,_16_Temp10,,,
 #w,,DHWMin, ,,,,"3301",,,_16_Temp10,,,
 
 #34 01
-#r,,DHWMaxTemp, DHW maximum Temp (601) ,,,,"340102",,,_16_Temp10,,,
+#r,,DHWMaxTemp, DHW maximum Temp (601) ,,,,"340102",DHWMaxTemp,,_16_Temp10,,,
 #w,,DHWMaxTemp, ,,,,"3401",,,_16_Temp10,,,
 
 #35 01
-#r,,DHWMode,WW-Mode (361) ,,,,"350102",,,_16_DhwMode,,,
+#r,,DHWMode,WW-Mode (361) ,,,,"350102",DHWMode,,_16_DhwMode,,,
 #w,,DHWMode, ,,,,"3501",,,_16_DhwMode,,,
 
 #37 01
