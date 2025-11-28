@@ -167,7 +167,7 @@ w,,DHWOperation, ,,,,"3701",,,_16_DhwOperation,,,
 #r,,Unknown15, ,,,,"8F0102",Unknown15,,_16_Temp10,,,
 
 #99 01
-#r,,Unknown9, ,,,,"990102",Unknown9,,_16_Temp10,,,
+r,,Unknown9, ,,,,"990102",Unknown9,,_16_Temp10,,,
 
 #A9 01
 r,,Unknown13, ,,,,"A90102",Unknown13,,_16_Temp10,,,
