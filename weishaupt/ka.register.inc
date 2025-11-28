@@ -32,18 +32,6 @@ r,,RoomTemp,Room temperature ,,,,"110002",RoomTemp,,_16_Temp10,,,
 #12 00
 r,,RoomSetValue,Room setpoint ,,,,"120002",RoomSetValue,,_16_Temp10,,,
 
-#33 01
-r,,DHWMin,Hot water Min (177) ,,,,"330102",DHWMin,,_16_Temp10,,,
-w,,DHWMin, ,,,,"3301",,,_16_Temp10,,,
-
-#34 01
-r,,DHWMaxTemp, DHW maximum Temp (601) ,,,,"340102",DHWMaxTemp,,_16_Temp10,,,
-w,,DHWMaxTemp, ,,,,"3401",,,_16_Temp10,,,
-
-#35 01
-r,,DHWMode,WW-Mode (361) ,,,,"350102",DHWMode,,_16_DhwMode,,,
-w,,DHWMode, ,,,,"3501",,,_16_DhwMode,,,
-
 #28 00
 r,,SupplyMaxTemp,Maximum Supply Temperature (422) ,,,,"280002",SupplyMaxTemp,,_16_Temp10,,,
 w,,SupplyMaxTemp, ,,,,"2800",SupplyMaxTemp,,_16_Temp10,,,
@@ -143,15 +131,15 @@ r,,Reduct,Reduct (501) ,,,,"320102",Reduct,,_16_TempReduced,,,
 w,,Reduct, ,,,,"3201",,,_16_TempReduced,,,
 
 #33 01
-r,,DHWMin,Hot water Min (177) ,,,,"330102",,,_16_Temp10,,,
+r,,DHWMin,Hot water Min (177) ,,,,"330102",DHWMin,,_16_Temp10,,,
 w,,DHWMin, ,,,,"3301",,,_16_Temp10,,,
 
 #34 01
-r,,DHWMaxTemp, DHW maximum Temp (601) ,,,,"340102",,,_16_Temp10,,,
+r,,DHWMaxTemp, DHW maximum Temp (601) ,,,,"340102",DHWMaxTemp,,_16_Temp10,,,
 w,,DHWMaxTemp, ,,,,"3401",,,_16_Temp10,,,
 
 #35 01
-r,,DHWMode,WW-Mode (361) ,,,,"350102",,,_16_DhwMode,,,
+r,,DHWMode,WW-Mode (361) ,,,,"350102",DHWMode,,_16_DhwMode,,,
 w,,DHWMode, ,,,,"3501",,,_16_DhwMode,,,
 
 #37 01
