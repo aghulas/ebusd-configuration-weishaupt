@@ -5,4 +5,4 @@ n,,Set,Target values ​​HC1->SC ,"30",,"0507",,Status,,_8_Opdataheat,,, ,Acti
 b,,BCAST1, ,"30",,,"7600",,,UIN,,,
 b,,BCAST2, ,"30",,,"7800",,,UIN,,,
 
-!include,hwc.register.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+!include,hc.register.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
