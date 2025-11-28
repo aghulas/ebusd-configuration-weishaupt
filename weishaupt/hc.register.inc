@@ -167,7 +167,7 @@ w,,TypeOfConstruction, ,,,,"2801",,,_16_Constructiontype,,,
 #r,,Unknown15, ,,,,"8F0102",Unknown15,,_16_Temp10,,,
 
 #99 01
-r,,Unknown9, ,,,,"990102",Unknown9,,_16_Temp10,,,
+#r,,Unknown9, ,,,,"990102",Unknown9,,_16_Temp10,,,
 
 #A9 01
 #r,,Unknown13, ,,,,"A90102",Unknown13,,_16_Temp10,,,
@@ -208,7 +208,7 @@ r,,FrostProtection,Room frost protection (173) ,,,,"140A02",FrostProtection,,_16
 w,,FrostProtection, ,,,,"140A",,,_16_Temp10,,,
 
 #0C 0A
-r,,OutsideBlendedTemp,Blended Outside Temperature ,,,,"0C0A02",OutsideBlendedTemp,,_16_Temp10,,,
+#r,,OutsideBlendedTemp,Blended Outside Temperature ,,,,"0C0A02",OutsideBlendedTemp,,_16_Temp10,,,
 
 #12 0A
 r,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,

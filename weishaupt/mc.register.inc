@@ -43,7 +43,7 @@
 #r,,DHWSetValue,Hot water setpoint ,,,,"030002",DHWSetValue,,_16_Temp10,,,
 
 #0E 00
-#r,,DHWTemp,Domestic Hot Water temperature ,,,,"0E0002",DHWTemp,,_16_Temp10,,,
+r,,DHWTemp,Domestic Hot Water temperature ,,,,"0E0002",DHWTemp,,_16_Temp10,,,
 
 #28 00
 r,,SupplyMaxTemp,Maximum Supply Temperature (422) ,,,,"280002",SupplyMaxTemp,,_16_Temp10,,,
@@ -167,7 +167,7 @@ w,,Unknown2, ,,,,"4101",Unknown2,,_16_Temp10,,,
 r,,Unknown15, ,,,,"8F0102",Unknown15,,_16_Temp10,,,
 
 #99 01
-#r,,Unknown9, ,,,,"990102",Unknown9,,_16_Temp10,,,
+r,,Unknown9, ,,,,"990102",Unknown9,,_16_Temp10,,,
 
 #A9 01
 #r,,Unknown13, ,,,,"A90102",Unknown13,,_16_Temp10,,,
@@ -208,7 +208,7 @@ w,,Unknown5, ,,,,"B109",Unknown5,,_16_Temp10,,,
 #w,,FrostProtection, ,,,,"140A",,,_16_Temp10,,,
 
 #0C 0A
-#r,,OutsideBlendedTemp,Blended Outside Temperature ,,,,"0C0A02",OutsideBlendedTemp,,_16_Temp10,,,
+r,,OutsideBlendedTemp,Blended Outside Temperature ,,,,"0C0A02",OutsideBlendedTemp,,_16_Temp10,,,
 
 #12 0A
 #r,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
