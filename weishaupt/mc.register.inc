@@ -24,7 +24,7 @@
 #r,,WTCSupplyTemp,Flow temperature WTC ,,,,"0D0002",WTCSupplyTemp,,_16_Temp10,,,
 
 #0F 00
-#r,,HCSupplyTemp,Heating Circuit Supply Temperature (523) ,,,,"0F0002",HCSupplyTemp,,_16_Temp10,,,
+r,,HCSupplyTemp,Heating Circuit Supply Temperature (523) ,,,,"0F0002",HCSupplyTemp,,_16_Temp10,,,
 
 #11 00
 #r,,RoomTemp,Room temperature ,,,,"110002",RoomTemp,,_16_Temp10,,,
