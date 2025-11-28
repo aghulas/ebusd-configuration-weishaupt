@@ -21,7 +21,7 @@
 #r,,OutsideTemp,Outside Temperature ,,,,"0C0002",OutsideTemp,,_16_Temp10,,,
 
 #0D 00
-r,,WTCSupplyTemp,Flow temperature WTC ,,,,"0D0002",WTCSupplyTemp,,_16_Temp10,,,
+#r,,WTCSupplyTemp,Flow temperature WTC ,,,,"0D0002",WTCSupplyTemp,,_16_Temp10,,,
 
 #0F 00
 #r,,HCSupplyTemp,Heating Circuit Supply Temperature (523) ,,,,"0F0002",HCSupplyTemp,,_16_Temp10,,,
@@ -46,8 +46,8 @@ r,,DHWSetValue,Hot water setpoint ,,,,"030002",DHWSetValue,,_16_Temp10,,,
 r,,DHWTemp,Domestic Hot Water temperature ,,,,"0E0002",DHWTemp,,_16_Temp10,,,
 
 #28 00
-r,,SupplyMaxTemp,Maximum Supply Temperature (422) ,,,,"280002",SupplyMaxTemp,,_16_Temp10,,,
-w,,SupplyMaxTemp, ,,,,"2800",SupplyMaxTemp,,_16_Temp10,,,
+#r,,SupplyMaxTemp,Maximum Supply Temperature (422) ,,,,"280002",SupplyMaxTemp,,_16_Temp10,,,
+#w,,SupplyMaxTemp, ,,,,"2800",SupplyMaxTemp,,_16_Temp10,,,
 
 #2B 00
 #r,,MixerParameter,Mixer Parameter (425) ,,,,"2B0002",MixerParameter,,_16_TempK10,,,
@@ -70,8 +70,8 @@ w,,LegionellaFunction, ,,,,"0101",,,_16_Legionelladay,,,
 #w,,Gradient, ,,,,"0E01",,,_16_Gradient10,,,
 
 #10 01
-r,,SwitchOnSetting,Switch-on delay (353) ,,,,"100102",SwitchOnSetting,,_16_Minutes,,,
-w,,SwitchOnSetting, ,,,,"1001",,,_16_Minutes,,,
+#r,,SwitchOnSetting,Switch-on delay (353) ,,,,"100102",SwitchOnSetting,,_16_Minutes,,,
+#w,,SwitchOnSetting, ,,,,"1001",,,_16_Minutes,,,
 
 #11 01
 #r,,BoilerMCBoost,Boiler MC Boost(424) ,,,,"110102",BoilerMCBoost,,_16_TempK10,,,
@@ -116,8 +116,8 @@ w,,SwitchOnSetting, ,,,,"1001",,,_16_Minutes,,,
 #w,,TypeOfConstruction, ,,,,"2801",,,_16_Constructiontype,,,
 
 #2B 01
-r,,SupplyMinTemp,Minimum Supply Temperature (421) ,,,,"2B0102",SupplyMinTemp,,_16_Temp10,,,
-w,,SupplyMinTemp, ,,,,"2B01",SupplyMinTemp,,_16_Temp10,,,
+#r,,SupplyMinTemp,Minimum Supply Temperature (421) ,,,,"2B0102",SupplyMinTemp,,_16_Temp10,,,
+#w,,SupplyMinTemp, ,,,,"2B01",SupplyMinTemp,,_16_Temp10,,,
 
 #2D 01
 #r,,HolidayTemp,Holiday temperature (183) ,,,,"2D0102",,,_16_TempReduced,,,
@@ -140,8 +140,8 @@ w,,SupplyMinTemp, ,,,,"2B01",SupplyMinTemp,,_16_Temp10,,,
 #w,,PumpVSDvariable, ,,,,"3101",,,_16_PumpVariationSpeed,,,
 
 #32 01
-r,,Reduct,Reduct (501) ,,,,"320102",Reduct,,_16_TempReduced,,,
-w,,Reduct, ,,,,"3201",,,_16_TempReduced,,,
+#r,,Reduct,Reduct (501) ,,,,"320102",Reduct,,_16_TempReduced,,,
+#w,,Reduct, ,,,,"3201",,,_16_TempReduced,,,
 
 #33 01
 r,,DHWMin,Hot water Min (177) ,,,,"330102",,,_16_Temp10,,,
@@ -167,7 +167,7 @@ w,,DHWOperation, ,,,,"3701",,,_16_DhwOperation,,,
 #r,,Unknown15, ,,,,"8F0102",Unknown15,,_16_Temp10,,,
 
 #99 01
-r,,Unknown9, ,,,,"990102",Unknown9,,_16_Temp10,,,
+#r,,Unknown9, ,,,,"990102",Unknown9,,_16_Temp10,,,
 
 #A9 01
 r,,Unknown13, ,,,,"A90102",Unknown13,,_16_Temp10,,,
@@ -195,8 +195,8 @@ r,,Unknown14, ,,,,"AA0102",Unknown14,,_16_Temp10,,,
 #w,,Unknown3, ,,,,"7309",Unknown2,,_16_Temp10,,,
 
 #81 09
-r,,Unknown5, ,,,,"B10902",Unknown5,,_16_Temp10,,,
-w,,Unknown5, ,,,,"B109",Unknown5,,_16_Temp10,,,
+#r,,Unknown5, ,,,,"B10902",Unknown5,,_16_Temp10,,,
+#w,,Unknown5, ,,,,"B109",Unknown5,,_16_Temp10,,,
 
 
 #1C 0A 
