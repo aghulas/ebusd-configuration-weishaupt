@@ -13,13 +13,13 @@ echo DHWSetValue; ebusctl read -f -c hc3 DHWSetValue
 echo DHWTemp; ebusctl read -f -c hc3 DHWTemp
 echo SupplyMaxTemp; ebusctl read -f -c hc3 SupplyMaxTemp
 echo MixerParameter; ebusctl read -f -c hc3 MixerParameter
-echo LegionellaFunction; ebusctl read -f -c hc3 LegionellaFunction
+echo DHWLegionellaFunction; ebusctl read -f -c hc3 DHWLegionellaFunction
 echo RoomFactorP; ebusctl read -f -c hc3 RoomFactorP
 echo RoomSensorCorrection; ebusctl read -f -c hc3 RoomSensorCorrection
 echo Gradient; ebusctl read -f -c hc3 Gradient
 echo SwitchOnSetting; ebusctl read -f -c hc3 SwitchOnSetting
 echo BoilerMCBoost; ebusctl read -f -c hc3 BoilerMCBoost
-echo ProgramChooseSwitch; ebusctl read -f -c hc3 ProgramChooseSwitch
+echo ProgramSelection; ebusctl read -f -c hc3 ProgramSelection
 echo Adaption; ebusctl read -f -c hc3 Adaption
 echo SummerWinterChangeOverTemp; ebusctl read -f -c hc3 SummerWinterChangeOverTemp
 echo FloorDryingFunction; ebusctl read -f -c hc3 FloorDryingFunction

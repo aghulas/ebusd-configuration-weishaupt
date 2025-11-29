@@ -42,7 +42,7 @@ r9,,Gradient,Steepness (175) ,,,,"0E0102",Gradient,,_16_Gradient10,,,
 w,,Gradient, ,,,,"0E01",,,_16_Gradient10,,,
 
 #12 01
-r5,,ProgramChooseSwitch,Program selector switch position ,,,,"120102",ProgramChooseSwitch,,_16_ProgramChooseSwitch,,,
+r5,,ProgramSelection,Program selector switch position ,,,,"120102",ProgramSelection,,_16_ProgramSelection,,,
 
 #16 01
 r9,,SummerWinterChangeOverTemp,Summer/winter changeover temperature (174) ,,,,"160102",SuWiChangeOverTemp,,_16_Temp10,,,

@@ -41,8 +41,8 @@ r,,MixerParameter,Mixer Parameter (425) ,,,,"2B0002",MixerParameter,,_16_TempK10
 w,,MixerParameter, ,,,,"2B00",,,_16_TempK10,,,
 
 #01 01
-r,,LegionellaFunction,Legionella Protection Function (605) ,,,,"010102",LegionellaFunction,,_16_Legionelladay,,,
-w,,LegionellaFunction, ,,,,"0101",,,_16_Legionelladay,,,
+r,,DHWLegionellaFunction,Legionella Protection Function (605) ,,,,"010102",DHWLegionellaFunction,,_16_Legionelladay,,,
+w,,DHWLegionellaFunction, ,,,,"0101",,,_16_Legionelladay,,,
 
 #0F 01
 r,,RoomFactorP,Room Factor-P (508) ,,,,"0F0102",RoomFactorP,,_16_RoomFactorP,,,
@@ -65,7 +65,7 @@ r,,BoilerMCBoost,Boiler MC Boost(424) ,,,,"110102",BoilerMCBoost,,_16_TempK10,,,
 w,,BoilerMCBoost, ,,,,"1101",,,_16_TempK10,,,
 
 #12 01
-r,,ProgramChooseSwitch,Program selector switch position ,,,,"120102",ProgramChooseSwitch,,_16_ProgramChooseSwitch,,,
+r,,ProgramSelection,Program selector switch position ,,,,"120102",ProgramSelection,,_16_ProgramSelection,,,
 
 #15 01
 r,,Adaption,Adaption (507) ,,,,"150102",Adaption,,_16_OnOff2,,,
