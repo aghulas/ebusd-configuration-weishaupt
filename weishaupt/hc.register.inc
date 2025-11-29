@@ -52,24 +52,24 @@ w,,SummerWinterChangeOverTemp, ,,,,"1601",,,_16_Temp10,,,
 r9,,FloorDryingFunction,Screed function (381) ,,,,"1A0102",FloorDryingFunction,,_16_Floordrying,,,
 
 #1B 01
-r9,,StartOfHoliday,Start of vacation (181) ,,,,"1B0104",Day,,_16_HolidayDay,,,Day ,Month,,_16_HolidayMonth,,,Month
-w,,StartOfHoliday, ,,,,"1B01",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
-r9,,StartOfHoliday.Day,Start of vacation Day (181) ,,,,"1B0102",StartOfHoliday.Day,,_16_HolidayDay,,,
-#w,,StartOfHoliday.Day, ,,,,"1B01",,,_16_HolidayDay,,,
+r9,,HolidayStart,Start of vacation (181) ,,,,"1B0104",Day,,_16_HolidayDay,,,Day ,Month,,_16_HolidayMonth,,,Month
+w,,HolidayStart, ,,,,"1B01",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
+r9,,HolidayStart.Day,Start of vacation Day (181) ,,,,"1B0102",HolidayStart.Day,,_16_HolidayDay,,,
+#w,,HolidayStart.Day, ,,,,"1B01",,,_16_HolidayDay,,,
 
 #1C 01
-r9,,StartOfHoliday.Month,Start of vacation Month (181) ,,,,"1C0102",StartOfHoliday.Month,,_16_HolidayMonth,,,
-w,,StartOfHoliday.Month, ,,,,"1C0102",,,_16_HolidayMonth,,,
+r9,,HolidayStart.Month,Start of vacation Month (181) ,,,,"1C0102",HolidayStart.Month,,_16_HolidayMonth,,,
+w,,HolidayStart.Month, ,,,,"1C0102",,,_16_HolidayMonth,,,
 
 #1E 01
-r9,,EndOfHoliday, (182) ,,,,"1E0104",Day,,_16_HolidayDay,,,Day ,Month,,_16_HolidayMonth,,,Month
-w,,EndOfHoliday, ,,,,"1E01",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
-r9,,EndOfHoliday.Day, Day (182) ,,,,"1E0102",EndOfHoliday.Day,,_16_HolidayDay,,,
-#w,,EndOfHoliday.Day, ,,,,"1E01",,,_16_HolidayDay,,,
+r9,,HolidayEnd, (182) ,,,,"1E0104",Day,,_16_HolidayDay,,,Day ,Month,,_16_HolidayMonth,,,Month
+w,,HolidayEnd, ,,,,"1E01",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
+r9,,HolidayEnd.Day, Day (182) ,,,,"1E0102",HolidayEnd.Day,,_16_HolidayDay,,,
+#w,,HolidayEnd.Day, ,,,,"1E01",,,_16_HolidayDay,,,
 
 #1F 01
-r9,,EndOfHoliday.Month, Month (182) ,,,,"1F0102",EndOfHoliday.Month,,_16_HolidayMonth,,,
-w,,EndOfHoliday.Month, ,,,,"1F01",,,_16_HolidayMonth,,,
+r9,,HolidayEnd.Month, Month (182) ,,,,"1F0102",HolidayEnd.Month,,_16_HolidayMonth,,,
+w,,HolidayEnd.Month, ,,,,"1F01",,,_16_HolidayMonth,,,
 
 #28 01
 r9,,TypeOfConstruction,Construction method (371) ,,,,"280102",TypeOfConstruction,,_16_Constructiontype,,,
