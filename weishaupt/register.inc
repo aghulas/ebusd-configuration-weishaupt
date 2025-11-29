@@ -154,7 +154,7 @@ w,,Unknown2, ,,,,"4101",Unknown2,,_16_Temp10,,,
 r,,Unknown15, ,,,,"8F0102",Unknown15,,_16_Temp10,,,
 
 #99 01
-r,,Unknown9, ,,,,"990102",Unknown9,,UIN,,,
+r,,Unknown9, ,,,,"990102",Unknown9,,HCD:2,,,
 
 #A9 01
 r,,Unknown13, ,,,,"A90102",Unknown13,,_16_Temp10,,,
