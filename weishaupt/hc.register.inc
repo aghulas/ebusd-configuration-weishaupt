@@ -167,7 +167,7 @@ w,,TypeOfConstruction, ,,,,"2801",,,_16_Constructiontype,,,
 #r,,Unknown15, ,,,,"8F0102",Unknown15,,_16_Temp10,,,
 
 #99 01
-#r,,Unknown9, ,,,,"990102",Unknown9,,HCD:2,,,
+#r,,Unknown9, ,,,,"990102",Unknown9,,UIN,,,
 
 #A9 01
 #r,,Unknown13, ,,,,"A90102",Unknown13,,_16_Temp10,,,
@@ -195,8 +195,8 @@ w,,TypeOfConstruction, ,,,,"2801",,,_16_Constructiontype,,,
 #w,,Unknown3, ,,,,"7309",Unknown2,,_16_Temp10,,,
 
 #81 09
-#r,,Unknown5, ,,,,"B10902",Unknown5,,_16_Temp10,,,
-#w,,Unknown5, ,,,,"B109",Unknown5,,_16_Temp10,,,
+#r,,Unknown5, ,,,,"B10902",Unknown5,,UIN,,,
+#w,,Unknown5, ,,,,"B109",Unknown5,,UIN,,,
 
 
 #1C 0A 

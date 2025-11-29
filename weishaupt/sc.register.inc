@@ -195,8 +195,8 @@ r,,Unknown3, ,,,,"730902",Unknown2,,_16_Temp10,,,
 w,,Unknown3, ,,,,"7309",Unknown2,,_16_Temp10,,,
 
 #81 09
-r,,Unknown5, ,,,,"B10902",Unknown5,,_16_Temp10,,,
-w,,Unknown5, ,,,,"B109",Unknown5,,_16_Temp10,,,
+r,,Unknown5, ,,,,"B10902",Unknown5,,UIN,,,
+w,,Unknown5, ,,,,"B109",Unknown5,,UIN,,,
 
 
 #1C 0A 
