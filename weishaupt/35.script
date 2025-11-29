@@ -23,8 +23,10 @@ echo ProgramChooseSwitch; ebusctl read -f -d 35 ProgramChooseSwitch
 echo Adaption; ebusctl read -f -d 35 Adaption
 echo SummerWinterChangeOverTemp; ebusctl read -f -d 35 SummerWinterChangeOverTemp
 echo FloorDryingFunction; ebusctl read -f -d 35 FloorDryingFunction
+echo StartOfHoliday; ebusctl read -f -d 35 StartOfHoliday
 echo StartOfHoliday.Day; ebusctl read -f -d 35 StartOfHoliday.Day
 echo StartOfHoliday.Month; ebusctl read -f -d 35 StartOfHoliday.Month
+echo EndOfHoliday; ebusctl read -f -d 35 EndOfHoliday
 echo EndOfHoliday.Day; ebusctl read -f -d 35 EndOfHoliday.Day
 echo EndOfHoliday.Month; ebusctl read -f -d 35 EndOfHoliday.Month
 echo TypeOfConstruction; ebusctl read -f -d 35 TypeOfConstruction

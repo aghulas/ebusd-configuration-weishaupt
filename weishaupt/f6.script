@@ -3,7 +3,7 @@ echo SupplyNormalSetPoint;ebusctl read -f -d f6 SupplyNormalSetPoint
 echo RoomNormalTemp;ebusctl read -f -d f6 RoomNormalTemp
 echo RoomSetbackTemp; ebusctl read -f -d f6 RoomSetbackTemp
 echo OutsideTemp; ebusctl read -f -d f6 OutsideTemp
-echo SupplyTempWTC; ebusctl read -f -d f6 SupplyTempWTC
+echo WTCSupplyTemp; ebusctl read -f -d f6 WTCSupplyTemp
 echo HCSupplyTemp; ebusctl read -f -d f6 HCSupplyTemp
 echo RoomTemp; ebusctl read -f -d f6 RoomTemp
 echo RoomSetValue; ebusctl read -f -d f6 RoomSetValue
@@ -23,8 +23,10 @@ echo ProgramChooseSwitch; ebusctl read -f -d f6 ProgramChooseSwitch
 echo Adaption; ebusctl read -f -d f6 Adaption
 echo SummerWinterChangeOverTemp; ebusctl read -f -d f6 SummerWinterChangeOverTemp
 echo FloorDryingFunction; ebusctl read -f -d f6 FloorDryingFunction
+echo StartOfHoliday; ebusctl read -f -d f6 StartOfHoliday
 echo StartOfHoliday.Day; ebusctl read -f -d f6 StartOfHoliday.Day
 echo StartOfHoliday.Month; ebusctl read -f -d f6 StartOfHoliday.Month
+echo EndOfHoliday; ebusctl read -f -d f6 EndOfHoliday
 echo EndOfHoliday.Day; ebusctl read -f -d f6 EndOfHoliday.Day
 echo EndOfHoliday.Month; ebusctl read -f -d f6 EndOfHoliday.Month
 echo TypeOfConstruction; ebusctl read -f -d f6 TypeOfConstruction
