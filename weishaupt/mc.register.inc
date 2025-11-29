@@ -1,10 +1,10 @@
 # type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
-#,,Process values ​​heating circuit controller9,,,,,,,,,,,,
+#,,Process values ​​heating Circuit controller9,,,,,,,,,,,,
 *r,,,,,,"0902",,,,,,,
 *w,,,,,,"0903",,,,,,,
 
 #0F 00
-r1,,HCSupplyTemp,Heating Circuit Supply Temperature (523) ,,,,"0F0002",HCSupplyTemp,,_16_Temp10,,,
+r1,,SupplyHCTemp,Heating Circuit Supply Temperature (523) ,,,,"0F0002",SupplyHCTemp,,_16_Temp10,,,
 
 #0E 00
 r9,,DHWTemp,Domestic Hot Water temperature ,,,,"0E0002",DHWTemp,,_16_Temp10,,,
