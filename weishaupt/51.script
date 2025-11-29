@@ -72,8 +72,8 @@ echo HCProgram1.Fr.3; ebusctl read -f -d 51 HCProgram1.Fr.3
 echo HCProgram1.Sa.3; ebusctl read -f -d 51 HCProgram1.Sa.3
 echo HCProgram1.Su.3; ebusctl read -f -d 51 HCProgram1.Su.3
 
-echo HCProgramMo.2.1; ebusctl read -f -d 51 HCProgramMo.2.1
-echo HCProgramTu.2.1; ebusctl read -f -d 51 HCProgramTu.2.1
+echo HCProgram2.Mo.1; ebusctl read -f -d 51 HCProgram2.Mo.1
+echo HCProgram2.Tu.1; ebusctl read -f -d 51 HCProgram2.Tu.1
 echo HCProgram2.We.1; ebusctl read -f -d 51 HCProgram2.We.1
 echo HCProgram2.Th.1; ebusctl read -f -d 51 HCProgram2.Th.1
 echo HCProgram2.Fr.1; ebusctl read -f -d 51 HCProgram2.Fr.1
@@ -81,7 +81,7 @@ echo HCProgram2.Sa.1; ebusctl read -f -d 51 HCProgram2.Sa.1
 echo HCProgram2.Su.1; ebusctl read -f -d 51 HCProgram2.Su.1
 
 echo HCProgram2.Mo.2; ebusctl read -f -d 51 HCProgram2.Mo.2
-echo HCProgramTu.2.2; ebusctl read -f -d 51 HCProgramTu.2.2
+echo HCProgram2.Tu.2; ebusctl read -f -d 51 HCProgram2.Tu.2
 echo HCProgram2.We.2; ebusctl read -f -d 51 HCProgram2.We.2
 echo HCProgram2.Th.2; ebusctl read -f -d 51 HCProgram2.Th.2
 echo HCProgram2.Fr.2; ebusctl read -f -d 51 HCProgram2.Fr.2
@@ -89,7 +89,7 @@ echo HCProgram2.Sa.2; ebusctl read -f -d 51 HCProgram2.Sa.2
 echo HCProgram2.Su.2; ebusctl read -f -d 51 HCProgram2.Su.2
 
 echo HCProgram2.Mo.3; ebusctl read -f -d 51 HCProgram2.Mo.3
-echo HCProgramTu.2.3; ebusctl read -f -d 51 HCProgramTu.2.3
+echo HCProgram2.Tu.3; ebusctl read -f -d 51 HCProgram2.Tu.3
 echo HCProgram2.We.3; ebusctl read -f -d 51 HCProgram2.We.3
 echo HCProgram2.Th.3; ebusctl read -f -d 51 HCProgram2.Th.3
 echo HCProgram2.Fr.3; ebusctl read -f -d 51 HCProgram2.Fr.3

@@ -310,8 +310,8 @@ r,,Unknown14, ,,,,"AA0102",Unknown14,,_16_Temp10,,,
 
 
 #10 15
-#r,,HCProgramMo.2.1,Heating Program 2 Mo 1 Start/End (User 131) ,,,,"101502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-#w,,HCProgramMo.2.1,Heating Program 2 Mo 1 Start/End (User 131) ,,,,"1015",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+#r,,HCProgram2.Mo.1,Heating Program 2 Mo 1 Start/End (User 131) ,,,,"101502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+#w,,HCProgram2.Mo.1,Heating Program 2 Mo 1 Start/End (User 131) ,,,,"1015",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
 
 #11 15
 #r,,HCProgram2.Mo.2,Heating Program 2 Mo 2 Start/End (User 131) ,,,,"111502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
@@ -322,16 +322,16 @@ r,,Unknown14, ,,,,"AA0102",Unknown14,,_16_Temp10,,,
 #w,,HCProgram2.Mo.3,Heating Program 2 Mo 3 Start/End (User 131) ,,,,"1215",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
 
 #20 15
-#r,,HCProgramTu.2.1,Heating Program 2 Tu 1 Start/End (User 132) ,,,,"201502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-#w,,HCProgramTu.2.1,Heating Program 2 Tu 1 Start/End (User 132) ,,,,"2015",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+#r,,HCProgram2.Tu.1,Heating Program 2 Tu 1 Start/End (User 132) ,,,,"201502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+#w,,HCProgram2.Tu.1,Heating Program 2 Tu 1 Start/End (User 132) ,,,,"2015",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
 
 #21 15
-#r,,HCProgramTu.2.2,Heating Program 2 Tu 2 Start/End (User 132) ,,,,"211502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-#w,,HCProgramTu.2.2,Heating Program 2 Tu 2 Start/End (User 132) ,,,,"2115",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+#r,,HCProgram2.Tu.2,Heating Program 2 Tu 2 Start/End (User 132) ,,,,"211502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+#w,,HCProgram2.Tu.2,Heating Program 2 Tu 2 Start/End (User 132) ,,,,"2115",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
 
 #22 15
-#r,,HCProgramTu.2.3,Heating Program 2 Tu 3 Start/End (User 132) ,,,,"221502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-#w,,HCProgramTu.2.3,Heating Program 2 Tu 3 Start/End (User 132) ,,,,"2215",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+#r,,HCProgram2.Tu.3,Heating Program 2 Tu 3 Start/End (User 132) ,,,,"221502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+#w,,HCProgram2.Tu.3,Heating Program 2 Tu 3 Start/End (User 132) ,,,,"2215",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
 
 #30 15
 #r,,HCProgram2.We.1,Heating Program 2 We 1 Start/End (User 133) ,,,,"301502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
