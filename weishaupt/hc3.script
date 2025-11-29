@@ -1,0 +1,161 @@
+echo HeatDemand; ebusctl read -f -c hc3 HeatDemand
+echo SupplySetPoint;ebusctl read -f -c hc3 SupplySetPoint
+echo RoomNormalTemp;ebusctl read -f -c hc3 RoomNormalTemp
+echo RoomSetbackTemp; ebusctl read -f -c hc3 RoomSetbackTemp
+echo OutsideTemp; ebusctl read -f -c hc3 OutsideTemp
+echo SupplyWTCTemp; ebusctl read -f -c hc3 SupplyWTCTemp
+echo SupplyHCTemp; ebusctl read -f -c hc3 SupplyHCTemp
+echo RoomTemp; ebusctl read -f -c hc3 RoomTemp
+echo RoomSetPoint; ebusctl read -f -c hc3 RoomSetPoint
+echo DHWSetpoint; ebusctl read -f -c hc3 DHWSetpoint
+echo OutsideWeightedTemp; ebusctl read -f -c hc3 OutsideWeightedTemp
+echo DHWSetValue; ebusctl read -f -c hc3 DHWSetValue
+echo DHWTemp; ebusctl read -f -c hc3 DHWTemp
+echo SupplyMaxTemp; ebusctl read -f -c hc3 SupplyMaxTemp
+echo MixerParameter; ebusctl read -f -c hc3 MixerParameter
+echo LegionellaFunction; ebusctl read -f -c hc3 LegionellaFunction
+echo RoomFactorP; ebusctl read -f -c hc3 RoomFactorP
+echo RoomSensorCorrection; ebusctl read -f -c hc3 RoomSensorCorrection
+echo Gradient; ebusctl read -f -c hc3 Gradient
+echo SwitchOnSetting; ebusctl read -f -c hc3 SwitchOnSetting
+echo BoilerMCBoost; ebusctl read -f -c hc3 BoilerMCBoost
+echo ProgramChooseSwitch; ebusctl read -f -c hc3 ProgramChooseSwitch
+echo Adaption; ebusctl read -f -c hc3 Adaption
+echo SummerWinterChangeOverTemp; ebusctl read -f -c hc3 SummerWinterChangeOverTemp
+echo FloorDryingFunction; ebusctl read -f -c hc3 FloorDryingFunction
+echo HolidayStart; ebusctl read -f -c hc3 HolidayStart
+echo HolidayStart.Day; ebusctl read -f -c hc3 HolidayStart.Day
+echo HolidayStart.Month; ebusctl read -f -c hc3 HolidayStart.Month
+echo HolidayEnd; ebusctl read -f -c hc3 HolidayEnd
+echo HolidayEnd.Day; ebusctl read -f -c hc3 HolidayEnd.Day
+echo HolidayEnd.Month; ebusctl read -f -c hc3 HolidayEnd.Month
+echo TypeOfConstruction; ebusctl read -f -c hc3 TypeOfConstruction
+echo SupplyMinTemp; ebusctl read -f -c hc3 SupplyMinTemp
+echo HolidayTemp; ebusctl read -f -c hc3 HolidayTemp
+echo WtcDelay; ebusctl read -f -c hc3 WtcDelay
+echo PumpMaxSpeed; ebusctl read -f -c hc3 PumpMaxSpeed
+echo PumpMinSpeed; ebusctl read -f -c hc3 PumpMinSpeed
+echo PumpVSDvariable; ebusctl read -f -c hc3 PumpVSDvariable
+echo Reduct; ebusctl read -f -c hc3 Reduct
+echo DHWMin; ebusctl read -f -c hc3 DHWMin
+echo DHWMaxTemp; ebusctl read -f -c hc3 DHWMaxTemp
+echo DHWMode; ebusctl read -f -c hc3 DHWMode
+echo DHWOperation; ebusctl read -f -c hc3 DHWOperation
+
+echo RoomThermostat; ebusctl read -f -c hc3 RoomThermostat
+echo RoomFrostProtection; ebusctl read -f -c hc3 RoomFrostProtection
+echo OutsideBlendedTemp; ebusctl read -f -c hc3 OutsideBlendedTemp
+echo FloorDryingDay; ebusctl read -f -c hc3 FloorDryingDay
+echo FloorDryingTemp; ebusctl read -f -c hc3 FloorDryingTemp
+
+echo HCProgram1.Mo.1; ebusctl read -f -c hc3 HCProgram1.Mo.1
+echo HCProgram1.Tu.1; ebusctl read -f -c hc3 HCProgram1.Tu.1
+echo HCProgram1.We.1; ebusctl read -f -c hc3 HCProgram1.We.1
+echo HCProgram1.Th.1; ebusctl read -f -c hc3 HCProgram1.Th.1
+echo HCProgram1.Fr.1; ebusctl read -f -c hc3 HCProgram1.Fr.1
+echo HCProgram1.Sa.1; ebusctl read -f -c hc3 HCProgram1.Sa.1
+echo HCProgram1.Su.1; ebusctl read -f -c hc3 HCProgram1.Su.1
+
+echo HCProgram1.Mo.2; ebusctl read -f -c hc3 HCProgram1.Mo.2
+echo HCProgram1.Tu.2; ebusctl read -f -c hc3 HCProgram1.Tu.2
+echo HCProgram1.We.2; ebusctl read -f -c hc3 HCProgram1.We.2
+echo HCProgram1.Th.2; ebusctl read -f -c hc3 HCProgram1.Th.2
+echo HCProgram1.Fr.2; ebusctl read -f -c hc3 HCProgram1.Fr.2
+echo HCProgram1.Sa.2; ebusctl read -f -c hc3 HCProgram1.Sa.2
+echo HCProgram1.Su.2; ebusctl read -f -c hc3 HCProgram1.Su.2
+
+echo HCProgram1.Mo.3; ebusctl read -f -c hc3 HCProgram1.Mo.3
+echo HCProgram1.Tu.3; ebusctl read -f -c hc3 HCProgram1.Tu.3
+echo HCProgram1.We.3; ebusctl read -f -c hc3 HCProgram1.We.3
+echo HCProgram1.Th.3; ebusctl read -f -c hc3 HCProgram1.Th.3
+echo HCProgram1.Fr.3; ebusctl read -f -c hc3 HCProgram1.Fr.3
+echo HCProgram1.Sa.3; ebusctl read -f -c hc3 HCProgram1.Sa.3
+echo HCProgram1.Su.3; ebusctl read -f -c hc3 HCProgram1.Su.3
+
+echo HCProgram2.Mo.1; ebusctl read -f -c hc3 HCProgram2.Mo.1
+echo HCProgram2.Tu.1; ebusctl read -f -c hc3 HCProgram2.Tu.1
+echo HCProgram2.We.1; ebusctl read -f -c hc3 HCProgram2.We.1
+echo HCProgram2.Th.1; ebusctl read -f -c hc3 HCProgram2.Th.1
+echo HCProgram2.Fr.1; ebusctl read -f -c hc3 HCProgram2.Fr.1
+echo HCProgram2.Sa.1; ebusctl read -f -c hc3 HCProgram2.Sa.1
+echo HCProgram2.Su.1; ebusctl read -f -c hc3 HCProgram2.Su.1
+
+echo HCProgram2.Mo.2; ebusctl read -f -c hc3 HCProgram2.Mo.2
+echo HCProgram2.Tu.2; ebusctl read -f -c hc3 HCProgram2.Tu.2
+echo HCProgram2.We.2; ebusctl read -f -c hc3 HCProgram2.We.2
+echo HCProgram2.Th.2; ebusctl read -f -c hc3 HCProgram2.Th.2
+echo HCProgram2.Fr.2; ebusctl read -f -c hc3 HCProgram2.Fr.2
+echo HCProgram2.Sa.2; ebusctl read -f -c hc3 HCProgram2.Sa.2
+echo HCProgram2.Su.2; ebusctl read -f -c hc3 HCProgram2.Su.2
+
+echo HCProgram2.Mo.3; ebusctl read -f -c hc3 HCProgram2.Mo.3
+echo HCProgram2.Tu.3; ebusctl read -f -c hc3 HCProgram2.Tu.3
+echo HCProgram2.We.3; ebusctl read -f -c hc3 HCProgram2.We.3
+echo HCProgram2.Th.3; ebusctl read -f -c hc3 HCProgram2.Th.3
+echo HCProgram2.Fr.3; ebusctl read -f -c hc3 HCProgram2.Fr.3
+echo HCProgram2.Sa.3; ebusctl read -f -c hc3 HCProgram2.Sa.3
+echo HCProgram2.Su.3; ebusctl read -f -c hc3 HCProgram2.Su.3
+
+echo DHWProgram.Mo.1; ebusctl read -f -c hc3 DHWProgram.Mo.1
+echo DHWProgram.Tu.1; ebusctl read -f -c hc3 DHWProgram.Tu.1
+echo DHWProgram.We.1; ebusctl read -f -c hc3 DHWProgram.We.1
+echo DHWProgram.Th.1; ebusctl read -f -c hc3 DHWProgram.Th.1
+echo DHWProgram.Fr.1; ebusctl read -f -c hc3 DHWProgram.Fr.1
+echo DHWProgram.Sa.1; ebusctl read -f -c hc3 DHWProgram.Sa.1
+echo DHWProgram.Su.1; ebusctl read -f -c hc3 DHWProgram.Su.1
+
+echo DHWProgram.Mo.2; ebusctl read -f -c hc3 DHWProgram.Mo.2
+echo DHWProgram.Tu.2; ebusctl read -f -c hc3 DHWProgram.Tu.2
+echo DHWProgram.We.2; ebusctl read -f -c hc3 DHWProgram.We.2
+echo DHWProgram.Th.2; ebusctl read -f -c hc3 DHWProgram.Th.2
+echo DHWProgram.Fr.2; ebusctl read -f -c hc3 DHWProgram.Fr.2
+echo DHWProgram.Sa.2; ebusctl read -f -c hc3 DHWProgram.Sa.2
+echo DHWProgram.Su.2; ebusctl read -f -c hc3 DHWProgram.Su.2
+
+echo DHWProgram.Mo.3; ebusctl read -f -c hc3 DHWProgram.Mo.3
+echo DHWProgram.Tu.3; ebusctl read -f -c hc3 DHWProgram.Tu.3
+echo DHWProgram.We.3; ebusctl read -f -c hc3 DHWProgram.We.3
+echo DHWProgram.Th.3; ebusctl read -f -c hc3 DHWProgram.Th.3
+echo DHWProgram.Fr.3; ebusctl read -f -c hc3 DHWProgram.Fr.3
+echo DHWProgram.Sa.3; ebusctl read -f -c hc3 DHWProgram.Sa.3
+echo DHWProgram.Su.3; ebusctl read -f -c hc3 DHWProgram.Su.3
+
+echo CircProgram.Mo.1; ebusctl read -f -c hc3 CircProgram.Mo.1
+echo CircProgram.Tu.1; ebusctl read -f -c hc3 CircProgram.Tu.1
+echo CircProgram.We.1; ebusctl read -f -c hc3 CircProgram.We.1
+echo CircProgram.Th.1; ebusctl read -f -c hc3 CircProgram.Th.1
+echo CircProgram.Fr.1; ebusctl read -f -c hc3 CircProgram.Fr.1
+echo CircProgram.Sa.1; ebusctl read -f -c hc3 CircProgram.Sa.1
+echo CircProgram.Su.1; ebusctl read -f -c hc3 CircProgram.Su.1
+
+echo CircProgram.Mo.2; ebusctl read -f -c hc3 CircProgram.Mo.2
+echo CircProgram.Tu.2; ebusctl read -f -c hc3 CircProgram.Tu.2
+echo CircProgram.We.2; ebusctl read -f -c hc3 CircProgram.We.2
+echo CircProgram.Th.2; ebusctl read -f -c hc3 CircProgram.Th.2
+echo CircProgram.Fr.2; ebusctl read -f -c hc3 CircProgram.Fr.2
+echo CircProgram.Sa.2; ebusctl read -f -c hc3 CircProgram.Sa.2
+echo CircProgram.Su.2; ebusctl read -f -c hc3 CircProgram.Su.2
+
+echo CircProgram.Mo.3; ebusctl read -f -c hc3 CircProgram.Mo.3
+echo CircProgram.Tu.3; ebusctl read -f -c hc3 CircProgram.Tu.3
+echo CircProgram.We.3; ebusctl read -f -c hc3 CircProgram.We.3
+echo CircProgram.Th.3; ebusctl read -f -c hc3 CircProgram.Th.3
+echo CircProgram.Fr.3; ebusctl read -f -c hc3 CircProgram.Fr.3
+echo CircProgram.Sa.3; ebusctl read -f -c hc3 CircProgram.Sa.3
+echo CircProgram.Su.3; ebusctl read -f -c hc3 CircProgram.Su.3
+
+echo Unknown1; ebusctl read -f -c hc3 Unknown1
+echo Unknown2; ebusctl read -f -c hc3 Unknown2
+echo Unknown3; ebusctl read -f -c hc3 Unknown3
+echo Unknown4; ebusctl read -f -c hc3 Unknown4
+echo Unknown5; ebusctl read -f -c hc3 Unknown5
+echo Unknown7; ebusctl read -f -c hc3 Unknown7
+echo Unknown8; ebusctl read -f -c hc3 Unknown8
+echo Unknown9; ebusctl read -f -c hc3 Unknown9
+echo Unknown10; ebusctl read -f -c hc3 Unknown10
+echo Unknown11; ebusctl read -f -c hc3 Unknown11
+echo Unknown12; ebusctl read -f -c hc3 Unknown12
+echo Unknown13; ebusctl read -f -c hc3 Unknown13
+echo Unknown14; ebusctl read -f -c hc3 Unknown14
+echo Unknown15; ebusctl read -f -c hc3 Unknown15
+echo Unknown16; ebusctl read -f -c hc3 Unknown16
