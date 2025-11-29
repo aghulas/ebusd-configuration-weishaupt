@@ -14,8 +14,8 @@ r9,,SupplyMaxTemp,Maximum Supply Temperature (422) ,,,,"280002",SupplyMaxTemp,,_
 w,,SupplyMaxTemp, ,,,,"2800",SupplyMaxTemp,,_16_Temp10,,,
 
 #2B 00
-r9,,MixerParameter9,Mixer Parameter (425) ,,,,"2B0002",MixerParameter9,,_16_TempK10,,,
-w,,MixerParameter9, ,,,,"2B00",,,_16_TempK10,,,
+r9,,MixerParameter,Mixer Parameter (425) ,,,,"2B0002",MixerParameter,,_16_TempK10,,,
+w,,MixerParameter, ,,,,"2B00",,,_16_TempK10,,,
 
 #10 01
 r9,,SwitchOnSetting,Switch-on delay (353) ,,,,"100102",SwitchOnSetting,,_16_Minutes,,,
