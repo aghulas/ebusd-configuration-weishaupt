@@ -6,7 +6,7 @@ echo OutsideTemp; ebusctl read -f -d 35 OutsideTemp
 echo WTCSupplyTemp; ebusctl read -f -d 35 WTCSupplyTemp
 echo HCSupplyTemp; ebusctl read -f -d 35 HCSupplyTemp
 echo RoomTemp; ebusctl read -f -d 35 RoomTemp
-echo RoomSetValue; ebusctl read -f -d 35 RoomSetValue
+echo RoomSetPointTemp; ebusctl read -f -d 35 RoomSetPointTemp
 echo DHWSetpoint; ebusctl read -f -d 35 DHWSetpoint
 echo OutsideWeightedTemp; ebusctl read -f -d 35 OutsideWeightedTemp
 echo DHWSetValue; ebusctl read -f -d 35 DHWSetValue
@@ -23,12 +23,12 @@ echo ProgramChooseSwitch; ebusctl read -f -d 35 ProgramChooseSwitch
 echo Adaption; ebusctl read -f -d 35 Adaption
 echo SummerWinterChangeOverTemp; ebusctl read -f -d 35 SummerWinterChangeOverTemp
 echo FloorDryingFunction; ebusctl read -f -d 35 FloorDryingFunction
-echo StartOfHoliday; ebusctl read -f -d 35 StartOfHoliday
-echo StartOfHoliday.Day; ebusctl read -f -d 35 StartOfHoliday.Day
-echo StartOfHoliday.Month; ebusctl read -f -d 35 StartOfHoliday.Month
-echo EndOfHoliday; ebusctl read -f -d 35 EndOfHoliday
-echo EndOfHoliday.Day; ebusctl read -f -d 35 EndOfHoliday.Day
-echo EndOfHoliday.Month; ebusctl read -f -d 35 EndOfHoliday.Month
+echo HolidayStart; ebusctl read -f -d 35 HolidayStart
+echo HolidayStart.Day; ebusctl read -f -d 35 HolidayStart.Day
+echo HolidayStart.Month; ebusctl read -f -d 35 HolidayStart.Month
+echo HolidayEnd; ebusctl read -f -d 35 HolidayEnd
+echo HolidayEnd.Day; ebusctl read -f -d 35 HolidayEnd.Day
+echo HolidayEnd.Month; ebusctl read -f -d 35 HolidayEnd.Month
 echo TypeOfConstruction; ebusctl read -f -d 35 TypeOfConstruction
 echo SupplyMinTemp; ebusctl read -f -d 35 SupplyMinTemp
 echo HolidayTemp; ebusctl read -f -d 35 HolidayTemp
