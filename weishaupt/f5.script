@@ -145,14 +145,14 @@ echo CircProgram.Sa.3; ebusctl read -f -d f5 CircProgram.Sa.3
 echo CircProgram.Su.3; ebusctl read -f -d f5 CircProgram.Su.3
 
 echo Unknown1; ebusctl read -f -d f5 Unknown1
-echo Unknown2; ebusctl read -f -d f5 Unknown2
-echo Unknown3; ebusctl read -f -d f5 Unknown3
-echo Unknown4; ebusctl read -f -d f5 Unknown4
-echo Unknown5; ebusctl read -f -d f5 Unknown5
-echo Unknown7; ebusctl read -f -d f5 Unknown7
+echo FS-EM-W2; ebusctl read -f -d f5 FS-EM-W2
+echo FS-EM-W3; ebusctl read -f -d f5 FS-EM-W3
+echo FS-EM-W4; ebusctl read -f -d f5 FS-EM-W4
+echo FS-EM-W5; ebusctl read -f -d f5 FS-EM-W5
+echo FS-EM-R3; ebusctl read -f -d f5 FS-EM-R3
 echo Unknown8; ebusctl read -f -d f5 Unknown8
-echo Unknown9; ebusctl read -f -d f5 Unknown9
-echo Unknown10; ebusctl read -f -d f5 Unknown10
+echo FS-EM-R1; ebusctl read -f -d f5 FS-EM-R1
+echo FS-EM-R2; ebusctl read -f -d f5 FS-EM-R2
 echo Unknown11; ebusctl read -f -d f5 Unknown11
 echo Unknown12; ebusctl read -f -d f5 Unknown12
 echo Unknown13; ebusctl read -f -d f5 Unknown13

@@ -34,9 +34,6 @@ w,,DHWMode, ,,,,"3501",,,_16_DhwMode,,,
 r,,DHWOperation,WW operation (360) ,,,,"370102",DHWOperation,,_16_DhwOperation,,,
 w,,DHWOperation, ,,,,"3701",,,_16_DhwOperation,,,
 
-#99 01
-r,,Unknown9, ,,,,"990102",Unknown9,,UIN,,,
-
 #A9 01
 r,,Unknown13, ,,,,"A90102",Unknown13,,_16_Temp10,,,
 
@@ -211,15 +208,6 @@ w,,CircProgram.Su.2,Circulation Program Su 2 Start/End (User 167) ,,,,"711A",,,_
 #72 1A
 r,,CircProgram.Su.3,Circulation Program Su 3 Start/End (User 167) ,,,,"721A02",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
 w,,CircProgram.Su.3,Circulation Program Su 3 Start/End (User 167) ,,,,"721A",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-
-
-#04 76
-r,,Unknown11, ,,,,"047602",Unknown11,,SIN,,,
-w,,Unknown11, ,,,,"0476",Unknown11,,SIN,,,
-
-#04 78
-r,,Unknown12, ,,,,"047802",Unknown12,,SIN,,,
-w,,Unknown12, ,,,,"0478",Unknown12,,SIN,,,
 
 #FB FD
 r,,Unknown8, ,,,,"FBFD02",Unknown8,,SIN,,,

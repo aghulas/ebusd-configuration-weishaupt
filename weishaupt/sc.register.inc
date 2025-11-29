@@ -159,15 +159,8 @@ w,,Reduct, ,,,,"3201",,,_16_TempReduced,,,
 r,,DHWOperation,WW operation (360) ,,,,"370102",DHWOperation,,_16_DhwOperation,,,
 w,,DHWOperation, ,,,,"3701",,,_16_DhwOperation,,,
 
-#41 01
-r,,Unknown2, ,,,,"410102",Unknown2,,_16_Temp10,,,
-w,,Unknown2, ,,,,"4101",Unknown2,,_16_Temp10,,,
-
 #8F 01
 r,,Unknown15, ,,,,"8F0102",Unknown15,,_16_Temp10,,,
-
-#99 01
-r,,Unknown9, ,,,,"990102",Unknown9,,HCD:2,,,
 
 #A9 01
 r,,Unknown13, ,,,,"A90102",Unknown13,,_16_Temp10,,,
@@ -175,29 +168,8 @@ r,,Unknown13, ,,,,"A90102",Unknown13,,_16_Temp10,,,
 #AA 01
 r,,Unknown14, ,,,,"AA0102",Unknown14,,_16_Temp10,,,
 
-
-
-
-#85 02
-r,,Unknown4, ,,,,"850202",Unknown4,,_16_Temp10,,,
-w,,Unknown4, ,,,,"8502",Unknown4,,_16_Temp10,,,
-
-
-#59 03
-r,,Unknown10, ,,,,"590302",Unknown10,,_16_Temp10,,,
-
 #E9 04
 r,,Unknown16, ,,,,"E90402",Unknown16,,_16_Temp10,,,
-
-
-#73 09
-r,,Unknown3, ,,,,"730902",Unknown2,,_16_Temp10,,,
-w,,Unknown3, ,,,,"7309",Unknown2,,_16_Temp10,,,
-
-#81 09
-r,,Unknown5, ,,,,"B10902",Unknown5,,UIN,,,
-w,,Unknown5, ,,,,"B109",Unknown5,,UIN,,,
-
 
 #1C 0A 
 r,,RoomThermostat,Room thermostat (344) ,,,,"1C0A02",RoomThermostat,,_16_Temp1,,,
@@ -215,14 +187,6 @@ r,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
 
 #13 0A
 r,,FloorDryingTemp,Screed temperature (383) ,,,,"130A02",FloorDryingTemp,,_16_Temp1,,,
-
-#20 0A
-r,,Unknown1, ,,,,"200A02",Unknown1,,_16_Temp10,,,
-w,,Unknown1, ,,,,"200A",Unknown1,,_16_Temp10,,,
-
-#29 0A
-r,,Unknown7, ,,,,"290A02",Unknown7,,_16_Temp10,,,
-
 
 #10 14
 r,,HCProgram1.Mo.1,Heating Program 1 Mo 1 Start/End (User 121) ,,,,"101402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,

@@ -92,13 +92,6 @@ w,,RoomFrostProtection, ,,,,"140A",,,_16_Temp10,,,
 #13 0A
 #r9,,FloorDryingTemp,Screed temperature (383) ,,,,"130A02",FloorDryingTemp,,_16_Temp1,,,
 
-#20 0A
-#r9,,Unknown1, ,,,,"200A02",Unknown1,,_16_Temp10,,,
-#w,,Unknown1, ,,,,"200A",Unknown1,,_16_Temp10,,,
-
-#29 0A
-#r9,,Unknown7, ,,,,"290A02",Unknown7,,_16_Temp10,,,
-
 
 #10 14
 r9,,HCProgram1.Mo.1,Heating Program 1 Mo 1 Start/End (User 121) ,,,,"101402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
