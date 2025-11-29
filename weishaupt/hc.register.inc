@@ -24,7 +24,7 @@ r5,,OutsideTemp,Outside Temperature ,,,,"0C0002",OutsideTemp,,_16_Temp10,,,
 r1,,RoomTemp,Room temperature ,,,,"110002",RoomTemp,,_16_Temp10,,,
 
 #12 00
-r9,,RoomSetValue,Room setpoint ,,,,"120002",RoomSetValue,,_16_Temp10,,,
+r9,,RoomSetPointTemp,Room setpoint ,,,,"120002",RoomSetPointTemp,,_16_Temp10,,,
 
 #1A 00
 r5,,OutsideWeightedTemp,Weighted Outside Temperature ,,,,"1A0A02",OutsideWeightedTemp,,_16_Temp10,,,

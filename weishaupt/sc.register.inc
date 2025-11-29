@@ -30,7 +30,7 @@ r,,HCSupplyTemp,Heating Circuit Supply Temperature (523) ,,,,"0F0002",HCSupplyTe
 r,,RoomTemp,Room temperature ,,,,"110002",RoomTemp,,_16_Temp10,,,
 
 #12 00
-r,,RoomSetValue,Room setpoint ,,,,"120002",RoomSetValue,,_16_Temp10,,,
+r,,RoomSetPointTemp,Room setpoint ,,,,"120002",RoomSetPointTemp,,_16_Temp10,,,
 
 #13 00
 r,,DHWSetpoint,Hot water setpoint (176) ,,,,"130002",DHWSetpoint,,_16_Temp10,,,
