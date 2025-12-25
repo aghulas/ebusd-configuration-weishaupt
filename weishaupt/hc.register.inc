@@ -18,10 +18,10 @@ r9,,RoomSetbackTemp,Setback Room tRmperature (113) ,,,,"080002",RoomSetbackTemp,
 w,,RoomSetbackTemp, ,,,,"0800",,,_16_Temp10,,,
 
 #0C 00
-r5,,OutsideTemp,Outside Temperature ,,,,"0C0002",OutsideTemp,,_16_Temp10,,,
+r5,,OutsideTemp,B1 Outside Sensor Temperature,,,,"0C0002",OutsideTemp,,_16_Temp10,,,
 
 #11 00
-r1,,RoomTemp,Room temperature ,,,,"110002",RoomTemp,,_16_Temp10,,,
+r1,,RoomTemp,Room Sensor Temperature ,,,,"110002",RoomTemp,,_16_Temp10,,,
 
 #12 00
 r9,,RoomSetPoint,Room setpoint ,,,,"120002",RoomSetPoint,,_16_Temp10,,,

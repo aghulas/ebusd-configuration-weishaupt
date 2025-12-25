@@ -4,10 +4,10 @@
 *w,,,,,,"0903",,,,,,,
 
 #0F 00
-r1,,SupplyHCTemp,Heating Circuit Supply Temperature (523) ,,,,"0F0002",SupplyHCTemp,,_16_Temp10,,,
+r1,,SupplyHCTemp,B6 Supply Sensor Temperature,,,,"0F0002",SupplyHCTemp,,_16_Temp10,,,
 
 #0E 00
-r9,,DHWTemp,Domestic Hot Water temperature ,,,,"0E0002",DHWTemp,,_16_Temp10,,,
+r9,,DHWTemp,B3 DHW Sensor Temperature ,,,,"0E0002",DHWTemp,,_16_Temp10,,,
 
 #28 00
 r9,,SupplyMaxTemp,Maximum Supply Temperature (422) ,,,,"280002",SupplyMaxTemp,,_16_Temp10,,,

@@ -12,7 +12,7 @@ w,,DHWSetpoint, ,,,,"1300",,,_16_Temp10,,,
 r,,DHWSetValue,Hot water setpoint ,,,,"030002",DHWSetValue,,_16_Temp10,,,
 
 #0E 00
-r,,DHWTemp,Domestic Hot Water temperature ,,,,"0E0002",DHWTemp,,_16_Temp10,,,
+r,,DHWTemp,B3 DHW Sensor Temperature ,,,,"0E0002",DHWTemp,,_16_Temp10,,,
 
 #01 01
 r,,DHWLegionellaFunction,Legionella Protection Function (605) ,,,,"010102",DHWLegionellaFunction,,_16_Legionelladay,,,
