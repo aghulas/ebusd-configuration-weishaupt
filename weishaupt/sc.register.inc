@@ -159,6 +159,9 @@ w,,Reduct, ,,,,"3201",,,_16_TempReduced,,,
 r,,DHWOperation,WW operation (360) ,,,,"370102",DHWOperation,,_16_DhwOperation,,,
 w,,DHWOperation, ,,,,"3701",,,_16_DhwOperation,,,
 
+#99 01
+r,,FS_EM_R1, ,,,,"990102",FS_EM_R1,,UIN,,,
+
 #8F 01
 r,,Unknown15, ,,,,"8F0102",Unknown15,,_16_Temp10,,,
 

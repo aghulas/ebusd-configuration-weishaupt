@@ -34,6 +34,9 @@ w,,DHWMode, ,,,,"3501",,,_16_DhwMode,,,
 r,,DHWOperation,WW operation (360) ,,,,"370102",DHWOperation,,_16_DhwOperation,,,
 w,,DHWOperation, ,,,,"3701",,,_16_DhwOperation,,,
 
+#99 01
+r,,FS_EM_R1, ,,,,"990102",FS_EM_R1,,UIN,,,
+
 #A9 01
 r,,Unknown13, ,,,,"A90102",Unknown13,,_16_Temp10,,,
 
