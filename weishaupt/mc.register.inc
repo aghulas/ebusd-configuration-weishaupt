@@ -26,8 +26,8 @@ r9,,BoilerMCBoost,Boiler MC Boost(424) ,,,,"110102",BoilerMCBoost,,_16_TempK10,,
 w,,BoilerMCBoost, ,,,,"1101",,,_16_TempK10,,,
 
 #15 01
-r9,,Adaption,Adaption (507) ,,,,"150102",Adaption,,_16_OnOff2,,,
-w,,Adaption, ,,,,"1501",,,_16_OnOff2,,,
+r9,,Adaption,Adaption (507) ,,,,"150102",Adaption,,_16_OnOff,,,
+w,,Adaption, ,,,,"1501",,,_16_OnOff,,,
 
 #2B 01
 r9,,SupplyMinTemp,Minimum Supply Temperature (421) ,,,,"2B0102",SupplyMinTemp,,_16_Temp10,,,

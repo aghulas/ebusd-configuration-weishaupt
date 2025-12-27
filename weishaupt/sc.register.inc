@@ -81,8 +81,8 @@ w,,BoilerMCBoost, ,,,,"1101",,,_16_TempK10,,,
 r,,ProgramSelection,Program selector switch position ,,,,"120102",ProgramSelection,,_16_ProgramSelection,,,
 
 #15 01
-r,,Adaption,Adaption (507) ,,,,"150102",Adaption,,_16_OnOff2,,,
-w,,Adaption, ,,,,"1501",,,_16_OnOff2,,,
+r,,Adaption,Adaption (507) ,,,,"150102",Adaption,,_16_OnOff,,,
+w,,Adaption, ,,,,"1501",,,_16_OnOff,,,
 
 #16 01
 r,,SummerWinterChangeOverTemp,Summer/winter changeover temperature (174) ,,,,"160102",SuWiChangeOverTemp,,_16_Temp10,,,
