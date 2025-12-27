@@ -4,6 +4,7 @@ b,,Act,Actual Values HC3,,,"5010",,RoomTemp,m,_16_Temp0,,,Raumtemperatur ,Progra
 
 *c,,,,"F0",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 c,,Exch1,Exch1 values ​​HC3 -> EM#2 ,,"52","5014","0100",SetTemp1,,_8_Temp2,,, ,SetTemp2,,_16_Temp2,,, ,Status,,_8_Opdataheat,,, ,s,,_8_Skip,,, ,OutputDegree,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
+c,,Exch2,Exch2 values ​​HC3 -> EM#2 ,,"52","5014","0200",SetTemp1,,_8_Temp2,,, ,SetTemp2,,_16_Temp2,,, ,Status,,_8_Opdataheat,,, ,s,,_8_Skip,,, ,OutputDegree,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
 c,,Exch3,Exch3 values ​​HC3 -> EM#2 ,,"52","5014","0300",SetTemp1,,_8_Temp2,,, ,SetTemp2,,_16_Temp2,,, ,Status,,_8_Opdataheat,,, ,s,,_8_Skip,,, ,OutputDegree,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
 
 !include,mc.register.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
