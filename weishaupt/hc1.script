@@ -145,10 +145,10 @@ echo CircProgram.Sa.3; ebusctl read -f -c hc1 CircProgram.Sa.3
 echo CircProgram.Su.3; ebusctl read -f -c hc1 CircProgram.Su.3
 
 echo Unknown1; ebusctl read -f -c hc1 Unknown1
-echo FS-EM-W2; ebusctl read -f -c hc1 FS-EM-W2
-echo FS-EM-W3; ebusctl read -f -c hc1 FS-EM-W3
-echo FS-EM-W4; ebusctl read -f -c hc1 FS-EM-W4
-echo FS-EM-W5; ebusctl read -f -c hc1 FS-EM-W5
+echo FS_EM_W2; ebusctl read -f -c hc1 FS_EM_W2
+echo FS_EM_W3; ebusctl read -f -c hc1 FS_EM_W3
+echo FS_EM_W4; ebusctl read -f -c hc1 FS_EM_W4
+echo FS_EM_W5; ebusctl read -f -c hc1 FS_EM_W5
 echo FS_EM_R3; ebusctl read -f -c hc1 FS_EM_R3
 echo Unknown8; ebusctl read -f -c hc1 Unknown8
 echo FS_EM_R1; ebusctl read -f -c hc1 FS_EM_R1

@@ -58,8 +58,8 @@ r9,,Reduct,Reduct (501) ,,,,"320102",Reduct,,_16_TempReduced,,,
 w,,Reduct, ,,,,"3201",,,_16_TempReduced,,,
 
 #41 01
-r9,,FS-EM-W2, ,,,,"410102",FS-EM-W2,,_16_Temp10,,,
-w,,FS-EM-W2, ,,,,"4101",FS-EM-W2,,_16_Temp10,,,
+r9,,FS_EM_W2, ,,,,"410102",FS_EM_W2,,_16_Temp10,,,
+w,,FS_EM_W2, ,,,,"4101",FS_EM_W2,,_16_Temp10,,,
 
 #8F 01
 r9,,Unknown15, ,,,,"8F0102",Unknown15,,_16_Temp10,,,
@@ -74,8 +74,8 @@ r9,,FS_EM_R1, ,,,,"990102",FS_EM_R1,,UIN,,,
 #r9,,Unknown14, ,,,,"AA0102",Unknown14,,_16_Temp10,,,
 
 #85 02
-r9,,FS-EM-W4, ,,,,"850202",FS-EM-W4,,_16_Temp10,,,
-w,,FS-EM-W4, ,,,,"8502",FS-EM-W4,,_16_Temp10,,,
+r9,,FS_EM_W4, ,,,,"850202",FS_EM_W4,,_16_Temp10,,,
+w,,FS_EM_W4, ,,,,"8502",FS_EM_W4,,_16_Temp10,,,
 
 #59 03
 r9,,FS_EM_R2, ,,,,"590302",FS_EM_R2,,_16_Temp10,,,
@@ -84,12 +84,12 @@ r9,,FS_EM_R2, ,,,,"590302",FS_EM_R2,,_16_Temp10,,,
 r9,,Unknown16, ,,,,"E90402",Unknown16,,_16_Temp10,,,
 
 #73 09
-r9,,FS-EM-W3, ,,,,"730902",FS-EM-W2,,_16_Temp10,,,
-w,,FS-EM-W3, ,,,,"7309",FS-EM-W2,,_16_Temp10,,,
+r9,,FS_EM_W3, ,,,,"730902",FS_EM_W2,,_16_Temp10,,,
+w,,FS_EM_W3, ,,,,"7309",FS_EM_W2,,_16_Temp10,,,
 
 #81 09
-r9,,FS-EM-W5, ,,,,"B10902",FS-EM-W5,,UIN,,,
-w,,FS-EM-W5, ,,,,"B109",FS-EM-W5,,UIN,,,
+r9,,FS_EM_W5, ,,,,"B10902",FS_EM_W5,,UIN,,,
+w,,FS_EM_W5, ,,,,"B109",FS_EM_W5,,UIN,,,
 
 #0C 0A
 r9,,OutsideBlendedTemp,Blended Outside Temperature ,,,,"0C0A02",OutsideBlendedTemp,,_16_Temp10,,,
@@ -101,8 +101,8 @@ r9,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
 r9,,FloorDryingTemp,Screed temperature (383) ,,,,"130A02",FloorDryingTemp,,_16_Temp1,,,
 
 #20 0A
-r9,,FS-EM-W1, ,,,,"200A02",FS-EM-W1,,_16_Temp10,,,
-w,,FS-EM-W1, ,,,,"200A",FS-EM-W1,,_16_Temp10,,,
+r9,,FS_EM_W1, ,,,,"200A02",FS_EM_W1,,_16_Temp10,,,
+w,,FS_EM_W1, ,,,,"200A",FS_EM_W1,,_16_Temp10,,,
 
 #29 0A
 r,,FS_EM_R3, ,,,,"290A02",FS_EM_R3,,_16_Temp10,,,
