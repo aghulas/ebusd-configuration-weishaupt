@@ -154,7 +154,7 @@ w,,FS-EM-W2, ,,,,"4101",FS-EM-W2,,_16_Temp10,,,
 r,,Unknown15, ,,,,"8F0102",Unknown15,,_16_Temp10,,,
 
 #99 01
-r,,FS-EM-R1, ,,,,"990102",FS-EM-R1,,UIN,,,
+r,,FS_EM_R1, ,,,,"990102",FS_EM_R1,,UIN,,,
 
 #A9 01
 r,,Unknown13, ,,,,"A90102",Unknown13,,_16_Temp10,,,
@@ -170,7 +170,7 @@ r,,FS-EM-W4, ,,,,"850202",FS-EM-W4,,_16_Temp10,,,
 w,,FS-EM-W4, ,,,,"8502",FS-EM-W4,,_16_Temp10,,,
 
 #59 03
-r9,,FS-EM-R2, ,,,,"590302",FS-EM-R2,,_16_Temp10,,,
+r9,,FS_EM_R2, ,,,,"590302",FS_EM_R2,,_16_Temp10,,,
 
 #E9 04
 r,,Unknown16, ,,,,"E90402",Unknown16,,_16_Temp10,,,
@@ -207,7 +207,7 @@ r,,FS-EM-W1, ,,,,"200A02",FS-EM-W1,,_16_Temp10,,,
 w,,FS-EM-W1, ,,,,"200A",FS-EM-W1,,_16_Temp10,,,
 
 #29 0A
-r,,FS-EM-R3, ,,,,"290A02",FS-EM-R3,,_16_Temp10,,,
+r,,FS_EM_R3, ,,,,"290A02",FS_EM_R3,,_16_Temp10,,,
 
 
 #10 14

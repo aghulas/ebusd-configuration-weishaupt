@@ -149,10 +149,10 @@ echo FS-EM-W2; ebusctl read -f -d 35 FS-EM-W2
 echo FS-EM-W3; ebusctl read -f -d 35 FS-EM-W3
 echo FS-EM-W4; ebusctl read -f -d 35 FS-EM-W4
 echo FS-EM-W5; ebusctl read -f -d 35 FS-EM-W5
-echo FS-EM-R3; ebusctl read -f -d 35 FS-EM-R3
+echo FS_EM_R3; ebusctl read -f -d 35 FS_EM_R3
 echo Unknown8; ebusctl read -f -d 35 Unknown8
-echo FS-EM-R1; ebusctl read -f -d 35 FS-EM-R1
-echo FS-EM-R2; ebusctl read -f -d 52 FS-EM-R2
+echo FS_EM_R1; ebusctl read -f -d 35 FS_EM_R1
+echo FS_EM_R2; ebusctl read -f -d 52 FS_EM_R2
 echo Unknown12; ebusctl read -f -d 35 Unknown12
 echo Unknown13; ebusctl read -f -d 35 Unknown13
 echo Unknown14; ebusctl read -f -d 35 Unknown14
