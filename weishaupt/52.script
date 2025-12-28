@@ -144,7 +144,7 @@ echo CircProgram.Fr.3; ebusctl read -f -d 52 CircProgram.Fr.3
 echo CircProgram.Sa.3; ebusctl read -f -d 52 CircProgram.Sa.3
 echo CircProgram.Su.3; ebusctl read -f -d 52 CircProgram.Su.3
 
-echo Unknown1; ebusctl read -f -d 52 Unknown1
+echo FS_EM_W1; ebusctl read -f -d 52 FS_EM_W1
 echo FS_EM_W2; ebusctl read -f -d 52 FS_EM_W2
 echo FS_EM_W3; ebusctl read -f -d 52 FS_EM_W3
 echo FS_EM_W4; ebusctl read -f -d 52 FS_EM_W4

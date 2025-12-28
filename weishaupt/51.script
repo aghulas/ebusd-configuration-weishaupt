@@ -159,4 +159,3 @@ echo Unknown13; ebusctl read -f -d 51 Unknown13
 echo Unknown14; ebusctl read -f -d 51 Unknown14
 echo Unknown15; ebusctl read -f -d 51 Unknown15
 echo Unknown16; ebusctl read -f -d 51 Unknown16
-6

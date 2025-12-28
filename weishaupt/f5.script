@@ -48,7 +48,7 @@ echo OutsideBlendedTemp; ebusctl read -f -d f5 OutsideBlendedTemp
 echo FloorDryingDay; ebusctl read -f -d f5 FloorDryingDay
 echo FloorDryingTemp; ebusctl read -f -d f5 FloorDryingTemp
 
-echo HCProgramMo.1.1; ebusctl read -f -d f5 HCProgramMo.1.1
+echo HCProgram1.Mo.1; ebusctl read -f -d f5 HCProgram1.Mo.1
 echo HCProgram1.Tu.1; ebusctl read -f -d f5 HCProgram1.Tu.1
 echo HCProgram1.We.1; ebusctl read -f -d f5 HCProgram1.We.1
 echo HCProgram1.Th.1; ebusctl read -f -d f5 HCProgram1.Th.1
@@ -144,7 +144,7 @@ echo CircProgram.Fr.3; ebusctl read -f -d f5 CircProgram.Fr.3
 echo CircProgram.Sa.3; ebusctl read -f -d f5 CircProgram.Sa.3
 echo CircProgram.Su.3; ebusctl read -f -d f5 CircProgram.Su.3
 
-echo Unknown1; ebusctl read -f -d f5 Unknown1
+echo FS_EM_W1; ebusctl read -f -d f5 FS_EM_W1
 echo FS_EM_W2; ebusctl read -f -d f5 FS_EM_W2
 echo FS_EM_W3; ebusctl read -f -d f5 FS_EM_W3
 echo FS_EM_W4; ebusctl read -f -d f5 FS_EM_W4
