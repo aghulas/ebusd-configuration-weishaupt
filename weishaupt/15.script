@@ -152,7 +152,8 @@ echo FS_EM_W5; ebusctl read -f -d 15 FS_EM_W5
 echo FS_EM_R3; ebusctl read -f -d 15 FS_EM_R3
 echo Unknown8; ebusctl read -f -d 15 Unknown8
 echo FS_EM_R1; ebusctl read -f -d 15 FS_EM_R1
-echo FS_EM_R2; ebusctl read -f -d 52 FS_EM_R2
+echo FS_EM_R2; ebusctl read -f -d 15 FS_EM_R2
+echo Unknown11; ebusctl read -f -d 15 Unknown11
 echo Unknown12; ebusctl read -f -d 15 Unknown12
 echo Unknown13; ebusctl read -f -d 15 Unknown13
 echo Unknown14; ebusctl read -f -d 15 Unknown14
