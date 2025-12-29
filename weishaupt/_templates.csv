@@ -29,29 +29,29 @@ _8_TimeEnd:End,TTQ,,,End Time
 
 _16_Constructiontype,UIN,0x0000=Heavy;0x0001=Light,,
 _16_Counter,UIN,,,
-_16_Day,UIN,327860=Na,,Day
-_16_DhwMode,UIN,0x0000=DHW Program;0x0001=24 Day;0x0002=DHW Before Heat;327860=Na,,
-_16_DhwOperation,UIN,0x0000=Priority;0x0001=Sliding;0x0002=Parallel;327860=Na,,
-_16_Floordrying,UIN,0x0000=Off;0x0001=Heating Function;0x0002=DocumentHeating;0x0003=Function ReceiptHeating;327860=Na,,
+_16_Day,UIN,32768=Na,,Day
+_16_DhwMode,UIN,0x0000=DHW Program;0x0001=24 Day;0x0002=DHW Before Heat;32768=Na,,
+_16_DhwOperation,UIN,0x0000=Priority;0x0001=Sliding;0x0002=Parallel;32768=Na,,
+_16_Floordrying,UIN,0x0000=Off;0x0001=Heating Function;0x0002=DocumentHeating;0x0003=Function ReceiptHeating;32768=Na,,
 _16_Gradient10,SIN,10,,SteepNess
 _16_HolidayDay,UIN,0x0000=Off,,Day
 _16_HolidayMonth,UIN,0x0000=Off;0x0001=January;0x0002=February;0x0003=March;0x0004=April;0x0005=May;0x0006=June;0x0007=July;0x0008=August;0x0009=September;0x000A=October;0x000B=November;0x000C=December,,Month
 _16_Hours,UIN,,h,Hour
 _16_Legionelladay,UIN,0x0000=Off,,Legionella Function
-_16_Minutes,UIN,327860=Na,min,Minute
-_16_OnOff,UIN,0x0000=Off;0x0001=On;327860=Na,,
-_16_Percent,UIN,327860=Na,%,Percent
+_16_Minutes,UIN,32768=Na,min,Minute
+_16_OnOff,UIN,0x0000=Off;0x0001=On;32768=Na,,
+_16_Percent,UIN,32768=Na,%,Percent
 _16_Pressure,D2B,,bar,Pressure
 _16_ProgramSelection,UIN,0x01=Standby;0x03=NormalTemperature;0x04=Lowering temperature;0x05=Summer;0x0b=Program 1;0x0c=Program 2;0x0d=Program 3,,Program selection
-_16_RoomFactorP,UIN,327860=Na,,Room Factor P
+_16_RoomFactorP,UIN,32768=Na,,Room Factor P
 _16_Seconds,UIN,,s,Seconds
-_16_PumpVariationSpeed,UIN,0x0000=Operating level;0x0001=Characteristic Curve;327860=Na,,
+_16_PumpVariationSpeed,UIN,0x0000=Operating level;0x0001=Characteristic Curve;32768=Na,,
 _16_Temp0,D2B,,°C,Temperature
 _16_Temp1,SIN,,°C,Temperature
 _16_Temp2,D2C,,°C,Temperature
 _16_Temp10,SIN,10,°C,Temperature
 _16_TempK10,SIN,10,°K,Temperature Kelvin
-_16_TempReduced,UIN,0x0000=Antifreeze;0x0001=Setback;327860=Na,,
+_16_TempReduced,UIN,0x0000=Antifreeze;0x0001=Setback;32768=Na,,
 _16_Skip,IGN:2,,,
 
 
