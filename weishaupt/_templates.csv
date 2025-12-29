@@ -29,29 +29,29 @@ _8_TimeEnd:End,TTQ,,,End Time
 
 _16_Constructiontype,UIN,0x0000=Heavy;0x0001=Light,,
 _16_Counter,UIN,,,
-_16_Day,UIN,0x0080=na;0xffff=NA,,
-_16_DhwMode,UIN,0x0000=DHW Program;0x0001=24 Day;0x0002=DHW Before Heat;0x0080=na;0xffff=NA,,
-_16_DhwOperation,UIN,0x0000=Priority;0x0001=Sliding;0x0002=Parallel;0x0080=na:0xffff=NA,,
-_16_Floordrying,UIN,0x0000=Off;0x0001=Heating Function;0x0002=DocumentHeating;0x0003=Function ReceiptHeating;0x0080=na;0xffff=NA,,
+_16_Day,UIN,0x0080=na,,
+_16_DhwMode,UIN,0x0000=DHW Program;0x0001=24 Day;0x0002=DHW Before Heat;0x0080=na,,
+_16_DhwOperation,UIN,0x0000=Priority;0x0001=Sliding;0x0002=Parallel;0x0080=na,,
+_16_Floordrying,UIN,0x0000=Off;0x0001=Heating Function;0x0002=DocumentHeating;0x0003=Function ReceiptHeating;0x0080=na,,
 _16_Gradient10,SIN,10,,SteepNess
 _16_HolidayDay,UIN,0x0000=Off,,Day
 _16_HolidayMonth,UIN,0x0000=Off;0x0001=January;0x0002=February;0x0003=March;0x0004=April;0x0005=May;0x0006=June;0x0007=July;0x0008=August;0x0009=September;0x000A=October;0x000B=November;0x000C=December,,Month
 _16_Hours,UIN,,h,Hour
 _16_Legionelladay,UIN,0x0000=Off,,Legionella Function
-_16_Minutes,UIN,0x0080=na;0xffff=NA,min,Mintue
-_16_OnOff,UIN,0x0000=Off;0x0001=On;0x0080=na;0xffff=NA;
-_16_Percent,UIN,0x0080=na;0xffff=NA,%,Percent
+_16_Minutes,UIN,0x0080=na,min,Mintue
+_16_OnOff,UIN,0x0000=Off;0x0001=On;0x0080=na
+_16_Percent,UIN,0x0080=na,%,Percent
 _16_Pressure,D2B,,bar,Pressure
 _16_ProgramSelection,UIN,0x01=Standby;0x03=NormalTemperature;0x04=Lowering temperature;0x05=Summer;0x0b=Program 1;0x0c=Program 2;0x0d=Program 3,,Program selection
-_16_RoomFactorP,UIN,0x0080=na;0xffff=NA,,Room Factor P
+_16_RoomFactorP,UIN,0x0080=na,,Room Factor P
 _16_Seconds,UIN,,s,Seconds
-_16_PumpVariationSpeed,UIN,0x0000=Operating level;0x0001=Characteristic Curve;0x0080=na;0xffff=NA,,
+_16_PumpVariationSpeed,UIN,0x0000=Operating level;0x0001=Characteristic Curve;0x0080=na,,
 _16_Temp0,D2B,,°C,Temperature
 _16_Temp1,SIN,,°C,Temperature
 _16_Temp2,D2C,,°C,Temperature
 _16_Temp10,SIN,10,°C,Temperature
 _16_TempK10,SIN,10,°K,Temperature Kelvin
-_16_TempReduced,UIN,0x0000=Antifreeze;0x0001=Setback;0x0080=na;0xffff=NA,,
+_16_TempReduced,UIN,0x0000=Antifreeze;0x0001=Setback;0x0080=na,,
 _16_Skip,IGN:2,,,
 
 
