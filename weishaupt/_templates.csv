@@ -11,7 +11,7 @@ _8_Load,UCH,,,Load position
 _8_Operatingphase,UCH,0x00=BurnerOff;0x01=Retirement control blower;0x02=Pre-rinse speed;0x03=Countdown pre-rinse time;0x04=Reach ignition speed;0x05=Flame formation time;0x06=Burner in operation;0x07=Gas Valve Control V1;0x08=Gas Valve Control V2;0x09=Rinse;0x0B=S:Boiler Temperature > 105°C;0x0C=W:Boiler Temperature > 95°C;0x0D=S:Exhaust Gas Temperature > 120°C;0x0E=W:Inlet Temperature Gradient Too Large;0x0F=W/S:Temperature Difference Too Large;0x10=W:Exhaust Gas Temperature > 115°C;0x15=S:No Flame Formation When The Burner Starts;0x16=W:Flame Failure During Operation;0x17=S:Flame Simulation;0x18=S:The Floor Thermostat At Entrance H2 has Activated.;,,Operational Phase
 _8_Opdataheat,UCH,0x00=Off;0x01=None;0x55=HotWater;0xaa=Heating;0xcc=Emission Check;0xdd=Quality Control;0xee=Control Stop;0x66=HotWater in control stop;0xbb=HotWater in heating,,Heat Requirement
 _8_Opdataheat2,UCH,0x20=HotWater;0x60=Heating,,Heat Requirement
-_8_Opdataaction,UCH,0x00=None;0x01=Stop Pump;0x02=Start Pump;0x03=Stop Consumer;0x04=Start Consumer;0x05=Idle?,,
+_8_Opdataaction,UCH,0x00=None;0x01=Stop Pump;0x02=Start Pump;0x03=Stop Consumer;0x04=Start Consumer;0x05=Idle?;0x06=Restart?,,
 _8_Percent,D1C,,%,Percent
 _8_ProgramState,UCH,0x02=Program;0x0A=Program Suspended;0x12=Program Extended,,Programm Status (Presence/Absense)
 _8_Rpm60,UCH,-60,Rpm,Speed
@@ -29,30 +29,29 @@ _8_TimeEnd:End,TTQ,,,End Time
 
 _16_Constructiontype,UIN,0x0000=Heavy;0x0001=Light,,
 _16_Counter,UIN,,,
-_16_Day,UIN,0x0080=NA,,
-_16_DhwMode,UIN,0x0000=DHW Program;0x0001=24 Day;0x0002=DHW Before Heat;0x0080=NA,,
-_16_DhwOperation,UIN,0x0000=Priority;0x0001=Sliding;0x0002=Parallel;0x0080=NA,,
-_16_Floordrying,UIN,0x0000=Off;0x0001=Heating Function;0x0002=DocumentHeating;0x0003=Function ReceiptHeating;0x0080=NA,,
+_16_Day,UIN,0x0080=-;0xffff=-,,
+_16_DhwMode,UIN,0x0000=DHW Program;0x0001=24 Day;0x0002=DHW Before Heat;0x0080=-;0xffff=-,,
+_16_DhwOperation,UIN,0x0000=Priority;0x0001=Sliding;0x0002=Parallel;0x0080=-:0xffff=-,,
+_16_Floordrying,UIN,0x0000=Off;0x0001=Heating Function;0x0002=DocumentHeating;0x0003=Function ReceiptHeating;0x0080=-;0xffff=-,,
 _16_Gradient10,SIN,10,,SteepNess
 _16_HolidayDay,UIN,0x0000=Off,,Day
-_16_HolidayMonth,UIN,0x0000=Off;0x0001=January;0x0002=February;0x0003=March;0x0004=April;0x0005=May;0x0006=June;0x0007=July;0x0008=August;0x0009=September;0x000A=October;0x000B=November;0x000C=December,,Monat
+_16_HolidayMonth,UIN,0x0000=Off;0x0001=January;0x0002=February;0x0003=March;0x0004=April;0x0005=May;0x0006=June;0x0007=July;0x0008=August;0x0009=September;0x000A=October;0x000B=November;0x000C=December,,Month
 _16_Hours,UIN,,h,Hour
 _16_Legionelladay,UIN,0x0000=Off,,Legionella Function
-_16_Minutes,UIN,0x0080=NA,min,Mintue
-_16_OnOff,UIN,0x0000=Off;0x0001=On;0x0080=NA;
-_16_Percent,UIN,0x0080=NA,%,Percent
+_16_Minutes,UIN,0x0080=-;0xffff=-,min,Mintue
+_16_OnOff,UIN,0x0000=Off;0x0001=On;0x0080=-;0xffff=-;
+_16_Percent,UIN,0x0080=-;0xffff=-,%,Percent
 _16_Pressure,D2B,,bar,Pressure
 _16_ProgramSelection,UIN,0x01=Standby;0x03=NormalTemperature;0x04=Lowering temperature;0x05=Summer;0x0b=Program 1;0x0c=Program 2;0x0d=Program 3,,Program selection
-# Raumeinfluss - Werte von 0 - 20 und 0xFFFF für off,,,,
-_16_RoomFactorP,UIN,0x0080=NA,,Room Factor P
+_16_RoomFactorP,UIN,0x0080=-;0xFFFF=-,,Room Factor P
 _16_Seconds,UIN,,s,Seconds
-_16_PumpVariationSpeed,UIN,0x0000=Operating level;0x0001=Characteristic Curve;0x0080=NA,,
+_16_PumpVariationSpeed,UIN,0x0000=Operating level;0x0001=Characteristic Curve;0x0080=-;0xffff=-,,
 _16_Temp0,D2B,,°C,Temperature
 _16_Temp1,SIN,,°C,Temperature
 _16_Temp2,D2C,,°C,Temperature
 _16_Temp10,SIN,10,°C,Temperature
 _16_TempK10,SIN,10,°K,Temperature Kelvin
-_16_TempReduced,UIN,0x0000=Antifreeze;0x0001=Setback;0x0080=NA,,
+_16_TempReduced,UIN,0x0000=Antifreeze;0x0001=Setback;0x0080=-;0xffff=-,,
 _16_Skip,IGN:2,,,
 
 
