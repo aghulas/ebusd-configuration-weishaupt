@@ -2,4 +2,4 @@
 #,,Process values ​​heating Circuit controller,,,,,,,,,,,,
 *us,,,,,,"0507",,,,,,,
 
-us;mw,,Set,Target values ​​HC->SC ,,,,,Status,,_8_Opdataheat,,, ,Action,,_8_Opdataaction,,, ,SetTemp,,_16_Temp2,,, ,SetPressure,,_16_Pressure,,, ,OutputDegree,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
+us,,Set,Target values ​​HC->SC ,,,,,Status,,_8_Opdataheat,,, ,Action,,_8_Opdataaction,,, ,SetTemp,,_16_Temp2,,, ,SetPressure,,_16_Pressure,,, ,OutputDegree,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
