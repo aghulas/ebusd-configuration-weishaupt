@@ -4,4 +4,4 @@
 *xw,,,,,,"5014",,,,,,,
 
 xw,,Exch,Exch values ,,,,,Opmode1,,_8_Opdataheat,,, ,Temp1,,_16_Temp2,,, ,Temp2,,_16_Temp2,,, ,Opmode2,,_8_Opdataheat,,, ,s,,_8_Skip,,, ,
-xr,,Exch,Exch values ,,,,,Opmode3,,_8_Opdataheat,,, ,Temp3,,_16_Temp2,,, ,Temp3,,_16_Temp2,,, ,BoilerMCBoost,,_8_Temp2,,, ,s,,SupplyMaxTemp,,_8_Temp2,,, ,SupplyMinTemp,,_8_Temp2,,, ,
+xr,,Exch,Exch values ,,,,,Opmode3,,_8_Opdataheat,,, ,Temp3,,_16_Temp2,,, ,Temp3,,_16_Temp2,,, ,BoilerMCBoost,,_8_Temp2,,, ,SupplyMaxTemp,,_8_Temp2,,, ,SupplyMinTemp,,_8_Temp2,,, ,
