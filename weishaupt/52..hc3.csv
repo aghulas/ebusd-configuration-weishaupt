@@ -2,9 +2,5 @@
 *b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 b,,Act,Actual Values HC3,,,"5010",,RoomTemp,m,_16_Temp0,,,Raumtemperatur ,ProgramState,m,_8_ProgramState,,,Status Heizprogramm ,Byte3,m,UCH,,,REQ ,HeatDemandTemp,s,_8_Temp2,,,Wärmeanforderung HK ,SupplySetTemp,s,_8_Temp2,,,Vorlaufsollwert HC ,SupplyTemp,s,_8_Temp2,,,Vorlauftemperatur HC ,ExternalTemp,s,_8_Temp1,,,Außentemperatur ,TrendTemp,s,_8_Temp1,,,Temperaturtrend ,Status,s,_8_Opdataheat2,,,Statusanforderung ,ByteA,s,UCH,,, ,ByteB,s,UCH,,, ,ByteC,s,UCH,,,
 
-*c,,,,"F0",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-c,,Exch1,Exch1 values ​​HC3 -> EM#2 ,,"52","5014","0100",SetTemp1,,_8_Temp2,,, ,SetTemp2,,_16_Temp2,,, ,Status,,_8_Opdataheat,,, ,s,,_8_Skip,,, ,OutputDegree,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
-c,,Exch2,Exch2 values ​​HC3 -> EM#2 ,,"52","5014","0200",SetTemp1,,_8_Temp2,,, ,SetTemp2,,_16_Temp2,,, ,Status,,_8_Opdataheat,,, ,s,,_8_Skip,,, ,OutputDegree,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
-c,,Exch3,Exch3 values ​​HC3 -> EM#2 ,,"52","5014","0300",SetTemp1,,_8_Temp2,,, ,SetTemp2,,_16_Temp2,,, ,Status,,_8_Opdataheat,,, ,s,,_8_Skip,,, ,OutputDegree,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
-
+!include,5014.inc,,Exch values ​​HC2->EM#2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 !include,mc.register.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
