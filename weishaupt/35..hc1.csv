@@ -4,6 +4,6 @@ b,,BCAST1, ,"30",,,"7600",,,UIN,,,
 b,,BCAST2, ,"30",,,"7800",,,UIN,,,
 
 *bw,,,,"30","f1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-bw,,Cmd,Target values ​​HC1->SC,,,"0507",,Status,,_8_Opdataheat,,, ,Action,,_8_Opdataaction,,, ,SetTemp,,_16_Temp2,,, ,SetPressure,,_16_Pressure,,, ,OutputDegree,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
+bw,,HeatRequest,Heat Request ​​HC1->KA,,,"0507",,Status,,_8_Opdataheat,,, ,,,_8_Skip,,, ,HeatDemand,,_16_Temp2,,, ,,,_16_Skip,,, ,,,_8_Skip,,, ,,,_8_Skip,,, ,,,_8_Skip,,,
 
 !include,hc.register.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
