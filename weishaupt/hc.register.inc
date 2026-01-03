@@ -53,9 +53,9 @@ r9,,FloorDryingFunction,Screed function (381) ,,,,"1A0102",FloorDryingFunction,,
 
 #1B 01
 r9,,HolidayStart,Start of vacation (181) ,,,,"1B0104",Day,,_16_HolidayDay,,,Day ,Month,,_16_HolidayMonth,,,Month
-#w,,HolidayStart, ,,,,"1B01",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
+w,,HolidayStart, ,,,,"1B01",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
 r9,,HolidayStart.Day,Start of vacation Day (181) ,,,,"1B0102",HolidayStart.Day,,_16_HolidayDay,,,
-w,,HolidayStart.Day, ,,,,"1B01",,,_16_HolidayDay,,,
+#w,,HolidayStart.Day, ,,,,"1B01",,,_16_HolidayDay,,,
 
 #1C 01
 r9,,HolidayStart.Month,Start of vacation Month (181) ,,,,"1C0102",HolidayStart.Month,,_16_HolidayMonth,,,
@@ -63,9 +63,9 @@ w,,HolidayStart.Month, ,,,,"1C0102",,,_16_HolidayMonth,,,
 
 #1E 01
 r9,,HolidayEnd, (182) ,,,,"1E0104",Day,,_16_HolidayDay,,,Day ,Month,,_16_HolidayMonth,,,Month
-#w,,HolidayEnd, ,,,,"1E01",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
+w,,HolidayEnd, ,,,,"1E01",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
 r9,,HolidayEnd.Day, Day (182) ,,,,"1E0102",HolidayEnd.Day,,_16_HolidayDay,,,
-w,,HolidayEnd.Day, ,,,,"1E01",,,_16_HolidayDay,,,
+#w,,HolidayEnd.Day, ,,,,"1E01",,,_16_HolidayDay,,,
 
 #1F 01
 r9,,HolidayEnd.Month, Month (182) ,,,,"1F0102",HolidayEnd.Month,,_16_HolidayMonth,,,
