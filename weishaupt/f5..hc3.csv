@@ -4,7 +4,7 @@
 u,,Signoflife,EM #2 ping,"F0",,"07FF",,
 
 *bw,,,,"f0","f1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-bw,,HeatRequest,Heat Request ​​HC3->KA,,,"0507",,Status,,_8_Opdataheat,,, ,,,_8_Skip,,, ,HeatDemand,,_16_Temp2,,, ,,,_16_Skip,,, ,,,_8_Skip,,, ,,,_8_Skip,,, ,,,_8_Skip,,,
+bw,,HeatDemand,Heat Demand ​​HC3->KA,,,"0507",,Status,,_8_Opdataheat,,, ,,,_8_Skip,,, ,HeatDemand,,_16_Temp2,,, ,,,_16_Skip,,, ,,,_8_Skip,,, ,,,_8_Skip,,, ,,,_8_Skip,,,
 
 !include,0704.inc,,answer to identification query,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 !include,hc.register.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
