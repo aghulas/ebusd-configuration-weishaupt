@@ -4,7 +4,7 @@
 *w,,,,,,"0903",,,,,,,
 
 #02 00
-r1,,HeatDemand,Heat demand HK ,,,,"020002",HeatDemand,,_16_Temp10,,,
+r1,,HeatDemandTemp,Heat demand HK ,,,,"020002",HeatDemandTemp,,_16_Temp10,,,
 
 #04 00
 r5,,SupplySetPoint,Supply SetPoint (121) ,,,,"040002",SupplySetPoint,,_16_Temp10,,,

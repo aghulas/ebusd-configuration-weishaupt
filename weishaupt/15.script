@@ -1,4 +1,4 @@
-echo HeatDemand; ebusctl read -f -d 15 HeatDemand
+echo HeatDemandTemp; ebusctl read -f -d 15 HeatDemandTemp
 echo SupplySetPoint;ebusctl read -f -d 15 SupplySetPoint
 echo RoomNormalTemp;ebusctl read -f -d 15 RoomNormalTemp
 echo RoomSetbackTemp; ebusctl read -f -d 15 RoomSetbackTemp
