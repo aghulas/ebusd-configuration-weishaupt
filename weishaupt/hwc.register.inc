@@ -15,12 +15,12 @@ r,,DHWSetValue,Hot water setpoint ,,,,"030002",DHWSetValue,,_16_Temp10,,,
 r,,DHWTemp,B3 DHW Sensor Temperature ,,,,"0E0002",DHWTemp,,_16_Temp10,,,
 
 #01 01
-r,,DHWLegionellaFunction,Legionella Protection Function (605) ,,,,"010102",DHWLegionellaFunction,,_16_Legionelladay,,,
-w,,DHWLegionellaFunction, ,,,,"0101",,,_16_Legionelladay,,,
+r,,DHWLegionellaDay,Legionella Protection Function (605) ,,,,"010102",DHWLegionellaDay,,_16_Legionelladay,,,
+w,,DHWLegionellaDay, ,,,,"0101",,,_16_Legionelladay,,,
 
 #33 01
-r,,DHWMin,Hot water Min (177) ,,,,"330102",DHWMin,,_16_Temp10,,,
-w,,DHWMin, ,,,,"3301",,,_16_Temp10,,,
+r,,DHWMinTemp,Hot water Min (177) ,,,,"330102",DHWMinTemp,,_16_Temp10,,,
+w,,DHWMinTemp, ,,,,"3301",,,_16_Temp10,,,
 
 #34 01
 r,,DHWMaxTemp, DHW maximum Temp (601) ,,,,"340102",DHWMaxTemp,,_16_Temp10,,,
@@ -31,8 +31,8 @@ r,,DHWMode,WW-Mode (361) ,,,,"350102",DHWMode,,_16_DhwMode,,,
 w,,DHWMode, ,,,,"3501",,,_16_DhwMode,,,
 
 #37 01
-r,,DHWOperation,WW operation (360) ,,,,"370102",DHWOperation,,_16_DhwOperation,,,
-w,,DHWOperation, ,,,,"3701",,,_16_DhwOperation,,,
+r,,DHWOperationMode,WW operation (360) ,,,,"370102",DHWOperationMode,,_16_DHWOperationMode,,,
+w,,DHWOperationMode, ,,,,"3701",,,_16_DHWOperationMode,,,
 
 #99 01
 r,,FS_EM_R1, ,,,,"990102",FS_EM_R1,,UIN,,,

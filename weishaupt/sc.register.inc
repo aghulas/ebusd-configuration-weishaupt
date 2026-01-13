@@ -7,7 +7,7 @@
 r,,HeatDemandTemp,Heat demand HK ,,,,"020002",HeatDemandTemp,,_16_Temp10,,,
 
 #04 00
-r,,SupplySetPoint,Supply SetPoint (121) ,,,,"040002",SupplySetPoint,,_16_Temp10,,,
+r,,SupplySetPointTemp,Supply SetPoint (121) ,,,,"040002",SupplySetPointTemp,,_16_Temp10,,,
 
 #05 00
 r,,RoomNormalTemp,Normal Room Temperature (112) ,,,,"050002",RoomNormalTemp,,_16_Temp10,,,
@@ -30,7 +30,7 @@ r,,SupplyHCTemp,B6 Supply Sensor Temperature,,,,"0F0002",SupplyHCTemp,,_16_Temp1
 r,,RoomTemp,Room Sensor Temperature ,,,,"110002",RoomTemp,,_16_Temp10,,,
 
 #12 00
-r,,RoomSetPoint,Room setpoint ,,,,"120002",RoomSetPoint,,_16_Temp10,,,
+r,,RoomSetPointTemp,Room setpoint ,,,,"120002",RoomSetPointTemp,,_16_Temp10,,,
 
 #13 00
 r,,DHWSetpoint,Hot water setpoint (176) ,,,,"130002",DHWSetpoint,,_16_Temp10,,,
@@ -50,70 +50,70 @@ r,,SupplyMaxTemp,Maximum Supply Temperature (422) ,,,,"280002",SupplyMaxTemp,,_1
 w,,SupplyMaxTemp, ,,,,"2800",SupplyMaxTemp,,_16_Temp10,,,
 
 #2B 00
-r,,MixerParameter,Mixer Parameter (425) ,,,,"2B0002",MixerParameter,,_16_TempK10,,,
-w,,MixerParameter, ,,,,"2B00",,,_16_TempK10,,,
+r,,MixerParameterTemp,Mixer Parameter (425) ,,,,"2B0002",MixerParameterTemp,,_16_TempK10,,,
+w,,MixerParameterTemp, ,,,,"2B00",,,_16_TempK10,,,
 
 #01 01
-r,,DHWLegionellaFunction,Legionella Protection Function (605) ,,,,"010102",DHWLegionellaFunction,,_16_Legionelladay,,,
-w,,DHWLegionellaFunction, ,,,,"0101",,,_16_Legionelladay,,,
+r,,DHWLegionellaDay,Legionella Protection Function (605) ,,,,"010102",DHWLegionellaDay,,_16_Legionelladay,,,
+w,,DHWLegionellaDay, ,,,,"0101",,,_16_Legionelladay,,,
 
 #0F 01
-r,,RoomFactorP,Room Factor-P (508) ,,,,"0F0102",RoomFactorP,,_16_RoomFactorP,,,
-w,,RoomFactorP, ,,,,"0F01",,,_16_RoomFactorP,,,
+r,,RoomFactorCurve,Room Factor-P (508) ,,,,"0F0102",RoomFactorCurve,,_16_RoomFactor,,,
+w,,RoomFactorCurve, ,,,,"0F01",,,_16_RoomFactor,,,
 
 #09 01
-r,,RoomSensorCorrection,Room Sensor Correction (101) ,,,,"090102",RoomSensorCorrection,,_16_TempK10,,,
-w,,RoomSensorCorrection, ,,,,"0901",,,_16_TempK10,,,
+r,,RoomSensorCorrectionTemp,Room Sensor Correction (101) ,,,,"090102",RoomSensorCorrectionTemp,,_16_TempK10,,,
+w,,RoomSensorCorrectionTemp, ,,,,"0901",,,_16_TempK10,,,
 
 #0E 01
-r,,Gradient,Steepness (175) ,,,,"0E0102",Gradient,,_16_Gradient10,,,
-w,,Gradient, ,,,,"0E01",,,_16_Gradient10,,,
+r,,GradientCurve,Steepness (175) ,,,,"0E0102",GradientCurve,,_16_Gradient10,,,
+w,,GradientCurve, ,,,,"0E01",,,_16_Gradient10,,,
 
 #10 01
-r,,SwitchOnSetting,Switch-on delay (353) ,,,,"100102",SwitchOnSetting,,_16_Minutes,,,
-w,,SwitchOnSetting, ,,,,"1001",,,_16_Minutes,,,
+r,,SwitchOnRuntime,Switch-on delay (353) ,,,,"100102",SwitchOnRuntime,,_16_Minutes,,,
+w,,SwitchOnRuntime, ,,,,"1001",,,_16_Minutes,,,
 
 #11 01
-r,,BoilerMCBoost,Boiler MC Boost(424) ,,,,"110102",BoilerMCBoost,,_16_TempK10,,,
-w,,BoilerMCBoost, ,,,,"1101",,,_16_TempK10,,,
+r,,BoilerMCBoostTemp,Boiler MC Boost(424) ,,,,"110102",BoilerMCBoostTemp,,_16_TempK10,,,
+w,,BoilerMCBoostTemp, ,,,,"1101",,,_16_TempK10,,,
 
 #12 01
-r,,ProgramSelection,Program selector switch position ,,,,"120102",ProgramSelection,,_16_ProgramSelection,,,
+r,,ProgramMode,Program selector switch position ,,,,"120102",ProgramMode,,_16_ProgramMode,,,
 
 #15 01
-r,,Adaption,Adaption (507) ,,,,"150102",Adaption,,_16_OnOff,,,
-w,,Adaption, ,,,,"1501",,,_16_OnOff,,,
+r,,AdaptionMode,Adaption (507) ,,,,"150102",AdaptionMode,,_16_OnOff,,,
+w,,AdaptionMode, ,,,,"1501",,,_16_OnOff,,,
 
 #16 01
 r,,SummerWinterChangeOverTemp,Summer/winter changeover temperature (174) ,,,,"160102",SuWiChangeOverTemp,,_16_Temp10,,,
 w,,SummerWinterChangeOverTemp, ,,,,"1601",,,_16_Temp10,,,
 
 #1A 01
-r,,FloorDryingFunction,Screed function (381) ,,,,"1A0102",FloorDryingFunction,,_16_Floordrying,,,
+r,,FloorDryingMode,Screed function (381) ,,,,"1A0102",FloorDryingMode,,_16_Floordrying,,,
 
 #1B 01
-r,,HolidayStart,Start of vacation (181) ,,,,"1B0104",Day,,_16_HolidayDay,,,Day ,Month,,_16_HolidayMonth,,,Month
-w,,HolidayStart, ,,,,"1B01",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
-r,,HolidayStart.Day,Start of vacation Day (181) ,,,,"1B0102",HolidayStart.Day,,_16_HolidayDay,,,
-#w,,HolidayStart.Day, ,,,,"1B01",,,_16_HolidayDay,,,
+r,,HolidayStartDay,Start of vacation (181) ,,,,"1B0104",Day,,_16_HolidayDay,,,Day ,Month,,_16_HolidayMonth,,,Month
+w,,HolidayStartDay, ,,,,"1B01",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
+r,,HolidayStartDay.Day,Start of vacation Day (181) ,,,,"1B0102",HolidayStartDay.Day,,_16_HolidayDay,,,
+#w,,HolidayStartDay.Day, ,,,,"1B01",,,_16_HolidayDay,,,
 
 #1C 01
-r,,HolidayStart.Month,Start of vacation Month (181) ,,,,"1C0102",HolidayStart.Month,,_16_HolidayMonth,,,
-w,,HolidayStart.Month, ,,,,"1C0102",,,_16_HolidayMonth,,,
+r,,HolidayStartDay.Month,Start of vacation Month (181) ,,,,"1C0102",HolidayStartDay.Month,,_16_HolidayMonth,,,
+w,,HolidayStartDay.Month, ,,,,"1C0102",,,_16_HolidayMonth,,,
 
 #1E 01
-r,,HolidayEnd, (182) ,,,,"1E0104",Day,,_16_HolidayDay,,,Day ,Month,,_16_HolidayMonth,,,Month
-w,,HolidayEnd, ,,,,"1E01",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
-r,,HolidayEnd.Day, Day (182) ,,,,"1E0102",HolidayEnd.Day,,_16_HolidayDay,,,
-#w,,HolidayEnd.Day, ,,,,"1E01",,,_16_HolidayDay,,,
+r,,HolidayEndDay, (182) ,,,,"1E0104",Day,,_16_HolidayDay,,,Day ,Month,,_16_HolidayMonth,,,Month
+w,,HolidayEndDay, ,,,,"1E01",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
+r,,HolidayEndDay.Day, Day (182) ,,,,"1E0102",HolidayEndDay.Day,,_16_HolidayDay,,,
+#w,,HolidayEndDay.Day, ,,,,"1E01",,,_16_HolidayDay,,,
 
 #1F 01
-r,,HolidayEnd.Month, Month (182) ,,,,"1F0102",HolidayEnd.Month,,_16_HolidayMonth,,,
-w,,HolidayEnd.Month, ,,,,"1F01",,,_16_HolidayMonth,,,
+r,,HolidayEndDay.Month, Month (182) ,,,,"1F0102",HolidayEndDay.Month,,_16_HolidayMonth,,,
+w,,HolidayEndDay.Month, ,,,,"1F01",,,_16_HolidayMonth,,,
 
 #28 01
-r,,TypeOfConstruction,Construction method (371) ,,,,"280102",TypeOfConstruction,,_16_Constructiontype,,,
-w,,TypeOfConstruction, ,,,,"2801",,,_16_Constructiontype,,,
+r,,TypeOfConstructionMode,Construction method (371) ,,,,"280102",TypeOfConstructionMode,,_16_Constructiontype,,,
+w,,TypeOfConstructionMode, ,,,,"2801",,,_16_Constructiontype,,,
 
 #2B 01
 r,,SupplyMinTemp,Minimum Supply Temperature (421) ,,,,"2B0102",SupplyMinTemp,,_16_Temp10,,,
@@ -124,8 +124,8 @@ r,,HolidayTemp,Holiday temperature (183) ,,,,"2D0102",,,_16_TempReduced,,,
 w,,HolidayTemp, ,,,,"2D01",,,_16_TempReduced,,,
 
 #2E 01
-r,,WtcDelay,WTC delay(430) ,,,,"2E0102",WtcDelay,,_16_Minutes,,,
-w,,WtcDelay, ,,,,"2E01",,,_16_Minutes,,,
+r,,WtcDelayRuntime,WTC delay(430) ,,,,"2E0102",WtcDelayRuntime,,_16_Minutes,,,
+w,,WtcDelayRuntime, ,,,,"2E01",,,_16_Minutes,,,
 
 #2F 01
 r,,PumpMaxSpeed,Max Pump speed (358) ,,,,"2F0102",PumpMaxSpeed,,_16_Percent,,,
@@ -140,12 +140,12 @@ r,,PumpVSDvariable,VSD variable (429) ,,,,"310102",PumpVSDvariable,,_16_PumpVari
 w,,PumpVSDvariable, ,,,,"3101",,,_16_PumpVariationSpeed,,,
 
 #32 01
-r,,Reduct,Reduct (501) ,,,,"320102",Reduct,,_16_TempReduced,,,
-w,,Reduct, ,,,,"3201",,,_16_TempReduced,,,
+r,,ReductTemp,ReductTemp (501) ,,,,"320102",ReductTemp,,_16_TempReduced,,,
+w,,ReductTemp, ,,,,"3201",,,_16_TempReduced,,,
 
 #33 01
-#r,,DHWMin,Hot water Min (177) ,,,,"330102",DHWMin,,_16_Temp10,,,
-#w,,DHWMin, ,,,,"3301",,,_16_Temp10,,,
+#r,,DHWMinTemp,Hot water Min (177) ,,,,"330102",DHWMinTemp,,_16_Temp10,,,
+#w,,DHWMinTemp, ,,,,"3301",,,_16_Temp10,,,
 
 #34 01
 #r,,DHWMaxTemp, DHW maximum Temp (601) ,,,,"340102",DHWMaxTemp,,_16_Temp10,,,
@@ -156,8 +156,8 @@ w,,Reduct, ,,,,"3201",,,_16_TempReduced,,,
 #w,,DHWMode, ,,,,"3501",,,_16_DhwMode,,,
 
 #37 01
-r,,DHWOperation,WW operation (360) ,,,,"370102",DHWOperation,,_16_DhwOperation,,,
-w,,DHWOperation, ,,,,"3701",,,_16_DhwOperation,,,
+r,,DHWOperationMode,WW operation (360) ,,,,"370102",DHWOperationMode,,_16_DHWOperationMode,,,
+w,,DHWOperationMode, ,,,,"3701",,,_16_DHWOperationMode,,,
 
 #99 01
 r,,FS_EM_R1, ,,,,"990102",FS_EM_R1,,UIN,,,
@@ -175,12 +175,12 @@ r,,Unknown14, ,,,,"AA0102",Unknown14,,_16_Temp10,,,
 r,,Unknown16, ,,,,"E90402",Unknown16,,_16_Temp10,,,
 
 #1C 0A 
-r,,RoomThermostat,Room thermostat (344) ,,,,"1C0A02",RoomThermostat,,_16_Temp1,,,
-w,,RoomThermostat, ,,,,"1C0A",,,_16_Temp1,,,
+r,,RoomThermostatTemp,Room thermostat (344) ,,,,"1C0A02",RoomThermostatTemp,,_16_Temp1,,,
+w,,RoomThermostatTemp, ,,,,"1C0A",,,_16_Temp1,,,
 
 #14 0A
-r,,RoomFrostProtection,Room frost protection (173) ,,,,"140A02",RoomFrostProtection,,_16_Temp10,,,
-w,,RoomFrostProtection, ,,,,"140A",,,_16_Temp10,,,
+r,,RoomFrostProtectionTemp,Room frost protection (173) ,,,,"140A02",RoomFrostProtectionTemp,,_16_Temp10,,,
+w,,RoomFrostProtectionTemp, ,,,,"140A",,,_16_Temp10,,,
 
 #0C 0A
 r,,OutsideBlendedTemp,Blended Outside Temperature ,,,,"0C0A02",OutsideBlendedTemp,,_16_Temp10,,,

@@ -14,20 +14,20 @@ r9,,SupplyMaxTemp,Maximum Supply Temperature (422) ,,,,"280002",SupplyMaxTemp,,_
 w,,SupplyMaxTemp, ,,,,"2800",SupplyMaxTemp,,_16_Temp10,,,
 
 #2B 00
-r9,,MixerParameter,Mixer Parameter (425) ,,,,"2B0002",MixerParameter,,_16_TempK10,,,
-w,,MixerParameter, ,,,,"2B00",,,_16_TempK10,,,
+r9,,MixerParameterTemp,Mixer Parameter (425) ,,,,"2B0002",MixerParameterTemp,,_16_TempK10,,,
+w,,MixerParameterTemp, ,,,,"2B00",,,_16_TempK10,,,
 
 #10 01
-r9,,SwitchOnSetting,Switch-on delay (353) ,,,,"100102",SwitchOnSetting,,_16_Minutes,,,
-w,,SwitchOnSetting, ,,,,"1001",,,_16_Minutes,,,
+r9,,SwitchOnRuntime,Switch-on delay (353) ,,,,"100102",SwitchOnRuntime,,_16_Minutes,,,
+w,,SwitchOnRuntime, ,,,,"1001",,,_16_Minutes,,,
 
 #11 01
-r9,,BoilerMCBoost,Boiler MC Boost(424) ,,,,"110102",BoilerMCBoost,,_16_TempK10,,,
-w,,BoilerMCBoost, ,,,,"1101",,,_16_TempK10,,,
+r9,,BoilerMCBoostTemp,Boiler MC Boost(424) ,,,,"110102",BoilerMCBoostTemp,,_16_TempK10,,,
+w,,BoilerMCBoostTemp, ,,,,"1101",,,_16_TempK10,,,
 
 #15 01
-r9,,Adaption,Adaption (507) ,,,,"150102",Adaption,,_16_OnOff,,,
-w,,Adaption, ,,,,"1501",,,_16_OnOff,,,
+r9,,AdaptionMode,Adaption (507) ,,,,"150102",AdaptionMode,,_16_OnOff,,,
+w,,AdaptionMode, ,,,,"1501",,,_16_OnOff,,,
 
 #2B 01
 r9,,SupplyMinTemp,Minimum Supply Temperature (421) ,,,,"2B0102",SupplyMinTemp,,_16_Temp10,,,
@@ -38,8 +38,8 @@ r9,,HolidayTemp,Holiday temperature (183) ,,,,"2D0102",,,_16_TempReduced,,,
 w,,HolidayTemp, ,,,,"2D01",,,_16_TempReduced,,,
 
 #2E 01
-r9,,WtcDelay,WTC delay(430) ,,,,"2E0102",WtcDelay,,_16_Minutes,,,
-w,,WtcDelay, ,,,,"2E01",,,_16_Minutes,,,
+r9,,WtcDelayRuntime,WTC delay(430) ,,,,"2E0102",WtcDelayRuntime,,_16_Minutes,,,
+w,,WtcDelayRuntime, ,,,,"2E01",,,_16_Minutes,,,
 
 #2F 01
 r9,,PumpMaxSpeed,Max Pump speed (358) ,,,,"2F0102",PumpMaxSpeed,,_16_Percent,,,
@@ -54,8 +54,8 @@ r9,,PumpVSDvariable,VSD variable (429) ,,,,"310102",PumpVSDvariable,,_16_PumpVar
 w,,PumpVSDvariable, ,,,,"3101",,,_16_PumpVariationSpeed,,,
 
 #32 01
-r9,,Reduct,Reduct (501) ,,,,"320102",Reduct,,_16_TempReduced,,,
-w,,Reduct, ,,,,"3201",,,_16_TempReduced,,,
+r9,,ReductTemp,ReductTemp (501) ,,,,"320102",ReductTemp,,_16_TempReduced,,,
+w,,ReductTemp, ,,,,"3201",,,_16_TempReduced,,,
 
 #41 01
 r9,,FS_EM_W2, ,,,,"410102",FS_EM_W2,,_16_Temp10,,,
