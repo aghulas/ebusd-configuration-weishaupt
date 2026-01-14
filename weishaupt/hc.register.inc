@@ -43,6 +43,7 @@ w,,GradientCurve, ,,,,"0E01",,,_16_Gradient10,,,
 
 #12 01
 r5,,ProgramMode,Program selector switch position ,,,,"120102",ProgramMode,,_16_ProgramMode,,,
+w,,ProgramMode, ,,,,"1201",,,_16_ProgramMode,,,
 
 #16 01
 r9,,SummerWinterChangeOverTemp,Summer/winter changeover temperature (174) ,,,,"160102",SuWiChangeOverTemp,,_16_Temp10,,,

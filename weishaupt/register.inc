@@ -66,6 +66,7 @@ w,,BoilerMCBoostTemp, ,,,,"1101",,,_16_TempK10,,,
 
 #12 01
 r9,,ProgramMode,Program selector switch position ,,,,"120102",ProgramMode,,_16_ProgramMode,,,
+w,,ProgramMode, ,,,,"1201",,,_16_ProgramMode,,,
 
 #15 01
 r9,,AdaptionMode,Adaption (507) ,,,,"150102",AdaptionMode,,_16_OnOff,,,
