@@ -6,4 +6,4 @@ cw,,BurnerStatus,Burner ​​WTC #2 -> KA,,,"500A",,Status1,,_8_Status,,, ,Oper
 cw,,Message,WTC #2 Broadcast Message ,,"FE","FE01",,Msg,,STR:10,,, ,
 
 *bw,,,,,"13",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-bw,,KaStatus,Cmd KA -> ​WTC #2 ,,,"0507",,Status,,_8_Opdataheat,,, ,Action,,_8_Opdataaction,,, ,SetTemp,,_16_Temp2,,, ,SetPressure,,_16_Pressure,,, ,OutputDegree,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
+bw,,KaStatus,Cmd KA -> ​WTC #2 ,,,"0507",,Status,,_8_Opdataheat,,, ,Action,,_8_Opdataaction,,, ,SetTemp,,_16_Temp2,,, ,SetPressure,,_16_Pressure,,, ,Modulation,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
