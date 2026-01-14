@@ -35,13 +35,13 @@ r9,,DHWOperationMode,WW operation (360) ,,,,"370102",DHWOperationMode,,_16_DHWOp
 w,,DHWOperationMode, ,,,,"3701",,,_16_DHWOperationMode,,,
 
 #99 01
-r,,FS_EM_R1, ,,,,"990102",FS_EM_R1,,UIN,,,
+r,,FS_EM_R1_sensor, ,,,,"990102",FS_EM_R1_sensor,,UIN,,,
 
 #A9 01
-r,,Unknown13, ,,,,"A90102",Unknown13,,_16_Temp10,,,
+r,,UnknownSensor13, ,,,,"A90102",UnknownSensor13,,_16_Temp10,,,
 
 #AA 01
-r,,Unknown14, ,,,,"AA0102",Unknown14,,_16_Temp10,,,
+r,,UnknownSensor14, ,,,,"AA0102",UnknownSensor14,,_16_Temp10,,,
 
 
 #10 17
@@ -213,5 +213,5 @@ r9,,CircRuntimeProgram.Su.3,Circulation Program Su 3 Start/End (User 167) ,,,,"7
 w,,CircRuntimeProgram.Su.3,Circulation Program Su 3 Start/End (User 167) ,,,,"721A",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
 
 #FB FD
-r,,Unknown8, ,,,,"FBFD02",Unknown8,,SIN,,,
-w,,Unknown8, ,,,,"FBFD",Unknown8,,SIN,,,
+r,,UnknownSensor8, ,,,,"FBFD02",UnknownSensor8,,SIN,,,
+w,,UnknownSensor8, ,,,,"FBFD",UnknownSensor8,,SIN,,,

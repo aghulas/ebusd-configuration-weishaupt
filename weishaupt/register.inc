@@ -148,42 +148,42 @@ r9,,DHWOperationMode,WW operation (360) ,,,,"370102",DHWOperationMode,,_16_DHWOp
 w,,DHWOperationMode, ,,,,"3701",,,_16_DHWOperationMode,,,
 
 #41 01
-r,,FS_EM_W2, ,,,,"410102",FS_EM_W2,,_16_Temp10,,,
-w,,FS_EM_W2, ,,,,"4101",FS_EM_W2,,_16_Temp10,,,
+r,,FS_EM_W2_Sensor, ,,,,"410102",FS_EM_W2_Sensor,,_16_Temp10,,,
+w,,FS_EM_W2_Sensor, ,,,,"4101",FS_EM_W2_Sensor,,_16_Temp10,,,
 
 #8F 01
-r,,Unknown15, ,,,,"8F0102",Unknown15,,_16_Temp10,,,
+r,,UnknownSensor15, ,,,,"8F0102",UnknownSensor15,,_16_Temp10,,,
 
 #99 01
-r,,FS_EM_R1, ,,,,"990102",FS_EM_R1,,UIN,,,
+r,,FS_EM_R1_sensor, ,,,,"990102",FS_EM_R1_sensor,,UIN,,,
 
 #A9 01
-r,,Unknown13, ,,,,"A90102",Unknown13,,_16_Temp10,,,
+r,,UnknownSensor13, ,,,,"A90102",UnknownSensor13,,_16_Temp10,,,
 
 #AA 01
-r,,Unknown14, ,,,,"AA0102",Unknown14,,_16_Temp10,,,
+r,,UnknownSensor14, ,,,,"AA0102",UnknownSensor14,,_16_Temp10,,,
 
 
 
 
 #85 02
-r,,FS_EM_W4, ,,,,"850202",FS_EM_W4,,_16_Temp10,,,
-w,,FS_EM_W4, ,,,,"8502",FS_EM_W4,,_16_Temp10,,,
+r,,FS_EM_W4_Sensor, ,,,,"850202",FS_EM_W4_Sensor,,_16_Temp10,,,
+w,,FS_EM_W4_Sensor, ,,,,"8502",FS_EM_W4_Sensor,,_16_Temp10,,,
 
 #59 03
-r9,,FS_EM_R2, ,,,,"590302",FS_EM_R2,,_16_Temp10,,,
+r9,,FS_EM_R2_Sensor, ,,,,"590302",FS_EM_R2_Sensor,,_16_Temp10,,,
 
 #E9 04
-r,,Unknown16, ,,,,"E90402",Unknown16,,_16_Temp10,,,
+r,,UnknownSensor16, ,,,,"E90402",UnknownSensor16,,_16_Temp10,,,
 
 
 #73 09
-r,,FS_EM_W3, ,,,,"730902",FS_EM_W2,,_16_Temp10,,,
-w,,FS_EM_W3, ,,,,"7309",FS_EM_W2,,_16_Temp10,,,
+r,,FS_EM_W3_Sensor, ,,,,"730902",FS_EM_W2_Sensor,,_16_Temp10,,,
+w,,FS_EM_W3_Sensor, ,,,,"7309",FS_EM_W2_Sensor,,_16_Temp10,,,
 
 #81 09
-r,,FS_EM_W5, ,,,,"B10902",FS_EM_W5,,UIN,,,
-w,,FS_EM_W5, ,,,,"B109",FS_EM_W5,,UIN,,,
+r,,FS_EM_W5_Sensor, ,,,,"B10902",FS_EM_W5_Sensor,,UIN,,,
+w,,FS_EM_W5_Sensor, ,,,,"B109",FS_EM_W5_Sensor,,UIN,,,
 
 
 #1C 0A 
@@ -198,17 +198,17 @@ w,,RoomFrostProtectionTemp, ,,,,"140A",,,_16_Temp10,,,
 r5,,OutsideBlendedTemp,Blended Outside Temperature ,,,,"0C0A02",OutsideBlendedTemp,,_16_Temp10,,,
 
 #12 0A
-r,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
+r9,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
 
 #13 0A
-r,,FloorDryingTemp,Screed temperature (383) ,,,,"130A02",FloorDryingTemp,,_16_Temp1,,,
+r9,,FloorDryingTemp,Screed temperature (383) ,,,,"130A02",FloorDryingTemp,,_16_Temp1,,,
 
 #20 0A
-r,,FS_EM_W1, ,,,,"200A02",FS_EM_W1,,_16_Temp10,,,
-w,,FS_EM_W1, ,,,,"200A",FS_EM_W1,,_16_Temp10,,,
+r,,FS_EM_W1_Sensor, ,,,,"200A02",FS_EM_W1_Sensor,,_16_Temp10,,,
+w,,FS_EM_W1_Sensor, ,,,,"200A",FS_EM_W1_Sensor,,_16_Temp10,,,
 
 #29 0A
-r,,FS_EM_R3, ,,,,"290A02",FS_EM_R3,,_16_Temp10,,,
+r,,FS_EM_R3_Sensor, ,,,,"290A02",FS_EM_R3_Sensor,,_16_Temp10,,,
 
 
 #10 14
@@ -551,13 +551,13 @@ w,,CircRuntimeProgram.Su.3,Circulation Program Su 3 Start/End (User 167) ,,,,"72
 
 
 #04 76
-r,,Unknown11, ,,,,"047602",Unknown11,,SIN,,,
-w,,Unknown11, ,,,,"0476",Unknown11,,SIN,,,
+r,,UnknownSensor11, ,,,,"047602",UnknownSensor11,,SIN,,,
+w,,UnknownSensor11, ,,,,"0476",UnknownSensor11,,SIN,,,
 
 #04 78
-r,,Unknown12, ,,,,"047802",Unknown12,,SIN,,,
-w,,Unknown12, ,,,,"0478",Unknown12,,SIN,,,
+r,,UnknownSensor12, ,,,,"047802",UnknownSensor12,,SIN,,,
+w,,UnknownSensor12, ,,,,"0478",UnknownSensor12,,SIN,,,
 
 #FB FD
-r,,Unknown8, ,,,,"FBFD02",Unknown8,,SIN,,,
-w,,Unknown8, ,,,,"FBFD",Unknown8,,SIN,,,
+r,,UnknownSensor8, ,,,,"FBFD02",UnknownSensor8,,SIN,,,
+w,,UnknownSensor8, ,,,,"FBFD",UnknownSensor8,,SIN,,,
