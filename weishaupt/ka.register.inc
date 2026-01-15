@@ -148,23 +148,23 @@ r9,,DHWOperationMode,WW operation (360) ,,,,"370102",DHWOperationMode,,_16_DHWOp
 w,,DHWOperationMode, ,,,,"3701",,,_16_DHWOperationMode,,,
 
 #8F 01
-r,,UnknownSensor15, ,,,,"8F0102",UnknownSensor15,,_16_Temp10,,,
+r,,UnknownSensor15, ,,,,"8F0102",UnknownSensor15,,UIN,,,
 
 #99 01
 r,,FS_EM_R1_sensor, ,,,,"990102",FS_EM_R1_sensor,,UIN,,,
 
 #A9 01
-r,,UnknownSensor13, ,,,,"A90102",UnknownSensor13,,_16_Temp10,,,
+r,,UnknownSensor13, ,,,,"A90102",UnknownSensor13,,UIN,,,
 
 #AA 01
-r,,UnknownSensor14, ,,,,"AA0102",UnknownSensor14,,_16_Temp10,,,
+r,,UnknownSensor14, ,,,,"AA0102",UnknownSensor14,,UIN,,,
 
 
 #59 03
-r,,FS_EM_R2_Sensor, ,,,,"590302",FS_EM_R2_Sensor,,_16_Temp10,,,
+r,,FS_EM_R2_Sensor, ,,,,"590302",FS_EM_R2_Sensor,,UIN,,,
 
 #E9 04
-r,,UnknownSensor16, ,,,,"E90402",UnknownSensor16,,_16_Temp10,,,
+r,,UnknownSensor16, ,,,,"E90402",UnknownSensor16,,UIN,,,
 
 
 #1C 0A 
@@ -528,13 +528,13 @@ w,,CircRuntimeProgram.Su.3,Circulation Program Su 3 Start/End (User 167) ,,,,"72
 
 
 #04 76
-r,,UnknownSensor11, ,,,,"047602",UnknownSensor11,,SIN,,,
-w,,UnknownSensor11, ,,,,"0476",UnknownSensor11,,SIN,,,
+r,,UnknownSensor11, ,,,,"047602",UnknownSensor11,,UIN,,,
+w,,UnknownSensor11, ,,,,"0476",UnknownSensor11,,UIN,,,
 
 #04 78
-r,,UnknownSensor12, ,,,,"047802",UnknownSensor12,,SIN,,,
-w,,UnknownSensor12, ,,,,"0478",UnknownSensor12,,SIN,,,
+r,,UnknownSensor12, ,,,,"047802",UnknownSensor12,,UIN,,,
+w,,UnknownSensor12, ,,,,"0478",UnknownSensor12,,UIN,,,
 
 #FB FD
-r,,UnknownSensor8, ,,,,"FBFD02",UnknownSensor8,,SIN,,,
-w,,UnknownSensor8, ,,,,"FBFD",UnknownSensor8,,SIN,,,
+r,,UnknownSensor8, ,,,,"FBFD02",UnknownSensor8,,UIN,,,
+w,,UnknownSensor8, ,,,,"FBFD",UnknownSensor8,,UIN,,,

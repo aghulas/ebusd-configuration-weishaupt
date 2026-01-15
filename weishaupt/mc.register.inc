@@ -58,34 +58,34 @@ r9,,ReductTemp,ReductTemp (501) ,,,,"320102",ReductTemp,,_16_TempReduced,,,
 w,,ReductTemp, ,,,,"3201",,,_16_TempReduced,,,
 
 #41 01
-r9,,FS_EM_W2_Sensor, ,,,,"410102",FS_EM_W2_Sensor,,_16_Temp10,,,
-w,,FS_EM_W2_Sensor, ,,,,"4101",FS_EM_W2_Sensor,,_16_Temp10,,,
+r9,,FS_EM_W2_Sensor, ,,,,"410102",FS_EM_W2_Sensor,,UIN,,,
+w,,FS_EM_W2_Sensor, ,,,,"4101",FS_EM_W2_Sensor,,UIN,,,
 
 #8F 01
-r9,,UnknownSensor15, ,,,,"8F0102",UnknownSensor15,,_16_Temp10,,,
+r9,,UnknownSensor15, ,,,,"8F0102",UnknownSensor15,,UIN,,,
 
 #99 01
 r9,,FS_EM_R1_sensor, ,,,,"990102",FS_EM_R1_sensor,,UIN,,,
 
 #A9 01
-#r9,,UnknownSensor13, ,,,,"A90102",UnknownSensor13,,_16_Temp10,,,
+#r9,,UnknownSensor13, ,,,,"A90102",UnknownSensor13,,UIN,,,
 
 #AA 01
-#r9,,UnknownSensor14, ,,,,"AA0102",UnknownSensor14,,_16_Temp10,,,
+#r9,,UnknownSensor14, ,,,,"AA0102",UnknownSensor14,,UIN,,,
 
 #85 02
-r9,,FS_EM_W4_Sensor, ,,,,"850202",FS_EM_W4_Sensor,,_16_Temp10,,,
-w,,FS_EM_W4_Sensor, ,,,,"8502",FS_EM_W4_Sensor,,_16_Temp10,,,
+r9,,FS_EM_W4_Sensor, ,,,,"850202",FS_EM_W4_Sensor,,UIN,,,
+w,,FS_EM_W4_Sensor, ,,,,"8502",FS_EM_W4_Sensor,,UIN,,,
 
 #59 03
-r9,,FS_EM_R2_Sensor, ,,,,"590302",FS_EM_R2_Sensor,,_16_Temp10,,,
+r9,,FS_EM_R2_Sensor, ,,,,"590302",FS_EM_R2_Sensor,,UIN,,,
 
 #E9 04
-r9,,UnknownSensor16, ,,,,"E90402",UnknownSensor16,,_16_Temp10,,,
+r9,,UnknownSensor16, ,,,,"E90402",UnknownSensor16,,UIN,,,
 
 #73 09
-r9,,FS_EM_W3_Sensor, ,,,,"730902",FS_EM_W2_Sensor,,_16_Temp10,,,
-w,,FS_EM_W3_Sensor, ,,,,"7309",FS_EM_W2_Sensor,,_16_Temp10,,,
+r9,,FS_EM_W3_Sensor, ,,,,"730902",FS_EM_W2_Sensor,,UIN,,,
+w,,FS_EM_W3_Sensor, ,,,,"7309",FS_EM_W2_Sensor,,UIN,,,
 
 #81 09
 r9,,FS_EM_W5_Sensor, ,,,,"B10902",FS_EM_W5_Sensor,,UIN,,,
@@ -108,5 +108,5 @@ w,,FS_EM_W1_Sensor, ,,,,"200A",FS_EM_W1_Sensor,,_16_Temp10,,,
 r,,FS_EM_R3_Sensor, ,,,,"290A02",FS_EM_R3_Sensor,,_16_Temp10,,,
 
 #FB FD
-r9,,UnknownSensor8, ,,,,"FBFD02",UnknownSensor8,,SIN,,,
-w,,UnknownSensor8, ,,,,"FBFD",UnknownSensor8,,SIN,,,
+r9,,UnknownSensor8, ,,,,"FBFD02",UnknownSensor8,,UIN,,,
+w,,UnknownSensor8, ,,,,"FBFD",UnknownSensor8,,UIN,,,
