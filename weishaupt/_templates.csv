@@ -22,7 +22,6 @@ _8_Status,UCH,,,Status 0x500A-Broadcast
 _8_Temp0,UCH,,°C,Temperature
 _8_Temp1,SCH,,°C,Temperature
 _8_Temp2,D1C,,°C,Temperature
-_8_Temp3,D2C,,°C,Temperature
 
 # Field Templates for Start/End-Time of the Programm,,,,
 _8_TimeStart:Start,TTQ,,,Start Time
