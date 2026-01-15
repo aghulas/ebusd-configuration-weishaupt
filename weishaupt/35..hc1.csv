@@ -4,6 +4,6 @@ b,,septsixTemp, ,"30",,,"7600",,,UIN,,,
 b,,setphuitTemp, ,"30",,,"7800",,,UIN,,,
 
 *bw,,,,"30","f1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-bw,,PowerDemand,Power Demand ​​HC1->KA,,,"0507",,Status,,_8_Opdataheat,,, ,,,_8_Skip,,, ,HeatDemandTemp,,_16_Temp2,,, ,,,_16_Skip,,, ,,,_8_Skip,,, ,,,_8_Skip,,, ,,,_8_Skip,,,
+bw,,EMPowerDemand,Power Demand ​​HC1->KA,,,"0507",,Status,,_8_Opdataheat,,, ,,,_8_Skip,,, ,HeatDemandTemp,,_16_Temp2,,, ,,,_16_Skip,,, ,,,_8_Skip,,, ,,,_8_Skip,,, ,,,_8_Skip,,,
 
 !include,hc.register.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

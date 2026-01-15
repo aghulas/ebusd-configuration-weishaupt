@@ -55,21 +55,21 @@ r9,,FloorDryingMode,Screed function (381) ,,,,"1A0102",FloorDryingMode,,_16_Floo
 #1B 01
 r9,,HolidayRuntimeStart,Start of vacation (181) ,,,,"1B0104",Day,,_16_HolidayDay,,,Day ,Month,,_16_HolidayMonth,,,Month
 w,,HolidayRuntimeStart, ,,,,"1B01",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
-#r9,,HolidayRuntimeStart.Day,Start of vacation Day (181) ,,,,"1B0102",HolidayRuntimeStart.Day,,_16_HolidayDay,,,
+#r,,HolidayRuntimeStart.Day,Start of vacation Day (181) ,,,,"1B0102",HolidayRuntimeStart.Day,,_16_HolidayDay,,,
 #w,,HolidayRuntimeStart.Day, ,,,,"1B01",,,_16_HolidayDay,,,
 
 #1C 01
-#r9,,HolidayRuntimeStart.Month,Start of vacation Month (181) ,,,,"1C0102",HolidayRuntimeStart.Month,,_16_HolidayMonth,,,
+#r,,HolidayRuntimeStart.Month,Start of vacation Month (181) ,,,,"1C0102",HolidayRuntimeStart.Month,,_16_HolidayMonth,,,
 #w,,HolidayRuntimeStart.Month, ,,,,"1C0102",,,_16_HolidayMonth,,,
 
 #1E 01
 r9,,HolidayRuntimeEnd, (182) ,,,,"1E0104",Day,,_16_HolidayDay,,,Day ,Month,,_16_HolidayMonth,,,Month
 w,,HolidayRuntimeEnd, ,,,,"1E01",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
-#r9,,HolidayRuntimeEnd.Day, Day (182) ,,,,"1E0102",HolidayRuntimeEnd.Day,,_16_HolidayDay,,,
+#r,,HolidayRuntimeEnd.Day, Day (182) ,,,,"1E0102",HolidayRuntimeEnd.Day,,_16_HolidayDay,,,
 #w,,HolidayRuntimeEnd.Day, ,,,,"1E01",,,_16_HolidayDay,,,
 
 #1F 01
-#r9,,HolidayRuntimeEnd.Month, Month (182) ,,,,"1F0102",HolidayRuntimeEnd.Month,,_16_HolidayMonth,,,
+#r,,HolidayRuntimeEnd.Month, Month (182) ,,,,"1F0102",HolidayRuntimeEnd.Month,,_16_HolidayMonth,,,
 #w,,HolidayRuntimeEnd.Month, ,,,,"1F01",,,_16_HolidayMonth,,,
 
 #28 01
@@ -77,7 +77,7 @@ r9,,TypeOfConstructionMode,Construction method (371) ,,,,"280102",TypeOfConstruc
 w,,TypeOfConstructionMode, ,,,,"2801",,,_16_Constructiontype,,,
 
 #1C 0A 
-r9,,RoomThermostatTemp,Room thermostat (344) ,,,,"1C0A02",RoomThermostatTemp,,_16_Temp1,,,
+r,,RoomThermostatTemp,Room thermostat (344) ,,,,"1C0A02",RoomThermostatTemp,,_16_Temp1,,,
 w,,RoomThermostatTemp, ,,,,"1C0A",,,_16_Temp1,,,
 
 #14 0A
@@ -88,10 +88,10 @@ w,,RoomFrostProtectionTemp, ,,,,"140A",,,_16_Temp10,,,
 #r9,,OutsideBlendedTemp,Blended Outside Temperature ,,,,"0C0A02",OutsideBlendedTemp,,_16_Temp10,,,
 
 #12 0A
-#r9,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
+#r,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
 
 #13 0A
-#r9,,FloorDryingTemp,Screed temperature (383) ,,,,"130A02",FloorDryingTemp,,_16_Temp1,,,
+#r,,FloorDryingTemp,Screed temperature (383) ,,,,"130A02",FloorDryingTemp,,_16_Temp1,,,
 
 
 #10 14

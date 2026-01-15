@@ -78,7 +78,7 @@ r9,,FS_EM_W4_Sensor, ,,,,"850202",FS_EM_W4_Sensor,,UIN,,,
 w,,FS_EM_W4_Sensor, ,,,,"8502",FS_EM_W4_Sensor,,UIN,,,
 
 #59 03
-r9,,FS_EM_R2_Sensor, ,,,,"590302",FS_EM_R2_Sensor,,UIN,,,
+r,,FS_EM_R2_Sensor, ,,,,"590302",FS_EM_R2_Sensor,,UIN,,,
 
 #E9 04
 r9,,UnknownSensor16, ,,,,"E90402",UnknownSensor16,,UIN,,,
@@ -95,10 +95,10 @@ w,,FS_EM_W5_Sensor, ,,,,"B109",FS_EM_W5_Sensor,,UIN,,,
 r9,,OutsideBlendedTemp,Blended Outside Temperature ,,,,"0C0A02",OutsideBlendedTemp,,_16_Temp10,,,
 
 #12 0A
-r9,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
+r,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
 
 #13 0A
-r9,,FloorDryingTemp,Screed temperature (383) ,,,,"130A02",FloorDryingTemp,,_16_Temp1,,,
+r,,FloorDryingTemp,Screed temperature (383) ,,,,"130A02",FloorDryingTemp,,_16_Temp1,,,
 
 #20 0A
 r9,,FS_EM_W1_Sensor, ,,,,"200A02",FS_EM_W1_Sensor,,UIN,,,
