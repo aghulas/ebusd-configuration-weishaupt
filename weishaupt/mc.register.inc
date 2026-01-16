@@ -22,7 +22,7 @@ r9,,SwitchOnRuntime,Switch-on delay (353) ,,,,"100102",SwitchOnRuntime,,_16_Minu
 w,,SwitchOnRuntime, ,,,,"1001",,,_16_Minutes,,,
 
 #11 01
-r9,,BoilerMCBoostTemp,Boiler MC Boost(424) ,,,,"110102",BoilerMCBoostTemp,,_16_TempK10,,,
+r,,BoilerMCBoostTemp,Boiler MC Boost(424) ,,,,"110102",BoilerMCBoostTemp,,_16_TempK10,,,
 w,,BoilerMCBoostTemp, ,,,,"1101",,,_16_TempK10,,,
 
 #15 01
