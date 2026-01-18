@@ -82,7 +82,7 @@ r9,,ProgramMode,Program selector switch position ,,,,"120102",ProgramMode,,_16_P
 w,,ProgramMode, ,,,,"1201",,,_16_ProgramMode,,,
 
 #15 01
-r9,,AdaptionMode,Adaption (507) ,,,,"150102",AdaptionMode,,_16_OnOff,,,
+r,,AdaptionMode,Adaption (507) ,,,,"150102",AdaptionMode,,_16_OnOff,,,
 w,,AdaptionMode, ,,,,"1501",,,_16_OnOff,,,
 
 #16 01

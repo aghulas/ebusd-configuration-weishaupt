@@ -17,6 +17,9 @@ w,,SupplyMaxTemp, ,,,,"2800",SupplyMaxTemp,,_16_Temp10,,,
 r9,,MixerParameterTemp,Mixer Parameter (425) ,,,,"2B0002",MixerParameterTemp,,_16_TempK10,,,
 w,,MixerParameterTemp, ,,,,"2B00",,,_16_TempK10,,,
 
+#0C 00
+r5,,OutsideTemp,B1 Outside Sensor Temperature,,,,"0C0002",OutsideTemp,,_16_Temp10,,,
+
 #10 01
 r9,,SwitchOnRuntime,Switch-on delay (353) ,,,,"100102",SwitchOnRuntime,,_16_Minutes,,,
 w,,SwitchOnRuntime, ,,,,"1001",,,_16_Minutes,,,
@@ -26,7 +29,7 @@ r,,BoilerMCBoostTemp,Boiler MC Boost(424) ,,,,"110102",BoilerMCBoostTemp,,_16_Te
 w,,BoilerMCBoostTemp, ,,,,"1101",,,_16_TempK10,,,
 
 #15 01
-r9,,AdaptionMode,Adaption (507) ,,,,"150102",AdaptionMode,,_16_OnOff,,,
+r,,AdaptionMode,Adaption (507) ,,,,"150102",AdaptionMode,,_16_OnOff,,,
 w,,AdaptionMode, ,,,,"1501",,,_16_OnOff,,,
 
 #2B 01
@@ -42,15 +45,15 @@ r9,,WtcDelayRuntime,WTC delay(430) ,,,,"2E0102",WtcDelayRuntime,,_16_Minutes,,,
 w,,WtcDelayRuntime, ,,,,"2E01",,,_16_Minutes,,,
 
 #2F 01
-r9,,PumpMaxSpeed,Max Pump speed (358) ,,,,"2F0102",PumpMaxSpeed,,_16_Percent,,,
+r,,PumpMaxSpeed,Max Pump speed (358) ,,,,"2F0102",PumpMaxSpeed,,_16_Percent,,,
 w,,PumpMaxSpeed, ,,,,"2F01",,,_16_Percent,,
 
 #30 01,
-r9,,PumpMinSpeed,Min Pump speed (359) ,,,,"300102",PumpMinSpeed,,_16_Percent,,,
+r,,PumpMinSpeed,Min Pump speed (359) ,,,,"300102",PumpMinSpeed,,_16_Percent,,,
 w,,PumpMinSpeed, ,,,,"3001",,,_16_Percent,,,
 
 #31 01
-r9,,PumpVSDvariable,VSD variable (429) ,,,,"310102",PumpVSDvariable,,_16_PumpVariationSpeed,,,
+r,,PumpVSDvariable,VSD variable (429) ,,,,"310102",PumpVSDvariable,,_16_PumpVariationSpeed,,,
 w,,PumpVSDvariable, ,,,,"3101",,,_16_PumpVariationSpeed,,,
 
 #32 01
