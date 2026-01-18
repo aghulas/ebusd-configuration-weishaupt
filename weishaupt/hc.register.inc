@@ -82,7 +82,7 @@ r9,,RoomFrostProtectionTemp,Room frost protection (173) ,,,,"140A02",RoomFrostPr
 w,,RoomFrostProtectionTemp, ,,,,"140A",,,_16_Temp10,,,
 
 #0C 0A
-#r9,,OutsideBlendedTemp,Blended Outside Temperature ,,,,"0C0A02",OutsideBlendedTemp,,_16_Temp10,,,
+#r,,OutsideBlendedTemp,Blended Outside Temperature ,,,,"0C0A02",OutsideBlendedTemp,,_16_Temp10,,,
 
 #12 0A
 #r,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
