@@ -4,7 +4,7 @@
 u,,Signoflife,EM #1 ping,"70",,07FF,,
 
 *bw,,,,"70","f1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-bw,,EMPowerDemand,Power Demand ​​HC2->KA,,,"0507",,Status,,_8_Opdataheat,,, ,,,_8_Skip,,, ,HeatDemandTemp,,_16_Temp2,,, ,,,_16_Skip,,, ,,,_8_Skip,,, ,,,_8_Skip,,, ,,,_8_Skip,,,
+bw,,EMPowerDemand,Power Demand ​​HC2->KA,,,"0507",,Status,,_8_Opdataheat1,,, ,,,_8_Skip,,, ,HeatDemandTemp,,_16_Temp2,,, ,,,_16_Skip,,, ,,,_8_Skip,,, ,,,_8_Skip,,, ,,,_8_Skip,,,
 bw,,EM5009,Message 5009? ​​HC2->KA,,,"5009",,Payload,,UCH,,, ,,,
 
 *uw,,,,"70","fe","0704",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
