@@ -149,7 +149,7 @@ echo FS_EM_W2_Sensor; ebusctl read -f -c hc2 FS_EM_W2_Sensor
 echo FS_EM_W3_Sensor; ebusctl read -f -c hc2 FS_EM_W3_Sensor
 echo FS_EM_W4_Sensor; ebusctl read -f -c hc2 FS_EM_W4_Sensor
 echo FS_EM_W5_Sensor; ebusctl read -f -c hc2 FS_EM_W5_Sensor
-echo FS_EM_R3_Sensor; ebusctl read -f -c hc2 FS_EM_R3_Sensor
+echo H1Status; ebusctl read -f -c hc2 H1Status
 echo UnknownSensor8; ebusctl read -f -c hc2 UnknownSensor8
 echo FS_EM_R1_sensor; ebusctl read -f -c hc2 FS_EM_R1_sensor
 echo FS_EM_R2_Sensor; ebusctl read -f -c hc2 FS_EM_R2_Sensor

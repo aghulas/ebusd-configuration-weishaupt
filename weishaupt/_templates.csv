@@ -23,6 +23,7 @@ _8_Temp0,UCH,,°C,Temperature
 _8_Temp1,SCH,,°C,Temperature
 _8_Temp2,D1C,,°C,Temperature
 _8_Temp2K,D1C,,°K,Temperature
+_8_H1Status,UCH,0x00=Open,0x00=Closed,H1 Relay Status
 
 # Field Templates for Start/End-Time of the Programm,,,,
 _8_TimeStart:Start,TTQ,,,Start Time

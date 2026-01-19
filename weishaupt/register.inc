@@ -211,8 +211,7 @@ r0,,FS_EM_W1_Sensor, ,,,,"200A02",FS_EM_W1_Sensor,,UIN,,,
 w,,FS_EM_W1_Sensor, ,,,,"200A",FS_EM_W1_Sensor,,UIN,,,
 
 #29 0A
-r0,,FS_EM_R3_Sensor, ,,,,"290A02",FS_EM_R3_Sensor,,UIN,,,
-
+r0,,H1Status, ,,,,"290A02",H1Status,,_8_H1Status,,,
 
 #10 14
 r0,,HCRuntimeProgram1.Mo.1,Heating Program 1 Mo 1 Start/End (User 121) ,,,,"101402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
