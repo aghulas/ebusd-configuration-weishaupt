@@ -5,6 +5,7 @@ u,,Signoflife,EM #2 ping,"F0",,"07FF",,
 
 *bw,,,,"f0","f1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 bw,,EMPowerDemand,Power Demand ​​HC3->KA,,,"0507",,Status,,_8_Opdataheat,,, ,,,_8_Skip,,, ,HeatDemandTemp,,_16_Temp2,,, ,,,_16_Skip,,, ,,,_8_Skip,,, ,,,_8_Skip,,, ,,,_8_Skip,,,
+bw,,EM5009,Message 5009? ​​HC3->KA,,,"5009",,Payload,,UCH,,, ,,,
 
 *cw,,,,"f0",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 cw,,ErrorStatus,WTC #1 Broadcast Message ,,"FE","FE01",,Msg,,STR:10,,, ,

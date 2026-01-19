@@ -11,5 +11,6 @@ uw,,IdBroadcast,answer to identification query,,,,,mf,,UCH,6=Dungs;15=FH Ostfali
 
 *bw,,,,"30","f1",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 bw,,EMPowerDemand,Power Demand ​​HC1->KA,,,"0507",,Status,,_8_Opdataheat,,, ,,,_8_Skip,,, ,HeatDemandTemp,,_16_Temp2,,, ,,,_16_Skip,,, ,,,_8_Skip,,, ,,,_8_Skip,,, ,,,_8_Skip,,,
+bw,,EM5009,Message 5009? ​​HC1->KA,,,"5009",,Payload,,UCH,,, ,,,
 
 !include,hc.register.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
