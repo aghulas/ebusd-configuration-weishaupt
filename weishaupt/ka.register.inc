@@ -161,7 +161,7 @@ r0,,UnknownSensor14, ,,,,"AA0102",UnknownSensor14,,UIN,,,
 
 
 #59 03
-r0,,FS_EM_R2_Sensor, ,,,,"590302",FS_EM_R2_Senr0,,0,,UIN,,,
+r0,,FS_EM_R2_Sensor, ,,,,"590302",FS_EM_R2_Senror,,UIN,,,
 
 #E9 04
 r0,,UnknownSensor16, ,,,,"E90402",UnknownSensor16,,UIN,,,
