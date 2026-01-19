@@ -151,7 +151,7 @@ w,,DHWOperationMode, ,,,,"3701",,,_16_DHWOperationMode,,,
 r0,,UnknownSensor15, ,,,,"8F0102",UnknownSensor15,,UIN,,,
 
 #99 01
-r0,,FS_EM_R1_Sensor, ,,,,"990102",FS_EM_R1_senr0,,0,,UIN,,,
+r0,,FS_EM_R1_Sensor, ,,,,"990102",FS_EM_R1_sensor,,UIN,,,
 
 #A9 01
 r0,,UnknownSensor13, ,,,,"A90102",UnknownSensor13,,UIN,,,

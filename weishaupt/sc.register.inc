@@ -161,7 +161,7 @@ r9,,DHWOperationMode,WW operation (360) ,,,,"370102",DHWOperationMode,,_16_DHWOp
 w,,DHWOperationMode, ,,,,"3701",,,_16_DHWOperationMode,,,
 
 #99 01
-r0,,FS_EM_R1_Sensor, ,,,,"990102",FS_EM_R1_senr0,,0,,UIN,,,
+r0,,FS_EM_R1_Sensor, ,,,,"990102",FS_EM_R1_sensor,,UIN,,,
 
 #8F 01
 r0,,UnknownSensor15, ,,,,"8F0102",UnknownSensor15,,UIN,,,
