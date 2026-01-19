@@ -11,9 +11,6 @@ w,,DHWSetpoint, ,,,,"1300",,,_16_Temp10,,,
 #03 00
 r0,,DHWSetValue,Hot water setpoint ,,,,"030002",DHWSetValue,,_16_Temp10,,,
 
-#0B 00
-r0,,UnknownSensor17, ,,,,"0B0002",UnknownSensor17,,UIN,,,
-
 #0E 00
 r0,,DHWTemp,B3 DHW Sensor Temperature ,,,,"0E0002",DHWTemp,,_16_Temp10,,,
 
