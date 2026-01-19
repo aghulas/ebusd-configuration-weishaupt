@@ -185,7 +185,7 @@ r0,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
 r0,,FloorDryingTemp,Screed temperature (383) ,,,,"130A02",FloorDryingTemp,,_16_Temp1,,,
 
 #29 0A
-r0,,FS_EM_R3_Sensor, ,,,,"290A02",FS_EM_R3_Senr0,,0,,UIN,,,
+r0,,FS_EM_R3_Sensor, ,,,,"290A02",FS_EM_R3_Senror,,UIN,,,
 
 
 #10 14
