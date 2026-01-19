@@ -3,9 +3,6 @@
 *r,,,,,,"0902",,,,,,,
 *w,,,,,,"0903",,,,,,,
 
-#0B 00
-r0,,UnknownSensor17, ,,,,"0B0002",UnknownSensor17,,UIN,,,
-
 #0F 00
 r1,,SupplyHCTemp,B6 Supply Sensor Temperature,,,,"0F0002",SupplyHCTemp,,_16_Temp10,,,
 
