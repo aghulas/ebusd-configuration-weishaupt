@@ -37,7 +37,7 @@ r0,,DHWSetpoint,Hot water setpoint (176) ,,,,"130002",DHWSetpoint,,_16_Temp10,,,
 w,,DHWSetpoint, ,,,,"1300",,,_16_Temp10,,,
 
 #1A 00
-r0,,OutsideWeightedTemp,Weighted Outside Temperature ,,,,"1A0A02",OutsideWeightedTemp,,_16_Temp10,,,
+r0,,OutsideBlendedTemp,Weighted Outside Temperature ,,,,"1A0A02",OutsideBlendedTemp,,_16_Temp10,,,
 
 #03 00
 r0,,DHWSetValue,Hot water setpoint ,,,,"030002",DHWSetValue,,_16_Temp10,,,
@@ -184,7 +184,7 @@ r9,,RoomFrostProtectionTemp,Room frost protection (173) ,,,,"140A02",RoomFrostPr
 w,,RoomFrostProtectionTemp, ,,,,"140A",,,_16_Temp10,,,
 
 #0C 0A
-r0,,OutsideBlendedTemp,Blended Outside Temperature ,,,,"0C0A02",OutsideBlendedTemp,,_16_Temp10,,,
+r0,,OutsideWeightedTemp,Blended Outside Temperature ,,,,"0C0A02",OutsideWeightedTemp,,_16_Temp10,,,
 
 #12 0A
 r0,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,

@@ -8,7 +8,7 @@ echo SupplyHCTemp; ebusctl read -f -d 50 SupplyHCTemp
 echo RoomTemp; ebusctl read -f -d 50 RoomTemp
 echo RoomSetPointTemp; ebusctl read -f -d 50 RoomSetPointTemp
 echo DHWSetpoint; ebusctl read -f -d 50 DHWSetpoint
-echo OutsideWeightedTemp; ebusctl read -f -d 50 OutsideWeightedTemp
+echo OutsideBlendedTemp; ebusctl read -f -d 50 OutsideBlendedTemp
 echo DHWSetValue; ebusctl read -f -d 50 DHWSetValue
 echo DHWTemp; ebusctl read -f -d 50 DHWTemp
 echo SupplyMaxTemp; ebusctl read -f -d 50 SupplyMaxTemp
@@ -44,7 +44,7 @@ echo DHWOperationMode; ebusctl read -f -d 50 DHWOperationMode
 
 echo RoomThermostatTemp; ebusctl read -f -d 50 RoomThermostatTemp
 echo RoomFrostProtectionTemp; ebusctl read -f -d 50 RoomFrostProtectionTemp
-echo OutsideBlendedTemp; ebusctl read -f -d 50 OutsideBlendedTemp
+echo OutsideWeightedTemp; ebusctl read -f -d 50 OutsideWeightedTemp
 echo FloorDryingDay; ebusctl read -f -d 50 FloorDryingDay
 echo FloorDryingTemp; ebusctl read -f -d 50 FloorDryingTemp
 
