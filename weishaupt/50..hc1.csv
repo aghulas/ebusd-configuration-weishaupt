@@ -2,6 +2,6 @@
 
 
 *uw,,,,,,"5014",,,,,,,
-uw,,HcModew,Exch values ,,,,,Opmode1,,UCH,,, ,HeatDemandTemp,,_16_Temp0,,, ,Temp2,,_8_Temp2,,, ,Temp5,,_8_Temp2,,, ,Opmode2,,UCH,,, ,s,,_8_Skip,,, ,
+uw,,HcModew,Exch values ,,,,,Ink1_1,,BI0,,, ,Ink1_2,,BI1,,, ,Ink1_3,,BI2,,, ,Ink1_4,,BI3,,, ,Ink1_5,,BI4,,, ,Ink1_6,,BI5,,, ,Ink1_7,,BI6,,, ,Ink1_8,,BI7,,, ,HeatDemandTemp,,_16_Temp0,,, ,USensor,,UIN,,, ,Ukn2_1,,BI0,,, ,Ukn2_2,,BI1,,, ,Ukn2_3,,BI2,,, ,Ukn2_4,,BI3,,, ,Ukn2_5,,BI4,,, ,Ukn2_6,,BI5,,, ,Ukn2_7,,BI6,,, ,Ukn2_8,,BI7,,, ,s,,_8_Skip,,, ,
 
 !include,hwc.register.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
