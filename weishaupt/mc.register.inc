@@ -17,6 +17,9 @@ w,,MixerParameterTemp, ,,,,"2B00",,,_16_TempK10,,,
 #0C 00
 r,,OutsideTemp,B1 Outside Sensor Temperature,,,,"0C0002",OutsideTemp,,_16_Temp10,,,
 
+#0E 00
+r,,DHWTemp,B3 DHW Sensor Temperature ,,,,"0E0002",DHWTemp,,_16_Temp10,,,
+
 #10 01
 r9,,SwitchOnRuntime,Switch-on delay (353) ,,,,"100102",SwitchOnRuntime,,_16_Minutes,,,
 w,,SwitchOnRuntime, ,,,,"1001",,,_16_Minutes,,,
