@@ -11,11 +11,7 @@ cw,,HeatDemand,HeatDemand ->KA,,,"0507",,Status,,_8_Opdataheat1,,, ,,,_8_Skip,,,
 cw,,EM5009,Message 5009? ​​HC1->KA,,,"5009",,Payload,,UCH,,, ,,,
 
 *r,,,,,,"5000",,,,,,,
-r,,ProcessValues1,Process values ,,,,"0921201127112B0161",,s,_8_Skip,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,, ,Byte6,s,UCH,,, ,Byte7,s,UCH,,, ,Byte8,s,UCH,,,
-r,,ProcessValues2,Process values ,,,,"BC1162016511700174",,s,_8_Skip,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,FanControlSetSpeed,s,_8_Rpm60,,,Gebläseregelung Soll-Drehzahl ,FanControlActualSpeed,s,_8_Rpm60,,,Gebläseregelung Ist-Drehzahl ,Byte6,s,UCH,,,
-r,,ProcessValues3,Process values ,,,,"B2017C01C40302",,s,_8_Skip,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,,
-r,,ProcessValues4,Process values ,,,,"880122015B115F01660168",,s,_8_Skip,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,, ,Byte6,s,UCH,,,
-r,,ProcessValues5,Process values ,,,,"1F016A116E118901B3",,s,_8_Skip,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,, ,Byte6,s,UCH,,,
-r,,ProcessValues6,Process values ,,,,"603308",,s,_8_Skip,,, ,Byte1,s,UCH,,, ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,,
+r,,Manufacturer1,Manufacturer ,,,,"C5B201",,s,_8_Skip,,, ,BurnerOptions,s,_8_BurnerOptions,,,Brenneroptionen ,Byte2,s,UCH,,, ,Byte3,s,UCH,,, ,Byte4,s,UCH,,, ,Byte5,s,UCH,,, ,Byte6,s,UCH,,, ,STBShutdownTempBoiler,s,temp0,,,STB Abschalttemperatur Kessel ,STWShutdownTempBoiler,s,temp0,,,STW Abschalttemperatur Kessel ,ASTBShutdownTempFlueGas,s,temp0,,,ASTB Abschalttemperatur Abgas ,Byte10,s,UCH,,, ,S19,s,UCH,,,S19 ,S20,s,UCH,,,S20 
+r,,Manufacturer2,Manufacturer ,,,,"41720D",,s,_8_Skip,,, ,FanControllerP,s,UCH,,,Gebläseregler (P-Anteil) ,FanControllerI,s,UCH,,,Gebläseregler (I-Anteil) ,Byte3,s,UCH,,, ,S15,s,UCH,,,S15 ,S16,s,UCH,,,S16 ,Byte6,s,UCH,,, ,Byte7,s,UCH,,, ,Byte8,s,UCH,,,
 
 !include,hc.register.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
