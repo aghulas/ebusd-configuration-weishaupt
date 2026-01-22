@@ -4,5 +4,3 @@ b,,FsStatus,Actual Values HC2,,,"5010",,RoomTemp,m,_16_Temp0,,,Room Temperature 
 
 !include,5014.inc,,Exch values ​​HC2->EM#1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 !include,mc.register.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-
-*r,,,,,,"5000",,,,,,,
