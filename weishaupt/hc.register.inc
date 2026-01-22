@@ -91,170 +91,170 @@ w,,RoomFrostProtectionTemp, ,,,,"140A",,,_16_Temp10,,,
 
 
 #10 14
-r,,HCRuntimeProgram1.Mo.1,Heating Program 1 Mo 1 Start/End (User 121) ,,,,"101402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram1.Mo.1,Heating Program 1 Mo 1 Start/End (User 121) ,,,,"1014",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram1.Mo.1,Heating Program 1 Mo 1 Start/End (User 121) ,,,,"101402",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram1.Mo.1,Heating Program 1 Mo 1 Start/End (User 121) ,,,,"1014",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #11 14
-r,,HCRuntimeProgram1.Mo.2,Heating Program 1 Mo 2 Start/End (User 121) ,,,,"111402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram1.Mo.2,Heating Program 1 Mo 2 Start/End (User 121) ,,,,"1114",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram1.Mo.2,Heating Program 1 Mo 2 Start/End (User 121) ,,,,"111402",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram1.Mo.2,Heating Program 1 Mo 2 Start/End (User 121) ,,,,"1114",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #12 14
-r,,HCRuntimeProgram1.Mo.3,Heating Program 1 Mo 3 Start/End (User 121) ,,,,"121402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram1.Mo.3,Heating Program 1 Mo 3 Start/End (User 121) ,,,,"1214",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram1.Mo.3,Heating Program 1 Mo 3 Start/End (User 121) ,,,,"121402",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram1.Mo.3,Heating Program 1 Mo 3 Start/End (User 121) ,,,,"1214",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #20 14
-r,,HCRuntimeProgram1.Tu.1,Heating Program 1 Tu 1 Start/End (User 122) ,,,,"201402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram1.Tu.1,Heating Program 1 Tu 1 Start/End (User 122) ,,,,"2014",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram1.Tu.1,Heating Program 1 Tu 1 Start/End (User 122) ,,,,"201402",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram1.Tu.1,Heating Program 1 Tu 1 Start/End (User 122) ,,,,"2014",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #21 14
-r,,HCRuntimeProgram1.Tu.2,Heating Program 1 Tu 2 Start/End (User 122) ,,,,"211402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram1.Tu.2,Heating Program 1 Tu 2 Start/End (User 122) ,,,,"2114",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram1.Tu.2,Heating Program 1 Tu 2 Start/End (User 122) ,,,,"211402",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram1.Tu.2,Heating Program 1 Tu 2 Start/End (User 122) ,,,,"2114",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #22 14
-r,,HCRuntimeProgram1.Tu.3,Heating Program 1 Tu 3 Start/End (User 122) ,,,,"221402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram1.Tu.3,Heating Program 1 Tu 3 Start/End (User 122) ,,,,"2214",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram1.Tu.3,Heating Program 1 Tu 3 Start/End (User 122) ,,,,"221402",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram1.Tu.3,Heating Program 1 Tu 3 Start/End (User 122) ,,,,"2214",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #30 14
-r,,HCRuntimeProgram1.We.1,Heating Program 1 We 1 Start/End (User 123) ,,,,"301402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram1.We.1,Heating Program 1 We 1 Start/End (User 123) ,,,,"3014",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram1.We.1,Heating Program 1 We 1 Start/End (User 123) ,,,,"301402",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram1.We.1,Heating Program 1 We 1 Start/End (User 123) ,,,,"3014",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #31 14
-r,,HCRuntimeProgram1.We.2,Heating Program 1 We 2 Start/End (User 123) ,,,,"311402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram1.We.2,Heating Program 1 We 2 Start/End (User 123) ,,,,"3114",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram1.We.2,Heating Program 1 We 2 Start/End (User 123) ,,,,"311402",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram1.We.2,Heating Program 1 We 2 Start/End (User 123) ,,,,"3114",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #32 14
-r,,HCRuntimeProgram1.We.3,Heating Program 1 We 3 Start/End (User 123) ,,,,"321402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram1.We.3,Heating Program 1 We 3 Start/End (User 123) ,,,,"3214",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram1.We.3,Heating Program 1 We 3 Start/End (User 123) ,,,,"321402",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram1.We.3,Heating Program 1 We 3 Start/End (User 123) ,,,,"3214",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #40 14
-r,,HCRuntimeProgram1.Th.1,Heating Program 1 Th 1 Start/End (User 124) ,,,,"401402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram1.Th.1,Heating Program 1 Th 1 Start/End (User 124) ,,,,"4014",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram1.Th.1,Heating Program 1 Th 1 Start/End (User 124) ,,,,"401402",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram1.Th.1,Heating Program 1 Th 1 Start/End (User 124) ,,,,"4014",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #41 14
-r,,HCRuntimeProgram1.Th.2,Heating Program 1 Th 2 Start/End (User 124) ,,,,"411402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram1.Th.2,Heating Program 1 Th 2 Start/End (User 124) ,,,,"4114",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram1.Th.2,Heating Program 1 Th 2 Start/End (User 124) ,,,,"411402",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram1.Th.2,Heating Program 1 Th 2 Start/End (User 124) ,,,,"4114",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #42 14
-r,,HCRuntimeProgram1.Th.3,Heating Program 1 Th 3 Start/End (User 124) ,,,,"421402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram1.Th.3,Heating Program 1 Th 3 Start/End (User 124) ,,,,"4214",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram1.Th.3,Heating Program 1 Th 3 Start/End (User 124) ,,,,"421402",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram1.Th.3,Heating Program 1 Th 3 Start/End (User 124) ,,,,"4214",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #50 14
-r,,HCRuntimeProgram1.Fr.1,Heating Program 1 Fr 1 Start/End (User 125) ,,,,"501402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram1.Fr.1,Heating Program 1 Fr 1 Start/End (User 125) ,,,,"5014",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram1.Fr.1,Heating Program 1 Fr 1 Start/End (User 125) ,,,,"501402",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram1.Fr.1,Heating Program 1 Fr 1 Start/End (User 125) ,,,,"5014",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #51 14
-r,,HCRuntimeProgram1.Fr.2,Heating Program 1 Fr 2 Start/End (User 125) ,,,,"511402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram1.Fr.2,Heating Program 1 Fr 2 Start/End (User 125) ,,,,"5114",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram1.Fr.2,Heating Program 1 Fr 2 Start/End (User 125) ,,,,"511402",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram1.Fr.2,Heating Program 1 Fr 2 Start/End (User 125) ,,,,"5114",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #52 14
-r,,HCRuntimeProgram1.Fr.3,Heating Program 1 Fr 3 Start/End (User 125) ,,,,"521402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram1.Fr.3,Heating Program 1 Fr 3 Start/End (User 125) ,,,,"5214",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram1.Fr.3,Heating Program 1 Fr 3 Start/End (User 125) ,,,,"521402",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram1.Fr.3,Heating Program 1 Fr 3 Start/End (User 125) ,,,,"5214",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #60 14
-r,,HCRuntimeProgram1.Sa.1,Heating Program 1 Sa 1 Start/End (User 126) ,,,,"601402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram1.Sa.1,Heating Program 1 Sa 1 Start/End (User 126) ,,,,"6014",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram1.Sa.1,Heating Program 1 Sa 1 Start/End (User 126) ,,,,"601402",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram1.Sa.1,Heating Program 1 Sa 1 Start/End (User 126) ,,,,"6014",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #61 14
-r,,HCRuntimeProgram1.Sa.2,Heating Program 1 Sa 2 Start/End (User 126) ,,,,"611402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram1.Sa.2,Heating Program 1 Sa 2 Start/End (User 126) ,,,,"6114",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram1.Sa.2,Heating Program 1 Sa 2 Start/End (User 126) ,,,,"611402",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram1.Sa.2,Heating Program 1 Sa 2 Start/End (User 126) ,,,,"6114",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #62 14
-r,,HCRuntimeProgram1.Sa.3,Heating Program 1 Sa 3 Start/End (User 126) ,,,,"621402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram1.Sa.3,Heating Program 1 Sa 3 Start/End (User 126) ,,,,"6214",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram1.Sa.3,Heating Program 1 Sa 3 Start/End (User 126) ,,,,"621402",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram1.Sa.3,Heating Program 1 Sa 3 Start/End (User 126) ,,,,"6214",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #70 14
-r,,HCRuntimeProgram1.Su.1,Heating Program 1 Su 1 Start/End (User 127) ,,,,"701402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram1.Su.1,Heating Program 1 Su 1 Start/End (User 127) ,,,,"7014",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram1.Su.1,Heating Program 1 Su 1 Start/End (User 127) ,,,,"701402",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram1.Su.1,Heating Program 1 Su 1 Start/End (User 127) ,,,,"7014",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #71 14
-r,,HCRuntimeProgram1.Su.2,Heating Program 1 Su 2 Start/End (User 127) ,,,,"711402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram1.Su.2,Heating Program 1 Su 2 Start/End (User 127) ,,,,"7114",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram1.Su.2,Heating Program 1 Su 2 Start/End (User 127) ,,,,"711402",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram1.Su.2,Heating Program 1 Su 2 Start/End (User 127) ,,,,"7114",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #72 14
-r,,HCRuntimeProgram1.Su.3,Heating Program 1 Su 3 Start/End (User 127) ,,,,"721402",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram1.Su.3,Heating Program 1 Su 3 Start/End (User 127) ,,,,"7214",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram1.Su.3,Heating Program 1 Su 3 Start/End (User 127) ,,,,"721402",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram1.Su.3,Heating Program 1 Su 3 Start/End (User 127) ,,,,"7214",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 
 #10 15
-r,,HCRuntimeProgram2.Mo.1,Heating Program 2 Mo 1 Start/End (User 131) ,,,,"101502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram2.Mo.1,Heating Program 2 Mo 1 Start/End (User 131) ,,,,"1015",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram2.Mo.1,Heating Program 2 Mo 1 Start/End (User 131) ,,,,"101502",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram2.Mo.1,Heating Program 2 Mo 1 Start/End (User 131) ,,,,"1015",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #11 15
-r,,HCRuntimeProgram2.Mo.2,Heating Program 2 Mo 2 Start/End (User 131) ,,,,"111502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram2.Mo.2,Heating Program 2 Mo 2 Start/End (User 131) ,,,,"1115",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram2.Mo.2,Heating Program 2 Mo 2 Start/End (User 131) ,,,,"111502",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram2.Mo.2,Heating Program 2 Mo 2 Start/End (User 131) ,,,,"1115",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #12 15
-r,,HCRuntimeProgram2.Mo.3,Heating Program 2 Mo 3 Start/End (User 131) ,,,,"121502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram2.Mo.3,Heating Program 2 Mo 3 Start/End (User 131) ,,,,"1215",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram2.Mo.3,Heating Program 2 Mo 3 Start/End (User 131) ,,,,"121502",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram2.Mo.3,Heating Program 2 Mo 3 Start/End (User 131) ,,,,"1215",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #20 15
-r,,HCRuntimeProgram2.Tu.1,Heating Program 2 Tu 1 Start/End (User 132) ,,,,"201502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram2.Tu.1,Heating Program 2 Tu 1 Start/End (User 132) ,,,,"2015",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram2.Tu.1,Heating Program 2 Tu 1 Start/End (User 132) ,,,,"201502",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram2.Tu.1,Heating Program 2 Tu 1 Start/End (User 132) ,,,,"2015",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #21 15
-r,,HCRuntimeProgram2.Tu.2,Heating Program 2 Tu 2 Start/End (User 132) ,,,,"211502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram2.Tu.2,Heating Program 2 Tu 2 Start/End (User 132) ,,,,"2115",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram2.Tu.2,Heating Program 2 Tu 2 Start/End (User 132) ,,,,"211502",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram2.Tu.2,Heating Program 2 Tu 2 Start/End (User 132) ,,,,"2115",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #22 15
-r,,HCRuntimeProgram2.Tu.3,Heating Program 2 Tu 3 Start/End (User 132) ,,,,"221502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram2.Tu.3,Heating Program 2 Tu 3 Start/End (User 132) ,,,,"2215",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram2.Tu.3,Heating Program 2 Tu 3 Start/End (User 132) ,,,,"221502",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram2.Tu.3,Heating Program 2 Tu 3 Start/End (User 132) ,,,,"2215",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #30 15
-r,,HCRuntimeProgram2.We.1,Heating Program 2 We 1 Start/End (User 133) ,,,,"301502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram2.We.1,Heating Program 2 We 1 Start/End (User 133) ,,,,"3015",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram2.We.1,Heating Program 2 We 1 Start/End (User 133) ,,,,"301502",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram2.We.1,Heating Program 2 We 1 Start/End (User 133) ,,,,"3015",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #31 15
-r,,HCRuntimeProgram2.We.2,Heating Program 2 We 2 Start/End (User 133) ,,,,"311502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram2.We.2,Heating Program 2 We 2 Start/End (User 133) ,,,,"3115",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram2.We.2,Heating Program 2 We 2 Start/End (User 133) ,,,,"311502",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram2.We.2,Heating Program 2 We 2 Start/End (User 133) ,,,,"3115",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #32 15
-r,,HCRuntimeProgram2.We.3,Heating Program 2 We 3 Start/End (User 133) ,,,,"321502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram2.We.3,Heating Program 2 We 3 Start/End (User 133) ,,,,"3215",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram2.We.3,Heating Program 2 We 3 Start/End (User 133) ,,,,"321502",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram2.We.3,Heating Program 2 We 3 Start/End (User 133) ,,,,"3215",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #40 15
-r,,HCRuntimeProgram2.Th.1,Heating Program 2 Th 1 Start/End (User 134) ,,,,"401502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram2.Th.1,Heating Program 2 Th 1 Start/End (User 134) ,,,,"4015",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram2.Th.1,Heating Program 2 Th 1 Start/End (User 134) ,,,,"401502",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram2.Th.1,Heating Program 2 Th 1 Start/End (User 134) ,,,,"4015",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #41 15
-r,,HCRuntimeProgram2.Th.2,Heating Program 2 Th 2 Start/End (User 134) ,,,,"411502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram2.Th.2,Heating Program 2 Th 2 Start/End (User 134) ,,,,"4115",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram2.Th.2,Heating Program 2 Th 2 Start/End (User 134) ,,,,"411502",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram2.Th.2,Heating Program 2 Th 2 Start/End (User 134) ,,,,"4115",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #42 15
-r,,HCRuntimeProgram2.Th.3,Heating Program 2 Th 3 Start/End (User 134) ,,,,"421502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram2.Th.3,Heating Program 2 Th 3 Start/End (User 134) ,,,,"4215",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram2.Th.3,Heating Program 2 Th 3 Start/End (User 134) ,,,,"421502",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram2.Th.3,Heating Program 2 Th 3 Start/End (User 134) ,,,,"4215",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #50 15
-r,,HCRuntimeProgram2.Fr.1,Heating Program 2 Fr 1 Start/End (User 135) ,,,,"501502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram2.Fr.1,Heating Program 2 Fr 1 Start/End (User 135) ,,,,"5015",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram2.Fr.1,Heating Program 2 Fr 1 Start/End (User 135) ,,,,"501502",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram2.Fr.1,Heating Program 2 Fr 1 Start/End (User 135) ,,,,"5015",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #51 15
-r,,HCRuntimeProgram2.Fr.2,Heating Program 2 Fr 2 Start/End (User 135) ,,,,"511502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram2.Fr.2,Heating Program 2 Fr 2 Start/End (User 135) ,,,,"5115",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram2.Fr.2,Heating Program 2 Fr 2 Start/End (User 135) ,,,,"511502",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram2.Fr.2,Heating Program 2 Fr 2 Start/End (User 135) ,,,,"5115",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #51 15
-r,,HCRuntimeProgram2.Fr.3,Heating Program 2 Fr 3 Start/End (User 135) ,,,,"521502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram2.Fr.3,Heating Program 2 Fr 3 Start/End (User 135) ,,,,"5215",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram2.Fr.3,Heating Program 2 Fr 3 Start/End (User 135) ,,,,"521502",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram2.Fr.3,Heating Program 2 Fr 3 Start/End (User 135) ,,,,"5215",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #60 15
-r,,HCRuntimeProgram2.Sa.1,Heating Program 2 Sa 1 Start/End (User 136) ,,,,"601502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram2.Sa.1,Heating Program 2 Sa 1 Start/End (User 136) ,,,,"6015",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram2.Sa.1,Heating Program 2 Sa 1 Start/End (User 136) ,,,,"601502",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram2.Sa.1,Heating Program 2 Sa 1 Start/End (User 136) ,,,,"6015",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #61 15
-r,,HCRuntimeProgram2.Sa.2,Heating Program 2 Sa 2 Start/End (User 136) ,,,,"611502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram2.Sa.2,Heating Program 2 Sa 2 Start/End (User 136) ,,,,"6115",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram2.Sa.2,Heating Program 2 Sa 2 Start/End (User 136) ,,,,"611502",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram2.Sa.2,Heating Program 2 Sa 2 Start/End (User 136) ,,,,"6115",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #62 15
-r,,HCRuntimeProgram2.Sa.3,Heating Program 2 Sa 3 Start/End (User 136) ,,,,"621502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram2.Sa.3,Heating Program 2 Sa 3 Start/End (User 136) ,,,,"6215",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram2.Sa.3,Heating Program 2 Sa 3 Start/End (User 136) ,,,,"621502",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram2.Sa.3,Heating Program 2 Sa 3 Start/End (User 136) ,,,,"6215",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #70 15
-r,,HCRuntimeProgram2.Su.1,Heating Program 2 Su 1 Start/End (User 137) ,,,,"701502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram2.Su.1,Heating Program 2 Su 1 Start/End (User 137) ,,,,"7015",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram2.Su.1,Heating Program 2 Su 1 Start/End (User 137) ,,,,"701502",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram2.Su.1,Heating Program 2 Su 1 Start/End (User 137) ,,,,"7015",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #71 15
-r,,HCRuntimeProgram2.Su.2,Heating Program 2 Su 2 Start/End (User 137) ,,,,"711502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram2.Su.2,Heating Program 2 Su 2 Start/End (User 137) ,,,,"7115",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram2.Su.2,Heating Program 2 Su 2 Start/End (User 137) ,,,,"711502",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram2.Su.2,Heating Program 2 Su 2 Start/End (User 137) ,,,,"7115",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #72 15
-r,,HCRuntimeProgram2.Su.3,Heating Program 2 Su 3 Start/End (User 137) ,,,,"721502",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
-w,,HCRuntimeProgram2.Su.3,Heating Program 2 Su 3 Start/End (User 137) ,,,,"7215",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+r,,HCRuntimeProgram2.Su.3,Heating Program 2 Su 3 Start/End (User 137) ,,,,"721502",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
+w,,HCRuntimeProgram2.Su.3,Heating Program 2 Su 3 Start/End (User 137) ,,,,"7215",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
