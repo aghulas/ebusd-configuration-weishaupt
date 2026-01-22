@@ -49,10 +49,6 @@ w,,RoomFactorCurve, ,,,,"0F01",,,_16_RoomFactor,,,,
 r9,,RoomSensorCorrectionTemp,Room Sensor Correction (101) ,,,,"090102",RoomSensorCorrectionTemp,,_16_TempK10,,,
 w,,RoomSensorCorrectionTemp, ,,,,"0901",,,_16_TempK10,,,
 
-#0E 01
-r9,,GradientCurve,Steepness (175) ,,,,"0E0102",GradientCurve,,_16_Gradient10,,,
-w,,GradientCurve, ,,,,"0E01",,,_16_Gradient10,,,
-
 #10 01
 r9,,SwitchOnRuntime,Switch-on delay (353) ,,,,"100102",SwitchOnRuntime,,_16_Minutes,,,
 w,,SwitchOnRuntime, ,,,,"1001",,,_16_Minutes,,,
