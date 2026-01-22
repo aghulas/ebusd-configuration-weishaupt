@@ -9,5 +9,4 @@ bw,,IdBroadcast,answer to identification query,,,0704,,mf,,UCH,6=Dungs;15=FH Ost
 cw,,HeatDemand,HeatDemand ->KA,,,0507,,Status,,_8_Opdataheat1,,, ,,,_8_Skip,,, ,HeatDemandTemp,,_16_Temp2,,, ,,,_16_Skip,,, ,,,_8_Skip,,, ,,,_8_Skip,,, ,,,_8_Skip,,,
 cw,,EM5009,Message 5009? ​​HC2->KA,,,5009,,Payload,,UCH,,, ,,,
 
-!include,0704.inc,,answer to identification query,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 !include,hc.register.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
