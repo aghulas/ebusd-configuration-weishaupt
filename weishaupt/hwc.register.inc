@@ -43,9 +43,9 @@ r,,UnknownSensor13, ,,,,"A90102",UnknownSensor13,,UIN,,,
 #AA 01
 r,,UnknownSensor14, ,,,,"AA0102",UnknownSensor14,,UIN,,,
 
-#10 17
-r,,DHWRuntimeProgram.Mo,Hot Water Program Mo 1 Start/End (User 151) ,,,,"101702;111702;121702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeEnd,,, ,,,_8_TimeEnd,,, ,,,_8_TimeEnd,,, 
-w,,DHWRuntimeProgram.Mo,Hot Water Program Mo 1 Start/End (User 151) ,,,,"1017:2;1117:2;1217:2",,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeEnd,,, ,,,_8_TimeEnd,,, ,,,_8_TimeEnd,,, 
+#10;11;12 17
+r,,DHWRuntimeProgram.Mo,Hot Water Program Monday ,,,,"101702;111702;121702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, 
+w,,DHWRuntimeProgram.Mo,Hot Water Program Monday ,,,,"1017:2;1117:2;1217:2",,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, 
 
 #10 17
 r,,DHWRuntimeProgram.Mo.1,Hot Water Program Mo 1 Start/End (User 151) ,,,,"101702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
@@ -59,6 +59,10 @@ w,,DHWRuntimeProgram.Mo.2,Hot Water Program Mo 2 Start/End (User 151) ,,,,"1117"
 r,,DHWRuntimeProgram.Mo.3,Hot Water Program Mo 3 Start/End (User 151) ,,,,"121702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
 w,,DHWRuntimeProgram.Mo.3,Hot Water Program Mo 3 Start/End (User 151) ,,,,"1217",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
 
+#20;21;22 17
+r,,DHWRuntimeProgram.Tu,Hot Water Program Tuesday ,,,,"201702;211702;221702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, 
+w,,DHWRuntimeProgram.Tu,Hot Water Program Tuesday ,,,,"2017:2;2117;2;2217:2",,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, 
+
 #20 17
 r,,DHWRuntimeProgram.Tu.1,Hot Water Program Tu 1 Start/End (User 152) ,,,,"201702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
 w,,DHWRuntimeProgram.Tu.1,Hot Water Program Tu 1 Start/End (User 152) ,,,,"2017",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
@@ -70,6 +74,10 @@ w,,DHWRuntimeProgram.Tu.2,Hot Water Program Tu 2 Start/End (User 152) ,,,,"2117"
 #22 17
 r,,DHWRuntimeProgram.Tu.3,Hot Water Program Tu 3 Start/End (User 152) ,,,,"221702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
 w,,DHWRuntimeProgram.Tu.3,Hot Water Program Tu 3 Start/End (User 152) ,,,,"2217",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+
+#30;31;32 17
+r,,DHWRuntimeProgram.We,Hot Water Program Wednesday ,,,,"301702;311702;321702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, 
+w,,DHWRuntimeProgram.We,Hot Water Program Wendesday ,,,,"3017:2;3117:2;3217:2",,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, 
 
 #30 17
 r,,DHWRuntimeProgram.We.1,Hot Water Program We 1 Start/End (User 153) ,,,,"301702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
@@ -83,6 +91,10 @@ w,,DHWRuntimeProgram.We.2,Hot Water Program We 2 Start/End (User 153) ,,,,"3117"
 r,,DHWRuntimeProgram.We.3,Hot Water Program We 3 Start/End (User 153) ,,,,"321702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
 w,,DHWRuntimeProgram.We.3,Hot Water Program We 3 Start/End (User 153) ,,,,"3217",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
 
+#40;41;42 17
+r,,DHWRuntimeProgram.Th,Hot Water Program Thursday ,,,,"401702;411702;421702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, 
+w,,DHWRuntimeProgram.Th,Hot Water Program Thursday ,,,,"4017:2;4117:2;4217:2",,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, 
+
 #40 17
 r,,DHWRuntimeProgram.Th.1,Hot Water Program Th 1 Start/End (User 154) ,,,,"401702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
 w,,DHWRuntimeProgram.Th.1,Hot Water Program Th 1 Start/End (User 154) ,,,,"4017",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
@@ -94,6 +106,10 @@ w,,DHWRuntimeProgram.Th.2,Hot Water Program Th 2 Start/End (User 154) ,,,,"4117"
 #42 17
 r,,DHWRuntimeProgram.Th.3,Hot Water Program Th 3 Start/End (User 154) ,,,,"421702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
 w,,DHWRuntimeProgram.Th.3,Hot Water Program Th 3 Start/End (User 154) ,,,,"4217",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+
+#50;51;52 17
+r,,DHWRuntimeProgram.Fr,Hot Water Program Friday ,,,,"501702;511702;521702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, 
+w,,DHWRuntimeProgram.Fr,Hot Water Program Friday ,,,,"5017:2;5117:2;5217:2",,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, 
 
 #50 17
 r,,DHWRuntimeProgram.Fr.1,Hot Water Program Fr 1 Start/End (User 155) ,,,,"501702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
@@ -107,6 +123,10 @@ w,,DHWRuntimeProgram.Fr.2,Hot Water Program Fr 2 Start/End (User 155) ,,,,"5117"
 r,,DHWRuntimeProgram.Fr.3,Hot Water Program Fr 3 Start/End (User 155) ,,,,"521702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
 w,,DHWRuntimeProgram.Fr.3,Hot Water Program Fr 3 Start/End (User 155) ,,,,"5217",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
 
+#60;61;62 17
+r,,DHWRuntimeProgram.Sa,Hot Water Program Saturday ,,,,"601702;611702;621702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, 
+w,,DHWRuntimeProgram.Sa,Hot Water Program Saturday ,,,,"6017:2;6117:2;6217:2",,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, 
+
 #60 17
 r,,DHWRuntimeProgram.Sa.1,Hot Water Program Sa 1 Start/End (User 156) ,,,,"601702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
 w,,DHWRuntimeProgram.Sa.1,Hot Water Program Sa 1 Start/End (User 156) ,,,,"6017",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
@@ -118,6 +138,10 @@ w,,DHWRuntimeProgram.Sa.2,Hot Water Program Sa 2 Start/End (User 156) ,,,,"6117"
 #62 17
 r,,DHWRuntimeProgram.Sa.3,Hot Water Program Sa 3 Start/End (User 156) ,,,,"621702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
 w,,DHWRuntimeProgram.Sa.3,Hot Water Program Sa 3 Start/End (User 156) ,,,,"6217",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+
+#70;71;72 17
+r,,DHWRuntimeProgram.Su,Hot Water Program Sunday ,,,,"701702;711702;721702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, 
+w,,DHWRuntimeProgram.Su,Hot Water Program Sunday ,,,,"7017:2;7117:2;7217:2",,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, 
 
 #70 17
 r,,DHWRuntimeProgram.Su.1,Hot Water Program Su 1 Start/End (User 157) ,,,,"701702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
