@@ -31,6 +31,10 @@ _8_H1Status,UCH,0x00=Open,0x01=Closed,H1 Relay Status
 _8_TimeStart:Start,TTQ,,,Start Time
 _8_TimeEnd:End,TTQ,,,End Time
 _8_Time,TTQ,,,Time
+_1_TimeEnd:EnabledEnd,BI0,,,Disabled
+_7_TimeEnd:End,BI1:7,,,End Time
+_1_TimeStart:EnabledStart,BI0,,,Disabled
+_7_TimeStart:Start,BI1:7,,,Start Time
 
 _16_Constructiontype,UIN,0x0000=Heavy;0x0001=Light,,
 _16_Counter,UIN,,,
