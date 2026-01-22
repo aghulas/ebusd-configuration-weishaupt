@@ -145,7 +145,7 @@ w,,DHWRuntimeProgram.Su,Hot Water Program Sunday ,,,,"7017:2;7117:2;7217:2",,,_8
 
 #70 17
 r,,DHWRuntimeProgram.Su.1,Hot Water Program Su 1 Start/End (User 157) ,,,,"701702",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
-w,,DHWRuntimeProgram.Su.1,Hot Water Program Su 1 Start/End (User 157) ,,,,"7017",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
+w,,DHWRuntimeProgram.Su.1,Hot Water Program Su 1 Start/End (User 157) ,,,,"7017",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
 
 #71 17
 r,,DHWRuntimeProgram.Su.2,Hot Water Program Su 2 Start/End (User 157) ,,,,"711702",,,_7_TimeEnd,,, ,,,_1_TimeEnd,,, ,,,_7_TimeStart,,, ,,,_1_TimeStart,,,
