@@ -61,7 +61,7 @@ w,,DHWRuntimeProgram.Mo.3,Hot Water Program Mo 3 Start/End (User 151) ,,,,"1217"
 
 #20;21;22 17
 r,,DHWRuntimeProgram.Tu,Hot Water Program Tuesday ,,,,"201702;211702;221702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, 
-w,,DHWRuntimeProgram.Tu,Hot Water Program Tuesday ,,,,"2017:2;2117;2;2217:2",,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, 
+w,,DHWRuntimeProgram.Tu,Hot Water Program Tuesday ,,,,"2017:2;2117:2;2217:2",,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeStart,,, 
 
 #20 17
 r,,DHWRuntimeProgram.Tu.1,Hot Water Program Tu 1 Start/End (User 152) ,,,,"201702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
