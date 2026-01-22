@@ -43,6 +43,9 @@ r,,UnknownSensor13, ,,,,"A90102",UnknownSensor13,,UIN,,,
 #AA 01
 r,,UnknownSensor14, ,,,,"AA0102",UnknownSensor14,,UIN,,,
 
+#10 17
+r,,DHWRuntimeProgram.Mo,Hot Water Program Mo 1 Start/End (User 151) ,,,,"101702;111702;121702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeEnd,,, ,,,_8_TimeEnd,,, ,,,_8_TimeEnd,,, 
+w,,DHWRuntimeProgram.Mo,Hot Water Program Mo 1 Start/End (User 151) ,,,,"1017:2;1117:2;1217:2",,,_8_TimeEnd,,, ,,,_8_TimeStart,,, ,,,_8_TimeEnd,,, ,,,_8_TimeEnd,,, ,,,_8_TimeEnd,,, ,,,_8_TimeEnd,,, 
 
 #10 17
 r,,DHWRuntimeProgram.Mo.1,Hot Water Program Mo 1 Start/End (User 151) ,,,,"101702",,,_8_TimeEnd,,, ,,,_8_TimeStart,,,
