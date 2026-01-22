@@ -32,9 +32,9 @@ _8_TimeStart:Start,TTQ,,,Start Time
 _8_TimeEnd:End,TTQ,,,End Time
 _8_Time,TTQ,,,Time
 _1_TimeEnd:EnabledEnd,BI7,,,Disabled
-_7_TimeEnd:End,BI0:7,,,End Time
+_7_TimeEnd:End,TTQ,,,End Time
 _1_TimeStart:EnabledStart,BI7,,,Disabled
-_7_TimeStart:Start,BI0:7,,,Start Time
+_7_TimeStart:Start,TTQ,,,Start Time
 
 _16_Constructiontype,UIN,0x0000=Heavy;0x0001=Light,,
 _16_Counter,UIN,,,
