@@ -33,5 +33,4 @@ r,hc8,Status,heating circuit 8 ,,,"5000","5703B3",,s,_8_Skip,,, ,TimeSinceLastCo
 r,,SetpointTempSystem,Target temperature system ,,,"5000","2703C3",,s,_8_Skip,,, ,,s,_8_Temp0,,, 
 r,,SetpointDHW,Hot water setpoint ,,,"5000","33016F",,s,_8_Skip,,, ,,s,_8_Temp0,,, 
 
-
 !include,sc.register.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

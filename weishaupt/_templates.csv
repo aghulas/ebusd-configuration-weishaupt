@@ -28,13 +28,10 @@ _8_Temp2K,D1C,,°K,Temperature
 _8_H1Status,UCH,0x00=Open;0x01=Closed,H1 Relay Status
 
 # Field Templates for Start/End-Time of the Programm,,,,
-_8_TimeStart:Start,TTQ,,,Start Time
-_8_TimeEnd:End,TTQ,,,End Time
-_8_Time,TTQ,,,Time
-_1_TimeEnd:,BI7,0x00=Enabled;0x01=Disabled,,Disabled
-_7_TimeEnd:End,TTQ,,,End Time
-_1_TimeStart:,BI7,0x00=Enabled;0x01=Disabled,,Disabled
-_7_TimeStart:Start,TTQ,,,Start Time
+_1_TimeTo:,BI7,0x00=Enabled;0x01=Disabled,,Disabling Switch
+_7_TimeTo:To,TTQ,,,End Time
+_1_TimeFrom:,BI7,0x00=Enabled;0x01=Disabled,,Disabling Switch
+_7_TimeFrom:From,TTQ,,,Start Time
 
 _16_Constructiontype,UIN,0x0000=Heavy;0x0001=Light,,
 _16_Counter,UIN,,,
