@@ -90,7 +90,7 @@ w,,HolidayRuntimeFrom.Day, ,,,,"1B01",,,_16_HolidayDay,,,
 
 #1C 01
 #r,,HolidayRuntimeFrom.Month,Start of vacation Month (181) ,,,,"1C0102",HolidayRuntimeFrom.Month,,_16_HolidayMonth,,,
-w,,HolidayRuntimeFrom.Month, ,,,,"1C0102",,,_16_HolidayMonth,,,
+w,,HolidayRuntimeFrom.Month, ,,,,"1C01",,,_16_HolidayMonth,,,
 
 #1E 01
 r9,,HolidayRuntimeTo, (182) ,,,,"1E0104",Day,,_16_HolidayDay,,,Day ,Month,,_16_HolidayMonth,,,Month
