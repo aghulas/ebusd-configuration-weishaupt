@@ -28,9 +28,9 @@ _8_Temp2K,D1C,,°K,Temperature
 _8_H1Status,UCH,0x00=Open;0x01=Closed,H1 Relay Status
 
 # Field Templates for Start/End-Time of the Programm,,,,
-_1_TimeTo:,BI7,0x00=Enabled;0x01=Disabled,,Disabling Switch
+_1_TimeTo,BI7,0x00=Enabled;0x01=Disabled,,Disabling Switch
 _7_TimeTo:To,TTQ,,,End Time
-_1_TimeFrom:,BI7,0x00=Enabled;0x01=Disabled,,Disabling Switch
+_1_TimeFrom,BI7,0x00=Enabled;0x01=Disabled,,Disabling Switch
 _7_TimeFrom:From,TTQ,,,Start Time
 
 _16_Constructiontype,UIN,0x0000=Heavy;0x0001=Light,,
@@ -40,8 +40,8 @@ _16_DhwMode,UIN,0x0000=DHW Program;0x0001=24 Day;0x0002=DHW Before Heat;32768=Na
 _16_DHWOperationMode,UIN,0x0000=Priority;0x0001=Sliding;0x0002=Parallel;32768=Na,,
 _16_Floordrying,UIN,0x0000=Off;0x0001=Heating Function;0x0002=DocumentHeating;0x0003=Function ReceiptHeating;32768=Na,,
 _16_Gradient10,SIN,10,,SteepNess
-_16_HolidayDay,UIN,,,Day
-_16_HolidayMonth,UIN,0x0000=Off;0x0001=January;0x0002=February;0x0003=March;0x0004=April;0x0005=May;0x0006=June;0x0007=July;0x0008=August;0x0009=September;0x000A=October;0x000B=November;0x000C=December,,Month
+_16_HolidayDay:Day,UIN,,,Day
+_16_HolidayMonth:Month,UIN,0x0000=Off;0x0001=January;0x0002=February;0x0003=March;0x0004=April;0x0005=May;0x0006=June;0x0007=July;0x0008=August;0x0009=September;0x000A=October;0x000B=November;0x000C=December,,Month
 _16_Hours,UIN,,h,Hour
 _16_Legionelladay,UIN,0x0000=Off;0x0001=Monday;0x0002=Tuesday;0x0003=Wednesday;0x0004=Thursday;0x0005=Friday;0x0006=Saturday;0x0007=Sunday,,Legionella Day
 _16_Minutes,UIN,32768=Na,min,Minute

@@ -53,12 +53,12 @@ w,,SummerWinterChangeOverTemp, ,,,,"1601",,,_16_Temp10,,,
 r,,FloorDryingMode,Screed function (381) ,,,,"1A0102",FloorDryingMode,,_16_Floordrying,,,
 
 #1B;1C 01
-r,,HolidayRuntimeFrom,Start of vacation ,,,,"1B0102;1C0102",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
-w,,HolidayRuntimeFrom,Start of vacation ,,,,"1B01:2;1C01:2",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
+r,,HolidayRuntimeFrom,Start of vacation ,,,,"1B0102;1C0102",,,_16_HolidayDay,,, ,,,_16_HolidayMonth,,,
+w,,HolidayRuntimeFrom,Start of vacation ,,,,"1B01:2;1C01:2",,,_16_HolidayDay,,, ,,,_16_HolidayMonth,,,
 
 #1E;1F 01
-r,,HolidayRuntimeTo,Start of vacation ,,,,"1E0102;1F0102",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
-w,,HolidayRuntimeTo,Start of vacation ,,,,"1E01:2;1F01:2",Day,,_16_HolidayDay,,, ,Month,,_16_HolidayMonth,,,
+r,,HolidayRuntimeTo,Start of vacation ,,,,"1E0102;1F0102",,,_16_HolidayDay,,, ,,,_16_HolidayMonth,,,
+w,,HolidayRuntimeTo,Start of vacation ,,,,"1E01:2;1F01:2",,,_16_HolidayDay,,, ,,,_16_HolidayMonth,,,
 
 #1B 01
 r,,HolidayRuntimeFrom.Day,Start of vacation Day (181) ,,,,"1B0102",HolidayRuntimeFrom.Day,,_16_HolidayDay,,,
