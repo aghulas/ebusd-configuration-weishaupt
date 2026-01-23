@@ -24,7 +24,7 @@ _8_Status,UCH,,,Status 0x500A-Broadcast
 _8_Temp0,UCH,,°C,Temperature
 _8_Temp1,SCH,,°C,Temperature
 _8_Temp2,D1C,,°C,Temperature
-_8_Temp2K,D1C,,°K,Temperature
+_8_Temp2K,D1C,,K,Temperature
 _8_H1Status,UCH,0x00=Open;0x01=Closed,H1 Relay Status
 
 # Field Templates for Start/End-Time of the Programm,,,,
@@ -57,7 +57,7 @@ _16_Temp0,D2B,,°C,Temperature
 _16_Temp1,SIN,,°C,Temperature
 _16_Temp2,D2C,,°C,Temperature
 _16_Temp10,SIN,10,°C,Temperature
-_16_TempK10,SIN,10,°K,Temperature Kelvin
+_16_TempK10,SIN,10,K,Temperature Kelvin
 _16_TempReduced,UIN,0x0000=Antifreeze;0x0001=Setback;32768=Na,,
 _16_Skip,IGN:2,,,
 
