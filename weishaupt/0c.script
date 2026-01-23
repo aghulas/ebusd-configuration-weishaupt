@@ -1,0 +1,161 @@
+echo HeatDemandTemp; ebusctl read -f -d 0c HeatDemandTemp
+echo SupplySetPointTemp;ebusctl read -f -d 0c SupplySetPointTemp
+echo RoomNormalTemp;ebusctl read -f -d 0c RoomNormalTemp
+echo RoomSetbackTemp; ebusctl read -f -d 0c RoomSetbackTemp
+echo OutsideTemp; ebusctl read -f -d 0c OutsideTemp
+echo SupplyWTCTemp; ebusctl read -f -d 0c SupplyWTCTemp
+echo SupplyHCTemp; ebusctl read -f -d 0c SupplyHCTemp
+echo RoomTemp; ebusctl read -f -d 0c RoomTemp
+echo RoomSetPointTemp; ebusctl read -f -d 0c RoomSetPointTemp
+echo DHWSetpoint; ebusctl read -f -d 0c DHWSetpoint
+echo OutsideBlendedTemp; ebusctl read -f -d 0c OutsideBlendedTemp
+echo DHWSetValue; ebusctl read -f -d 0c DHWSetValue
+echo DHWTemp; ebusctl read -f -d 0c DHWTemp
+echo SupplyMaxTemp; ebusctl read -f -d 0c SupplyMaxTemp
+echo MixerParameterTemp; ebusctl read -f -d 0c MixerParameterTemp
+echo DHWLegionellaDay; ebusctl read -f -d 0c DHWLegionellaDay
+echo RoomFactorCurve; ebusctl read -f -d 0c RoomFactorCurve
+echo RoomSensorCorrectionTemp; ebusctl read -f -d 0c RoomSensorCorrectionTemp
+echo GradientCurve; ebusctl read -f -d 0c GradientCurve
+echo SwitchOnRuntime; ebusctl read -f -d 0c SwitchOnRuntime
+echo BoilerMCBoostTemp; ebusctl read -f -d 0c BoilerMCBoostTemp
+echo ProgramMode; ebusctl read -f -d 0c ProgramMode
+echo AdaptionMode; ebusctl read -f -d 0c AdaptionMode
+echo SummerWinterChangeOverTemp; ebusctl read -f -d 0c SummerWinterChangeOverTemp
+echo FloorDryingMode; ebusctl read -f -d 0c FloorDryingMode
+echo HolidayRuntimeStart; ebusctl read -f -d 0c HolidayRuntimeStart
+echo HolidayRuntimeStart.Day; ebusctl read -f -d 0c HolidayRuntimeStart.Day
+echo HolidayRuntimeStart.Month; ebusctl read -f -d 0c HolidayRuntimeStart.Month
+echo HolidayRuntimeEnd; ebusctl read -f -d 0c HolidayRuntimeEnd
+echo HolidayRuntimeEnd.Day; ebusctl read -f -d 0c HolidayRuntimeEnd.Day
+echo HolidayRuntimeEnd.Month; ebusctl read -f -d 0c HolidayRuntimeEnd.Month
+echo TypeOfConstructionMode; ebusctl read -f -d 0c TypeOfConstructionMode
+echo SupplyMinTemp; ebusctl read -f -d 0c SupplyMinTemp
+echo HolidayTemp; ebusctl read -f -d 0c HolidayTemp
+echo WtcDelayRuntime; ebusctl read -f -d 0c WtcDelayRuntime
+echo PumpMaxSpeed; ebusctl read -f -d 0c PumpMaxSpeed
+echo PumpMinSpeed; ebusctl read -f -d 0c PumpMinSpeed
+echo PumpVSDvariable; ebusctl read -f -d 0c PumpVSDvariable
+echo ReductTemp; ebusctl read -f -d 0c ReductTemp
+echo DHWMinTemp; ebusctl read -f -d 0c DHWMinTemp
+echo DHWMaxTemp; ebusctl read -f -d 0c DHWMaxTemp
+echo DHWMode; ebusctl read -f -d 0c DHWMode
+echo DHWOperationMode; ebusctl read -f -d 0c DHWOperationMode
+
+echo RoomThermostatTemp; ebusctl read -f -d 0c RoomThermostatTemp
+echo RoomFrostProtectionTemp; ebusctl read -f -d 0c RoomFrostProtectionTemp
+echo OutsideWeightedTemp; ebusctl read -f -d 0c OutsideWeightedTemp
+echo FloorDryingDay; ebusctl read -f -d 0c FloorDryingDay
+echo FloorDryingTemp; ebusctl read -f -d 0c FloorDryingTemp
+
+echo HCRuntimeProgram1.Mo.1; ebusctl read -f -d 0c HCRuntimeProgram1.Mo.1
+echo HCRuntimeProgram1.Tu.1; ebusctl read -f -d 0c HCRuntimeProgram1.Tu.1
+echo HCRuntimeProgram1.We.1; ebusctl read -f -d 0c HCRuntimeProgram1.We.1
+echo HCRuntimeProgram1.Th.1; ebusctl read -f -d 0c HCRuntimeProgram1.Th.1
+echo HCRuntimeProgram1.Fr.1; ebusctl read -f -d 0c HCRuntimeProgram1.Fr.1
+echo HCRuntimeProgram1.Sa.1; ebusctl read -f -d 0c HCRuntimeProgram1.Sa.1
+echo HCRuntimeProgram1.Su.1; ebusctl read -f -d 0c HCRuntimeProgram1.Su.1
+
+echo HCRuntimeProgram1.Mo.2; ebusctl read -f -d 0c HCRuntimeProgram1.Mo.2
+echo HCRuntimeProgram1.Tu.2; ebusctl read -f -d 0c HCRuntimeProgram1.Tu.2
+echo HCRuntimeProgram1.We.2; ebusctl read -f -d 0c HCRuntimeProgram1.We.2
+echo HCRuntimeProgram1.Th.2; ebusctl read -f -d 0c HCRuntimeProgram1.Th.2
+echo HCRuntimeProgram1.Fr.2; ebusctl read -f -d 0c HCRuntimeProgram1.Fr.2
+echo HCRuntimeProgram1.Sa.2; ebusctl read -f -d 0c HCRuntimeProgram1.Sa.2
+echo HCRuntimeProgram1.Su.2; ebusctl read -f -d 0c HCRuntimeProgram1.Su.2
+
+echo HCRuntimeProgram1.Mo.3; ebusctl read -f -d 0c HCRuntimeProgram1.Mo.3
+echo HCRuntimeProgram1.Tu.3; ebusctl read -f -d 0c HCRuntimeProgram1.Tu.3
+echo HCRuntimeProgram1.We.3; ebusctl read -f -d 0c HCRuntimeProgram1.We.3
+echo HCRuntimeProgram1.Th.3; ebusctl read -f -d 0c HCRuntimeProgram1.Th.3
+echo HCRuntimeProgram1.Fr.3; ebusctl read -f -d 0c HCRuntimeProgram1.Fr.3
+echo HCRuntimeProgram1.Sa.3; ebusctl read -f -d 0c HCRuntimeProgram1.Sa.3
+echo HCRuntimeProgram1.Su.3; ebusctl read -f -d 0c HCRuntimeProgram1.Su.3
+
+echo HCRuntimeProgram2.Mo.1; ebusctl read -f -d 0c HCRuntimeProgram2.Mo.1
+echo HCRuntimeProgram2.Tu.1; ebusctl read -f -d 0c HCRuntimeProgram2.Tu.1
+echo HCRuntimeProgram2.We.1; ebusctl read -f -d 0c HCRuntimeProgram2.We.1
+echo HCRuntimeProgram2.Th.1; ebusctl read -f -d 0c HCRuntimeProgram2.Th.1
+echo HCRuntimeProgram2.Fr.1; ebusctl read -f -d 0c HCRuntimeProgram2.Fr.1
+echo HCRuntimeProgram2.Sa.1; ebusctl read -f -d 0c HCRuntimeProgram2.Sa.1
+echo HCRuntimeProgram2.Su.1; ebusctl read -f -d 0c HCRuntimeProgram2.Su.1
+
+echo HCRuntimeProgram2.Mo.2; ebusctl read -f -d 0c HCRuntimeProgram2.Mo.2
+echo HCRuntimeProgram2.Tu.2; ebusctl read -f -d 0c HCRuntimeProgram2.Tu.2
+echo HCRuntimeProgram2.We.2; ebusctl read -f -d 0c HCRuntimeProgram2.We.2
+echo HCRuntimeProgram2.Th.2; ebusctl read -f -d 0c HCRuntimeProgram2.Th.2
+echo HCRuntimeProgram2.Fr.2; ebusctl read -f -d 0c HCRuntimeProgram2.Fr.2
+echo HCRuntimeProgram2.Sa.2; ebusctl read -f -d 0c HCRuntimeProgram2.Sa.2
+echo HCRuntimeProgram2.Su.2; ebusctl read -f -d 0c HCRuntimeProgram2.Su.2
+
+echo HCRuntimeProgram2.Mo.3; ebusctl read -f -d 0c HCRuntimeProgram2.Mo.3
+echo HCRuntimeProgram2.Tu.3; ebusctl read -f -d 0c HCRuntimeProgram2.Tu.3
+echo HCRuntimeProgram2.We.3; ebusctl read -f -d 0c HCRuntimeProgram2.We.3
+echo HCRuntimeProgram2.Th.3; ebusctl read -f -d 0c HCRuntimeProgram2.Th.3
+echo HCRuntimeProgram2.Fr.3; ebusctl read -f -d 0c HCRuntimeProgram2.Fr.3
+echo HCRuntimeProgram2.Sa.3; ebusctl read -f -d 0c HCRuntimeProgram2.Sa.3
+echo HCRuntimeProgram2.Su.3; ebusctl read -f -d 0c HCRuntimeProgram2.Su.3
+
+echo DHWRuntimeProgram.Mo.1; ebusctl read -f -d 0c DHWRuntimeProgram.Mo.1
+echo DHWRuntimeProgram.Tu.1; ebusctl read -f -d 0c DHWRuntimeProgram.Tu.1
+echo DHWRuntimeProgram.We.1; ebusctl read -f -d 0c DHWRuntimeProgram.We.1
+echo DHWRuntimeProgram.Th.1; ebusctl read -f -d 0c DHWRuntimeProgram.Th.1
+echo DHWRuntimeProgram.Fr.1; ebusctl read -f -d 0c DHWRuntimeProgram.Fr.1
+echo DHWRuntimeProgram.Sa.1; ebusctl read -f -d 0c DHWRuntimeProgram.Sa.1
+echo DHWRuntimeProgram.Su.1; ebusctl read -f -d 0c DHWRuntimeProgram.Su.1
+
+echo DHWRuntimeProgram.Mo.2; ebusctl read -f -d 0c DHWRuntimeProgram.Mo.2
+echo DHWRuntimeProgram.Tu.2; ebusctl read -f -d 0c DHWRuntimeProgram.Tu.2
+echo DHWRuntimeProgram.We.2; ebusctl read -f -d 0c DHWRuntimeProgram.We.2
+echo DHWRuntimeProgram.Th.2; ebusctl read -f -d 0c DHWRuntimeProgram.Th.2
+echo DHWRuntimeProgram.Fr.2; ebusctl read -f -d 0c DHWRuntimeProgram.Fr.2
+echo DHWRuntimeProgram.Sa.2; ebusctl read -f -d 0c DHWRuntimeProgram.Sa.2
+echo DHWRuntimeProgram.Su.2; ebusctl read -f -d 0c DHWRuntimeProgram.Su.2
+
+echo DHWRuntimeProgram.Mo.3; ebusctl read -f -d 0c DHWRuntimeProgram.Mo.3
+echo DHWRuntimeProgram.Tu.3; ebusctl read -f -d 0c DHWRuntimeProgram.Tu.3
+echo DHWRuntimeProgram.We.3; ebusctl read -f -d 0c DHWRuntimeProgram.We.3
+echo DHWRuntimeProgram.Th.3; ebusctl read -f -d 0c DHWRuntimeProgram.Th.3
+echo DHWRuntimeProgram.Fr.3; ebusctl read -f -d 0c DHWRuntimeProgram.Fr.3
+echo DHWRuntimeProgram.Sa.3; ebusctl read -f -d 0c DHWRuntimeProgram.Sa.3
+echo DHWRuntimeProgram.Su.3; ebusctl read -f -d 0c DHWRuntimeProgram.Su.3
+
+echo CircRuntimeProgram.Mo.1; ebusctl read -f -d 0c CircRuntimeProgram.Mo.1
+echo CircRuntimeProgram.Tu.1; ebusctl read -f -d 0c CircRuntimeProgram.Tu.1
+echo CircRuntimeProgram.We.1; ebusctl read -f -d 0c CircRuntimeProgram.We.1
+echo CircRuntimeProgram.Th.1; ebusctl read -f -d 0c CircRuntimeProgram.Th.1
+echo CircRuntimeProgram.Fr.1; ebusctl read -f -d 0c CircRuntimeProgram.Fr.1
+echo CircRuntimeProgram.Sa.1; ebusctl read -f -d 0c CircRuntimeProgram.Sa.1
+echo CircRuntimeProgram.Su.1; ebusctl read -f -d 0c CircRuntimeProgram.Su.1
+
+echo CircRuntimeProgram.Mo.2; ebusctl read -f -d 0c CircRuntimeProgram.Mo.2
+echo CircRuntimeProgram.Tu.2; ebusctl read -f -d 0c CircRuntimeProgram.Tu.2
+echo CircRuntimeProgram.We.2; ebusctl read -f -d 0c CircRuntimeProgram.We.2
+echo CircRuntimeProgram.Th.2; ebusctl read -f -d 0c CircRuntimeProgram.Th.2
+echo CircRuntimeProgram.Fr.2; ebusctl read -f -d 0c CircRuntimeProgram.Fr.2
+echo CircRuntimeProgram.Sa.2; ebusctl read -f -d 0c CircRuntimeProgram.Sa.2
+echo CircRuntimeProgram.Su.2; ebusctl read -f -d 0c CircRuntimeProgram.Su.2
+
+echo CircRuntimeProgram.Mo.3; ebusctl read -f -d 0c CircRuntimeProgram.Mo.3
+echo CircRuntimeProgram.Tu.3; ebusctl read -f -d 0c CircRuntimeProgram.Tu.3
+echo CircRuntimeProgram.We.3; ebusctl read -f -d 0c CircRuntimeProgram.We.3
+echo CircRuntimeProgram.Th.3; ebusctl read -f -d 0c CircRuntimeProgram.Th.3
+echo CircRuntimeProgram.Fr.3; ebusctl read -f -d 0c CircRuntimeProgram.Fr.3
+echo CircRuntimeProgram.Sa.3; ebusctl read -f -d 0c CircRuntimeProgram.Sa.3
+echo CircRuntimeProgram.Su.3; ebusctl read -f -d 0c CircRuntimeProgram.Su.3
+
+echo FS_EM_W1_Sensor; ebusctl read -f -d 0c FS_EM_W1_Sensor
+echo FS_EM_W2_Sensor; ebusctl read -f -d 0c FS_EM_W2_Sensor
+echo FS_EM_W3_Sensor; ebusctl read -f -d 0c FS_EM_W3_Sensor
+echo FS_EM_W4_Sensor; ebusctl read -f -d 0c FS_EM_W4_Sensor
+echo FS_EM_W5_Sensor; ebusctl read -f -d 0c FS_EM_W5_Sensor
+echo H1Status; ebusctl read -f -d 0c H1Status
+echo UnknownSensor8; ebusctl read -f -d 0c UnknownSensor8
+echo Version; ebusctl read -f -d 0c Version
+echo FS_EM_R2_Sensor; ebusctl read -f -d 0c FS_EM_R2_Sensor
+echo UnknownSensor11; ebusctl read -f -d 0c UnknownSensor11
+echo UnknownSensor12; ebusctl read -f -d 0c UnknownSensor12
+echo UnknownSensor13; ebusctl read -f -d 0c UnknownSensor13
+echo UnknownSensor14; ebusctl read -f -d 0c UnknownSensor14
+echo UnknownSensor15; ebusctl read -f -d 0c UnknownSensor15
+echo UnknownSensor16; ebusctl read -f -d 0c UnknownSensor16

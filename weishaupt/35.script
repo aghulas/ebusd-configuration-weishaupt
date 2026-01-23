@@ -151,7 +151,7 @@ echo FS_EM_W4_Sensor; ebusctl read -f -d 35 FS_EM_W4_Sensor
 echo FS_EM_W5_Sensor; ebusctl read -f -d 35 FS_EM_W5_Sensor
 echo H1Status; ebusctl read -f -d 35 H1Status
 echo UnknownSensor8; ebusctl read -f -d 35 UnknownSensor8
-echo FS_EM_R1_sensor; ebusctl read -f -d 35 FS_EM_R1_sensor
+echo Version; ebusctl read -f -d 35 Version
 echo FS_EM_R2_Sensor; ebusctl read -f -d 35 FS_EM_R2_Sensor
 echo UnknownSensor11; ebusctl read -f -d 35 UnknownSensor11
 echo UnknownSensor12; ebusctl read -f -d 35 UnknownSensor12

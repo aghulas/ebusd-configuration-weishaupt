@@ -158,7 +158,7 @@ w,,FS_EM_W2_Sensor, ,,,,"4101",FS_EM_W2_Sensor,,UIN,,,
 r,,UnknownSensor15, ,,,,"8F0102",UnknownSensor15,,_16_Temp10,,,
 
 #99 01
-r,,FS_EM_R1_Sensor, ,,,,"990102",FS_EM_R1_Sensor,,UIN,,,
+r,,Version, ,,,,"990102",Version,,UIN,,,
 
 #A9 01
 r,,UnknownSensor13, ,,,,"A90102",UnknownSensor13,,UIN,,,
