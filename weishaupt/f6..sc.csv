@@ -1,11 +1,11 @@
 # type (r[1-9];w;u),class,name,comment,QQ,ZZ,PBSB,ID,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment,field,part (m/s),type / templates,divider / values,unit,comment
 
-*bw,,,,f1,fe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-bw,,InfoStatus,System Info Broadcast ,,,"0700",,OutsideTemp,,_16_Temp0,,, ,Time,,BTI,,, ,Date,,BDA,,, 
-bw,,InfoSensor1,System Info Broadcast 76 ,,,"0903","7600", UnknownSensor11,,_16_Temp10,,,
-bw,,InfoSensor2,System Info Broadcast 78 ,,,"0903","7800", UnknownSensor12,,_16_Temp10,,,
-bw,,ErrorStatus,Error Message ,,,"FE01",,Msg,,STR:10,,, ,
-bw,,IdBroadcast,answer to identification query,,,"0704",,mf,,UCH,6=Dungs;15=FH Ostfalia;16=TEM;17=Lamberti;20=CEB;21=Landis-Staefa;22=FERRO;23=MONDIAL;24=Wikon;25=Wolf;32=RAWE;48=Satronic;64=ENCON;80=Kromschröder;96=Eberle;101=EBV;117=Grässlin;133=ebm-papst;149=SIG;165=Theben;167=Thermowatt;181=Vaillant;192=Toby;197=Weishaupt;253=ebusd.eu;253=ebusd,,device manufacturer,id,,STR:5,,,device id,sw,,PIN,,,software version,hw,,PIN,,,hardware version
+*w,,,,f1,fe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+w,,InfoStatus,System Info Broadcast ,,,"0700",,OutsideTemp,,_16_Temp0,,, ,Time,,BTI,,, ,Date,,BDA,,, 
+w,,InfoSensor1,System Info Broadcast 76 ,,,"0903","7600", UnknownSensor11,,_16_Temp10,,,
+w,,InfoSensor2,System Info Broadcast 78 ,,,"0903","7800", UnknownSensor12,,_16_Temp10,,,
+w,,ErrorStatus,Error Message ,,,"FE01",,Msg,,STR:10,,, ,
+w,,IdBroadcast,answer to identification query,,,"0704",,mf,,UCH,6=Dungs;15=FH Ostfalia;16=TEM;17=Lamberti;20=CEB;21=Landis-Staefa;22=FERRO;23=MONDIAL;24=Wikon;25=Wolf;32=RAWE;48=Satronic;64=ENCON;80=Kromschröder;96=Eberle;101=EBV;117=Grässlin;133=ebm-papst;149=SIG;165=Theben;167=Thermowatt;181=Vaillant;192=Toby;197=Weishaupt;253=ebusd.eu;253=ebusd,,device manufacturer,id,,STR:5,,,device id,sw,,PIN,,,software version,hw,,PIN,,,hardware version
 
 *r,,,,,,"5000",,,,,,,
 
