@@ -23,10 +23,10 @@ echo ProgramMode; ebusctl read -f -c hc1 ProgramMode
 echo AdaptionMode; ebusctl read -f -c hc1 AdaptionMode
 echo SummerWinterChangeOverTemp; ebusctl read -f -c hc1 SummerWinterChangeOverTemp
 echo FloorDryingMode; ebusctl read -f -c hc1 FloorDryingMode
-echo HolidayRuntimeStart.Day; ebusctl read -f -c hc1 HolidayRuntimeStart.Day
-echo HolidayRuntimeStart.Month; ebusctl read -f -c hc1 HolidayRuntimeStart.Month
-echo HolidayRuntimeEnd.Day; ebusctl read -f -c hc1 HolidayRuntimeEnd.Day
-echo HolidayRuntimeEnd.Month; ebusctl read -f -c hc1 HolidayRuntimeEnd.Month
+echo HolidayRuntimeFrom.Day; ebusctl read -f -c hc1 HolidayRuntimeFrom.Day
+echo HolidayRuntimeFrom.Month; ebusctl read -f -c hc1 HolidayRuntimeFrom.Month
+echo HolidayRuntimeTo.Day; ebusctl read -f -c hc1 HolidayRuntimeTo.Day
+echo HolidayRuntimeTo.Month; ebusctl read -f -c hc1 HolidayRuntimeTo.Month
 echo TypeOfConstructionMode; ebusctl read -f -c hc1 TypeOfConstructionMode
 echo SupplyMinTemp; ebusctl read -f -c hc1 SupplyMinTemp
 echo HolidayTemp; ebusctl read -f -c hc1 HolidayTemp
