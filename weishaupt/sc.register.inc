@@ -132,17 +132,11 @@ w,,DHWOperationMode, ,,,,"3701",,,_16_DHWOperationMode,,,
 #99 01
 r,,FS_EM_R1_Sensor, ,,,,"990102",FS_EM_R1_sensor,,UIN,,,
 
-#8F 01
-r,,UnknownSensor15, ,,,,"8F0102",UnknownSensor15,,UIN,,,
-
 #A9 01
 r,,UnknownSensor13, ,,,,"A90102",UnknownSensor13,,UIN,,,
 
 #AA 01
 r,,UnknownSensor14, ,,,,"AA0102",UnknownSensor14,,UIN,,,
-
-#E9 04
-r,,UnknownSensor16, ,,,,"E90402",UnknownSensor16,,UIN,,,
 
 #1C 0A 
 r,,RoomThermostatTemp,Room thermostat (344) ,,,,"1C0A02",RoomThermostatTemp,,_16_Temp1,,,
@@ -508,6 +502,3 @@ w,,UnknownSensor11, ,,,,"0476",UnknownSensor11,,UIN,,,
 r,,UnknownSensor12, ,,,,"047802",UnknownSensor12,,UIN,,,
 w,,UnknownSensor12, ,,,,"0478",UnknownSensor12,,UIN,,,
 
-#FB FD
-r,,UnknownSensor8, ,,,,"FBFD02",UnknownSensor8,,UIN,,,
-w,,UnknownSensor8, ,,,,"FBFD",UnknownSensor8,,UIN,,,

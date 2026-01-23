@@ -65,7 +65,7 @@ r,,FS_EM_W2_Sensor, ,,,,"410102",FS_EM_W2_Sensor,,UIN,,,
 w,,FS_EM_W2_Sensor, ,,,,"4101",FS_EM_W2_Sensor,,UIN,,,
 
 #8F 01
-r9,,UnknownSensor15, ,,,,"8F0102",UnknownSensor15,,UIN,,,
+r9,,UnknownSensor15, ,,,,"8F0102",UnknownSensor15,,_16_Temp10,,,
 
 #99 01
 r,,FS_EM_R1_sensor, ,,,,"990102",FS_EM_R1_Sensor,,UIN,,,
@@ -84,7 +84,7 @@ w,,FS_EM_W4_Sensor, ,,,,"8502",FS_EM_W4_Sensor,,UIN,,,
 r,,FS_EM_R2_Sensor, ,,,,"590302",FS_EM_R2_Sensor,,UIN,,,
 
 #E9 04
-r9,,UnknownSensor16, ,,,,"E90402",UnknownSensor16,,UIN,,,
+r9,,UnknownSensor16, ,,,,"E90402",UnknownSensor16,,_16_Temp10,,,
 
 #73 09
 r,,FS_EM_W3_Sensor, ,,,,"730902",FS_EM_W2_Sensor,,UIN,,,
@@ -111,5 +111,5 @@ w,,FS_EM_W1_Sensor, ,,,,"200A",FS_EM_W1_Sensor,,UIN,,,
 r,,H1Status, ,,,,"290A02",H1Status,,_8_H1Status,,,
 
 #FB FD
-r9,,UnknownSensor8, ,,,,"FBFD02",UnknownSensor8,,UIN,,,
-w,,UnknownSensor8, ,,,,"FBFD",UnknownSensor8,,UIN,,,
+r9,,UnknownSensor8, ,,,,"FBFD02",UnknownSensor8,,_16_Temp1,,,
+w,,UnknownSensor8, ,,,,"FBFD",UnknownSensor8,,_16_Temp1,,,

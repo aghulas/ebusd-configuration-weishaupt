@@ -116,9 +116,6 @@ w,,DHWMode, ,,,,"3501",,,_16_DhwMode,,,
 r9,,DHWOperationMode,WW operation (360) ,,,,"370102",DHWOperationMode,,_16_DHWOperationMode,,,
 w,,DHWOperationMode, ,,,,"3701",,,_16_DHWOperationMode,,,
 
-#8F 01
-r,,UnknownSensor15, ,,,,"8F0102",UnknownSensor15,,UIN,,,
-
 #99 01
 r,,FS_EM_R1_Sensor, ,,,,"990102",FS_EM_R1_sensor,,UIN,,,
 
@@ -131,9 +128,6 @@ r,,UnknownSensor14, ,,,,"AA0102",UnknownSensor14,,UIN,,,
 
 #59 03
 r,,FS_EM_R2_Sensor, ,,,,"590302",FS_EM_R2_Senror,,UIN,,,
-
-#E9 04
-r,,UnknownSensor16, ,,,,"E90402",UnknownSensor16,,UIN,,,
 
 
 #1C 0A 
@@ -502,7 +496,3 @@ w,,UnknownSensor11, ,,,,"0476",UnknownSensor11,,UIN,,,
 #04 78
 r,,UnknownSensor12, ,,,,"047802",UnknownSensor12,,UIN,,,
 w,,UnknownSensor12, ,,,,"0478",UnknownSensor12,,UIN,,,
-
-#FB FD
-r,,UnknownSensor8, ,,,,"FBFD02",UnknownSensor8,,UIN,,,
-w,,UnknownSensor8, ,,,,"FBFD",UnknownSensor8,,UIN,,,
