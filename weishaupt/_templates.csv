@@ -9,11 +9,11 @@ _8_Fueltype,UCH,0=Any;1=Oil;2=Gas,,
 _8_Hours,UCH,,h,Hours
 _8_Load,UCH,,%,Load position
 
-_8_Operatingphase,UCH,0x00=Burner Off;0x01=Retirement control blower;0x02=Pre-Purge speed;0x03=Countdown pre-Purge time;0x04=Reach ignition speed;0x05=Flame formation time;0x06=Burner in operation;0x07=Gas Valve Control V1;0x08=Gas Valve Control V2;0x09=Purge;0x0B=S:Boiler Temperature > 105°C;0x0C=W:Boiler Temperature > 95°C;0x0D=S:Exhaust Gas Temperature > 120°C;0x0E=W:Inlet Temperature Gradient Too Large;0x0F=W/S:Temperature Difference Too Large;0x10=W:Exhaust Gas Temperature > 115°C;0x15=S:No Flame Formation When The Burner Starts;0x16=W:Flame Failure During Operation;0x17=S:Flame Simulation;0x18=S:The Floor Thermostat At Entrance H2 has Activated.;0x24=S:Burner Standby,,Operational Phase
+_8_Operatingphase,UCH,0x00=Burner Off;0x01=standby check fan;0x02=oil preheating;0x03=pre-purge / pre-ignition;0x04=safety time;0x05=post-ignition;0x06=flame stabilisation;0x07=controller enable;0x08=post-purge;0x09=forced venting;0x0B=F11:Temperature at supply sensor > 105 °C ;0x0C=F12:Temperature at supply sensor > 95 °C ;0x0D=F13:Flue gas temperature is too high;0x0E=F14:Inlet Temperature Gradient Too Large;0x0F=F15:Temperature differential between flow and return too high;0x10=F16:Flue gas temperature too high;0x11=F17:Combustion air temperature too high;0x13=F19:Combustion chamber pressure too high;0x15=F19:No flame formation at burner start;0x16=F22:Flame failure during operation;0x17=F23:Flame simulation e. g. reflection of ignition spark through oil film in combustion chamber;0x18=W24:Input H2 is closed;0x19=W25:Alarm condensate lift pump Level switch has been triggered;0x24=F36:System pressure < 0.5 bar,,Operational Phase
 _8_Opdataheat,UCH,0x00=Off;0x01=None;0x55=HotWater;0xaa=Heating;0xcc=Emission Check;0xdd=Quality Control;0xee=Control Stop;0x66=HotWater in control stop;0xbb=Heating,,Heat Requirement
 _8_Opdataheat1,UCH,0x00=Off;0x01=None;0x55=Off;0xbb=On,,Heat Requirement
 _8_Opdataheat2,UCH,0x20=HotWater;0x60=Heating,,Heat Requirement
-_8_Opdataheat3,UCH,0x55=WTC Inactive;0x66=WTC Active,,Ka Status
+_8_Opdataheat3,UCH,0x00=Off;0x55=Standby;0x66=Active,,Ka Status
 _8_Opdataaction,UCH,0x00=None;0x01=Stop Pump;0x02=Start Pump;0x03=Stop Consumer;0x04=Start Consumer;0x05=Idle?;0x06=Restart?,,
 _8_Percent,D1C,,%,Percent
 _8_ProgramState,UCH,0x02=Program;0x0A=Program Suspended;0x12=Program Extended,,Programm Status (Presence/Absense)
