@@ -10,7 +10,7 @@ cw,,WTCStatus,WTC Status -> KA,,,500A,,Status1,,_8_Status,,, ,Operatingphase,,_8
 *dw,,,,,13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 dw,,KaStatus,KaStatus ,,,0507,,Status,,_8_Opdataheat3,,, ,Action,,_8_Opdataaction,,, ,SetTemp,,_16_Temp2,,, ,SetPressure,,_16_Pressure,,, ,Modulation,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Fueltype,,,
 
-!include,sc.errorhistory.inc,,Error History,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,sc.processvalues.inc,,Process Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,sc.manufacturer.inc,,Process Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,sc.systemheatcontrol.inc,,System Heat Control Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+!include,wtc.errorhistory.inc,,Error History,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+!include,wtc.processvalues.inc,,Process Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+!include,wtc.manufacturer.inc,,Process Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+!include,wtc.systemheatcontrol.inc,,System Heat Control Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
