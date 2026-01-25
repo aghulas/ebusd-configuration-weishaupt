@@ -64,7 +64,7 @@ w,,HolidayRuntimeFrom.Month, ,,,,"1C01",,,_16_HolidayMonth,,,
 
 #1E;1F 01
 r,,HolidayRuntimeTo,End of vacation ,,,,"1E0104",,,_16_HolidayDay,,, ,,,_16_HolidayMonth,,,
-w,,HolidayRuntimeTo,End of vacation ,,,,"1E01:1;1F01:1",,m,UIN,,, 
+w,,HolidayRuntimeTo,End of vacation ,,,,"1E01:2;1F01:2",,m,UIN,,, 
 
 #1E 01
 w,,HolidayRuntimeTo.Day, ,,,,"1E01",,,_16_HolidayDay,,,
