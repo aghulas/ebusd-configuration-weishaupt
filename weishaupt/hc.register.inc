@@ -62,6 +62,18 @@ r,,HolidayRuntimeTo,End of vacation ,,,,"1E0104",,,_16_HolidayDay,,, ,,,_16_Holi
 #w,,HolidayRuntimeTo,End of vacation ,,,,"1E01:2;1F01",,m,_16_HolidayDay,,, ,,m,_16_HolidayMonth,,,
 w,,HolidayRuntimeTo,End of vacation ,,,,"1E01:2;1F01:2",hex,m,STR:4,,,comment
 
+#1B 01
+w,,HolidayRuntimeFrom.Day, ,,,,"1B01",,,_16_HolidayDay,,,
+
+#1C 01
+w,,HolidayRuntimeFrom.Month, ,,,,"1C01",,,_16_HolidayMonth,,,
+
+#1E 01
+w,,HolidayRuntimeTo.Day, ,,,,"1E01",,,_16_HolidayDay,,,
+
+#1F 01
+w,,HolidayRuntimeTo.Month, ,,,,"1F01",,,_16_HolidayMonth,,,
+
 #28 01
 r9,,TypeOfConstructionMode,Construction method (371) ,,,,"280102",TypeOfConstructionMode,,_16_Constructiontype,,,
 w,,TypeOfConstructionMode, ,,,,"2801",,,_16_Constructiontype,,,
