@@ -21,5 +21,5 @@ r,,Status6,heating circuit 6 ,,,"5000","5503B1",,s,_8_Skip,,, ,TimeSinceLastComm
 r,,Status7,heating circuit 7 ,,,"5000","5603B2",,s,_8_Skip,,, ,TimeSinceLastCommand,s,_6_TimeSinceLastCommand,,, ,ReleaseDHW,s,_1_ReleaseDHW,,, ,ReleaseHC,s,_1_ReleaseHC,,, 
 r,,Status8,heating circuit 8 ,,,"5000","5703B3",,s,_8_Skip,,, ,TimeSinceLastCommand,s,_6_TimeSinceLastCommand,,, ,ReleaseDHW,s,_1_ReleaseDHW,,, ,ReleaseHC,s,_1_ReleaseHC,,, 
 
-r,,SetpointTempSystem,Target temperature system ,,,"5000","2703C3",,s,_8_Skip,,, ,,s,_8_Temp0,,, 
-r,,SetpointDHW,Hot water setpoint ,,,"5000","33016F",,s,_8_Skip,,, ,,s,_8_Temp0,,, 
+#r,,SetpointTempSystem,Target temperature system ,,,"5000","2703C3",,s,_8_Skip,,, ,,s,_8_Temp0,,, 
+#r,,SetpointDHW,Hot water setpoint ,,,"5000","33016F",,s,_8_Skip,,, ,,s,_8_Temp0,,, 
