@@ -148,7 +148,7 @@ r,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
 r,,FloorDryingTemp,Screed temperature (383) ,,,,"130A02",FloorDryingTemp,,_16_Temp1,,,
 
 #29 0A
-r,,H1Status, ,,,,"290A02",FS_EM_R3_Senror,,UIN,,,
+r,,H1Status, ,,,,"290A02",H1Status,,UIN,,,
 
 #04 76
 r,,UnknownSensor11, ,,,,"047602",UnknownSensor11,,UIN,,,
