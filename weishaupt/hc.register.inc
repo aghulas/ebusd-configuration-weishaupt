@@ -54,7 +54,7 @@ r,,FloorDryingMode,Screed function (381) ,,,,"1A0102",FloorDryingMode,,_16_Floor
 
 #1B;1C 01
 r,,HolidayRuntimeFrom,Start of vacation ,,,,"1B0104",,s,_16_HolidayDay,,, ,,s,_16_HolidayMonth,,,
-w,,HolidayRuntimeFrom,Start of vacation ,,,,"1B01:2;1C01:2",,m,_16_HolidayDay,,, ,,m,_16_HolidayMonth,,,
+#w,,HolidayRuntimeFrom,Start of vacation ,,,,"1B01:2;1C01:2",,m,_16_HolidayDay,,, ,,m,_16_HolidayMonth,,,
 
 #1B 01
 w,,HolidayRuntimeFrom.Day, ,,,,"1B01",,,_16_HolidayDay,,,
@@ -64,7 +64,7 @@ w,,HolidayRuntimeFrom.Month, ,,,,"1C01",,,_16_HolidayMonth,,,
 
 #1E;1F 01
 r,,HolidayRuntimeTo,End of vacation ,,,,"1E0104",,,_16_HolidayDay,,, ,,,_16_HolidayMonth,,,
-w,,HolidayRuntimeTo,End of vacation ,,,,"1E01:2;1F01:2",,:,UIN,,, ,,m,UIN,,,
+#w,,HolidayRuntimeTo,End of vacation ,,,,"1E01:2;1F01:2",,:,UIN,,, ,,m,UIN,,,
 
 #1E 01
 w,,HolidayRuntimeTo.Day, ,,,,"1E01",,,_16_HolidayDay,,,
