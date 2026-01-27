@@ -21,7 +21,7 @@ w,,RoomSetbackTemp, ,,,,"0800",,,_16_Temp10,,,
 r,,UnknownSensor17, ,,,,"0B0002",UnknownSensor17,,UIN,,,
 
 #11 00
-r1,,RoomTemp,Room Sensor Temperature ,,,,"110002",RoomTemp,,_16_Temp10,,,
+r,,RoomTemp,Room Sensor Temperature ,,,,"110002",RoomTemp,,_16_Temp10,,,
 
 #12 00
 r9,,RoomSetPointTemp,Room setpoint ,,,,"120002",RoomSetPointTemp,,_16_Temp10,,,
