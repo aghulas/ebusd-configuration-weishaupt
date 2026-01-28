@@ -98,333 +98,333 @@ r,,HCRuntimeProgram1.Mo,Heating Program1 Monday ,,,,"101402;111402;121402",,,_7_
 w,,HCRuntimeProgram1.Mo,Heating Program1 Monday ,,,,"1014 :2;1114 :2;1214 :2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 
 #10 14
-r,,HCRuntimeProgram1.Mo.1,Heating Program1 Monday 1 Start/End ,,,,"101402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram1.Mo.1,Heating Program1 Monday 1 Start/End ,,,,"1014",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram1.Mo.1,Heating Program1 Monday 1 To/From ,,,,"101402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram1.Mo.1,Heating Program1 Monday 1 To/From ,,,,"1014",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #11 14
-r,,HCRuntimeProgram1.Mo.2,Heating Program1 Monday 2 Start/End ,,,,"111402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram1.Mo.2,Heating Program1 Monday 2 Start/End ,,,,"1114",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram1.Mo.2,Heating Program1 Monday 2 To/From ,,,,"111402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram1.Mo.2,Heating Program1 Monday 2 To/From ,,,,"1114",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #12 14
-r,,HCRuntimeProgram1.Mo.3,Heating Program1 Monday 3 Start/End ,,,,"121402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram1.Mo.3,Heating Program1 Monday 3 Start/End ,,,,"1214",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram1.Mo.3,Heating Program1 Monday 3 To/From ,,,,"121402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram1.Mo.3,Heating Program1 Monday 3 To/From ,,,,"1214",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #20;21;22 14 
 r,,HCRuntimeProgram1.Tu,Heating Program1Tuesday ,,,,"201402;211402;221402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 w,,HCRuntimeProgram1.Tu,Heating Program1Tuesday ,,,,"2014 :2;2114 :2;2214 :2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 
 #20 14
-r,,HCRuntimeProgram1.Tu.1,Heating Program1 Tuesday 1 Start/End ,,,,"201402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram1.Tu.1,Heating Program1 Tuesday 1 Start/End ,,,,"2014",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram1.Tu.1,Heating Program1 Tuesday 1 To/From ,,,,"201402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram1.Tu.1,Heating Program1 Tuesday 1 To/From ,,,,"2014",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #21 14
-r,,HCRuntimeProgram1.Tu.2,Heating Program1 Tuesday 2 Start/End ,,,,"211402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram1.Tu.2,Heating Program1 Tuesday 2 Start/End ,,,,"2114",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram1.Tu.2,Heating Program1 Tuesday 2 To/From ,,,,"211402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram1.Tu.2,Heating Program1 Tuesday 2 To/From ,,,,"2114",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #22 14
-r,,HCRuntimeProgram1.Tu.3,Heating Program1 Tuesday 3 Start/End ,,,,"221402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram1.Tu.3,Heating Program1 Tuesday 3 Start/End ,,,,"2214",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram1.Tu.3,Heating Program1 Tuesday 3 To/From ,,,,"221402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram1.Tu.3,Heating Program1 Tuesday 3 To/From ,,,,"2214",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #30;31;32 14 
 r,,HCRuntimeProgram1.We,Heating Program1Wednesday ,,,,"301402;311402;321402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 w,,HCRuntimeProgram1.We,Heating Program1Wendesday ,,,,"3014 :2;3114 :2;3214 :2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 
 #30 14
-r,,HCRuntimeProgram1.We.1,Heating Program1 Wednesday 1 Start/End ,,,,"301402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram1.We.1,Heating Program1 Wednesday 1 Start/End ,,,,"3014",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram1.We.1,Heating Program1 Wednesday 1 To/From ,,,,"301402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram1.We.1,Heating Program1 Wednesday 1 To/From ,,,,"3014",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #31 14
-r,,HCRuntimeProgram1.We.2,Heating Program1 Wednesday 2 Start/End ,,,,"311402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram1.We.2,Heating Program1 Wednesday 2 Start/End ,,,,"3114",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram1.We.2,Heating Program1 Wednesday 2 To/From ,,,,"311402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram1.We.2,Heating Program1 Wednesday 2 To/From ,,,,"3114",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #32 14
-r,,HCRuntimeProgram1.We.3,Heating Program1 Wednesday 3 Start/End ,,,,"321402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram1.We.3,Heating Program1 Wednesday 3 Start/End ,,,,"3214",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram1.We.3,Heating Program1 Wednesday 3 To/From ,,,,"321402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram1.We.3,Heating Program1 Wednesday 3 To/From ,,,,"3214",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #40;41;42 14 
 r,,HCRuntimeProgram1.Th,Heating Program1Thursday ,,,,"401402;411402;421402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 w,,HCRuntimeProgram1.Th,Heating Program1Thursday ,,,,"4014 :2;4114 :2;4214 :2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 
 #40 14
-r,,HCRuntimeProgram1.Th.1,Heating Program1 Thursday 1 Start/End ,,,,"401402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram1.Th.1,Heating Program1 Thursday 1 Start/End ,,,,"4014",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram1.Th.1,Heating Program1 Thursday 1 To/From ,,,,"401402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram1.Th.1,Heating Program1 Thursday 1 To/From ,,,,"4014",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #41 14
-r,,HCRuntimeProgram1.Th.2,Heating Program1 Thursday 2 Start/End ,,,,"411402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram1.Th.2,Heating Program1 Thursday 2 Start/End ,,,,"4114",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram1.Th.2,Heating Program1 Thursday 2 To/From ,,,,"411402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram1.Th.2,Heating Program1 Thursday 2 To/From ,,,,"4114",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #42 14
-r,,HCRuntimeProgram1.Th.3,Heating Program1 Thursday 3 Start/End ,,,,"421402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram1.Th.3,Heating Program1 Thursday 3 Start/End ,,,,"4214",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram1.Th.3,Heating Program1 Thursday 3 To/From ,,,,"421402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram1.Th.3,Heating Program1 Thursday 3 To/From ,,,,"4214",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #50;51;52 14 
 r,,HCRuntimeProgram1.Fr,Heating Program1Friday ,,,,"501402;511402;521402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 w,,HCRuntimeProgram1.Fr,Heating Program1Friday ,,,,"5014 :2;5114 :2;5214 :2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 
 #50 14
-r,,HCRuntimeProgram1.Fr.1,Heating Program1 Friday 1 Start/End ,,,,"501402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram1.Fr.1,Heating Program1 Friday 1 Start/End ,,,,"5014",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram1.Fr.1,Heating Program1 Friday 1 To/From ,,,,"501402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram1.Fr.1,Heating Program1 Friday 1 To/From ,,,,"5014",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #51 14
-r,,HCRuntimeProgram1.Fr.2,Heating Program1 Friday 2 Start/End ,,,,"511402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram1.Fr.2,Heating Program1 Friday 2 Start/End ,,,,"5114",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram1.Fr.2,Heating Program1 Friday 2 To/From ,,,,"511402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram1.Fr.2,Heating Program1 Friday 2 To/From ,,,,"5114",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #52 14
-r,,HCRuntimeProgram1.Fr.3,Heating Program1 Friday 3 Start/End ,,,,"521402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram1.Fr.3,Heating Program1 Friday 3 Start/End ,,,,"5214",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram1.Fr.3,Heating Program1 Friday 3 To/From ,,,,"521402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram1.Fr.3,Heating Program1 Friday 3 To/From ,,,,"5214",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #60;61;62 14 
 r,,HCRuntimeProgram1.Sa,Heating Program1Saturday ,,,,"601402;611402;621402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 w,,HCRuntimeProgram1.Sa,Heating Program1Saturday ,,,,"6014 :2;6114 :2;6214 :2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 
 #60 14
-r,,HCRuntimeProgram1.Sa.1,Heating Program1 Saturday 1 Start/End ,,,,"601402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram1.Sa.1,Heating Program1 Saturday 1 Start/End ,,,,"6014",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram1.Sa.1,Heating Program1 Saturday 1 To/From ,,,,"601402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram1.Sa.1,Heating Program1 Saturday 1 To/From ,,,,"6014",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #61 14
-r,,HCRuntimeProgram1.Sa.2,Heating Program1 Saturday 2 Start/End ,,,,"611402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram1.Sa.2,Heating Program1 Saturday 2 Start/End ,,,,"6114",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram1.Sa.2,Heating Program1 Saturday 2 To/From ,,,,"611402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram1.Sa.2,Heating Program1 Saturday 2 To/From ,,,,"6114",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #62 14
-r,,HCRuntimeProgram1.Sa.3,Heating Program1 Saturday 3 Start/End ,,,,"621402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram1.Sa.3,Heating Program1 Saturday 3 Start/End ,,,,"6214",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram1.Sa.3,Heating Program1 Saturday 3 To/From ,,,,"621402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram1.Sa.3,Heating Program1 Saturday 3 To/From ,,,,"6214",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #70;71;72 14 
 r,,HCRuntimeProgram1.Su,Heating Program1Sunday ,,,,"701402;711402;721402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 w,,HCRuntimeProgram1.Su,Heating Program1Sunday ,,,,"7014 :2;7114 :2;7214 :2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 
 #70 14
-r,,HCRuntimeProgram1.Su.1,Heating Program1 Sunday 1 Start/End ,,,,"701402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram1.Su.1,Heating Program1 Sunday 1 Start/End ,,,,"7014",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram1.Su.1,Heating Program1 Sunday 1 To/From ,,,,"701402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram1.Su.1,Heating Program1 Sunday 1 To/From ,,,,"7014",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #71 14
-r,,HCRuntimeProgram1.Su.2,Heating Program1 Sunday 2 Start/End ,,,,"711402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram1.Su.2,Heating Program1 Sunday 2 Start/End ,,,,"7114",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram1.Su.2,Heating Program1 Sunday 2 To/From ,,,,"711402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram1.Su.2,Heating Program1 Sunday 2 To/From ,,,,"7114",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #72 14
-r,,HCRuntimeProgram1.Su.3,Heating Program1 Sunday 3 Start/End ,,,,"721402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram1.Su.3,Heating Program1 Sunday 3 Start/End ,,,,"7214",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram1.Su.3,Heating Program1 Sunday 3 To/From ,,,,"721402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram1.Su.3,Heating Program1 Sunday 3 To/From ,,,,"7214",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #10;11;12 15
 r,,HCRuntimeProgram2.Mo,Heating Program2 Monday ,,,,"101502;111502;121502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 w,,HCRuntimeProgram2.Mo,Heating Program2 Monday ,,,,"1015:2;1115:2;1215:2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 
 #10 15
-r,,HCRuntimeProgram2.Mo.1,Heating Program2 Monday 1 Start/End ,,,,"101502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram2.Mo.1,Heating Program2 Monday 1 Start/End ,,,,"1015",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram2.Mo.1,Heating Program2 Monday 1 To/From ,,,,"101502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram2.Mo.1,Heating Program2 Monday 1 To/From ,,,,"1015",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #11 15
-r,,HCRuntimeProgram2.Mo.2,Heating Program2 Monday 2 Start/End ,,,,"111502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram2.Mo.2,Heating Program2 Monday 2 Start/End ,,,,"1115",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram2.Mo.2,Heating Program2 Monday 2 To/From ,,,,"111502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram2.Mo.2,Heating Program2 Monday 2 To/From ,,,,"1115",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #12 15
-r,,HCRuntimeProgram2.Mo.3,Heating Program2 Monday 3 Start/End ,,,,"121502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram2.Mo.3,Heating Program2 Monday 3 Start/End ,,,,"1215",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram2.Mo.3,Heating Program2 Monday 3 To/From ,,,,"121502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram2.Mo.3,Heating Program2 Monday 3 To/From ,,,,"1215",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #20;21;22 15
 r,,HCRuntimeProgram2.Tu,Heating Program2 Tuesday ,,,,"201502;211502;221502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 w,,HCRuntimeProgram2.Tu,Heating Program2 Tuesday ,,,,"2015:2;2115:2;2215:2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 
 #20 15
-r,,HCRuntimeProgram2.Tu.1,Heating Program2 Tuesday 1 Start/End ,,,,"201502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram2.Tu.1,Heating Program2 Tuesday 1 Start/End ,,,,"2015",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram2.Tu.1,Heating Program2 Tuesday 1 To/From ,,,,"201502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram2.Tu.1,Heating Program2 Tuesday 1 To/From ,,,,"2015",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #21 15
-r,,HCRuntimeProgram2.Tu.2,Heating Program2 Tuesday 2 Start/End ,,,,"211502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram2.Tu.2,Heating Program2 Tuesday 2 Start/End ,,,,"2115",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram2.Tu.2,Heating Program2 Tuesday 2 To/From ,,,,"211502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram2.Tu.2,Heating Program2 Tuesday 2 To/From ,,,,"2115",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #22 15
-r,,HCRuntimeProgram2.Tu.3,Heating Program2 Tuesday 3 Start/End ,,,,"221502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram2.Tu.3,Heating Program2 Tuesday 3 Start/End ,,,,"2215",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram2.Tu.3,Heating Program2 Tuesday 3 To/From ,,,,"221502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram2.Tu.3,Heating Program2 Tuesday 3 To/From ,,,,"2215",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #30;31;32 15
 r,,HCRuntimeProgram2.We,Heating Program2 Wednesday ,,,,"301502;311502;321502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 w,,HCRuntimeProgram2.We,Heating Program2 Wendesday ,,,,"3015:2;3115:2;3215:2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 
 #30 15
-r,,HCRuntimeProgram2.We.1,Heating Program2 Wednesday 1 Start/End ,,,,"301502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram2.We.1,Heating Program2 Wednesday 1 Start/End ,,,,"3015",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram2.We.1,Heating Program2 Wednesday 1 To/From ,,,,"301502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram2.We.1,Heating Program2 Wednesday 1 To/From ,,,,"3015",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #31 15
-r,,HCRuntimeProgram2.We.2,Heating Program2 Wednesday 2 Start/End ,,,,"311502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram2.We.2,Heating Program2 Wednesday 2 Start/End ,,,,"3115",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram2.We.2,Heating Program2 Wednesday 2 To/From ,,,,"311502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram2.We.2,Heating Program2 Wednesday 2 To/From ,,,,"3115",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #32 15
-r,,HCRuntimeProgram2.We.3,Heating Program2 Wednesday 3 Start/End ,,,,"321502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram2.We.3,Heating Program2 Wednesday 3 Start/End ,,,,"3215",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram2.We.3,Heating Program2 Wednesday 3 To/From ,,,,"321502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram2.We.3,Heating Program2 Wednesday 3 To/From ,,,,"3215",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #40;41;42 15
 r,,HCRuntimeProgram2.Th,Heating Program2 Thursday ,,,,"401502;411502;421502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 w,,HCRuntimeProgram2.Th,Heating Program2 Thursday ,,,,"4015:2;4115:2;4215:2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 
 #40 15
-r,,HCRuntimeProgram2.Th.1,Heating Program2 Thursday 1 Start/End ,,,,"401502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram2.Th.1,Heating Program2 Thursday 1 Start/End ,,,,"4015",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram2.Th.1,Heating Program2 Thursday 1 To/From ,,,,"401502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram2.Th.1,Heating Program2 Thursday 1 To/From ,,,,"4015",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #41 15
-r,,HCRuntimeProgram2.Th.2,Heating Program2 Thursday 2 Start/End ,,,,"411502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram2.Th.2,Heating Program2 Thursday 2 Start/End ,,,,"4115",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram2.Th.2,Heating Program2 Thursday 2 To/From ,,,,"411502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram2.Th.2,Heating Program2 Thursday 2 To/From ,,,,"4115",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #42 15
-r,,HCRuntimeProgram2.Th.3,Heating Program2 Thursday 3 Start/End ,,,,"421502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram2.Th.3,Heating Program2 Thursday 3 Start/End ,,,,"4215",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram2.Th.3,Heating Program2 Thursday 3 To/From ,,,,"421502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram2.Th.3,Heating Program2 Thursday 3 To/From ,,,,"4215",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #50;51;52 15
 r,,HCRuntimeProgram2.Fr,Heating Program2 Friday ,,,,"501502;511502;521502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 w,,HCRuntimeProgram2.Fr,Heating Program2 Friday ,,,,"5015:2;5115:2;5215:2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 
 #50 15
-r,,HCRuntimeProgram2.Fr.1,Heating Program2 Friday 1 Start/End ,,,,"501502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram2.Fr.1,Heating Program2 Friday 1 Start/End ,,,,"5015",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram2.Fr.1,Heating Program2 Friday 1 To/From ,,,,"501502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram2.Fr.1,Heating Program2 Friday 1 To/From ,,,,"5015",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #51 15
-r,,HCRuntimeProgram2.Fr.2,Heating Program2 Friday 2 Start/End ,,,,"511502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram2.Fr.2,Heating Program2 Friday 2 Start/End ,,,,"5115",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram2.Fr.2,Heating Program2 Friday 2 To/From ,,,,"511502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram2.Fr.2,Heating Program2 Friday 2 To/From ,,,,"5115",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #51 15
-r,,HCRuntimeProgram2.Fr.3,Heating Program2 Friday 3 Start/End ,,,,"521502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram2.Fr.3,Heating Program2 Friday 3 Start/End ,,,,"5215",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram2.Fr.3,Heating Program2 Friday 3 To/From ,,,,"521502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram2.Fr.3,Heating Program2 Friday 3 To/From ,,,,"5215",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #60;61;62 15
 r,,HCRuntimeProgram2.Sa,Heating Program2 Saturday ,,,,"601502;611502;621502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 w,,HCRuntimeProgram2.Sa,Heating Program2 Saturday ,,,,"6015:2;6115:2;6215:2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 
 #60 15
-r,,HCRuntimeProgram2.Sa.1,Heating Program2 Saturday 1 Start/End ,,,,"601502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram2.Sa.1,Heating Program2 Saturday 1 Start/End ,,,,"6015",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram2.Sa.1,Heating Program2 Saturday 1 To/From ,,,,"601502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram2.Sa.1,Heating Program2 Saturday 1 To/From ,,,,"6015",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #61 15
-r,,HCRuntimeProgram2.Sa.2,Heating Program2 Saturday 2 Start/End ,,,,"611502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram2.Sa.2,Heating Program2 Saturday 2 Start/End ,,,,"6115",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram2.Sa.2,Heating Program2 Saturday 2 To/From ,,,,"611502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram2.Sa.2,Heating Program2 Saturday 2 To/From ,,,,"6115",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #62 15
-r,,HCRuntimeProgram2.Sa.3,Heating Program2 Saturday 3 Start/End ,,,,"621502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram2.Sa.3,Heating Program2 Saturday 3 Start/End ,,,,"6215",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram2.Sa.3,Heating Program2 Saturday 3 To/From ,,,,"621502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram2.Sa.3,Heating Program2 Saturday 3 To/From ,,,,"6215",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #70;71;72 15
 r,,HCRuntimeProgram2.Su,Heating Program2 Sunday ,,,,"701502;711502;721502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 w,,HCRuntimeProgram2.Su,Heating Program2 Sunday ,,,,"7015:2;7115:2;7215:2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 
 #70 15
-r,,HCRuntimeProgram2.Su.1,Heating Program2 Sunday 1 Start/End ,,,,"701502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram2.Su.1,Heating Program2 Sunday 1 Start/End ,,,,"7015",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram2.Su.1,Heating Program2 Sunday 1 To/From ,,,,"701502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram2.Su.1,Heating Program2 Sunday 1 To/From ,,,,"7015",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #71 15
-r,,HCRuntimeProgram2.Su.2,Heating Program2 Sunday 2 Start/End ,,,,"711502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram2.Su.2,Heating Program2 Sunday 2 Start/End ,,,,"7115",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram2.Su.2,Heating Program2 Sunday 2 To/From ,,,,"711502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram2.Su.2,Heating Program2 Sunday 2 To/From ,,,,"7115",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #72 15
-r,,HCRuntimeProgram2.Su.3,Heating Program2 Sunday 3 Start/End ,,,,"721502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram2.Su.3,Heating Program2 Sunday 3 Start/End ,,,,"7215",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram2.Su.3,Heating Program2 Sunday 3 To/From ,,,,"721502",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram2.Su.3,Heating Program2 Sunday 3 To/From ,,,,"7215",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #10;11;12 16
 r,,HCRuntimeProgram3.Mo,Heating Program3 Monday ,,,,"101602;111602;121602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 w,,HCRuntimeProgram3.Mo,Heating Program3 Monday ,,,,"1016:2;1116:2;1216:2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 
 #10 16
-r,,HCRuntimeProgram3.Mo.1,Heating Program3 Monday 1 Start/End ,,,,"101602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram3.Mo.1,Heating Program3 Monday 1 Start/End ,,,,"1016",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram3.Mo.1,Heating Program3 Monday 1 To/From ,,,,"101602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram3.Mo.1,Heating Program3 Monday 1 To/From ,,,,"1016",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #11 16
-r,,HCRuntimeProgram3.Mo.2,Heating Program3 Monday 2 Start/End ,,,,"111602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram3.Mo.2,Heating Program3 Monday 2 Start/End ,,,,"1116",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram3.Mo.2,Heating Program3 Monday 2 To/From ,,,,"111602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram3.Mo.2,Heating Program3 Monday 2 To/From ,,,,"1116",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #12 16
-r,,HCRuntimeProgram3.Mo.3,Heating Program3 Monday 3 Start/End ,,,,"121602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram3.Mo.3,Heating Program3 Monday 3 Start/End ,,,,"1216",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram3.Mo.3,Heating Program3 Monday 3 To/From ,,,,"121602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram3.Mo.3,Heating Program3 Monday 3 To/From ,,,,"1216",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #20;21;22 16
 r,,HCRuntimeProgram3.Tu,Heating Program3 Tuesday ,,,,"201602;211602;221602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 w,,HCRuntimeProgram3.Tu,Heating Program3 Tuesday ,,,,"2016:2;2116:2;2216:2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 
 #20 16
-r,,HCRuntimeProgram3.Tu.1,Heating Program3 Tuesday 1 Start/End ,,,,"201602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram3.Tu.1,Heating Program3 Tuesday 1 Start/End ,,,,"2016",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram3.Tu.1,Heating Program3 Tuesday 1 To/From ,,,,"201602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram3.Tu.1,Heating Program3 Tuesday 1 To/From ,,,,"2016",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #21 16
-r,,HCRuntimeProgram3.Tu.2,Heating Program3 Tuesday 2 Start/End ,,,,"211602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram3.Tu.2,Heating Program3 Tuesday 2 Start/End ,,,,"2116",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram3.Tu.2,Heating Program3 Tuesday 2 To/From ,,,,"211602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram3.Tu.2,Heating Program3 Tuesday 2 To/From ,,,,"2116",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #22 16
-r,,HCRuntimeProgram3.Tu.3,Heating Program3 Tuesday 3 Start/End ,,,,"221602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram3.Tu.3,Heating Program3 Tuesday 3 Start/End ,,,,"2216",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram3.Tu.3,Heating Program3 Tuesday 3 To/From ,,,,"221602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram3.Tu.3,Heating Program3 Tuesday 3 To/From ,,,,"2216",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #30;31;32 16
 r,,HCRuntimeProgram3.We,Heating Program3 Wednesday ,,,,"301602;311602;321602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 w,,HCRuntimeProgram3.We,Heating Program3 Wendesday ,,,,"3016:2;3116:2;3216:2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 
 #30 16
-r,,HCRuntimeProgram3.We.1,Heating Program3 Wednesday 1 Start/End ,,,,"301602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram3.We.1,Heating Program3 Wednesday 1 Start/End ,,,,"3016",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram3.We.1,Heating Program3 Wednesday 1 To/From ,,,,"301602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram3.We.1,Heating Program3 Wednesday 1 To/From ,,,,"3016",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #31 16
-r,,HCRuntimeProgram3.We.2,Heating Program3 Wednesday 2 Start/End ,,,,"311602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram3.We.2,Heating Program3 Wednesday 2 Start/End ,,,,"3116",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram3.We.2,Heating Program3 Wednesday 2 To/From ,,,,"311602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram3.We.2,Heating Program3 Wednesday 2 To/From ,,,,"3116",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #32 16
-r,,HCRuntimeProgram3.We.3,Heating Program3 Wednesday 3 Start/End ,,,,"321602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram3.We.3,Heating Program3 Wednesday 3 Start/End ,,,,"3216",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram3.We.3,Heating Program3 Wednesday 3 To/From ,,,,"321602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram3.We.3,Heating Program3 Wednesday 3 To/From ,,,,"3216",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #40;41;42 16
 r,,HCRuntimeProgram3.Th,Heating Program3 Thursday ,,,,"401602;411602;421602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 w,,HCRuntimeProgram3.Th,Heating Program3 Thursday ,,,,"4016:2;4116:2;4216:2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 
 #40 16
-r,,HCRuntimeProgram3.Th.1,Heating Program3 Thursday 1 Start/End ,,,,"401602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram3.Th.1,Heating Program3 Thursday 1 Start/End ,,,,"4016",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram3.Th.1,Heating Program3 Thursday 1 To/From ,,,,"401602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram3.Th.1,Heating Program3 Thursday 1 To/From ,,,,"4016",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #41 16
-r,,HCRuntimeProgram3.Th.2,Heating Program3 Thursday 2 Start/End ,,,,"411602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram3.Th.2,Heating Program3 Thursday 2 Start/End ,,,,"4116",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram3.Th.2,Heating Program3 Thursday 2 To/From ,,,,"411602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram3.Th.2,Heating Program3 Thursday 2 To/From ,,,,"4116",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #42 16
-r,,HCRuntimeProgram3.Th.3,Heating Program3 Thursday 3 Start/End ,,,,"421602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram3.Th.3,Heating Program3 Thursday 3 Start/End ,,,,"4216",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram3.Th.3,Heating Program3 Thursday 3 To/From ,,,,"421602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram3.Th.3,Heating Program3 Thursday 3 To/From ,,,,"4216",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #50;51;52 16
 r,,HCRuntimeProgram3.Fr,Heating Program3 Friday ,,,,"501602;511602;521602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 w,,HCRuntimeProgram3.Fr,Heating Program3 Friday ,,,,"5016:2;5116:2;5216:2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 
 #50 16
-r,,HCRuntimeProgram3.Fr.1,Heating Program3 Friday 1 Start/End ,,,,"501602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram3.Fr.1,Heating Program3 Friday 1 Start/End ,,,,"5016",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram3.Fr.1,Heating Program3 Friday 1 To/From ,,,,"501602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram3.Fr.1,Heating Program3 Friday 1 To/From ,,,,"5016",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #51 16
-r,,HCRuntimeProgram3.Fr.2,Heating Program3 Friday 2 Start/End ,,,,"511602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram3.Fr.2,Heating Program3 Friday 2 Start/End ,,,,"5116",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram3.Fr.2,Heating Program3 Friday 2 To/From ,,,,"511602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram3.Fr.2,Heating Program3 Friday 2 To/From ,,,,"5116",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #51 16
-r,,HCRuntimeProgram3.Fr.3,Heating Program3 Friday 3 Start/End ,,,,"521602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram3.Fr.3,Heating Program3 Friday 3 Start/End ,,,,"5216",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram3.Fr.3,Heating Program3 Friday 3 To/From ,,,,"521602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram3.Fr.3,Heating Program3 Friday 3 To/From ,,,,"5216",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #60;61;62 16
 r,,HCRuntimeProgram3.Sa,Heating Program3 Saturday ,,,,"601602;611602;621602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 w,,HCRuntimeProgram3.Sa,Heating Program3 Saturday ,,,,"6016:2;6116:2;6216:2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 
 #60 16
-r,,HCRuntimeProgram3.Sa.1,Heating Program3 Saturday 1 Start/End ,,,,"601602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram3.Sa.1,Heating Program3 Saturday 1 Start/End ,,,,"6016",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram3.Sa.1,Heating Program3 Saturday 1 To/From ,,,,"601602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram3.Sa.1,Heating Program3 Saturday 1 To/From ,,,,"6016",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #61 16
-r,,HCRuntimeProgram3.Sa.2,Heating Program3 Saturday 2 Start/End ,,,,"611602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram3.Sa.2,Heating Program3 Saturday 2 Start/End ,,,,"6116",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram3.Sa.2,Heating Program3 Saturday 2 To/From ,,,,"611602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram3.Sa.2,Heating Program3 Saturday 2 To/From ,,,,"6116",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #62 16
-r,,HCRuntimeProgram3.Sa.3,Heating Program3 Saturday 3 Start/End ,,,,"621602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram3.Sa.3,Heating Program3 Saturday 3 Start/End ,,,,"6216",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram3.Sa.3,Heating Program3 Saturday 3 To/From ,,,,"621602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram3.Sa.3,Heating Program3 Saturday 3 To/From ,,,,"6216",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #70;71;72 16
 r,,HCRuntimeProgram3.Su,Heating Program3 Sunday ,,,,"701602;711602;721602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 w,,HCRuntimeProgram3.Su,Heating Program3 Sunday ,,,,"7016:2;7116:2;7216:2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 
 #70 16
-r,,HCRuntimeProgram3.Su.1,Heating Program3 Sunday 1 Start/End ,,,,"701602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram3.Su.1,Heating Program3 Sunday 1 Start/End ,,,,"7016",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram3.Su.1,Heating Program3 Sunday 1 To/From ,,,,"701602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram3.Su.1,Heating Program3 Sunday 1 To/From ,,,,"7016",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #71 16
-r,,HCRuntimeProgram3.Su.2,Heating Program3 Sunday 2 Start/End ,,,,"711602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram3.Su.2,Heating Program3 Sunday 2 Start/End ,,,,"7116",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram3.Su.2,Heating Program3 Sunday 2 To/From ,,,,"711602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram3.Su.2,Heating Program3 Sunday 2 To/From ,,,,"7116",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
 #72 16
-r,,HCRuntimeProgram3.Su.3,Heating Program3 Sunday 3 Start/End ,,,,"721602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-w,,HCRuntimeProgram3.Su.3,Heating Program3 Sunday 3 Start/End ,,,,"7216",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+r,,HCRuntimeProgram3.Su.3,Heating Program3 Sunday 3 To/From ,,,,"721602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+w,,HCRuntimeProgram3.Su.3,Heating Program3 Sunday 3 To/From ,,,,"7216",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
