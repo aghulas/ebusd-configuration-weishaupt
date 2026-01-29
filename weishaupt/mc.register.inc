@@ -64,9 +64,6 @@ w,,ReductTemp, ,,,,"3201",,,_16_TempReduced,,,
 r,,FS_EM_W2_Sensor, ,,,,"410102",FS_EM_W2_Sensor,,UIN,,,
 w,,FS_EM_W2_Sensor, ,,,,"4101",FS_EM_W2_Sensor,,UIN,,,
 
-#8F 01
-r9,,UnknownSensor15, ,,,,"8F0102",UnknownSensor15,,_16_Temp10,,,
-
 #99 01
 r,,Version, ,,,,"990102",Version,,UIN,,,
 
