@@ -57,10 +57,6 @@ w,,SwitchOnRuntime, ,,,,"1001",,,_16_Minutes,,,
 r,,BoilerMCBoostTemp,Boiler MC Boost(424) ,,,,"110102",BoilerMCBoostTemp,,_16_TempK10,,,
 w,,BoilerMCBoostTemp, ,,,,"1101",,,_16_TempK10,,,
 
-#12 01
-r9,,ProgramMode,Program selector switch position ,,,,"120102",ProgramMode,,_16_ProgramMode,,,
-w,,ProgramMode, ,,,,"1201",,,_16_ProgramMode,,,
-
 #15 01
 r,,AdaptionMode,Adaption (507) ,,,,"150102",AdaptionMode,,_16_OnOff,,,
 w,,AdaptionMode, ,,,,"1501",,,_16_OnOff,,,
