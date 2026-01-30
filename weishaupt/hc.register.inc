@@ -18,7 +18,7 @@ r9,,RoomSetbackTemp,Setback Room tRmperature ,,,,"080002",RoomSetbackTemp,,_16_T
 w,,RoomSetbackTemp, ,,,,"0800",,,_16_Temp10,,,
 
 #0B 00
-r,,UnknownSensor15, ,,,,"0B0002",UnknownSensor15,,UIN,,,
+r,,KaVersion, ,,,,"0B0002",KaVersion,,UIN,,,
 
 #11 00
 r,,RoomTemp,Room Sensor Temperature ,,,,"110002",RoomTemp,,_16_Temp10,,,

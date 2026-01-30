@@ -155,5 +155,5 @@ echo UnknownSensor11; ebusctl read -f -d f5 UnknownSensor11
 echo UnknownSensor12; ebusctl read -f -d f5 UnknownSensor12
 echo UnknownSensor13; ebusctl read -f -d f5 UnknownSensor13
 echo UnknownSensor14; ebusctl read -f -d f5 UnknownSensor14
-echo UnknownSensor15; ebusctl read -f -d f5 UnknownSensor15
+echo KaVersion; ebusctl read -f -d f5 KaVersion
 echo UnknownSensor16; ebusctl read -f -d f5 UnknownSensor16
