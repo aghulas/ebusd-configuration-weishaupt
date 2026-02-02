@@ -23,8 +23,8 @@ echo ProgramMode; ebusctl read -f -d 50 ProgramMode
 echo AdaptionMode; ebusctl read -f -d 50 AdaptionMode
 echo SummerWinterChangeOverTemp; ebusctl read -f -d 50 SummerWinterChangeOverTemp
 echo FloorDryingMode; ebusctl read -f -d 50 FloorDryingMode
-echo HolidayRuntimeFrom; ebusctl read -f -c 50 HolidayRuntimeFrom
-echo HolidayRuntimeTo; ebusctl read -f -c 50 HolidayRuntimeTo
+echo HolidayRuntimeFrom; ebusctl read -f -d 50 HolidayRuntimeFrom
+echo HolidayRuntimeTo; ebusctl read -f -d 50 HolidayRuntimeTo
 echo TypeOfConstructionMode; ebusctl read -f -d 50 TypeOfConstructionMode
 echo SupplyMinTemp; ebusctl read -f -d 50 SupplyMinTemp
 echo HolidayTemp; ebusctl read -f -d 50 HolidayTemp
