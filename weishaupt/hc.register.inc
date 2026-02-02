@@ -7,7 +7,7 @@
 r,,HeatDemandTemp,Heat demand HK ,,,,"020002",HeatDemandTemp,,_16_Temp10,,,
 
 #04 00
-r1,,SupplySetPointTemp,Supply SetPoint ,,,,"040002",SupplySetPointTemp,,_16_Temp10,,,
+r,,SupplySetPointTemp,Supply SetPoint ,,,,"040002",SupplySetPointTemp,,_16_Temp10,,,
 
 #05 00
 r9,,RoomNormalTemp,Normal Room Temperature ,,,,"050002",RoomNormalTemp,,_16_Temp10,,,
