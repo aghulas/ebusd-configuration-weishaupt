@@ -41,6 +41,10 @@ w,,RoomSensorCorrectionTemp, ,,,,"0901",,,_16_TempK10,,,
 r9,,GradientCurve,Steepness ,,,,"0E0102",GradientCurve,,_16_Gradient10,,,
 w,,GradientCurve, ,,,,"0E01",,,_16_Gradient10,,,
 
+#11 01
+r,,BoilerMCBoostTemp,Boiler MC Boost(424) ,,,,"110102",BoilerMCBoostTemp,,_16_TempK10,,,
+w,,BoilerMCBoostTemp, ,,,,"1101",,,_16_TempK10,,,
+
 #12 01
 r5,,ProgramMode,Program selector switch position ,,,,"120102",ProgramMode,,_16_ProgramMode,,,
 w,,ProgramMode, ,,,,"1201",,,_16_ProgramMode,,,
