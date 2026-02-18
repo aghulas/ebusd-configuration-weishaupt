@@ -18,7 +18,7 @@ r9,,RoomSetbackTemp,Setback Room tRmperature (113) ,,,,"080002",RoomSetbackTemp,
 w,,RoomSetbackTemp, ,,,,"0800",,,_16_Temp10,,,
 
 #0B 00
-r,,UnknownSensor17, ,,,,"0B0002",UnknownSensor17,,UIN,,,
+r,,UnknownSensor15, ,,,,"0B0002",UnknownSensor15,,UIN,,,
 
 #0C 00
 r,,OutsideTemp,B1 Outside Sensor Temperature,,,,"0C0002",OutsideTemp,,_16_Temp10,,,
@@ -145,7 +145,7 @@ r,,FS_EM_W2_Sensor, ,,,,"410102",FS_EM_W2_Sensor,,UIN,,,
 w,,FS_EM_W2_Sensor, ,,,,"4101",FS_EM_W2_Sensor,,UIN,,,
 
 #8F 01
-r,,KaVersion, ,,,,"8F0102",KaVersion,,_16_Temp10,,,
+r,,KaVersion, ,,,,"8F0102",KaVersion,,SIN,,,
 
 #99 01
 r,,Version, ,,,,"990102",Version,,UIN,,,
