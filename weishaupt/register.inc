@@ -155,8 +155,8 @@ r9,,DHWOperationMode,WW operation (360) ,,,,"370102",DHWOperationMode,,_16_DHWOp
 w,,DHWOperationMode, ,,,,"3701",,,_16_DHWOperationMode,,,
 
 #41 01
-r,,ControlVariation,Control Variation (318),,,,"410102",ControlVariation,,_16_CVariation,,,
-w,,ControlVariation, ,,,,"4101",ControlVariation,,_16_CVariation,,,
+r,,ControlVariationMode,Control Variation (318),,,,"410102",ControlVariationMode,,_16_CVariation,,,
+w,,ControlVariationMode, ,,,,"4101",ControlVariationMode,,_16_CVariation,,,
 
 #8F 01
 r,,KaVersion, ,,,,"8F0102",KaVersion,,SIN,,,
@@ -183,10 +183,9 @@ r,,FS_EM_R2_Sensor, ,,,,"590302",FS_EM_R2_Sensor,,UIN,,,
 #E9 04
 r,,B3Sensor, ,,,,"E90402",B3Sensor,,_16_Temp10,,,
 
-
 #73 09
-r,,FS_EM_W3_Sensor, ,,,,"730902",FS_EM_W3_Sensor,,UIN,,,
-w,,FS_EM_W3_Sensor, ,,,,"7309",FS_EM_W3_Sensor,,UIN,,,
+r,,HCTypeMode,Heating Circuit Type (316) ,,,,"730902",HCTypeMode,,_16_HCType,,,
+w,,HCTypeMode, ,,,,"7309",HCTypeMode,,_16_HCType,,,
 
 #81 09
 r,,FS_EM_W5_Sensor, ,,,,"B10902",FS_EM_W5_Sensor,,UIN,,,

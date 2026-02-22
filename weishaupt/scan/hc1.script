@@ -141,8 +141,8 @@ echo CircRuntimeProgram.Sa.3; ebusctl read -f -c hc1 CircRuntimeProgram.Sa.3
 echo CircRuntimeProgram.Su.3; ebusctl read -f -c hc1 CircRuntimeProgram.Su.3
 
 echo FS_EM_W1_Sensor; ebusctl read -f -c hc1 FS_EM_W1_Sensor
-echo FS_EM_W2_Sensor; ebusctl read -f -c hc1 FS_EM_W2_Sensor
-echo FS_EM_W3_Sensor; ebusctl read -f -c hc1 FS_EM_W3_Sensor
+echo ControlVariationMode; ebusctl read -f -c hc1 ControlVariationMode
+echo HCTypeMode; ebusctl read -f -c hc1 HCTypeMode
 echo FS_EM_W4_Sensor; ebusctl read -f -c hc1 FS_EM_W4_Sensor
 echo FS_EM_W5_Sensor; ebusctl read -f -c hc1 FS_EM_W5_Sensor
 echo H1Status; ebusctl read -f -c hc1 H1Status

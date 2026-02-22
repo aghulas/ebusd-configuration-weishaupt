@@ -49,6 +49,7 @@ _16_Minutes,UIN,32768=Na,min,Minute
 _16_OnOff,UIN,0x0000=Off;0x0001=On;32768=Na,,
 _16_WWOp,UIN,0x0000=Priority;0x0100=Sliding;0x0200=Parallel,,
 _16_CVariation,UIN,0x0000=Constant;0x0100=Weather Compensated;0x0200=Weather-Room Compensated;0x300=Room Compensated,,
+_16_HCType,UIN,0x0000=UnderFloor Heating;0x0100=UndeFloor Heating2;0x0200=Radiator 60°;0x300=Radiator 75°;0x400=Convector;0x500=Universal
 _16_Percent,UIN,32768=Na,%,Percent
 _16_Pressure,D2B,,bar,Pressure
 _16_ProgramMode,UIN,0x01=Standby;0x03=NormalTemperature;0x04=Lowering temperature;0x05=Summer;0x0b=Program 1;0x0c=Program 2;0x0d=Program 3;0x14=Standby-WTC,,Program selection
