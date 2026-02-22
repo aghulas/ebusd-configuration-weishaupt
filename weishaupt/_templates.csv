@@ -22,6 +22,7 @@ _8_Skip,IGN:1,,,
 _8_Status,UCH,,,Status 0x500A-Broadcast
 _8_Temp0,UCH,,°C,Temperature
 _8_Temp1,SCH,,°C,Temperature
+_8_Temp10,SCH,10,°C,Temperature
 _8_Temp2,D1C,,°C,Temperature
 _8_Temp2K,D1C,,K,Temperature
 _8_H1Status,UCH,0x00=Open;0x01=Closed,H1 Relay Status
@@ -46,9 +47,11 @@ _16_Hours,UIN,,h,Hour
 _16_Legionelladay,UIN,0x0000=Off;0x0001=Monday;0x0002=Tuesday;0x0003=Wednesday;0x0004=Thursday;0x0005=Friday;0x0006=Saturday;0x0007=Sunday,,Legionella Day
 _16_Minutes,UIN,32768=Na,min,Minute
 _16_OnOff,UIN,0x0000=Off;0x0001=On;32768=Na,,
+_16_WWOp,UIN,0x0000=Priority;0x0100=Sliding;0x0200=Parallel,,
+_16_CVariation,UIN,0x0000=Constant;0x0100=Weather Compensated;0x0200=Weather-Room Compensated;0x300=Room Compensated,,
 _16_Percent,UIN,32768=Na,%,Percent
 _16_Pressure,D2B,,bar,Pressure
-_16_ProgramMode,UIN,0x01=Standby;0x03=NormalTemperature;0x04=Lowering temperature;0x05=Summer;0x0b=Program 1;0x0c=Program 2;0x0d=Program 3,,Program selection
+_16_ProgramMode,UIN,0x01=Standby;0x03=NormalTemperature;0x04=Lowering temperature;0x05=Summer;0x0b=Program 1;0x0c=Program 2;0x0d=Program 3;0x14=Standby-WTC,,Program selection
 _16_RoomFactor,UIN,32768=Na,,Room Factor P
 _16_Seconds,UIN,,s,Seconds
 _16_PumpVariationSpeed,UIN,0x0000=Operating level;0x0001=Characteristic Curve;32768=Na,,

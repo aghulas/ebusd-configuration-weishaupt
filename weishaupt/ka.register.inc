@@ -50,6 +50,10 @@ w,,RoomSensorCorrectionTemp, ,,,,"0901",,,_16_TempK10,,,
 r9,,SwitchOnRuntime,Switch-on delay (353) ,,,,"100102",SwitchOnRuntime,,_16_Minutes,,,
 w,,SwitchOnRuntime, ,,,,"1001",,,_16_Minutes,,,
 
+#12 01
+r,,ProgramMode,Program selector switch position ,,,,"120102",ProgramMode,,_16_ProgramMode,,,
+w,,ProgramMode, ,,,,"1201",,,_16_ProgramMode,,,
+
 #15 01
 r,,AdaptionMode,Adaption (507) ,,,,"150102",AdaptionMode,,_16_OnOff,,,
 w,,AdaptionMode, ,,,,"1501",,,_16_OnOff,,,

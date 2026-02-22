@@ -3,6 +3,9 @@
 *r,,,,,,"0902",,,,,,,
 *w,,,,,,"0903",,,,,,,
 
+#01 00
+r,,ErrorStatus,Error Status ,,,,"010002",ErrorCode,,UIN,,,
+
 #02 00
 r,,HeatDemandTemp,Heat demand HK ,,,,"020002",HeatDemandTemp,,_16_Temp10,,,
 
@@ -29,11 +32,22 @@ r,,SupplyWTCTemp,Flow temperature WTC ,,,,"0D0002",SupplyWTCTemp,,_16_Temp10,,,
 #0F 00
 r,,SupplyHCTemp,B6 Supply Sensor Temperature,,,,"0F0002",SupplyHCTemp,,_16_Temp10,,,
 
+#10 00
+r,,ConfigStatus,Configuration Status,,,,"0F0002",ConfigCode,,UIN,,,
+
 #11 00
 r,,RoomTemp,Room Sensor Temperature ,,,,"110002",RoomTemp,,_16_Temp10,,,
 
 #12 00
 r9,,RoomSetPointTemp,Room setpoint ,,,,"120002",RoomSetPointTemp,,_16_Temp10,,,
+
+#23 00
+r,,WWOperationMode,WW Operation (343),,,,"230002",WWOperationMode,,_16_WWOp,,,
+w,,WWOperationMode, ,,,,"2300",WWOperationMode,,_16_WWOp,,,
+
+#25 00
+r,,BlockingTime,Maximum Blocking Time (537) ,,,,"250002",BlockingTime,,_16_Minutes,,,
+w,,BlockingTime, ,,,,"2500",BlockingTime,,_16_Minutes,,,
 
 #28 00
 r,,SupplyMaxTemp,Maximum Supply Temperature (422) ,,,,"280002",SupplyMaxTemp,,_16_Temp10,,,
@@ -141,8 +155,8 @@ r9,,DHWOperationMode,WW operation (360) ,,,,"370102",DHWOperationMode,,_16_DHWOp
 w,,DHWOperationMode, ,,,,"3701",,,_16_DHWOperationMode,,,
 
 #41 01
-r,,FS_EM_W2_Sensor, ,,,,"410102",FS_EM_W2_Sensor,,UIN,,,
-w,,FS_EM_W2_Sensor, ,,,,"4101",FS_EM_W2_Sensor,,UIN,,,
+r,,ControlVariation,Control Variation (318),,,,"410102",ControlVariation,,_16_CVariation,,,
+w,,ControlVariation, ,,,,"4101",ControlVariation,,_16_CVariation,,,
 
 #8F 01
 r,,KaVersion, ,,,,"8F0102",KaVersion,,SIN,,,
@@ -171,8 +185,8 @@ r,,B3Sensor, ,,,,"E90402",B3Sensor,,_16_Temp10,,,
 
 
 #73 09
-r,,FS_EM_W3_Sensor, ,,,,"730902",FS_EM_W2_Sensor,,UIN,,,
-w,,FS_EM_W3_Sensor, ,,,,"7309",FS_EM_W2_Sensor,,UIN,,,
+r,,FS_EM_W3_Sensor, ,,,,"730902",FS_EM_W3_Sensor,,UIN,,,
+w,,FS_EM_W3_Sensor, ,,,,"7309",FS_EM_W3_Sensor,,UIN,,,
 
 #81 09
 r,,FS_EM_W5_Sensor, ,,,,"B10902",FS_EM_W5_Sensor,,UIN,,,

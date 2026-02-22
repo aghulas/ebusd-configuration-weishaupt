@@ -1,4 +1,5 @@
 # type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment
+# FS #3
 
 *bw,,,,f0,fe,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 bw,,HeartBeat,HeatBeat,,,"07FF",,
@@ -7,6 +8,6 @@ bw,,Id,answer to identification query,,,"0704",,mf,,UCH,6=Dungs;15=FH Ostfalia;1
 
 *cw,,,,f0,f1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 cw,,PowerDemand,Heat Demand,,,0507,,Status,,_8_Opdataheat1,,, ,Action,,_8_Opdataaction,,, ,HeatDemandTemp,,_16_Temp2,,, ,SetPressure,,_16_Skip,,, ,Modulation,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Skip,,,
-cw,,EM5009,Message 5009? ​​HC3->KA,,,"5009",,Payload,,UCH,,, ,,,
+cw,,BootInfo,BootInfo ->KA,,,"5009",,Init,,UCH,,, ,,,
 
 !include,hc.register.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

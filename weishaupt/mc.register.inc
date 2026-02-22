@@ -57,8 +57,8 @@ r9,,ReductTemp,ReductTemp (501) ,,,,"320102",ReductTemp,,_16_TempReduced,,,
 w,,ReductTemp, ,,,,"3201",,,_16_TempReduced,,,
 
 #41 01
-r,,FS_EM_W2_Sensor, ,,,,"410102",FS_EM_W2_Sensor,,UIN,,,
-w,,FS_EM_W2_Sensor, ,,,,"4101",FS_EM_W2_Sensor,,UIN,,,
+r,,ControlVariation,Control Variation (318),,,,"410102",ControlVariation,,_16_CVariation,,,
+w,,ControlVariation, ,,,,"4101",ControlVariation,,_16_CVariation,,,
 
 #99 01
 r,,Version, ,,,,"990102",Version,,UIN,,,
@@ -80,8 +80,8 @@ r,,FS_EM_R2_Sensor, ,,,,"590302",FS_EM_R2_Sensor,,UIN,,,
 r,,B3Sensor, ,,,,"E90402",B3Sensor,,_16_Temp10,,,
 
 #73 09
-r,,FS_EM_W3_Sensor, ,,,,"730902",FS_EM_W2_Sensor,,UIN,,,
-w,,FS_EM_W3_Sensor, ,,,,"7309",FS_EM_W2_Sensor,,UIN,,,
+r,,FS_EM_W3_Sensor, ,,,,"730902",FS_EM_W3_Sensor,,UIN,,,
+w,,FS_EM_W3_Sensor, ,,,,"7309",FS_EM_W3_Sensor,,UIN,,,
 
 #81 09
 r,,FS_EM_W5_Sensor, ,,,,"B10902",FS_EM_W5_Sensor,,UIN,,,
