@@ -117,6 +117,34 @@ w,,RoomFrostProtectionTemp, ,,,,"140A",,,_16_Temp10,,,
 #13 0A
 #r,,FloorDryingTemp,Screed temperature ,,,,"130A02",FloorDryingTemp,,_16_Temp1,,,
 
+#9A 0B
+r,,Error.Id, ,,,,"9A0B02",Error.Id,,UIN,,,
+w,,Error.Id, ,,,,"9A0B",Error.Id,,UIN,,,
+
+#9B 0B
+r,,Error.Code, ,,,,"9B0B02",H1Status,,UIN,,,
+
+#9C 0B
+r,,Error.Type, ,,,,"9C0B02",H1Status,,UIN,,,
+
+#9D 0B
+r,,Error.Instance, ,,,,"9D0B02",H1Status,,UIN,,,
+
+#9F 0B
+r,,Error.Minute,Error Time Minute ,,,,"9F0B02",,,_16_HolidayMinute,,,
+
+#A0 0B
+r,,Error.Hour,Error Time Hour ,,,,"A00B02",,,_16_HolidayHour,,,
+
+#A1 0B
+r,,Error.Day,Error Date Day ,,,,"A10B02",,,_16_HolidayDay,,,
+
+#A2 0B
+r,,Error.Month,Error Date Month ,,,,"A20B02",,,_16_HolidayMonth,,,
+
+#A3 0B
+r,,Eroor.Year,Error Date Year ,,,,"A30B02",,,_16_HolidayYear,,,
+
 #10;11;12 14 
 r,,HCRuntimeProgram1.Mo,Heating Program1 Monday ,,,,"101402;111402;121402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
 w,,HCRuntimeProgram1.Mo,Heating Program1 Monday ,,,,"1014 :2;1114 :2;1214 :2",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
