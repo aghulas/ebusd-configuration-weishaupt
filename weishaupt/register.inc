@@ -106,7 +106,7 @@ w,,HolidayRuntimeFrom.Year, ,,,,"1D01",,,_16_HolidayYear,,,
 r,,HolidayRuntimeTo,End of vacation ,,,,"1E0106",,,_16_HolidayDay,,, ,,,_16_HolidayMonth,,, ,,,_16_HolidayYear,,,
 w,,HolidayRuntimeTo.Day, ,,,,"1E01",,,_16_HolidayDay,,,
 w,,HolidayRuntimeTo.Month, ,,,,"1F01",,,_16_HolidayMonth,,,
-w,,HolidayRuntimeTo.Year, ,,,,"1D01",,,_16_HolidayYear,,,
+w,,HolidayRuntimeTo.Year, ,,,,"1G01",,,_16_HolidayYear,,,
 
 #28 01
 r9,,TypeOfConstructionMode,Construction method (371) ,,,,"280102",TypeOfConstructionMode,,_16_Constructiontype,,,
