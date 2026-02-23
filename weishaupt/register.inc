@@ -97,14 +97,16 @@ w,,SummerWinterChangeOverTemp, ,,,,"1601",,,_16_Temp10,,,
 r,,FloorDryingMode,Screed function (381) ,,,,"1A0102",FloorDryingMode,,_16_Floordrying,,,
 
 #1B;1C 01
-r,,HolidayRuntimeFrom,Start of vacation ,,,,"1B0104",,,_16_HolidayDay,,, ,,,_16_HolidayMonth,,,
+r,,HolidayRuntimeFrom,Start of vacation ,,,,"1B0106",,,_16_HolidayDay,,, ,,,_16_HolidayMonth,,, ,,,_16_HolidayYear,,,
 w,,HolidayRuntimeFrom.Day, ,,,,"1B01",,,_16_HolidayDay,,,
 w,,HolidayRuntimeFrom.Month, ,,,,"1C01",,,_16_HolidayMonth,,,
+w,,HolidayRuntimeFrom.Year, ,,,,"1D01",,,_16_HolidayYear,,,
 
 #1E;1F 01
-r,,HolidayRuntimeTo,End of vacation ,,,,"1E0104",,,_16_HolidayDay,,, ,,,_16_HolidayMonth,,,
+r,,HolidayRuntimeTo,End of vacation ,,,,"1E0106",,,_16_HolidayDay,,, ,,,_16_HolidayMonth,,, ,,,_16_HolidayYear,,,
 w,,HolidayRuntimeTo.Day, ,,,,"1E01",,,_16_HolidayDay,,,
 w,,HolidayRuntimeTo.Month, ,,,,"1F01",,,_16_HolidayMonth,,,
+w,,HolidayRuntimeTo.Year, ,,,,"1D01",,,_16_HolidayYear,,,
 
 #28 01
 r9,,TypeOfConstructionMode,Construction method (371) ,,,,"280102",TypeOfConstructionMode,,_16_Constructiontype,,,
