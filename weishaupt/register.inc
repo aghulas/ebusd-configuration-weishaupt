@@ -114,6 +114,34 @@ w,,HolidayRuntimeTo.Day, ,,,,"1E01",,,_16_HolidayDay,,,
 w,,HolidayRuntimeTo.Month, ,,,,"1F01",,,_16_HolidayMonth,,,
 w,,HolidayRuntimeTo.Year, ,,,,"2001",,,_16_HolidayYear,,,
 
+#21 01
+r,,SystemDate.Weekday,System Date Weekday ,,,,"210102",,,_16_HolidayWeekDay,,,
+w,,SystemDate.Weekday, ,,,,"2101",,,_16_HolidayWeekDay,,,
+
+#22 01
+r,,SystemDate.Day,System Date Day ,,,,"220102",,,_16_HolidayDay,,,
+w,,SystemDate.Day, ,,,,"2201",,,_16_HolidayDay,,,
+
+#23 01
+r,,SystemDate.Month,System Date Month ,,,,"230102",,,_16_HolidaMonth,,,
+w,,SystemDate.Month, ,,,,"2301",,,_16_HolidaMonth,,,
+
+#24 01
+r,,SystemDate.Year,System Date Year ,,,,"240102",,,_16_HolidayYear,,,
+w,,SystemDate.Year, ,,,,"2401",,,_16_HolidayYear,,,
+
+#25 01
+,,SystemTime.Hour,System Time Hour ,,,,"250102",,,_16_HolidayHour,,,
+w,,SystemTime.Hour, ,,,,"2401",,,_16_HolidayHour,,,
+
+#26 01
+r,,SystemTime.Minute,System Time Minute ,,,,"260102",,,_16_HolidayMinture,,,
+w,,SystemTime.Minture, ,,,,"2601",,,_16_HolidayMinture,,,
+
+#27 01
+r,,SystemTime.Second,System Time Second ,,,,"270102",,,_16_HolidaySecond,,,
+w,,SystemTime.Second, ,,,,"2701",,,_16_HolidaySecond,,,
+
 #28 01
 r9,,TypeOfConstructionMode,Construction method (371) ,,,,"280102",TypeOfConstructionMode,,_16_Constructiontype,,,
 w,,TypeOfConstructionMode, ,,,,"2801",,,_16_Constructiontype,,,

@@ -40,9 +40,13 @@ _16_DhwMode,UIN,0x0000=DHW Program;0x0001=24 Day;0x0002=DHW Before Heat;32768=Na
 _16_DHWOperationMode,UIN,0x0000=Priority;0x0001=Sliding;0x0002=Parallel;32768=Na,,
 _16_Floordrying,UIN,0x0000=Off;0x0001=Heating Function;0x0002=DocumentHeating;0x0003=Function ReceiptHeating;32768=Na,,
 _16_Gradient10,SIN,10,,SteepNess
+_16_HolidayWeekDay:WeejDay,UIN,,weekday,WeekDay
 _16_HolidayDay:Day,UIN,,day,Day
 _16_HolidayMonth:Month,UIN,,month,Month
 _16_HolidayYear:Year,UIN,,year,Year
+_16_HolidayHour:Hour,UIN,,hour,Hour
+_16_HolidayMinute:Minute,UIN,,minute,Minute
+_16_HolidaySecond:Second,UIN,,second,Second
 #0x0000=Off;0x0001=January;0x0002=February;0x0003=March;0x0004=April;0x0005=May;0x0006=June;0x0007=July;0x0008=August;0x0009=September;0x000A=October;0x000B=November;0x000C=December,,Month
 _16_Hours,UIN,,h,Hour
 _16_Legionelladay,UIN,0x0000=Off;0x0001=Monday;0x0002=Tuesday;0x0003=Wednesday;0x0004=Thursday;0x0005=Friday;0x0006=Saturday;0x0007=Sunday,,Legionella Day
