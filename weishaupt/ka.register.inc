@@ -20,9 +20,6 @@ w,,RoomNormalTemp, ,,,,"0500",,,_16_Temp10,,,
 r9,,RoomSetbackTemp,Setback Room tRmperature (113) ,,,,"080002",RoomSetbackTemp,,_16_Temp10,,,
 w,,RoomSetbackTemp, ,,,,"0800",,,_16_Temp10,,,
 
-#10 00
-r,,ConfigStatus,Configuration Status,,,,"0F0002",ConfigCode,,UIN,,,
-
 #0C 00
 r,,OutsideTemp,B1 Outside Sensor Temperature,,,,"0C0002",OutsideTemp,,_16_Temp10,,,
 

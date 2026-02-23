@@ -20,8 +20,8 @@ w,,RoomNormalTemp, ,,,,"0500",,,_16_Temp10,,,
 r9,,RoomSetbackTemp,Setback Room tRmperature ,,,,"080002",RoomSetbackTemp,,_16_Temp10,,,
 w,,RoomSetbackTemp, ,,,,"0800",,,_16_Temp10,,,
 
-#10 00
-r,,ConfigStatus,Configuration Status,,,,"0F0002",ConfigCode,,UIN,,,
+#0F 00
+r,,SupplyHCTemp,B6 Supply Sensor Temperature,,,,"0F0002",SupplyHCTemp,,_16_Temp10,,,
 
 #0B 00
 r,,UnknownSensor15, ,,,,"0B0002",UnknownSensor15,,UIN,,,
