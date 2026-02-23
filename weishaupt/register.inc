@@ -98,12 +98,18 @@ r,,FloorDryingMode,Screed function (381) ,,,,"1A0102",FloorDryingMode,,_16_Floor
 
 #1B;1C 01
 r,,HolidayRuntimeFrom,Start of vacation ,,,,"1B0106",,,_16_HolidayDay,,, ,,,_16_HolidayMonth,,, ,,,_16_HolidayYear,,,
+r,,HolidayRuntimeFrom.Day,Start of vacation ,,,,"1B0102",,,_16_HolidayDay,,, 
+r,,HolidayRuntimeFrom.Month,Start of vacation ,,,,"1C0102",,,_16_HolidayMonth,,,
+r,,HolidayRuntimeFrom.Year,Start of vacation ,,,,"1D0102",,,_16_HolidayYear,,,
 w,,HolidayRuntimeFrom.Day, ,,,,"1B01",,,_16_HolidayDay,,,
 w,,HolidayRuntimeFrom.Month, ,,,,"1C01",,,_16_HolidayMonth,,,
 w,,HolidayRuntimeFrom.Year, ,,,,"1D01",,,_16_HolidayYear,,,
 
 #1E;1F 01
 r,,HolidayRuntimeTo,End of vacation ,,,,"1E0106",,,_16_HolidayDay,,, ,,,_16_HolidayMonth,,, ,,,_16_HolidayYear,,,
+r,,HolidayRuntimeTo.Day,Start of vacation ,,,,"1E0102",,,_16_HolidayDay,,, 
+r,,HolidayRuntimeTo.Month,Start of vacation ,,,,"1F0102",,,_16_HolidayMonth,,,
+r,,HolidayRuntimeTo.Year,Start of vacation ,,,,"200102",,,_16_HolidayYear,,,
 w,,HolidayRuntimeTo.Day, ,,,,"1E01",,,_16_HolidayDay,,,
 w,,HolidayRuntimeTo.Month, ,,,,"1F01",,,_16_HolidayMonth,,,
 w,,HolidayRuntimeTo.Year, ,,,,"2001",,,_16_HolidayYear,,,
