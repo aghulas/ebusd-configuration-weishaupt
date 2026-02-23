@@ -3,6 +3,9 @@
 *r,,,,,,"0902",,,,,,,
 *w,,,,,,"0903",,,,,,,
 
+#01 00
+r,,ErrorStatus,Error Status ,,,,"010002",ErrorCode,,UIN,,,
+
 #02 00
 r,,HeatDemandTemp,Heat demand HK ,,,,"020002",HeatDemandTemp,,_16_Temp10,,,
 
@@ -16,6 +19,9 @@ w,,RoomNormalTemp, ,,,,"0500",,,_16_Temp10,,,
 #08 00
 r9,,RoomSetbackTemp,Setback Room tRmperature ,,,,"080002",RoomSetbackTemp,,_16_Temp10,,,
 w,,RoomSetbackTemp, ,,,,"0800",,,_16_Temp10,,,
+
+#10 00
+r,,ConfigStatus,Configuration Status,,,,"0F0002",ConfigCode,,UIN,,,
 
 #0B 00
 r,,UnknownSensor15, ,,,,"0B0002",UnknownSensor15,,UIN,,,
