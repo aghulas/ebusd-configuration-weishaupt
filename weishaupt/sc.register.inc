@@ -91,7 +91,7 @@ w,,SystemDate.Year, ,,,,"2401",,,_16_HolidayYear,,,
 
 #25 01
 ,,SystemTime.Hour,System Time Hour ,,,,"250102",,,_16_HolidayHour,,,
-w,,SystemTime.Hour, ,,,,"2401",,,_16_HolidayHour,,,
+w,,SystemTime.Hour, ,,,,"2501",,,_16_HolidayHour,,,
 
 #26 01
 r,,SystemTime.Minute,System Time Minute ,,,,"260102",,,_16_HolidayMinute,,,

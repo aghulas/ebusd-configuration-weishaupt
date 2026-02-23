@@ -96,22 +96,34 @@ w,,SummerWinterChangeOverTemp, ,,,,"1601",,,_16_Temp10,,,
 #1A 01
 r,,FloorDryingMode,Screed function (381) ,,,,"1A0102",FloorDryingMode,,_16_Floordrying,,,
 
-#1B;1C 01
+#1B;1C;1D 01
 r,,HolidayRuntimeFrom,Start of vacation ,,,,"1B0106",,,_16_HolidayDay,,, ,,,_16_HolidayMonth,,, ,,,_16_HolidayYear,,,
+
+#1B 01
 r,,HolidayRuntimeFrom.Day,Start of vacation ,,,,"1B0102",,,_16_HolidayDay,,, 
-r,,HolidayRuntimeFrom.Month,Start of vacation ,,,,"1C0102",,,_16_HolidayMonth,,,
-r,,HolidayRuntimeFrom.Year,Start of vacation ,,,,"1D0102",,,_16_HolidayYear,,,
 w,,HolidayRuntimeFrom.Day, ,,,,"1B01",,,_16_HolidayDay,,,
+
+#1C 01
+r,,HolidayRuntimeFrom.Month,Start of vacation ,,,,"1C0102",,,_16_HolidayMonth,,,
 w,,HolidayRuntimeFrom.Month, ,,,,"1C01",,,_16_HolidayMonth,,,
+
+#1D 01
+r,,HolidayRuntimeFrom.Year,Start of vacation ,,,,"1D0102",,,_16_HolidayYear,,,
 w,,HolidayRuntimeFrom.Year, ,,,,"1D01",,,_16_HolidayYear,,,
 
-#1E;1F 01
+#1E;1F;20 01
 r,,HolidayRuntimeTo,End of vacation ,,,,"1E0106",,,_16_HolidayDay,,, ,,,_16_HolidayMonth,,, ,,,_16_HolidayYear,,,
+
+#1E 01
 r,,HolidayRuntimeTo.Day,Start of vacation ,,,,"1E0102",,,_16_HolidayDay,,, 
-r,,HolidayRuntimeTo.Month,Start of vacation ,,,,"1F0102",,,_16_HolidayMonth,,,
-r,,HolidayRuntimeTo.Year,Start of vacation ,,,,"200102",,,_16_HolidayYear,,,
 w,,HolidayRuntimeTo.Day, ,,,,"1E01",,,_16_HolidayDay,,,
+
+#1F 01
+r,,HolidayRuntimeTo.Month,Start of vacation ,,,,"1F0102",,,_16_HolidayMonth,,,
 w,,HolidayRuntimeTo.Month, ,,,,"1F01",,,_16_HolidayMonth,,,
+
+#20 01
+r,,HolidayRuntimeTo.Year,Start of vacation ,,,,"200102",,,_16_HolidayYear,,,
 w,,HolidayRuntimeTo.Year, ,,,,"2001",,,_16_HolidayYear,,,
 
 #21 01
@@ -123,8 +135,8 @@ r,,SystemDate.Day,System Date Day ,,,,"220102",,,_16_HolidayDay,,,
 w,,SystemDate.Day, ,,,,"2201",,,_16_HolidayDay,,,
 
 #23 01
-r,,SystemDate.Month,System Date Month ,,,,"230102",,,_16_HolidaMonth,,,
-w,,SystemDate.Month, ,,,,"2301",,,_16_HolidaMonth,,,
+r,,SystemDate.Month,System Date Month ,,,,"230102",,,_16_HolidayMonth,,,
+w,,SystemDate.Month, ,,,,"2301",,,_16_HolidayMonth,,,
 
 #24 01
 r,,SystemDate.Year,System Date Year ,,,,"240102",,,_16_HolidayYear,,,
@@ -132,11 +144,11 @@ w,,SystemDate.Year, ,,,,"2401",,,_16_HolidayYear,,,
 
 #25 01
 ,,SystemTime.Hour,System Time Hour ,,,,"250102",,,_16_HolidayHour,,,
-w,,SystemTime.Hour, ,,,,"2401",,,_16_HolidayHour,,,
+w,,SystemTime.Hour, ,,,,"2501",,,_16_HolidayHour,,,
 
 #26 01
-r,,SystemTime.Minute,System Time Minute ,,,,"260102",,,_16_HolidayMinture,,,
-w,,SystemTime.Minture, ,,,,"2601",,,_16_HolidayMinture,,,
+r,,SystemTime.Minute,System Time Minute ,,,,"260102",,,_16_HolidayMinute,,,
+w,,SystemTime.Minute, ,,,,"2601",,,_16_HolidayMinute,,,
 
 #27 01
 r,,SystemTime.Second,System Time Second ,,,,"270102",,,_16_HolidaySecond,,,
