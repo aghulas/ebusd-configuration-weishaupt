@@ -35,22 +35,19 @@ _7_TimeFrom:FromTime,TTQ,,,Start Time
 
 _16_Constructiontype,UIN,0x0000=Heavy;0x0001=Light,,
 _16_Counter,UIN,,,
-_16_Day,UIN,32768=Na,,Day
 _16_DhwMode,UIN,0x0000=DHW Program;0x0001=24 Day;0x0002=DHW Before Heat;32768=Na,,
 _16_DHWOperationMode,UIN,0x0000=Priority;0x0001=Sliding;0x0002=Parallel;32768=Na,,
 _16_Floordrying,UIN,0x0000=Off;0x0001=Heating Function;0x0002=DocumentHeating;0x0003=Function ReceiptHeating;32768=Na,,
 _16_Gradient10,SIN,10,,SteepNess
-_16_HolidayWeekDay:WeeHDay,UIN,0x0002=Monday;0x0003=Tuesday;0x0004=Wednesday;0x0005=Thursday;0x0006=Friday;0x0007=Saturday;0x0001=Sunday,weekday,WeekDay
-_16_HolidayDay:Day,UIN,,day,Day
-_16_HolidayMonth:Month,UIN,0x0001=January;0x0002=February;0x0003=March;0x0004=April;0x0005=May;0x0006=June;0x0007=July;0x0008=August;0x0009=September;0x000A=October;0x000B=November;0x000C=December,month,Month
-_16_HolidayYear:Year,UIN,,year,Year
-_16_HolidayHour:Hour,UIN,,h,Hour
-_16_HolidayMinute:Minute,UIN,,min,Minute
-_16_HolidaySecond:Second,UIN,,s,Second
+_16_WeekDay:WeekDay,UIN,0x0002=Monday;0x0003=Tuesday;0x0004=Wednesday;0x0005=Thursday;0x0006=Friday;0x0007=Saturday;0x0001=Sunday,weekday,WeekDay
+_16_Day:Day,UIN,,day,Day
+_16_Month:Month,UIN,0x0001=January;0x0002=February;0x0003=March;0x0004=April;0x0005=May;0x0006=June;0x0007=July;0x0008=August;0x0009=September;0x000A=October;0x000B=November;0x000C=December,month,Month
+_16_Year:Year,UIN,,year,Year
+_16_Hours:Hours,UIN,,h,Hour
+_16_Minutes:Minutes,UIN,,min,Minute
+_16_Seconds:Seconds,UIN,,s,Second
 
-_16_Hours,UIN,,h,Hour
 _16_Legionelladay,UIN,0x0000=Off;0x0001=Monday;0x0002=Tuesday;0x0003=Wednesday;0x0004=Thursday;0x0005=Friday;0x0006=Saturday;0x0007=Sunday,,Legionella Day
-_16_Minutes,UIN,32768=Na,min,Minute
 _16_OnOff,UIN,0x0000=Off;0x0001=On;32768=Na,,
 _16_WWOp,UIN,0x0000=Priority;0x0100=Sliding;0x0200=Parallel,,
 _16_CVariation,UIN,0x0000=Constant;0x0100=Weather Compensated;0x0200=Weather-Room Compensated;0x300=Room Compensated,,
@@ -59,7 +56,6 @@ _16_Percent,UIN,32768=Na,%,Percent
 _16_Pressure,D2B,,bar,Pressure
 _16_ProgramMode,UIN,0x01=Standby;0x03=NormalTemperature;0x04=Lowering temperature;0x05=Summer;0x0b=Program 1;0x0c=Program 2;0x0d=Program 3;0x14=Standby-WTC,,Program selection
 _16_RoomFactor,UIN,32768=Na,,Room Factor P
-_16_Seconds,UIN,,s,Seconds
 _16_PumpVariationSpeed,UIN,0x0000=Operating level;0x0001=Characteristic Curve;32768=Na,,
 _16_Temp0,D2B,,°C,Temperature
 _16_Temp1,SIN,,°C,Temperature

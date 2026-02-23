@@ -150,28 +150,28 @@ r,,Error.Id, ,,,,"9A0B02",Error.Id,,UIN,,,
 w,,Error.Id, ,,,,"9A0B",Error.Id,,UIN,,,
 
 #9B 0B
-r,,Error.Code, ,,,,"9B0B02",H1Status,,UIN,,,
+r,,Error.Code, ,,,,"9B0B02",H1SError.Code,,UIN,,,
 
 #9C 0B
-r,,Error.Type, ,,,,"9C0B02",H1Status,,UIN,,,
+r,,Error.Type, ,,,,"9C0B02",Error.Type,,UIN,,,
 
 #9D 0B
-r,,Error.Instance, ,,,,"9D0B02",H1Status,,UIN,,,
+r,,Error.Device, ,,,,"9D0B02",Error.Device,,UIN,,,
 
 #9F 0B
-r,,Error.Minute,Error Time Minute ,,,,"9F0B02",,,_16_HolidayMinute,,,
+r,,Error.Minute,Error Time Minute ,,,,"9F0B02",,,_16_Minutes,,,
 
 #A0 0B
-r,,Error.Hour,Error Time Hour ,,,,"A00B02",,,_16_HolidayHour,,,
+r,,Error.Hour,Error Time Hour ,,,,"A00B02",,,_16_Hours,,,
 
 #A1 0B
-r,,Error.Day,Error Date Day ,,,,"A10B02",,,_16_HolidayDay,,,
+r,,Error.Day,Error Date Day ,,,,"A10B02",,,_16_Day,,,
 
 #A2 0B
-r,,Error.Month,Error Date Month ,,,,"A20B02",,,_16_HolidayMonth,,,
+r,,Error.Month,Error Date Month ,,,,"A20B02",,,_16_Month,,,
 
 #A3 0B
-r,,Eroor.Year,Error Date Year ,,,,"A30B02",,,_16_HolidayYear,,,
+r,,Error.Year,Error Date Year ,,,,"A30B02",,,_16_Year,,,
 
 #04 76
 r,,UnknownSensor11, ,,,,"047602",UnknownSensor11,,UIN,,,

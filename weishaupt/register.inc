@@ -97,62 +97,62 @@ w,,SummerWinterChangeOverTemp, ,,,,"1601",,,_16_Temp10,,,
 r,,FloorDryingMode,Screed function (381) ,,,,"1A0102",FloorDryingMode,,_16_Floordrying,,,
 
 #1B;1C;1D 01
-r,,HolidayRuntimeFrom,Start of vacation ,,,,"1B0106",,,_16_HolidayDay,,, ,,,_16_HolidayMonth,,, ,,,_16_HolidayYear,,,
+r,,HolidayRuntimeFrom,Start of vacation ,,,,"1B0106",,,_16_Day,,, ,,,_16_Month,,, ,,,_16_Year,,,
 
 #1B 01
-r,,HolidayRuntimeFrom.Day,Start of vacation ,,,,"1B0102",,,_16_HolidayDay,,, 
-w,,HolidayRuntimeFrom.Day, ,,,,"1B01",,,_16_HolidayDay,,,
+r,,HolidayRuntimeFrom.Day,Start of vacation ,,,,"1B0102",,,_16_Day,,, 
+w,,HolidayRuntimeFrom.Day, ,,,,"1B01",,,_16_Day,,,
 
 #1C 01
-r,,HolidayRuntimeFrom.Month,Start of vacation ,,,,"1C0102",,,_16_HolidayMonth,,,
-w,,HolidayRuntimeFrom.Month, ,,,,"1C01",,,_16_HolidayMonth,,,
+r,,HolidayRuntimeFrom.Month,Start of vacation ,,,,"1C0102",,,_16_Month,,,
+w,,HolidayRuntimeFrom.Month, ,,,,"1C01",,,_16_Month,,,
 
 #1D 01
-r,,HolidayRuntimeFrom.Year,Start of vacation ,,,,"1D0102",,,_16_HolidayYear,,,
-w,,HolidayRuntimeFrom.Year, ,,,,"1D01",,,_16_HolidayYear,,,
+r,,HolidayRuntimeFrom.Year,Start of vacation ,,,,"1D0102",,,_16_Year,,,
+w,,HolidayRuntimeFrom.Year, ,,,,"1D01",,,_16_Year,,,
 
 #1E;1F;20 01
-r,,HolidayRuntimeTo,End of vacation ,,,,"1E0106",,,_16_HolidayDay,,, ,,,_16_HolidayMonth,,, ,,,_16_HolidayYear,,,
+r,,HolidayRuntimeTo,End of vacation ,,,,"1E0106",,,_16_Day,,, ,,,_16_Month,,, ,,,_16_Year,,,
 
 #1E 01
-r,,HolidayRuntimeTo.Day,Start of vacation ,,,,"1E0102",,,_16_HolidayDay,,, 
-w,,HolidayRuntimeTo.Day, ,,,,"1E01",,,_16_HolidayDay,,,
+r,,HolidayRuntimeTo.Day,Start of vacation ,,,,"1E0102",,,_16_Day,,, 
+w,,HolidayRuntimeTo.Day, ,,,,"1E01",,,_16_Day,,,
 
 #1F 01
-r,,HolidayRuntimeTo.Month,Start of vacation ,,,,"1F0102",,,_16_HolidayMonth,,,
-w,,HolidayRuntimeTo.Month, ,,,,"1F01",,,_16_HolidayMonth,,,
+r,,HolidayRuntimeTo.Month,Start of vacation ,,,,"1F0102",,,_16_Month,,,
+w,,HolidayRuntimeTo.Month, ,,,,"1F01",,,_16_Month,,,
 
 #20 01
-r,,HolidayRuntimeTo.Year,Start of vacation ,,,,"200102",,,_16_HolidayYear,,,
-w,,HolidayRuntimeTo.Year, ,,,,"2001",,,_16_HolidayYear,,,
+r,,HolidayRuntimeTo.Year,Start of vacation ,,,,"200102",,,_16_Year,,,
+w,,HolidayRuntimeTo.Year, ,,,,"2001",,,_16_Year,,,
 
 #21 01
-r,,SystemDate.Weekday,System Date Weekday ,,,,"210102",,,_16_HolidayWeekDay,,,
-w,,SystemDate.Weekday, ,,,,"2101",,,_16_HolidayWeekDay,,,
+r,,SystemDate.Weekday,System Date Weekday ,,,,"210102",,,_16_WeekDay,,,
+w,,SystemDate.Weekday, ,,,,"2101",,,_16_WeekDay,,,
 
 #22 01
-r,,SystemDate.Day,System Date Day ,,,,"220102",,,_16_HolidayDay,,,
-w,,SystemDate.Day, ,,,,"2201",,,_16_HolidayDay,,,
+r,,SystemDate.Day,System Date Day ,,,,"220102",,,_16_Day,,,
+w,,SystemDate.Day, ,,,,"2201",,,_16_Day,,,
 
 #23 01
-r,,SystemDate.Month,System Date Month ,,,,"230102",,,_16_HolidayMonth,,,
-w,,SystemDate.Month, ,,,,"2301",,,_16_HolidayMonth,,,
+r,,SystemDate.Month,System Date Month ,,,,"230102",,,_16_Month,,,
+w,,SystemDate.Month, ,,,,"2301",,,_16_Month,,,
 
 #24 01
-r,,SystemDate.Year,System Date Year ,,,,"240102",,,_16_HolidayYear,,,
-w,,SystemDate.Year, ,,,,"2401",,,_16_HolidayYear,,,
+r,,SystemDate.Year,System Date Year ,,,,"240102",,,_16_Year,,,
+w,,SystemDate.Year, ,,,,"2401",,,_16_Year,,,
 
 #25 01
-,,SystemTime.Hour,System Time Hour ,,,,"250102",,,_16_HolidayHour,,,
-w,,SystemTime.Hour, ,,,,"2501",,,_16_HolidayHour,,,
+,,SystemTime.Hour,System Time Hour ,,,,"250102",,,_16_Hours,,,
+w,,SystemTime.Hour, ,,,,"2501",,,_16_Hours,,,
 
 #26 01
-r,,SystemTime.Minute,System Time Minute ,,,,"260102",,,_16_HolidayMinute,,,
-w,,SystemTime.Minute, ,,,,"2601",,,_16_HolidayMinute,,,
+r,,SystemTime.Minute,System Time Minute ,,,,"260102",,,_16_Minutes,,,
+w,,SystemTime.Minute, ,,,,"2601",,,_16_Minutes,,,
 
 #27 01
-r,,SystemTime.Second,System Time Second ,,,,"270102",,,_16_HolidaySecond,,,
-w,,SystemTime.Second, ,,,,"2701",,,_16_HolidaySecond,,,
+r,,SystemTime.Second,System Time Second ,,,,"270102",,,_16_Seconds,,,
+w,,SystemTime.Second, ,,,,"2701",,,_16_Seconds,,,
 
 #28 01
 r9,,TypeOfConstructionMode,Construction method (371) ,,,,"280102",TypeOfConstructionMode,,_16_Constructiontype,,,
@@ -269,28 +269,28 @@ r,,Error.Id, ,,,,"9A0B02",Error.Id,,UIN,,,
 w,,Error.Id, ,,,,"9A0B",Error.Id,,UIN,,,
 
 #9B 0B
-r,,Error.Code, ,,,,"9B0B02",H1Status,,UIN,,,
+r,,Error.Code, ,,,,"9B0B02",H1SError.Code,,UIN,,,
 
 #9C 0B
-r,,Error.Type, ,,,,"9C0B02",H1Status,,UIN,,,
+r,,Error.Type, ,,,,"9C0B02",Error.Type,,UIN,,,
 
 #9D 0B
-r,,Error.Instance, ,,,,"9D0B02",H1Status,,UIN,,,
+r,,Error.Device, ,,,,"9D0B02",Error.Device,,UIN,,,
 
 #9F 0B
-r,,Error.Minute,Error Time Minute ,,,,"9F0B02",,,_16_HolidayMinute,,,
+r,,Error.Minute,Error Time Minute ,,,,"9F0B02",,,_16_Minutes,,,
 
 #A0 0B
-r,,Error.Hour,Error Time Hour ,,,,"A00B02",,,_16_HolidayHour,,,
+r,,Error.Hour,Error Time Hour ,,,,"A00B02",,,_16_Hours,,,
 
 #A1 0B
-r,,Error.Day,Error Date Day ,,,,"A10B02",,,_16_HolidayDay,,,
+r,,Error.Day,Error Date Day ,,,,"A10B02",,,_16_Day,,,
 
 #A2 0B
-r,,Error.Month,Error Date Month ,,,,"A20B02",,,_16_HolidayMonth,,,
+r,,Error.Month,Error Date Month ,,,,"A20B02",,,_16_Month,,,
 
 #A3 0B
-r,,Eroor.Year,Error Date Year ,,,,"A30B02",,,_16_HolidayYear,,,
+r,,Error.Year,Error Date Year ,,,,"A30B02",,,_16_Year,,,
 
 #10;11;12 14 
 r,,HCRuntimeProgram1.Mo,Heating Program1 Monday ,,,,"101402;111402;121402",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
