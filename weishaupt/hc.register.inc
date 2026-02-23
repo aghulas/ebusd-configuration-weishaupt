@@ -122,7 +122,7 @@ r,,Error.Id, ,,,,"9A0B02",Error.Id,,UIN,,,
 w,,Error.Id, ,,,,"9A0B",Error.Id,,UIN,,,
 
 #9B 0B
-r,,Error.Code, ,,,,"9B0B02",H1SError.Code,,UIN,,,
+r,,Error.Code, ,,,,"9B0B02",Error.Code,,UIN,,,
 
 #9C 0B
 r,,Error.Type, ,,,,"9C0B02",Error.Type,,UIN,,,

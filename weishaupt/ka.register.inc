@@ -9,6 +9,9 @@ r,,ErrorStatus,Error Status ,,,,"010002",ErrorCode,,UIN,,,
 #02 00
 r,,HeatDemandTemp,Heat demand HK ,,,,"020002",HeatDemandTemp,,_16_Temp10,,,
 
+#03 00
+r,,DHWSetValue,Hot water setpoint ,,,,"030002",DHWSetValue,,_16_Temp10,,,
+
 #04 00
 r1,,SupplySetPointTemp,Supply SetPoint (121) ,,,,"040002",SupplySetPointTemp,,_16_Temp10,,,
 
@@ -25,6 +28,9 @@ r,,OutsideTemp,B1 Outside Sensor Temperature,,,,"0C0002",OutsideTemp,,_16_Temp10
 
 #0D 00
 r,,SupplyWTCTemp,Flow temperature WTC ,,,,"0D0002",SupplyWTCTemp,,_16_Temp10,,,
+
+#0E 00
+r,,DHWTemp,B3 DHW Sensor Temperature ,,,,"0E0002",DHWTemp,,_16_Temp10,,,
 
 #11 00
 r,,RoomTemp,Room Sensor Temperature ,,,,"110002",RoomTemp,,_16_Temp10,,,
@@ -150,7 +156,7 @@ r,,Error.Id, ,,,,"9A0B02",Error.Id,,UIN,,,
 w,,Error.Id, ,,,,"9A0B",Error.Id,,UIN,,,
 
 #9B 0B
-r,,Error.Code, ,,,,"9B0B02",H1SError.Code,,UIN,,,
+r,,Error.Code, ,,,,"9B0B02",Error.Code,,UIN,,,
 
 #9C 0B
 r,,Error.Type, ,,,,"9C0B02",Error.Type,,UIN,,,
