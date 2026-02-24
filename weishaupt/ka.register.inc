@@ -484,7 +484,7 @@ r,,ModulationMax, 536 Modulation Max,,,,"EAFD02",ModulationMax,,_16_Temp1,,,
 w,,ModulationMax, 536 Modulation Max,,,,"EAFD",ModulationMax,,_16_Temp1,,,
 
 #EB FD
-r,,ModulationMin, 535 Modulation Min,,,,EBFD02",ModulationMin,,_16_Temp1,,,
+r,,ModulationMin, 535 Modulation Min,,,,"EBFD02",ModulationMin,,_16_Temp1,,,
 w,,ModulationMin, 535 Modulation Min,,,,"EBFD",ModulationMin,,_16_Temp1,,,
 
 #EC FD
