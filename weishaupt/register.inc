@@ -65,6 +65,15 @@ w,,ModulationStatus, ,,,,"2C00",,,_16_Percent,,,
 r,,DHWExceeded,576 DHW exceeded ,,,,"2D0002",DHWExceeded,,_16_Temp10,,,
 w,,DHWExceeded,576 DHW exceeded ,,,,"2D00",DHWExceeded,,_16_Temp10,,,
 
+#52 00
+r,,MixerPump,B3 DHW Sensor Temperature ,,,,"520002",MixerPump,,_16_OnOff,,,
+
+#56 00
+r,,ValveOpening,B3 DHW Sensor Temperature ,,,,"560002",ValveOpening,,_16_OnOff,,,
+
+#57 00
+r,,ValveClosing,B3 DHW Sensor Temperature ,,,,"570002",ValveClosing,,_16_OnOff,,,
+
 ##76 00
 r,,ColorifierTopTemp,Calorifier Top Temp B20 ,,,,"760002",ColorifierTopTemp,,_16_Temp10,,,
 w,,ColorifierTopTemp,Calorifier Top Temp B20 ,,,,"7600",ColorifierTopTemp,,_16_Temp10,,,

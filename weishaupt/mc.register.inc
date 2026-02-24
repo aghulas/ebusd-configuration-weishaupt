@@ -20,6 +20,15 @@ r,,OutsideTemp,B1 Outside Sensor Temperature,,,,"0C0002",OutsideTemp,,_16_Temp10
 #0E 00
 r,,DHWTemp,B3 DHW Sensor Temperature ,,,,"0E0002",DHWTemp,,_16_Temp10,,,
 
+#52 00
+r,,MixerPump,B3 DHW Sensor Temperature ,,,,"520002",MixerPump,,_16_OnOff,,,
+
+#56 00
+r,,ValveOpening,B3 DHW Sensor Temperature ,,,,"560002",ValveOpening,,_16_OnOff,,,
+
+#57 00
+r,,ValveClosing,B3 DHW Sensor Temperature ,,,,"570002",ValveClosing,,_16_OnOff,,,
+
 #10 01
 r9,,SwitchOnRuntime,Switch-on delay (353) ,,,,"100102",SwitchOnRuntime,,_16_Minutes,,,
 w,,SwitchOnRuntime, ,,,,"1001",,,_16_Minutes,,,
