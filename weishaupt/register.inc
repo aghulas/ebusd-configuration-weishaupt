@@ -252,6 +252,10 @@ r,,TagMinTempFhz, 484 Tag Min Temp Fhz,,,,"BC0102",TagMinTempFhz,,UIN,,,
 r,,FS_EM_W4_Sensor, ,,,,"850202",FS_EM_W4_Sensor,,UIN,,,
 w,,FS_EM_W4_Sensor, ,,,,"8502",FS_EM_W4_Sensor,,UIN,,,
 
+#8A 02
+r,,DHWMinTemp2,573 DHW Min Temp,,,,"8A0202",DHWMinTemp2,,_16_Temp10,,,
+w,,DHWMinTemp2,573 DHW Min Temp,,,,"8A02",DHWMinTemp2,,_16_Temp10,,,
+
 #9E 02
 r,,RegulationI, 540 I Regler,,,,"9E0202",RegulationI,,UIN,,,
 w,,RegulationI, 540 I Regler,,,,"9E02",RegulationI,,UIN,,,
@@ -266,14 +270,17 @@ r,,FS_EM_R2_Sensor, ,,,,"590302",FS_EM_R2_Sensor,,UIN,,,
 #E9 04
 r,,B3Sensor, ,,,,"E90402",B3Sensor,,_16_Temp10,,,
 
+#87 05
+r,,LegionellaSetupTemp,580 AntiLeg Setp Temp. ,,,,"870502",LegionellaSetupTemp,,_16_Temp10,,,
+w,,LegionellaSetupTemp,580 AntiLeg Setp Temp. ,,,,"8705",LegionellaSetupTemp,,_16_Temp10,,,
+
 #73 09
 r,,HCTypeMode,Heating Circuit Type (316) ,,,,"730902",HCTypeMode,,_16_HCType,,,
 w,,HCTypeMode, ,,,,"7309",HCTypeMode,,_16_HCType,,,
 
 #81 09
-r,,FS_EM_W5_Sensor, ,,,,"B10902",FS_EM_W5_Sensor,,UIN,,,
-w,,FS_EM_W5_Sensor, ,,,,"B109",FS_EM_W5_Sensor,,UIN,,,
-
+r,,LegionellaCirculationTime,583 Circ time ,,,,"B10902",LegionellaCirculationTime,,UIN,,,
+w,,FS_EM_WLegionellaCirculationTime5_Sensor,583 Circ time ,,,,"B109",LegionellaCirculationTime,,UIN,,,
 
 #1C 0A 
 r,,RoomThermostatTemp,Room thermostat (344) ,,,,"1C0A02",RoomThermostatTemp,,_16_Temp1,,,

@@ -162,6 +162,10 @@ r,,UnknownSensor13, ,,,,"A90102",UnknownSensor13,,UIN,,,
 #AA 01
 r,,UnknownSensor14, ,,,,"AA0102",UnknownSensor14,,UIN,,,
 
+#8A 02
+r,,DHWMinTemp2,573 DHW Min Temp,,,,"8A0202",DHWMinTemp2,,_16_Temp10,,,
+w,,DHWMinTemp2,573 DHW Min Temp,,,,"8A02",DHWMinTemp2,,_16_Temp10,,,
+
 #9E 02
 r,,RegulationI, 540 I Regler,,,,"9E0202",RegulationI,,UIN,,,
 w,,RegulationI, 540 I Regler,,,,"9E02",RegulationI,,UIN,,,
@@ -173,6 +177,13 @@ w,,RegulationP, 539 1/P Regler,,,,"9F02",RegulationP,,UIN,,,
 #59 03
 r,,FS_EM_R2_Sensor, ,,,,"590302",FS_EM_R2_Senror,,UIN,,,
 
+#87 05
+r,,LegionellaSetupTemp,580 AntiLeg Setp Temp. ,,,,"870502",LegionellaSetupTemp,,_16_Temp10,,,
+w,,LegionellaSetupTemp,580 AntiLeg Setp Temp. ,,,,"8705",LegionellaSetupTemp,,_16_Temp10,,,
+
+#81 09
+r,,LegionellaCirculationTime,583 Circ time ,,,,"B10902",LegionellaCirculationTime,,UIN,,,
+w,,FS_EM_WLegionellaCirculationTime5_Sensor,583 Circ time ,,,,"B109",LegionellaCirculationTime,,UIN,,,
 
 #1C 0A 
 r,,RoomThermostatTemp,Room thermostat (344) ,,,,"1C0A02",RoomThermostatTemp,,_16_Temp1,,,
