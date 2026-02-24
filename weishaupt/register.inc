@@ -309,6 +309,10 @@ r,,B3Sensor, ,,,,"E90402",B3Sensor,,_16_Temp10,,,
 r,,LegionellaSetupTemp,580 AntiLeg Setp Temp. ,,,,"870502",LegionellaSetupTemp,,_16_Temp10,,,
 w,,LegionellaSetupTemp,580 AntiLeg Setp Temp. ,,,,"8705",LegionellaSetupTemp,,_16_Temp10,,,
 
+#14 06
+r,,WTCDelay,370 Delay WTC,,,,"140602",WTCDelay,,_16_Minutes,,,
+w,,WTCDelay,370 Delay WTC,,,,"1406",WTCDelay,,_16_Minutes,,,
+
 #9C 08
 r,,FHCMaxTemp,485 Max Temperature FHC,,,,"9C0802",FHCMaxTemp,,_16_Temp10,,,
 w,,FHCMaxTemp,485 Max Temperature FHC ,,,,"9C08",FHCMaxTemp,,_16_Temp10,,,

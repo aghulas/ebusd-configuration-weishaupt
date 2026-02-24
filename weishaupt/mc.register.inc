@@ -25,14 +25,6 @@ r,,ValveOpening,B3 DHW Sensor Temperature ,,,,"560002",ValveOpening,,_16_OnOff,,
 #57 00
 r,,ValveClosing,B3 DHW Sensor Temperature ,,,,"570002",ValveClosing,,_16_OnOff,,,
 
-#10 01
-r9,,SwitchOnRuntime,Switch-on delay (353) ,,,,"100102",SwitchOnRuntime,,_16_Minutes,,,
-w,,SwitchOnRuntime, ,,,,"1001",,,_16_Minutes,,,
-
-#15 01
-r,,AdaptionMode,Adaption (507) ,,,,"150102",AdaptionMode,,_16_OnOff,,,
-w,,AdaptionMode, ,,,,"1501",,,_16_OnOff,,,
-
 #2D 01
 r9,,HolidayTemp,Holiday temperature (183) ,,,,"2D0102",,,_16_TempReduced,,,
 w,,HolidayTemp, ,,,,"2D01",,,_16_TempReduced,,,
@@ -44,10 +36,6 @@ w,,WtcDelayRuntime, ,,,,"2E01",,,_16_Minutes,,,
 #31 01
 r,,PumpVSDvariable,VSD variable (429) ,,,,"310102",PumpVSDvariable,,_16_PumpVariationSpeed,,,
 w,,PumpVSDvariable, ,,,,"3101",,,_16_PumpVariationSpeed,,,
-
-#32 01
-r9,,ReductTemp,ReductTemp (501) ,,,,"320102",ReductTemp,,_16_TempReduced,,,
-w,,ReductTemp, ,,,,"3201",,,_16_TempReduced,,,
 
 #41 01
 r,,ControlVariationMode,Control Variation (318),,,,"410102",ControlVariationMode,,_16_CVariation,,,

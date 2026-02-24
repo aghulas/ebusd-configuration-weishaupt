@@ -60,6 +60,10 @@ w,,RoomSensorCorrectionTemp, ,,,,"0901",,,_16_TempK10,,,
 r9,,GradientCurve,Steepness ,,,,"0E0102",GradientCurve,,_16_Gradient10,,,
 w,,GradientCurve, ,,,,"0E01",,,_16_Gradient10,,,
 
+#10 01
+r,,SwitchOnRuntime,Switch-on delay (353) ,,,,"100102",SwitchOnRuntime,,_16_Minutes,,,
+w,,SwitchOnRuntime, ,,,,"1001",,,_16_Minutes,,,
+
 #11 01
 r,,BoilerMCBoostTemp,Boiler MC Boost(424) ,,,,"110102",BoilerMCBoostTemp,,_16_TempK10,,,
 w,,BoilerMCBoostTemp, ,,,,"1101",,,_16_TempK10,,,
@@ -67,6 +71,10 @@ w,,BoilerMCBoostTemp, ,,,,"1101",,,_16_TempK10,,,
 #12 01
 r5,,ProgramMode,Program selector switch position ,,,,"120102",ProgramMode,,_16_ProgramMode,,,
 w,,ProgramMode, ,,,,"1201",,,_16_ProgramMode,,,
+
+#15 01
+r,,AdaptionMode,Adaption (507) ,,,,"150102",AdaptionMode,,_16_OnOff,,,
+w,,AdaptionMode, ,,,,"1501",,,_16_OnOff,,,
 
 #16 01
 r9,,SummerWinterChangeOverTemp,Summer/winter changeover temperature ,,,,"160102",SuWiChangeOverTemp,,_16_Temp10,,,
@@ -133,6 +141,10 @@ w,,PumpMaxSpeed, ,,,,"2F01",,,_16_Percent,,
 r,,PumpMinSpeed,Min Pump speed (359) ,,,,"300102",PumpMinSpeed,,_16_Percent,,,
 w,,PumpMinSpeed, ,,,,"3001",,,_16_Percent,,,
 
+#32 01
+r9,,ReductTemp,ReductTemp (501) ,,,,"320102",ReductTemp,,_16_TempReduced,,,
+w,,ReductTemp, ,,,,"3201",,,_16_TempReduced,,,
+
 #3D 01
 r,,HolidayTempLevel,142 Holiday Temperature Level,,,,"3D0102",HolidayTempLevel,,_16_Temp10,,,
 w,,HolidayTempLevel,142 Holiday Temperature Level,,,,"3D01",HolidayTempLevel,,_16_Temp10,,,
@@ -144,6 +156,10 @@ w,,FHCMinTemp,483 Screed Start Temperature ,,,,"BB01",FHCMinTemp,,_16_Temp10,,,
 #BC 01
 r,,FHCMinTempDays, 484 Tag Min Temp Fhz,,,,"BC0102",FHCMinTempDays,,UIN,,,
 w,,FHCMinTempDays,483 Screed Start Temperature ,,,,"BC01",FHCMinTempDays,,UIN,,,
+
+#14 06
+r,,WTCDelay,370 Delay WTC,,,,"140602",WTCDelay,,_16_Minutes,,,
+w,,WTCDelay,370 Delay WTC,,,,"1406",WTCDelay,,_16_Minutes,,,
 
 #9C 08
 r,,FHCMaxTemp,485 Max Temperature FHC,,,,"9C0802",FHCMaxTemp,,_16_Temp10,,,
