@@ -174,8 +174,8 @@ r,,H1ControlVoltage, ,,,,"A90102",H1ControlVoltage,,UIN,,,
 r,,H1ControlCurrent, ,,,,"AA0102",H1ControlCurrent,,UIN,,,
 
 #74 02
-r,,ResetErrorMemory, ,,,,"740202",ResetErrorMemory,,UIN,,,
-w,,ResetErrorMemory, ,,,,"7402",ResetErrorMemory,,UIN,,,
+r,,ResetErrorMemory, ,,,,"7A0202",ResetErrorMemory,,UIN,,,
+w,,ResetErrorMemory, ,,,,"7A02",ResetErrorMemory,,UIN,,,
 
 #8A 02
 r,,DHWMinTemp2,573 DHW Min Temp,,,,"8A0202",DHWMinTemp2,,_16_Temp10,,,
