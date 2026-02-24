@@ -33,7 +33,7 @@ r,,SupplyWTCTemp, B22 Flow temperature WTC ,,,,"0D0002",SupplyWTCTemp,,_16_Temp1
 r,,DHWTemp,B3 DHW Sensor Temperature ,,,,"0E0002",DHWTemp,,_16_Temp10,,,
 
 #10 00
-r,,ConfigStatus,Configuration Status,,,,"0F0002",ConfigCode,,UIN,,,
+r,,ConfigStatus,Configuration Status,,,,"100002",ConfigCode,,UIN,,,
 
 #11 00
 r,,RoomTemp,Room Sensor Temperature ,,,,"110002",RoomTemp,,_16_Temp10,,,

@@ -33,7 +33,7 @@ r,,SupplyWTCTemp,Flow temperature WTC ,,,,"0D0002",SupplyWTCTemp,,_16_Temp10,,,
 r,,SupplyHCTemp,B6 Supply Sensor Temperature,,,,"0F0002",SupplyHCTemp,,_16_Temp10,,,
 
 #10 00
-r,,ConfigStatus,Configuration Status,,,,"0F0002",ConfigCode,,UIN,,,
+r,,ConfigStatus,Configuration Status,,,,"100002",ConfigCode,,UIN,,,
 
 #11 00
 r,,RoomTemp,Room Sensor Temperature ,,,,"110002",RoomTemp,,_16_Temp10,,,
