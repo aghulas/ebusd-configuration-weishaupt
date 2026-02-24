@@ -32,6 +32,8 @@ _1_TimeTo:ToEnabled,BI7,0x00=Enabled;0x01=Disabled,,Disabling Switch
 _7_TimeTo:ToTime,TTQ,,,End Time
 _1_TimeFrom:ToEnabled,BI7,0x00=Enabled;0x01=Disabled,,Disabling Switch
 _7_TimeFrom:FromTime,TTQ,,,Start Time
+_1_ErrorCode,BI7,0x00=F;0x01=W,,Fault/Warning
+_7_ErrorCode,UCH,,,Error Code
 
 _16_Constructiontype,UIN,0x0000=Heavy;0x0001=Light,,
 _16_Counter,UIN,,,
