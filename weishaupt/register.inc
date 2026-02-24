@@ -57,6 +57,10 @@ w,,SupplyMaxTemp, ,,,,"2800",SupplyMaxTemp,,_16_Temp10,,,
 r9,,MixerParameterTemp,Mixer Parameter (425) ,,,,"2B0002",MixerParameterTemp,,_16_TempK10,,,
 w,,MixerParameterTemp, ,,,,"2B00",,,_16_TempK10,,,
 
+#2C 00
+r,,ModulationStatus,Modulation ,,,,"2B0002",ModulationStatus,,_16_Percent,,,
+w,,ModulationStatus, ,,,,"2B00",,,_16_Percent,,,
+
 #01 01
 r9,,DHWLegionellaDay,Legionella Protection Function (605) ,,,,"010102",DHWLegionellaDay,,_16_Legionelladay,,,
 w,,DHWLegionellaDay, ,,,,"0101",,,_16_Legionelladay,,,
@@ -931,12 +935,12 @@ r,,ContTemp, 538 Cont. Temp,,,,"E9FD02",ContTemp,,_16_Temp1,,,
 w,,ContTemp, 538 Cont. Temp,,,,"E9FD",ContTemp,,_16_Temp1,,,
 
 #EA FD
-r,,ModulationMax, 536 Modulation Max,,,,"EAFD02",ModulationMax,,_16_Temp1,,,
-w,,ModulationMax, 536 Modulation Max,,,,"EAFD",ModulationMax,,_16_Temp1,,,
+r,,ModulationMax, 536 Modulation Max,,,,"EAFD02",ModulationMax,,_16_Percent,,,
+w,,ModulationMax, 536 Modulation Max,,,,"EAFD",ModulationMax,,_16_Percent,,,
 
 #EB FD
-r,,ModulationMin, 535 Modulation Min,,,,"EBFD02",ModulationMin,,_16_Temp1,,,
-w,,ModulationMin, 535 Modulation Min,,,,"EBFD",ModulationMin,,_16_Temp1,,,
+r,,ModulationMin, 535 Modulation Min,,,,"EBFD02",ModulationMin,,_16_Percent,,,
+w,,ModulationMin, 535 Modulation Min,,,,"EBFD",ModulationMin,,_16_Percent,,,
 
 #EC FD
 r,,ChangeOverTime, 532 Change Over Time,,,,"ECFD02",ChangeOverTime,,_16_Temp1,,,

@@ -38,6 +38,10 @@ r,,RoomTemp,Room Sensor Temperature ,,,,"110002",RoomTemp,,_16_Temp10,,,
 #12 00
 r9,,RoomSetPointTemp,Room setpoint ,,,,"120002",RoomSetPointTemp,,_16_Temp10,,,
 
+#13 00
+r,,DHWSetpoint,Hot water setpoint (176) ,,,,"130002",DHWSetpoint,,_16_Temp10,,,
+w,,DHWSetpoint, ,,,,"1300",,,_16_Temp10,,,
+
 #25 00
 r,,BlockingTime,Maximum Blocking Time (537) ,,,,"250002",BlockingTime,,_16_Minutes,,,
 w,,BlockingTime, ,,,,"2500",BlockingTime,,_16_Minutes,,,
@@ -45,6 +49,10 @@ w,,BlockingTime, ,,,,"2500",BlockingTime,,_16_Minutes,,,
 #28 00
 r,,SupplyMaxTemp,Maximum Supply Temperature (422) ,,,,"280002",SupplyMaxTemp,,_16_Temp10,,,
 w,,SupplyMaxTemp, ,,,,"2800",SupplyMaxTemp,,_16_Temp10,,,
+
+#2C 00
+r,,ModulationStatus,Modulation ,,,,"2B0002",ModulationStatus,,_16_Percent,,,
+w,,ModulationStatus, ,,,,"2B00",,,_16_Percent,,,
 
 #01 01
 r9,,DHWLegionellaDay,Legionella Protection Function (605) ,,,,"010102",DHWLegionellaDay,,_16_Legionelladay,,,
@@ -487,12 +495,12 @@ r,,ContTemp, 538 Cont. Temp,,,,"E9FD02",ContTemp,,_16_Temp1,,,
 w,,ContTemp, 538 Cont. Temp,,,,"E9FD",ContTemp,,_16_Temp1,,,
 
 #EA FD
-r,,ModulationMax, 536 Modulation Max,,,,"EAFD02",ModulationMax,,_16_Temp1,,,
-w,,ModulationMax, 536 Modulation Max,,,,"EAFD",ModulationMax,,_16_Temp1,,,
+r,,ModulationMax, 536 Modulation Max,,,,"EAFD02",ModulationMax,,_16_Percent,,,
+w,,ModulationMax, 536 Modulation Max,,,,"EAFD",ModulationMax,,_16_Percent,,,
 
 #EB FD
-r,,ModulationMin, 535 Modulation Min,,,,"EBFD02",ModulationMin,,_16_Temp1,,,
-w,,ModulationMin, 535 Modulation Min,,,,"EBFD",ModulationMin,,_16_Temp1,,,
+r,,ModulationMin, 535 Modulation Min,,,,"EBFD02",ModulationMin,,_16_Percent,,,
+w,,ModulationMin, 535 Modulation Min,,,,"EBFD",ModulationMin,,_16_Percent,,,
 
 #EC FD
 r,,ChangeOverTime, 532 Change Over Time,,,,"ECFD02",ChangeOverTime,,_16_Temp1,,,
