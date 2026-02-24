@@ -292,7 +292,7 @@ w,,HCTypeMode, ,,,,"7309",HCTypeMode,,_16_HCType,,,
 
 #81 09
 r,,LegionellaCirculationTime,583 Circ time ,,,,"B10902",LegionellaCirculationTime,,UIN,,,
-w,,FS_EM_WLegionellaCirculationTime5_Sensor,583 Circ time ,,,,"B109",LegionellaCirculationTime,,UIN,,,
+w,,LegionellaCirculationTime,583 Circ time ,,,,"B109",LegionellaCirculationTime,,UIN,,,
 
 #1C 0A 
 r,,RoomThermostatTemp,Room thermostat (344) ,,,,"1C0A02",RoomThermostatTemp,,_16_Temp1,,,
