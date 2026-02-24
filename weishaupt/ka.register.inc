@@ -61,6 +61,14 @@ w,,ModulationStatus, ,,,,"2C00",,,_16_Percent,,,
 r,,DHWExceeded,576 DHW exceeded ,,,,"2D0002",DHWExceeded,,_16_Temp10,,,
 w,,DHWExceeded,576 DHW exceeded ,,,,"2D00",DHWExceeded,,_16_Temp10,,,
 
+#76 00
+r,,DHWExceeded,Calorifier Top Temp B20 ,,,,"760002",DHWExceeded,,_16_Temp10,,,
+w,,DHWExceeded,Calorifier Top Temp B20 ,,,,"7600",DHWExceeded,,_16_Temp10,,,
+
+#78 00
+r,,DHWExceeded,Calorifier Bottom Temp B21 ,,,,"780002",DHWExceeded,,_16_Temp10,,,
+w,,DHWExceeded,Calorifier Bottom Temp B21 ,,,,"7800",DHWExceeded,,_16_Temp10,,,
+
 #01 01
 r9,,DHWLegionellaDay,Legionella Protection Function (605) ,,,,"010102",DHWLegionellaDay,,_16_Legionelladay,,,
 w,,DHWLegionellaDay, ,,,,"0101",,,_16_Legionelladay,,,
@@ -255,6 +263,19 @@ w,,UnknownSensor11, ,,,,"0476",UnknownSensor11,,UIN,,,
 #04 78
 r,,UnknownSensor12, ,,,,"047802",UnknownSensor12,,UIN,,,
 w,,UnknownSensor12, ,,,,"0478",UnknownSensor12,,UIN,,,
+
+#F1 13
+r,,SolarRecoverWithLegionella, Solar Recovery  with Legionella,,,,"9A0B02",SolarRecoverWithLegionella,,_16_OnOff,,,
+w,,SolarRecoverWithLegionella, Solar Recovery  with Legionella,,,,"9A0B",SolarRecoverWithLegionella,,_16_OnOff,,,
+
+#F2 13
+r,,DHWMaxLoad,578 Max Load DHW ,,,,"F21302",DHWMaxLoad,,_16_Percent,,,
+w,,DHWMaxLoad,578 Max Load DHW ,,,,"F213",DHWMaxLoad,,_16_Percent,,,
+
+#F3 13
+r,,CircWithLegionella,582 Circ With Legionella ,,,,"F31302",CircWithLegionella,,_16_OnOff,,,
+w,,CircWithLegionella,582 Circ With Legionella ,,,,"F313",CircWithLegionella,,_16_OnOff,,,
+
 
 #10;11;12 17
 r,,DHWRuntimeProgram.Mo,Hot Water Program Monday ,,,,"101702;111702;121702",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
