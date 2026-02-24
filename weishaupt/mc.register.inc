@@ -42,12 +42,6 @@ w,,ControlVariationMode, ,,,,"4101",ControlVariationMode,,_16_CVariation,,,
 #8F 01
 r,,KaVersion, ,,,,"8F0102",KaVersion,,SIN,,,
 
-#9A 01
-r,,Version2, ,,,,"9A0102",Version2,,UIN,,,
-
-#99 01
-r,,Version, ,,,,"990102",Version,,UIN,,,
-
 #85 02
 r,,FS_EM_W4_Sensor, ,,,,"850202",FS_EM_W4_Sensor,,UIN,,,
 w,,FS_EM_W4_Sensor, ,,,,"8502",FS_EM_W4_Sensor,,UIN,,,
