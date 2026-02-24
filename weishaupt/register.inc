@@ -256,6 +256,10 @@ r,,Starttemperatur,483 Starttemperatur ,,,,"BB0102",Starttemperatur,,UIN,,,
 #BC 01
 r,,TagMinTempFhz, 484 Tag Min Temp Fhz,,,,"BC0102",TagMinTempFhz,,UIN,,,
 
+#74 02
+r,,ResetErrorMemory, ,,,,"740202",ResetErrorMemory,,UIN,,,
+w,,ResetErrorMemory, ,,,,"7402",ResetErrorMemory,,UIN,,,
+
 #85 02
 r,,FS_EM_W4_Sensor, ,,,,"850202",FS_EM_W4_Sensor,,UIN,,,
 w,,FS_EM_W4_Sensor, ,,,,"8502",FS_EM_W4_Sensor,,UIN,,,
