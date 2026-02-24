@@ -51,8 +51,12 @@ r,,SupplyMaxTemp,Maximum Supply Temperature (422) ,,,,"280002",SupplyMaxTemp,,_1
 w,,SupplyMaxTemp, ,,,,"2800",SupplyMaxTemp,,_16_Temp10,,,
 
 #2C 00
-r,,ModulationStatus,Modulation ,,,,"2B0002",ModulationStatus,,_16_Percent,,,
-w,,ModulationStatus, ,,,,"2B00",,,_16_Percent,,,
+r,,ModulationStatus,Modulation ,,,,"2C0002",ModulationStatus,,_16_Percent,,,
+w,,ModulationStatus, ,,,,"2C00",,,_16_Percent,,,
+
+#2D 00
+r,,DHWExceeded,576 DHW exceeded ,,,,"2D0002",DHWExceeded,,_16_Temp10,,,
+w,,DHWExceeded,576 DHW exceeded ,,,,"2D00",DHWExceeded,,_16_Temp10,,,
 
 #01 01
 r9,,DHWLegionellaDay,Legionella Protection Function (605) ,,,,"010102",DHWLegionellaDay,,_16_Legionelladay,,,
