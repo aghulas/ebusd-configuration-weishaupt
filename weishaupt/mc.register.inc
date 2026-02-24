@@ -3,6 +3,7 @@
 *r,,,,,,"0902",,,,,,,
 *w,,,,,,"0903",,,,,,,
 
+
 #0F 00
 r,,SupplyHCTemp,B6 Supply Sensor Temperature,,,,"0F0002",SupplyHCTemp,,_16_Temp10,,,
 
@@ -43,6 +44,9 @@ w,,ControlVariationMode, ,,,,"4101",ControlVariationMode,,_16_CVariation,,,
 
 #8F 01
 r,,KaVersion, ,,,,"8F0102",KaVersion,,SIN,,,
+
+#9A 01
+r,,Version2, ,,,,"9A0102",Version2,,UIN,,,
 
 #99 01
 r,,Version, ,,,,"990102",Version,,UIN,,,

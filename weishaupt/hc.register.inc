@@ -3,7 +3,6 @@
 *r,,,,,,"0902",,,,,,,
 *w,,,,,,"0903",,,,,,,
 
-
 #01 00
 r,,ErrorStatus,Error Status ,,,,"010002",ErrorCode,,UIN,,,
 
@@ -26,6 +25,9 @@ r,,SupplyWTCTemp,Flow temperature WTC ,,,,"0D0002",SupplyWTCTemp,,_16_Temp10,,,
 
 #0B 00
 r,,UnknownSensor15, ,,,,"0B0002",UnknownSensor15,,UIN,,,
+
+#10 00
+r,,ConfigStatus,Configuration Status,,,,"100002",ConfigCode,,UIN,,,
 
 #11 00
 r,,RoomTemp,Room Sensor Temperature ,,,,"110002",RoomTemp,,_16_Temp10,,,
