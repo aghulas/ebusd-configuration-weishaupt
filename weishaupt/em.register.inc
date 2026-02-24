@@ -280,10 +280,10 @@ w,,DHWMaxTemp2,574 DHW-Max,,,,"8101",DHWMaxTemp2,,_16_Temp10,,,
 r,,KaVersion, ,,,,"8F0102",KaVersion,,SIN,,,
 
 #99 01
-r,,Version, ,,,,"990102",Version,,UIN,,,
+r,,VersionMajor, ,,,,"990102",VersionMajor,,UIN,,,
 
 #9A 01
-r,,Version2, ,,,,"9A0102",Version2,,UIN,,,
+r,,VersionMinor, ,,,,"9A0102",VersionMinor,,UIN,,,
 
 #A9 01
 r,,H1ControlVoltage, ,,,,"A90102",H1ControlVoltage,,UIN,,,
