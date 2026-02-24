@@ -210,10 +210,26 @@ w,,DHWMode, ,,,,"3501",,,_16_DhwMode,,,
 r9,,DHWOperationMode,WW operation (360) ,,,,"370102",DHWOperationMode,,_16_DHWOperationMode,,,
 w,,DHWOperationMode, ,,,,"3701",,,_16_DHWOperationMode,,,
 
+#3D 01
+r,,HolidayTempLevel,142 Holiday Temperature Level,,,,"3D0102",HolidayTempLevel,,_16_Temp10,,,
+w,,HolidayTempLevel,142 Holiday Temperature Level,,,,"3D01",HolidayTempLevel,,_16_Temp10,,,
+
+#40 01
+r,,DHWSwitchDiff,575 DHW Switch Diff	,,,,"400102",ControlVariationMode,,_16_TempK10,,,
+w,,DHWSwitchDiff,575 DHW Switch Diff	,,,,"4001",ControlVariationMode,,_16_TempK10,,,
+
 #41 01
 r,,ControlVariationMode,Control Variation (318),,,,"410102",ControlVariationMode,,_16_CVariation,,,
 w,,ControlVariationMode, ,,,,"4101",ControlVariationMode,,_16_CVariation,,,
 
+#81 01
+r,,DHWLoadTime,577 WW Load Time,,,,"800102",DHWLoadTime,,_16_Minutes,,,
+w,,DHWLoadTime,577 WW Load Time,,,,"8001",DHWLoadTime,,_16_Minutes,,,
+
+#81 01
+r,,DHWMaxTemp,574 DHW-Max,,,,"810102",DHWMaxTemp,,_16_Temp10,,,
+w,,DHWMaxTemp,574 DHW-Max,,,,"8101",DHWMaxTemp,,_16_Temp10,,,
+		
 #8F 01
 r,,KaVersion, ,,,,"8F0102",KaVersion,,SIN,,,
 
@@ -226,6 +242,11 @@ r,,UnknownSensor13, ,,,,"A90102",UnknownSensor13,,UIN,,,
 #AA 01
 r,,UnknownSensor14, ,,,,"AA0102",UnknownSensor14,,UIN,,,
 
+#BB 01
+r,,Starttemperatur,483 Starttemperatur ,,,,"BB0102",Starttemperatur,,UIN,,,
+
+#BC 01
+r,,TagMinTempFhz, 484 Tag Min Temp Fhz,,,,"BC0102",TagMinTempFhz,,UIN,,,
 
 #85 02
 r,,FS_EM_W4_Sensor, ,,,,"850202",FS_EM_W4_Sensor,,UIN,,,
