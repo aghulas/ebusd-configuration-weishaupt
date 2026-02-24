@@ -209,7 +209,7 @@ r,,H1StatusKA, ,,,,"280A02",H1StatusKA,,_8_H1Status,,,
 r,,H1Status, ,,,,"290A02",H1Status,,_8_H1Status,,,
 
 #40 0A
-r,,PWTPrimTemp, PWT Primaire Exch B24,,,,"290A02",PWTPrimTemp,,_16_Temp10,,,
+r,,PWTPrimTemp, PWT Primaire Exch B24,,,,"400A02",PWTPrimTemp,,_16_Temp10,,,
 
 #5B 0A
 r,,H1Function,331 H1 Function ,,,,"5B0A02",H1Function,,UIN,,,
