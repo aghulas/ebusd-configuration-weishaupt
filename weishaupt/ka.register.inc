@@ -150,8 +150,8 @@ r,,DHWLoadTime,577 WW Load Time,,,,"800102",DHWLoadTime,,_16_Minutes,,,
 w,,DHWLoadTime,577 WW Load Time,,,,"8001",DHWLoadTime,,_16_Minutes,,,
 
 #81 01
-r,,DHWMaxTemp,574 DHW-Max,,,,"810102",DHWMaxTemp,,_16_Temp10,,,
-w,,DHWMaxTemp,574 DHW-Max,,,,"8101",DHWMaxTemp,,_16_Temp10,,,
+r,,DHWMaxTemp2,574 DHW-Max,,,,"810102",DHWMaxTemp2,,_16_Temp10,,,
+w,,DHWMaxTemp2,574 DHW-Max,,,,"8101",DHWMaxTemp2,,_16_Temp10,,,
 
 #99 01
 r,,Version, ,,,,"990102",Version,,UIN,,,
