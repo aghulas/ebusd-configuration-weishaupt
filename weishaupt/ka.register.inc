@@ -265,8 +265,8 @@ r,,UnknownSensor12, ,,,,"047802",UnknownSensor12,,UIN,,,
 w,,UnknownSensor12, ,,,,"0478",UnknownSensor12,,UIN,,,
 
 #F1 13
-r,,SolarRecoverWithLegionella, Solar Recovery  with Legionella,,,,"9A0B02",SolarRecoverWithLegionella,,_16_OnOff,,,
-w,,SolarRecoverWithLegionella, Solar Recovery  with Legionella,,,,"9A0B",SolarRecoverWithLegionella,,_16_OnOff,,,
+r,,SolarRecoverWithLegionella, Solar Recovery  with Legionella,,,,"F11302",SolarRecoverWithLegionella,,_16_OnOff,,,
+w,,SolarRecoverWithLegionella, Solar Recovery  with Legionella,,,,"F113",SolarRecoverWithLegionella,,_16_OnOff,,,
 
 #F2 13
 r,,DHWMaxLoad,578 Max Load DHW ,,,,"F21302",DHWMaxLoad,,_16_Percent,,,

@@ -355,8 +355,8 @@ r,,Error.Month,Error Date Month ,,,,"A20B02",,,_16_Month,,,
 r,,Error.Year,Error Date Year ,,,,"A30B02",,,_16_Year,,,
 
 #F1 13
-r,,SolarRecoverWithLegionella, Solar Recovery  with Legionella,,,,"9A0B02",SolarRecoverWithLegionella,,_16_OnOff,,,
-w,,SolarRecoverWithLegionella, Solar Recovery  with Legionella,,,,"9A0B",SolarRecoverWithLegionella,,_16_OnOff,,,
+r,,SolarRecoverWithLegionella, Solar Recovery  with Legionella,,,,"F11302",SolarRecoverWithLegionella,,_16_OnOff,,,
+w,,SolarRecoverWithLegionella, Solar Recovery  with Legionella,,,,"F113",SolarRecoverWithLegionella,,_16_OnOff,,,
 
 #F2 13
 r,,DHWMaxLoad,578 Max Load DHW ,,,,"F21302",DHWMaxLoad,,_16_Percent,,,
