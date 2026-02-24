@@ -253,8 +253,8 @@ r,,DHWOperationMode,WW operation (360) ,,,,"370102",DHWOperationMode,,_16_DHWOpe
 w,,DHWOperationMode, ,,,,"3701",,,_16_DHWOperationMode,,,
 
 #3B 01
-r,,3B01, ,,,,"3B0102",,,UIN,,,
-w,,3B01, ,,,,"3B01",,,UIN,,,
+r,,R3B01, ,,,,"3B0102",,,UIN,,,
+w,,R3B01, ,,,,"3B01",,,UIN,,,
 
 #3D 01
 r,,HolidayTempLevel,142 Holiday Temperature Level,,,,"3D0102",HolidayTempLevel,,_16_Temp10,,,
@@ -378,8 +378,8 @@ r,,RoomFactorI,Room factor-I ,,,,"710902",RoomFactorI,,UIN,,,
 w,,RoomFactorI,Room factor-I ,,,,"7109",RoomFactorI,,UIN,,,
 
 #72 09
-r,,7209, ,,,,"720902",7209,,UIN,,,
-w,,7209, ,,,,"7209",7209,,UIN,,,
+r,,R7209, ,,,,"720902",,,UIN,,,
+w,,R7209, ,,,,"7209",,,UIN,,,
 
 #73 09
 r,,HCTypeMode,316 Heating Circuit Type,,,,"730902",HCTypeMode,,_16_HCType,,,
@@ -390,8 +390,8 @@ r,,LegionellaCirculationTime,583 Circ time ,,,,"B10902",LegionellaCirculationTim
 w,,LegionellaCirculationTime,583 Circ time ,,,,"B109",LegionellaCirculationTime,,UIN,,,
 
 #00 0A
-r,,000A, ,,,,"000A02",,,UIN,,,
-w,,000A, ,,,,"000A",,,UIN,,,
+r,,R000A, ,,,,"000A02",,,UIN,,,
+w,,R000A, ,,,,"000A",,,UIN,,,
 
 #0C 0A
 r,,OutsideWeightedTemp,Blended Outside Temperature ,,,,"0C0A02",OutsideWeightedTemp,,_16_Temp10,,,
@@ -460,12 +460,12 @@ r,,Error.Month,Error Date Month ,,,,"A20B02",,,_16_Month,,,
 r,,Error.Year,Error Date Year ,,,,"A30B02",,,_16_Year,,,
 
 #1F 0C
-r,,0C1F, ,,,,"210C02",,,UIN,,,
-w,,0C1F, ,,,,"210C",,,UIN,,,
+r,,R0C1F, ,,,,"210C02",,,UIN,,,
+w,,R0C1F, ,,,,"210C",,,UIN,,,
 
 #21 0C
-r,,210C, ,,,,"210C02",,,UIN,,,
-w,,210C, ,,,,"210C",,,UIN,,,
+r,,R210C, ,,,,"210C02",,,UIN,,,
+w,,R210C, ,,,,"210C",,,UIN,,,
 
 #F1 13
 r,,SolarRecoverWithLegionella, Solar Recovery  with Legionella,,,,"F11302",SolarRecoverWithLegionella,,_16_OnOff,,,
