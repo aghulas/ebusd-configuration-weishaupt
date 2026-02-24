@@ -303,8 +303,20 @@ r,,FloorDryingTemp,Screed temperature (383) ,,,,"130A02",FloorDryingTemp,,_16_Te
 r,,FS_EM_W1_Sensor, ,,,,"200A02",FS_EM_W1_Sensor,,UIN,,,
 w,,FS_EM_W1_Sensor, ,,,,"200A",FS_EM_W1_Sensor,,UIN,,,
 
+#28 0A
+r,,H1StatusKA, ,,,,"280A02",H1StatusKA,,_8_H1Status,,,
+
 #29 0A
 r,,H1Status, ,,,,"290A02",H1Status,,_8_H1Status,,,
+
+#40 0A
+r,,PWTPrimTemp, PWT Primaire Exch B24,,,,"290A02",PWTPrimTemp,,_16_Temp10,,,
+
+#5B 0A
+r,,H1Function,331 H1 Function ,,,,"5B0A02",H1Function,,UIN,,,
+
+#8E 0A
+r,,MFA2Status,MFA2 Actual ,,,,"8E0A02",MFA2Status,,UIN,,,
 
 #9A 0B
 r,,Error.Id, ,,,,"9A0B02",Error.Id,,UIN,,,
