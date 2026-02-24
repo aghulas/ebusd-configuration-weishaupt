@@ -183,6 +183,14 @@ w,,SystemTime.Second, ,,,,"2701",,,_16_Seconds,,,
 r9,,TypeOfConstructionMode,Construction method (371) ,,,,"280102",TypeOfConstructionMode,,_16_Constructiontype,,,
 w,,TypeOfConstructionMode, ,,,,"2801",,,_16_Constructiontype,,,
 
+#29 01
+r,,NormalSplSetTemp,115 Normal SPL-Set,,,,"290102",NormalSplSetTemp,,_16_Temp10,,,
+w,,NormalSplSetTemp,115 Normal SPL-Set,,,,"2901",NormalSplSetTemp,,_16_Temp10,,,
+
+#2A 01
+r,,ReducedSplSetTemp,116 Reduced SPL-Set,,,,"2A0102",ReducedSplSetTemp,,_16_Temp10,,,
+w,,ReducedSplSetTemp,116 Reduced SPL-Setl,,,,"2A01",ReducedSplSetTemp,,_16_Temp10,,,
+
 #2B 01
 r,,SupplyMinTemp,Minimum Supply Temperature (421) ,,,,"2B0102",SupplyMinTemp,,_16_Temp10,,,
 w,,SupplyMinTemp, ,,,,"2B01",SupplyMinTemp,,_16_Temp10,,,

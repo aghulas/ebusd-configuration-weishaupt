@@ -3,6 +3,9 @@
 *r,,,,,,"0902",,,,,,,
 *w,,,,,,"0903",,,,,,,
 
+8100 02 / 020080 = 1
+
+
 #01 00
 r,,ErrorStatus,Error Status ,,,,"010002",ErrorCode,,UIN,,,
 
@@ -34,6 +37,10 @@ r9,,RoomSetPointTemp,Room setpoint ,,,,"120002",RoomSetPointTemp,,_16_Temp10,,,
 
 #1A 00
 r5,,OutsideBlendedTemp,Weighted Outside Temperature ,,,,"1A0A02",OutsideBlendedTemp,,_16_Temp10,,,
+
+#28 00
+r,,SupplyMaxTemp,Maximum Supply Temperature (422) ,,,,"280002",SupplyMaxTemp,,_16_Temp10,,,
+w,,SupplyMaxTemp, ,,,,"2800",SupplyMaxTemp,,_16_Temp10,,,
 
 #0F 01
 r9,,RoomFactorCurve,Room Factor-P ,,,,"0F0102",RoomFactorCurve,,_16_RoomFactor,,,,
@@ -99,6 +106,18 @@ w,,SystemDate.Weekday, ,,,,"2101",,,_16_WeekDay,,,
 #28 01
 r9,,TypeOfConstructionMode,Construction method ,,,,"280102",TypeOfConstructionMode,,_16_Constructiontype,,,
 w,,TypeOfConstructionMode, ,,,,"2801",,,_16_Constructiontype,,,
+
+#29 01
+r,,NormalSplSetTemp,115 Normal SPL-Set,,,,"290102",NormalSplSetTemp,,_16_Temp10,,,
+w,,NormalSplSetTemp,115 Normal SPL-Set,,,,"2901",NormalSplSetTemp,,_16_Temp10,,,
+
+#2A 01
+r,,ReducedSplSetTemp,116 Reduced SPL-Set,,,,"2A0102",ReducedSplSetTemp,,_16_Temp10,,,
+w,,ReducedSplSetTemp,116 Reduced SPL-Setl,,,,"2A01",ReducedSplSetTemp,,_16_Temp10,,,
+
+#3D 01
+r,,HolidayTempLevel,142 Holiday Temperature Level,,,,"3D0102",HolidayTempLevel,,_16_Temp10,,,
+w,,HolidayTempLevel,142 Holiday Temperature Level,,,,"3D01",HolidayTempLevel,,_16_Temp10,,,
 
 #1C 0A 
 r,,RoomThermostatTemp,Room thermostat ,,,,"1C0A02",RoomThermostatTemp,,_16_Temp1,,,
