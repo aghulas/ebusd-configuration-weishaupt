@@ -33,10 +33,6 @@ w,,SwitchOnRuntime, ,,,,"1001",,,_16_Minutes,,,
 r,,AdaptionMode,Adaption (507) ,,,,"150102",AdaptionMode,,_16_OnOff,,,
 w,,AdaptionMode, ,,,,"1501",,,_16_OnOff,,,
 
-#2B 01
-r,,SupplyMinTemp,Minimum Supply Temperature (421) ,,,,"2B0102",SupplyMinTemp,,_16_Temp10,,,
-w,,SupplyMinTemp, ,,,,"2B01",SupplyMinTemp,,_16_Temp10,,,
-
 #2D 01
 r9,,HolidayTemp,Holiday temperature (183) ,,,,"2D0102",,,_16_TempReduced,,,
 w,,HolidayTemp, ,,,,"2D01",,,_16_TempReduced,,,
