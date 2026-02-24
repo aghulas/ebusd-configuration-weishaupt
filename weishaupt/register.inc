@@ -358,9 +358,11 @@ r,,OutsideWeightedTemp,Blended Outside Temperature ,,,,"0C0A02",OutsideWeightedT
 
 #12 0A
 r,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
+w,,FloorDryingDay,Screed day (382) ,,,,"120A",FloorDryingDay,,_16_Day,,,
 
 #13 0A
 r,,FloorDryingTemp,Screed temperature (383) ,,,,"130A02",FloorDryingTemp,,_16_Temp1,,,
+w,,FloorDryingTemp,Screed temperature (383) ,,,,"130A",FloorDryingTemp,,_16_Day,,,
 
 #20 0A
 r,,FS_EM_W1_Sensor, ,,,,"200A02",FS_EM_W1_Sensor,,UIN,,,

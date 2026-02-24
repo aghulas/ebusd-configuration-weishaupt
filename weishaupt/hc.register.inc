@@ -163,6 +163,7 @@ w,,RoomThermostatTemp, ,,,,"1C0A",,,_16_Temp1,,,
 
 #12 0A
 r,,FloorDryingDay,Screed day (382) ,,,,"120A02",FloorDryingDay,,_16_Day,,,
+w,,FloorDryingDay,Screed day (382) ,,,,"120A",FloorDryingDay,,_16_Day,,,
 
 #14 0A
 r9,,RoomFrostProtectionTemp,Room frost protection ,,,,"140A02",RoomFrostProtectionTemp,,_16_Temp10,,,
