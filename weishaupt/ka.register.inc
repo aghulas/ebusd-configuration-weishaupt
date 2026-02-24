@@ -460,8 +460,8 @@ r,,Error.Month,Error Date Month ,,,,"A20B02",,,_16_Month,,,
 r,,Error.Year,Error Date Year ,,,,"A30B02",,,_16_Year,,,
 
 #1F 0C
-r,,R0C1F, ,,,,"210C02",,,UIN,,,
-w,,R0C1F, ,,,,"210C",,,UIN,,,
+r,,R0C1F, ,,,,"1F0C02",,,UIN,,,
+w,,R0C1F, ,,,,"1F0C",,,UIN,,,
 
 #21 0C
 r,,R210C, ,,,,"210C02",,,UIN,,,
