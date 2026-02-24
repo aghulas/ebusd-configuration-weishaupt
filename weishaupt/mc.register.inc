@@ -41,14 +41,6 @@ w,,HolidayTemp, ,,,,"2D01",,,_16_TempReduced,,,
 r9,,WtcDelayRuntime,WTC delay(430) ,,,,"2E0102",WtcDelayRuntime,,_16_Minutes,,,
 w,,WtcDelayRuntime, ,,,,"2E01",,,_16_Minutes,,,
 
-#2F 01
-r,,PumpMaxSpeed,Max Pump speed (358) ,,,,"2F0102",PumpMaxSpeed,,_16_Percent,,,
-w,,PumpMaxSpeed, ,,,,"2F01",,,_16_Percent,,
-
-#30 01,
-r,,PumpMinSpeed,Min Pump speed (359) ,,,,"300102",PumpMinSpeed,,_16_Percent,,,
-w,,PumpMinSpeed, ,,,,"3001",,,_16_Percent,,,
-
 #31 01
 r,,PumpVSDvariable,VSD variable (429) ,,,,"310102",PumpVSDvariable,,_16_PumpVariationSpeed,,,
 w,,PumpVSDvariable, ,,,,"3101",,,_16_PumpVariationSpeed,,,
