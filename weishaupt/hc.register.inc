@@ -196,12 +196,6 @@ w,,RoomFrostProtectionTemp, ,,,,"140A",,,_16_Temp10,,,
 #0C 0A
 #r,,OutsideWeightedTemp,Blended Outside Temperature ,,,,"0C0A02",OutsideWeightedTemp,,_16_Temp10,,,
 
-#12 0A
-#r,,FloorDryingDay,Screed day ,,,,"120A02",FloorDryingDay,,_16_Day,,,
-
-#13 0A
-#r,,FloorDryingTemp,Screed temperature ,,,,"130A02",FloorDryingTemp,,_16_Temp1,,,
-
 #9A 0B
 r,,Error.Id, ,,,,"9A0B02",Error.Id,,UIN,,,
 w,,Error.Id, ,,,,"9A0B",Error.Id,,UIN,,,
