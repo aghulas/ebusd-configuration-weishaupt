@@ -65,13 +65,13 @@ w,,ModulationStatus, ,,,,"2C00",,,_16_Percent,,,
 r,,DHWExceeded,576 DHW exceeded ,,,,"2D0002",DHWExceeded,,_16_Temp10,,,
 w,,DHWExceeded,576 DHW exceeded ,,,,"2D00",DHWExceeded,,_16_Temp10,,,
 
-#76 00
-r,,DHWExceeded,Calorifier Top Temp B20 ,,,,"760002",DHWExceeded,,_16_Temp10,,,
-w,,DHWExceeded,Calorifier Top Temp B20 ,,,,"7600",DHWExceeded,,_16_Temp10,,,
+##76 00
+r,,ColorifierTopTemp,Calorifier Top Temp B20 ,,,,"760002",ColorifierTopTemp,,_16_Temp10,,,
+w,,ColorifierTopTemp,Calorifier Top Temp B20 ,,,,"7600",ColorifierTopTemp,,_16_Temp10,,,
 
 #78 00
-r,,DHWExceeded,Calorifier Bottom Temp B21 ,,,,"780002",DHWExceeded,,_16_Temp10,,,
-w,,DHWExceeded,Calorifier Bottom Temp B21 ,,,,"7800",DHWExceeded,,_16_Temp10,,,
+r,,ColorifierBottomTemp,Calorifier Bottom Temp B21 ,,,,"780002",ColorifierBottomTemp,,_16_Temp10,,,
+w,,ColorifierBottomTemp,Calorifier Bottom Temp B21 ,,,,"7800",ColorifierBottomTemp,,_16_Temp10,,,
 
 #01 01
 r9,,DHWLegionellaDay,Legionella Protection Function (605) ,,,,"010102",DHWLegionellaDay,,_16_Legionelladay,,,
