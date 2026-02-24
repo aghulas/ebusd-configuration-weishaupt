@@ -46,9 +46,6 @@ r,,KaVersion, ,,,,"8F0102",KaVersion,,SIN,,,
 r,,FS_EM_W4_Sensor, ,,,,"850202",FS_EM_W4_Sensor,,UIN,,,
 w,,FS_EM_W4_Sensor, ,,,,"8502",FS_EM_W4_Sensor,,UIN,,,
 
-#59 03
-r,,FS_EM_R2_Sensor, ,,,,"590302",FS_EM_R2_Sensor,,UIN,,,
-
 #E9 04
 r,,B3Sensor, ,,,,"E90402",B3Sensor,,_16_Temp10,,,
 
