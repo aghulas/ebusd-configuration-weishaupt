@@ -852,7 +852,6 @@ w,,CircRuntimeProgram.Su.2,Circulation Program Sunday 2 To/From ,,,,"711A",,,_7_
 r,,CircRuntimeProgram.Su.3,Circulation Program Sunday 3 To/From ,,,,"721A02",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 w,,CircRuntimeProgram.Su.3,Circulation Program Sunday 3 To/From ,,,,"721A",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 
-
 #04 76
 r,,UnknownSensor11, ,,,,"047602",UnknownSensor11,,UIN,,,
 w,,UnknownSensor11, ,,,,"0476",UnknownSensor11,,UIN,,,
@@ -860,6 +859,112 @@ w,,UnknownSensor11, ,,,,"0476",UnknownSensor11,,UIN,,,
 #04 78
 r,,UnknownSensor12, ,,,,"047802",UnknownSensor12,,UIN,,,
 w,,UnknownSensor12, ,,,,"0478",UnknownSensor12,,UIN,,,
+
+#A4 FD
+r,,OutputMFA2, 522 Output MFA 2,,,,"A4FD02",OutputMFA2,,UIN,,,
+w,,OutputMFA2, 522 Output MFA 2,,,,"A4FD",OutputMFA2,,UIN,,,
+
+#C2 FD
+r,,InputN1, 526 Input N1,,,,"C2FD02",InputN1,,UIN,,,
+w,,InputN1, 526 Input N1,,,,"C2FD",InputN1,,UIN,,,
+
+#CA FD
+r,,BoilerSequence1.1, 533 Boiler Sequence 1 #1,,,,"CAFD02",BoilerSequence1.1,,_16_Temp1,,,
+w,,BoilerSequence1.1, 533 Boiler Sequence 1 #1,,,,"CAFD",BoilerSequence1.1,,_16_Temp1,,,
+
+#CB FD
+r,,BoilerSequence1.2, 533 Boiler Sequence 1 #2,,,,"CBFD02",BoilerSequence1.2,,_16_Temp1,,,
+w,,BoilerSequence1.2, 533 Boiler Sequence 1 #2,,,,"CBFD",BoilerSequence1.2,,_16_Temp1,,,
+
+#D4 FD
+r,,BoilerSequence2.1, 533 Boiler Sequence 2 #1,,,,"D4FD02",BoilerSequence2.1,,_16_Temp1,,,
+w,,BoilerSequence2.1, 533 Boiler Sequence 2 #1,,,,"D4FD",BoilerSequence2.1,,_16_Temp1,,,
+
+#D5 FD
+r,,BoilerSequence2.2, 533 Boiler Sequence 2 #2,,,,"D5FD02",BoilerSequence2.2,,_16_Temp1,,,
+w,,BoilerSequence2.2, 533 Boiler Sequence 2 #2,,,,"D5FD",BoilerSequence2.2,,_16_Temp1,,,
+
+#DE FD
+r,,SummerTimeFrom.Day, 593 SummerTime Start Day,,,,"DEFD02",,,_16_Day,,,
+w,,SummerTimeFrom.Day, 593 SummerTime Start Day,,,,"DEFD",,,_16_Day,,,
+
+#DF FD
+r,,SummerTimeFrom.Month, 593 SummerTime Start Month,,,,"DFFD02",,,_16_Month,,,
+w,,SummerTimeFrom.Month, 593 SummerTime Start Month,,,,"DFFD",,,_16_Month,,,
+
+#E0 FD
+r,,SummerTimeTo.Day, 594 SummerTime End Day,,,,"E0FD02",,,_16_Day,,,
+w,,SummerTimeTo.Day, 594 SummerTime End Day,,,,"E0FD",,,_16_Day,,,
+
+#E1 FD
+r,,SummerTimeTo.Month, 594 SummerTime End Month,,,,"E1FD02",,,_16_Month,,,
+w,,SummerTimeTo.Month, 594 SummerTime End Month,,,,"E1FD",,,_16_Month,,,
+
+#E2 FD
+r,,CalorfierSwitchDifference, 562 Calorfier Switch Difference,,,,"E2FD02",CalorfierSwitchDifference,,_16_Temp1,,,
+w,,CalorfierSwitchDifference, 562 Calorfier Switch Difference,,,,"E2FD",CalorfierSwitchDifference,,_16_Temp1,,,
+
+#E3 FD
+r,,CalorfierExceeded, 561 Calorfier exceeded,,,,"E3FD02",CalorfierExceeded,,_16_Temp1,,,
+w,,CalorfierExceeded, 561 Calorfier exceeded,,,,"E3FD",CalorfierExceeded,,_16_Temp1,,,
+
+#E6 FD
+r,,DeCoupleMax, 553 De-Couple Max,,,,"E6FD02",DeCoupleMax,,_16_Temp1,,,
+w,,DeCoupleMax, 553 De-Couple Max,,,,"E6FD",DeCoupleMax,,_16_Temp1,,,
+
+#E7 FD
+r,,DeCoupleMin, 552 De-Couple Min,,,,"E7FD02",DeCoupleMin,,_16_Temp1,,,
+w,,DeCoupleMin, 552 De-Couple Min,,,,"E7FD",DeCoupleMin,,_16_Temp1,,,
+
+#E8 FD
+r,,DeCoupleExceeded, 551 De-Couple Exceeded,,,,"E8FD02",DeCoupleExceeded,,_16_Temp1,,,
+w,,DeCoupleExceeded, 551 De-Couple Exceeded,,,,"E8FD",DeCoupleExceeded,,_16_Temp1,,,
+
+#E9 FD
+r,,ContTemp, 538 Cont. Temp,,,,"E9FD02",ContTemp,,_16_Temp1,,,
+w,,ContTemp, 538 Cont. Temp,,,,"E9FD",ContTemp,,_16_Temp1,,,
+
+#EA FD
+r,,ModulationMax, 536 Modulation Max,,,,"EAFD02",ModulationMax,,_16_Temp1,,,
+w,,ModulationMax, 536 Modulation Max,,,,"EAFD",ModulationMax,,_16_Temp1,,,
+
+#EB FD
+r,,ModulationMin, 535 Modulation Min,,,,EBFD02",ModulationMin,,_16_Temp1,,,
+w,,ModulationMin, 535 Modulation Min,,,,"EBFD",ModulationMin,,_16_Temp1,,,
+
+#EC FD
+r,,ChangeOverTime, 532 Change Over Time,,,,"ECFD02",ChangeOverTime,,_16_Temp1,,,
+w,,ChangeOverTime, 532 Change Over Time,,,,"ECFD",ChangeOverTime,,_16_Temp1,,,
+
+#ED FD
+r,,SequenceChangeMode, 531 Sequence Change Mode,,,,"EDFD02",SequenceChangeMode,,_16_Temp1,,,
+w,,SequenceChangeMode, 531 Sequence Change Mode,,,,"EDFD",SequenceChangeMode,,_16_Temp1,,,
+
+#EE FD
+r,,SpecialLevel, 525 Spectial Level,,,,"EEFD02",SpecialLevel,,_16_Temp1,,,
+w,,SpecialLevel, 525 Spectial Level,,,,"EEFD",SpecialLevel,,_16_Temp1,,,
+
+#EF FD
+r,,InputH1, 524 Input H1,,,,"EFFD02",InputH1,,_16_Temp1,,,
+w,,InputH1, 524 Input H1,,,,"EFFD",InputH1,,_16_Temp1,,,
+
+#F0 FD
+r,,VAStatus, VA Status,,,,"F0FD02",VAStatus,,_16_Temp1,,,
+
+#F1 FD
+r,,OutputVA, 523 Output VA,,,,"F1FD02",OutputVA,,_16_Temp1,,,
+w,,OutputVA, 523 Output VA,,,,"F1FD",OutputVA,,_16_Temp1,,,
+
+#F2 FD
+r,,MFA1Status, MFA 1 Status,,,,"F2FD02",MFA1Status,,_16_Temp1,,,
+
+#F3 FD
+r,,OutputMFA1, 521 Output MFA 1,,,,"F3FD02",OutputMFA1,,_16_Temp1,,,
+w,,OutputMFA1, 521 Output MFA 1,,,,"F3FD",OutputMFA1,,_16_Temp1,,,
+
+#F4 FD
+r,,LegioTime, 581 Legio Time	,,,,"F4FD02",LegioTime,,_16_Temp1,,,
+w,,LegioTime, 581 Legio Time	,,,,"F4FD",LegioTime,,_16_Temp1,,,
 
 #FB FD
 r,,UnknownSensor8, ,,,,"FBFD02",UnknownSensor8,,_16_Temp1,,,
