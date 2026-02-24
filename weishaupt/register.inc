@@ -272,10 +272,12 @@ r,,H1ControlVoltage, ,,,,"A90102",H1ControlVoltage,,UIN,,,
 r,,H1ControlCurrent, ,,,,"AA0102",H1ControlCurrent,,UIN,,,
 
 #BB 01
-r,,Starttemperatur,483 Starttemperatur ,,,,"BB0102",Starttemperatur,,UIN,,,
+r,,FHCMinTemp,483 Screed Start Temperature ,,,,"BB0102",FHCMinTemp,,_16_Temp10,,,
+w,,FHCMinTemp,483 Screed Start Temperature ,,,,"BB01",FHCMinTemp,,_16_Temp10,,,
 
 #BC 01
-r,,TagMinTempFhz, 484 Tag Min Temp Fhz,,,,"BC0102",TagMinTempFhz,,UIN,,,
+r,,FHCMinTempDays, 484 Tag Min Temp Fhz,,,,"BC0102",FHCMinTempDays,,UIN,,,
+w,,FHCMinTempDays,483 Screed Start Temperature ,,,,"BC01",FHCMinTempDays,,UIN,,,
 
 #74 02
 r,,ResetErrorMemory, ,,,,"7A0202",ResetErrorMemory,,UIN,,,
@@ -312,28 +314,28 @@ r,,FHCMaxTemp,485 Max Temperature FHC,,,,"9C0802",FHCMaxTemp,,_16_Temp10,,,
 w,,FHCMaxTemp,485 Max Temperature FHC ,,,,"9C08",FHCMaxTemp,,_16_Temp10,,,
 
 #9D 08
-r,,FHCMaxTempDays,486 Days Max Temperature FHC,,,,"9D0802",FHCMaxTempDays,,_16_Temp10,,,
-w,,FHCMaxTempDays,486 Days Max Temperature FHC,,,,"9D08",FHCMaxTempDays,,_16_Temp10,,,
+r,,FHCMaxTempDays,486 Days Max Temperature FHC,,,,"9D0802",FHCMaxTempDays,,UIN,,,
+w,,FHCMaxTempDays,486 Days Max Temperature FHC,,,,"9D08",FHCMaxTempDays,,UIN,,,
 
 #9E 08
-r,,FHCCoolingDays,487 Days Cooling FHC,,,,"9E0802",FHCCoolingDays,,_16_Temp10,,,
-w,,FHCCoolingDays,487 Days Cooling FHC,,,,"9E08",FHCCoolingDays,,_16_Temp10,,,
+r,,FHCCoolingDays,487 Days Cooling FHC,,,,"9E0802",FHCCoolingDays,,UIN,,,
+w,,FHCCoolingDays,487 Days Cooling FHC,,,,"9E08",FHCCoolingDays,,UIN,,,
 
 #9F 08
-r,,BHCHeatUpDays,488 Days Heat-Up BHC,,,,"9F0802",BHCHeatUpDays,,_16_Temp10,,,
-w,,BHCHeatUpDays,488 Days Heat-Up BHC,,,,"9F08",BHCHeatUpDays,,_16_Temp10,,,
+r,,BHCHeatUpDays,488 Days Heat-Up BHC,,,,"9F0802",BHCHeatUpDays,,UIN,,,
+w,,BHCHeatUpDays,488 Days Heat-Up BHC,,,,"9F08",BHCHeatUpDays,,UIN,,,
 
 #A0 08
 r,,BHCMaxTemp,489 Max Temperature BHC.,,,,"A00802",BHCMaxTemp,,_16_Temp10,,,
 w,,BHCMaxTemp,489 Max Temperature BHC,,,,"A008",BHCMaxTemp,,_16_Temp10,,,
 
 #A1 08
-r,,BHCMaxTempDays,490 Days Max Temperature BHC,,,,"A10802",BHCMaxTempDays,,_16_Temp10,,,
-w,,BHCMaxTempDays,490 Days Max Temperature BHC ,,,,"A108",BHCMaxTempDays,,_16_Temp10,,,
+r,,BHCMaxTempDays,490 Days Max Temperature BHC,,,,"A10802",BHCMaxTempDays,,UIN,,,
+w,,BHCMaxTempDays,490 Days Max Temperature BHC ,,,,"A108",BHCMaxTempDays,,UIN,,,
 
 #A2 08
-r,,BHCCoolingDays,491 Days Cooling BHC,,,,"A20802",BHCCoolingDays,,_16_Temp10,,,
-w,,BHCCoolingDays,491 Days Cooling BHC,,,,"A208",BHCCoolingDays,,_16_Temp10,,,
+r,,BHCCoolingDays,491 Days Cooling BHC,,,,"A20802",BHCCoolingDays,,UIN,,,
+w,,BHCCoolingDays,491 Days Cooling BHC,,,,"A208",BHCCoolingDays,,UIN,,,
 
 #73 09
 r,,HCTypeMode,Heating Circuit Type (316) ,,,,"730902",HCTypeMode,,_16_HCType,,,
