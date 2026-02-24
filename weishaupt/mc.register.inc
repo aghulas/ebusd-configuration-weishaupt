@@ -62,7 +62,3 @@ w,,FS_EM_W1_Sensor, ,,,,"200A",FS_EM_W1_Sensor,,UIN,,,
 
 #29 0A
 r,,H1Status, ,,,,"290A02",H1Status,,_8_H1Status,,,
-
-#FB FD
-r9,,UnknownSensor8, ,,,,"FBFD02",UnknownSensor8,,_16_Temp1,,,
-w,,UnknownSensor8, ,,,,"FBFD",UnknownSensor8,,_16_Temp1,,,
