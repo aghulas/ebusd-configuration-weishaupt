@@ -81,10 +81,6 @@ r,,FS_EM_R2_Sensor, ,,,,"590302",FS_EM_R2_Sensor,,UIN,,,
 #E9 04
 r,,B3Sensor, ,,,,"E90402",B3Sensor,,_16_Temp10,,,
 
-#73 09
-r,,HCTypeMode,Heating Circuit Type (316) ,,,,"730902",HCTypeMode,,_16_HCType,,,
-w,,HCTypeMode, ,,,,"7309",HCTypeMode,,_16_HCType,,,
-
 #81 09
 r,,FS_EM_W5_Sensor, ,,,,"B10902",FS_EM_W5_Sensor,,UIN,,,
 w,,FS_EM_W5_Sensor, ,,,,"B109",FS_EM_W5_Sensor,,UIN,,,

@@ -337,9 +337,13 @@ w,,BHCMaxTempDays,490 Days Max Temperature BHC ,,,,"A108",BHCMaxTempDays,,UIN,,,
 r,,BHCCoolingDays,491 Days Cooling BHC,,,,"A20802",BHCCoolingDays,,UIN,,,
 w,,BHCCoolingDays,491 Days Cooling BHC,,,,"A208",BHCCoolingDays,,UIN,,,
 
+#71 09
+r,,RoomFactorI,Room factor-I ,,,,"710902",RoomFactorI,,UIN,,,
+w,,RoomFactorI,Room factor-I ,,,,"7109",RoomFactorI,,UIN,,,
+
 #73 09
-r,,HCTypeMode,Heating Circuit Type (316) ,,,,"730902",HCTypeMode,,_16_HCType,,,
-w,,HCTypeMode, ,,,,"7309",HCTypeMode,,_16_HCType,,,
+r,,HCTypeMode,316 Heating Circuit Type,,,,"730902",HCTypeMode,,_16_HCType,,,
+w,,HCTypeMode,316 Heating Circuit Type,,,,"7309",HCTypeMode,,_16_HCType,,,
 
 #81 09
 r,,LegionellaCirculationTime,583 Circ time ,,,,"B10902",LegionellaCirculationTime,,UIN,,,

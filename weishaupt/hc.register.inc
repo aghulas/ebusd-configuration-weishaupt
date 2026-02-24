@@ -36,6 +36,10 @@ r9,,RoomSetPointTemp,Room setpoint ,,,,"120002",RoomSetPointTemp,,_16_Temp10,,,
 #1A 00
 r5,,OutsideBlendedTemp,Weighted Outside Temperature ,,,,"1A0A02",OutsideBlendedTemp,,_16_Temp10,,,
 
+#23 00
+r,,WWOperationMode,WW Operation (343),,,,"230002",WWOperationMode,,_16_WWOp,,,
+w,,WWOperationMode, ,,,,"2300",WWOperationMode,,_16_WWOp,,,
+
 #28 00
 r,,SupplyMaxTemp,Maximum Supply Temperature (422) ,,,,"280002",SupplyMaxTemp,,_16_Temp10,,,
 w,,SupplyMaxTemp, ,,,,"2800",SupplyMaxTemp,,_16_Temp10,,,
@@ -117,6 +121,18 @@ w,,NormalSplSetTemp,115 Normal SPL-Set,,,,"2901",NormalSplSetTemp,,_16_Temp10,,,
 r,,ReducedSplSetTemp,116 Reduced SPL-Set,,,,"2A0102",ReducedSplSetTemp,,_16_Temp10,,,
 w,,ReducedSplSetTemp,116 Reduced SPL-Setl,,,,"2A01",ReducedSplSetTemp,,_16_Temp10,,,
 
+#2B 01
+r,,SupplyMinTemp,Minimum Supply Temperature (421) ,,,,"2B0102",SupplyMinTemp,,_16_Temp10,,,
+w,,SupplyMinTemp, ,,,,"2B01",SupplyMinTemp,,_16_Temp10,,,
+
+#2F 01
+r,,PumpMaxSpeed,Max Pump speed (358) ,,,,"2F0102",PumpMaxSpeed,,_16_Percent,,,
+w,,PumpMaxSpeed, ,,,,"2F01",,,_16_Percent,,
+
+#30 01,
+r,,PumpMinSpeed,Min Pump speed (359) ,,,,"300102",PumpMinSpeed,,_16_Percent,,,
+w,,PumpMinSpeed, ,,,,"3001",,,_16_Percent,,,
+
 #3D 01
 r,,HolidayTempLevel,142 Holiday Temperature Level,,,,"3D0102",HolidayTempLevel,,_16_Temp10,,,
 w,,HolidayTempLevel,142 Holiday Temperature Level,,,,"3D01",HolidayTempLevel,,_16_Temp10,,,
@@ -156,6 +172,14 @@ w,,BHCMaxTempDays,490 Days Max Temperature BHC ,,,,"A108",BHCMaxTempDays,,UIN,,,
 #A2 08
 r,,BHCCoolingDays,491 Days Cooling BHC,,,,"A20802",BHCCoolingDays,,UIN,,,
 w,,BHCCoolingDays,491 Days Cooling BHC,,,,"A208",BHCCoolingDays,,UIN,,,
+
+#71 09
+r,,RoomFactorI,Room factor-I ,,,,"710902",RoomFactorI,,UIN,,,
+w,,RoomFactorI,Room factor-I ,,,,"7109",RoomFactorI,,UIN,,,
+
+#73 09
+r,,HCTypeMode,316 Heating Circuit Type,,,,"730902",HCTypeMode,,_16_HCType,,,
+w,,HCTypeMode,316 Heating Circuit Type,,,,"7309",HCTypeMode,,_16_HCType,,,
 
 #1C 0A 
 r,,RoomThermostatTemp,Room thermostat ,,,,"1C0A02",RoomThermostatTemp,,_16_Temp1,,,
