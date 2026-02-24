@@ -34,9 +34,6 @@ w,,DHWMode, ,,,,"3501",,,_16_DhwMode,,,
 r9,,DHWOperationMode,WW operation (360) ,,,,"370102",DHWOperationMode,,_16_DHWOperationMode,,,
 w,,DHWOperationMode, ,,,,"3701",,,_16_DHWOperationMode,,,
 
-#99 01
-r,,Version, ,,,,"990102",Version,,UIN,,,
-
 #A9 01
 r,,H1ControlVoltage, ,,,,"A90102",H1ControlVoltage,,UIN,,,
 
