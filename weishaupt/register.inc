@@ -74,13 +74,17 @@ r,,ValveOpening,B3 DHW Sensor Temperature ,,,,"560002",ValveOpening,,_16_OnOff,,
 #57 00
 r,,ValveClosing,B3 DHW Sensor Temperature ,,,,"570002",ValveClosing,,_16_OnOff,,,
 
-##76 00
+#76 00
 r,,ColorifierTopTemp,Calorifier Top Temp B20 ,,,,"760002",ColorifierTopTemp,,_16_Temp10,,,
 w,,ColorifierTopTemp,Calorifier Top Temp B20 ,,,,"7600",ColorifierTopTemp,,_16_Temp10,,,
 
 #78 00
 r,,ColorifierBottomTemp,Calorifier Bottom Temp B21 ,,,,"780002",ColorifierBottomTemp,,_16_Temp10,,,
 w,,ColorifierBottomTemp,Calorifier Bottom Temp B21 ,,,,"7800",ColorifierBottomTemp,,_16_Temp10,,,
+
+#81 00
+r,,ReductionSolarYied,114 Target value reduction for solar yield ,,,,"810002",ReductionSolarYied,,_16_TempK10,,,
+w,,ReductionSolarYied, ,,,,"8100",ReductionSolarYied,,_16_TempK10,,,
 
 #01 01
 r9,,DHWLegionellaDay,Legionella Protection Function (605) ,,,,"010102",DHWLegionellaDay,,_16_Legionelladay,,,

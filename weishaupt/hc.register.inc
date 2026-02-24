@@ -40,6 +40,10 @@ r5,,OutsideBlendedTemp,Weighted Outside Temperature ,,,,"1A0A02",OutsideBlendedT
 r,,SupplyMaxTemp,Maximum Supply Temperature (422) ,,,,"280002",SupplyMaxTemp,,_16_Temp10,,,
 w,,SupplyMaxTemp, ,,,,"2800",SupplyMaxTemp,,_16_Temp10,,,
 
+#81 00
+r,,ReductionSolarYied,114 Target value reduction for solar yield ,,,,"810002",ReductionSolarYied,,_16_TempK10,,,
+w,,ReductionSolarYied, ,,,,"8100",ReductionSolarYied,,_16_TempK10,,,
+
 #0F 01
 r9,,RoomFactorCurve,Room Factor-P ,,,,"0F0102",RoomFactorCurve,,_16_RoomFactor,,,,
 w,,RoomFactorCurve, ,,,,"0F01",,,_16_RoomFactor,,,,
