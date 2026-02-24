@@ -307,6 +307,34 @@ r,,B3Sensor, ,,,,"E90402",B3Sensor,,_16_Temp10,,,
 r,,LegionellaSetupTemp,580 AntiLeg Setp Temp. ,,,,"870502",LegionellaSetupTemp,,_16_Temp10,,,
 w,,LegionellaSetupTemp,580 AntiLeg Setp Temp. ,,,,"8705",LegionellaSetupTemp,,_16_Temp10,,,
 
+#9C 08
+r,,FHCMaxTemp,485 Max Temperature FHC,,,,"9C0802",FHCMaxTemp,,_16_Temp10,,,
+w,,FHCMaxTemp,485 Max Temperature FHC ,,,,"9C08",FHCMaxTemp,,_16_Temp10,,,
+
+#9D 08
+r,,FHCMaxTempDays,486 Days Max Temperature FHC,,,,"9D0802",FHCMaxTempDays,,_16_Temp10,,,
+w,,FHCMaxTempDays,486 Days Max Temperature FHC,,,,"9D08",FHCMaxTempDays,,_16_Temp10,,,
+
+9E 08
+r,,FHCCoolingDays,487 Days Cooling FHC,,,,"9E0802",FHCCoolingDays,,_16_Temp10,,,
+w,,FHCCoolingDays,487 Days Cooling FHC,,,,"9E08",FHCCoolingDays,,_16_Temp10,,,
+
+9F 08
+r,,BHCHeatUpDays,488 Days Heat-Up BHC,,,,"9F0802",BHCHeatUpDays,,_16_Temp10,,,
+w,,BHCHeatUpDays,488 Days Heat-Up BHC,,,,"9F08",BHCHeatUpDays,,_16_Temp10,,,
+
+A0 08
+r,,BHCMaxTemp,489 Max Temperature BHC.,,,,"A00802",BHCMaxTemp,,_16_Temp10,,,
+w,,BHCMaxTemp,489 Max Temperature BHC,,,,"A008",BHCMaxTemp,,_16_Temp10,,,
+
+A1 08
+r,,BHCMaxTempDays,490 Days Max Temperature BHC,,,,"A10802",BHCMaxTempDays,,_16_Temp10,,,
+w,,BHCMaxTempDays,490 Days Max Temperature BHC ,,,,"A108",BHCMaxTempDays,,_16_Temp10,,,
+
+A2 08
+r,,BHCCoolingDays,491 Days Cooling BHC,,,,"A20802",BHCCoolingDays,,_16_Temp10,,,
+w,,BHCCoolingDays,491 Days Cooling BHC,,,,"A208",BHCCoolingDays,,_16_Temp10,,,
+
 #73 09
 r,,HCTypeMode,Heating Circuit Type (316) ,,,,"730902",HCTypeMode,,_16_HCType,,,
 w,,HCTypeMode, ,,,,"7309",HCTypeMode,,_16_HCType,,,
