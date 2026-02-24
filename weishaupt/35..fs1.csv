@@ -9,4 +9,4 @@ bw,,Id,answer to identification query,,,"0704",,mf,,UCH,6=Dungs;15=FH Ostfalia;1
 cw,,PowerDemand,Heat Demand,,,0507,,Status,,_8_Opdataheat1,,, ,Action,,_8_Opdataaction,,, ,HeatDemandTemp,,_16_Temp2,,, ,SetPressure,,_16_Skip,,, ,Modulation,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Skip,,,
 cw,,BootInfo,BootInfo ->KA,,,"5009",,Init,,UCH,,, ,,,
 
-!include,hc.register.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+!include,fs.register.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

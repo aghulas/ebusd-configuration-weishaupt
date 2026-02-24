@@ -5,4 +5,4 @@
 b,,FsStatus,Actual Values HC3,,,"5010",,RoomTemp,m,_16_Temp0,,,Room Temperature ,ProgramState,m,_8_ProgramState,,,Status Heizprogramm ,Byte3,m,UCH,,,REQ ,HeatDemandTemp,s,_8_Temp2,,,Wärmeanforderung HK ,SupplySetTemp,s,_8_Temp2,,,Vorlaufsollwert HC ,SupplyTemp,s,_8_Temp2,,,Vorlauftemperatur HC ,OutsideTemp,s,_8_Temp1,,,Außentemperatur ,OutsideWeightedTemp,s,_8_Temp1,,,Outside Blended Temperature ,Status,s,_8_Opdataheat2,,,Statusanforderung ,ByteA,s,UCH,,, ,ByteB,s,UCH,,, ,ByteC,s,UCH,,,
 
 !include,5014.inc,,Exch values ​​HC2->EM#2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,mc.register.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+!include,em.register.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
