@@ -64,6 +64,7 @@ _16_Temp10,SIN,10,°C,Temperature
 _16_TempK10,SIN,10,K,Temperature Kelvin
 _16_TempReduced,UIN,0x0000=Antifreeze;0x0001=Setback;32768=Na,,
 _16_Skip,IGN:2,,,
+_16_BoilerID,UIN,0x0000=A;0x0100=B;0xF00=--,,
 
 _24_Counter,U3N,,,
 _24_Hours,U3N,,h,Hour
