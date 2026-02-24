@@ -263,7 +263,3 @@ w,,CircRuntimeProgram.Su.2,Circulation Program Sunday 2 To/From ,,,,"711A",,,_7_
 #72 1A
 r,,CircRuntimeProgram.Su.3,Circulation Program Sunday 3 To/From ,,,,"721A02",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 w,,CircRuntimeProgram.Su.3,Circulation Program Sunday 3 To/From ,,,,"721A",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
-
-#FB FD
-r,,UnknownSensor8, ,,,,"FBFD02",UnknownSensor8,,UIN,,,
-w,,UnknownSensor8, ,,,,"FBFD",UnknownSensor8,,UIN,,,
