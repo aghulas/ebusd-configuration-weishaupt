@@ -130,6 +130,13 @@ r,,UnknownSensor13, ,,,,"A90102",UnknownSensor13,,UIN,,,
 #AA 01
 r,,UnknownSensor14, ,,,,"AA0102",UnknownSensor14,,UIN,,,
 
+#9E 02
+r,,RegulationI, 540 I Regler,,,,"9E0202",RegulationI,,UIN,,,
+w,,RegulationI, 540 I Regler,,,,"9E02",RegulationI,,UIN,,,
+
+#9F 02
+r,,RegulationP, 539 1/P Regler,,,,"9F0202",RegulationP,,UIN,,,
+w,,RegulationP, 539 1/P Regler,,,,"9F02",RegulationP,,UIN,,,
 
 #59 03
 r,,FS_EM_R2_Sensor, ,,,,"590302",FS_EM_R2_Senror,,UIN,,,
