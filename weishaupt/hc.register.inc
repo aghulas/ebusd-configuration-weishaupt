@@ -3,6 +3,7 @@
 *r,,,,,,"0902",,,,,,,
 *w,,,,,,"0903",,,,,,,
 
+
 #01 00
 r,,ErrorStatus,Error Status ,,,,"010002",ErrorCode,,UIN,,,
 
@@ -25,6 +26,9 @@ r,,SupplyWTCTemp,Flow temperature WTC ,,,,"0D0002",SupplyWTCTemp,,_16_Temp10,,,
 
 #0B 00
 r,,UnknownSensor15, ,,,,"0B0002",UnknownSensor15,,UIN,,,
+
+#0C 00
+r,,OutsideTemp,B1 Outside Sensor Temperature,,,,"0C0002",OutsideTemp,,_16_Temp10,,,
 
 #10 00
 r,,ConfigStatus,Configuration Status,,,,"100002",ConfigCode,,UIN,,,
@@ -158,6 +162,15 @@ w,,FHCMinTemp,483 Screed Start Temperature ,,,,"BB01",FHCMinTemp,,_16_Temp10,,,
 #BC 01
 r,,FHCMinTempDays, 484 Tag Min Temp Fhz,,,,"BC0102",FHCMinTempDays,,UIN,,,
 w,,FHCMinTempDays,483 Screed Start Temperature ,,,,"BC01",FHCMinTempDays,,UIN,,,
+
+#9A 01
+r,,Version2, ,,,,"9A0102",Version2,,UIN,,,
+
+#99 01
+r,,Version, ,,,,"990102",Version,,UIN,,,
+
+#59 03
+r,,FS_EM_R2_Sensor, ,,,,"590302",FS_EM_R2_Senror,,UIN,,,
 
 #14 06
 r,,WTCDelay,370 Delay WTC,,,,"140602",WTCDelay,,_16_Minutes,,,
@@ -577,3 +590,7 @@ w,,HCRuntimeProgram3.Su.2,Heating Program3 Sunday 2 To/From ,,,,"7116",,,_7_Time
 #72 16
 r,,HCRuntimeProgram3.Su.3,Heating Program3 Sunday 3 To/From ,,,,"721602",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
 w,,HCRuntimeProgram3.Su.3,Heating Program3 Sunday 3 To/From ,,,,"7216",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,,
+
+#FB FD
+r,,UnknownSensor8, ,,,,"FBFD02",UnknownSensor8,,UIN,,,
+w,,UnknownSensor8, ,,,,"FBFD",UnknownSensor8,,UIN,,,
