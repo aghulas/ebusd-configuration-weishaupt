@@ -143,10 +143,10 @@ w,,DHWOperationMode, ,,,,"3701",,,_16_DHWOperationMode,,,
 r,,Version, ,,,,"990102",Version,,UIN,,,
 
 #A9 01
-r,,UnknownSensor13, ,,,,"A90102",UnknownSensor13,,UIN,,,
+r,,H1ControlVoltage, ,,,,"A90102",H1ControlVoltage,,UIN,,,
 
 #AA 01
-r,,UnknownSensor14, ,,,,"AA0102",UnknownSensor14,,UIN,,,
+r,,H1ControlCurrent, ,,,,"AA0102",H1ControlCurrent,,UIN,,,
 
 #1C 0A 
 r,,RoomThermostatTemp,Room thermostat (344) ,,,,"1C0A02",RoomThermostatTemp,,_16_Temp1,,,

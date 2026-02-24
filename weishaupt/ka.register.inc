@@ -27,7 +27,7 @@ w,,RoomSetbackTemp, ,,,,"0800",,,_16_Temp10,,,
 r,,OutsideTemp,B1 Outside Sensor Temperature,,,,"0C0002",OutsideTemp,,_16_Temp10,,,
 
 #0D 00
-r,,SupplyWTCTemp,Flow temperature WTC ,,,,"0D0002",SupplyWTCTemp,,_16_Temp10,,,
+r,,SupplyWTCTemp, B22 Flow temperature WTC ,,,,"0D0002",SupplyWTCTemp,,_16_Temp10,,,
 
 #0E 00
 r,,DHWTemp,B3 DHW Sensor Temperature ,,,,"0E0002",DHWTemp,,_16_Temp10,,,
@@ -157,10 +157,10 @@ w,,DHWMaxTemp2,574 DHW-Max,,,,"8101",DHWMaxTemp2,,_16_Temp10,,,
 r,,Version, ,,,,"990102",Version,,UIN,,,
 
 #A9 01
-r,,UnknownSensor13, ,,,,"A90102",UnknownSensor13,,UIN,,,
+r,,H1ControlVoltage, ,,,,"A90102",H1ControlVoltage,,UIN,,,
 
 #AA 01
-r,,UnknownSensor14, ,,,,"AA0102",UnknownSensor14,,UIN,,,
+r,,H1ControlCurrent, ,,,,"AA0102",H1ControlCurrent,,UIN,,,
 
 #8A 02
 r,,DHWMinTemp2,573 DHW Min Temp,,,,"8A0202",DHWMinTemp2,,_16_Temp10,,,
@@ -215,7 +215,7 @@ r,,PWTPrimTemp, PWT Primaire Exch B24,,,,"400A02",PWTPrimTemp,,_16_Temp10,,,
 r,,H1Function,331 H1 Function ,,,,"5B0A02",H1Function,,UIN,,,
 
 #8E 0A
-r,,MFA2Status,MFA2 Actual ,,,,"8E0A02",MFA2Status,,UIN,,,
+r,,MFA2Status,MFA2 Actual ,,,,"8E0A02",MFA2Status,,_16_OnOff,,,
 
 #9A 0B
 r,,Error.Id, ,,,,"9A0B02",Error.Id,,UIN,,,
@@ -566,14 +566,14 @@ r,,InputH1, 524 Input H1,,,,"EFFD02",InputH1,,_16_Temp1,,,
 w,,InputH1, 524 Input H1,,,,"EFFD",InputH1,,_16_Temp1,,,
 
 #F0 FD
-r,,VAStatus, VA Status,,,,"F0FD02",VAStatus,,_16_Temp1,,,
+r,,VAStatus, VA Status,,,,"F0FD02",VAStatus,,_16_OnOff,,,
 
 #F1 FD
 r,,OutputVA, 523 Output VA,,,,"F1FD02",OutputVA,,_16_Temp1,,,
 w,,OutputVA, 523 Output VA,,,,"F1FD",OutputVA,,_16_Temp1,,,
 
 #F2 FD
-r,,MFA1Status, MFA 1 Status,,,,"F2FD02",MFA1Status,,_16_Temp1,,,
+r,,MFA1Status, MFA 1 Status,,,,"F2FD02",MFA1Status,,_16_OnOff,,,
 
 #F3 FD
 r,,OutputMFA1, 521 Output MFA 1,,,,"F3FD02",OutputMFA1,,_16_Temp1,,,

@@ -38,10 +38,10 @@ w,,DHWOperationMode, ,,,,"3701",,,_16_DHWOperationMode,,,
 r,,Version, ,,,,"990102",Version,,UIN,,,
 
 #A9 01
-r,,UnknownSensor13, ,,,,"A90102",UnknownSensor13,,UIN,,,
+r,,H1ControlVoltage, ,,,,"A90102",H1ControlVoltage,,UIN,,,
 
 #AA 01
-r,,UnknownSensor14, ,,,,"AA0102",UnknownSensor14,,UIN,,,
+r,,H1ControlCurrent, ,,,,"AA0102",H1ControlCurrent,,UIN,,,
 
 #10;11;12 17
 r,,DHWRuntimeProgram.Mo,Hot Water Program Monday ,,,,"101702;111702;121702",,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, ,,,_7_TimeTo,,, ,,,_1_TimeTo,,, ,,,_7_TimeFrom,,, ,,,_1_TimeFrom,,, 
