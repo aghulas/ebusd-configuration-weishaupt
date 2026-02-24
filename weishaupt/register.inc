@@ -973,8 +973,8 @@ r,,OutputMFA1, 521 Output MFA 1,,,,"F3FD02",OutputMFA1,,_16_Temp1,,,
 w,,OutputMFA1, 521 Output MFA 1,,,,"F3FD",OutputMFA1,,_16_Temp1,,,
 
 #F4 FD
-r,,LegioTime, 581 Legio Time	,,,,"F4FD02",LegioTime,,_16_Temp1,,,
-w,,LegioTime, 581 Legio Time	,,,,"F4FD",LegioTime,,_16_Temp1,,,
+r,,LegionellaTime, 581 Legio Time	,,,,"F4FD02",LegionellaTime,,TTQ,,,
+w,,LegionellaTime, 581 Legio Time	,,,,"F4FD",LegionellaTime,,TTQ,,,
 
 #FB FD
 r,,UnknownSensor8, ,,,,"FBFD02",UnknownSensor8,,_16_Temp1,,,
