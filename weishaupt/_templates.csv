@@ -21,7 +21,9 @@ _8_SettingUV,UCH,0x00=HZ,,Position UV
 _8_Skip,IGN:1,,,
 _8_Status,UCH,,,Status 0x500A-Broadcast
 _8_Temp0,UCH,,°C,Temperature
+_8_Temp0K,UCH,,K,Temperature
 _8_Temp1,SCH,,°C,Temperature
+_8_Temp1K,SCH,,L,Temperature
 _8_Temp10,SCH,10,°C,Temperature
 _8_Temp2,D1C,,°C,Temperature
 _8_Temp2K,D1C,,K,Temperature
