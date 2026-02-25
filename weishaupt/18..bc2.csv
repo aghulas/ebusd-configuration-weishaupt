@@ -15,4 +15,4 @@ dw,,PowerDemand,Heat Demand ->WTC,,,0507,,Status,,_8_Opdataheat1,,, ,Action,,_8_
 !include,wtc.processvalues.inc,,Process Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 !include,wtc.manufacturer.inc,,Process Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 !include,wtc.statistic.inc,,Statistics,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-#!include,wtc.systemheatcontrol.inc,,System Heat Control Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+!include,wtc.systemheatcontrol.inc,,System Heat Control Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
