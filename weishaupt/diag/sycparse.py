@@ -76,7 +76,7 @@ def parse_syc_file(filepath):
 # ==========================================
 if __name__ == "__main__":
     # Point this to one of the files you uploaded earlier, like WH11928.SYC
-    file_to_parse = "0051366.SYC" 
+    file_to_parse = "WH11928.SYC" 
     
     if os.path.exists(file_to_parse):
         parsed_data = parse_syc_file(file_to_parse)
