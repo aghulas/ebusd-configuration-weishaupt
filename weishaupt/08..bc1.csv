@@ -11,8 +11,9 @@ cw,,WTCStatus,WTC Status -> KA,,,500A,,Status1,,_8_Status,,, ,Operatingphase,,_8
 *dw,,,,,03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 dw,,PowerDemand,Heat Demand ->WTC,,,0507,,Status,,_8_Opdataheat1,,, ,Action,,_8_Opdataaction,,, ,HeatDemandTemp,,_16_Temp2,,, ,SetPressure,,_16_Skip,,, ,Modulation,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Skip,,,
 
+!include,wtc.enduser.inc,,End User,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 !include,wtc.errorhistory.inc,,Error History,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 !include,wtc.processvalues.inc,,Process Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 !include,wtc.manufacturer.inc,,Process Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,wtc.statistic.inc,,Error History,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+!include,wtc.statistic.inc,,Statistics,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 !include,wtc.systemheatcontrol.inc,,System Heat Control Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
