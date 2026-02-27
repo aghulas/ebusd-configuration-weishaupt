@@ -91,7 +91,7 @@ r,,KESS_BITS,         ,,,,"f7024F",,s,_8_Skip,,, ,KESS_BITS,s,UCH,,,
 r,,REF_KORR,          ,,,,"e80250",,s,_8_Skip,,, ,REF_KORR,s,UCH,,,
 r,,KES_DAT_CRC,       ,,,,"e90251",,s,_8_Skip,,, ,KES_DAT_CRC,s,UCH,,,
 
-r,,HS1,         ,,,,"dfb21B",,s,_8_Skip,,, ,MAXTVSOLL,s,UCH,,,, ,MINTVSOLL,s,UCH,,, ,HZ_HYS,s,UCH,,, ,TBRMINOFF,s,UCH,,, ,TC_SOFTSTART,s,UCH,,, ,HZ_KP,s,UCH,,, ,HZ_KTND,s,UCH,,, ,SONDERNIVEAU,s,UCH,,, ,TAUSS_KORREKTUR,s,UCH,,, ,WARTUNGSINTERVALL,s,UCH,,, ,MX_DREHZ_KESSEL,s,UCH,,, ,NG_ZUEND,s,UCH,,,
+r,,HS1,         ,,,,"dfb21B",,s,_8_Skip,,, ,MAXTVSOLL,s,UCH,,, ,MINTVSOLL,s,UCH,,, ,HZ_HYS,s,UCH,,, ,TBRMINOFF,s,UCH,,, ,TC_SOFTSTART,s,UCH,,, ,HZ_KP,s,UCH,,, ,HZ_KTND,s,UCH,,, ,SONDERNIVEAU,s,UCH,,, ,TAUSS_KORREKTUR,s,UCH,,, ,WARTUNGSINTERVALL,s,UCH,,, ,MX_DREHZ_KESSEL,s,UCH,,, ,NG_ZUEND,s,UCH,,,
 r,,HS2,         ,,,,"e3b227",,s,_8_Skip,,, ,KESSEL_VARIANTE,s,UCH,,, ,MXGRADTVIST,s,UCH,,, ,MXTABGAS,s,UCH,,, ,TOL_TIME,s,UCH,,, ,NG_DGESCHW,s,UCH,,, ,NG_INCR_DECR,s,UCH,,, ,NG_HZ_MIN,s,UCH,,, ,NG_HZ_FREI,s,UCH,,, ,NG_HZ_MAX,s,UCH,,, ,PUHZ_VSP,s,UCH,,, ,PUHZ_MIN,s,UCH,,, ,PUHZ_MAX,s,UCH,,,
 r,,HS3,         ,,,,"f7b233",,s,_8_Skip,,, ,PUHZ_DT_REG,s,UCH, ,PU_TAKT,s,UCH,,, ,DT_VLRL_SOLL,s,UCH,,, ,DT_VLRL_MAX,s,UCH,,, ,DT_VL_ESTB2_MAX,s,UCH,,, ,PNL_HZ,s,UCH,,, ,MAXWWSOLL,s,UCH,,, ,MINWWSOLL,s,UCH,,, ,WW_HYS,s,UCH,,, ,TWWPLUS,s,UCH,,, ,NG_WW_MIN,s,UCH,,, ,NG_WW_FREI,s,UCH,,,
 r,,HS4,         ,,,,"fbb23F",,s,_8_Skip,,, ,NG_WW_MAX,s,UCH,,, ,PUHZ_WW,s,UCH,,, ,PNL_WW,s,UCH,,, ,TFRS_A,s,UCH,,, ,NG_KP,s,UCH,,, ,NG_KTN,s,UCH,,, ,NG_REG_ANPASS,s,UCH,,, ,SEL_IN_1_2,s,UCH,,, ,SEL_IN_3_4,s,UCH,,, ,SEL_PR_1_2,s,UCH,,, ,SEL_PR_3_4,s,UCH,,, ,KLAPPENLAUFZEIT,s,UCH,,, ,PARA_DT_WEICHE_VL,s,UCH,,,
