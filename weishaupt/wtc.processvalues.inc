@@ -32,7 +32,7 @@ r,,MODULATIONSGRAD,cModgrad - Modgrad ,,,,"5603B2",,s,_8_Skip,,, ,,s,UCH,,,
 
 
 # ROM
-r,,RELEASE, ,,,,"df95ef",,s,_8_Skip,,, ,,s,STR:9,,,
+r,,RELEASE, ,,,,"df95ef",,s,_8_Skip,,, ,,s,STR:10,,,
 r,,BUILD_DATE, ,,,,"0635fa",,s,_8_Skip,,, ,,s,HDA:3,,, ,,s,_8_Day,,,
 r,,CHKSUM, ,,,,"3e15fe",,s,_8_Skip,,, ,,s,HEX:2,,, 
 
