@@ -110,5 +110,5 @@ print (hex(calculate_weishaupt_crc_multi("060192c4")))
 print (hex(calculate_weishaupt_crc_multi("060192ce"))) 
 print (hex(calculate_weishaupt_crc_multi("0601a2d8"))) 
 print (hex(calculate_weishaupt_crc_multi("0601a2e3"))) 
-print (hex(calculate_weishaupt_crc_multi("060162f0"))) 
+print (hex(calculate_weishaupt_crc_multi("060182ee"))) 
 
