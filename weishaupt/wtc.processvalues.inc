@@ -9,6 +9,7 @@ r,,HeatingSpecialist5,Heating Specialist,,,,"ab624b02440237",,s,_8_Skip,,, ,,s,U
 
 r,,ProcessValues,Process values ,,,,"1a03b2012101250165016a",,s,_8_Skip,,, ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,,,,s,UCH,,,
 
+#RAM 
 r,,TVSOLL,cVL_Mod_Soll - Sup /Mod SetPoint ,,,,"32016e",,s,_8_Skip,,, ,,s,UCH,,,
 r,,TVIST,cVLIstB12 - Sup. Act(NCT) B12 ,,,,"340168",,s,_8_Skip,,, ,,s,UCH,,,
 r,,TRLIST,cRL_B13 - RL B13 ,,,,"3e0162",,s,_8_Skip,,, ,,s,UCH,,,
@@ -28,3 +29,10 @@ r,,AB_0000,MFA1 MFA2 VA Ignition Valve1 Valve2 Pump ,,,,"77012b",,s,_8_Skip,,, ,
 r,,F_CODE,cStoerung - Lockout ,,,,"390165",,s,_8_Skip,,, ,,s,UCH,,,
 r,,T_ESTB2,cVLIstSTB - Sup. Act. (eSTB),,,,"02015e",,s,_8_Skip,,, ,,s,UCH,,,
 r,,MODULATIONSGRAD,cModgrad - Modgrad ,,,,"5603B2",,s,_8_Skip,,, ,,s,UCH,,,
+
+
+# ROM
+r,,RELEASE, ,,,,"df95ef",,s,_8_Skip,,, ,,s,STR*,,,
+r,,BUILD_DATE, ,,,,"0635fa",,s,_8_Skip,,, ,,s,HDA:3,,, ,,s,_8_Day,,,
+r,,CHKSUM, ,,,,"3e15fe",,s,_8_Skip,,, ,,s,HEX:2,,, 
+

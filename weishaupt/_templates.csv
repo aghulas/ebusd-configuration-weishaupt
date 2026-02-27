@@ -13,7 +13,7 @@ _8_WtcOperatingPhase,UCH,0x00=Burner Off;0x01=Standby Check Fan;0x02=Prepurge sp
 _8_Opdataheat,UCH,0x00=Off;0x01=None;0x55=HotWater;0xaa=Heating;0xcc=Emission Check;0xdd=Quality Control;0xee=Control Stop;0x66=HotWater in control stop;0xbb=Heating,,Heat Requirement
 _8_Opdataheat1,UCH,0x00=Off;0x55=Standby;0x66=Primary Heating;0xbb=Heating;0xee=Secondary Heating,,Heat Requirement
 _8_Opdataheat2,UCH,0x20=HotWater;0x60=Heating,,Heat Requirement
-_8_Opdataaction,UCH,0x00=None;0x01=Stop Pump;0x02=Start Pump;0x03=Stop Consumer;0x04=Start Consumer;0x05=Idle?;0x06=Restart?,,
+_8_Opdataaction,UCH,0x00=None;0x01=Boiler Pump Off;0x02=Boiler Pump On;0x03=W Out;0x04=W In;0x05=W2 Out;0x06=W2 In,,
 _8_Percent,D1C,,%,Percent
 _8_ProgramState,UCH,0x02=Program;0x0A=Program Suspended;0x12=Program Extended,,Programm Status (Presence/Absense)
 _8_Rpm60,UCH,-60,Rpm,Speed
@@ -28,6 +28,8 @@ _8_Temp10,SCH,10,°C,Temperature
 _8_Temp2,D1C,,°C,Temperature
 _8_Temp2K,D1C,,K,Temperature
 _8_H1Status,UCH,0x00=Open;0x01=Closed,H1 Relay Status
+_8_Day,UCH,0x00=Off;0x01=Monday;0x02=Tuesday;0x03=Wednesday;0x04=Thursday;0x05=Friday;0x06=Saturday;0x07=Sunday,,WeekDay
+
 
 # Field Templates for To/From-Time of the Programm,,,,
 _1_TimeTo:ToEnabled,BI7,0x00=Enabled;0x01=Disabled,,Disabling Switch
