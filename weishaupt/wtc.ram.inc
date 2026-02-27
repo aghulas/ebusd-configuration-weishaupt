@@ -1,14 +1,6 @@
 # type (r;w;u;1-9),class,name,comment,QQ,ZZ,PBSB,ID,field1,part (m;s),type / templates,divider / values,unit,comment,field2,part (m;s),type / templates,divider / values,unit,comment,field3,part (m;s),type / templates,divider / values,unit,comment,field4,part (m;s),type / templates,divider / values,unit,comment,field5,part (m;s),type / templates,divider / values,unit,comment,field6,part (m;s),type / templates,divider / values,unit,comment,field7,part (m;s),type / templates,divider / values,unit,comment,field8,part (m;s),type / templates,divider / values,unit,comment
 *r,,,,,,"5000",,,,,,,
 
-r,,HeatingSpecialist1,Heating Specialist ,,,,"dfb21b",,s,_8_Skip,,, ,P31,s,_8_Temp0,,, ,P30,s,_8_Temp0,,, ,,s,UCH,,, ,,s,UCH,,,,,s,UCH,,,  ,,s,UCH,,, ,P47,s,_8_Temp0K,,, ,P18,s,_8_Temp0,,, ,,s,UCH,,,,,s,UCH,,, ,,s,UCH,,,,,s,UCH,,,
-r,,HeatingSpecialist2,Heating Specialist ,,,,"e3b227",,s,_8_Skip,,, ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,,,,s,UCH,,,  ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,,,,s,UCH,,, ,,s,UCH,,,,,s,UCH,,,
-r,,HeatingSpecialist3,Heating Specialist ,,,,"f7b233",,s,_8_Skip,,, ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,,,,s,UCH,,,  ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,,,,s,UCH,,, ,,s,UCH,,,,,s,UCH,,,
-r,,HeatingSpecialist4,Heating Specialist ,,,,"fbb23f",,s,_8_Skip,,, ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,,,,s,UCH,,,  ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,,,,s,UCH,,, ,,s,UCH,,,,,s,UCH,,,
-r,,HeatingSpecialist5,Heating Specialist,,,,"ab624b02440237",,s,_8_Skip,,, ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,,,,s,UCH,,,  ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,, 
-
-r,,ProcessValues,Process values ,,,,"1a03b2012101250165016a",,s,_8_Skip,,, ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,,,,s,UCH,,,
-
 #RAM 
 r,,TVSOLL,cVL_Mod_Soll - Sup /Mod SetPoint ,,,,"32016e",,s,_8_Skip,,, ,,s,UCH,,,
 r,,TVIST,cVLIstB12 - Sup. Act(NCT) B12 ,,,,"340168",,s,_8_Skip,,, ,,s,UCH,,,
