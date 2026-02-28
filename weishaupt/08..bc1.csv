@@ -11,10 +11,12 @@ cw,,WTCStatus,WTC Status -> KA,,,500A,,Status1,,_8_Status,,, ,Operatingphase,,_8
 *dw,,,,,03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 dw,,PowerDemand,Heat Demand ->WTC,,,0507,,Status,,_8_Opdataheat1,,, ,Action,,_8_Opdataaction,,, ,HeatDemandTemp,,_16_Temp2,,, ,SetPressure,,_16_Skip,,, ,Modulation,,_8_Percent,,, ,DHWSetTemp,,_8_Temp2,,, ,Fueltype,,_8_Skip,,,
 
-!include,wtc.rom.inc,,Rom Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,wtc.eeprom.inc,,Eeprom Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,wtc.ram.inc,,Ram Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,wtc.exram.inc,,External Ram Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-!include,wtc.sfr.inc,,Special Function Registers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+!include,WH11928.inc,,Rom Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+#!include,wtc.rom.inc,,Rom Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#!include,wtc.eeprom.inc,,Eeprom Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#!include,wtc.ram.inc,,Ram Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#!include,wtc.exram.inc,,External Ram Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#!include,wtc.sfr.inc,,Special Function Registers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 !include,wtc.systemheatcontrol.inc,,System Heat Control Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
