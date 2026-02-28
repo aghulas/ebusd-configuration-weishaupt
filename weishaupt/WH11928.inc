@@ -23,8 +23,8 @@ r,,BYTEDIAGNOSE,,,,,"56010A",,s,_8_Skip,,, ,,s,_BYTEDIAGNOSE,,,
 w,,BYTEDIAGNOSE,,,,,"56010A",,m,_BYTEDIAGNOSE,,,
 r,,select_FS_x,,,,,"4B0117",,s,_8_Skip,,, ,,s,_select_FS_x,,,
 w,,select_FS_x,,,,,"4B0117",,m,_select_FS_x,,,
-#r,,select_PR_x,,,,,"4B0117",,s,_8_Skip,,, ,,s,_select_PR_x,,,
-#w,,select_PR_x,,,,,"4B0117",,m,_select_PR_x,,,
+# r,,select_PR_x,,,,,"4B0117",,s,_8_Skip,,, ,,s,_select_PR_x,,,               # Alias of select_FS_x
+# w,,select_PR_x,,,,,"4B0117",,m,_select_PR_x,,,                              # Alias of select_FS_x
 r,,TIRP_R1,,,,,"450119",,s,_8_Skip,,, ,,s,_TIRP_R1,,,
 w,,TIRP_R1,,,,,"450119",,m,_TIRP_R1,,,
 r,,TIRP_R2,,,,,"46011A",,s,_8_Skip,,, ,,s,_TIRP_R2,,,
@@ -65,8 +65,8 @@ r,,TCVSP,,,,,"6C0130",,s,_8_Skip,,, ,,s,_TCVSP,,,
 w,,TCVSP,,,,,"6C0130",,m,_TCVSP,,,
 r,,TCHZZ,,,,,"6D0131",,s,_8_Skip,,, ,,s,_TCHZZ,,,
 w,,TCHZZ,,,,,"6D0131",,m,_TCHZZ,,,
-#r,,TCSZA,,,,,"6D0131",,s,_8_Skip,,, ,,s,_TCSZA,,,
-#w,,TCSZA,,,,,"6D0131",,m,_TCSZA,,,
+# r,,TCSZA,,,,,"6D0131",,s,_8_Skip,,, ,,s,_TCSZA,,,                           # Alias of TCHZZ
+# w,,TCSZA,,,,,"6D0131",,m,_TCSZA,,,                                          # Alias of TCHZZ
 r,,TCNSP,,,,,"6E0132",,s,_8_Skip,,, ,,s,_TCNSP,,,
 w,,TCNSP,,,,,"6E0132",,m,_TCNSP,,,
 r,,TCFLASTAB,,,,,"6F0133",,s,_8_Skip,,, ,,s,_TCFLASTAB,,,
@@ -147,8 +147,8 @@ r,,BE7_50HZ_CNT,,,,,"040158",,s,_8_Skip,,, ,,s,_BE7_50HZ_CNT,,,
 w,,BE7_50HZ_CNT,,,,,"040158",,m,_BE7_50HZ_CNT,,,
 r,,BE8_50HZ_CNT,,,,,"050159",,s,_8_Skip,,, ,,s,_BE8_50HZ_CNT,,,
 w,,BE8_50HZ_CNT,,,,,"050159",,m,_BE8_50HZ_CNT,,,
-r,,NGIST_CNT,,,,,"050159",,s,_8_Skip,,, ,,s,_NGIST_CNT,,,
-w,,NGIST_CNT,,,,,"050159",,m,_NGIST_CNT,,,
+# r,,NGIST_CNT,,,,,"050159",,s,_8_Skip,,, ,,s,_NGIST_CNT,,,                   # Alias of BE8_50HZ_CNT
+# w,,NGIST_CNT,,,,,"050159",,m,_NGIST_CNT,,,                                  # Alias of BE8_50HZ_CNT
 r,,RES_CYCL_CNT,,,,,"06015A",,s,_8_Skip,,, ,,s,_RES_CYCL_CNT,,,
 w,,RES_CYCL_CNT,,,,,"06015A",,m,_RES_CYCL_CNT,,,
 r,,RES_CNT,,,,,"07015B",,s,_8_Skip,,, ,,s,_RES_CNT,,,
@@ -227,8 +227,8 @@ r,,STACK,,,,,"DC0180",,s,_8_Skip,,, ,,s,_STACK,,,
 w,,STACK,,,,,"DC0180",,m,_STACK,,,
 r,,IRAEPKANF,,,,,"F701AB",,s,_8_Skip,,, ,,s,_IRAEPKANF,,,
 w,,IRAEPKANF,,,,,"F701AB",,m,_IRAEPKANF,,,
-r,,MAXTVSOLL,,,,,"F701AB",,s,_8_Skip,,, ,,s,_MAXTVSOLL,,,
-w,,MAXTVSOLL,,,,,"F701AB",,m,_MAXTVSOLL,,,
+# r,,MAXTVSOLL,,,,,"F701AB",,s,_8_Skip,,, ,,s,_MAXTVSOLL,,,                   # Alias of IRAEPKANF
+# w,,MAXTVSOLL,,,,,"F701AB",,m,_MAXTVSOLL,,,                                  # Alias of IRAEPKANF
 r,,MINTVSOLL,,,,,"F001AC",,s,_8_Skip,,, ,,s,_MINTVSOLL,,,
 w,,MINTVSOLL,,,,,"F001AC",,m,_MINTVSOLL,,,
 r,,HZ_HYS,,,,,"F101AD",,s,_8_Skip,,, ,,s,_HZ_HYS,,,
@@ -385,22 +385,22 @@ w,,S7_BITS,,,,,"A501F9",,m,_S7_BITS,,,
 # --- SFR ---
 r,,P0_ALTSEL0,,,,,"AC0480",,s,_8_Skip,,, ,,s,_P0_ALTSEL0,,,
 w,,P0_ALTSEL0,,,,,"AC0480",,m,_P0_ALTSEL0,,,
-r,,P0_DATA,,,,,"AC0480",,s,_8_Skip,,, ,,s,_P0_DATA,,,
-w,,P0_DATA,,,,,"AC0480",,m,_P0_DATA,,,
-r,,P0_OD,,,,,"AC0480",,s,_8_Skip,,, ,,s,_P0_OD,,,
-w,,P0_OD,,,,,"AC0480",,m,_P0_OD,,,
-r,,P0_PUDSEL,,,,,"AC0480",,s,_8_Skip,,, ,,s,_P0_PUDSEL,,,
-w,,P0_PUDSEL,,,,,"AC0480",,m,_P0_PUDSEL,,,
+# r,,P0_DATA,,,,,"AC0480",,s,_8_Skip,,, ,,s,_P0_DATA,,,                       # Alias of P0_ALTSEL0
+# w,,P0_DATA,,,,,"AC0480",,m,_P0_DATA,,,                                      # Alias of P0_ALTSEL0
+# r,,P0_OD,,,,,"AC0480",,s,_8_Skip,,, ,,s,_P0_OD,,,                           # Alias of P0_ALTSEL0
+# w,,P0_OD,,,,,"AC0480",,m,_P0_OD,,,                                          # Alias of P0_ALTSEL0
+# r,,P0_PUDSEL,,,,,"AC0480",,s,_8_Skip,,, ,,s,_P0_PUDSEL,,,                   # Alias of P0_ALTSEL0
+# w,,P0_PUDSEL,,,,,"AC0480",,m,_P0_PUDSEL,,,                                  # Alias of P0_ALTSEL0
 r,,DPL,,,,,"AE0482",,s,_8_Skip,,, ,,s,_DPL,,,
 w,,DPL,,,,,"AE0482",,m,_DPL,,,
 r,,DPH,,,,,"AF0483",,s,_8_Skip,,, ,,s,_DPH,,,
 w,,DPH,,,,,"AF0483",,m,_DPH,,,
 r,,P0_ALTSEL1,,,,,"AA0486",,s,_8_Skip,,, ,,s,_P0_ALTSEL1,,,
 w,,P0_ALTSEL1,,,,,"AA0486",,m,_P0_ALTSEL1,,,
-r,,P0_DIR,,,,,"AA0486",,s,_8_Skip,,, ,,s,_P0_DIR,,,
-w,,P0_DIR,,,,,"AA0486",,m,_P0_DIR,,,
-r,,P0_PUDEN,,,,,"AA0486",,s,_8_Skip,,, ,,s,_P0_PUDEN,,,
-w,,P0_PUDEN,,,,,"AA0486",,m,_P0_PUDEN,,,
+# r,,P0_DIR,,,,,"AA0486",,s,_8_Skip,,, ,,s,_P0_DIR,,,                         # Alias of P0_ALTSEL1
+# w,,P0_DIR,,,,,"AA0486",,m,_P0_DIR,,,                                        # Alias of P0_ALTSEL1
+# r,,P0_PUDEN,,,,,"AA0486",,s,_8_Skip,,, ,,s,_P0_PUDEN,,,                     # Alias of P0_ALTSEL1
+# w,,P0_PUDEN,,,,,"AA0486",,m,_P0_PUDEN,,,                                    # Alias of P0_ALTSEL1
 r,,PCON,,,,,"AB0487",,s,_8_Skip,,, ,,s,_PCON,,,
 w,,PCON,,,,,"AB0487",,m,_PCON,,,
 r,,TCON,,,,,"A40488",,s,_8_Skip,,, ,,s,_TCON,,,
@@ -411,176 +411,176 @@ r,,TL0,,,,,"A6048A",,s,_8_Skip,,, ,,s,_TL0,,,
 w,,TL0,,,,,"A6048A",,m,_TL0,,,
 r,,ION_TIMER_LOW,,,,,"A7048B",,s,_8_Skip,,, ,,s,_ION_TIMER_LOW,,,
 w,,ION_TIMER_LOW,,,,,"A7048B",,m,_ION_TIMER_LOW,,,
-r,,TL1,,,,,"A7048B",,s,_8_Skip,,, ,,s,_TL1,,,
-w,,TL1,,,,,"A7048B",,m,_TL1,,,
+# r,,TL1,,,,,"A7048B",,s,_8_Skip,,, ,,s,_TL1,,,                               # Alias of ION_TIMER_LOW
+# w,,TL1,,,,,"A7048B",,m,_TL1,,,                                              # Alias of ION_TIMER_LOW
 r,,TH0,,,,,"A0048C",,s,_8_Skip,,, ,,s,_TH0,,,
 w,,TH0,,,,,"A0048C",,m,_TH0,,,
 r,,ION_TIMER_HIGH,,,,,"A1048D",,s,_8_Skip,,, ,,s,_ION_TIMER_HIGH,,,
 w,,ION_TIMER_HIGH,,,,,"A1048D",,m,_ION_TIMER_HIGH,,,
-r,,TH1,,,,,"A1048D",,s,_8_Skip,,, ,,s,_TH1,,,
-w,,TH1,,,,,"A1048D",,m,_TH1,,,
+# r,,TH1,,,,,"A1048D",,s,_8_Skip,,, ,,s,_TH1,,,                               # Alias of ION_TIMER_HIGH
+# w,,TH1,,,,,"A1048D",,m,_TH1,,,                                              # Alias of ION_TIMER_HIGH
 r,,SYSCON0,,,,,"A3048F",,s,_8_Skip,,, ,,s,_SYSCON0,,,
 w,,SYSCON0,,,,,"A3048F",,m,_SYSCON0,,,
 r,,DO_PORT,,,,,"BC0490",,s,_8_Skip,,, ,,s,_DO_PORT,,,
 w,,DO_PORT,,,,,"BC0490",,m,_DO_PORT,,,
-r,,P1ANA,,,,,"BC0490",,s,_8_Skip,,, ,,s,_P1ANA,,,
-w,,P1ANA,,,,,"BC0490",,m,_P1ANA,,,
-r,,P1_ALTSEL0,,,,,"BC0490",,s,_8_Skip,,, ,,s,_P1_ALTSEL0,,,
-w,,P1_ALTSEL0,,,,,"BC0490",,m,_P1_ALTSEL0,,,
-r,,P1_DATA,,,,,"BC0490",,s,_8_Skip,,, ,,s,_P1_DATA,,,
-w,,P1_DATA,,,,,"BC0490",,m,_P1_DATA,,,
-r,,P1_OD,,,,,"BC0490",,s,_8_Skip,,, ,,s,_P1_OD,,,
-w,,P1_OD,,,,,"BC0490",,m,_P1_OD,,,
-r,,P1_PUDSEL,,,,,"BC0490",,s,_8_Skip,,, ,,s,_P1_PUDSEL,,,
-w,,P1_PUDSEL,,,,,"BC0490",,m,_P1_PUDSEL,,,
+# r,,P1ANA,,,,,"BC0490",,s,_8_Skip,,, ,,s,_P1ANA,,,                           # Alias of DO_PORT
+# w,,P1ANA,,,,,"BC0490",,m,_P1ANA,,,                                          # Alias of DO_PORT
+# r,,P1_ALTSEL0,,,,,"BC0490",,s,_8_Skip,,, ,,s,_P1_ALTSEL0,,,                 # Alias of DO_PORT
+# w,,P1_ALTSEL0,,,,,"BC0490",,m,_P1_ALTSEL0,,,                                # Alias of DO_PORT
+# r,,P1_DATA,,,,,"BC0490",,s,_8_Skip,,, ,,s,_P1_DATA,,,                       # Alias of DO_PORT
+# w,,P1_DATA,,,,,"BC0490",,m,_P1_DATA,,,                                      # Alias of DO_PORT
+# r,,P1_OD,,,,,"BC0490",,s,_8_Skip,,, ,,s,_P1_OD,,,                           # Alias of DO_PORT
+# w,,P1_OD,,,,,"BC0490",,m,_P1_OD,,,                                          # Alias of DO_PORT
+# r,,P1_PUDSEL,,,,,"BC0490",,s,_8_Skip,,, ,,s,_P1_PUDSEL,,,                   # Alias of DO_PORT
+# w,,P1_PUDSEL,,,,,"BC0490",,m,_P1_PUDSEL,,,                                  # Alias of DO_PORT
 r,,P1_ALTSEL1,,,,,"BD0491",,s,_8_Skip,,, ,,s,_P1_ALTSEL1,,,
 w,,P1_ALTSEL1,,,,,"BD0491",,m,_P1_ALTSEL1,,,
-r,,P1_DIR,,,,,"BD0491",,s,_8_Skip,,, ,,s,_P1_DIR,,,
-w,,P1_DIR,,,,,"BD0491",,m,_P1_DIR,,,
-r,,P1_PUDEN,,,,,"BD0491",,s,_8_Skip,,, ,,s,_P1_PUDEN,,,
-w,,P1_PUDEN,,,,,"BD0491",,m,_P1_PUDEN,,,
-r,,XPAGE,,,,,"BD0491",,s,_8_Skip,,, ,,s,_XPAGE,,,
-w,,XPAGE,,,,,"BD0491",,m,_XPAGE,,,
+# r,,P1_DIR,,,,,"BD0491",,s,_8_Skip,,, ,,s,_P1_DIR,,,                         # Alias of P1_ALTSEL1
+# w,,P1_DIR,,,,,"BD0491",,m,_P1_DIR,,,                                        # Alias of P1_ALTSEL1
+# r,,P1_PUDEN,,,,,"BD0491",,s,_8_Skip,,, ,,s,_P1_PUDEN,,,                     # Alias of P1_ALTSEL1
+# w,,P1_PUDEN,,,,,"BD0491",,m,_P1_PUDEN,,,                                    # Alias of P1_ALTSEL1
+# r,,XPAGE,,,,,"BD0491",,s,_8_Skip,,, ,,s,_XPAGE,,,                           # Alias of P1_ALTSEL1
+# w,,XPAGE,,,,,"BD0491",,m,_XPAGE,,,                                          # Alias of P1_ALTSEL1
 r,,DPSEL,,,,,"BE0492",,s,_8_Skip,,, ,,s,_DPSEL,,,
 w,,DPSEL,,,,,"BE0492",,m,_DPSEL,,,
-r,,P5_ALTSEL0,,,,,"BE0492",,s,_8_Skip,,, ,,s,_P5_ALTSEL0,,,
-w,,P5_ALTSEL0,,,,,"BE0492",,m,_P5_ALTSEL0,,,
-r,,P5_DATA,,,,,"BE0492",,s,_8_Skip,,, ,,s,_P5_DATA,,,
-w,,P5_DATA,,,,,"BE0492",,m,_P5_DATA,,,
-r,,P5_OD,,,,,"BE0492",,s,_8_Skip,,, ,,s,_P5_OD,,,
-w,,P5_OD,,,,,"BE0492",,m,_P5_OD,,,
-r,,P5_PUDSEL,,,,,"BE0492",,s,_8_Skip,,, ,,s,_P5_PUDSEL,,,
-w,,P5_PUDSEL,,,,,"BE0492",,m,_P5_PUDSEL,,,
+# r,,P5_ALTSEL0,,,,,"BE0492",,s,_8_Skip,,, ,,s,_P5_ALTSEL0,,,                 # Alias of DPSEL
+# w,,P5_ALTSEL0,,,,,"BE0492",,m,_P5_ALTSEL0,,,                                # Alias of DPSEL
+# r,,P5_DATA,,,,,"BE0492",,s,_8_Skip,,, ,,s,_P5_DATA,,,                       # Alias of DPSEL
+# w,,P5_DATA,,,,,"BE0492",,m,_P5_DATA,,,                                      # Alias of DPSEL
+# r,,P5_OD,,,,,"BE0492",,s,_8_Skip,,, ,,s,_P5_OD,,,                           # Alias of DPSEL
+# w,,P5_OD,,,,,"BE0492",,m,_P5_OD,,,                                          # Alias of DPSEL
+# r,,P5_PUDSEL,,,,,"BE0492",,s,_8_Skip,,, ,,s,_P5_PUDSEL,,,                   # Alias of DPSEL
+# w,,P5_PUDSEL,,,,,"BE0492",,m,_P5_PUDSEL,,,                                  # Alias of DPSEL
 r,,P5_ALTSEL1,,,,,"BF0493",,s,_8_Skip,,, ,,s,_P5_ALTSEL1,,,
 w,,P5_ALTSEL1,,,,,"BF0493",,m,_P5_ALTSEL1,,,
-r,,P5_DIR,,,,,"BF0493",,s,_8_Skip,,, ,,s,_P5_DIR,,,
-w,,P5_DIR,,,,,"BF0493",,m,_P5_DIR,,,
-r,,P5_PUDEN,,,,,"BF0493",,s,_8_Skip,,, ,,s,_P5_PUDEN,,,
-w,,P5_PUDEN,,,,,"BF0493",,m,_P5_PUDEN,,,
+# r,,P5_DIR,,,,,"BF0493",,s,_8_Skip,,, ,,s,_P5_DIR,,,                         # Alias of P5_ALTSEL1
+# w,,P5_DIR,,,,,"BF0493",,m,_P5_DIR,,,                                        # Alias of P5_ALTSEL1
+# r,,P5_PUDEN,,,,,"BF0493",,s,_8_Skip,,, ,,s,_P5_PUDEN,,,                     # Alias of P5_ALTSEL1
+# w,,P5_PUDEN,,,,,"BF0493",,m,_P5_PUDEN,,,                                    # Alias of P5_ALTSEL1
 r,,SCON,,,,,"B40498",,s,_8_Skip,,, ,,s,_SCON,,,
 w,,SCON,,,,,"B40498",,m,_SCON,,,
 r,,SBUF,,,,,"B50499",,s,_8_Skip,,, ,,s,_SBUF,,,
 w,,SBUF,,,,,"B50499",,m,_SBUF,,,
 r,,CCL_GEBL,,,,,"B6049A",,s,_8_Skip,,, ,,s,_CCL_GEBL,,,
 w,,CCL_GEBL,,,,,"B6049A",,m,_CCL_GEBL,,,
-r,,CCU6_CC63RL,,,,,"B6049A",,s,_8_Skip,,, ,,s,_CCU6_CC63RL,,,
-w,,CCU6_CC63RL,,,,,"B6049A",,m,_CCU6_CC63RL,,,
-r,,CCU6_CC63SRL,,,,,"B6049A",,s,_8_Skip,,, ,,s,_CCU6_CC63SRL,,,
-w,,CCU6_CC63SRL,,,,,"B6049A",,m,_CCU6_CC63SRL,,,
-r,,CCU6_MCMOUTL,,,,,"B6049A",,s,_8_Skip,,, ,,s,_CCU6_MCMOUTL,,,
-w,,CCU6_MCMOUTL,,,,,"B6049A",,m,_CCU6_MCMOUTL,,,
-r,,CCU6_T12MSELL,,,,,"B6049A",,s,_8_Skip,,, ,,s,_CCU6_T12MSELL,,,
-w,,CCU6_T12MSELL,,,,,"B6049A",,m,_CCU6_T12MSELL,,,
-r,,CD_CORDXL,,,,,"B6049A",,s,_8_Skip,,, ,,s,_CD_CORDXL,,,
-w,,CD_CORDXL,,,,,"B6049A",,m,_CD_CORDXL,,,
+# r,,CCU6_CC63RL,,,,,"B6049A",,s,_8_Skip,,, ,,s,_CCU6_CC63RL,,,               # Alias of CCL_GEBL
+# w,,CCU6_CC63RL,,,,,"B6049A",,m,_CCU6_CC63RL,,,                              # Alias of CCL_GEBL
+# r,,CCU6_CC63SRL,,,,,"B6049A",,s,_8_Skip,,, ,,s,_CCU6_CC63SRL,,,             # Alias of CCL_GEBL
+# w,,CCU6_CC63SRL,,,,,"B6049A",,m,_CCU6_CC63SRL,,,                            # Alias of CCL_GEBL
+# r,,CCU6_MCMOUTL,,,,,"B6049A",,s,_8_Skip,,, ,,s,_CCU6_MCMOUTL,,,             # Alias of CCL_GEBL
+# w,,CCU6_MCMOUTL,,,,,"B6049A",,m,_CCU6_MCMOUTL,,,                            # Alias of CCL_GEBL
+# r,,CCU6_T12MSELL,,,,,"B6049A",,s,_8_Skip,,, ,,s,_CCU6_T12MSELL,,,           # Alias of CCL_GEBL
+# w,,CCU6_T12MSELL,,,,,"B6049A",,m,_CCU6_T12MSELL,,,                          # Alias of CCL_GEBL
+# r,,CD_CORDXL,,,,,"B6049A",,s,_8_Skip,,, ,,s,_CD_CORDXL,,,                   # Alias of CCL_GEBL
+# w,,CD_CORDXL,,,,,"B6049A",,m,_CD_CORDXL,,,                                  # Alias of CCL_GEBL
 r,,CCH_GEBL,,,,,"B7049B",,s,_8_Skip,,, ,,s,_CCH_GEBL,,,
 w,,CCH_GEBL,,,,,"B7049B",,m,_CCH_GEBL,,,
-r,,CCU6_CC63RH,,,,,"B7049B",,s,_8_Skip,,, ,,s,_CCU6_CC63RH,,,
-w,,CCU6_CC63RH,,,,,"B7049B",,m,_CCU6_CC63RH,,,
-r,,CCU6_CC63SRH,,,,,"B7049B",,s,_8_Skip,,, ,,s,_CCU6_CC63SRH,,,
-w,,CCU6_CC63SRH,,,,,"B7049B",,m,_CCU6_CC63SRH,,,
-r,,CCU6_MCMOUTH,,,,,"B7049B",,s,_8_Skip,,, ,,s,_CCU6_MCMOUTH,,,
-w,,CCU6_MCMOUTH,,,,,"B7049B",,m,_CCU6_MCMOUTH,,,
-r,,CCU6_T12MSELH,,,,,"B7049B",,s,_8_Skip,,, ,,s,_CCU6_T12MSELH,,,
-w,,CCU6_T12MSELH,,,,,"B7049B",,m,_CCU6_T12MSELH,,,
-r,,CD_CORDXH,,,,,"B7049B",,s,_8_Skip,,, ,,s,_CD_CORDXH,,,
-w,,CD_CORDXH,,,,,"B7049B",,m,_CD_CORDXH,,,
+# r,,CCU6_CC63RH,,,,,"B7049B",,s,_8_Skip,,, ,,s,_CCU6_CC63RH,,,               # Alias of CCH_GEBL
+# w,,CCU6_CC63RH,,,,,"B7049B",,m,_CCU6_CC63RH,,,                              # Alias of CCH_GEBL
+# r,,CCU6_CC63SRH,,,,,"B7049B",,s,_8_Skip,,, ,,s,_CCU6_CC63SRH,,,             # Alias of CCH_GEBL
+# w,,CCU6_CC63SRH,,,,,"B7049B",,m,_CCU6_CC63SRH,,,                            # Alias of CCH_GEBL
+# r,,CCU6_MCMOUTH,,,,,"B7049B",,s,_8_Skip,,, ,,s,_CCU6_MCMOUTH,,,             # Alias of CCH_GEBL
+# w,,CCU6_MCMOUTH,,,,,"B7049B",,m,_CCU6_MCMOUTH,,,                            # Alias of CCH_GEBL
+# r,,CCU6_T12MSELH,,,,,"B7049B",,s,_8_Skip,,, ,,s,_CCU6_T12MSELH,,,           # Alias of CCH_GEBL
+# w,,CCU6_T12MSELH,,,,,"B7049B",,m,_CCU6_T12MSELH,,,                          # Alias of CCH_GEBL
+# r,,CD_CORDXH,,,,,"B7049B",,s,_8_Skip,,, ,,s,_CD_CORDXH,,,                   # Alias of CCH_GEBL
+# w,,CD_CORDXH,,,,,"B7049B",,m,_CD_CORDXH,,,                                  # Alias of CCH_GEBL
 r,,CCU6_IENL,,,,,"B0049C",,s,_8_Skip,,, ,,s,_CCU6_IENL,,,
 w,,CCU6_IENL,,,,,"B0049C",,m,_CCU6_IENL,,,
-r,,CCU6_ISL,,,,,"B0049C",,s,_8_Skip,,, ,,s,_CCU6_ISL,,,
-w,,CCU6_ISL,,,,,"B0049C",,m,_CCU6_ISL,,,
-r,,CCU6_T12PRL,,,,,"B0049C",,s,_8_Skip,,, ,,s,_CCU6_T12PRL,,,
-w,,CCU6_T12PRL,,,,,"B0049C",,m,_CCU6_T12PRL,,,
-r,,CCU6_TCTR4L,,,,,"B0049C",,s,_8_Skip,,, ,,s,_CCU6_TCTR4L,,,
-w,,CCU6_TCTR4L,,,,,"B0049C",,m,_CCU6_TCTR4L,,,
-r,,CD_CORDYL,,,,,"B0049C",,s,_8_Skip,,, ,,s,_CD_CORDYL,,,
-w,,CD_CORDYL,,,,,"B0049C",,m,_CD_CORDYL,,,
+# r,,CCU6_ISL,,,,,"B0049C",,s,_8_Skip,,, ,,s,_CCU6_ISL,,,                     # Alias of CCU6_IENL
+# w,,CCU6_ISL,,,,,"B0049C",,m,_CCU6_ISL,,,                                    # Alias of CCU6_IENL
+# r,,CCU6_T12PRL,,,,,"B0049C",,s,_8_Skip,,, ,,s,_CCU6_T12PRL,,,               # Alias of CCU6_IENL
+# w,,CCU6_T12PRL,,,,,"B0049C",,m,_CCU6_T12PRL,,,                              # Alias of CCU6_IENL
+# r,,CCU6_TCTR4L,,,,,"B0049C",,s,_8_Skip,,, ,,s,_CCU6_TCTR4L,,,               # Alias of CCU6_IENL
+# w,,CCU6_TCTR4L,,,,,"B0049C",,m,_CCU6_TCTR4L,,,                              # Alias of CCU6_IENL
+# r,,CD_CORDYL,,,,,"B0049C",,s,_8_Skip,,, ,,s,_CD_CORDYL,,,                   # Alias of CCU6_IENL
+# w,,CD_CORDYL,,,,,"B0049C",,m,_CD_CORDYL,,,                                  # Alias of CCU6_IENL
 r,,CCU6_IENH,,,,,"B1049D",,s,_8_Skip,,, ,,s,_CCU6_IENH,,,
 w,,CCU6_IENH,,,,,"B1049D",,m,_CCU6_IENH,,,
-r,,CCU6_ISH,,,,,"B1049D",,s,_8_Skip,,, ,,s,_CCU6_ISH,,,
-w,,CCU6_ISH,,,,,"B1049D",,m,_CCU6_ISH,,,
-r,,CCU6_T12PRH,,,,,"B1049D",,s,_8_Skip,,, ,,s,_CCU6_T12PRH,,,
-w,,CCU6_T12PRH,,,,,"B1049D",,m,_CCU6_T12PRH,,,
-r,,CCU6_TCTR4H,,,,,"B1049D",,s,_8_Skip,,, ,,s,_CCU6_TCTR4H,,,
-w,,CCU6_TCTR4H,,,,,"B1049D",,m,_CCU6_TCTR4H,,,
-r,,CD_CORDYH,,,,,"B1049D",,s,_8_Skip,,, ,,s,_CD_CORDYH,,,
-w,,CD_CORDYH,,,,,"B1049D",,m,_CD_CORDYH,,,
+# r,,CCU6_ISH,,,,,"B1049D",,s,_8_Skip,,, ,,s,_CCU6_ISH,,,                     # Alias of CCU6_IENH
+# w,,CCU6_ISH,,,,,"B1049D",,m,_CCU6_ISH,,,                                    # Alias of CCU6_IENH
+# r,,CCU6_T12PRH,,,,,"B1049D",,s,_8_Skip,,, ,,s,_CCU6_T12PRH,,,               # Alias of CCU6_IENH
+# w,,CCU6_T12PRH,,,,,"B1049D",,m,_CCU6_T12PRH,,,                              # Alias of CCU6_IENH
+# r,,CCU6_TCTR4H,,,,,"B1049D",,s,_8_Skip,,, ,,s,_CCU6_TCTR4H,,,               # Alias of CCU6_IENH
+# w,,CCU6_TCTR4H,,,,,"B1049D",,m,_CCU6_TCTR4H,,,                              # Alias of CCU6_IENH
+# r,,CD_CORDYH,,,,,"B1049D",,s,_8_Skip,,, ,,s,_CD_CORDYH,,,                   # Alias of CCU6_IENH
+# w,,CD_CORDYH,,,,,"B1049D",,m,_CD_CORDYH,,,                                  # Alias of CCU6_IENH
 r,,CCU6_INPL,,,,,"B2049E",,s,_8_Skip,,, ,,s,_CCU6_INPL,,,
 w,,CCU6_INPL,,,,,"B2049E",,m,_CCU6_INPL,,,
-r,,CCU6_MCMOUTSL,,,,,"B2049E",,s,_8_Skip,,, ,,s,_CCU6_MCMOUTSL,,,
-w,,CCU6_MCMOUTSL,,,,,"B2049E",,m,_CCU6_MCMOUTSL,,,
-r,,CCU6_PISEL0L,,,,,"B2049E",,s,_8_Skip,,, ,,s,_CCU6_PISEL0L,,,
-w,,CCU6_PISEL0L,,,,,"B2049E",,m,_CCU6_PISEL0L,,,
-r,,CCU6_T13PRL,,,,,"B2049E",,s,_8_Skip,,, ,,s,_CCU6_T13PRL,,,
-w,,CCU6_T13PRL,,,,,"B2049E",,m,_CCU6_T13PRL,,,
-r,,CD_CORDZL,,,,,"B2049E",,s,_8_Skip,,, ,,s,_CD_CORDZL,,,
-w,,CD_CORDZL,,,,,"B2049E",,m,_CD_CORDZL,,,
+# r,,CCU6_MCMOUTSL,,,,,"B2049E",,s,_8_Skip,,, ,,s,_CCU6_MCMOUTSL,,,           # Alias of CCU6_INPL
+# w,,CCU6_MCMOUTSL,,,,,"B2049E",,m,_CCU6_MCMOUTSL,,,                          # Alias of CCU6_INPL
+# r,,CCU6_PISEL0L,,,,,"B2049E",,s,_8_Skip,,, ,,s,_CCU6_PISEL0L,,,             # Alias of CCU6_INPL
+# w,,CCU6_PISEL0L,,,,,"B2049E",,m,_CCU6_PISEL0L,,,                            # Alias of CCU6_INPL
+# r,,CCU6_T13PRL,,,,,"B2049E",,s,_8_Skip,,, ,,s,_CCU6_T13PRL,,,               # Alias of CCU6_INPL
+# w,,CCU6_T13PRL,,,,,"B2049E",,m,_CCU6_T13PRL,,,                              # Alias of CCU6_INPL
+# r,,CD_CORDZL,,,,,"B2049E",,s,_8_Skip,,, ,,s,_CD_CORDZL,,,                   # Alias of CCU6_INPL
+# w,,CD_CORDZL,,,,,"B2049E",,m,_CD_CORDZL,,,                                  # Alias of CCU6_INPL
 r,,CCU6_INPH,,,,,"B3049F",,s,_8_Skip,,, ,,s,_CCU6_INPH,,,
 w,,CCU6_INPH,,,,,"B3049F",,m,_CCU6_INPH,,,
-r,,CCU6_MCMOUTSH,,,,,"B3049F",,s,_8_Skip,,, ,,s,_CCU6_MCMOUTSH,,,
-w,,CCU6_MCMOUTSH,,,,,"B3049F",,m,_CCU6_MCMOUTSH,,,
-r,,CCU6_PISEL0H,,,,,"B3049F",,s,_8_Skip,,, ,,s,_CCU6_PISEL0H,,,
-w,,CCU6_PISEL0H,,,,,"B3049F",,m,_CCU6_PISEL0H,,,
-r,,CCU6_T13PRH,,,,,"B3049F",,s,_8_Skip,,, ,,s,_CCU6_T13PRH,,,
-w,,CCU6_T13PRH,,,,,"B3049F",,m,_CCU6_T13PRH,,,
-r,,CD_CORDZH,,,,,"B3049F",,s,_8_Skip,,, ,,s,_CD_CORDZH,,,
-w,,CD_CORDZH,,,,,"B3049F",,m,_CD_CORDZH,,,
+# r,,CCU6_MCMOUTSH,,,,,"B3049F",,s,_8_Skip,,, ,,s,_CCU6_MCMOUTSH,,,           # Alias of CCU6_INPH
+# w,,CCU6_MCMOUTSH,,,,,"B3049F",,m,_CCU6_MCMOUTSH,,,                          # Alias of CCU6_INPH
+# r,,CCU6_PISEL0H,,,,,"B3049F",,s,_8_Skip,,, ,,s,_CCU6_PISEL0H,,,             # Alias of CCU6_INPH
+# w,,CCU6_PISEL0H,,,,,"B3049F",,m,_CCU6_PISEL0H,,,                            # Alias of CCU6_INPH
+# r,,CCU6_T13PRH,,,,,"B3049F",,s,_8_Skip,,, ,,s,_CCU6_T13PRH,,,               # Alias of CCU6_INPH
+# w,,CCU6_T13PRH,,,,,"B3049F",,m,_CCU6_T13PRH,,,                              # Alias of CCU6_INPH
+# r,,CD_CORDZH,,,,,"B3049F",,s,_8_Skip,,, ,,s,_CD_CORDZH,,,                   # Alias of CCU6_INPH
+# w,,CD_CORDZH,,,,,"B3049F",,m,_CD_CORDZH,,,                                  # Alias of CCU6_INPH
 r,,CD_STATC,,,,,"8C04A0",,s,_8_Skip,,, ,,s,_CD_STATC,,,
 w,,CD_STATC,,,,,"8C04A0",,m,_CD_STATC,,,
-r,,P2_DATA,,,,,"8C04A0",,s,_8_Skip,,, ,,s,_P2_DATA,,,
-w,,P2_DATA,,,,,"8C04A0",,m,_P2_DATA,,,
-r,,P2_PUDSEL,,,,,"8C04A0",,s,_8_Skip,,, ,,s,_P2_PUDSEL,,,
-w,,P2_PUDSEL,,,,,"8C04A0",,m,_P2_PUDSEL,,,
+# r,,P2_DATA,,,,,"8C04A0",,s,_8_Skip,,, ,,s,_P2_DATA,,,                       # Alias of CD_STATC
+# w,,P2_DATA,,,,,"8C04A0",,m,_P2_DATA,,,                                      # Alias of CD_STATC
+# r,,P2_PUDSEL,,,,,"8C04A0",,s,_8_Skip,,, ,,s,_P2_PUDSEL,,,                   # Alias of CD_STATC
+# w,,P2_PUDSEL,,,,,"8C04A0",,m,_P2_PUDSEL,,,                                  # Alias of CD_STATC
 r,,CD_CON,,,,,"8D04A1",,s,_8_Skip,,, ,,s,_CD_CON,,,
 w,,CD_CON,,,,,"8D04A1",,m,_CD_CON,,,
-r,,P2_DIR,,,,,"8D04A1",,s,_8_Skip,,, ,,s,_P2_DIR,,,
-w,,P2_DIR,,,,,"8D04A1",,m,_P2_DIR,,,
-r,,P2_PUDEN,,,,,"8D04A1",,s,_8_Skip,,, ,,s,_P2_PUDEN,,,
-w,,P2_PUDEN,,,,,"8D04A1",,m,_P2_PUDEN,,,
+# r,,P2_DIR,,,,,"8D04A1",,s,_8_Skip,,, ,,s,_P2_DIR,,,                         # Alias of CD_CON
+# w,,P2_DIR,,,,,"8D04A1",,m,_P2_DIR,,,                                        # Alias of CD_CON
+# r,,P2_PUDEN,,,,,"8D04A1",,s,_8_Skip,,, ,,s,_P2_PUDEN,,,                     # Alias of CD_CON
+# w,,P2_PUDEN,,,,,"8D04A1",,m,_P2_PUDEN,,,                                    # Alias of CD_CON
 r,,CCU6_PAGE,,,,,"8F04A3",,s,_8_Skip,,, ,,s,_CCU6_PAGE,,,
 w,,CCU6_PAGE,,,,,"8F04A3",,m,_CCU6_PAGE,,,
 r,,CCU6_ISRL,,,,,"8804A4",,s,_8_Skip,,, ,,s,_CCU6_ISRL,,,
 w,,CCU6_ISRL,,,,,"8804A4",,m,_CCU6_ISRL,,,
-r,,CCU6_ISSL,,,,,"8804A4",,s,_8_Skip,,, ,,s,_CCU6_ISSL,,,
-w,,CCU6_ISSL,,,,,"8804A4",,m,_CCU6_ISSL,,,
-r,,CCU6_PISEL2,,,,,"8804A4",,s,_8_Skip,,, ,,s,_CCU6_PISEL2,,,
-w,,CCU6_PISEL2,,,,,"8804A4",,m,_CCU6_PISEL2,,,
-r,,CCU6_T12DTCL,,,,,"8804A4",,s,_8_Skip,,, ,,s,_CCU6_T12DTCL,,,
-w,,CCU6_T12DTCL,,,,,"8804A4",,m,_CCU6_T12DTCL,,,
+# r,,CCU6_ISSL,,,,,"8804A4",,s,_8_Skip,,, ,,s,_CCU6_ISSL,,,                   # Alias of CCU6_ISRL
+# w,,CCU6_ISSL,,,,,"8804A4",,m,_CCU6_ISSL,,,                                  # Alias of CCU6_ISRL
+# r,,CCU6_PISEL2,,,,,"8804A4",,s,_8_Skip,,, ,,s,_CCU6_PISEL2,,,               # Alias of CCU6_ISRL
+# w,,CCU6_PISEL2,,,,,"8804A4",,m,_CCU6_PISEL2,,,                              # Alias of CCU6_ISRL
+# r,,CCU6_T12DTCL,,,,,"8804A4",,s,_8_Skip,,, ,,s,_CCU6_T12DTCL,,,             # Alias of CCU6_ISRL
+# w,,CCU6_T12DTCL,,,,,"8804A4",,m,_CCU6_T12DTCL,,,                            # Alias of CCU6_ISRL
 r,,CCU6_ISRH,,,,,"8904A5",,s,_8_Skip,,, ,,s,_CCU6_ISRH,,,
 w,,CCU6_ISRH,,,,,"8904A5",,m,_CCU6_ISRH,,,
-r,,CCU6_ISSH,,,,,"8904A5",,s,_8_Skip,,, ,,s,_CCU6_ISSH,,,
-w,,CCU6_ISSH,,,,,"8904A5",,m,_CCU6_ISSH,,,
-r,,CCU6_T12DTCH,,,,,"8904A5",,s,_8_Skip,,, ,,s,_CCU6_T12DTCH,,,
-w,,CCU6_T12DTCH,,,,,"8904A5",,m,_CCU6_T12DTCH,,,
+# r,,CCU6_ISSH,,,,,"8904A5",,s,_8_Skip,,, ,,s,_CCU6_ISSH,,,                   # Alias of CCU6_ISRH
+# w,,CCU6_ISSH,,,,,"8904A5",,m,_CCU6_ISSH,,,                                  # Alias of CCU6_ISRH
+# r,,CCU6_T12DTCH,,,,,"8904A5",,s,_8_Skip,,, ,,s,_CCU6_T12DTCH,,,             # Alias of CCU6_ISRH
+# w,,CCU6_T12DTCH,,,,,"8904A5",,m,_CCU6_T12DTCH,,,                            # Alias of CCU6_ISRH
 r,,CCU6_CMPMODIFL,,,,,"8A04A6",,s,_8_Skip,,, ,,s,_CCU6_CMPMODIFL,,,
 w,,CCU6_CMPMODIFL,,,,,"8A04A6",,m,_CCU6_CMPMODIFL,,,
-r,,CCU6_PSLR,,,,,"8A04A6",,s,_8_Skip,,, ,,s,_CCU6_PSLR,,,
-w,,CCU6_PSLR,,,,,"8A04A6",,m,_CCU6_PSLR,,,
-r,,CCU6_TCTR0L,,,,,"8A04A6",,s,_8_Skip,,, ,,s,_CCU6_TCTR0L,,,
-w,,CCU6_TCTR0L,,,,,"8A04A6",,m,_CCU6_TCTR0L,,,
+# r,,CCU6_PSLR,,,,,"8A04A6",,s,_8_Skip,,, ,,s,_CCU6_PSLR,,,                   # Alias of CCU6_CMPMODIFL
+# w,,CCU6_PSLR,,,,,"8A04A6",,m,_CCU6_PSLR,,,                                  # Alias of CCU6_CMPMODIFL
+# r,,CCU6_TCTR0L,,,,,"8A04A6",,s,_8_Skip,,, ,,s,_CCU6_TCTR0L,,,               # Alias of CCU6_CMPMODIFL
+# w,,CCU6_TCTR0L,,,,,"8A04A6",,m,_CCU6_TCTR0L,,,                              # Alias of CCU6_CMPMODIFL
 r,,CCU6_CMPMODIFH,,,,,"8B04A7",,s,_8_Skip,,, ,,s,_CCU6_CMPMODIFH,,,
 w,,CCU6_CMPMODIFH,,,,,"8B04A7",,m,_CCU6_CMPMODIFH,,,
-r,,CCU6_MCMCTR,,,,,"8B04A7",,s,_8_Skip,,, ,,s,_CCU6_MCMCTR,,,
-w,,CCU6_MCMCTR,,,,,"8B04A7",,m,_CCU6_MCMCTR,,,
-r,,CCU6_TCTR0H,,,,,"8B04A7",,s,_8_Skip,,, ,,s,_CCU6_TCTR0H,,,
-w,,CCU6_TCTR0H,,,,,"8B04A7",,m,_CCU6_TCTR0H,,,
+# r,,CCU6_MCMCTR,,,,,"8B04A7",,s,_8_Skip,,, ,,s,_CCU6_MCMCTR,,,               # Alias of CCU6_CMPMODIFH
+# w,,CCU6_MCMCTR,,,,,"8B04A7",,m,_CCU6_MCMCTR,,,                              # Alias of CCU6_CMPMODIFH
+# r,,CCU6_TCTR0H,,,,,"8B04A7",,s,_8_Skip,,, ,,s,_CCU6_TCTR0H,,,               # Alias of CCU6_CMPMODIFH
+# w,,CCU6_TCTR0H,,,,,"8B04A7",,m,_CCU6_TCTR0H,,,                              # Alias of CCU6_CMPMODIFH
 r,,IEN0,,,,,"8404A8",,s,_8_Skip,,, ,,s,_IEN0,,,
 w,,IEN0,,,,,"8404A8",,m,_IEN0,,,
 r,,IP0,,,,,"8504A9",,s,_8_Skip,,, ,,s,_IP0,,,
 w,,IP0,,,,,"8504A9",,m,_IP0,,,
-r,,SSC_PISEL,,,,,"8504A9",,s,_8_Skip,,, ,,s,_SSC_PISEL,,,
-w,,SSC_PISEL,,,,,"8504A9",,m,_SSC_PISEL,,,
+# r,,SSC_PISEL,,,,,"8504A9",,s,_8_Skip,,, ,,s,_SSC_PISEL,,,                   # Alias of IP0
+# w,,SSC_PISEL,,,,,"8504A9",,m,_SSC_PISEL,,,                                  # Alias of IP0
 r,,SRELL,,,,,"8604AA",,s,_8_Skip,,, ,,s,_SRELL,,,
 w,,SRELL,,,,,"8604AA",,m,_SRELL,,,
-r,,SSC_CONL_O,,,,,"8604AA",,s,_8_Skip,,, ,,s,_SSC_CONL_O,,,
-w,,SSC_CONL_O,,,,,"8604AA",,m,_SSC_CONL_O,,,
-r,,SSC_CONL_P,,,,,"8604AA",,s,_8_Skip,,, ,,s,_SSC_CONL_P,,,
-w,,SSC_CONL_P,,,,,"8604AA",,m,_SSC_CONL_P,,,
+# r,,SSC_CONL_O,,,,,"8604AA",,s,_8_Skip,,, ,,s,_SSC_CONL_O,,,                 # Alias of SRELL
+# w,,SSC_CONL_O,,,,,"8604AA",,m,_SSC_CONL_O,,,                                # Alias of SRELL
+# r,,SSC_CONL_P,,,,,"8604AA",,s,_8_Skip,,, ,,s,_SSC_CONL_P,,,                 # Alias of SRELL
+# w,,SSC_CONL_P,,,,,"8604AA",,m,_SSC_CONL_P,,,                                # Alias of SRELL
 r,,SSC_CONH_O,,,,,"8704AB",,s,_8_Skip,,, ,,s,_SSC_CONH_O,,,
 w,,SSC_CONH_O,,,,,"8704AB",,m,_SSC_CONH_O,,,
-r,,SSC_CONH_P,,,,,"8704AB",,s,_8_Skip,,, ,,s,_SSC_CONH_P,,,
-w,,SSC_CONH_P,,,,,"8704AB",,m,_SSC_CONH_P,,,
+# r,,SSC_CONH_P,,,,,"8704AB",,s,_8_Skip,,, ,,s,_SSC_CONH_P,,,                 # Alias of SSC_CONH_O
+# w,,SSC_CONH_P,,,,,"8704AB",,m,_SSC_CONH_P,,,                                # Alias of SSC_CONH_O
 r,,SSC_TBL,,,,,"8004AC",,s,_8_Skip,,, ,,s,_SSC_TBL,,,
 w,,SSC_TBL,,,,,"8004AC",,m,_SSC_TBL,,,
 r,,SSC_RBL,,,,,"8104AD",,s,_8_Skip,,, ,,s,_SSC_RBL,,,
@@ -591,282 +591,282 @@ r,,SSC_BRH,,,,,"8304AF",,s,_8_Skip,,, ,,s,_SSC_BRH,,,
 w,,SSC_BRH,,,,,"8304AF",,m,_SSC_BRH,,,
 r,,DE_F_PORT,,,,,"9C04B0",,s,_8_Skip,,, ,,s,_DE_F_PORT,,,
 w,,DE_F_PORT,,,,,"9C04B0",,m,_DE_F_PORT,,,
-r,,P3_ALTSEL0,,,,,"9C04B0",,s,_8_Skip,,, ,,s,_P3_ALTSEL0,,,
-w,,P3_ALTSEL0,,,,,"9C04B0",,m,_P3_ALTSEL0,,,
-r,,P3_DATA,,,,,"9C04B0",,s,_8_Skip,,, ,,s,_P3_DATA,,,
-w,,P3_DATA,,,,,"9C04B0",,m,_P3_DATA,,,
-r,,P3_OD,,,,,"9C04B0",,s,_8_Skip,,, ,,s,_P3_OD,,,
-w,,P3_OD,,,,,"9C04B0",,m,_P3_OD,,,
-r,,P3_PUDSEL,,,,,"9C04B0",,s,_8_Skip,,, ,,s,_P3_PUDSEL,,,
-w,,P3_PUDSEL,,,,,"9C04B0",,m,_P3_PUDSEL,,,
+# r,,P3_ALTSEL0,,,,,"9C04B0",,s,_8_Skip,,, ,,s,_P3_ALTSEL0,,,                 # Alias of DE_F_PORT
+# w,,P3_ALTSEL0,,,,,"9C04B0",,m,_P3_ALTSEL0,,,                                # Alias of DE_F_PORT
+# r,,P3_DATA,,,,,"9C04B0",,s,_8_Skip,,, ,,s,_P3_DATA,,,                       # Alias of DE_F_PORT
+# w,,P3_DATA,,,,,"9C04B0",,m,_P3_DATA,,,                                      # Alias of DE_F_PORT
+# r,,P3_OD,,,,,"9C04B0",,s,_8_Skip,,, ,,s,_P3_OD,,,                           # Alias of DE_F_PORT
+# w,,P3_OD,,,,,"9C04B0",,m,_P3_OD,,,                                          # Alias of DE_F_PORT
+# r,,P3_PUDSEL,,,,,"9C04B0",,s,_8_Skip,,, ,,s,_P3_PUDSEL,,,                   # Alias of DE_F_PORT
+# w,,P3_PUDSEL,,,,,"9C04B0",,m,_P3_PUDSEL,,,                                  # Alias of DE_F_PORT
 r,,P3_ALTSEL1,,,,,"9D04B1",,s,_8_Skip,,, ,,s,_P3_ALTSEL1,,,
 w,,P3_ALTSEL1,,,,,"9D04B1",,m,_P3_ALTSEL1,,,
-r,,P3_DIR,,,,,"9D04B1",,s,_8_Skip,,, ,,s,_P3_DIR,,,
-w,,P3_DIR,,,,,"9D04B1",,m,_P3_DIR,,,
-r,,P3_PUDEN,,,,,"9D04B1",,s,_8_Skip,,, ,,s,_P3_PUDEN,,,
-w,,P3_PUDEN,,,,,"9D04B1",,m,_P3_PUDEN,,,
-r,,SYSCON,,,,,"9D04B1",,s,_8_Skip,,, ,,s,_SYSCON,,,
-w,,SYSCON,,,,,"9D04B1",,m,_SYSCON,,,
+# r,,P3_DIR,,,,,"9D04B1",,s,_8_Skip,,, ,,s,_P3_DIR,,,                         # Alias of P3_ALTSEL1
+# w,,P3_DIR,,,,,"9D04B1",,m,_P3_DIR,,,                                        # Alias of P3_ALTSEL1
+# r,,P3_PUDEN,,,,,"9D04B1",,s,_8_Skip,,, ,,s,_P3_PUDEN,,,                     # Alias of P3_ALTSEL1
+# w,,P3_PUDEN,,,,,"9D04B1",,m,_P3_PUDEN,,,                                    # Alias of P3_ALTSEL1
+# r,,SYSCON,,,,,"9D04B1",,s,_8_Skip,,, ,,s,_SYSCON,,,                         # Alias of P3_ALTSEL1
+# w,,SYSCON,,,,,"9D04B1",,m,_SYSCON,,,                                        # Alias of P3_ALTSEL1
 r,,PORT_PAGE,,,,,"9E04B2",,s,_8_Skip,,, ,,s,_PORT_PAGE,,,
 w,,PORT_PAGE,,,,,"9E04B2",,m,_PORT_PAGE,,,
 r,,MODPISEL,,,,,"9F04B3",,s,_8_Skip,,, ,,s,_MODPISEL,,,
 w,,MODPISEL,,,,,"9F04B3",,m,_MODPISEL,,,
-r,,XADDRH,,,,,"9F04B3",,s,_8_Skip,,, ,,s,_XADDRH,,,
-w,,XADDRH,,,,,"9F04B3",,m,_XADDRH,,,
+# r,,XADDRH,,,,,"9F04B3",,s,_8_Skip,,, ,,s,_XADDRH,,,                         # Alias of MODPISEL
+# w,,XADDRH,,,,,"9F04B3",,m,_XADDRH,,,                                        # Alias of MODPISEL
 r,,IRCON0,,,,,"9804B4",,s,_8_Skip,,, ,,s,_IRCON0,,,
 w,,IRCON0,,,,,"9804B4",,m,_IRCON0,,,
-r,,IRCON3,,,,,"9804B4",,s,_8_Skip,,, ,,s,_IRCON3,,,
-w,,IRCON3,,,,,"9804B4",,m,_IRCON3,,,
-r,,PMCON0,,,,,"9804B4",,s,_8_Skip,,, ,,s,_PMCON0,,,
-w,,PMCON0,,,,,"9804B4",,m,_PMCON0,,,
+# r,,IRCON3,,,,,"9804B4",,s,_8_Skip,,, ,,s,_IRCON3,,,                         # Alias of IRCON0
+# w,,IRCON3,,,,,"9804B4",,m,_IRCON3,,,                                        # Alias of IRCON0
+# r,,PMCON0,,,,,"9804B4",,s,_8_Skip,,, ,,s,_PMCON0,,,                         # Alias of IRCON0
+# w,,PMCON0,,,,,"9804B4",,m,_PMCON0,,,                                        # Alias of IRCON0
 r,,IRCON1,,,,,"9904B5",,s,_8_Skip,,, ,,s,_IRCON1,,,
 w,,IRCON1,,,,,"9904B5",,m,_IRCON1,,,
-r,,IRCON4,,,,,"9904B5",,s,_8_Skip,,, ,,s,_IRCON4,,,
-w,,IRCON4,,,,,"9904B5",,m,_IRCON4,,,
-r,,PMCON1,,,,,"9904B5",,s,_8_Skip,,, ,,s,_PMCON1,,,
-w,,PMCON1,,,,,"9904B5",,m,_PMCON1,,,
+# r,,IRCON4,,,,,"9904B5",,s,_8_Skip,,, ,,s,_IRCON4,,,                         # Alias of IRCON1
+# w,,IRCON4,,,,,"9904B5",,m,_IRCON4,,,                                        # Alias of IRCON1
+# r,,PMCON1,,,,,"9904B5",,s,_8_Skip,,, ,,s,_PMCON1,,,                         # Alias of IRCON1
+# w,,PMCON1,,,,,"9904B5",,m,_PMCON1,,,                                        # Alias of IRCON1
 r,,IRCON2,,,,,"9A04B6",,s,_8_Skip,,, ,,s,_IRCON2,,,
 w,,IRCON2,,,,,"9A04B6",,m,_IRCON2,,,
-r,,OSC_CON,,,,,"9A04B6",,s,_8_Skip,,, ,,s,_OSC_CON,,,
-w,,OSC_CON,,,,,"9A04B6",,m,_OSC_CON,,,
+# r,,OSC_CON,,,,,"9A04B6",,s,_8_Skip,,, ,,s,_OSC_CON,,,                       # Alias of IRCON2
+# w,,OSC_CON,,,,,"9A04B6",,m,_OSC_CON,,,                                      # Alias of IRCON2
 r,,EXICON0,,,,,"9B04B7",,s,_8_Skip,,, ,,s,_EXICON0,,,
 w,,EXICON0,,,,,"9B04B7",,m,_EXICON0,,,
-r,,MODPISEL1,,,,,"9B04B7",,s,_8_Skip,,, ,,s,_MODPISEL1,,,
-w,,MODPISEL1,,,,,"9B04B7",,m,_MODPISEL1,,,
-r,,PLL_CON,,,,,"9B04B7",,s,_8_Skip,,, ,,s,_PLL_CON,,,
-w,,PLL_CON,,,,,"9B04B7",,m,_PLL_CON,,,
+# r,,MODPISEL1,,,,,"9B04B7",,s,_8_Skip,,, ,,s,_MODPISEL1,,,                   # Alias of EXICON0
+# w,,MODPISEL1,,,,,"9B04B7",,m,_MODPISEL1,,,                                  # Alias of EXICON0
+# r,,PLL_CON,,,,,"9B04B7",,s,_8_Skip,,, ,,s,_PLL_CON,,,                       # Alias of EXICON0
+# w,,PLL_CON,,,,,"9B04B7",,m,_PLL_CON,,,                                      # Alias of EXICON0
 r,,IPH,,,,,"9504B9",,s,_8_Skip,,, ,,s,_IPH,,,
 w,,IPH,,,,,"9504B9",,m,_IPH,,,
 r,,CMCON,,,,,"9604BA",,s,_8_Skip,,, ,,s,_CMCON,,,
 w,,CMCON,,,,,"9604BA",,m,_CMCON,,,
-r,,EXICON1,,,,,"9604BA",,s,_8_Skip,,, ,,s,_EXICON1,,,
-w,,EXICON1,,,,,"9604BA",,m,_EXICON1,,,
-r,,MODPISEL2,,,,,"9604BA",,s,_8_Skip,,, ,,s,_MODPISEL2,,,
-w,,MODPISEL2,,,,,"9604BA",,m,_MODPISEL2,,,
-r,,SRELH,,,,,"9604BA",,s,_8_Skip,,, ,,s,_SRELH,,,
-w,,SRELH,,,,,"9604BA",,m,_SRELH,,,
+# r,,EXICON1,,,,,"9604BA",,s,_8_Skip,,, ,,s,_EXICON1,,,                       # Alias of CMCON
+# w,,EXICON1,,,,,"9604BA",,m,_EXICON1,,,                                      # Alias of CMCON
+# r,,MODPISEL2,,,,,"9604BA",,s,_8_Skip,,, ,,s,_MODPISEL2,,,                   # Alias of CMCON
+# w,,MODPISEL2,,,,,"9604BA",,m,_MODPISEL2,,,                                  # Alias of CMCON
+# r,,SRELH,,,,,"9604BA",,s,_8_Skip,,, ,,s,_SRELH,,,                           # Alias of CMCON
+# w,,SRELH,,,,,"9604BA",,m,_SRELH,,,                                          # Alias of CMCON
 r,,NMICON,,,,,"9704BB",,s,_8_Skip,,, ,,s,_NMICON,,,
 w,,NMICON,,,,,"9704BB",,m,_NMICON,,,
-r,,PASSWD,,,,,"9704BB",,s,_8_Skip,,, ,,s,_PASSWD,,,
-w,,PASSWD,,,,,"9704BB",,m,_PASSWD,,,
-r,,PMCON2,,,,,"9704BB",,s,_8_Skip,,, ,,s,_PMCON2,,,
-w,,PMCON2,,,,,"9704BB",,m,_PMCON2,,,
-r,,WDTCON,,,,,"9704BB",,s,_8_Skip,,, ,,s,_WDTCON,,,
-w,,WDTCON,,,,,"9704BB",,m,_WDTCON,,,
+# r,,PASSWD,,,,,"9704BB",,s,_8_Skip,,, ,,s,_PASSWD,,,                         # Alias of NMICON
+# w,,PASSWD,,,,,"9704BB",,m,_PASSWD,,,                                        # Alias of NMICON
+# r,,PMCON2,,,,,"9704BB",,s,_8_Skip,,, ,,s,_PMCON2,,,                         # Alias of NMICON
+# w,,PMCON2,,,,,"9704BB",,m,_PMCON2,,,                                        # Alias of NMICON
+# r,,WDTCON,,,,,"9704BB",,s,_8_Skip,,, ,,s,_WDTCON,,,                         # Alias of NMICON
+# w,,WDTCON,,,,,"9704BB",,m,_WDTCON,,,                                        # Alias of NMICON
 r,,FEAL,,,,,"9004BC",,s,_8_Skip,,, ,,s,_FEAL,,,
 w,,FEAL,,,,,"9004BC",,m,_FEAL,,,
-r,,NMISR,,,,,"9004BC",,s,_8_Skip,,, ,,s,_NMISR,,,
-w,,NMISR,,,,,"9004BC",,m,_NMISR,,,
-r,,WDTREL,,,,,"9004BC",,s,_8_Skip,,, ,,s,_WDTREL,,,
-w,,WDTREL,,,,,"9004BC",,m,_WDTREL,,,
+# r,,NMISR,,,,,"9004BC",,s,_8_Skip,,, ,,s,_NMISR,,,                           # Alias of FEAL
+# w,,NMISR,,,,,"9004BC",,m,_NMISR,,,                                          # Alias of FEAL
+# r,,WDTREL,,,,,"9004BC",,s,_8_Skip,,, ,,s,_WDTREL,,,                         # Alias of FEAL
+# w,,WDTREL,,,,,"9004BC",,m,_WDTREL,,,                                        # Alias of FEAL
 r,,BCON,,,,,"9104BD",,s,_8_Skip,,, ,,s,_BCON,,,
 w,,BCON,,,,,"9104BD",,m,_BCON,,,
-r,,FEAH,,,,,"9104BD",,s,_8_Skip,,, ,,s,_FEAH,,,
-w,,FEAH,,,,,"9104BD",,m,_FEAH,,,
-r,,MODSUSP,,,,,"9104BD",,s,_8_Skip,,, ,,s,_MODSUSP,,,
-w,,MODSUSP,,,,,"9104BD",,m,_MODSUSP,,,
-r,,WDTWINB,,,,,"9104BD",,s,_8_Skip,,, ,,s,_WDTWINB,,,
-w,,WDTWINB,,,,,"9104BD",,m,_WDTWINB,,,
+# r,,FEAH,,,,,"9104BD",,s,_8_Skip,,, ,,s,_FEAH,,,                             # Alias of BCON
+# w,,FEAH,,,,,"9104BD",,m,_FEAH,,,                                            # Alias of BCON
+# r,,MODSUSP,,,,,"9104BD",,s,_8_Skip,,, ,,s,_MODSUSP,,,                       # Alias of BCON
+# w,,MODSUSP,,,,,"9104BD",,m,_MODSUSP,,,                                      # Alias of BCON
+# r,,WDTWINB,,,,,"9104BD",,s,_8_Skip,,, ,,s,_WDTWINB,,,                       # Alias of BCON
+# w,,WDTWINB,,,,,"9104BD",,m,_WDTWINB,,,                                      # Alias of BCON
 r,,COCON,,,,,"9204BE",,s,_8_Skip,,, ,,s,_COCON,,,
 w,,COCON,,,,,"9204BE",,m,_COCON,,,
-r,,WDTL,,,,,"9204BE",,s,_8_Skip,,, ,,s,_WDTL,,,
-w,,WDTL,,,,,"9204BE",,m,_WDTL,,,
+# r,,WDTL,,,,,"9204BE",,s,_8_Skip,,, ,,s,_WDTL,,,                             # Alias of COCON
+# w,,WDTL,,,,,"9204BE",,m,_WDTL,,,                                            # Alias of COCON
 r,,SCU_PAGE,,,,,"9304BF",,s,_8_Skip,,, ,,s,_SCU_PAGE,,,
 w,,SCU_PAGE,,,,,"9304BF",,m,_SCU_PAGE,,,
-r,,WDTH,,,,,"9304BF",,s,_8_Skip,,, ,,s,_WDTH,,,
-w,,WDTH,,,,,"9304BF",,m,_WDTH,,,
+# r,,WDTH,,,,,"9304BF",,s,_8_Skip,,, ,,s,_WDTH,,,                             # Alias of SCU_PAGE
+# w,,WDTH,,,,,"9304BF",,m,_WDTH,,,                                            # Alias of SCU_PAGE
 r,,IRCON,,,,,"EC04C0",,s,_8_Skip,,, ,,s,_IRCON,,,
 w,,IRCON,,,,,"EC04C0",,m,_IRCON,,,
-r,,T21_T2CON,,,,,"EC04C0",,s,_8_Skip,,, ,,s,_T21_T2CON,,,
-w,,T21_T2CON,,,,,"EC04C0",,m,_T21_T2CON,,,
-r,,T2_T2CON,,,,,"EC04C0",,s,_8_Skip,,, ,,s,_T2_T2CON,,,
-w,,T2_T2CON,,,,,"EC04C0",,m,_T2_T2CON,,,
+# r,,T21_T2CON,,,,,"EC04C0",,s,_8_Skip,,, ,,s,_T21_T2CON,,,                   # Alias of IRCON
+# w,,T21_T2CON,,,,,"EC04C0",,m,_T21_T2CON,,,                                  # Alias of IRCON
+# r,,T2_T2CON,,,,,"EC04C0",,s,_8_Skip,,, ,,s,_T2_T2CON,,,                     # Alias of IRCON
+# w,,T2_T2CON,,,,,"EC04C0",,m,_T2_T2CON,,,                                    # Alias of IRCON
 r,,CCEN,,,,,"ED04C1",,s,_8_Skip,,, ,,s,_CCEN,,,
 w,,CCEN,,,,,"ED04C1",,m,_CCEN,,,
-r,,T21_T2MOD,,,,,"ED04C1",,s,_8_Skip,,, ,,s,_T21_T2MOD,,,
-w,,T21_T2MOD,,,,,"ED04C1",,m,_T21_T2MOD,,,
-r,,T2_T2MOD,,,,,"ED04C1",,s,_8_Skip,,, ,,s,_T2_T2MOD,,,
-w,,T2_T2MOD,,,,,"ED04C1",,m,_T2_T2MOD,,,
+# r,,T21_T2MOD,,,,,"ED04C1",,s,_8_Skip,,, ,,s,_T21_T2MOD,,,                   # Alias of CCEN
+# w,,T21_T2MOD,,,,,"ED04C1",,m,_T21_T2MOD,,,                                  # Alias of CCEN
+# r,,T2_T2MOD,,,,,"ED04C1",,s,_8_Skip,,, ,,s,_T2_T2MOD,,,                     # Alias of CCEN
+# w,,T2_T2MOD,,,,,"ED04C1",,m,_T2_T2MOD,,,                                    # Alias of CCEN
 r,,CCL1,,,,,"EE04C2",,s,_8_Skip,,, ,,s,_CCL1,,,
 w,,CCL1,,,,,"EE04C2",,m,_CCL1,,,
-r,,SYS_TIMER_RELOAD_LOW,,,,,"EE04C2",,s,_8_Skip,,, ,,s,_SYS_TIMER_RELOAD_LOW,,,
-w,,SYS_TIMER_RELOAD_LOW,,,,,"EE04C2",,m,_SYS_TIMER_RELOAD_LOW,,,
-r,,T21_RC2L,,,,,"EE04C2",,s,_8_Skip,,, ,,s,_T21_RC2L,,,
-w,,T21_RC2L,,,,,"EE04C2",,m,_T21_RC2L,,,
-r,,T2_RC2L,,,,,"EE04C2",,s,_8_Skip,,, ,,s,_T2_RC2L,,,
-w,,T2_RC2L,,,,,"EE04C2",,m,_T2_RC2L,,,
+# r,,SYS_TIMER_RELOAD_LOW,,,,,"EE04C2",,s,_8_Skip,,, ,,s,_SYS_TIMER_RELOAD_LOW,,, # Alias of CCL1
+# w,,SYS_TIMER_RELOAD_LOW,,,,,"EE04C2",,m,_SYS_TIMER_RELOAD_LOW,,,            # Alias of CCL1
+# r,,T21_RC2L,,,,,"EE04C2",,s,_8_Skip,,, ,,s,_T21_RC2L,,,                     # Alias of CCL1
+# w,,T21_RC2L,,,,,"EE04C2",,m,_T21_RC2L,,,                                    # Alias of CCL1
+# r,,T2_RC2L,,,,,"EE04C2",,s,_8_Skip,,, ,,s,_T2_RC2L,,,                       # Alias of CCL1
+# w,,T2_RC2L,,,,,"EE04C2",,m,_T2_RC2L,,,                                      # Alias of CCL1
 r,,CCH1,,,,,"EF04C3",,s,_8_Skip,,, ,,s,_CCH1,,,
 w,,CCH1,,,,,"EF04C3",,m,_CCH1,,,
-r,,SYS_TIMER_RELOAD_HIGH,,,,,"EF04C3",,s,_8_Skip,,, ,,s,_SYS_TIMER_RELOAD_HIGH,,,
-w,,SYS_TIMER_RELOAD_HIGH,,,,,"EF04C3",,m,_SYS_TIMER_RELOAD_HIGH,,,
-r,,T21_RC2H,,,,,"EF04C3",,s,_8_Skip,,, ,,s,_T21_RC2H,,,
-w,,T21_RC2H,,,,,"EF04C3",,m,_T21_RC2H,,,
-r,,T2_RC2H,,,,,"EF04C3",,s,_8_Skip,,, ,,s,_T2_RC2H,,,
-w,,T2_RC2H,,,,,"EF04C3",,m,_T2_RC2H,,,
+# r,,SYS_TIMER_RELOAD_HIGH,,,,,"EF04C3",,s,_8_Skip,,, ,,s,_SYS_TIMER_RELOAD_HIGH,,, # Alias of CCH1
+# w,,SYS_TIMER_RELOAD_HIGH,,,,,"EF04C3",,m,_SYS_TIMER_RELOAD_HIGH,,,          # Alias of CCH1
+# r,,T21_RC2H,,,,,"EF04C3",,s,_8_Skip,,, ,,s,_T21_RC2H,,,                     # Alias of CCH1
+# w,,T21_RC2H,,,,,"EF04C3",,m,_T21_RC2H,,,                                    # Alias of CCH1
+# r,,T2_RC2H,,,,,"EF04C3",,s,_8_Skip,,, ,,s,_T2_RC2H,,,                       # Alias of CCH1
+# w,,T2_RC2H,,,,,"EF04C3",,m,_T2_RC2H,,,                                      # Alias of CCH1
 r,,CCL2,,,,,"E804C4",,s,_8_Skip,,, ,,s,_CCL2,,,
 w,,CCL2,,,,,"E804C4",,m,_CCL2,,,
-r,,T21_T2L,,,,,"E804C4",,s,_8_Skip,,, ,,s,_T21_T2L,,,
-w,,T21_T2L,,,,,"E804C4",,m,_T21_T2L,,,
-r,,T2_T2L,,,,,"E804C4",,s,_8_Skip,,, ,,s,_T2_T2L,,,
-w,,T2_T2L,,,,,"E804C4",,m,_T2_T2L,,,
-r,,TL2,,,,,"E804C4",,s,_8_Skip,,, ,,s,_TL2,,,
-w,,TL2,,,,,"E804C4",,m,_TL2,,,
+# r,,T21_T2L,,,,,"E804C4",,s,_8_Skip,,, ,,s,_T21_T2L,,,                       # Alias of CCL2
+# w,,T21_T2L,,,,,"E804C4",,m,_T21_T2L,,,                                      # Alias of CCL2
+# r,,T2_T2L,,,,,"E804C4",,s,_8_Skip,,, ,,s,_T2_T2L,,,                         # Alias of CCL2
+# w,,T2_T2L,,,,,"E804C4",,m,_T2_T2L,,,                                        # Alias of CCL2
+# r,,TL2,,,,,"E804C4",,s,_8_Skip,,, ,,s,_TL2,,,                               # Alias of CCL2
+# w,,TL2,,,,,"E804C4",,m,_TL2,,,                                              # Alias of CCL2
 r,,CCH2,,,,,"E904C5",,s,_8_Skip,,, ,,s,_CCH2,,,
 w,,CCH2,,,,,"E904C5",,m,_CCH2,,,
-r,,T21_T2H,,,,,"E904C5",,s,_8_Skip,,, ,,s,_T21_T2H,,,
-w,,T21_T2H,,,,,"E904C5",,m,_T21_T2H,,,
-r,,T2_T2H,,,,,"E904C5",,s,_8_Skip,,, ,,s,_T2_T2H,,,
-w,,T2_T2H,,,,,"E904C5",,m,_T2_T2H,,,
-r,,TH2,,,,,"E904C5",,s,_8_Skip,,, ,,s,_TH2,,,
-w,,TH2,,,,,"E904C5",,m,_TH2,,,
+# r,,T21_T2H,,,,,"E904C5",,s,_8_Skip,,, ,,s,_T21_T2H,,,                       # Alias of CCH2
+# w,,T21_T2H,,,,,"E904C5",,m,_T21_T2H,,,                                      # Alias of CCH2
+# r,,T2_T2H,,,,,"E904C5",,s,_8_Skip,,, ,,s,_T2_T2H,,,                         # Alias of CCH2
+# w,,T2_T2H,,,,,"E904C5",,m,_T2_T2H,,,                                        # Alias of CCH2
+# r,,TH2,,,,,"E904C5",,s,_8_Skip,,, ,,s,_TH2,,,                               # Alias of CCH2
+# w,,TH2,,,,,"E904C5",,m,_TH2,,,                                              # Alias of CCH2
 r,,CCL3,,,,,"EA04C6",,s,_8_Skip,,, ,,s,_CCL3,,,
 w,,CCL3,,,,,"EA04C6",,m,_CCL3,,,
 r,,CCH3,,,,,"EB04C7",,s,_8_Skip,,, ,,s,_CCH3,,,
 w,,CCH3,,,,,"EB04C7",,m,_CCH3,,,
 r,,P4_ALTSEL0,,,,,"E404C8",,s,_8_Skip,,, ,,s,_P4_ALTSEL0,,,
 w,,P4_ALTSEL0,,,,,"E404C8",,m,_P4_ALTSEL0,,,
-r,,P4_DATA,,,,,"E404C8",,s,_8_Skip,,, ,,s,_P4_DATA,,,
-w,,P4_DATA,,,,,"E404C8",,m,_P4_DATA,,,
-r,,P4_OD,,,,,"E404C8",,s,_8_Skip,,, ,,s,_P4_OD,,,
-w,,P4_OD,,,,,"E404C8",,m,_P4_OD,,,
-r,,P4_PUDSEL,,,,,"E404C8",,s,_8_Skip,,, ,,s,_P4_PUDSEL,,,
-w,,P4_PUDSEL,,,,,"E404C8",,m,_P4_PUDSEL,,,
-r,,T2CON,,,,,"E404C8",,s,_8_Skip,,, ,,s,_T2CON,,,
-w,,T2CON,,,,,"E404C8",,m,_T2CON,,,
-r,,UART1_SCON,,,,,"E404C8",,s,_8_Skip,,, ,,s,_UART1_SCON,,,
-w,,UART1_SCON,,,,,"E404C8",,m,_UART1_SCON,,,
+# r,,P4_DATA,,,,,"E404C8",,s,_8_Skip,,, ,,s,_P4_DATA,,,                       # Alias of P4_ALTSEL0
+# w,,P4_DATA,,,,,"E404C8",,m,_P4_DATA,,,                                      # Alias of P4_ALTSEL0
+# r,,P4_OD,,,,,"E404C8",,s,_8_Skip,,, ,,s,_P4_OD,,,                           # Alias of P4_ALTSEL0
+# w,,P4_OD,,,,,"E404C8",,m,_P4_OD,,,                                          # Alias of P4_ALTSEL0
+# r,,P4_PUDSEL,,,,,"E404C8",,s,_8_Skip,,, ,,s,_P4_PUDSEL,,,                   # Alias of P4_ALTSEL0
+# w,,P4_PUDSEL,,,,,"E404C8",,m,_P4_PUDSEL,,,                                  # Alias of P4_ALTSEL0
+# r,,T2CON,,,,,"E404C8",,s,_8_Skip,,, ,,s,_T2CON,,,                           # Alias of P4_ALTSEL0
+# w,,T2CON,,,,,"E404C8",,m,_T2CON,,,                                          # Alias of P4_ALTSEL0
+# r,,UART1_SCON,,,,,"E404C8",,s,_8_Skip,,, ,,s,_UART1_SCON,,,                 # Alias of P4_ALTSEL0
+# w,,UART1_SCON,,,,,"E404C8",,m,_UART1_SCON,,,                                # Alias of P4_ALTSEL0
 r,,P4_ALTSEL1,,,,,"E504C9",,s,_8_Skip,,, ,,s,_P4_ALTSEL1,,,
 w,,P4_ALTSEL1,,,,,"E504C9",,m,_P4_ALTSEL1,,,
-r,,P4_DIR,,,,,"E504C9",,s,_8_Skip,,, ,,s,_P4_DIR,,,
-w,,P4_DIR,,,,,"E504C9",,m,_P4_DIR,,,
-r,,P4_PUDEN,,,,,"E504C9",,s,_8_Skip,,, ,,s,_P4_PUDEN,,,
-w,,P4_PUDEN,,,,,"E504C9",,m,_P4_PUDEN,,,
-r,,UART1_SBUF,,,,,"E504C9",,s,_8_Skip,,, ,,s,_UART1_SBUF,,,
-w,,UART1_SBUF,,,,,"E504C9",,m,_UART1_SBUF,,,
+# r,,P4_DIR,,,,,"E504C9",,s,_8_Skip,,, ,,s,_P4_DIR,,,                         # Alias of P4_ALTSEL1
+# w,,P4_DIR,,,,,"E504C9",,m,_P4_DIR,,,                                        # Alias of P4_ALTSEL1
+# r,,P4_PUDEN,,,,,"E504C9",,s,_8_Skip,,, ,,s,_P4_PUDEN,,,                     # Alias of P4_ALTSEL1
+# w,,P4_PUDEN,,,,,"E504C9",,m,_P4_PUDEN,,,                                    # Alias of P4_ALTSEL1
+# r,,UART1_SBUF,,,,,"E504C9",,s,_8_Skip,,, ,,s,_UART1_SBUF,,,                 # Alias of P4_ALTSEL1
+# w,,UART1_SBUF,,,,,"E504C9",,m,_UART1_SBUF,,,                                # Alias of P4_ALTSEL1
 r,,ADC_CHCTR0,,,,,"E604CA",,s,_8_Skip,,, ,,s,_ADC_CHCTR0,,,
 w,,ADC_CHCTR0,,,,,"E604CA",,m,_ADC_CHCTR0,,,
-r,,ADC_CHINFR,,,,,"E604CA",,s,_8_Skip,,, ,,s,_ADC_CHINFR,,,
-w,,ADC_CHINFR,,,,,"E604CA",,m,_ADC_CHINFR,,,
-r,,ADC_CRCR1,,,,,"E604CA",,s,_8_Skip,,, ,,s,_ADC_CRCR1,,,
-w,,ADC_CRCR1,,,,,"E604CA",,m,_ADC_CRCR1,,,
-r,,ADC_GLOBCTR,,,,,"E604CA",,s,_8_Skip,,, ,,s,_ADC_GLOBCTR,,,
-w,,ADC_GLOBCTR,,,,,"E604CA",,m,_ADC_GLOBCTR,,,
-r,,ADC_RCR0,,,,,"E604CA",,s,_8_Skip,,, ,,s,_ADC_RCR0,,,
-w,,ADC_RCR0,,,,,"E604CA",,m,_ADC_RCR0,,,
-r,,ADC_RESR0L,,,,,"E604CA",,s,_8_Skip,,, ,,s,_ADC_RESR0L,,,
-w,,ADC_RESR0L,,,,,"E604CA",,m,_ADC_RESR0L,,,
-r,,ADC_RESRA0L,,,,,"E604CA",,s,_8_Skip,,, ,,s,_ADC_RESRA0L,,,
-w,,ADC_RESRA0L,,,,,"E604CA",,m,_ADC_RESRA0L,,,
-r,,CRCL,,,,,"E604CA",,s,_8_Skip,,, ,,s,_CRCL,,,
-w,,CRCL,,,,,"E604CA",,m,_CRCL,,,
-r,,RCAP2L,,,,,"E604CA",,s,_8_Skip,,, ,,s,_RCAP2L,,,
-w,,RCAP2L,,,,,"E604CA",,m,_RCAP2L,,,
-r,,UART1_BCON,,,,,"E604CA",,s,_8_Skip,,, ,,s,_UART1_BCON,,,
-w,,UART1_BCON,,,,,"E604CA",,m,_UART1_BCON,,,
+# r,,ADC_CHINFR,,,,,"E604CA",,s,_8_Skip,,, ,,s,_ADC_CHINFR,,,                 # Alias of ADC_CHCTR0
+# w,,ADC_CHINFR,,,,,"E604CA",,m,_ADC_CHINFR,,,                                # Alias of ADC_CHCTR0
+# r,,ADC_CRCR1,,,,,"E604CA",,s,_8_Skip,,, ,,s,_ADC_CRCR1,,,                   # Alias of ADC_CHCTR0
+# w,,ADC_CRCR1,,,,,"E604CA",,m,_ADC_CRCR1,,,                                  # Alias of ADC_CHCTR0
+# r,,ADC_GLOBCTR,,,,,"E604CA",,s,_8_Skip,,, ,,s,_ADC_GLOBCTR,,,               # Alias of ADC_CHCTR0
+# w,,ADC_GLOBCTR,,,,,"E604CA",,m,_ADC_GLOBCTR,,,                              # Alias of ADC_CHCTR0
+# r,,ADC_RCR0,,,,,"E604CA",,s,_8_Skip,,, ,,s,_ADC_RCR0,,,                     # Alias of ADC_CHCTR0
+# w,,ADC_RCR0,,,,,"E604CA",,m,_ADC_RCR0,,,                                    # Alias of ADC_CHCTR0
+# r,,ADC_RESR0L,,,,,"E604CA",,s,_8_Skip,,, ,,s,_ADC_RESR0L,,,                 # Alias of ADC_CHCTR0
+# w,,ADC_RESR0L,,,,,"E604CA",,m,_ADC_RESR0L,,,                                # Alias of ADC_CHCTR0
+# r,,ADC_RESRA0L,,,,,"E604CA",,s,_8_Skip,,, ,,s,_ADC_RESRA0L,,,               # Alias of ADC_CHCTR0
+# w,,ADC_RESRA0L,,,,,"E604CA",,m,_ADC_RESRA0L,,,                              # Alias of ADC_CHCTR0
+# r,,CRCL,,,,,"E604CA",,s,_8_Skip,,, ,,s,_CRCL,,,                             # Alias of ADC_CHCTR0
+# w,,CRCL,,,,,"E604CA",,m,_CRCL,,,                                            # Alias of ADC_CHCTR0
+# r,,RCAP2L,,,,,"E604CA",,s,_8_Skip,,, ,,s,_RCAP2L,,,                         # Alias of ADC_CHCTR0
+# w,,RCAP2L,,,,,"E604CA",,m,_RCAP2L,,,                                        # Alias of ADC_CHCTR0
+# r,,UART1_BCON,,,,,"E604CA",,s,_8_Skip,,, ,,s,_UART1_BCON,,,                 # Alias of ADC_CHCTR0
+# w,,UART1_BCON,,,,,"E604CA",,m,_UART1_BCON,,,                                # Alias of ADC_CHCTR0
 r,,ADC_CHCTR1,,,,,"E704CB",,s,_8_Skip,,, ,,s,_ADC_CHCTR1,,,
 w,,ADC_CHCTR1,,,,,"E704CB",,m,_ADC_CHCTR1,,,
-r,,ADC_CHINCR,,,,,"E704CB",,s,_8_Skip,,, ,,s,_ADC_CHINCR,,,
-w,,ADC_CHINCR,,,,,"E704CB",,m,_ADC_CHINCR,,,
-r,,ADC_CRPR1,,,,,"E704CB",,s,_8_Skip,,, ,,s,_ADC_CRPR1,,,
-w,,ADC_CRPR1,,,,,"E704CB",,m,_ADC_CRPR1,,,
-r,,ADC_GLOBSTR,,,,,"E704CB",,s,_8_Skip,,, ,,s,_ADC_GLOBSTR,,,
-w,,ADC_GLOBSTR,,,,,"E704CB",,m,_ADC_GLOBSTR,,,
-r,,ADC_RCR1,,,,,"E704CB",,s,_8_Skip,,, ,,s,_ADC_RCR1,,,
-w,,ADC_RCR1,,,,,"E704CB",,m,_ADC_RCR1,,,
-r,,ADC_RESR0H,,,,,"E704CB",,s,_8_Skip,,, ,,s,_ADC_RESR0H,,,
-w,,ADC_RESR0H,,,,,"E704CB",,m,_ADC_RESR0H,,,
-r,,ADC_RESRA0H,,,,,"E704CB",,s,_8_Skip,,, ,,s,_ADC_RESRA0H,,,
-w,,ADC_RESRA0H,,,,,"E704CB",,m,_ADC_RESRA0H,,,
-r,,CRCH,,,,,"E704CB",,s,_8_Skip,,, ,,s,_CRCH,,,
-w,,CRCH,,,,,"E704CB",,m,_CRCH,,,
-r,,RCAP2H,,,,,"E704CB",,s,_8_Skip,,, ,,s,_RCAP2H,,,
-w,,RCAP2H,,,,,"E704CB",,m,_RCAP2H,,,
-r,,UART1_BG,,,,,"E704CB",,s,_8_Skip,,, ,,s,_UART1_BG,,,
-w,,UART1_BG,,,,,"E704CB",,m,_UART1_BG,,,
+# r,,ADC_CHINCR,,,,,"E704CB",,s,_8_Skip,,, ,,s,_ADC_CHINCR,,,                 # Alias of ADC_CHCTR1
+# w,,ADC_CHINCR,,,,,"E704CB",,m,_ADC_CHINCR,,,                                # Alias of ADC_CHCTR1
+# r,,ADC_CRPR1,,,,,"E704CB",,s,_8_Skip,,, ,,s,_ADC_CRPR1,,,                   # Alias of ADC_CHCTR1
+# w,,ADC_CRPR1,,,,,"E704CB",,m,_ADC_CRPR1,,,                                  # Alias of ADC_CHCTR1
+# r,,ADC_GLOBSTR,,,,,"E704CB",,s,_8_Skip,,, ,,s,_ADC_GLOBSTR,,,               # Alias of ADC_CHCTR1
+# w,,ADC_GLOBSTR,,,,,"E704CB",,m,_ADC_GLOBSTR,,,                              # Alias of ADC_CHCTR1
+# r,,ADC_RCR1,,,,,"E704CB",,s,_8_Skip,,, ,,s,_ADC_RCR1,,,                     # Alias of ADC_CHCTR1
+# w,,ADC_RCR1,,,,,"E704CB",,m,_ADC_RCR1,,,                                    # Alias of ADC_CHCTR1
+# r,,ADC_RESR0H,,,,,"E704CB",,s,_8_Skip,,, ,,s,_ADC_RESR0H,,,                 # Alias of ADC_CHCTR1
+# w,,ADC_RESR0H,,,,,"E704CB",,m,_ADC_RESR0H,,,                                # Alias of ADC_CHCTR1
+# r,,ADC_RESRA0H,,,,,"E704CB",,s,_8_Skip,,, ,,s,_ADC_RESRA0H,,,               # Alias of ADC_CHCTR1
+# w,,ADC_RESRA0H,,,,,"E704CB",,m,_ADC_RESRA0H,,,                              # Alias of ADC_CHCTR1
+# r,,CRCH,,,,,"E704CB",,s,_8_Skip,,, ,,s,_CRCH,,,                             # Alias of ADC_CHCTR1
+# w,,CRCH,,,,,"E704CB",,m,_CRCH,,,                                            # Alias of ADC_CHCTR1
+# r,,RCAP2H,,,,,"E704CB",,s,_8_Skip,,, ,,s,_RCAP2H,,,                         # Alias of ADC_CHCTR1
+# w,,RCAP2H,,,,,"E704CB",,m,_RCAP2H,,,                                        # Alias of ADC_CHCTR1
+# r,,UART1_BG,,,,,"E704CB",,s,_8_Skip,,, ,,s,_UART1_BG,,,                     # Alias of ADC_CHCTR1
+# w,,UART1_BG,,,,,"E704CB",,m,_UART1_BG,,,                                    # Alias of ADC_CHCTR1
 r,,ADC_CHCTR2,,,,,"E004CC",,s,_8_Skip,,, ,,s,_ADC_CHCTR2,,,
 w,,ADC_CHCTR2,,,,,"E004CC",,m,_ADC_CHCTR2,,,
-r,,ADC_CHINSR,,,,,"E004CC",,s,_8_Skip,,, ,,s,_ADC_CHINSR,,,
-w,,ADC_CHINSR,,,,,"E004CC",,m,_ADC_CHINSR,,,
-r,,ADC_CRMR1,,,,,"E004CC",,s,_8_Skip,,, ,,s,_ADC_CRMR1,,,
-w,,ADC_CRMR1,,,,,"E004CC",,m,_ADC_CRMR1,,,
-r,,ADC_PRAR,,,,,"E004CC",,s,_8_Skip,,, ,,s,_ADC_PRAR,,,
-w,,ADC_PRAR,,,,,"E004CC",,m,_ADC_PRAR,,,
-r,,ADC_RCR2,,,,,"E004CC",,s,_8_Skip,,, ,,s,_ADC_RCR2,,,
-w,,ADC_RCR2,,,,,"E004CC",,m,_ADC_RCR2,,,
-r,,ADC_RESR1L,,,,,"E004CC",,s,_8_Skip,,, ,,s,_ADC_RESR1L,,,
-w,,ADC_RESR1L,,,,,"E004CC",,m,_ADC_RESR1L,,,
-r,,ADC_RESRA1L,,,,,"E004CC",,s,_8_Skip,,, ,,s,_ADC_RESRA1L,,,
-w,,ADC_RESRA1L,,,,,"E004CC",,m,_ADC_RESRA1L,,,
-r,,UART1_FDCON,,,,,"E004CC",,s,_8_Skip,,, ,,s,_UART1_FDCON,,,
-w,,UART1_FDCON,,,,,"E004CC",,m,_UART1_FDCON,,,
+# r,,ADC_CHINSR,,,,,"E004CC",,s,_8_Skip,,, ,,s,_ADC_CHINSR,,,                 # Alias of ADC_CHCTR2
+# w,,ADC_CHINSR,,,,,"E004CC",,m,_ADC_CHINSR,,,                                # Alias of ADC_CHCTR2
+# r,,ADC_CRMR1,,,,,"E004CC",,s,_8_Skip,,, ,,s,_ADC_CRMR1,,,                   # Alias of ADC_CHCTR2
+# w,,ADC_CRMR1,,,,,"E004CC",,m,_ADC_CRMR1,,,                                  # Alias of ADC_CHCTR2
+# r,,ADC_PRAR,,,,,"E004CC",,s,_8_Skip,,, ,,s,_ADC_PRAR,,,                     # Alias of ADC_CHCTR2
+# w,,ADC_PRAR,,,,,"E004CC",,m,_ADC_PRAR,,,                                    # Alias of ADC_CHCTR2
+# r,,ADC_RCR2,,,,,"E004CC",,s,_8_Skip,,, ,,s,_ADC_RCR2,,,                     # Alias of ADC_CHCTR2
+# w,,ADC_RCR2,,,,,"E004CC",,m,_ADC_RCR2,,,                                    # Alias of ADC_CHCTR2
+# r,,ADC_RESR1L,,,,,"E004CC",,s,_8_Skip,,, ,,s,_ADC_RESR1L,,,                 # Alias of ADC_CHCTR2
+# w,,ADC_RESR1L,,,,,"E004CC",,m,_ADC_RESR1L,,,                                # Alias of ADC_CHCTR2
+# r,,ADC_RESRA1L,,,,,"E004CC",,s,_8_Skip,,, ,,s,_ADC_RESRA1L,,,               # Alias of ADC_CHCTR2
+# w,,ADC_RESRA1L,,,,,"E004CC",,m,_ADC_RESRA1L,,,                              # Alias of ADC_CHCTR2
+# r,,UART1_FDCON,,,,,"E004CC",,s,_8_Skip,,, ,,s,_UART1_FDCON,,,               # Alias of ADC_CHCTR2
+# w,,UART1_FDCON,,,,,"E004CC",,m,_UART1_FDCON,,,                              # Alias of ADC_CHCTR2
 r,,ADC_CHCTR3,,,,,"E104CD",,s,_8_Skip,,, ,,s,_ADC_CHCTR3,,,
 w,,ADC_CHCTR3,,,,,"E104CD",,m,_ADC_CHCTR3,,,
-r,,ADC_CHINPR,,,,,"E104CD",,s,_8_Skip,,, ,,s,_ADC_CHINPR,,,
-w,,ADC_CHINPR,,,,,"E104CD",,m,_ADC_CHINPR,,,
-r,,ADC_LCBR,,,,,"E104CD",,s,_8_Skip,,, ,,s,_ADC_LCBR,,,
-w,,ADC_LCBR,,,,,"E104CD",,m,_ADC_LCBR,,,
-r,,ADC_QMR0,,,,,"E104CD",,s,_8_Skip,,, ,,s,_ADC_QMR0,,,
-w,,ADC_QMR0,,,,,"E104CD",,m,_ADC_QMR0,,,
-r,,ADC_RCR3,,,,,"E104CD",,s,_8_Skip,,, ,,s,_ADC_RCR3,,,
-w,,ADC_RCR3,,,,,"E104CD",,m,_ADC_RCR3,,,
-r,,ADC_RESR1H,,,,,"E104CD",,s,_8_Skip,,, ,,s,_ADC_RESR1H,,,
-w,,ADC_RESR1H,,,,,"E104CD",,m,_ADC_RESR1H,,,
-r,,ADC_RESRA1H,,,,,"E104CD",,s,_8_Skip,,, ,,s,_ADC_RESRA1H,,,
-w,,ADC_RESRA1H,,,,,"E104CD",,m,_ADC_RESRA1H,,,
-r,,UART1_FDSTEP,,,,,"E104CD",,s,_8_Skip,,, ,,s,_UART1_FDSTEP,,,
-w,,UART1_FDSTEP,,,,,"E104CD",,m,_UART1_FDSTEP,,,
+# r,,ADC_CHINPR,,,,,"E104CD",,s,_8_Skip,,, ,,s,_ADC_CHINPR,,,                 # Alias of ADC_CHCTR3
+# w,,ADC_CHINPR,,,,,"E104CD",,m,_ADC_CHINPR,,,                                # Alias of ADC_CHCTR3
+# r,,ADC_LCBR,,,,,"E104CD",,s,_8_Skip,,, ,,s,_ADC_LCBR,,,                     # Alias of ADC_CHCTR3
+# w,,ADC_LCBR,,,,,"E104CD",,m,_ADC_LCBR,,,                                    # Alias of ADC_CHCTR3
+# r,,ADC_QMR0,,,,,"E104CD",,s,_8_Skip,,, ,,s,_ADC_QMR0,,,                     # Alias of ADC_CHCTR3
+# w,,ADC_QMR0,,,,,"E104CD",,m,_ADC_QMR0,,,                                    # Alias of ADC_CHCTR3
+# r,,ADC_RCR3,,,,,"E104CD",,s,_8_Skip,,, ,,s,_ADC_RCR3,,,                     # Alias of ADC_CHCTR3
+# w,,ADC_RCR3,,,,,"E104CD",,m,_ADC_RCR3,,,                                    # Alias of ADC_CHCTR3
+# r,,ADC_RESR1H,,,,,"E104CD",,s,_8_Skip,,, ,,s,_ADC_RESR1H,,,                 # Alias of ADC_CHCTR3
+# w,,ADC_RESR1H,,,,,"E104CD",,m,_ADC_RESR1H,,,                                # Alias of ADC_CHCTR3
+# r,,ADC_RESRA1H,,,,,"E104CD",,s,_8_Skip,,, ,,s,_ADC_RESRA1H,,,               # Alias of ADC_CHCTR3
+# w,,ADC_RESRA1H,,,,,"E104CD",,m,_ADC_RESRA1H,,,                              # Alias of ADC_CHCTR3
+# r,,UART1_FDSTEP,,,,,"E104CD",,s,_8_Skip,,, ,,s,_UART1_FDSTEP,,,             # Alias of ADC_CHCTR3
+# w,,UART1_FDSTEP,,,,,"E104CD",,m,_UART1_FDSTEP,,,                            # Alias of ADC_CHCTR3
 r,,ADC_CHCTR4,,,,,"E204CE",,s,_8_Skip,,, ,,s,_ADC_CHCTR4,,,
 w,,ADC_CHCTR4,,,,,"E204CE",,m,_ADC_CHCTR4,,,
-r,,ADC_EVINFR,,,,,"E204CE",,s,_8_Skip,,, ,,s,_ADC_EVINFR,,,
-w,,ADC_EVINFR,,,,,"E204CE",,m,_ADC_EVINFR,,,
-r,,ADC_INPCR0,,,,,"E204CE",,s,_8_Skip,,, ,,s,_ADC_INPCR0,,,
-w,,ADC_INPCR0,,,,,"E204CE",,m,_ADC_INPCR0,,,
-r,,ADC_QSR0,,,,,"E204CE",,s,_8_Skip,,, ,,s,_ADC_QSR0,,,
-w,,ADC_QSR0,,,,,"E204CE",,m,_ADC_QSR0,,,
-r,,ADC_RESR2L,,,,,"E204CE",,s,_8_Skip,,, ,,s,_ADC_RESR2L,,,
-w,,ADC_RESR2L,,,,,"E204CE",,m,_ADC_RESR2L,,,
-r,,ADC_RESRA2L,,,,,"E204CE",,s,_8_Skip,,, ,,s,_ADC_RESRA2L,,,
-w,,ADC_RESRA2L,,,,,"E204CE",,m,_ADC_RESRA2L,,,
-r,,ADC_VFCR,,,,,"E204CE",,s,_8_Skip,,, ,,s,_ADC_VFCR,,,
-w,,ADC_VFCR,,,,,"E204CE",,m,_ADC_VFCR,,,
-r,,UART1_FDRES,,,,,"E204CE",,s,_8_Skip,,, ,,s,_UART1_FDRES,,,
-w,,UART1_FDRES,,,,,"E204CE",,m,_UART1_FDRES,,,
+# r,,ADC_EVINFR,,,,,"E204CE",,s,_8_Skip,,, ,,s,_ADC_EVINFR,,,                 # Alias of ADC_CHCTR4
+# w,,ADC_EVINFR,,,,,"E204CE",,m,_ADC_EVINFR,,,                                # Alias of ADC_CHCTR4
+# r,,ADC_INPCR0,,,,,"E204CE",,s,_8_Skip,,, ,,s,_ADC_INPCR0,,,                 # Alias of ADC_CHCTR4
+# w,,ADC_INPCR0,,,,,"E204CE",,m,_ADC_INPCR0,,,                                # Alias of ADC_CHCTR4
+# r,,ADC_QSR0,,,,,"E204CE",,s,_8_Skip,,, ,,s,_ADC_QSR0,,,                     # Alias of ADC_CHCTR4
+# w,,ADC_QSR0,,,,,"E204CE",,m,_ADC_QSR0,,,                                    # Alias of ADC_CHCTR4
+# r,,ADC_RESR2L,,,,,"E204CE",,s,_8_Skip,,, ,,s,_ADC_RESR2L,,,                 # Alias of ADC_CHCTR4
+# w,,ADC_RESR2L,,,,,"E204CE",,m,_ADC_RESR2L,,,                                # Alias of ADC_CHCTR4
+# r,,ADC_RESRA2L,,,,,"E204CE",,s,_8_Skip,,, ,,s,_ADC_RESRA2L,,,               # Alias of ADC_CHCTR4
+# w,,ADC_RESRA2L,,,,,"E204CE",,m,_ADC_RESRA2L,,,                              # Alias of ADC_CHCTR4
+# r,,ADC_VFCR,,,,,"E204CE",,s,_8_Skip,,, ,,s,_ADC_VFCR,,,                     # Alias of ADC_CHCTR4
+# w,,ADC_VFCR,,,,,"E204CE",,m,_ADC_VFCR,,,                                    # Alias of ADC_CHCTR4
+# r,,UART1_FDRES,,,,,"E204CE",,s,_8_Skip,,, ,,s,_UART1_FDRES,,,               # Alias of ADC_CHCTR4
+# w,,UART1_FDRES,,,,,"E204CE",,m,_UART1_FDRES,,,                              # Alias of ADC_CHCTR4
 r,,ADC_CHCTR5,,,,,"E304CF",,s,_8_Skip,,, ,,s,_ADC_CHCTR5,,,
 w,,ADC_CHCTR5,,,,,"E304CF",,m,_ADC_CHCTR5,,,
-r,,ADC_ETRCR,,,,,"E304CF",,s,_8_Skip,,, ,,s,_ADC_ETRCR,,,
-w,,ADC_ETRCR,,,,,"E304CF",,m,_ADC_ETRCR,,,
-r,,ADC_EVINCR,,,,,"E304CF",,s,_8_Skip,,, ,,s,_ADC_EVINCR,,,
-w,,ADC_EVINCR,,,,,"E304CF",,m,_ADC_EVINCR,,,
-r,,ADC_Q0R0,,,,,"E304CF",,s,_8_Skip,,, ,,s,_ADC_Q0R0,,,
-w,,ADC_Q0R0,,,,,"E304CF",,m,_ADC_Q0R0,,,
-r,,ADC_RESR2H,,,,,"E304CF",,s,_8_Skip,,, ,,s,_ADC_RESR2H,,,
-w,,ADC_RESR2H,,,,,"E304CF",,m,_ADC_RESR2H,,,
-r,,ADC_RESRA2H,,,,,"E304CF",,s,_8_Skip,,, ,,s,_ADC_RESRA2H,,,
-w,,ADC_RESRA2H,,,,,"E304CF",,m,_ADC_RESRA2H,,,
+# r,,ADC_ETRCR,,,,,"E304CF",,s,_8_Skip,,, ,,s,_ADC_ETRCR,,,                   # Alias of ADC_CHCTR5
+# w,,ADC_ETRCR,,,,,"E304CF",,m,_ADC_ETRCR,,,                                  # Alias of ADC_CHCTR5
+# r,,ADC_EVINCR,,,,,"E304CF",,s,_8_Skip,,, ,,s,_ADC_EVINCR,,,                 # Alias of ADC_CHCTR5
+# w,,ADC_EVINCR,,,,,"E304CF",,m,_ADC_EVINCR,,,                                # Alias of ADC_CHCTR5
+# r,,ADC_Q0R0,,,,,"E304CF",,s,_8_Skip,,, ,,s,_ADC_Q0R0,,,                     # Alias of ADC_CHCTR5
+# w,,ADC_Q0R0,,,,,"E304CF",,m,_ADC_Q0R0,,,                                    # Alias of ADC_CHCTR5
+# r,,ADC_RESR2H,,,,,"E304CF",,s,_8_Skip,,, ,,s,_ADC_RESR2H,,,                 # Alias of ADC_CHCTR5
+# w,,ADC_RESR2H,,,,,"E304CF",,m,_ADC_RESR2H,,,                                # Alias of ADC_CHCTR5
+# r,,ADC_RESRA2H,,,,,"E304CF",,s,_8_Skip,,, ,,s,_ADC_RESRA2H,,,               # Alias of ADC_CHCTR5
+# w,,ADC_RESRA2H,,,,,"E304CF",,m,_ADC_RESRA2H,,,                              # Alias of ADC_CHCTR5
 r,,PSW,,,,,"FC04D0",,s,_8_Skip,,, ,,s,_PSW,,,
 w,,PSW,,,,,"FC04D0",,m,_PSW,,,
 r,,ADC_PAGE,,,,,"FD04D1",,s,_8_Skip,,, ,,s,_ADC_PAGE,,,
 w,,ADC_PAGE,,,,,"FD04D1",,m,_ADC_PAGE,,,
 r,,ADC_CHCTR6,,,,,"FE04D2",,s,_8_Skip,,, ,,s,_ADC_CHCTR6,,,
 w,,ADC_CHCTR6,,,,,"FE04D2",,m,_ADC_CHCTR6,,,
-r,,ADC_EVINSR,,,,,"FE04D2",,s,_8_Skip,,, ,,s,_ADC_EVINSR,,,
-w,,ADC_EVINSR,,,,,"FE04D2",,m,_ADC_EVINSR,,,
-r,,ADC_QBUR0,,,,,"FE04D2",,s,_8_Skip,,, ,,s,_ADC_QBUR0,,,
-w,,ADC_QBUR0,,,,,"FE04D2",,m,_ADC_QBUR0,,,
-r,,ADC_QINR0,,,,,"FE04D2",,s,_8_Skip,,, ,,s,_ADC_QINR0,,,
-w,,ADC_QINR0,,,,,"FE04D2",,m,_ADC_QINR0,,,
-r,,ADC_RESR3L,,,,,"FE04D2",,s,_8_Skip,,, ,,s,_ADC_RESR3L,,,
-w,,ADC_RESR3L,,,,,"FE04D2",,m,_ADC_RESR3L,,,
-r,,ADC_RESRA3L,,,,,"FE04D2",,s,_8_Skip,,, ,,s,_ADC_RESRA3L,,,
-w,,ADC_RESRA3L,,,,,"FE04D2",,m,_ADC_RESRA3L,,,
+# r,,ADC_EVINSR,,,,,"FE04D2",,s,_8_Skip,,, ,,s,_ADC_EVINSR,,,                 # Alias of ADC_CHCTR6
+# w,,ADC_EVINSR,,,,,"FE04D2",,m,_ADC_EVINSR,,,                                # Alias of ADC_CHCTR6
+# r,,ADC_QBUR0,,,,,"FE04D2",,s,_8_Skip,,, ,,s,_ADC_QBUR0,,,                   # Alias of ADC_CHCTR6
+# w,,ADC_QBUR0,,,,,"FE04D2",,m,_ADC_QBUR0,,,                                  # Alias of ADC_CHCTR6
+# r,,ADC_QINR0,,,,,"FE04D2",,s,_8_Skip,,, ,,s,_ADC_QINR0,,,                   # Alias of ADC_CHCTR6
+# w,,ADC_QINR0,,,,,"FE04D2",,m,_ADC_QINR0,,,                                  # Alias of ADC_CHCTR6
+# r,,ADC_RESR3L,,,,,"FE04D2",,s,_8_Skip,,, ,,s,_ADC_RESR3L,,,                 # Alias of ADC_CHCTR6
+# w,,ADC_RESR3L,,,,,"FE04D2",,m,_ADC_RESR3L,,,                                # Alias of ADC_CHCTR6
+# r,,ADC_RESRA3L,,,,,"FE04D2",,s,_8_Skip,,, ,,s,_ADC_RESRA3L,,,               # Alias of ADC_CHCTR6
+# w,,ADC_RESRA3L,,,,,"FE04D2",,m,_ADC_RESRA3L,,,                              # Alias of ADC_CHCTR6
 r,,ADC_CHCTR7,,,,,"FF04D3",,s,_8_Skip,,, ,,s,_ADC_CHCTR7,,,
 w,,ADC_CHCTR7,,,,,"FF04D3",,m,_ADC_CHCTR7,,,
-r,,ADC_EVINPR,,,,,"FF04D3",,s,_8_Skip,,, ,,s,_ADC_EVINPR,,,
-w,,ADC_EVINPR,,,,,"FF04D3",,m,_ADC_EVINPR,,,
-r,,ADC_RESR3H,,,,,"FF04D3",,s,_8_Skip,,, ,,s,_ADC_RESR3H,,,
-w,,ADC_RESR3H,,,,,"FF04D3",,m,_ADC_RESR3H,,,
-r,,ADC_RESRA3H,,,,,"FF04D3",,s,_8_Skip,,, ,,s,_ADC_RESRA3H,,,
-w,,ADC_RESRA3H,,,,,"FF04D3",,m,_ADC_RESRA3H,,,
+# r,,ADC_EVINPR,,,,,"FF04D3",,s,_8_Skip,,, ,,s,_ADC_EVINPR,,,                 # Alias of ADC_CHCTR7
+# w,,ADC_EVINPR,,,,,"FF04D3",,m,_ADC_EVINPR,,,                                # Alias of ADC_CHCTR7
+# r,,ADC_RESR3H,,,,,"FF04D3",,s,_8_Skip,,, ,,s,_ADC_RESR3H,,,                 # Alias of ADC_CHCTR7
+# w,,ADC_RESR3H,,,,,"FF04D3",,m,_ADC_RESR3H,,,                                # Alias of ADC_CHCTR7
+# r,,ADC_RESRA3H,,,,,"FF04D3",,s,_8_Skip,,, ,,s,_ADC_RESRA3H,,,               # Alias of ADC_CHCTR7
+# w,,ADC_RESRA3H,,,,,"FF04D3",,m,_ADC_RESRA3H,,,                              # Alias of ADC_CHCTR7
 r,,ADCON0,,,,,"F404D8",,s,_8_Skip,,, ,,s,_ADCON0,,,
 w,,ADCON0,,,,,"F404D8",,m,_ADCON0,,,
 r,,ADDATH,,,,,"F504D9",,s,_8_Skip,,, ,,s,_ADDATH,,,
@@ -881,16 +881,16 @@ r,,IEN1,,,,,"C404E8",,s,_8_Skip,,, ,,s,_IEN1,,,
 w,,IEN1,,,,,"C404E8",,m,_IEN1,,,
 r,,FDCON,,,,,"C504E9",,s,_8_Skip,,, ,,s,_FDCON,,,
 w,,FDCON,,,,,"C504E9",,m,_FDCON,,,
-r,,MISC_CON,,,,,"C504E9",,s,_8_Skip,,, ,,s,_MISC_CON,,,
-w,,MISC_CON,,,,,"C504E9",,m,_MISC_CON,,,
-r,,MMCR2,,,,,"C504E9",,s,_8_Skip,,, ,,s,_MMCR2,,,
-w,,MMCR2,,,,,"C504E9",,m,_MMCR2,,,
+# r,,MISC_CON,,,,,"C504E9",,s,_8_Skip,,, ,,s,_MISC_CON,,,                     # Alias of FDCON
+# w,,MISC_CON,,,,,"C504E9",,m,_MISC_CON,,,                                    # Alias of FDCON
+# r,,MMCR2,,,,,"C504E9",,s,_8_Skip,,, ,,s,_MMCR2,,,                           # Alias of FDCON
+# w,,MMCR2,,,,,"C504E9",,m,_MMCR2,,,                                          # Alias of FDCON
 r,,FDSTEP,,,,,"C604EA",,s,_8_Skip,,, ,,s,_FDSTEP,,,
 w,,FDSTEP,,,,,"C604EA",,m,_FDSTEP,,,
 r,,FDRES,,,,,"C704EB",,s,_8_Skip,,, ,,s,_FDRES,,,
 w,,FDRES,,,,,"C704EB",,m,_FDRES,,,
-r,,MMWR1,,,,,"C704EB",,s,_8_Skip,,, ,,s,_MMWR1,,,
-w,,MMWR1,,,,,"C704EB",,m,_MMWR1,,,
+# r,,MMWR1,,,,,"C704EB",,s,_8_Skip,,, ,,s,_MMWR1,,,                           # Alias of FDRES
+# w,,MMWR1,,,,,"C704EB",,m,_MMWR1,,,                                          # Alias of FDRES
 r,,MMWR2,,,,,"C004EC",,s,_8_Skip,,, ,,s,_MMWR2,,,
 w,,MMWR2,,,,,"C004EC",,m,_MMWR2,,,
 r,,MMCR,,,,,"DD04F1",,s,_8_Skip,,, ,,s,_MMCR,,,
@@ -913,356 +913,354 @@ r,,IPH1,,,,,"D504F9",,s,_8_Skip,,, ,,s,_IPH1,,,
 w,,IPH1,,,,,"D504F9",,m,_IPH1,,,
 r,,CCU6_CC60RL,,,,,"D604FA",,s,_8_Skip,,, ,,s,_CCU6_CC60RL,,,
 w,,CCU6_CC60RL,,,,,"D604FA",,m,_CCU6_CC60RL,,,
-r,,CCU6_CC60SRL,,,,,"D604FA",,s,_8_Skip,,, ,,s,_CCU6_CC60SRL,,,
-w,,CCU6_CC60SRL,,,,,"D604FA",,m,_CCU6_CC60SRL,,,
-r,,CCU6_T12L,,,,,"D604FA",,s,_8_Skip,,, ,,s,_CCU6_T12L,,,
-w,,CCU6_T12L,,,,,"D604FA",,m,_CCU6_T12L,,,
-r,,CCU6_TCTR2L,,,,,"D604FA",,s,_8_Skip,,, ,,s,_CCU6_TCTR2L,,,
-w,,CCU6_TCTR2L,,,,,"D604FA",,m,_CCU6_TCTR2L,,,
+# r,,CCU6_CC60SRL,,,,,"D604FA",,s,_8_Skip,,, ,,s,_CCU6_CC60SRL,,,             # Alias of CCU6_CC60RL
+# w,,CCU6_CC60SRL,,,,,"D604FA",,m,_CCU6_CC60SRL,,,                            # Alias of CCU6_CC60RL
+# r,,CCU6_T12L,,,,,"D604FA",,s,_8_Skip,,, ,,s,_CCU6_T12L,,,                   # Alias of CCU6_CC60RL
+# w,,CCU6_T12L,,,,,"D604FA",,m,_CCU6_T12L,,,                                  # Alias of CCU6_CC60RL
+# r,,CCU6_TCTR2L,,,,,"D604FA",,s,_8_Skip,,, ,,s,_CCU6_TCTR2L,,,               # Alias of CCU6_CC60RL
+# w,,CCU6_TCTR2L,,,,,"D604FA",,m,_CCU6_TCTR2L,,,                              # Alias of CCU6_CC60RL
 r,,CCU6_CC60RH,,,,,"D704FB",,s,_8_Skip,,, ,,s,_CCU6_CC60RH,,,
 w,,CCU6_CC60RH,,,,,"D704FB",,m,_CCU6_CC60RH,,,
-r,,CCU6_CC60SRH,,,,,"D704FB",,s,_8_Skip,,, ,,s,_CCU6_CC60SRH,,,
-w,,CCU6_CC60SRH,,,,,"D704FB",,m,_CCU6_CC60SRH,,,
-r,,CCU6_T12H,,,,,"D704FB",,s,_8_Skip,,, ,,s,_CCU6_T12H,,,
-w,,CCU6_T12H,,,,,"D704FB",,m,_CCU6_T12H,,,
-r,,CCU6_TCTR2H,,,,,"D704FB",,s,_8_Skip,,, ,,s,_CCU6_TCTR2H,,,
-w,,CCU6_TCTR2H,,,,,"D704FB",,m,_CCU6_TCTR2H,,,
+# r,,CCU6_CC60SRH,,,,,"D704FB",,s,_8_Skip,,, ,,s,_CCU6_CC60SRH,,,             # Alias of CCU6_CC60RH
+# w,,CCU6_CC60SRH,,,,,"D704FB",,m,_CCU6_CC60SRH,,,                            # Alias of CCU6_CC60RH
+# r,,CCU6_T12H,,,,,"D704FB",,s,_8_Skip,,, ,,s,_CCU6_T12H,,,                   # Alias of CCU6_CC60RH
+# w,,CCU6_T12H,,,,,"D704FB",,m,_CCU6_T12H,,,                                  # Alias of CCU6_CC60RH
+# r,,CCU6_TCTR2H,,,,,"D704FB",,s,_8_Skip,,, ,,s,_CCU6_TCTR2H,,,               # Alias of CCU6_CC60RH
+# w,,CCU6_TCTR2H,,,,,"D704FB",,m,_CCU6_TCTR2H,,,                              # Alias of CCU6_CC60RH
 r,,CCL_PUHZ,,,,,"D004FC",,s,_8_Skip,,, ,,s,_CCL_PUHZ,,,
 w,,CCL_PUHZ,,,,,"D004FC",,m,_CCL_PUHZ,,,
-r,,CCU6_CC61RL,,,,,"D004FC",,s,_8_Skip,,, ,,s,_CCU6_CC61RL,,,
-w,,CCU6_CC61RL,,,,,"D004FC",,m,_CCU6_CC61RL,,,
-r,,CCU6_CC61SRL,,,,,"D004FC",,s,_8_Skip,,, ,,s,_CCU6_CC61SRL,,,
-w,,CCU6_CC61SRL,,,,,"D004FC",,m,_CCU6_CC61SRL,,,
-r,,CCU6_MODCTRL,,,,,"D004FC",,s,_8_Skip,,, ,,s,_CCU6_MODCTRL,,,
-w,,CCU6_MODCTRL,,,,,"D004FC",,m,_CCU6_MODCTRL,,,
-r,,CCU6_T13L,,,,,"D004FC",,s,_8_Skip,,, ,,s,_CCU6_T13L,,,
-w,,CCU6_T13L,,,,,"D004FC",,m,_CCU6_T13L,,,
-r,,VR0,,,,,"D004FC",,s,_8_Skip,,, ,,s,_VR0,,,
-w,,VR0,,,,,"D004FC",,m,_VR0,,,
+# r,,CCU6_CC61RL,,,,,"D004FC",,s,_8_Skip,,, ,,s,_CCU6_CC61RL,,,               # Alias of CCL_PUHZ
+# w,,CCU6_CC61RL,,,,,"D004FC",,m,_CCU6_CC61RL,,,                              # Alias of CCL_PUHZ
+# r,,CCU6_CC61SRL,,,,,"D004FC",,s,_8_Skip,,, ,,s,_CCU6_CC61SRL,,,             # Alias of CCL_PUHZ
+# w,,CCU6_CC61SRL,,,,,"D004FC",,m,_CCU6_CC61SRL,,,                            # Alias of CCL_PUHZ
+# r,,CCU6_MODCTRL,,,,,"D004FC",,s,_8_Skip,,, ,,s,_CCU6_MODCTRL,,,             # Alias of CCL_PUHZ
+# w,,CCU6_MODCTRL,,,,,"D004FC",,m,_CCU6_MODCTRL,,,                            # Alias of CCL_PUHZ
+# r,,CCU6_T13L,,,,,"D004FC",,s,_8_Skip,,, ,,s,_CCU6_T13L,,,                   # Alias of CCL_PUHZ
+# w,,CCU6_T13L,,,,,"D004FC",,m,_CCU6_T13L,,,                                  # Alias of CCL_PUHZ
+# r,,VR0,,,,,"D004FC",,s,_8_Skip,,, ,,s,_VR0,,,                               # Alias of CCL_PUHZ
+# w,,VR0,,,,,"D004FC",,m,_VR0,,,                                              # Alias of CCL_PUHZ
 r,,CCH_PUHZ,,,,,"D104FD",,s,_8_Skip,,, ,,s,_CCH_PUHZ,,,
 w,,CCH_PUHZ,,,,,"D104FD",,m,_CCH_PUHZ,,,
-r,,CCU6_CC61RH,,,,,"D104FD",,s,_8_Skip,,, ,,s,_CCU6_CC61RH,,,
-w,,CCU6_CC61RH,,,,,"D104FD",,m,_CCU6_CC61RH,,,
-r,,CCU6_CC61SRH,,,,,"D104FD",,s,_8_Skip,,, ,,s,_CCU6_CC61SRH,,,
-w,,CCU6_CC61SRH,,,,,"D104FD",,m,_CCU6_CC61SRH,,,
-r,,CCU6_MODCTRH,,,,,"D104FD",,s,_8_Skip,,, ,,s,_CCU6_MODCTRH,,,
-w,,CCU6_MODCTRH,,,,,"D104FD",,m,_CCU6_MODCTRH,,,
-r,,CCU6_T13H,,,,,"D104FD",,s,_8_Skip,,, ,,s,_CCU6_T13H,,,
-w,,CCU6_T13H,,,,,"D104FD",,m,_CCU6_T13H,,,
-r,,VR1,,,,,"D104FD",,s,_8_Skip,,, ,,s,_VR1,,,
-w,,VR1,,,,,"D104FD",,m,_VR1,,,
+# r,,CCU6_CC61RH,,,,,"D104FD",,s,_8_Skip,,, ,,s,_CCU6_CC61RH,,,               # Alias of CCH_PUHZ
+# w,,CCU6_CC61RH,,,,,"D104FD",,m,_CCU6_CC61RH,,,                              # Alias of CCH_PUHZ
+# r,,CCU6_CC61SRH,,,,,"D104FD",,s,_8_Skip,,, ,,s,_CCU6_CC61SRH,,,             # Alias of CCH_PUHZ
+# w,,CCU6_CC61SRH,,,,,"D104FD",,m,_CCU6_CC61SRH,,,                            # Alias of CCH_PUHZ
+# r,,CCU6_MODCTRH,,,,,"D104FD",,s,_8_Skip,,, ,,s,_CCU6_MODCTRH,,,             # Alias of CCH_PUHZ
+# w,,CCU6_MODCTRH,,,,,"D104FD",,m,_CCU6_MODCTRH,,,                            # Alias of CCH_PUHZ
+# r,,CCU6_T13H,,,,,"D104FD",,s,_8_Skip,,, ,,s,_CCU6_T13H,,,                   # Alias of CCH_PUHZ
+# w,,CCU6_T13H,,,,,"D104FD",,m,_CCU6_T13H,,,                                  # Alias of CCH_PUHZ
+# r,,VR1,,,,,"D104FD",,s,_8_Skip,,, ,,s,_VR1,,,                               # Alias of CCH_PUHZ
+# w,,VR1,,,,,"D104FD",,m,_VR1,,,                                              # Alias of CCH_PUHZ
 r,,CCL_GPV,,,,,"D204FE",,s,_8_Skip,,, ,,s,_CCL_GPV,,,
 w,,CCL_GPV,,,,,"D204FE",,m,_CCL_GPV,,,
-r,,CCU6_CC62RL,,,,,"D204FE",,s,_8_Skip,,, ,,s,_CCU6_CC62RL,,,
-w,,CCU6_CC62RL,,,,,"D204FE",,m,_CCU6_CC62RL,,,
-r,,CCU6_CC62SRL,,,,,"D204FE",,s,_8_Skip,,, ,,s,_CCU6_CC62SRL,,,
-w,,CCU6_CC62SRL,,,,,"D204FE",,m,_CCU6_CC62SRL,,,
-r,,CCU6_CMPSTATL,,,,,"D204FE",,s,_8_Skip,,, ,,s,_CCU6_CMPSTATL,,,
-w,,CCU6_CMPSTATL,,,,,"D204FE",,m,_CCU6_CMPSTATL,,,
-r,,CCU6_TRPCTRL,,,,,"D204FE",,s,_8_Skip,,, ,,s,_CCU6_TRPCTRL,,,
-w,,CCU6_TRPCTRL,,,,,"D204FE",,m,_CCU6_TRPCTRL,,,
-r,,VR2,,,,,"D204FE",,s,_8_Skip,,, ,,s,_VR2,,,
-w,,VR2,,,,,"D204FE",,m,_VR2,,,
+# r,,CCU6_CC62RL,,,,,"D204FE",,s,_8_Skip,,, ,,s,_CCU6_CC62RL,,,               # Alias of CCL_GPV
+# w,,CCU6_CC62RL,,,,,"D204FE",,m,_CCU6_CC62RL,,,                              # Alias of CCL_GPV
+# r,,CCU6_CC62SRL,,,,,"D204FE",,s,_8_Skip,,, ,,s,_CCU6_CC62SRL,,,             # Alias of CCL_GPV
+# w,,CCU6_CC62SRL,,,,,"D204FE",,m,_CCU6_CC62SRL,,,                            # Alias of CCL_GPV
+# r,,CCU6_CMPSTATL,,,,,"D204FE",,s,_8_Skip,,, ,,s,_CCU6_CMPSTATL,,,           # Alias of CCL_GPV
+# w,,CCU6_CMPSTATL,,,,,"D204FE",,m,_CCU6_CMPSTATL,,,                          # Alias of CCL_GPV
+# r,,CCU6_TRPCTRL,,,,,"D204FE",,s,_8_Skip,,, ,,s,_CCU6_TRPCTRL,,,             # Alias of CCL_GPV
+# w,,CCU6_TRPCTRL,,,,,"D204FE",,m,_CCU6_TRPCTRL,,,                            # Alias of CCL_GPV
+# r,,VR2,,,,,"D204FE",,s,_8_Skip,,, ,,s,_VR2,,,                               # Alias of CCL_GPV
+# w,,VR2,,,,,"D204FE",,m,_VR2,,,                                              # Alias of CCL_GPV
 r,,CCH_GPV,,,,,"D304FF",,s,_8_Skip,,, ,,s,_CCH_GPV,,,
 w,,CCH_GPV,,,,,"D304FF",,m,_CCH_GPV,,,
-r,,CCU6_CC62RH,,,,,"D304FF",,s,_8_Skip,,, ,,s,_CCU6_CC62RH,,,
-w,,CCU6_CC62RH,,,,,"D304FF",,m,_CCU6_CC62RH,,,
-r,,CCU6_CC62SRH,,,,,"D304FF",,s,_8_Skip,,, ,,s,_CCU6_CC62SRH,,,
-w,,CCU6_CC62SRH,,,,,"D304FF",,m,_CCU6_CC62SRH,,,
-r,,CCU6_CMPSTATH,,,,,"D304FF",,s,_8_Skip,,, ,,s,_CCU6_CMPSTATH,,,
-w,,CCU6_CMPSTATH,,,,,"D304FF",,m,_CCU6_CMPSTATH,,,
-r,,CCU6_TRPCTRH,,,,,"D304FF",,s,_8_Skip,,, ,,s,_CCU6_TRPCTRH,,,
-w,,CCU6_TRPCTRH,,,,,"D304FF",,m,_CCU6_TRPCTRH,,,
+# r,,CCU6_CC62RH,,,,,"D304FF",,s,_8_Skip,,, ,,s,_CCU6_CC62RH,,,               # Alias of CCH_GPV
+# w,,CCU6_CC62RH,,,,,"D304FF",,m,_CCU6_CC62RH,,,                              # Alias of CCH_GPV
+# r,,CCU6_CC62SRH,,,,,"D304FF",,s,_8_Skip,,, ,,s,_CCU6_CC62SRH,,,             # Alias of CCH_GPV
+# w,,CCU6_CC62SRH,,,,,"D304FF",,m,_CCU6_CC62SRH,,,                            # Alias of CCH_GPV
+# r,,CCU6_CMPSTATH,,,,,"D304FF",,s,_8_Skip,,, ,,s,_CCU6_CMPSTATH,,,           # Alias of CCH_GPV
+# w,,CCU6_CMPSTATH,,,,,"D304FF",,m,_CCU6_CMPSTATH,,,                          # Alias of CCH_GPV
+# r,,CCU6_TRPCTRH,,,,,"D304FF",,s,_8_Skip,,, ,,s,_CCU6_TRPCTRH,,,             # Alias of CCH_GPV
+# w,,CCU6_TRPCTRH,,,,,"D304FF",,m,_CCU6_TRPCTRH,,,                            # Alias of CCH_GPV
 
 # --- Konstanten ---
 r,,ACK_07FF_BIT,,,,,"B80200",,s,_8_Skip,,, ,,s,_ACK_07FF_BIT,,,
 w,,ACK_07FF_BIT,,,,,"B80200",,m,_ACK_07FF_BIT,,,
-r,,ACK_0800_BIT,,,,,"B80200",,s,_8_Skip,,, ,,s,_ACK_0800_BIT,,,
-w,,ACK_0800_BIT,,,,,"B80200",,m,_ACK_0800_BIT,,,
-r,,ACK_5002_BIT,,,,,"B80200",,s,_8_Skip,,, ,,s,_ACK_5002_BIT,,,
-w,,ACK_5002_BIT,,,,,"B80200",,m,_ACK_5002_BIT,,,
-r,,ACK_FF00_BIT,,,,,"B80200",,s,_8_Skip,,, ,,s,_ACK_FF00_BIT,,,
-w,,ACK_FF00_BIT,,,,,"B80200",,m,_ACK_FF00_BIT,,,
-r,,ACK_REG_STOP_BIT,,,,,"B80200",,s,_8_Skip,,, ,,s,_ACK_REG_STOP_BIT,,,
-w,,ACK_REG_STOP_BIT,,,,,"B80200",,m,_ACK_REG_STOP_BIT,,,
-r,,ADC_SHORT,,,,,"B80200",,s,_8_Skip,,, ,,s,_ADC_SHORT,,,
-w,,ADC_SHORT,,,,,"B80200",,m,_ADC_SHORT,,,
-r,,AIO_900,,,,,"B80200",,s,_8_Skip,,, ,,s,_AIO_900,,,
-w,,AIO_900,,,,,"B80200",,m,_AIO_900,,,
-r,,BCCARD,,,,,"B80200",,s,_8_Skip,,, ,,s,_BCCARD,,,
-w,,BCCARD,,,,,"B80200",,m,_BCCARD,,,
-r,,EBUS_S7,,,,,"B80200",,s,_8_Skip,,, ,,s,_EBUS_S7,,,
-w,,EBUS_S7,,,,,"B80200",,m,_EBUS_S7,,,
-r,,EBUS_SCHICHT_2,,,,,"B80200",,s,_8_Skip,,, ,,s,_EBUS_SCHICHT_2,,,
-w,,EBUS_SCHICHT_2,,,,,"B80200",,m,_EBUS_SCHICHT_2,,,
-r,,EEA_ANF,,,,,"B80200",,s,_8_Skip,,, ,,s,_EEA_ANF,,,
-w,,EEA_ANF,,,,,"B80200",,m,_EEA_ANF,,,
-r,,EEP_FAST_INIT,,,,,"B80200",,s,_8_Skip,,, ,,s,_EEP_FAST_INIT,,,
-w,,EEP_FAST_INIT,,,,,"B80200",,m,_EEP_FAST_INIT,,,
-r,,EE_I2C,,,,,"B80200",,s,_8_Skip,,, ,,s,_EE_I2C,,,
-w,,EE_I2C,,,,,"B80200",,m,_EE_I2C,,,
-r,,EE_PARAS,,,,,"B80200",,s,_8_Skip,,, ,,s,_EE_PARAS,,,
-w,,EE_PARAS,,,,,"B80200",,m,_EE_PARAS,,,
-r,,FEHLER_DETAIL_EBENE,,,,,"B80200",,s,_8_Skip,,, ,,s,_FEHLER_DETAIL_EBENE,,,
-w,,FEHLER_DETAIL_EBENE,,,,,"B80200",,m,_FEHLER_DETAIL_EBENE,,,
-r,,HARD_52,,,,,"B80200",,s,_8_Skip,,, ,,s,_HARD_52,,,
-w,,HARD_52,,,,,"B80200",,m,_HARD_52,,,
-r,,INFONR,,,,,"B80200",,s,_8_Skip,,, ,,s,_INFONR,,,
-w,,INFONR,,,,,"B80200",,m,_INFONR,,,
-r,,ION,,,,,"B80200",,s,_8_Skip,,, ,,s,_ION,,,
-w,,ION,,,,,"B80200",,m,_ION,,,
-r,,MXSTB_A,,,,,"B80200",,s,_8_Skip,,, ,,s,_MXSTB_A,,,
-w,,MXSTB_A,,,,,"B80200",,m,_MXSTB_A,,,
-r,,NM_KALTSTART_BIT,,,,,"B80200",,s,_8_Skip,,, ,,s,_NM_KALTSTART_BIT,,,
-w,,NM_KALTSTART_BIT,,,,,"B80200",,m,_NM_KALTSTART_BIT,,,
-r,,OS_XC886,,,,,"B80200",,s,_8_Skip,,, ,,s,_OS_XC886,,,
-w,,OS_XC886,,,,,"B80200",,m,_OS_XC886,,,
-r,,QQ_M1,,,,,"B80200",,s,_8_Skip,,, ,,s,_QQ_M1,,,
-w,,QQ_M1,,,,,"B80200",,m,_QQ_M1,,,
-r,,RAMROM,,,,,"B80200",,s,_8_Skip,,, ,,s,_RAMROM,,,
-w,,RAMROM,,,,,"B80200",,m,_RAMROM,,,
-r,,RX_XRAM_BUSY_BIT,,,,,"B80200",,s,_8_Skip,,, ,,s,_RX_XRAM_BUSY_BIT,,,
-w,,RX_XRAM_BUSY_BIT,,,,,"B80200",,m,_RX_XRAM_BUSY_BIT,,,
-r,,SFR_IO,,,,,"B80200",,s,_8_Skip,,, ,,s,_SFR_IO,,,
-w,,SFR_IO,,,,,"B80200",,m,_SFR_IO,,,
-r,,STOEREC,,,,,"B80200",,s,_8_Skip,,, ,,s,_STOEREC,,,
-w,,STOEREC,,,,,"B80200",,m,_STOEREC,,,
-r,,TX_EIG_QQ,,,,,"B80200",,s,_8_Skip,,, ,,s,_TX_EIG_QQ,,,
-w,,TX_EIG_QQ,,,,,"B80200",,m,_TX_EIG_QQ,,,
-r,,TX_QQ_M11,,,,,"B80200",,s,_8_Skip,,, ,,s,_TX_QQ_M11,,,
-w,,TX_QQ_M11,,,,,"B80200",,m,_TX_QQ_M11,,,
-r,,USER,,,,,"B80200",,s,_8_Skip,,, ,,s,_USER,,,
-w,,USER,,,,,"B80200",,m,_USER,,,
-r,,VAR_900,,,,,"B80200",,s,_8_Skip,,, ,,s,_VAR_900,,,
-w,,VAR_900,,,,,"B80200",,m,_VAR_900,,,
-r,,ZST_QQ_EIG,,,,,"B80200",,s,_8_Skip,,, ,,s,_ZST_QQ_EIG,,,
-w,,ZST_QQ_EIG,,,,,"B80200",,m,_ZST_QQ_EIG,,,
+# r,,ACK_0800_BIT,,,,,"B80200",,s,_8_Skip,,, ,,s,_ACK_0800_BIT,,,             # Alias of ACK_07FF_BIT
+# w,,ACK_0800_BIT,,,,,"B80200",,m,_ACK_0800_BIT,,,                            # Alias of ACK_07FF_BIT
+# r,,ACK_5002_BIT,,,,,"B80200",,s,_8_Skip,,, ,,s,_ACK_5002_BIT,,,             # Alias of ACK_07FF_BIT
+# w,,ACK_5002_BIT,,,,,"B80200",,m,_ACK_5002_BIT,,,                            # Alias of ACK_07FF_BIT
+# r,,ACK_FF00_BIT,,,,,"B80200",,s,_8_Skip,,, ,,s,_ACK_FF00_BIT,,,             # Alias of ACK_07FF_BIT
+# w,,ACK_FF00_BIT,,,,,"B80200",,m,_ACK_FF00_BIT,,,                            # Alias of ACK_07FF_BIT
+# r,,ACK_REG_STOP_BIT,,,,,"B80200",,s,_8_Skip,,, ,,s,_ACK_REG_STOP_BIT,,,     # Alias of ACK_07FF_BIT
+# w,,ACK_REG_STOP_BIT,,,,,"B80200",,m,_ACK_REG_STOP_BIT,,,                    # Alias of ACK_07FF_BIT
+# r,,ADC_SHORT,,,,,"B80200",,s,_8_Skip,,, ,,s,_ADC_SHORT,,,                   # Alias of ACK_07FF_BIT
+# w,,ADC_SHORT,,,,,"B80200",,m,_ADC_SHORT,,,                                  # Alias of ACK_07FF_BIT
+# r,,AIO_900,,,,,"B80200",,s,_8_Skip,,, ,,s,_AIO_900,,,                       # Alias of ACK_07FF_BIT
+# w,,AIO_900,,,,,"B80200",,m,_AIO_900,,,                                      # Alias of ACK_07FF_BIT
+# r,,BCCARD,,,,,"B80200",,s,_8_Skip,,, ,,s,_BCCARD,,,                         # Alias of ACK_07FF_BIT
+# w,,BCCARD,,,,,"B80200",,m,_BCCARD,,,                                        # Alias of ACK_07FF_BIT
+# r,,EBUS_S7,,,,,"B80200",,s,_8_Skip,,, ,,s,_EBUS_S7,,,                       # Alias of ACK_07FF_BIT
+# w,,EBUS_S7,,,,,"B80200",,m,_EBUS_S7,,,                                      # Alias of ACK_07FF_BIT
+# r,,EBUS_SCHICHT_2,,,,,"B80200",,s,_8_Skip,,, ,,s,_EBUS_SCHICHT_2,,,         # Alias of ACK_07FF_BIT
+# w,,EBUS_SCHICHT_2,,,,,"B80200",,m,_EBUS_SCHICHT_2,,,                        # Alias of ACK_07FF_BIT
+# r,,EEA_ANF,,,,,"B80200",,s,_8_Skip,,, ,,s,_EEA_ANF,,,                       # Alias of ACK_07FF_BIT
+# w,,EEA_ANF,,,,,"B80200",,m,_EEA_ANF,,,                                      # Alias of ACK_07FF_BIT
+# r,,EEP_FAST_INIT,,,,,"B80200",,s,_8_Skip,,, ,,s,_EEP_FAST_INIT,,,           # Alias of ACK_07FF_BIT
+# w,,EEP_FAST_INIT,,,,,"B80200",,m,_EEP_FAST_INIT,,,                          # Alias of ACK_07FF_BIT
+# r,,EE_I2C,,,,,"B80200",,s,_8_Skip,,, ,,s,_EE_I2C,,,                         # Alias of ACK_07FF_BIT
+# w,,EE_I2C,,,,,"B80200",,m,_EE_I2C,,,                                        # Alias of ACK_07FF_BIT
+# r,,EE_PARAS,,,,,"B80200",,s,_8_Skip,,, ,,s,_EE_PARAS,,,                     # Alias of ACK_07FF_BIT
+# w,,EE_PARAS,,,,,"B80200",,m,_EE_PARAS,,,                                    # Alias of ACK_07FF_BIT
+# r,,FEHLER_DETAIL_EBENE,,,,,"B80200",,s,_8_Skip,,, ,,s,_FEHLER_DETAIL_EBENE,,, # Alias of ACK_07FF_BIT
+# w,,FEHLER_DETAIL_EBENE,,,,,"B80200",,m,_FEHLER_DETAIL_EBENE,,,              # Alias of ACK_07FF_BIT
+# r,,HARD_52,,,,,"B80200",,s,_8_Skip,,, ,,s,_HARD_52,,,                       # Alias of ACK_07FF_BIT
+# w,,HARD_52,,,,,"B80200",,m,_HARD_52,,,                                      # Alias of ACK_07FF_BIT
+# r,,INFONR,,,,,"B80200",,s,_8_Skip,,, ,,s,_INFONR,,,                         # Alias of ACK_07FF_BIT
+# w,,INFONR,,,,,"B80200",,m,_INFONR,,,                                        # Alias of ACK_07FF_BIT
+# r,,ION,,,,,"B80200",,s,_8_Skip,,, ,,s,_ION,,,                               # Alias of ACK_07FF_BIT
+# w,,ION,,,,,"B80200",,m,_ION,,,                                              # Alias of ACK_07FF_BIT
+# r,,MXSTB_A,,,,,"B80200",,s,_8_Skip,,, ,,s,_MXSTB_A,,,                       # Alias of ACK_07FF_BIT
+# w,,MXSTB_A,,,,,"B80200",,m,_MXSTB_A,,,                                      # Alias of ACK_07FF_BIT
+# r,,NM_KALTSTART_BIT,,,,,"B80200",,s,_8_Skip,,, ,,s,_NM_KALTSTART_BIT,,,     # Alias of ACK_07FF_BIT
+# w,,NM_KALTSTART_BIT,,,,,"B80200",,m,_NM_KALTSTART_BIT,,,                    # Alias of ACK_07FF_BIT
+# r,,OS_XC886,,,,,"B80200",,s,_8_Skip,,, ,,s,_OS_XC886,,,                     # Alias of ACK_07FF_BIT
+# w,,OS_XC886,,,,,"B80200",,m,_OS_XC886,,,                                    # Alias of ACK_07FF_BIT
+# r,,QQ_M1,,,,,"B80200",,s,_8_Skip,,, ,,s,_QQ_M1,,,                           # Alias of ACK_07FF_BIT
+# w,,QQ_M1,,,,,"B80200",,m,_QQ_M1,,,                                          # Alias of ACK_07FF_BIT
+# r,,RAMROM,,,,,"B80200",,s,_8_Skip,,, ,,s,_RAMROM,,,                         # Alias of ACK_07FF_BIT
+# w,,RAMROM,,,,,"B80200",,m,_RAMROM,,,                                        # Alias of ACK_07FF_BIT
+# r,,RX_XRAM_BUSY_BIT,,,,,"B80200",,s,_8_Skip,,, ,,s,_RX_XRAM_BUSY_BIT,,,     # Alias of ACK_07FF_BIT
+# w,,RX_XRAM_BUSY_BIT,,,,,"B80200",,m,_RX_XRAM_BUSY_BIT,,,                    # Alias of ACK_07FF_BIT
+# r,,SFR_IO,,,,,"B80200",,s,_8_Skip,,, ,,s,_SFR_IO,,,                         # Alias of ACK_07FF_BIT
+# w,,SFR_IO,,,,,"B80200",,m,_SFR_IO,,,                                        # Alias of ACK_07FF_BIT
+# r,,STOEREC,,,,,"B80200",,s,_8_Skip,,, ,,s,_STOEREC,,,                       # Alias of ACK_07FF_BIT
+# w,,STOEREC,,,,,"B80200",,m,_STOEREC,,,                                      # Alias of ACK_07FF_BIT
+# r,,TX_EIG_QQ,,,,,"B80200",,s,_8_Skip,,, ,,s,_TX_EIG_QQ,,,                   # Alias of ACK_07FF_BIT
+# w,,TX_EIG_QQ,,,,,"B80200",,m,_TX_EIG_QQ,,,                                  # Alias of ACK_07FF_BIT
+# r,,TX_QQ_M11,,,,,"B80200",,s,_8_Skip,,, ,,s,_TX_QQ_M11,,,                   # Alias of ACK_07FF_BIT
+# w,,TX_QQ_M11,,,,,"B80200",,m,_TX_QQ_M11,,,                                  # Alias of ACK_07FF_BIT
+# r,,USER,,,,,"B80200",,s,_8_Skip,,, ,,s,_USER,,,                             # Alias of ACK_07FF_BIT
+# w,,USER,,,,,"B80200",,m,_USER,,,                                            # Alias of ACK_07FF_BIT
+# r,,VAR_900,,,,,"B80200",,s,_8_Skip,,, ,,s,_VAR_900,,,                       # Alias of ACK_07FF_BIT
+# w,,VAR_900,,,,,"B80200",,m,_VAR_900,,,                                      # Alias of ACK_07FF_BIT
+# r,,ZST_QQ_EIG,,,,,"B80200",,s,_8_Skip,,, ,,s,_ZST_QQ_EIG,,,                 # Alias of ACK_07FF_BIT
+# w,,ZST_QQ_EIG,,,,,"B80200",,m,_ZST_QQ_EIG,,,                                # Alias of ACK_07FF_BIT
 r,,ACK_0503_BIT,,,,,"B90201",,s,_8_Skip,,, ,,s,_ACK_0503_BIT,,,
 w,,ACK_0503_BIT,,,,,"B90201",,m,_ACK_0503_BIT,,,
-r,,ACK_0704_BIT,,,,,"B90201",,s,_8_Skip,,, ,,s,_ACK_0704_BIT,,,
-w,,ACK_0704_BIT,,,,,"B90201",,m,_ACK_0704_BIT,,,
-r,,ACK_07FF,,,,,"B90201",,s,_8_Skip,,, ,,s,_ACK_07FF,,,
-w,,ACK_07FF,,,,,"B90201",,m,_ACK_07FF,,,
-r,,ACK_0800,,,,,"B90201",,s,_8_Skip,,, ,,s,_ACK_0800,,,
-w,,ACK_0800,,,,,"B90201",,m,_ACK_0800,,,
-r,,ACK_5002,,,,,"B90201",,s,_8_Skip,,, ,,s,_ACK_5002,,,
-w,,ACK_5002,,,,,"B90201",,m,_ACK_5002,,,
-r,,ACK_FF00,,,,,"B90201",,s,_8_Skip,,, ,,s,_ACK_FF00,,,
-w,,ACK_FF00,,,,,"B90201",,m,_ACK_FF00,,,
-r,,ACK_FF02_BIT,,,,,"B90201",,s,_8_Skip,,, ,,s,_ACK_FF02_BIT,,,
-w,,ACK_FF02_BIT,,,,,"B90201",,m,_ACK_FF02_BIT,,,
-r,,ACK_REG_STOP,,,,,"B90201",,s,_8_Skip,,, ,,s,_ACK_REG_STOP,,,
-w,,ACK_REG_STOP,,,,,"B90201",,m,_ACK_REG_STOP,,,
-r,,ADC_NONE,,,,,"B90201",,s,_8_Skip,,, ,,s,_ADC_NONE,,,
-w,,ADC_NONE,,,,,"B90201",,m,_ADC_NONE,,,
-r,,AIN_ERR_NI1000,,,,,"B90201",,s,_8_Skip,,, ,,s,_AIN_ERR_NI1000,,,
-w,,AIN_ERR_NI1000,,,,,"B90201",,m,_AIN_ERR_NI1000,,,
-r,,EE_RANGE_FAIL__DEF,,,,,"B90201",,s,_8_Skip,,, ,,s,_EE_RANGE_FAIL__DEF,,,
-w,,EE_RANGE_FAIL__DEF,,,,,"B90201",,m,_EE_RANGE_FAIL__DEF,,,
-r,,MAX_OK,,,,,"B90201",,s,_8_Skip,,, ,,s,_MAX_OK,,,
-w,,MAX_OK,,,,,"B90201",,m,_MAX_OK,,,
-r,,NGPBS_AFAKT,,,,,"B90201",,s,_8_Skip,,, ,,s,_NGPBS_AFAKT,,,
-w,,NGPBS_AFAKT,,,,,"B90201",,m,_NGPBS_AFAKT,,,
-r,,NM_INIT_BIT,,,,,"B90201",,s,_8_Skip,,, ,,s,_NM_INIT_BIT,,,
-w,,NM_INIT_BIT,,,,,"B90201",,m,_NM_INIT_BIT,,,
-r,,NTC1_TR_TST,,,,,"B90201",,s,_8_Skip,,, ,,s,_NTC1_TR_TST,,,
-w,,NTC1_TR_TST,,,,,"B90201",,m,_NTC1_TR_TST,,,
-r,,RX_QQ_M2,,,,,"B90201",,s,_8_Skip,,, ,,s,_RX_QQ_M2,,,
-w,,RX_QQ_M2,,,,,"B90201",,m,_RX_QQ_M2,,,
-r,,TCVZZ,,,,,"B90201",,s,_8_Skip,,, ,,s,_TCVZZ,,,
-w,,TCVZZ,,,,,"B90201",,m,_TCVZZ,,,
-r,,ZST_QQ_M2,,,,,"B90201",,s,_8_Skip,,, ,,s,_ZST_QQ_M2,,,
-w,,ZST_QQ_M2,,,,,"B90201",,m,_ZST_QQ_M2,,,
+# r,,ACK_0704_BIT,,,,,"B90201",,s,_8_Skip,,, ,,s,_ACK_0704_BIT,,,             # Alias of ACK_0503_BIT
+# w,,ACK_0704_BIT,,,,,"B90201",,m,_ACK_0704_BIT,,,                            # Alias of ACK_0503_BIT
+# r,,ACK_07FF,,,,,"B90201",,s,_8_Skip,,, ,,s,_ACK_07FF,,,                     # Alias of ACK_0503_BIT
+# w,,ACK_07FF,,,,,"B90201",,m,_ACK_07FF,,,                                    # Alias of ACK_0503_BIT
+# r,,ACK_0800,,,,,"B90201",,s,_8_Skip,,, ,,s,_ACK_0800,,,                     # Alias of ACK_0503_BIT
+# w,,ACK_0800,,,,,"B90201",,m,_ACK_0800,,,                                    # Alias of ACK_0503_BIT
+# r,,ACK_5002,,,,,"B90201",,s,_8_Skip,,, ,,s,_ACK_5002,,,                     # Alias of ACK_0503_BIT
+# w,,ACK_5002,,,,,"B90201",,m,_ACK_5002,,,                                    # Alias of ACK_0503_BIT
+# r,,ACK_FF00,,,,,"B90201",,s,_8_Skip,,, ,,s,_ACK_FF00,,,                     # Alias of ACK_0503_BIT
+# w,,ACK_FF00,,,,,"B90201",,m,_ACK_FF00,,,                                    # Alias of ACK_0503_BIT
+# r,,ACK_FF02_BIT,,,,,"B90201",,s,_8_Skip,,, ,,s,_ACK_FF02_BIT,,,             # Alias of ACK_0503_BIT
+# w,,ACK_FF02_BIT,,,,,"B90201",,m,_ACK_FF02_BIT,,,                            # Alias of ACK_0503_BIT
+# r,,ACK_REG_STOP,,,,,"B90201",,s,_8_Skip,,, ,,s,_ACK_REG_STOP,,,             # Alias of ACK_0503_BIT
+# w,,ACK_REG_STOP,,,,,"B90201",,m,_ACK_REG_STOP,,,                            # Alias of ACK_0503_BIT
+# r,,ADC_NONE,,,,,"B90201",,s,_8_Skip,,, ,,s,_ADC_NONE,,,                     # Alias of ACK_0503_BIT
+# w,,ADC_NONE,,,,,"B90201",,m,_ADC_NONE,,,                                    # Alias of ACK_0503_BIT
+# r,,AIN_ERR_NI1000,,,,,"B90201",,s,_8_Skip,,, ,,s,_AIN_ERR_NI1000,,,         # Alias of ACK_0503_BIT
+# w,,AIN_ERR_NI1000,,,,,"B90201",,m,_AIN_ERR_NI1000,,,                        # Alias of ACK_0503_BIT
+# r,,EE_RANGE_FAIL__DEF,,,,,"B90201",,s,_8_Skip,,, ,,s,_EE_RANGE_FAIL__DEF,,, # Alias of ACK_0503_BIT
+# w,,EE_RANGE_FAIL__DEF,,,,,"B90201",,m,_EE_RANGE_FAIL__DEF,,,                # Alias of ACK_0503_BIT
+# r,,MAX_OK,,,,,"B90201",,s,_8_Skip,,, ,,s,_MAX_OK,,,                         # Alias of ACK_0503_BIT
+# w,,MAX_OK,,,,,"B90201",,m,_MAX_OK,,,                                        # Alias of ACK_0503_BIT
+# r,,NGPBS_AFAKT,,,,,"B90201",,s,_8_Skip,,, ,,s,_NGPBS_AFAKT,,,               # Alias of ACK_0503_BIT
+# w,,NGPBS_AFAKT,,,,,"B90201",,m,_NGPBS_AFAKT,,,                              # Alias of ACK_0503_BIT
+# r,,NM_INIT_BIT,,,,,"B90201",,s,_8_Skip,,, ,,s,_NM_INIT_BIT,,,               # Alias of ACK_0503_BIT
+# w,,NM_INIT_BIT,,,,,"B90201",,m,_NM_INIT_BIT,,,                              # Alias of ACK_0503_BIT
+# r,,NTC1_TR_TST,,,,,"B90201",,s,_8_Skip,,, ,,s,_NTC1_TR_TST,,,               # Alias of ACK_0503_BIT
+# w,,NTC1_TR_TST,,,,,"B90201",,m,_NTC1_TR_TST,,,                              # Alias of ACK_0503_BIT
+# r,,RX_QQ_M2,,,,,"B90201",,s,_8_Skip,,, ,,s,_RX_QQ_M2,,,                     # Alias of ACK_0503_BIT
+# w,,RX_QQ_M2,,,,,"B90201",,m,_RX_QQ_M2,,,                                    # Alias of ACK_0503_BIT
+# r,,TCVZZ,,,,,"B90201",,s,_8_Skip,,, ,,s,_TCVZZ,,,                           # Alias of ACK_0503_BIT
+# w,,TCVZZ,,,,,"B90201",,m,_TCVZZ,,,                                          # Alias of ACK_0503_BIT
+# r,,ZST_QQ_M2,,,,,"B90201",,s,_8_Skip,,, ,,s,_ZST_QQ_M2,,,                   # Alias of ACK_0503_BIT
+# w,,ZST_QQ_M2,,,,,"B90201",,m,_ZST_QQ_M2,,,                                  # Alias of ACK_0503_BIT
 r,,ACK_0503,,,,,"BA0202",,s,_8_Skip,,, ,,s,_ACK_0503,,,
 w,,ACK_0503,,,,,"BA0202",,m,_ACK_0503,,,
-r,,ACK_0704,,,,,"BA0202",,s,_8_Skip,,, ,,s,_ACK_0704,,,
-w,,ACK_0704,,,,,"BA0202",,m,_ACK_0704,,,
-r,,ACK_FE01_BIT,,,,,"BA0202",,s,_8_Skip,,, ,,s,_ACK_FE01_BIT,,,
-w,,ACK_FE01_BIT,,,,,"BA0202",,m,_ACK_FE01_BIT,,,
-r,,ACK_FF02,,,,,"BA0202",,s,_8_Skip,,, ,,s,_ACK_FF02,,,
-w,,ACK_FF02,,,,,"BA0202",,m,_ACK_FF02,,,
-r,,EEA_CONST_ANF,,,,,"BA0202",,s,_8_Skip,,, ,,s,_EEA_CONST_ANF,,,
-w,,EEA_CONST_ANF,,,,,"BA0202",,m,_EEA_CONST_ANF,,,
-r,,EE_RANGE_FAIL__INTBCC,,,,,"BA0202",,s,_8_Skip,,, ,,s,_EE_RANGE_FAIL__INTBCC,,,
-w,,EE_RANGE_FAIL__INTBCC,,,,,"BA0202",,m,_EE_RANGE_FAIL__INTBCC,,,
-r,,ION_TEILER,,,,,"BA0202",,s,_8_Skip,,, ,,s,_ION_TEILER,,,
-w,,ION_TEILER,,,,,"BA0202",,m,_ION_TEILER,,,
-r,,L_EEA_CRC_BCC_INT,,,,,"BA0202",,s,_8_Skip,,, ,,s,_L_EEA_CRC_BCC_INT,,,
-w,,L_EEA_CRC_BCC_INT,,,,,"BA0202",,m,_L_EEA_CRC_BCC_INT,,,
-r,,MB_2_INIT,,,,,"BA0202",,s,_8_Skip,,, ,,s,_MB_2_INIT,,,
-w,,MB_2_INIT,,,,,"BA0202",,m,_MB_2_INIT,,,
-r,,NGPBS_XWATOM,,,,,"BA0202",,s,_8_Skip,,, ,,s,_NGPBS_XWATOM,,,
-w,,NGPBS_XWATOM,,,,,"BA0202",,m,_NGPBS_XWATOM,,,
-r,,NM_RESET_BIT,,,,,"BA0202",,s,_8_Skip,,, ,,s,_NM_RESET_BIT,,,
-w,,NM_RESET_BIT,,,,,"BA0202",,m,_NM_RESET_BIT,,,
-r,,NM_S7_RESET_BIT,,,,,"BA0202",,s,_8_Skip,,, ,,s,_NM_S7_RESET_BIT,,,
-w,,NM_S7_RESET_BIT,,,,,"BA0202",,m,_NM_S7_RESET_BIT,,,
-r,,NTC2_TR_TST,,,,,"BA0202",,s,_8_Skip,,, ,,s,_NTC2_TR_TST,,,
-w,,NTC2_TR_TST,,,,,"BA0202",,m,_NTC2_TR_TST,,,
-r,,TIDLE_R2,,,,,"BA0202",,s,_8_Skip,,, ,,s,_TIDLE_R2,,,
-w,,TIDLE_R2,,,,,"BA0202",,m,_TIDLE_R2,,,
-r,,ZST_QQ_M10,,,,,"BA0202",,s,_8_Skip,,, ,,s,_ZST_QQ_M10,,,
-w,,ZST_QQ_M10,,,,,"BA0202",,m,_ZST_QQ_M10,,,
-r,,ZST_QQ_M10_BIT,,,,,"BA0202",,s,_8_Skip,,, ,,s,_ZST_QQ_M10_BIT,,,
-w,,ZST_QQ_M10_BIT,,,,,"BA0202",,m,_ZST_QQ_M10_BIT,,,
+# r,,ACK_0704,,,,,"BA0202",,s,_8_Skip,,, ,,s,_ACK_0704,,,                     # Alias of ACK_0503
+# w,,ACK_0704,,,,,"BA0202",,m,_ACK_0704,,,                                    # Alias of ACK_0503
+# r,,ACK_FE01_BIT,,,,,"BA0202",,s,_8_Skip,,, ,,s,_ACK_FE01_BIT,,,             # Alias of ACK_0503
+# w,,ACK_FE01_BIT,,,,,"BA0202",,m,_ACK_FE01_BIT,,,                            # Alias of ACK_0503
+# r,,ACK_FF02,,,,,"BA0202",,s,_8_Skip,,, ,,s,_ACK_FF02,,,                     # Alias of ACK_0503
+# w,,ACK_FF02,,,,,"BA0202",,m,_ACK_FF02,,,                                    # Alias of ACK_0503
+# r,,EEA_CONST_ANF,,,,,"BA0202",,s,_8_Skip,,, ,,s,_EEA_CONST_ANF,,,           # Alias of ACK_0503
+# w,,EEA_CONST_ANF,,,,,"BA0202",,m,_EEA_CONST_ANF,,,                          # Alias of ACK_0503
+# r,,EE_RANGE_FAIL__INTBCC,,,,,"BA0202",,s,_8_Skip,,, ,,s,_EE_RANGE_FAIL__INTBCC,,, # Alias of ACK_0503
+# w,,EE_RANGE_FAIL__INTBCC,,,,,"BA0202",,m,_EE_RANGE_FAIL__INTBCC,,,          # Alias of ACK_0503
+# r,,ION_TEILER,,,,,"BA0202",,s,_8_Skip,,, ,,s,_ION_TEILER,,,                 # Alias of ACK_0503
+# w,,ION_TEILER,,,,,"BA0202",,m,_ION_TEILER,,,                                # Alias of ACK_0503
+# r,,L_EEA_CRC_BCC_INT,,,,,"BA0202",,s,_8_Skip,,, ,,s,_L_EEA_CRC_BCC_INT,,,   # Alias of ACK_0503
+# w,,L_EEA_CRC_BCC_INT,,,,,"BA0202",,m,_L_EEA_CRC_BCC_INT,,,                  # Alias of ACK_0503
+# r,,MB_2_INIT,,,,,"BA0202",,s,_8_Skip,,, ,,s,_MB_2_INIT,,,                   # Alias of ACK_0503
+# w,,MB_2_INIT,,,,,"BA0202",,m,_MB_2_INIT,,,                                  # Alias of ACK_0503
+# r,,NGPBS_XWATOM,,,,,"BA0202",,s,_8_Skip,,, ,,s,_NGPBS_XWATOM,,,             # Alias of ACK_0503
+# w,,NGPBS_XWATOM,,,,,"BA0202",,m,_NGPBS_XWATOM,,,                            # Alias of ACK_0503
+# r,,NM_RESET_BIT,,,,,"BA0202",,s,_8_Skip,,, ,,s,_NM_RESET_BIT,,,             # Alias of ACK_0503
+# w,,NM_RESET_BIT,,,,,"BA0202",,m,_NM_RESET_BIT,,,                            # Alias of ACK_0503
+# r,,NM_S7_RESET_BIT,,,,,"BA0202",,s,_8_Skip,,, ,,s,_NM_S7_RESET_BIT,,,       # Alias of ACK_0503
+# w,,NM_S7_RESET_BIT,,,,,"BA0202",,m,_NM_S7_RESET_BIT,,,                      # Alias of ACK_0503
+# r,,NTC2_TR_TST,,,,,"BA0202",,s,_8_Skip,,, ,,s,_NTC2_TR_TST,,,               # Alias of ACK_0503
+# w,,NTC2_TR_TST,,,,,"BA0202",,m,_NTC2_TR_TST,,,                              # Alias of ACK_0503
+# r,,TIDLE_R2,,,,,"BA0202",,s,_8_Skip,,, ,,s,_TIDLE_R2,,,                     # Alias of ACK_0503
+# w,,TIDLE_R2,,,,,"BA0202",,m,_TIDLE_R2,,,                                    # Alias of ACK_0503
+# r,,ZST_QQ_M10,,,,,"BA0202",,s,_8_Skip,,, ,,s,_ZST_QQ_M10,,,                 # Alias of ACK_0503
+# w,,ZST_QQ_M10,,,,,"BA0202",,m,_ZST_QQ_M10,,,                                # Alias of ACK_0503
+# r,,ZST_QQ_M10_BIT,,,,,"BA0202",,s,_8_Skip,,, ,,s,_ZST_QQ_M10_BIT,,,         # Alias of ACK_0503
+# w,,ZST_QQ_M10_BIT,,,,,"BA0202",,m,_ZST_QQ_M10_BIT,,,                        # Alias of ACK_0503
 r,,ADC_MXCODE,,,,,"BB0203",,s,_8_Skip,,, ,,s,_ADC_MXCODE,,,
 w,,ADC_MXCODE,,,,,"BB0203",,m,_ADC_MXCODE,,,
-r,,AI_MUXER,,,,,"BB0203",,s,_8_Skip,,, ,,s,_AI_MUXER,,,
-w,,AI_MUXER,,,,,"BB0203",,m,_AI_MUXER,,,
-r,,AI_REF,,,,,"BB0203",,s,_8_Skip,,, ,,s,_AI_REF,,,
-w,,AI_REF,,,,,"BB0203",,m,_AI_REF,,,
-r,,EM_EE_REDUND__SELF,,,,,"BB0203",,s,_8_Skip,,, ,,s,_EM_EE_REDUND__SELF,,,
-w,,EM_EE_REDUND__SELF,,,,,"BB0203",,m,_EM_EE_REDUND__SELF,,,
-r,,HZ_KTND__I,,,,,"BB0203",,s,_8_Skip,,, ,,s,_HZ_KTND__I,,,
-w,,HZ_KTND__I,,,,,"BB0203",,m,_HZ_KTND__I,,,
-r,,NG_DW_TOL,,,,,"BB0203",,s,_8_Skip,,, ,,s,_NG_DW_TOL,,,
-w,,NG_DW_TOL,,,,,"BB0203",,m,_NG_DW_TOL,,,
-r,,NG_GR_MIN__FILT,,,,,"BB0203",,s,_8_Skip,,, ,,s,_NG_GR_MIN__FILT,,,
-w,,NG_GR_MIN__FILT,,,,,"BB0203",,m,_NG_GR_MIN__FILT,,,
-r,,NM_NORMAL_BIT,,,,,"BB0203",,s,_8_Skip,,, ,,s,_NM_NORMAL_BIT,,,
-w,,NM_NORMAL_BIT,,,,,"BB0203",,m,_NM_NORMAL_BIT,,,
-r,,NSY11,,,,,"BB0203",,s,_8_Skip,,, ,,s,_NSY11,,,
-w,,NSY11,,,,,"BB0203",,m,_NSY11,,,
-r,,NSY12,,,,,"BB0203",,s,_8_Skip,,, ,,s,_NSY12,,,
-w,,NSY12,,,,,"BB0203",,m,_NSY12,,,
-r,,QQ_M11,,,,,"BB0203",,s,_8_Skip,,, ,,s,_QQ_M11,,,
-w,,QQ_M11,,,,,"BB0203",,m,_QQ_M11,,,
-r,,TBOOSTRES,,,,,"BB0203",,s,_8_Skip,,, ,,s,_TBOOSTRES,,,
-w,,TBOOSTRES,,,,,"BB0203",,m,_TBOOSTRES,,,
+# r,,AI_MUXER,,,,,"BB0203",,s,_8_Skip,,, ,,s,_AI_MUXER,,,                     # Alias of ADC_MXCODE
+# w,,AI_MUXER,,,,,"BB0203",,m,_AI_MUXER,,,                                    # Alias of ADC_MXCODE
+# r,,AI_REF,,,,,"BB0203",,s,_8_Skip,,, ,,s,_AI_REF,,,                         # Alias of ADC_MXCODE
+# w,,AI_REF,,,,,"BB0203",,m,_AI_REF,,,                                        # Alias of ADC_MXCODE
+# r,,EM_EE_REDUND__SELF,,,,,"BB0203",,s,_8_Skip,,, ,,s,_EM_EE_REDUND__SELF,,, # Alias of ADC_MXCODE
+# w,,EM_EE_REDUND__SELF,,,,,"BB0203",,m,_EM_EE_REDUND__SELF,,,                # Alias of ADC_MXCODE
+# r,,HZ_KTND__I,,,,,"BB0203",,s,_8_Skip,,, ,,s,_HZ_KTND__I,,,                 # Alias of ADC_MXCODE
+# w,,HZ_KTND__I,,,,,"BB0203",,m,_HZ_KTND__I,,,                                # Alias of ADC_MXCODE
+# r,,NG_DW_TOL,,,,,"BB0203",,s,_8_Skip,,, ,,s,_NG_DW_TOL,,,                   # Alias of ADC_MXCODE
+# w,,NG_DW_TOL,,,,,"BB0203",,m,_NG_DW_TOL,,,                                  # Alias of ADC_MXCODE
+# r,,NG_GR_MIN__FILT,,,,,"BB0203",,s,_8_Skip,,, ,,s,_NG_GR_MIN__FILT,,,       # Alias of ADC_MXCODE
+# w,,NG_GR_MIN__FILT,,,,,"BB0203",,m,_NG_GR_MIN__FILT,,,                      # Alias of ADC_MXCODE
+# r,,NM_NORMAL_BIT,,,,,"BB0203",,s,_8_Skip,,, ,,s,_NM_NORMAL_BIT,,,           # Alias of ADC_MXCODE
+# w,,NM_NORMAL_BIT,,,,,"BB0203",,m,_NM_NORMAL_BIT,,,                          # Alias of ADC_MXCODE
+# r,,NSY11,,,,,"BB0203",,s,_8_Skip,,, ,,s,_NSY11,,,                           # Alias of ADC_MXCODE
+# w,,NSY11,,,,,"BB0203",,m,_NSY11,,,                                          # Alias of ADC_MXCODE
+# r,,NSY12,,,,,"BB0203",,s,_8_Skip,,, ,,s,_NSY12,,,                           # Alias of ADC_MXCODE
+# w,,NSY12,,,,,"BB0203",,m,_NSY12,,,                                          # Alias of ADC_MXCODE
+# r,,QQ_M11,,,,,"BB0203",,s,_8_Skip,,, ,,s,_QQ_M11,,,                         # Alias of ADC_MXCODE
+# w,,QQ_M11,,,,,"BB0203",,m,_QQ_M11,,,                                        # Alias of ADC_MXCODE
+# r,,TBOOSTRES,,,,,"BB0203",,s,_8_Skip,,, ,,s,_TBOOSTRES,,,                   # Alias of ADC_MXCODE
+# w,,TBOOSTRES,,,,,"BB0203",,m,_TBOOSTRES,,,                                  # Alias of ADC_MXCODE
 r,,ACK_FE01,,,,,"BC0204",,s,_8_Skip,,, ,,s,_ACK_FE01,,,
 w,,ACK_FE01,,,,,"BC0204",,m,_ACK_FE01,,,
-r,,AIN_ERR_TAUSS,,,,,"BC0204",,s,_8_Skip,,, ,,s,_AIN_ERR_TAUSS,,,
-w,,AIN_ERR_TAUSS,,,,,"BC0204",,m,_AIN_ERR_TAUSS,,,
-r,,AI_TRL,,,,,"BC0204",,s,_8_Skip,,, ,,s,_AI_TRL,,,
-w,,AI_TRL,,,,,"BC0204",,m,_AI_TRL,,,
-r,,BOOSTER_ORL_MASK,,,,,"BC0204",,s,_8_Skip,,, ,,s,_BOOSTER_ORL_MASK,,,
-w,,BOOSTER_ORL_MASK,,,,,"BC0204",,m,_BOOSTER_ORL_MASK,,,
-r,,EE_RANGE_FAIL__BCC_STAT,,,,,"BC0204",,s,_8_Skip,,, ,,s,_EE_RANGE_FAIL__BCC_STAT,,,
-w,,EE_RANGE_FAIL__BCC_STAT,,,,,"BC0204",,m,_EE_RANGE_FAIL__BCC_STAT,,,
-r,,EM_EE_REDUND__RED_FS,,,,,"BC0204",,s,_8_Skip,,, ,,s,_EM_EE_REDUND__RED_FS,,,
-w,,EM_EE_REDUND__RED_FS,,,,,"BC0204",,m,_EM_EE_REDUND__RED_FS,,,
-r,,L_EEA_MAIN_CRC,,,,,"BC0204",,s,_8_Skip,,, ,,s,_L_EEA_MAIN_CRC,,,
-w,,L_EEA_MAIN_CRC,,,,,"BC0204",,m,_L_EEA_MAIN_CRC,,,
-r,,NFSOUT,,,,,"BC0204",,s,_8_Skip,,, ,,s,_NFSOUT,,,
-w,,NFSOUT,,,,,"BC0204",,m,_NFSOUT,,,
-r,,NM_NETZSTATUS_BIT,,,,,"BC0204",,s,_8_Skip,,, ,,s,_NM_NETZSTATUS_BIT,,,
-w,,NM_NETZSTATUS_BIT,,,,,"BC0204",,m,_NM_NETZSTATUS_BIT,,,
-r,,NTC1_SCHLUSS,,,,,"BC0204",,s,_8_Skip,,, ,,s,_NTC1_SCHLUSS,,,
-w,,NTC1_SCHLUSS,,,,,"BC0204",,m,_NTC1_SCHLUSS,,,
-r,,NTC_TEMP_TOL,,,,,"BC0204",,s,_8_Skip,,, ,,s,_NTC_TEMP_TOL,,,
-w,,NTC_TEMP_TOL,,,,,"BC0204",,m,_NTC_TEMP_TOL,,,
-r,,RES_CNT_OFF,,,,,"BC0204",,s,_8_Skip,,, ,,s,_RES_CNT_OFF,,,
-w,,RES_CNT_OFF,,,,,"BC0204",,m,_RES_CNT_OFF,,,
-r,,TBOOST,,,,,"BC0204",,s,_8_Skip,,, ,,s,_TBOOST,,,
-w,,TBOOST,,,,,"BC0204",,m,_TBOOST,,,
+# r,,AIN_ERR_TAUSS,,,,,"BC0204",,s,_8_Skip,,, ,,s,_AIN_ERR_TAUSS,,,           # Alias of ACK_FE01
+# w,,AIN_ERR_TAUSS,,,,,"BC0204",,m,_AIN_ERR_TAUSS,,,                          # Alias of ACK_FE01
+# r,,AI_TRL,,,,,"BC0204",,s,_8_Skip,,, ,,s,_AI_TRL,,,                         # Alias of ACK_FE01
+# w,,AI_TRL,,,,,"BC0204",,m,_AI_TRL,,,                                        # Alias of ACK_FE01
+# r,,BOOSTER_ORL_MASK,,,,,"BC0204",,s,_8_Skip,,, ,,s,_BOOSTER_ORL_MASK,,,     # Alias of ACK_FE01
+# w,,BOOSTER_ORL_MASK,,,,,"BC0204",,m,_BOOSTER_ORL_MASK,,,                    # Alias of ACK_FE01
+# r,,EE_RANGE_FAIL__BCC_STAT,,,,,"BC0204",,s,_8_Skip,,, ,,s,_EE_RANGE_FAIL__BCC_STAT,,, # Alias of ACK_FE01
+# w,,EE_RANGE_FAIL__BCC_STAT,,,,,"BC0204",,m,_EE_RANGE_FAIL__BCC_STAT,,,      # Alias of ACK_FE01
+# r,,EM_EE_REDUND__RED_FS,,,,,"BC0204",,s,_8_Skip,,, ,,s,_EM_EE_REDUND__RED_FS,,, # Alias of ACK_FE01
+# w,,EM_EE_REDUND__RED_FS,,,,,"BC0204",,m,_EM_EE_REDUND__RED_FS,,,            # Alias of ACK_FE01
+# r,,L_EEA_MAIN_CRC,,,,,"BC0204",,s,_8_Skip,,, ,,s,_L_EEA_MAIN_CRC,,,         # Alias of ACK_FE01
+# w,,L_EEA_MAIN_CRC,,,,,"BC0204",,m,_L_EEA_MAIN_CRC,,,                        # Alias of ACK_FE01
+# r,,NFSOUT,,,,,"BC0204",,s,_8_Skip,,, ,,s,_NFSOUT,,,                         # Alias of ACK_FE01
+# w,,NFSOUT,,,,,"BC0204",,m,_NFSOUT,,,                                        # Alias of ACK_FE01
+# r,,NM_NETZSTATUS_BIT,,,,,"BC0204",,s,_8_Skip,,, ,,s,_NM_NETZSTATUS_BIT,,,   # Alias of ACK_FE01
+# w,,NM_NETZSTATUS_BIT,,,,,"BC0204",,m,_NM_NETZSTATUS_BIT,,,                  # Alias of ACK_FE01
+# r,,NTC1_SCHLUSS,,,,,"BC0204",,s,_8_Skip,,, ,,s,_NTC1_SCHLUSS,,,             # Alias of ACK_FE01
+# w,,NTC1_SCHLUSS,,,,,"BC0204",,m,_NTC1_SCHLUSS,,,                            # Alias of ACK_FE01
+# r,,NTC_TEMP_TOL,,,,,"BC0204",,s,_8_Skip,,, ,,s,_NTC_TEMP_TOL,,,             # Alias of ACK_FE01
+# w,,NTC_TEMP_TOL,,,,,"BC0204",,m,_NTC_TEMP_TOL,,,                            # Alias of ACK_FE01
+# r,,RES_CNT_OFF,,,,,"BC0204",,s,_8_Skip,,, ,,s,_RES_CNT_OFF,,,               # Alias of ACK_FE01
+# w,,RES_CNT_OFF,,,,,"BC0204",,m,_RES_CNT_OFF,,,                              # Alias of ACK_FE01
+# r,,TBOOST,,,,,"BC0204",,s,_8_Skip,,, ,,s,_TBOOST,,,                         # Alias of ACK_FE01
+# w,,TBOOST,,,,,"BC0204",,m,_TBOOST,,,                                        # Alias of ACK_FE01
 r,,AI_ANAIN5,,,,,"BD0205",,s,_8_Skip,,, ,,s,_AI_ANAIN5,,,
 w,,AI_ANAIN5,,,,,"BD0205",,m,_AI_ANAIN5,,,
-r,,AI_ESTB1,,,,,"BD0205",,s,_8_Skip,,, ,,s,_AI_ESTB1,,,
-w,,AI_ESTB1,,,,,"BD0205",,m,_AI_ESTB1,,,
-r,,C_MX_RES_CNT,,,,,"BD0205",,s,_8_Skip,,, ,,s,_C_MX_RES_CNT,,,
-w,,C_MX_RES_CNT,,,,,"BD0205",,m,_C_MX_RES_CNT,,,
-r,,K_NTC1,,,,,"BD0205",,s,_8_Skip,,, ,,s,_K_NTC1,,,
-w,,K_NTC1,,,,,"BD0205",,m,_K_NTC1,,,
-r,,MAXIONTST0,,,,,"BD0205",,s,_8_Skip,,, ,,s,_MAXIONTST0,,,
-w,,MAXIONTST0,,,,,"BD0205",,m,_MAXIONTST0,,,
-r,,NGPBS_IMPS,,,,,"BD0205",,s,_8_Skip,,, ,,s,_NGPBS_IMPS,,,
-w,,NGPBS_IMPS,,,,,"BD0205",,m,_NGPBS_IMPS,,,
-r,,NM_STARTFLAG_BIT,,,,,"BD0205",,s,_8_Skip,,, ,,s,_NM_STARTFLAG_BIT,,,
-w,,NM_STARTFLAG_BIT,,,,,"BD0205",,m,_NM_STARTFLAG_BIT,,,
-r,,REF_FUSE,,,,,"BD0205",,s,_8_Skip,,, ,,s,_REF_FUSE,,,
-w,,REF_FUSE,,,,,"BD0205",,m,_REF_FUSE,,,
-r,,V24_KM_ADR_DEFAULT,,,,,"BD0205",,s,_8_Skip,,, ,,s,_V24_KM_ADR_DEFAULT,,,
-w,,V24_KM_ADR_DEFAULT,,,,,"BD0205",,m,_V24_KM_ADR_DEFAULT,,,
-r,,V24_KM_ADR_MAX,,,,,"BD0205",,s,_8_Skip,,, ,,s,_V24_KM_ADR_MAX,,,
-w,,V24_KM_ADR_MAX,,,,,"BD0205",,m,_V24_KM_ADR_MAX,,,
-r,,V24_KM_ADR_MAX_SCOM,,,,,"BD0205",,s,_8_Skip,,, ,,s,_V24_KM_ADR_MAX_SCOM,,,
-w,,V24_KM_ADR_MAX_SCOM,,,,,"BD0205",,m,_V24_KM_ADR_MAX_SCOM,,,
+# r,,AI_ESTB1,,,,,"BD0205",,s,_8_Skip,,, ,,s,_AI_ESTB1,,,                     # Alias of AI_ANAIN5
+# w,,AI_ESTB1,,,,,"BD0205",,m,_AI_ESTB1,,,                                    # Alias of AI_ANAIN5
+# r,,C_MX_RES_CNT,,,,,"BD0205",,s,_8_Skip,,, ,,s,_C_MX_RES_CNT,,,             # Alias of AI_ANAIN5
+# w,,C_MX_RES_CNT,,,,,"BD0205",,m,_C_MX_RES_CNT,,,                            # Alias of AI_ANAIN5
+# r,,K_NTC1,,,,,"BD0205",,s,_8_Skip,,, ,,s,_K_NTC1,,,                         # Alias of AI_ANAIN5
+# w,,K_NTC1,,,,,"BD0205",,m,_K_NTC1,,,                                        # Alias of AI_ANAIN5
+# r,,MAXIONTST0,,,,,"BD0205",,s,_8_Skip,,, ,,s,_MAXIONTST0,,,                 # Alias of AI_ANAIN5
+# w,,MAXIONTST0,,,,,"BD0205",,m,_MAXIONTST0,,,                                # Alias of AI_ANAIN5
+# r,,NGPBS_IMPS,,,,,"BD0205",,s,_8_Skip,,, ,,s,_NGPBS_IMPS,,,                 # Alias of AI_ANAIN5
+# w,,NGPBS_IMPS,,,,,"BD0205",,m,_NGPBS_IMPS,,,                                # Alias of AI_ANAIN5
+# r,,NM_STARTFLAG_BIT,,,,,"BD0205",,s,_8_Skip,,, ,,s,_NM_STARTFLAG_BIT,,,     # Alias of AI_ANAIN5
+# w,,NM_STARTFLAG_BIT,,,,,"BD0205",,m,_NM_STARTFLAG_BIT,,,                    # Alias of AI_ANAIN5
+# r,,REF_FUSE,,,,,"BD0205",,s,_8_Skip,,, ,,s,_REF_FUSE,,,                     # Alias of AI_ANAIN5
+# w,,REF_FUSE,,,,,"BD0205",,m,_REF_FUSE,,,                                    # Alias of AI_ANAIN5
+# r,,V24_KM_ADR_MAX,,,,,"BD0205",,s,_8_Skip,,, ,,s,_V24_KM_ADR_MAX,,,         # Alias of AI_ANAIN5
+# w,,V24_KM_ADR_MAX,,,,,"BD0205",,m,_V24_KM_ADR_MAX,,,                        # Alias of AI_ANAIN5
+# r,,V24_KM_ADR_MAX_SCOM,,,,,"BD0205",,s,_8_Skip,,, ,,s,_V24_KM_ADR_MAX_SCOM,,, # Alias of AI_ANAIN5
+# w,,V24_KM_ADR_MAX_SCOM,,,,,"BD0205",,m,_V24_KM_ADR_MAX_SCOM,,,              # Alias of AI_ANAIN5
 r,,AI_ANAIN6,,,,,"BE0206",,s,_8_Skip,,, ,,s,_AI_ANAIN6,,,
 w,,AI_ANAIN6,,,,,"BE0206",,m,_AI_ANAIN6,,,
-r,,AI_THZ,,,,,"BE0206",,s,_8_Skip,,, ,,s,_AI_THZ,,,
-w,,AI_THZ,,,,,"BE0206",,m,_AI_THZ,,,
-r,,AI_TVL,,,,,"BE0206",,s,_8_Skip,,, ,,s,_AI_TVL,,,
-w,,AI_TVL,,,,,"BE0206",,m,_AI_TVL,,,
-r,,EPIONTSTDUR,,,,,"BE0206",,s,_8_Skip,,, ,,s,_EPIONTSTDUR,,,
-w,,EPIONTSTDUR,,,,,"BE0206",,m,_EPIONTSTDUR,,,
-r,,NM_NO_AUTOSYN,,,,,"BE0206",,s,_8_Skip,,, ,,s,_NM_NO_AUTOSYN,,,
-w,,NM_NO_AUTOSYN,,,,,"BE0206",,m,_NM_NO_AUTOSYN,,,
-r,,N_50HZ_IN,,,,,"BE0206",,s,_8_Skip,,, ,,s,_N_50HZ_IN,,,
-w,,N_50HZ_IN,,,,,"BE0206",,m,_N_50HZ_IN,,,
-r,,SPEICHER_TIEFE,,,,,"BE0206",,s,_8_Skip,,, ,,s,_SPEICHER_TIEFE,,,
-w,,SPEICHER_TIEFE,,,,,"BE0206",,m,_SPEICHER_TIEFE,,,
-r,,V24_TECHOHW,,,,,"BE0206",,s,_8_Skip,,, ,,s,_V24_TECHOHW,,,
-w,,V24_TECHOHW,,,,,"BE0206",,m,_V24_TECHOHW,,,
+# r,,AI_THZ,,,,,"BE0206",,s,_8_Skip,,, ,,s,_AI_THZ,,,                         # Alias of AI_ANAIN6
+# w,,AI_THZ,,,,,"BE0206",,m,_AI_THZ,,,                                        # Alias of AI_ANAIN6
+# r,,AI_TVL,,,,,"BE0206",,s,_8_Skip,,, ,,s,_AI_TVL,,,                         # Alias of AI_ANAIN6
+# w,,AI_TVL,,,,,"BE0206",,m,_AI_TVL,,,                                        # Alias of AI_ANAIN6
+# r,,EPIONTSTDUR,,,,,"BE0206",,s,_8_Skip,,, ,,s,_EPIONTSTDUR,,,               # Alias of AI_ANAIN6
+# w,,EPIONTSTDUR,,,,,"BE0206",,m,_EPIONTSTDUR,,,                              # Alias of AI_ANAIN6
+# r,,NM_NO_AUTOSYN,,,,,"BE0206",,s,_8_Skip,,, ,,s,_NM_NO_AUTOSYN,,,           # Alias of AI_ANAIN6
+# w,,NM_NO_AUTOSYN,,,,,"BE0206",,m,_NM_NO_AUTOSYN,,,                          # Alias of AI_ANAIN6
+# r,,N_50HZ_IN,,,,,"BE0206",,s,_8_Skip,,, ,,s,_N_50HZ_IN,,,                   # Alias of AI_ANAIN6
+# w,,N_50HZ_IN,,,,,"BE0206",,m,_N_50HZ_IN,,,                                  # Alias of AI_ANAIN6
+# r,,SPEICHER_TIEFE,,,,,"BE0206",,s,_8_Skip,,, ,,s,_SPEICHER_TIEFE,,,         # Alias of AI_ANAIN6
+# w,,SPEICHER_TIEFE,,,,,"BE0206",,m,_SPEICHER_TIEFE,,,                        # Alias of AI_ANAIN6
+# r,,V24_TECHOHW,,,,,"BE0206",,s,_8_Skip,,, ,,s,_V24_TECHOHW,,,               # Alias of AI_ANAIN6
+# w,,V24_TECHOHW,,,,,"BE0206",,m,_V24_TECHOHW,,,                              # Alias of AI_ANAIN6
 r,,AI_ANAIN7,,,,,"BF0207",,s,_8_Skip,,, ,,s,_AI_ANAIN7,,,
 w,,AI_ANAIN7,,,,,"BF0207",,m,_AI_ANAIN7,,,
-r,,AI_ESTB2,,,,,"BF0207",,s,_8_Skip,,, ,,s,_AI_ESTB2,,,
-w,,AI_ESTB2,,,,,"BF0207",,m,_AI_ESTB2,,,
-r,,K_NTC2,,,,,"BF0207",,s,_8_Skip,,, ,,s,_K_NTC2,,,
-w,,K_NTC2,,,,,"BF0207",,m,_K_NTC2,,,
-r,,NGPBS_FABTAST,,,,,"BF0207",,s,_8_Skip,,, ,,s,_NGPBS_FABTAST,,,
-w,,NGPBS_FABTAST,,,,,"BF0207",,m,_NGPBS_FABTAST,,,
-r,,NM_TALK_EBUS_BIT,,,,,"BF0207",,s,_8_Skip,,, ,,s,_NM_TALK_EBUS_BIT,,,
-w,,NM_TALK_EBUS_BIT,,,,,"BF0207",,m,_NM_TALK_EBUS_BIT,,,
-r,,TTOL__SW_CONTR,,,,,"BF0207",,s,_8_Skip,,, ,,s,_TTOL__SW_CONTR,,,
-w,,TTOL__SW_CONTR,,,,,"BF0207",,m,_TTOL__SW_CONTR,,,
-r,,ZST_ENABLE,,,,,"BF0207",,s,_8_Skip,,, ,,s,_ZST_ENABLE,,,
-w,,ZST_ENABLE,,,,,"BF0207",,m,_ZST_ENABLE,,,
+# r,,AI_ESTB2,,,,,"BF0207",,s,_8_Skip,,, ,,s,_AI_ESTB2,,,                     # Alias of AI_ANAIN7
+# w,,AI_ESTB2,,,,,"BF0207",,m,_AI_ESTB2,,,                                    # Alias of AI_ANAIN7
+# r,,K_NTC2,,,,,"BF0207",,s,_8_Skip,,, ,,s,_K_NTC2,,,                         # Alias of AI_ANAIN7
+# w,,K_NTC2,,,,,"BF0207",,m,_K_NTC2,,,                                        # Alias of AI_ANAIN7
+# r,,NGPBS_FABTAST,,,,,"BF0207",,s,_8_Skip,,, ,,s,_NGPBS_FABTAST,,,           # Alias of AI_ANAIN7
+# w,,NGPBS_FABTAST,,,,,"BF0207",,m,_NGPBS_FABTAST,,,                          # Alias of AI_ANAIN7
+# r,,NM_TALK_EBUS_BIT,,,,,"BF0207",,s,_8_Skip,,, ,,s,_NM_TALK_EBUS_BIT,,,     # Alias of AI_ANAIN7
+# w,,NM_TALK_EBUS_BIT,,,,,"BF0207",,m,_NM_TALK_EBUS_BIT,,,                    # Alias of AI_ANAIN7
+# r,,TTOL__SW_CONTR,,,,,"BF0207",,s,_8_Skip,,, ,,s,_TTOL__SW_CONTR,,,         # Alias of AI_ANAIN7
+# w,,TTOL__SW_CONTR,,,,,"BF0207",,m,_TTOL__SW_CONTR,,,                        # Alias of AI_ANAIN7
+# r,,ZST_ENABLE,,,,,"BF0207",,s,_8_Skip,,, ,,s,_ZST_ENABLE,,,                 # Alias of AI_ANAIN7
+# w,,ZST_ENABLE,,,,,"BF0207",,m,_ZST_ENABLE,,,                                # Alias of AI_ANAIN7
 r,,EM_EE_REDUND__RED_NFS,,,,,"B00208",,s,_8_Skip,,, ,,s,_EM_EE_REDUND__RED_NFS,,,
 w,,EM_EE_REDUND__RED_NFS,,,,,"B00208",,m,_EM_EE_REDUND__RED_NFS,,,
-r,,L_PRUEF_DAT_CRC,,,,,"B00208",,s,_8_Skip,,, ,,s,_L_PRUEF_DAT_CRC,,,
-w,,L_PRUEF_DAT_CRC,,,,,"B00208",,m,_L_PRUEF_DAT_CRC,,,
-r,,NTC1_BRUCH,,,,,"B00208",,s,_8_Skip,,, ,,s,_NTC1_BRUCH,,,
-w,,NTC1_BRUCH,,,,,"B00208",,m,_NTC1_BRUCH,,,
-r,,RECORD,,,,,"B00208",,s,_8_Skip,,, ,,s,_RECORD,,,
-w,,RECORD,,,,,"B00208",,m,_RECORD,,,
-r,,REGBNK_TASK_1,,,,,"B00208",,s,_8_Skip,,, ,,s,_REGBNK_TASK_1,,,
-w,,REGBNK_TASK_1,,,,,"B00208",,m,_REGBNK_TASK_1,,,
+# r,,L_PRUEF_DAT_CRC,,,,,"B00208",,s,_8_Skip,,, ,,s,_L_PRUEF_DAT_CRC,,,       # Alias of EM_EE_REDUND__RED_NFS
+# w,,L_PRUEF_DAT_CRC,,,,,"B00208",,m,_L_PRUEF_DAT_CRC,,,                      # Alias of EM_EE_REDUND__RED_NFS
+# r,,NTC1_BRUCH,,,,,"B00208",,s,_8_Skip,,, ,,s,_NTC1_BRUCH,,,                 # Alias of EM_EE_REDUND__RED_NFS
+# w,,NTC1_BRUCH,,,,,"B00208",,m,_NTC1_BRUCH,,,                                # Alias of EM_EE_REDUND__RED_NFS
+# r,,RECORD,,,,,"B00208",,s,_8_Skip,,, ,,s,_RECORD,,,                         # Alias of EM_EE_REDUND__RED_NFS
+# w,,RECORD,,,,,"B00208",,m,_RECORD,,,                                        # Alias of EM_EE_REDUND__RED_NFS
+# r,,REGBNK_TASK_1,,,,,"B00208",,s,_8_Skip,,, ,,s,_REGBNK_TASK_1,,,           # Alias of EM_EE_REDUND__RED_NFS
+# w,,REGBNK_TASK_1,,,,,"B00208",,m,_REGBNK_TASK_1,,,                          # Alias of EM_EE_REDUND__RED_NFS
 r,,INIT_TCYCL_0503,,,,,"B2020A",,s,_8_Skip,,, ,,s,_INIT_TCYCL_0503,,,
 w,,INIT_TCYCL_0503,,,,,"B2020A",,m,_INIT_TCYCL_0503,,,
-r,,L_ID_PARA_BCC,,,,,"B2020A",,s,_8_Skip,,, ,,s,_L_ID_PARA_BCC,,,
-w,,L_ID_PARA_BCC,,,,,"B2020A",,m,_L_ID_PARA_BCC,,,
+# r,,L_ID_PARA_BCC,,,,,"B2020A",,s,_8_Skip,,, ,,s,_L_ID_PARA_BCC,,,           # Alias of INIT_TCYCL_0503
+# w,,L_ID_PARA_BCC,,,,,"B2020A",,m,_L_ID_PARA_BCC,,,                          # Alias of INIT_TCYCL_0503
 r,,INIT_TCYCL_0800,,,,,"B3020B",,s,_8_Skip,,, ,,s,_INIT_TCYCL_0800,,,
 w,,INIT_TCYCL_0800,,,,,"B3020B",,m,_INIT_TCYCL_0800,,,
 r,,HZ_HYS__POS,,,,,"B7020F",,s,_8_Skip,,, ,,s,_HZ_HYS__POS,,,
 w,,HZ_HYS__POS,,,,,"B7020F",,m,_HZ_HYS__POS,,,
-r,,IPC_IO_MASK,,,,,"B7020F",,s,_8_Skip,,, ,,s,_IPC_IO_MASK,,,
-w,,IPC_IO_MASK,,,,,"B7020F",,m,_IPC_IO_MASK,,,
-r,,KTNMULFACT,,,,,"B7020F",,s,_8_Skip,,, ,,s,_KTNMULFACT,,,
-w,,KTNMULFACT,,,,,"B7020F",,m,_KTNMULFACT,,,
-r,,MASKFSOUT,,,,,"B7020F",,s,_8_Skip,,, ,,s,_MASKFSOUT,,,
-w,,MASKFSOUT,,,,,"B7020F",,m,_MASKFSOUT,,,
-r,,NG_INCR_DECR__INCR,,,,,"B7020F",,s,_8_Skip,,, ,,s,_NG_INCR_DECR__INCR,,,
-w,,NG_INCR_DECR__INCR,,,,,"B7020F",,m,_NG_INCR_DECR__INCR,,,
-r,,NG_REG_ANPASS__SELF,,,,,"B7020F",,s,_8_Skip,,, ,,s,_NG_REG_ANPASS__SELF,,,
-w,,NG_REG_ANPASS__SELF,,,,,"B7020F",,m,_NG_REG_ANPASS__SELF,,,
-r,,PU_TAKT__PAUSE,,,,,"B7020F",,s,_8_Skip,,, ,,s,_PU_TAKT__PAUSE,,,
-w,,PU_TAKT__PAUSE,,,,,"B7020F",,m,_PU_TAKT__PAUSE,,,
-r,,P_HZTHTWWSOLL_MIN,,,,,"B7020F",,s,_8_Skip,,, ,,s,_P_HZTHTWWSOLL_MIN,,,
-w,,P_HZTHTWWSOLL_MIN,,,,,"B7020F",,m,_P_HZTHTWWSOLL_MIN,,,
-r,,P_LPG__START,,,,,"B7020F",,s,_8_Skip,,, ,,s,_P_LPG__START,,,
-w,,P_LPG__START,,,,,"B7020F",,m,_P_LPG__START,,,
-r,,SEL_IN_1_2__1,,,,,"B7020F",,s,_8_Skip,,, ,,s,_SEL_IN_1_2__1,,,
-w,,SEL_IN_1_2__1,,,,,"B7020F",,m,_SEL_IN_1_2__1,,,
-r,,SEL_IN_3_4__3,,,,,"B7020F",,s,_8_Skip,,, ,,s,_SEL_IN_3_4__3,,,
-w,,SEL_IN_3_4__3,,,,,"B7020F",,m,_SEL_IN_3_4__3,,,
-r,,SEL_PR_1_2__1,,,,,"B7020F",,s,_8_Skip,,, ,,s,_SEL_PR_1_2__1,,,
-w,,SEL_PR_1_2__1,,,,,"B7020F",,m,_SEL_PR_1_2__1,,,
-r,,SEL_PR_3_4__3,,,,,"B7020F",,s,_8_Skip,,, ,,s,_SEL_PR_3_4__3,,,
-w,,SEL_PR_3_4__3,,,,,"B7020F",,m,_SEL_PR_3_4__3,,,
-r,,WW_HYS__POS,,,,,"B7020F",,s,_8_Skip,,, ,,s,_WW_HYS__POS,,,
-w,,WW_HYS__POS,,,,,"B7020F",,m,_WW_HYS__POS,,,
+# r,,IPC_IO_MASK,,,,,"B7020F",,s,_8_Skip,,, ,,s,_IPC_IO_MASK,,,               # Alias of HZ_HYS__POS
+# w,,IPC_IO_MASK,,,,,"B7020F",,m,_IPC_IO_MASK,,,                              # Alias of HZ_HYS__POS
+# r,,KTNMULFACT,,,,,"B7020F",,s,_8_Skip,,, ,,s,_KTNMULFACT,,,                 # Alias of HZ_HYS__POS
+# w,,KTNMULFACT,,,,,"B7020F",,m,_KTNMULFACT,,,                                # Alias of HZ_HYS__POS
+# r,,MASKFSOUT,,,,,"B7020F",,s,_8_Skip,,, ,,s,_MASKFSOUT,,,                   # Alias of HZ_HYS__POS
+# w,,MASKFSOUT,,,,,"B7020F",,m,_MASKFSOUT,,,                                  # Alias of HZ_HYS__POS
+# r,,NG_INCR_DECR__INCR,,,,,"B7020F",,s,_8_Skip,,, ,,s,_NG_INCR_DECR__INCR,,, # Alias of HZ_HYS__POS
+# w,,NG_INCR_DECR__INCR,,,,,"B7020F",,m,_NG_INCR_DECR__INCR,,,                # Alias of HZ_HYS__POS
+# r,,NG_REG_ANPASS__SELF,,,,,"B7020F",,s,_8_Skip,,, ,,s,_NG_REG_ANPASS__SELF,,, # Alias of HZ_HYS__POS
+# w,,NG_REG_ANPASS__SELF,,,,,"B7020F",,m,_NG_REG_ANPASS__SELF,,,              # Alias of HZ_HYS__POS
+# r,,PU_TAKT__PAUSE,,,,,"B7020F",,s,_8_Skip,,, ,,s,_PU_TAKT__PAUSE,,,         # Alias of HZ_HYS__POS
+# w,,PU_TAKT__PAUSE,,,,,"B7020F",,m,_PU_TAKT__PAUSE,,,                        # Alias of HZ_HYS__POS
+# r,,P_HZTHTWWSOLL_MIN,,,,,"B7020F",,s,_8_Skip,,, ,,s,_P_HZTHTWWSOLL_MIN,,,   # Alias of HZ_HYS__POS
+# w,,P_HZTHTWWSOLL_MIN,,,,,"B7020F",,m,_P_HZTHTWWSOLL_MIN,,,                  # Alias of HZ_HYS__POS
+# r,,P_LPG__START,,,,,"B7020F",,s,_8_Skip,,, ,,s,_P_LPG__START,,,             # Alias of HZ_HYS__POS
+# w,,P_LPG__START,,,,,"B7020F",,m,_P_LPG__START,,,                            # Alias of HZ_HYS__POS
+# r,,SEL_IN_1_2__1,,,,,"B7020F",,s,_8_Skip,,, ,,s,_SEL_IN_1_2__1,,,           # Alias of HZ_HYS__POS
+# w,,SEL_IN_1_2__1,,,,,"B7020F",,m,_SEL_IN_1_2__1,,,                          # Alias of HZ_HYS__POS
+# r,,SEL_IN_3_4__3,,,,,"B7020F",,s,_8_Skip,,, ,,s,_SEL_IN_3_4__3,,,           # Alias of HZ_HYS__POS
+# w,,SEL_IN_3_4__3,,,,,"B7020F",,m,_SEL_IN_3_4__3,,,                          # Alias of HZ_HYS__POS
+# r,,SEL_PR_1_2__1,,,,,"B7020F",,s,_8_Skip,,, ,,s,_SEL_PR_1_2__1,,,           # Alias of HZ_HYS__POS
+# w,,SEL_PR_1_2__1,,,,,"B7020F",,m,_SEL_PR_1_2__1,,,                          # Alias of HZ_HYS__POS
+# r,,SEL_PR_3_4__3,,,,,"B7020F",,s,_8_Skip,,, ,,s,_SEL_PR_3_4__3,,,           # Alias of HZ_HYS__POS
+# w,,SEL_PR_3_4__3,,,,,"B7020F",,m,_SEL_PR_3_4__3,,,                          # Alias of HZ_HYS__POS
+# r,,WW_HYS__POS,,,,,"B7020F",,s,_8_Skip,,, ,,s,_WW_HYS__POS,,,               # Alias of HZ_HYS__POS
+# w,,WW_HYS__POS,,,,,"B7020F",,m,_WW_HYS__POS,,,                              # Alias of HZ_HYS__POS
 r,,AIN_ERR_BW1,,,,,"A80210",,s,_8_Skip,,, ,,s,_AIN_ERR_BW1,,,
 w,,AIN_ERR_BW1,,,,,"A80210",,m,_AIN_ERR_BW1,,,
-r,,EM_EE_REDUND__RED_DEF,,,,,"A80210",,s,_8_Skip,,, ,,s,_EM_EE_REDUND__RED_DEF,,,
-w,,EM_EE_REDUND__RED_DEF,,,,,"A80210",,m,_EM_EE_REDUND__RED_DEF,,,
-r,,NTC2_SCHLUSS,,,,,"A80210",,s,_8_Skip,,, ,,s,_NTC2_SCHLUSS,,,
-w,,NTC2_SCHLUSS,,,,,"A80210",,m,_NTC2_SCHLUSS,,,
-r,,QQ_M2,,,,,"A80210",,s,_8_Skip,,, ,,s,_QQ_M2,,,
-w,,QQ_M2,,,,,"A80210",,m,_QQ_M2,,,
-r,,REGBANK_TASK_2,,,,,"A80210",,s,_8_Skip,,, ,,s,_REGBANK_TASK_2,,,
-w,,REGBANK_TASK_2,,,,,"A80210",,m,_REGBANK_TASK_2,,,
-r,,REGBNK_TASK_2,,,,,"A80210",,s,_8_Skip,,, ,,s,_REGBNK_TASK_2,,,
-w,,REGBNK_TASK_2,,,,,"A80210",,m,_REGBNK_TASK_2,,,
+# r,,EM_EE_REDUND__RED_DEF,,,,,"A80210",,s,_8_Skip,,, ,,s,_EM_EE_REDUND__RED_DEF,,, # Alias of AIN_ERR_BW1
+# w,,EM_EE_REDUND__RED_DEF,,,,,"A80210",,m,_EM_EE_REDUND__RED_DEF,,,          # Alias of AIN_ERR_BW1
+# r,,NTC2_SCHLUSS,,,,,"A80210",,s,_8_Skip,,, ,,s,_NTC2_SCHLUSS,,,             # Alias of AIN_ERR_BW1
+# w,,NTC2_SCHLUSS,,,,,"A80210",,m,_NTC2_SCHLUSS,,,                            # Alias of AIN_ERR_BW1
+# r,,QQ_M2,,,,,"A80210",,s,_8_Skip,,, ,,s,_QQ_M2,,,                           # Alias of AIN_ERR_BW1
+# w,,QQ_M2,,,,,"A80210",,m,_QQ_M2,,,                                          # Alias of AIN_ERR_BW1
+# r,,REGBANK_TASK_2,,,,,"A80210",,s,_8_Skip,,, ,,s,_REGBANK_TASK_2,,,         # Alias of AIN_ERR_BW1
+# w,,REGBANK_TASK_2,,,,,"A80210",,m,_REGBANK_TASK_2,,,                        # Alias of AIN_ERR_BW1
+# r,,REGBNK_TASK_2,,,,,"A80210",,s,_8_Skip,,, ,,s,_REGBNK_TASK_2,,,           # Alias of AIN_ERR_BW1
+# w,,REGBNK_TASK_2,,,,,"A80210",,m,_REGBNK_TASK_2,,,                          # Alias of AIN_ERR_BW1
 r,,DE_MIN_CNT,,,,,"A90211",,s,_8_Skip,,, ,,s,_DE_MIN_CNT,,,
 w,,DE_MIN_CNT,,,,,"A90211",,m,_DE_MIN_CNT,,,
 r,,DDSPERRZAEHLER,,,,,"AA0212",,s,_8_Skip,,, ,,s,_DDSPERRZAEHLER,,,
@@ -1271,48 +1269,48 @@ r,,DDRX_OFFSET_S1,,,,,"AB0213",,s,_8_Skip,,, ,,s,_DDRX_OFFSET_S1,,,
 w,,DDRX_OFFSET_S1,,,,,"AB0213",,m,_DDRX_OFFSET_S1,,,
 r,,AD_SCALE_2,,,,,"AC0214",,s,_8_Skip,,, ,,s,_AD_SCALE_2,,,
 w,,AD_SCALE_2,,,,,"AC0214",,m,_AD_SCALE_2,,,
-r,,DDTX_OFFSET_CNT,,,,,"AC0214",,s,_8_Skip,,, ,,s,_DDTX_OFFSET_CNT,,,
-w,,DDTX_OFFSET_CNT,,,,,"AC0214",,m,_DDTX_OFFSET_CNT,,,
-r,,DIG_TST,,,,,"AC0214",,s,_8_Skip,,, ,,s,_DIG_TST,,,
-w,,DIG_TST,,,,,"AC0214",,m,_DIG_TST,,,
-r,,L_EWIGEN_ZAEHLER,,,,,"AC0214",,s,_8_Skip,,, ,,s,_L_EWIGEN_ZAEHLER,,,
-w,,L_EWIGEN_ZAEHLER,,,,,"AC0214",,m,_L_EWIGEN_ZAEHLER,,,
+# r,,DDTX_OFFSET_CNT,,,,,"AC0214",,s,_8_Skip,,, ,,s,_DDTX_OFFSET_CNT,,,       # Alias of AD_SCALE_2
+# w,,DDTX_OFFSET_CNT,,,,,"AC0214",,m,_DDTX_OFFSET_CNT,,,                      # Alias of AD_SCALE_2
+# r,,DIG_TST,,,,,"AC0214",,s,_8_Skip,,, ,,s,_DIG_TST,,,                       # Alias of AD_SCALE_2
+# w,,DIG_TST,,,,,"AC0214",,m,_DIG_TST,,,                                      # Alias of AD_SCALE_2
+# r,,L_EWIGEN_ZAEHLER,,,,,"AC0214",,s,_8_Skip,,, ,,s,_L_EWIGEN_ZAEHLER,,,     # Alias of AD_SCALE_2
+# w,,L_EWIGEN_ZAEHLER,,,,,"AC0214",,m,_L_EWIGEN_ZAEHLER,,,                    # Alias of AD_SCALE_2
 r,,L_FS_PARA,,,,,"AE0216",,s,_8_Skip,,, ,,s,_L_FS_PARA,,,
 w,,L_FS_PARA,,,,,"AE0216",,m,_L_FS_PARA,,,
 r,,EEA_CONST_CRC,,,,,"A00218",,s,_8_Skip,,, ,,s,_EEA_CONST_CRC,,,
 w,,EEA_CONST_CRC,,,,,"A00218",,m,_EEA_CONST_CRC,,,
-r,,REGB_TIRP,,,,,"A00218",,s,_8_Skip,,, ,,s,_REGB_TIRP,,,
-w,,REGB_TIRP,,,,,"A00218",,m,_REGB_TIRP,,,
+# r,,REGB_TIRP,,,,,"A00218",,s,_8_Skip,,, ,,s,_REGB_TIRP,,,                   # Alias of EEA_CONST_CRC
+# w,,REGB_TIRP,,,,,"A00218",,m,_REGB_TIRP,,,                                  # Alias of EEA_CONST_CRC
 r,,EEA_RAM_ANF,,,,,"A10219",,s,_8_Skip,,, ,,s,_EEA_RAM_ANF,,,
 w,,EEA_RAM_ANF,,,,,"A10219",,m,_EEA_RAM_ANF,,,
-r,,ROM_END_L,,,,,"A10219",,s,_8_Skip,,, ,,s,_ROM_END_L,,,
-w,,ROM_END_L,,,,,"A10219",,m,_ROM_END_L,,,
-r,,RX_BUF_LEN,,,,,"A10219",,s,_8_Skip,,, ,,s,_RX_BUF_LEN,,,
-w,,RX_BUF_LEN,,,,,"A10219",,m,_RX_BUF_LEN,,,
+# r,,ROM_END_L,,,,,"A10219",,s,_8_Skip,,, ,,s,_ROM_END_L,,,                   # Alias of EEA_RAM_ANF
+# w,,ROM_END_L,,,,,"A10219",,m,_ROM_END_L,,,                                  # Alias of EEA_RAM_ANF
+# r,,RX_BUF_LEN,,,,,"A10219",,s,_8_Skip,,, ,,s,_RX_BUF_LEN,,,                 # Alias of EEA_RAM_ANF
+# w,,RX_BUF_LEN,,,,,"A10219",,m,_RX_BUF_LEN,,,                                # Alias of EEA_RAM_ANF
 r,,EEAEPKANF,,,,,"A3021B",,s,_8_Skip,,, ,,s,_EEAEPKANF,,,
 w,,EEAEPKANF,,,,,"A3021B",,m,_EEAEPKANF,,,
 r,,NTCYCL_0503,,,,,"A6021E",,s,_8_Skip,,, ,,s,_NTCYCL_0503,,,
 w,,NTCYCL_0503,,,,,"A6021E",,m,_NTCYCL_0503,,,
-r,,NTCYCL_0800,,,,,"A6021E",,s,_8_Skip,,, ,,s,_NTCYCL_0800,,,
-w,,NTCYCL_0800,,,,,"A6021E",,m,_NTCYCL_0800,,,
-r,,NTCYCL_EIG_QQ,,,,,"A6021E",,s,_8_Skip,,, ,,s,_NTCYCL_EIG_QQ,,,
-w,,NTCYCL_EIG_QQ,,,,,"A6021E",,m,_NTCYCL_EIG_QQ,,,
-r,,NTCYCL_MAX,,,,,"A6021E",,s,_8_Skip,,, ,,s,_NTCYCL_MAX,,,
-w,,NTCYCL_MAX,,,,,"A6021E",,m,_NTCYCL_MAX,,,
-r,,NTCYCL_QQ_M10,,,,,"A6021E",,s,_8_Skip,,, ,,s,_NTCYCL_QQ_M10,,,
-w,,NTCYCL_QQ_M10,,,,,"A6021E",,m,_NTCYCL_QQ_M10,,,
-r,,NTCYCL_QQ_M2,,,,,"A6021E",,s,_8_Skip,,, ,,s,_NTCYCL_QQ_M2,,,
-w,,NTCYCL_QQ_M2,,,,,"A6021E",,m,_NTCYCL_QQ_M2,,,
-r,,NTC_MIN,,,,,"A6021E",,s,_8_Skip,,, ,,s,_NTC_MIN,,,
-w,,NTC_MIN,,,,,"A6021E",,m,_NTC_MIN,,,
+# r,,NTCYCL_0800,,,,,"A6021E",,s,_8_Skip,,, ,,s,_NTCYCL_0800,,,               # Alias of NTCYCL_0503
+# w,,NTCYCL_0800,,,,,"A6021E",,m,_NTCYCL_0800,,,                              # Alias of NTCYCL_0503
+# r,,NTCYCL_EIG_QQ,,,,,"A6021E",,s,_8_Skip,,, ,,s,_NTCYCL_EIG_QQ,,,           # Alias of NTCYCL_0503
+# w,,NTCYCL_EIG_QQ,,,,,"A6021E",,m,_NTCYCL_EIG_QQ,,,                          # Alias of NTCYCL_0503
+# r,,NTCYCL_MAX,,,,,"A6021E",,s,_8_Skip,,, ,,s,_NTCYCL_MAX,,,                 # Alias of NTCYCL_0503
+# w,,NTCYCL_MAX,,,,,"A6021E",,m,_NTCYCL_MAX,,,                                # Alias of NTCYCL_0503
+# r,,NTCYCL_QQ_M10,,,,,"A6021E",,s,_8_Skip,,, ,,s,_NTCYCL_QQ_M10,,,           # Alias of NTCYCL_0503
+# w,,NTCYCL_QQ_M10,,,,,"A6021E",,m,_NTCYCL_QQ_M10,,,                          # Alias of NTCYCL_0503
+# r,,NTCYCL_QQ_M2,,,,,"A6021E",,s,_8_Skip,,, ,,s,_NTCYCL_QQ_M2,,,             # Alias of NTCYCL_0503
+# w,,NTCYCL_QQ_M2,,,,,"A6021E",,m,_NTCYCL_QQ_M2,,,                            # Alias of NTCYCL_0503
+# r,,NTC_MIN,,,,,"A6021E",,s,_8_Skip,,, ,,s,_NTC_MIN,,,                       # Alias of NTCYCL_0503
+# w,,NTC_MIN,,,,,"A6021E",,m,_NTC_MIN,,,                                      # Alias of NTCYCL_0503
 r,,TFRS_A__SELF,,,,,"A7021F",,s,_8_Skip,,, ,,s,_TFRS_A__SELF,,,
 w,,TFRS_A__SELF,,,,,"A7021F",,m,_TFRS_A__SELF,,,
 r,,EM_EE_REDUND__RED_INTBCC,,,,,"980220",,s,_8_Skip,,, ,,s,_EM_EE_REDUND__RED_INTBCC,,,
 w,,EM_EE_REDUND__RED_INTBCC,,,,,"980220",,m,_EM_EE_REDUND__RED_INTBCC,,,
-r,,GEC_LDW_RUHE,,,,,"980220",,s,_8_Skip,,, ,,s,_GEC_LDW_RUHE,,,
-w,,GEC_LDW_RUHE,,,,,"980220",,m,_GEC_LDW_RUHE,,,
-r,,NTC2_BRUCH,,,,,"980220",,s,_8_Skip,,, ,,s,_NTC2_BRUCH,,,
-w,,NTC2_BRUCH,,,,,"980220",,m,_NTC2_BRUCH,,,
+# r,,GEC_LDW_RUHE,,,,,"980220",,s,_8_Skip,,, ,,s,_GEC_LDW_RUHE,,,             # Alias of EM_EE_REDUND__RED_INTBCC
+# w,,GEC_LDW_RUHE,,,,,"980220",,m,_GEC_LDW_RUHE,,,                            # Alias of EM_EE_REDUND__RED_INTBCC
+# r,,NTC2_BRUCH,,,,,"980220",,s,_8_Skip,,, ,,s,_NTC2_BRUCH,,,                 # Alias of EM_EE_REDUND__RED_INTBCC
+# w,,NTC2_BRUCH,,,,,"980220",,m,_NTC2_BRUCH,,,                                # Alias of EM_EE_REDUND__RED_INTBCC
 r,,GENPOLY8SIG,,,,,"990221",,s,_8_Skip,,, ,,s,_GENPOLY8SIG,,,
 w,,GENPOLY8SIG,,,,,"990221",,m,_GENPOLY8SIG,,,
 r,,GEC_PUHZ_SW,,,,,"9C0224",,s,_8_Skip,,, ,,s,_GEC_PUHZ_SW,,,
@@ -1321,16 +1319,16 @@ r,,L_S5_DAT_CRC,,,,,"9F0227",,s,_8_Skip,,, ,,s,_L_S5_DAT_CRC,,,
 w,,L_S5_DAT_CRC,,,,,"9F0227",,m,_L_S5_DAT_CRC,,,
 r,,DL_BOOSTERPLUS,,,,,"900228",,s,_8_Skip,,, ,,s,_DL_BOOSTERPLUS,,,
 w,,DL_BOOSTERPLUS,,,,,"900228",,m,_DL_BOOSTERPLUS,,,
-r,,P_KOTHTWWSOLL_MIN,,,,,"900228",,s,_8_Skip,,, ,,s,_P_KOTHTWWSOLL_MIN,,,
-w,,P_KOTHTWWSOLL_MIN,,,,,"900228",,m,_P_KOTHTWWSOLL_MIN,,,
+# r,,P_KOTHTWWSOLL_MIN,,,,,"900228",,s,_8_Skip,,, ,,s,_P_KOTHTWWSOLL_MIN,,,   # Alias of DL_BOOSTERPLUS
+# w,,P_KOTHTWWSOLL_MIN,,,,,"900228",,m,_P_KOTHTWWSOLL_MIN,,,                  # Alias of DL_BOOSTERPLUS
 r,,MIN_TAUTOSYN,,,,,"910229",,s,_8_Skip,,, ,,s,_MIN_TAUTOSYN,,,
 w,,MIN_TAUTOSYN,,,,,"910229",,m,_MIN_TAUTOSYN,,,
 r,,GEC_N_NOK_LIMIT,,,,,"93022B",,s,_8_Skip,,, ,,s,_GEC_N_NOK_LIMIT,,,
 w,,GEC_N_NOK_LIMIT,,,,,"93022B",,m,_GEC_N_NOK_LIMIT,,,
-r,,GEC_N_NOK_VSP,,,,,"93022B",,s,_8_Skip,,, ,,s,_GEC_N_NOK_VSP,,,
-w,,GEC_N_NOK_VSP,,,,,"93022B",,m,_GEC_N_NOK_VSP,,,
-r,,GEC_N_NOK_ZUE_N,,,,,"93022B",,s,_8_Skip,,, ,,s,_GEC_N_NOK_ZUE_N,,,
-w,,GEC_N_NOK_ZUE_N,,,,,"93022B",,m,_GEC_N_NOK_ZUE_N,,,
+# r,,GEC_N_NOK_VSP,,,,,"93022B",,s,_8_Skip,,, ,,s,_GEC_N_NOK_VSP,,,           # Alias of GEC_N_NOK_LIMIT
+# w,,GEC_N_NOK_VSP,,,,,"93022B",,m,_GEC_N_NOK_VSP,,,                          # Alias of GEC_N_NOK_LIMIT
+# r,,GEC_N_NOK_ZUE_N,,,,,"93022B",,s,_8_Skip,,, ,,s,_GEC_N_NOK_ZUE_N,,,       # Alias of GEC_N_NOK_LIMIT
+# w,,GEC_N_NOK_ZUE_N,,,,,"93022B",,m,_GEC_N_NOK_ZUE_N,,,                      # Alias of GEC_N_NOK_LIMIT
 r,,GEC_N_NOK_RUHE,,,,,"94022C",,s,_8_Skip,,, ,,s,_GEC_N_NOK_RUHE,,,
 w,,GEC_N_NOK_RUHE,,,,,"94022C",,m,_GEC_N_NOK_RUHE,,,
 r,,GEC_LDW_ARB,,,,,"95022D",,s,_8_Skip,,, ,,s,_GEC_LDW_ARB,,,
@@ -1341,18 +1339,18 @@ r,,QAC_SHORT,,,,,"97022F",,s,_8_Skip,,, ,,s,_QAC_SHORT,,,
 w,,QAC_SHORT,,,,,"97022F",,m,_QAC_SHORT,,,
 r,,AD_SCALE_3,,,,,"880230",,s,_8_Skip,,, ,,s,_AD_SCALE_3,,,
 w,,AD_SCALE_3,,,,,"880230",,m,_AD_SCALE_3,,,
-r,,L_FHIST,,,,,"880230",,s,_8_Skip,,, ,,s,_L_FHIST,,,
-w,,L_FHIST,,,,,"880230",,m,_L_FHIST,,,
+# r,,L_FHIST,,,,,"880230",,s,_8_Skip,,, ,,s,_L_FHIST,,,                       # Alias of AD_SCALE_3
+# w,,L_FHIST,,,,,"880230",,m,_L_FHIST,,,                                      # Alias of AD_SCALE_3
 r,,KPMULFACT,,,,,"8A0232",,s,_8_Skip,,, ,,s,_KPMULFACT,,,
 w,,KPMULFACT,,,,,"8A0232",,m,_KPMULFACT,,,
-r,,RES_MAX_TIME,,,,,"8A0232",,s,_8_Skip,,, ,,s,_RES_MAX_TIME,,,
-w,,RES_MAX_TIME,,,,,"8A0232",,m,_RES_MAX_TIME,,,
+# r,,RES_MAX_TIME,,,,,"8A0232",,s,_8_Skip,,, ,,s,_RES_MAX_TIME,,,             # Alias of KPMULFACT
+# w,,RES_MAX_TIME,,,,,"8A0232",,m,_RES_MAX_TIME,,,                            # Alias of KPMULFACT
 r,,GEC_AIN_REF,,,,,"8D0235",,s,_8_Skip,,, ,,s,_GEC_AIN_REF,,,
 w,,GEC_AIN_REF,,,,,"8D0235",,m,_GEC_AIN_REF,,,
 r,,L_EEAEPKDAT,,,,,"8E0236",,s,_8_Skip,,, ,,s,_L_EEAEPKDAT,,,
 w,,L_EEAEPKDAT,,,,,"8E0236",,m,_L_EEAEPKDAT,,,
-r,,L_KES_DAT_CRC,,,,,"8E0236",,s,_8_Skip,,, ,,s,_L_KES_DAT_CRC,,,
-w,,L_KES_DAT_CRC,,,,,"8E0236",,m,_L_KES_DAT_CRC,,,
+# r,,L_KES_DAT_CRC,,,,,"8E0236",,s,_8_Skip,,, ,,s,_L_KES_DAT_CRC,,,           # Alias of L_EEAEPKDAT
+# w,,L_KES_DAT_CRC,,,,,"8E0236",,m,_L_KES_DAT_CRC,,,                          # Alias of L_EEAEPKDAT
 r,,FCODE_NOT,,,,,"800238",,s,_8_Skip,,, ,,s,_FCODE_NOT,,,
 w,,FCODE_NOT,,,,,"800238",,m,_FCODE_NOT,,,
 r,,FCODE_MAX,,,,,"810239",,s,_8_Skip,,, ,,s,_FCODE_MAX,,,
@@ -1365,26 +1363,26 @@ r,,P_KOTHTWWSOLL_MAX,,,,,"87023F",,s,_8_Skip,,, ,,s,_P_KOTHTWWSOLL_MAX,,,
 w,,P_KOTHTWWSOLL_MAX,,,,,"87023F",,m,_P_KOTHTWWSOLL_MAX,,,
 r,,AIN_ERR_BW2,,,,,"F80240",,s,_8_Skip,,, ,,s,_AIN_ERR_BW2,,,
 w,,AIN_ERR_BW2,,,,,"F80240",,m,_AIN_ERR_BW2,,,
-r,,NTC1_NTC2,,,,,"F80240",,s,_8_Skip,,, ,,s,_NTC1_NTC2,,,
-w,,NTC1_NTC2,,,,,"F80240",,m,_NTC1_NTC2,,,
+# r,,NTC1_NTC2,,,,,"F80240",,s,_8_Skip,,, ,,s,_NTC1_NTC2,,,                   # Alias of AIN_ERR_BW2
+# w,,NTC1_NTC2,,,,,"F80240",,m,_NTC1_NTC2,,,                                  # Alias of AIN_ERR_BW2
 r,,P_HZTHTWWSOLL_MAX,,,,,"F90241",,s,_8_Skip,,, ,,s,_P_HZTHTWWSOLL_MAX,,,
 w,,P_HZTHTWWSOLL_MAX,,,,,"F90241",,m,_P_HZTHTWWSOLL_MAX,,,
 r,,NIT_SHORT,,,,,"FC0244",,s,_8_Skip,,, ,,s,_NIT_SHORT,,,
 w,,NIT_SHORT,,,,,"FC0244",,m,_NIT_SHORT,,,
 r,,NIT_MIN,,,,,"FD0245",,s,_8_Skip,,, ,,s,_NIT_MIN,,,
 w,,NIT_MIN,,,,,"FD0245",,m,_NIT_MIN,,,
-r,,WAIT_A_2,,,,,"FD0245",,s,_8_Skip,,, ,,s,_WAIT_A_2,,,
-w,,WAIT_A_2,,,,,"FD0245",,m,_WAIT_A_2,,,
+# r,,WAIT_A_2,,,,,"FD0245",,s,_8_Skip,,, ,,s,_WAIT_A_2,,,                     # Alias of NIT_MIN
+# w,,WAIT_A_2,,,,,"FD0245",,m,_WAIT_A_2,,,                                    # Alias of NIT_MIN
 r,,L_FCODE_ZAEHLER,,,,,"F00248",,s,_8_Skip,,, ,,s,_L_FCODE_ZAEHLER,,,
 w,,L_FCODE_ZAEHLER,,,,,"F00248",,m,_L_FCODE_ZAEHLER,,,
 r,,NR_ACTIVATE_STATI,,,,,"F7024F",,s,_8_Skip,,, ,,s,_NR_ACTIVATE_STATI,,,
 w,,NR_ACTIVATE_STATI,,,,,"F7024F",,m,_NR_ACTIVATE_STATI,,,
 r,,AD_SCALE_4,,,,,"E80250",,s,_8_Skip,,, ,,s,_AD_SCALE_4,,,
 w,,AD_SCALE_4,,,,,"E80250",,m,_AD_SCALE_4,,,
-r,,DE_MAX_CNT,,,,,"E80250",,s,_8_Skip,,, ,,s,_DE_MAX_CNT,,,
-w,,DE_MAX_CNT,,,,,"E80250",,m,_DE_MAX_CNT,,,
-r,,K_ID,,,,,"E80250",,s,_8_Skip,,, ,,s,_K_ID,,,
-w,,K_ID,,,,,"E80250",,m,_K_ID,,,
+# r,,DE_MAX_CNT,,,,,"E80250",,s,_8_Skip,,, ,,s,_DE_MAX_CNT,,,                 # Alias of AD_SCALE_4
+# w,,DE_MAX_CNT,,,,,"E80250",,m,_DE_MAX_CNT,,,                                # Alias of AD_SCALE_4
+# r,,K_ID,,,,,"E80250",,s,_8_Skip,,, ,,s,_K_ID,,,                             # Alias of AD_SCALE_4
+# w,,K_ID,,,,,"E80250",,m,_K_ID,,,                                            # Alias of AD_SCALE_4
 r,,EEAEPKCRC,,,,,"E90251",,s,_8_Skip,,, ,,s,_EEAEPKCRC,,,
 w,,EEAEPKCRC,,,,,"E90251",,m,_EEAEPKCRC,,,
 r,,EEAEPKANF2,,,,,"EB0253",,s,_8_Skip,,, ,,s,_EEAEPKANF2,,,
@@ -1399,10 +1397,10 @@ r,,NR_NG_BR_MIN,,,,,"DD0265",,s,_8_Skip,,, ,,s,_NR_NG_BR_MIN,,,
 w,,NR_NG_BR_MIN,,,,,"DD0265",,m,_NR_NG_BR_MIN,,,
 r,,AD_SCALE_5,,,,,"C80270",,s,_8_Skip,,, ,,s,_AD_SCALE_5,,,
 w,,AD_SCALE_5,,,,,"C80270",,m,_AD_SCALE_5,,,
-r,,KESS_BIT_MASK,,,,,"C80270",,s,_8_Skip,,, ,,s,_KESS_BIT_MASK,,,
-w,,KESS_BIT_MASK,,,,,"C80270",,m,_KESS_BIT_MASK,,,
-r,,OFFSET_NR_CCINFO_NR,,,,,"C80270",,s,_8_Skip,,, ,,s,_OFFSET_NR_CCINFO_NR,,,
-w,,OFFSET_NR_CCINFO_NR,,,,,"C80270",,m,_OFFSET_NR_CCINFO_NR,,,
+# r,,KESS_BIT_MASK,,,,,"C80270",,s,_8_Skip,,, ,,s,_KESS_BIT_MASK,,,           # Alias of AD_SCALE_5
+# w,,KESS_BIT_MASK,,,,,"C80270",,m,_KESS_BIT_MASK,,,                          # Alias of AD_SCALE_5
+# r,,OFFSET_NR_CCINFO_NR,,,,,"C80270",,s,_8_Skip,,, ,,s,_OFFSET_NR_CCINFO_NR,,, # Alias of AD_SCALE_5
+# w,,OFFSET_NR_CCINFO_NR,,,,,"C80270",,m,_OFFSET_NR_CCINFO_NR,,,              # Alias of AD_SCALE_5
 r,,OFFSET_NR_CC_RELAESE,,,,,"C90271",,s,_8_Skip,,, ,,s,_OFFSET_NR_CC_RELAESE,,,
 w,,OFFSET_NR_CC_RELAESE,,,,,"C90271",,m,_OFFSET_NR_CC_RELAESE,,,
 r,,OFFSET_NR_FW1,,,,,"CA0272",,s,_8_Skip,,, ,,s,_OFFSET_NR_FW1,,,
@@ -1419,62 +1417,58 @@ r,,OFFSET_NR_CRC,,,,,"CF0277",,s,_8_Skip,,, ,,s,_OFFSET_NR_CRC,,,
 w,,OFFSET_NR_CRC,,,,,"CF0277",,m,_OFFSET_NR_CRC,,,
 r,,ANZ_INFONR,,,,,"C00278",,s,_8_Skip,,, ,,s,_ANZ_INFONR,,,
 w,,ANZ_INFONR,,,,,"C00278",,m,_ANZ_INFONR,,,
-r,,REF_MIN_OFF,,,,,"C00278",,s,_8_Skip,,, ,,s,_REF_MIN_OFF,,,
-w,,REF_MIN_OFF,,,,,"C00278",,m,_REF_MIN_OFF,,,
+# r,,REF_MIN_OFF,,,,,"C00278",,s,_8_Skip,,, ,,s,_REF_MIN_OFF,,,               # Alias of ANZ_INFONR
+# w,,REF_MIN_OFF,,,,,"C00278",,m,_REF_MIN_OFF,,,                              # Alias of ANZ_INFONR
 r,,ION_GRENZ,,,,,"C2027A",,s,_8_Skip,,, ,,s,_ION_GRENZ,,,
 w,,ION_GRENZ,,,,,"C2027A",,m,_ION_GRENZ,,,
 r,,ADX_TEST,,,,,"C4027C",,s,_8_Skip,,, ,,s,_ADX_TEST,,,
 w,,ADX_TEST,,,,,"C4027C",,m,_ADX_TEST,,,
 r,,V24_KM_ADR_DEFAULT,,,,,"C5027D",,s,_8_Skip,,, ,,s,_V24_KM_ADR_DEFAULT,,,
 w,,V24_KM_ADR_DEFAULT,,,,,"C5027D",,m,_V24_KM_ADR_DEFAULT,,,
-r,,V24_KM_ADR_SCOM_DEFAULT,,,,,"C5027D",,s,_8_Skip,,, ,,s,_V24_KM_ADR_SCOM_DEFAULT,,,
-w,,V24_KM_ADR_SCOM_DEFAULT,,,,,"C5027D",,m,_V24_KM_ADR_SCOM_DEFAULT,,,
+# r,,V24_KM_ADR_SCOM_DEFAULT,,,,,"C5027D",,s,_8_Skip,,, ,,s,_V24_KM_ADR_SCOM_DEFAULT,,, # Alias of V24_KM_ADR_DEFAULT
+# w,,V24_KM_ADR_SCOM_DEFAULT,,,,,"C5027D",,m,_V24_KM_ADR_SCOM_DEFAULT,,,      # Alias of V24_KM_ADR_DEFAULT
 r,,MINTVSOLL__SELF,,,,,"C7027F",,s,_8_Skip,,, ,,s,_MINTVSOLL__SELF,,,
 w,,MINTVSOLL__SELF,,,,,"C7027F",,m,_MINTVSOLL__SELF,,,
-r,,PNL_HZ__SELF,,,,,"C7027F",,s,_8_Skip,,, ,,s,_PNL_HZ__SELF,,,
-w,,PNL_HZ__SELF,,,,,"C7027F",,m,_PNL_HZ__SELF,,,
-r,,REF_MIN_ON,,,,,"C7027F",,s,_8_Skip,,, ,,s,_REF_MIN_ON,,,
-w,,REF_MIN_ON,,,,,"C7027F",,m,_REF_MIN_ON,,,
-r,,TBRMINOFF__SELF,,,,,"C7027F",,s,_8_Skip,,, ,,s,_TBRMINOFF__SELF,,,
-w,,TBRMINOFF__SELF,,,,,"C7027F",,m,_TBRMINOFF__SELF,,,
+# r,,PNL_HZ__SELF,,,,,"C7027F",,s,_8_Skip,,, ,,s,_PNL_HZ__SELF,,,             # Alias of MINTVSOLL__SELF
+# w,,PNL_HZ__SELF,,,,,"C7027F",,m,_PNL_HZ__SELF,,,                            # Alias of MINTVSOLL__SELF
+# r,,REF_MIN_ON,,,,,"C7027F",,s,_8_Skip,,, ,,s,_REF_MIN_ON,,,                 # Alias of MINTVSOLL__SELF
+# w,,REF_MIN_ON,,,,,"C7027F",,m,_REF_MIN_ON,,,                                # Alias of MINTVSOLL__SELF
+# r,,TBRMINOFF__SELF,,,,,"C7027F",,s,_8_Skip,,, ,,s,_TBRMINOFF__SELF,,,       # Alias of MINTVSOLL__SELF
+# w,,TBRMINOFF__SELF,,,,,"C7027F",,m,_TBRMINOFF__SELF,,,                      # Alias of MINTVSOLL__SELF
 r,,MINTVSOLL__TRLAUF,,,,,"380280",,s,_8_Skip,,, ,,s,_MINTVSOLL__TRLAUF,,,
 w,,MINTVSOLL__TRLAUF,,,,,"380280",,m,_MINTVSOLL__TRLAUF,,,
-r,,NG_GR_MIN__FABTAST,,,,,"380280",,s,_8_Skip,,, ,,s,_NG_GR_MIN__FABTAST,,,
-w,,NG_GR_MIN__FABTAST,,,,,"380280",,m,_NG_GR_MIN__FABTAST,,,
-r,,PNL_HZ__BETRART,,,,,"380280",,s,_8_Skip,,, ,,s,_PNL_HZ__BETRART,,,
-w,,PNL_HZ__BETRART,,,,,"380280",,m,_PNL_HZ__BETRART,,,
-r,,PNL_HZ__PDL,,,,,"380280",,s,_8_Skip,,, ,,s,_PNL_HZ__PDL,,,
-w,,PNL_HZ__PDL,,,,,"380280",,m,_PNL_HZ__PDL,,,
-r,,TBRMINOFF__ERDGAS,,,,,"380280",,s,_8_Skip,,, ,,s,_TBRMINOFF__ERDGAS,,,
-w,,TBRMINOFF__ERDGAS,,,,,"380280",,m,_TBRMINOFF__ERDGAS,,,
-r,,P0_DIR,,,,,"3E0286",,s,_8_Skip,,, ,,s,_P0_DIR,,,
-w,,P0_DIR,,,,,"3E0286",,m,_P0_DIR,,,
+# r,,NG_GR_MIN__FABTAST,,,,,"380280",,s,_8_Skip,,, ,,s,_NG_GR_MIN__FABTAST,,, # Alias of MINTVSOLL__TRLAUF
+# w,,NG_GR_MIN__FABTAST,,,,,"380280",,m,_NG_GR_MIN__FABTAST,,,                # Alias of MINTVSOLL__TRLAUF
+# r,,PNL_HZ__BETRART,,,,,"380280",,s,_8_Skip,,, ,,s,_PNL_HZ__BETRART,,,       # Alias of MINTVSOLL__TRLAUF
+# w,,PNL_HZ__BETRART,,,,,"380280",,m,_PNL_HZ__BETRART,,,                      # Alias of MINTVSOLL__TRLAUF
+# r,,PNL_HZ__PDL,,,,,"380280",,s,_8_Skip,,, ,,s,_PNL_HZ__PDL,,,               # Alias of MINTVSOLL__TRLAUF
+# w,,PNL_HZ__PDL,,,,,"380280",,m,_PNL_HZ__PDL,,,                              # Alias of MINTVSOLL__TRLAUF
+# r,,TBRMINOFF__ERDGAS,,,,,"380280",,s,_8_Skip,,, ,,s,_TBRMINOFF__ERDGAS,,,   # Alias of MINTVSOLL__TRLAUF
+# w,,TBRMINOFF__ERDGAS,,,,,"380280",,m,_TBRMINOFF__ERDGAS,,,                  # Alias of MINTVSOLL__TRLAUF
 r,,EEAEPKCRC2,,,,,"310289",,s,_8_Skip,,, ,,s,_EEAEPKCRC2,,,
 w,,EEAEPKCRC2,,,,,"310289",,m,_EEAEPKCRC2,,,
 r,,EEA_RAM_ANF2,,,,,"32028A",,s,_8_Skip,,, ,,s,_EEA_RAM_ANF2,,,
 w,,EEA_RAM_ANF2,,,,,"32028A",,m,_EEA_RAM_ANF2,,,
-r,,WAIT_A_1,,,,,"32028A",,s,_8_Skip,,, ,,s,_WAIT_A_1,,,
-w,,WAIT_A_1,,,,,"32028A",,m,_WAIT_A_1,,,
+# r,,WAIT_A_1,,,,,"32028A",,s,_8_Skip,,, ,,s,_WAIT_A_1,,,                     # Alias of EEA_RAM_ANF2
+# w,,WAIT_A_1,,,,,"32028A",,m,_WAIT_A_1,,,                                    # Alias of EEA_RAM_ANF2
 r,,EEA_CONST_ANF2,,,,,"34028C",,s,_8_Skip,,, ,,s,_EEA_CONST_ANF2,,,
 w,,EEA_CONST_ANF2,,,,,"34028C",,m,_EEA_CONST_ANF2,,,
 r,,AD_SCALE_6,,,,,"280290",,s,_8_Skip,,, ,,s,_AD_SCALE_6,,,
 w,,AD_SCALE_6,,,,,"280290",,m,_AD_SCALE_6,,,
-r,,NTC_ERR_ZEIT,,,,,"280290",,s,_8_Skip,,, ,,s,_NTC_ERR_ZEIT,,,
-w,,NTC_ERR_ZEIT,,,,,"280290",,m,_NTC_ERR_ZEIT,,,
-r,,SST1,,,,,"280290",,s,_8_Skip,,, ,,s,_SST1,,,
-w,,SST1,,,,,"280290",,m,_SST1,,,
+# r,,NTC_ERR_ZEIT,,,,,"280290",,s,_8_Skip,,, ,,s,_NTC_ERR_ZEIT,,,             # Alias of AD_SCALE_6
+# w,,NTC_ERR_ZEIT,,,,,"280290",,m,_NTC_ERR_ZEIT,,,                            # Alias of AD_SCALE_6
+# r,,SST1,,,,,"280290",,s,_8_Skip,,, ,,s,_SST1,,,                             # Alias of AD_SCALE_6
+# w,,SST1,,,,,"280290",,m,_SST1,,,                                            # Alias of AD_SCALE_6
 r,,CS_BYTE_WR,,,,,"1802A0",,s,_8_Skip,,, ,,s,_CS_BYTE_WR,,,
 w,,CS_BYTE_WR,,,,,"1802A0",,m,_CS_BYTE_WR,,,
-r,,ENAB_MASK,,,,,"1802A0",,s,_8_Skip,,, ,,s,_ENAB_MASK,,,
-w,,ENAB_MASK,,,,,"1802A0",,m,_ENAB_MASK,,,
-r,,ENAB_MASK_WD,,,,,"1802A0",,s,_8_Skip,,, ,,s,_ENAB_MASK_WD,,,
-w,,ENAB_MASK_WD,,,,,"1802A0",,m,_ENAB_MASK_WD,,,
+# r,,ENAB_MASK,,,,,"1802A0",,s,_8_Skip,,, ,,s,_ENAB_MASK,,,                   # Alias of CS_BYTE_WR
+# w,,ENAB_MASK,,,,,"1802A0",,m,_ENAB_MASK,,,                                  # Alias of CS_BYTE_WR
+# r,,ENAB_MASK_WD,,,,,"1802A0",,s,_8_Skip,,, ,,s,_ENAB_MASK_WD,,,             # Alias of CS_BYTE_WR
+# w,,ENAB_MASK_WD,,,,,"1802A0",,m,_ENAB_MASK_WD,,,                            # Alias of CS_BYTE_WR
 r,,CS_BYTE_RD,,,,,"1902A1",,s,_8_Skip,,, ,,s,_CS_BYTE_RD,,,
 w,,CS_BYTE_RD,,,,,"1902A1",,m,_CS_BYTE_RD,,,
 r,,EEA_CONST_CRC2,,,,,"1A02A2",,s,_8_Skip,,, ,,s,_EEA_CONST_CRC2,,,
 w,,EEA_CONST_CRC2,,,,,"1A02A2",,m,_EEA_CONST_CRC2,,,
-r,,CCU6_PAGE,,,,,"1B02A3",,s,_8_Skip,,, ,,s,_CCU6_PAGE,,,
-w,,CCU6_PAGE,,,,,"1B02A3",,m,_CCU6_PAGE,,,
 r,,INT_EEA_ID_NR_BCC,,,,,"1B02A3",,s,_8_Skip,,, ,,s,_INT_EEA_ID_NR_BCC,,,
 w,,INT_EEA_ID_NR_BCC,,,,,"1B02A3",,m,_INT_EEA_ID_NR_BCC,,,
 r,,INT_EEA_ID_NR_BCC_1,,,,,"1C02A4",,s,_8_Skip,,, ,,s,_INT_EEA_ID_NR_BCC_1,,,
@@ -1485,8 +1479,8 @@ r,,INT_EEA_ID_NR_BCC_2,,,,,"1E02A6",,s,_8_Skip,,, ,,s,_INT_EEA_ID_NR_BCC_2,,,
 w,,INT_EEA_ID_NR_BCC_2,,,,,"1E02A6",,m,_INT_EEA_ID_NR_BCC_2,,,
 r,,INT_EEA_ID_CRC_BCC_2,,,,,"1002A8",,s,_8_Skip,,, ,,s,_INT_EEA_ID_CRC_BCC_2,,,
 w,,INT_EEA_ID_CRC_BCC_2,,,,,"1002A8",,m,_INT_EEA_ID_CRC_BCC_2,,,
-r,,NCL1HRS,,,,,"1002A8",,s,_8_Skip,,, ,,s,_NCL1HRS,,,
-w,,NCL1HRS,,,,,"1002A8",,m,_NCL1HRS,,,
+# r,,NCL1HRS,,,,,"1002A8",,s,_8_Skip,,, ,,s,_NCL1HRS,,,                       # Alias of INT_EEA_ID_CRC_BCC_2
+# w,,NCL1HRS,,,,,"1002A8",,m,_NCL1HRS,,,                                      # Alias of INT_EEA_ID_CRC_BCC_2
 r,,EEA_ION_KALIB,,,,,"1102A9",,s,_8_Skip,,, ,,s,_EEA_ION_KALIB,,,
 w,,EEA_ION_KALIB,,,,,"1102A9",,m,_EEA_ION_KALIB,,,
 r,,EEA_ION_KALIB_INV,,,,,"1202AA",,s,_8_Skip,,, ,,s,_EEA_ION_KALIB_INV,,,
@@ -1495,12 +1489,10 @@ r,,EEA_ION_KALIB_2,,,,,"1302AB",,s,_8_Skip,,, ,,s,_EEA_ION_KALIB_2,,,
 w,,EEA_ION_KALIB_2,,,,,"1302AB",,m,_EEA_ION_KALIB_2,,,
 r,,SST3,,,,,"0802B0",,s,_8_Skip,,, ,,s,_SST3,,,
 w,,SST3,,,,,"0802B0",,m,_SST3,,,
-r,,PORT_PAGE,,,,,"0A02B2",,s,_8_Skip,,, ,,s,_PORT_PAGE,,,
-w,,PORT_PAGE,,,,,"0A02B2",,m,_PORT_PAGE,,,
 r,,C_DECGAP,,,,,"0C02B4",,s,_8_Skip,,, ,,s,_C_DECGAP,,,
 w,,C_DECGAP,,,,,"0C02B4",,m,_C_DECGAP,,,
-r,,NCL20SEC,,,,,"0C02B4",,s,_8_Skip,,, ,,s,_NCL20SEC,,,
-w,,NCL20SEC,,,,,"0C02B4",,m,_NCL20SEC,,,
+# r,,NCL20SEC,,,,,"0C02B4",,s,_8_Skip,,, ,,s,_NCL20SEC,,,                     # Alias of C_DECGAP
+# w,,NCL20SEC,,,,,"0C02B4",,m,_NCL20SEC,,,                                    # Alias of C_DECGAP
 r,,REF_MAX_ON,,,,,"0F02B7",,s,_8_Skip,,, ,,s,_REF_MAX_ON,,,
 w,,REF_MAX_ON,,,,,"0F02B7",,m,_REF_MAX_ON,,,
 r,,ROM_PAGES,,,,,"0702BF",,s,_8_Skip,,, ,,s,_ROM_PAGES,,,
@@ -1523,56 +1515,56 @@ r,,QAC_MAX,,,,,"5302EB",,s,_8_Skip,,, ,,s,_QAC_MAX,,,
 w,,QAC_MAX,,,,,"5302EB",,m,_QAC_MAX,,,
 r,,HZ_HYS__NEG,,,,,"4802F0",,s,_8_Skip,,, ,,s,_HZ_HYS__NEG,,,
 w,,HZ_HYS__NEG,,,,,"4802F0",,m,_HZ_HYS__NEG,,,
-r,,NG_INCR_DECR__DECR,,,,,"4802F0",,s,_8_Skip,,, ,,s,_NG_INCR_DECR__DECR,,,
-w,,NG_INCR_DECR__DECR,,,,,"4802F0",,m,_NG_INCR_DECR__DECR,,,
-r,,NG_REG_ANPASS__START,,,,,"4802F0",,s,_8_Skip,,, ,,s,_NG_REG_ANPASS__START,,,
-w,,NG_REG_ANPASS__START,,,,,"4802F0",,m,_NG_REG_ANPASS__START,,,
-r,,PU_TAKT__PULS,,,,,"4802F0",,s,_8_Skip,,, ,,s,_PU_TAKT__PULS,,,
-w,,PU_TAKT__PULS,,,,,"4802F0",,m,_PU_TAKT__PULS,,,
-r,,P_LPG__BETRIEB,,,,,"4802F0",,s,_8_Skip,,, ,,s,_P_LPG__BETRIEB,,,
-w,,P_LPG__BETRIEB,,,,,"4802F0",,m,_P_LPG__BETRIEB,,,
-r,,RST3,,,,,"4802F0",,s,_8_Skip,,, ,,s,_RST3,,,
-w,,RST3,,,,,"4802F0",,m,_RST3,,,
-r,,SEL_IN_1_2__2,,,,,"4802F0",,s,_8_Skip,,, ,,s,_SEL_IN_1_2__2,,,
-w,,SEL_IN_1_2__2,,,,,"4802F0",,m,_SEL_IN_1_2__2,,,
-r,,SEL_IN_3_4__4,,,,,"4802F0",,s,_8_Skip,,, ,,s,_SEL_IN_3_4__4,,,
-w,,SEL_IN_3_4__4,,,,,"4802F0",,m,_SEL_IN_3_4__4,,,
-r,,SEL_PR_1_2__2,,,,,"4802F0",,s,_8_Skip,,, ,,s,_SEL_PR_1_2__2,,,
-w,,SEL_PR_1_2__2,,,,,"4802F0",,m,_SEL_PR_1_2__2,,,
-r,,SEL_PR_3_4__4,,,,,"4802F0",,s,_8_Skip,,, ,,s,_SEL_PR_3_4__4,,,
-w,,SEL_PR_3_4__4,,,,,"4802F0",,m,_SEL_PR_3_4__4,,,
-r,,WW_HYS__NEG,,,,,"4802F0",,s,_8_Skip,,, ,,s,_WW_HYS__NEG,,,
-w,,WW_HYS__NEG,,,,,"4802F0",,m,_WW_HYS__NEG,,,
-r,,XRAM_PAGE_DEFAULT,,,,,"4802F0",,s,_8_Skip,,, ,,s,_XRAM_PAGE_DEFAULT,,,
-w,,XRAM_PAGE_DEFAULT,,,,,"4802F0",,m,_XRAM_PAGE_DEFAULT,,,
+# r,,NG_INCR_DECR__DECR,,,,,"4802F0",,s,_8_Skip,,, ,,s,_NG_INCR_DECR__DECR,,, # Alias of HZ_HYS__NEG
+# w,,NG_INCR_DECR__DECR,,,,,"4802F0",,m,_NG_INCR_DECR__DECR,,,                # Alias of HZ_HYS__NEG
+# r,,NG_REG_ANPASS__START,,,,,"4802F0",,s,_8_Skip,,, ,,s,_NG_REG_ANPASS__START,,, # Alias of HZ_HYS__NEG
+# w,,NG_REG_ANPASS__START,,,,,"4802F0",,m,_NG_REG_ANPASS__START,,,            # Alias of HZ_HYS__NEG
+# r,,PU_TAKT__PULS,,,,,"4802F0",,s,_8_Skip,,, ,,s,_PU_TAKT__PULS,,,           # Alias of HZ_HYS__NEG
+# w,,PU_TAKT__PULS,,,,,"4802F0",,m,_PU_TAKT__PULS,,,                          # Alias of HZ_HYS__NEG
+# r,,P_LPG__BETRIEB,,,,,"4802F0",,s,_8_Skip,,, ,,s,_P_LPG__BETRIEB,,,         # Alias of HZ_HYS__NEG
+# w,,P_LPG__BETRIEB,,,,,"4802F0",,m,_P_LPG__BETRIEB,,,                        # Alias of HZ_HYS__NEG
+# r,,RST3,,,,,"4802F0",,s,_8_Skip,,, ,,s,_RST3,,,                             # Alias of HZ_HYS__NEG
+# w,,RST3,,,,,"4802F0",,m,_RST3,,,                                            # Alias of HZ_HYS__NEG
+# r,,SEL_IN_1_2__2,,,,,"4802F0",,s,_8_Skip,,, ,,s,_SEL_IN_1_2__2,,,           # Alias of HZ_HYS__NEG
+# w,,SEL_IN_1_2__2,,,,,"4802F0",,m,_SEL_IN_1_2__2,,,                          # Alias of HZ_HYS__NEG
+# r,,SEL_IN_3_4__4,,,,,"4802F0",,s,_8_Skip,,, ,,s,_SEL_IN_3_4__4,,,           # Alias of HZ_HYS__NEG
+# w,,SEL_IN_3_4__4,,,,,"4802F0",,m,_SEL_IN_3_4__4,,,                          # Alias of HZ_HYS__NEG
+# r,,SEL_PR_1_2__2,,,,,"4802F0",,s,_8_Skip,,, ,,s,_SEL_PR_1_2__2,,,           # Alias of HZ_HYS__NEG
+# w,,SEL_PR_1_2__2,,,,,"4802F0",,m,_SEL_PR_1_2__2,,,                          # Alias of HZ_HYS__NEG
+# r,,SEL_PR_3_4__4,,,,,"4802F0",,s,_8_Skip,,, ,,s,_SEL_PR_3_4__4,,,           # Alias of HZ_HYS__NEG
+# w,,SEL_PR_3_4__4,,,,,"4802F0",,m,_SEL_PR_3_4__4,,,                          # Alias of HZ_HYS__NEG
+# r,,WW_HYS__NEG,,,,,"4802F0",,s,_8_Skip,,, ,,s,_WW_HYS__NEG,,,               # Alias of HZ_HYS__NEG
+# w,,WW_HYS__NEG,,,,,"4802F0",,m,_WW_HYS__NEG,,,                              # Alias of HZ_HYS__NEG
+# r,,XRAM_PAGE_DEFAULT,,,,,"4802F0",,s,_8_Skip,,, ,,s,_XRAM_PAGE_DEFAULT,,,   # Alias of HZ_HYS__NEG
+# w,,XRAM_PAGE_DEFAULT,,,,,"4802F0",,m,_XRAM_PAGE_DEFAULT,,,                  # Alias of HZ_HYS__NEG
 r,,NTC_TA_MAX,,,,,"4902F1",,s,_8_Skip,,, ,,s,_NTC_TA_MAX,,,
 w,,NTC_TA_MAX,,,,,"4902F1",,m,_NTC_TA_MAX,,,
-r,,QQ_M10,,,,,"4902F1",,s,_8_Skip,,, ,,s,_QQ_M10,,,
-w,,QQ_M10,,,,,"4902F1",,m,_QQ_M10,,,
+# r,,QQ_M10,,,,,"4902F1",,s,_8_Skip,,, ,,s,_QQ_M10,,,                         # Alias of NTC_TA_MAX
+# w,,QQ_M10,,,,,"4902F1",,m,_QQ_M10,,,                                        # Alias of NTC_TA_MAX
 r,,NIT_MAX,,,,,"4B02F3",,s,_8_Skip,,, ,,s,_NIT_MAX,,,
 w,,NIT_MAX,,,,,"4B02F3",,m,_NIT_MAX,,,
 r,,DIG_TST_2,,,,,"4D02F5",,s,_8_Skip,,, ,,s,_DIG_TST_2,,,
 w,,DIG_TST_2,,,,,"4D02F5",,m,_DIG_TST_2,,,
 r,,NTC_MAX,,,,,"4002F8",,s,_8_Skip,,, ,,s,_NTC_MAX,,,
 w,,NTC_MAX,,,,,"4002F8",,m,_NTC_MAX,,,
-r,,TTOL__NON_ZERO_CHECK,,,,,"4002F8",,s,_8_Skip,,, ,,s,_TTOL__NON_ZERO_CHECK,,,
-w,,TTOL__NON_ZERO_CHECK,,,,,"4002F8",,m,_TTOL__NON_ZERO_CHECK,,,
+# r,,TTOL__NON_ZERO_CHECK,,,,,"4002F8",,s,_8_Skip,,, ,,s,_TTOL__NON_ZERO_CHECK,,, # Alias of NTC_MAX
+# w,,TTOL__NON_ZERO_CHECK,,,,,"4002F8",,m,_TTOL__NON_ZERO_CHECK,,,            # Alias of NTC_MAX
 r,,EEA_P_CODE,,,,,"4202FA",,s,_8_Skip,,, ,,s,_EEA_P_CODE,,,
 w,,EEA_P_CODE,,,,,"4202FA",,m,_EEA_P_CODE,,,
-r,,EEA_STATI_AKTIV,,,,,"4202FA",,s,_8_Skip,,, ,,s,_EEA_STATI_AKTIV,,,
-w,,EEA_STATI_AKTIV,,,,,"4202FA",,m,_EEA_STATI_AKTIV,,,
-r,,MX_RES_CYCL,,,,,"4202FA",,s,_8_Skip,,, ,,s,_MX_RES_CYCL,,,
-w,,MX_RES_CYCL,,,,,"4202FA",,m,_MX_RES_CYCL,,,
+# r,,EEA_STATI_AKTIV,,,,,"4202FA",,s,_8_Skip,,, ,,s,_EEA_STATI_AKTIV,,,       # Alias of EEA_P_CODE
+# w,,EEA_STATI_AKTIV,,,,,"4202FA",,m,_EEA_STATI_AKTIV,,,                      # Alias of EEA_P_CODE
+# r,,MX_RES_CYCL,,,,,"4202FA",,s,_8_Skip,,, ,,s,_MX_RES_CYCL,,,               # Alias of EEA_P_CODE
+# w,,MX_RES_CYCL,,,,,"4202FA",,m,_MX_RES_CYCL,,,                              # Alias of EEA_P_CODE
 r,,BOOSTER_ANL_MASK,,,,,"4302FB",,s,_8_Skip,,, ,,s,_BOOSTER_ANL_MASK,,,
 w,,BOOSTER_ANL_MASK,,,,,"4302FB",,m,_BOOSTER_ANL_MASK,,,
 r,,HZ_KTND__D,,,,,"4402FC",,s,_8_Skip,,, ,,s,_HZ_KTND__D,,,
 w,,HZ_KTND__D,,,,,"4402FC",,m,_HZ_KTND__D,,,
 r,,ADC_BREAK,,,,,"4702FF",,s,_8_Skip,,, ,,s,_ADC_BREAK,,,
 w,,ADC_BREAK,,,,,"4702FF",,m,_ADC_BREAK,,,
-r,,L_EEPROM,,,,,"4702FF",,s,_8_Skip,,, ,,s,_L_EEPROM,,,
-w,,L_EEPROM,,,,,"4702FF",,m,_L_EEPROM,,,
-r,,QQ_M25,,,,,"4702FF",,s,_8_Skip,,, ,,s,_QQ_M25,,,
-w,,QQ_M25,,,,,"4702FF",,m,_QQ_M25,,,
+# r,,L_EEPROM,,,,,"4702FF",,s,_8_Skip,,, ,,s,_L_EEPROM,,,                     # Alias of ADC_BREAK
+# w,,L_EEPROM,,,,,"4702FF",,m,_L_EEPROM,,,                                    # Alias of ADC_BREAK
+# r,,QQ_M25,,,,,"4702FF",,s,_8_Skip,,, ,,s,_QQ_M25,,,                         # Alias of ADC_BREAK
+# w,,QQ_M25,,,,,"4702FF",,m,_QQ_M25,,,                                        # Alias of ADC_BREAK
 r,,EEA_ANF2,,,,,"3406010200",,s,_8_Skip,,, ,,s,_EEA_ANF2,,,
 w,,EEA_ANF2,,,,,"3406010200",,m,_EEA_ANF2,,,
 r,,TWARTEQQ,,,,,"290601021D",,s,_8_Skip,,, ,,s,_TWARTEQQ,,,
@@ -1669,8 +1661,8 @@ r,,EEA_N_ZUE,,,,,"DF060102EB",,s,_8_Skip,,, ,,s,_EEA_N_ZUE,,,
 w,,EEA_N_ZUE,,,,,"DF060102EB",,m,_EEA_N_ZUE,,,
 r,,EEA_BAUSTAND,,,,,"DA060102EE",,s,_8_Skip,,, ,,s,_EEA_BAUSTAND,,,
 w,,EEA_BAUSTAND,,,,,"DA060102EE",,m,_EEA_BAUSTAND,,,
-r,,EEA_PRUEF_LOW,,,,,"DA060102EE",,s,_8_Skip,,, ,,s,_EEA_PRUEF_LOW,,,
-w,,EEA_PRUEF_LOW,,,,,"DA060102EE",,m,_EEA_PRUEF_LOW,,,
+# r,,EEA_PRUEF_LOW,,,,,"DA060102EE",,s,_8_Skip,,, ,,s,_EEA_PRUEF_LOW,,,       # Alias of EEA_BAUSTAND
+# w,,EEA_PRUEF_LOW,,,,,"DA060102EE",,m,_EEA_PRUEF_LOW,,,                      # Alias of EEA_BAUSTAND
 r,,EEA_KUNDE,,,,,"C4060102F0",,s,_8_Skip,,, ,,s,_EEA_KUNDE,,,
 w,,EEA_KUNDE,,,,,"C4060102F0",,m,_EEA_KUNDE,,,
 r,,EEA_VARIANTE,,,,,"C5060102F1",,s,_8_Skip,,, ,,s,_EEA_VARIANTE,,,
@@ -1709,8 +1701,8 @@ r,,EBUS_ERROR,,,,,"E50301",,s,_8_Skip,,, ,,s,_EBUS_ERROR,,,
 w,,EBUS_ERROR,,,,,"E50301",,m,_EBUS_ERROR,,,
 r,,TX_QQ,,,,,"E60302",,s,_8_Skip,,, ,,s,_TX_QQ,,,
 w,,TX_QQ,,,,,"E60302",,m,_TX_QQ,,,
-r,,TX_XRAM,,,,,"E60302",,s,_8_Skip,,, ,,s,_TX_XRAM,,,
-w,,TX_XRAM,,,,,"E60302",,m,_TX_XRAM,,,
+# r,,TX_XRAM,,,,,"E60302",,s,_8_Skip,,, ,,s,_TX_XRAM,,,                       # Alias of TX_QQ
+# w,,TX_XRAM,,,,,"E60302",,m,_TX_XRAM,,,                                      # Alias of TX_QQ
 r,,TX_ZZ,,,,,"E70303",,s,_8_Skip,,, ,,s,_TX_ZZ,,,
 w,,TX_ZZ,,,,,"E70303",,m,_TX_ZZ,,,
 r,,TX_PB,,,,,"E00304",,s,_8_Skip,,, ,,s,_TX_PB,,,
@@ -1735,8 +1727,8 @@ r,,TX_DBX,,,,,"E9030D",,s,_8_Skip,,, ,,s,_TX_DBX,,,
 w,,TX_DBX,,,,,"E9030D",,m,_TX_DBX,,,
 r,,RX_QQ,,,,,"FF031B",,s,_8_Skip,,, ,,s,_RX_QQ,,,
 w,,RX_QQ,,,,,"FF031B",,m,_RX_QQ,,,
-r,,RX_XRAM,,,,,"FF031B",,s,_8_Skip,,, ,,s,_RX_XRAM,,,
-w,,RX_XRAM,,,,,"FF031B",,m,_RX_XRAM,,,
+# r,,RX_XRAM,,,,,"FF031B",,s,_8_Skip,,, ,,s,_RX_XRAM,,,                       # Alias of RX_QQ
+# w,,RX_XRAM,,,,,"FF031B",,m,_RX_XRAM,,,                                      # Alias of RX_QQ
 r,,RX_ZZ,,,,,"F8031C",,s,_8_Skip,,, ,,s,_RX_ZZ,,,
 w,,RX_ZZ,,,,,"F8031C",,m,_RX_ZZ,,,
 r,,RX_PB,,,,,"F9031D",,s,_8_Skip,,, ,,s,_RX_PB,,,
@@ -1775,8 +1767,8 @@ r,,RX_DB20,,,,,"D70333",,s,_8_Skip,,, ,,s,_RX_DB20,,,
 w,,RX_DB20,,,,,"D70333",,m,_RX_DB20,,,
 r,,RX_OFFSET_CNT,,,,,"D10335",,s,_8_Skip,,, ,,s,_RX_OFFSET_CNT,,,
 w,,RX_OFFSET_CNT,,,,,"D10335",,m,_RX_OFFSET_CNT,,,
-r,,RX_XRAM_END,,,,,"D10335",,s,_8_Skip,,, ,,s,_RX_XRAM_END,,,
-w,,RX_XRAM_END,,,,,"D10335",,m,_RX_XRAM_END,,,
+# r,,RX_XRAM_END,,,,,"D10335",,s,_8_Skip,,, ,,s,_RX_XRAM_END,,,               # Alias of RX_OFFSET_CNT
+# w,,RX_XRAM_END,,,,,"D10335",,m,_RX_XRAM_END,,,                              # Alias of RX_OFFSET_CNT
 r,,RX_BUFFER_END,,,,,"D20336",,s,_8_Skip,,, ,,s,_RX_BUFFER_END,,,
 w,,RX_BUFFER_END,,,,,"D20336",,m,_RX_BUFFER_END,,,
 r,,EBUS_ACK,,,,,"D30337",,s,_8_Skip,,, ,,s,_EBUS_ACK,,,
@@ -2031,8 +2023,8 @@ r,,TX_ANF_50,,,,,"2103C5",,s,_8_Skip,,, ,,s,_TX_ANF_50,,,
 w,,TX_ANF_50,,,,,"2103C5",,m,_TX_ANF_50,,,
 r,,TX_ANF_FE,,,,,"2203C6",,s,_8_Skip,,, ,,s,_TX_ANF_FE,,,
 w,,TX_ANF_FE,,,,,"2203C6",,m,_TX_ANF_FE,,,
-r,,TX_ANF_FF,,,,,"2203C6",,s,_8_Skip,,, ,,s,_TX_ANF_FF,,,
-w,,TX_ANF_FF,,,,,"2203C6",,m,_TX_ANF_FF,,,
+# r,,TX_ANF_FF,,,,,"2203C6",,s,_8_Skip,,, ,,s,_TX_ANF_FF,,,                   # Alias of TX_ANF_FE
+# w,,TX_ANF_FF,,,,,"2203C6",,m,_TX_ANF_FF,,,                                  # Alias of TX_ANF_FE
 r,,TX_ANF_07,,,,,"2303C7",,s,_8_Skip,,, ,,s,_TX_ANF_07,,,
 w,,TX_ANF_07,,,,,"2303C7",,m,_TX_ANF_07,,,
 r,,M_5023_CRC,,,,,"2C03C8",,s,_8_Skip,,, ,,s,_M_5023_CRC,,,
