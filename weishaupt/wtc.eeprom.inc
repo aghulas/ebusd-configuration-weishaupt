@@ -4,8 +4,9 @@
 r,,Manufacturer2,Manufacturer ,,,,"09a20e022d",,s,_8_Skip,,, ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,,,,s,UCH,,,  ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,, ,,s,UCH,,,,,s,UCH,,, ,,s,UCH,,,,,s,UCH,,,
 r,,Manufacturer3,Manufacturer ,,,,"8a0225022e",,s,_8_Skip,,, ,,s,UCH,,, ,,s,UCH,,,
 
+
 #Manufacturer
-r,,MB_0003,           ,,,,"ba0202",,s,_8_Skip,,, ,MB_0003,s,UCH,,,
+r,,MB_0003,           ,,,,"ba0202",,s,_8_Skip,,, ,OPTRESTART,s,BI0,,, ,OPTLDW_VSP,s,BI1,,, ,OPTNOLDW,s,BI2,,, ,OPT_GDW,s,BI3,,, ,OPTNACHFAC,s,BI4,,, ,OPT_NGIST,s,BI5,,, ,OPT_TC,s,BI6,,, ,OPTNOEMERGENCYRESET,s,BI7,,,
 r,,TCVSP,             ,,,,"bb0203",,s,_8_Skip,,, ,TCVSP,s,UCH,,,
 r,,TCHZZ,             ,,,,"bc0204",,s,_8_Skip,,, ,TCHZZ,s,UCH,,,
 r,,TCNSP,             ,,,,"bd0205",,s,_8_Skip,,, ,TCNSP,s,UCH,,,
@@ -107,6 +108,12 @@ r,,EEA_MAINPARACRC, ,,,,"1406030204",,s,_8_Skip,,, ,EEA_MAINPARACRC,s,UCH,,,
 
 r,,USR, ,,,,"6806034200",,s,_8_Skip,,, ,EEA_TVSOLL_EPM,s,UCH,,,  ,EEA_TVABSENK,s,UCH,,,  ,EEA_TWWSOLL_EPM,s,UCH,,,  ,EEA_WISO_EPM,s,UCH,,,  ,EEA_MAINPARACRC,s,UCH,,, 
 
+#Ionisation
+r,,EEA_ION_KALIB,       ,,,,"1102a9",,s,_8_Skip,,, ,EEA_ION_KALIB,s,UCH,,,
+r,,EEA_ION_KALIB_INV,   ,,,,"1202aa",,s,_8_Skip,,, ,EEA_ION_KALIB_INV,s,UCH,,,
+r,,EEA_ION_KALIB_2,     ,,,,"1302ab",,s,_8_Skip,,, ,EEA_ION_KALIB_2,s,UCH,,,
+r,,EEA_ION_KALIB_2_INV, ,,,,"1402ac",,s,_8_Skip,,, ,EEA_ION_KALIB_2_INV,s,UCH,,,
+
 
 # Statitstics 
 r,,Statistic1,Statistics ,,,,"a506031205",,s,_8_Skip,,, ,TX_SB,s,UCH,,, ,TX_NN,s,UCH,,,
@@ -182,14 +189,12 @@ r,,SB8,     ,,,,"200601a2d8",,s,_8_Skip,,, ,EEA_HBRONTAG,s,UCH,,,  ,EEA_NZUENDTA
 r,,SB9,     ,,,,"1b0601a2e3",,s,_8_Skip,,, ,EEA_SHUT_OFF,s,U3N,,,  ,EEA_H_PON,s,U3N,,,      ,EEA_H_BON,s,UIN,,,     ,EEA_N_ZUE,s,U3N,,, 
 r,,SB10,    ,,,,"2a060182ee",,s,_8_Skip,,, ,EEA_BAUSTAND,s,UIN,,,  ,EEA_BAUSTAND,s,UCH,,,  ,EEA_VARIANTE,s,UIN,,,   ,EEA_SERIAL_NO,s,U3N,,, ,EEA_PRUEF_CRC,s,UCH,,,
 
-
 # original definition from WCMDiagnose
 r,,ErrorHistory1,Error history,,,,"EC06029200",,s,_8_Skip,,,, EEA_F_HIST_PTR_LOW,s,UCH,,,, EEA_F_HIST_PTR_HIGH,s,UCH,,,, E1.ErrorCode,s,_7_ErrorCode,,,Error Code, E1.ErrorType,s,_1_ErrorCode,,,Error Type, E1.OperatingPhase,s,UCH,,,I10: Operating phase, E1.LoadSetting,s,UCH,,,I11: Load setting, E1.PwmPumpSpeed,s,UCH,,,I22: Set speed PWM pump, E1.BoilerTemp,s,_8_Temp1,,,I30: Boiler temperature, E1.FlueGasTemp,s,_8_Temp1,,,I31:Flue gas temperature, E1.IonisationSignal,s,UCH,,,I32: Ionisation signal, E1.ReturnTemp,s,_8_Temp1,,,I37: Return temperature,
 r,,ErrorHistory2,Error history,,,,"E60602920A",,s,_8_Skip,,,, E2.ErrorCode,s,_7_ErrorCode,,,Error Code, E2.ErrorType,s,_1_ErrorCode,,,Error Type, E2.OperatingPhase,s,UCH,,,I10: Operating phase, E2.LoadSetting,s,UCH,,,I11: Load setting, E2.PwmPumpSpeed,s,UCH,,,I22: Set speed PWM pump, E2.BoilerTemp,s,_8_Temp1,,,I30: Boiler temperature, E2.FlueGasTemp,s,_8_Temp1,,,I31:Flue gas temperature, E2.IonisationSignal,s,UCH,,,I32: Ionisation signal, E2.ReturnTemp,s,_8_Temp1,,,I37: Return temperature, E3.ErrorCode,s,_7_ErrorCode,,,Error Code, E3.ErrorType,s,_1_ErrorCode,,,Error Type, E3.OperatingPhase,s,UCH,,,I10: Operating phase, 
 r,,ErrorHistory3,Error history,,,,"f806029214",,s,_8_Skip,,,, E3.LoadSetting,s,UCH,,,I11: Load setting, E3.PwmPumpSpeed,s,UCH,,,I22: Set speed PWM pump, E3.BoilerTemp,s,_8_Temp1,,,I30: Boiler temperature, E3.FlueGasTemp,s,_8_Temp1,,,I31:Flue gas temperature, E3.IonisationSignal,s,UCH,,,I32: Ionisation signal, E3.ReturnTemp,s,_8_Temp1,,,I37: Return temperature, E4.ErrorCode,s,_7_ErrorCode,,,Error Code, E4.ErrorType,s,_1_ErrorCode,,,Error Type, E4.OperatingPhase,s,UCH,,,I10: Operating phase, E4.LoadSetting,s,UCH,,,I11: Load setting, E4.PwmPumpSpeed,s,UCH,,,I22: Set speed PWM pump, 
 r,,ErrorHistory4,Error history,,,,"F20602921E",,s,_8_Skip,,,, E4.BoilerTemp,s,_8_Temp1,,,I30: Boiler temperature, E4.FlueGasTemp,s,_8_Temp1,,,I31:Flue gas temperature, E4.IonisationSignal,s,UCH,,,I32: Ionisation signal, E4.ReturnTemp,s,_8_Temp1,,,I37: Return temperature, E5.ErrorCode,s,_7_ErrorCode,,,Error Code, E5.ErrorType,s,_1_ErrorCode,,,Error Type, E5.OperatingPhase,s,UCH,,,I10: Operating phase, E5.LoadSetting,s,UCH,,,I11: Load setting, E5.PwmPumpSpeed,s,UCH,,,I22: Set speed PWM pump, E5.BoilerTemp,s,_8_Temp1,,,I30: Boiler temperature, E5.FlueGasTemp,s,_8_Temp1,,,I31:Flue gas temperature, 
 r,,ErrorHistory5,Error history,,,,"c406029228",,s,_8_Skip,,,, E5.IonisationSignal,s,UCH,,,I32: Ionisation signal, E5.ReturnTemp,s,_8_Temp1,,,I37: Return temperature, E6.ErrorCode,s,_7_ErrorCode,,,Error Code, E6.ErrorType,s,_1_ErrorCode,,,Error Type, E6.OperatingPhase,s,UCH,,,I10: Operating phase, E6.LoadSetting,s,UCH,,,I11: Load setting, E6.PwmPumpSpeed,s,UCH,,,I22: Set speed PWM pump, E6.BoilerTemp,s,_8_Temp1,,,I30: Boiler temperature, E6.FlueGasTemp,s,_8_Temp1,,,I31:Flue gas temperature, E6.IonisationSignal,s,UCH,,,I32: Ionisation signal, E6.ReturnTemp,s,_8_Temp1,,,I37: Return temperature,
-
 
 # revised telegrams -> each error entry has same structure
 r,,EEA_F_HIST_PTR,Fault History Pointer,,,,"1C06021200",,s,_8_Skip,,,, EEA_F_HIST_PTR_LOW,s,UCH,,,, EEA_F_HIST_PTR_HIGH,s,UCH,,,, 
