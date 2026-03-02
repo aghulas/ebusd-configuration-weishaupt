@@ -1,23 +1,8 @@
 import os
 import glob
 
-def get_payload_key(section, address):
-    """Calculates the payload string to detect physical memory duplicates."""
-    cc = address >> 8
-    yy = address & 0xFF
-    yy_hex = f"{yy:02X}"
-    
-    if section == "RAM" and cc == 0x00: return f"01{yy_hex}"
-    if section == "Konstanten":
-        if cc == 0x00: return f"02{yy_hex}"
-        if cc == 0x01: return f"060102{yy_hex}"
-        if cc == 0x02: return f"060202{yy_hex}"
-        if cc == 0x03: return f"060302{yy_hex}"
-    if section == "External RAM (XRAM)" and cc == 0xF0: return f"03{yy_hex}"
-    if section == "SFR" and cc == 0x00: return f"04{yy_hex}"
-    return f"UNKNOWN_{section}_{address:04X}"
-
 def generate_template_files():
+    # Find all .SYC files in the current folder (handles both .SYC and .syc)
     syc_files = glob.glob("*.SYC") + glob.glob("*.syc")
     syc_files = list(set(syc_files))
     
@@ -43,7 +28,6 @@ def generate_template_files():
         
         grouped_templates = {sec: {} for sec in actual_sections}
         seen_names = set()
-        seen_payloads = {}
 
         offset = 0
         while offset < len(data) - 2:
@@ -69,6 +53,8 @@ def generate_template_files():
                     meta = data[offset+1+length : offset+1+length+2]
                     
                     if len(meta) == 2:
+                        # We still check seen_names so we don't write identical lines 
+                        # if the exact same name appears twice in the SYC file.
                         if name not in seen_names:
                             seen_names.add(name)
                             address = int.from_bytes(meta, byteorder='little')
@@ -76,20 +62,11 @@ def generate_template_files():
                             if current_section == "Bits":
                                 bit_pos = address % 8
                                 template_line = f"_{name}:{name},BI{bit_pos},,,"
-                                payload_key = f"BIT_{address:04X}"
                             else:
                                 template_line = f"_{name}:{name},UCH,,,"
-                                payload_key = get_payload_key(current_section, address)
                                 
                             template_line = f"{template_line:<40} # 0x{address:04X}"
                             
-                            # Check for duplicates to comment them out
-                            if payload_key in seen_payloads:
-                                orig = seen_payloads[payload_key]
-                                template_line = f"# {template_line} (Alias of {orig})"
-                            else:
-                                seen_payloads[payload_key] = name
-                                
                             grouped_templates[current_section][name] = {
                                 'address': address,
                                 'line': template_line
@@ -123,7 +100,7 @@ def generate_template_files():
                             prev_byte_addr = byte_addr
                         out_f.write(item['line'] + "\n")
                         
-        print(f"  -> Generated {out_filepath}")
+        print(f"  -> Generated {out_filepath} ({len(seen_names)} active templates)")
 
 if __name__ == "__main__":
     generate_template_files()

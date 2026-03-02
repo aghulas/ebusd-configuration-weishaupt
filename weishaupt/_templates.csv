@@ -75,7 +75,6 @@ _16_BoilerID,UIN,0=A;1=B;240=--,,
 _24_Counter,U3N,,,
 _24_Hours,U3N,,h,Hour
 
-
 # ebusd template definitions
 
 # =========================================
@@ -91,7 +90,7 @@ _IDLE_R6:IDLE_R6,UCH,,,                  # 0x0006
 _IDLE_R7:IDLE_R7,UCH,,,                  # 0x0007
 _BYTEDIAGNOSE:BYTEDIAGNOSE,UCH,,,        # 0x000A
 _select_FS_x:select_FS_x,UCH,,,          # 0x0017
-# _select_PR_x:select_PR_x,UCH,,,          # 0x0017 (Alias of select_FS_x)
+_select_PR_x:select_PR_x,UCH,,,          # 0x0017
 _TIRP_R1:TIRP_R1,UCH,,,                  # 0x0019
 _TIRP_R2:TIRP_R2,UCH,,,                  # 0x001A
 _TIRP_R3:TIRP_R3,UCH,,,                  # 0x001B
@@ -112,7 +111,7 @@ _MB_0002:MB_0002,UCH,,,                  # 0x002E
 _MB_0003:MB_0003,UCH,,,                  # 0x002F
 _TCVSP:TCVSP,UCH,,,                      # 0x0030
 _TCHZZ:TCHZZ,UCH,,,                      # 0x0031
-# _TCSZA:TCSZA,UCH,,,                      # 0x0031 (Alias of TCHZZ)
+_TCSZA:TCSZA,UCH,,,                      # 0x0031
 _TCNSP:TCNSP,UCH,,,                      # 0x0032
 _TCFLASTAB:TCFLASTAB,UCH,,,              # 0x0033
 _NG_VSP:NG_VSP,UCH,,,                    # 0x0034
@@ -153,7 +152,7 @@ _BE5_50HZ_CNT:BE5_50HZ_CNT,UCH,,,        # 0x0056
 _BE6_50HZ_CNT:BE6_50HZ_CNT,UCH,,,        # 0x0057
 _BE7_50HZ_CNT:BE7_50HZ_CNT,UCH,,,        # 0x0058
 _BE8_50HZ_CNT:BE8_50HZ_CNT,UCH,,,        # 0x0059
-# _NGIST_CNT:NGIST_CNT,UCH,,,              # 0x0059 (Alias of BE8_50HZ_CNT)
+_NGIST_CNT:NGIST_CNT,UCH,,,              # 0x0059
 _RES_CYCL_CNT:RES_CYCL_CNT,UCH,,,        # 0x005A
 _RES_CNT:RES_CNT,UCH,,,                  # 0x005B
 _RES_CNT_INV:RES_CNT_INV,UCH,,,          # 0x005C
@@ -193,7 +192,7 @@ _S5_ERR_CODE:S5_ERR_CODE,UCH,,,          # 0x007D
 _YPWM:YPWM,UCH,,,                        # 0x007E
 _STACK:STACK,UCH,,,                      # 0x0080
 _IRAEPKANF:IRAEPKANF,UCH,,,              # 0x00AB
-# _MAXTVSOLL:MAXTVSOLL,UCH,,,              # 0x00AB (Alias of IRAEPKANF)
+_MAXTVSOLL:MAXTVSOLL,UCH,,,              # 0x00AB
 _MINTVSOLL:MINTVSOLL,UCH,,,              # 0x00AC
 _HZ_HYS:HZ_HYS,UCH,,,                    # 0x00AD
 _TBRMINOFF:TBRMINOFF,UCH,,,              # 0x00AE
@@ -344,9 +343,9 @@ _FS_IN_4:FS_IN_4,BI5,,,                  # 0x003D
 _DREHZ_OK:DREHZ_OK,BI7,,,                # 0x003F
 
 _E_EPB_INCON:E_EPB_INCON,BI0,,,          # 0x0040
-# _SYSFAIL:SYSFAIL,BI0,,,                  # 0x0040 (Alias of E_EPB_INCON)
+_SYSFAIL:SYSFAIL,BI0,,,                  # 0x0040
 _E_S5_RESET:E_S5_RESET,BI1,,,            # 0x0041
-# _POWERON:POWERON,BI1,,,                  # 0x0041 (Alias of E_S5_RESET)
+_POWERON:POWERON,BI1,,,                  # 0x0041
 _PUWWANF:PUWWANF,BI3,,,                  # 0x0043
 _PUHZANF:PUHZANF,BI4,,,                  # 0x0044
 _TFE:TFE,BI5,,,                          # 0x0045
@@ -355,7 +354,7 @@ _REF_OK:REF_OK,BI7,,,                    # 0x0047
 
 _TIMEOUT:TIMEOUT,BI0,,,                  # 0x0048
 _TWARTEVSP:TWARTEVSP,BI1,,,              # 0x0049
-# _TZUENDSZA:TZUENDSZA,BI1,,,              # 0x0049 (Alias of TWARTEVSP)
+_TZUENDSZA:TZUENDSZA,BI1,,,              # 0x0049
 _TSZA:TSZA,BI2,,,                        # 0x004A
 _TFLASTAB:TFLASTAB,BI3,,,                # 0x004B
 _TNBL:TNBL,BI4,,,                        # 0x004C
@@ -386,7 +385,7 @@ _MFE:MFE,BI3,,,                          # 0x006B
 _MTHGDWSTB:MTHGDWSTB,BI4,,,              # 0x006C
 _DUMMY:DUMMY,BI5,,,                      # 0x006D
 _FLANKE_TNACHFACK:FLANKE_TNACHFACK,BI6,,, # 0x006E
-# _MV1_LAST:MV1_LAST,BI6,,,                # 0x006E (Alias of FLANKE_TNACHFACK)
+_MV1_LAST:MV1_LAST,BI6,,,                # 0x006E
 _LO_KFLB:LO_KFLB,BI7,,,                  # 0x006F
 
 _LO_FRELI:LO_FRELI,BI0,,,                # 0x0070
@@ -410,247 +409,247 @@ _OPTNOEMERGENCYRESET:OPTNOEMERGENCYRESET,BI7,,, # 0x007F
 # --- SFR ---
 # =========================================
 _P0_ALTSEL0:P0_ALTSEL0,UCH,,,            # 0x0080
-# _P0_DATA:P0_DATA,UCH,,,                  # 0x0080 (Alias of P0_ALTSEL0)
-# _P0_OD:P0_OD,UCH,,,                      # 0x0080 (Alias of P0_ALTSEL0)
-# _P0_PUDSEL:P0_PUDSEL,UCH,,,              # 0x0080 (Alias of P0_ALTSEL0)
+_P0_DATA:P0_DATA,UCH,,,                  # 0x0080
+_P0_OD:P0_OD,UCH,,,                      # 0x0080
+_P0_PUDSEL:P0_PUDSEL,UCH,,,              # 0x0080
 _DPL:DPL,UCH,,,                          # 0x0082
 _DPH:DPH,UCH,,,                          # 0x0083
 _P0_ALTSEL1:P0_ALTSEL1,UCH,,,            # 0x0086
-# _P0_DIR:P0_DIR,UCH,,,                    # 0x0086 (Alias of P0_ALTSEL1)
-# _P0_PUDEN:P0_PUDEN,UCH,,,                # 0x0086 (Alias of P0_ALTSEL1)
+_P0_DIR:P0_DIR,UCH,,,                    # 0x0086
+_P0_PUDEN:P0_PUDEN,UCH,,,                # 0x0086
 _PCON:PCON,UCH,,,                        # 0x0087
 _TCON:TCON,UCH,,,                        # 0x0088
 _TMOD:TMOD,UCH,,,                        # 0x0089
 _TL0:TL0,UCH,,,                          # 0x008A
 _ION_TIMER_LOW:ION_TIMER_LOW,UCH,,,      # 0x008B
-# _TL1:TL1,UCH,,,                          # 0x008B (Alias of ION_TIMER_LOW)
+_TL1:TL1,UCH,,,                          # 0x008B
 _TH0:TH0,UCH,,,                          # 0x008C
 _ION_TIMER_HIGH:ION_TIMER_HIGH,UCH,,,    # 0x008D
-# _TH1:TH1,UCH,,,                          # 0x008D (Alias of ION_TIMER_HIGH)
+_TH1:TH1,UCH,,,                          # 0x008D
 _SYSCON0:SYSCON0,UCH,,,                  # 0x008F
 _DO_PORT:DO_PORT,UCH,,,                  # 0x0090
-# _P1ANA:P1ANA,UCH,,,                      # 0x0090 (Alias of DO_PORT)
-# _P1_ALTSEL0:P1_ALTSEL0,UCH,,,            # 0x0090 (Alias of DO_PORT)
-# _P1_DATA:P1_DATA,UCH,,,                  # 0x0090 (Alias of DO_PORT)
-# _P1_OD:P1_OD,UCH,,,                      # 0x0090 (Alias of DO_PORT)
-# _P1_PUDSEL:P1_PUDSEL,UCH,,,              # 0x0090 (Alias of DO_PORT)
+_P1ANA:P1ANA,UCH,,,                      # 0x0090
+_P1_ALTSEL0:P1_ALTSEL0,UCH,,,            # 0x0090
+_P1_DATA:P1_DATA,UCH,,,                  # 0x0090
+_P1_OD:P1_OD,UCH,,,                      # 0x0090
+_P1_PUDSEL:P1_PUDSEL,UCH,,,              # 0x0090
 _P1_ALTSEL1:P1_ALTSEL1,UCH,,,            # 0x0091
-# _P1_DIR:P1_DIR,UCH,,,                    # 0x0091 (Alias of P1_ALTSEL1)
-# _P1_PUDEN:P1_PUDEN,UCH,,,                # 0x0091 (Alias of P1_ALTSEL1)
-# _XPAGE:XPAGE,UCH,,,                      # 0x0091 (Alias of P1_ALTSEL1)
+_P1_DIR:P1_DIR,UCH,,,                    # 0x0091
+_P1_PUDEN:P1_PUDEN,UCH,,,                # 0x0091
+_XPAGE:XPAGE,UCH,,,                      # 0x0091
 _DPSEL:DPSEL,UCH,,,                      # 0x0092
-# _P5_ALTSEL0:P5_ALTSEL0,UCH,,,            # 0x0092 (Alias of DPSEL)
-# _P5_DATA:P5_DATA,UCH,,,                  # 0x0092 (Alias of DPSEL)
-# _P5_OD:P5_OD,UCH,,,                      # 0x0092 (Alias of DPSEL)
-# _P5_PUDSEL:P5_PUDSEL,UCH,,,              # 0x0092 (Alias of DPSEL)
+_P5_ALTSEL0:P5_ALTSEL0,UCH,,,            # 0x0092
+_P5_DATA:P5_DATA,UCH,,,                  # 0x0092
+_P5_OD:P5_OD,UCH,,,                      # 0x0092
+_P5_PUDSEL:P5_PUDSEL,UCH,,,              # 0x0092
 _P5_ALTSEL1:P5_ALTSEL1,UCH,,,            # 0x0093
-# _P5_DIR:P5_DIR,UCH,,,                    # 0x0093 (Alias of P5_ALTSEL1)
-# _P5_PUDEN:P5_PUDEN,UCH,,,                # 0x0093 (Alias of P5_ALTSEL1)
+_P5_DIR:P5_DIR,UCH,,,                    # 0x0093
+_P5_PUDEN:P5_PUDEN,UCH,,,                # 0x0093
 _SCON:SCON,UCH,,,                        # 0x0098
 _SBUF:SBUF,UCH,,,                        # 0x0099
 _CCL_GEBL:CCL_GEBL,UCH,,,                # 0x009A
-# _CCU6_CC63RL:CCU6_CC63RL,UCH,,,          # 0x009A (Alias of CCL_GEBL)
-# _CCU6_CC63SRL:CCU6_CC63SRL,UCH,,,        # 0x009A (Alias of CCL_GEBL)
-# _CCU6_MCMOUTL:CCU6_MCMOUTL,UCH,,,        # 0x009A (Alias of CCL_GEBL)
-# _CCU6_T12MSELL:CCU6_T12MSELL,UCH,,,      # 0x009A (Alias of CCL_GEBL)
-# _CD_CORDXL:CD_CORDXL,UCH,,,              # 0x009A (Alias of CCL_GEBL)
+_CCU6_CC63RL:CCU6_CC63RL,UCH,,,          # 0x009A
+_CCU6_CC63SRL:CCU6_CC63SRL,UCH,,,        # 0x009A
+_CCU6_MCMOUTL:CCU6_MCMOUTL,UCH,,,        # 0x009A
+_CCU6_T12MSELL:CCU6_T12MSELL,UCH,,,      # 0x009A
+_CD_CORDXL:CD_CORDXL,UCH,,,              # 0x009A
 _CCH_GEBL:CCH_GEBL,UCH,,,                # 0x009B
-# _CCU6_CC63RH:CCU6_CC63RH,UCH,,,          # 0x009B (Alias of CCH_GEBL)
-# _CCU6_CC63SRH:CCU6_CC63SRH,UCH,,,        # 0x009B (Alias of CCH_GEBL)
-# _CCU6_MCMOUTH:CCU6_MCMOUTH,UCH,,,        # 0x009B (Alias of CCH_GEBL)
-# _CCU6_T12MSELH:CCU6_T12MSELH,UCH,,,      # 0x009B (Alias of CCH_GEBL)
-# _CD_CORDXH:CD_CORDXH,UCH,,,              # 0x009B (Alias of CCH_GEBL)
+_CCU6_CC63RH:CCU6_CC63RH,UCH,,,          # 0x009B
+_CCU6_CC63SRH:CCU6_CC63SRH,UCH,,,        # 0x009B
+_CCU6_MCMOUTH:CCU6_MCMOUTH,UCH,,,        # 0x009B
+_CCU6_T12MSELH:CCU6_T12MSELH,UCH,,,      # 0x009B
+_CD_CORDXH:CD_CORDXH,UCH,,,              # 0x009B
 _CCU6_IENL:CCU6_IENL,UCH,,,              # 0x009C
-# _CCU6_ISL:CCU6_ISL,UCH,,,                # 0x009C (Alias of CCU6_IENL)
-# _CCU6_T12PRL:CCU6_T12PRL,UCH,,,          # 0x009C (Alias of CCU6_IENL)
-# _CCU6_TCTR4L:CCU6_TCTR4L,UCH,,,          # 0x009C (Alias of CCU6_IENL)
-# _CD_CORDYL:CD_CORDYL,UCH,,,              # 0x009C (Alias of CCU6_IENL)
+_CCU6_ISL:CCU6_ISL,UCH,,,                # 0x009C
+_CCU6_T12PRL:CCU6_T12PRL,UCH,,,          # 0x009C
+_CCU6_TCTR4L:CCU6_TCTR4L,UCH,,,          # 0x009C
+_CD_CORDYL:CD_CORDYL,UCH,,,              # 0x009C
 _CCU6_IENH:CCU6_IENH,UCH,,,              # 0x009D
-# _CCU6_ISH:CCU6_ISH,UCH,,,                # 0x009D (Alias of CCU6_IENH)
-# _CCU6_T12PRH:CCU6_T12PRH,UCH,,,          # 0x009D (Alias of CCU6_IENH)
-# _CCU6_TCTR4H:CCU6_TCTR4H,UCH,,,          # 0x009D (Alias of CCU6_IENH)
-# _CD_CORDYH:CD_CORDYH,UCH,,,              # 0x009D (Alias of CCU6_IENH)
+_CCU6_ISH:CCU6_ISH,UCH,,,                # 0x009D
+_CCU6_T12PRH:CCU6_T12PRH,UCH,,,          # 0x009D
+_CCU6_TCTR4H:CCU6_TCTR4H,UCH,,,          # 0x009D
+_CD_CORDYH:CD_CORDYH,UCH,,,              # 0x009D
 _CCU6_INPL:CCU6_INPL,UCH,,,              # 0x009E
-# _CCU6_MCMOUTSL:CCU6_MCMOUTSL,UCH,,,      # 0x009E (Alias of CCU6_INPL)
-# _CCU6_PISEL0L:CCU6_PISEL0L,UCH,,,        # 0x009E (Alias of CCU6_INPL)
-# _CCU6_T13PRL:CCU6_T13PRL,UCH,,,          # 0x009E (Alias of CCU6_INPL)
-# _CD_CORDZL:CD_CORDZL,UCH,,,              # 0x009E (Alias of CCU6_INPL)
+_CCU6_MCMOUTSL:CCU6_MCMOUTSL,UCH,,,      # 0x009E
+_CCU6_PISEL0L:CCU6_PISEL0L,UCH,,,        # 0x009E
+_CCU6_T13PRL:CCU6_T13PRL,UCH,,,          # 0x009E
+_CD_CORDZL:CD_CORDZL,UCH,,,              # 0x009E
 _CCU6_INPH:CCU6_INPH,UCH,,,              # 0x009F
-# _CCU6_MCMOUTSH:CCU6_MCMOUTSH,UCH,,,      # 0x009F (Alias of CCU6_INPH)
-# _CCU6_PISEL0H:CCU6_PISEL0H,UCH,,,        # 0x009F (Alias of CCU6_INPH)
-# _CCU6_T13PRH:CCU6_T13PRH,UCH,,,          # 0x009F (Alias of CCU6_INPH)
-# _CD_CORDZH:CD_CORDZH,UCH,,,              # 0x009F (Alias of CCU6_INPH)
+_CCU6_MCMOUTSH:CCU6_MCMOUTSH,UCH,,,      # 0x009F
+_CCU6_PISEL0H:CCU6_PISEL0H,UCH,,,        # 0x009F
+_CCU6_T13PRH:CCU6_T13PRH,UCH,,,          # 0x009F
+_CD_CORDZH:CD_CORDZH,UCH,,,              # 0x009F
 _CD_STATC:CD_STATC,UCH,,,                # 0x00A0
-# _P2_DATA:P2_DATA,UCH,,,                  # 0x00A0 (Alias of CD_STATC)
-# _P2_PUDSEL:P2_PUDSEL,UCH,,,              # 0x00A0 (Alias of CD_STATC)
+_P2_DATA:P2_DATA,UCH,,,                  # 0x00A0
+_P2_PUDSEL:P2_PUDSEL,UCH,,,              # 0x00A0
 _CD_CON:CD_CON,UCH,,,                    # 0x00A1
-# _P2_DIR:P2_DIR,UCH,,,                    # 0x00A1 (Alias of CD_CON)
-# _P2_PUDEN:P2_PUDEN,UCH,,,                # 0x00A1 (Alias of CD_CON)
+_P2_DIR:P2_DIR,UCH,,,                    # 0x00A1
+_P2_PUDEN:P2_PUDEN,UCH,,,                # 0x00A1
 _CCU6_PAGE:CCU6_PAGE,UCH,,,              # 0x00A3
 _CCU6_ISRL:CCU6_ISRL,UCH,,,              # 0x00A4
-# _CCU6_ISSL:CCU6_ISSL,UCH,,,              # 0x00A4 (Alias of CCU6_ISRL)
-# _CCU6_PISEL2:CCU6_PISEL2,UCH,,,          # 0x00A4 (Alias of CCU6_ISRL)
-# _CCU6_T12DTCL:CCU6_T12DTCL,UCH,,,        # 0x00A4 (Alias of CCU6_ISRL)
+_CCU6_ISSL:CCU6_ISSL,UCH,,,              # 0x00A4
+_CCU6_PISEL2:CCU6_PISEL2,UCH,,,          # 0x00A4
+_CCU6_T12DTCL:CCU6_T12DTCL,UCH,,,        # 0x00A4
 _CCU6_ISRH:CCU6_ISRH,UCH,,,              # 0x00A5
-# _CCU6_ISSH:CCU6_ISSH,UCH,,,              # 0x00A5 (Alias of CCU6_ISRH)
-# _CCU6_T12DTCH:CCU6_T12DTCH,UCH,,,        # 0x00A5 (Alias of CCU6_ISRH)
+_CCU6_ISSH:CCU6_ISSH,UCH,,,              # 0x00A5
+_CCU6_T12DTCH:CCU6_T12DTCH,UCH,,,        # 0x00A5
 _CCU6_CMPMODIFL:CCU6_CMPMODIFL,UCH,,,    # 0x00A6
-# _CCU6_PSLR:CCU6_PSLR,UCH,,,              # 0x00A6 (Alias of CCU6_CMPMODIFL)
-# _CCU6_TCTR0L:CCU6_TCTR0L,UCH,,,          # 0x00A6 (Alias of CCU6_CMPMODIFL)
+_CCU6_PSLR:CCU6_PSLR,UCH,,,              # 0x00A6
+_CCU6_TCTR0L:CCU6_TCTR0L,UCH,,,          # 0x00A6
 _CCU6_CMPMODIFH:CCU6_CMPMODIFH,UCH,,,    # 0x00A7
-# _CCU6_MCMCTR:CCU6_MCMCTR,UCH,,,          # 0x00A7 (Alias of CCU6_CMPMODIFH)
-# _CCU6_TCTR0H:CCU6_TCTR0H,UCH,,,          # 0x00A7 (Alias of CCU6_CMPMODIFH)
+_CCU6_MCMCTR:CCU6_MCMCTR,UCH,,,          # 0x00A7
+_CCU6_TCTR0H:CCU6_TCTR0H,UCH,,,          # 0x00A7
 _IEN0:IEN0,UCH,,,                        # 0x00A8
 _IP0:IP0,UCH,,,                          # 0x00A9
-# _SSC_PISEL:SSC_PISEL,UCH,,,              # 0x00A9 (Alias of IP0)
+_SSC_PISEL:SSC_PISEL,UCH,,,              # 0x00A9
 _SRELL:SRELL,UCH,,,                      # 0x00AA
-# _SSC_CONL_O:SSC_CONL_O,UCH,,,            # 0x00AA (Alias of SRELL)
-# _SSC_CONL_P:SSC_CONL_P,UCH,,,            # 0x00AA (Alias of SRELL)
+_SSC_CONL_O:SSC_CONL_O,UCH,,,            # 0x00AA
+_SSC_CONL_P:SSC_CONL_P,UCH,,,            # 0x00AA
 _SSC_CONH_O:SSC_CONH_O,UCH,,,            # 0x00AB
-# _SSC_CONH_P:SSC_CONH_P,UCH,,,            # 0x00AB (Alias of SSC_CONH_O)
+_SSC_CONH_P:SSC_CONH_P,UCH,,,            # 0x00AB
 _SSC_TBL:SSC_TBL,UCH,,,                  # 0x00AC
 _SSC_RBL:SSC_RBL,UCH,,,                  # 0x00AD
 _SSC_BRL:SSC_BRL,UCH,,,                  # 0x00AE
 _SSC_BRH:SSC_BRH,UCH,,,                  # 0x00AF
 _DE_F_PORT:DE_F_PORT,UCH,,,              # 0x00B0
-# _P3_ALTSEL0:P3_ALTSEL0,UCH,,,            # 0x00B0 (Alias of DE_F_PORT)
-# _P3_DATA:P3_DATA,UCH,,,                  # 0x00B0 (Alias of DE_F_PORT)
-# _P3_OD:P3_OD,UCH,,,                      # 0x00B0 (Alias of DE_F_PORT)
-# _P3_PUDSEL:P3_PUDSEL,UCH,,,              # 0x00B0 (Alias of DE_F_PORT)
+_P3_ALTSEL0:P3_ALTSEL0,UCH,,,            # 0x00B0
+_P3_DATA:P3_DATA,UCH,,,                  # 0x00B0
+_P3_OD:P3_OD,UCH,,,                      # 0x00B0
+_P3_PUDSEL:P3_PUDSEL,UCH,,,              # 0x00B0
 _P3_ALTSEL1:P3_ALTSEL1,UCH,,,            # 0x00B1
-# _P3_DIR:P3_DIR,UCH,,,                    # 0x00B1 (Alias of P3_ALTSEL1)
-# _P3_PUDEN:P3_PUDEN,UCH,,,                # 0x00B1 (Alias of P3_ALTSEL1)
-# _SYSCON:SYSCON,UCH,,,                    # 0x00B1 (Alias of P3_ALTSEL1)
+_P3_DIR:P3_DIR,UCH,,,                    # 0x00B1
+_P3_PUDEN:P3_PUDEN,UCH,,,                # 0x00B1
+_SYSCON:SYSCON,UCH,,,                    # 0x00B1
 _PORT_PAGE:PORT_PAGE,UCH,,,              # 0x00B2
 _MODPISEL:MODPISEL,UCH,,,                # 0x00B3
-# _XADDRH:XADDRH,UCH,,,                    # 0x00B3 (Alias of MODPISEL)
+_XADDRH:XADDRH,UCH,,,                    # 0x00B3
 _IRCON0:IRCON0,UCH,,,                    # 0x00B4
-# _IRCON3:IRCON3,UCH,,,                    # 0x00B4 (Alias of IRCON0)
-# _PMCON0:PMCON0,UCH,,,                    # 0x00B4 (Alias of IRCON0)
+_IRCON3:IRCON3,UCH,,,                    # 0x00B4
+_PMCON0:PMCON0,UCH,,,                    # 0x00B4
 _IRCON1:IRCON1,UCH,,,                    # 0x00B5
-# _IRCON4:IRCON4,UCH,,,                    # 0x00B5 (Alias of IRCON1)
-# _PMCON1:PMCON1,UCH,,,                    # 0x00B5 (Alias of IRCON1)
+_IRCON4:IRCON4,UCH,,,                    # 0x00B5
+_PMCON1:PMCON1,UCH,,,                    # 0x00B5
 _IRCON2:IRCON2,UCH,,,                    # 0x00B6
-# _OSC_CON:OSC_CON,UCH,,,                  # 0x00B6 (Alias of IRCON2)
+_OSC_CON:OSC_CON,UCH,,,                  # 0x00B6
 _EXICON0:EXICON0,UCH,,,                  # 0x00B7
-# _MODPISEL1:MODPISEL1,UCH,,,              # 0x00B7 (Alias of EXICON0)
-# _PLL_CON:PLL_CON,UCH,,,                  # 0x00B7 (Alias of EXICON0)
+_MODPISEL1:MODPISEL1,UCH,,,              # 0x00B7
+_PLL_CON:PLL_CON,UCH,,,                  # 0x00B7
 _IPH:IPH,UCH,,,                          # 0x00B9
 _CMCON:CMCON,UCH,,,                      # 0x00BA
-# _EXICON1:EXICON1,UCH,,,                  # 0x00BA (Alias of CMCON)
-# _MODPISEL2:MODPISEL2,UCH,,,              # 0x00BA (Alias of CMCON)
-# _SRELH:SRELH,UCH,,,                      # 0x00BA (Alias of CMCON)
+_EXICON1:EXICON1,UCH,,,                  # 0x00BA
+_MODPISEL2:MODPISEL2,UCH,,,              # 0x00BA
+_SRELH:SRELH,UCH,,,                      # 0x00BA
 _NMICON:NMICON,UCH,,,                    # 0x00BB
-# _PASSWD:PASSWD,UCH,,,                    # 0x00BB (Alias of NMICON)
-# _PMCON2:PMCON2,UCH,,,                    # 0x00BB (Alias of NMICON)
-# _WDTCON:WDTCON,UCH,,,                    # 0x00BB (Alias of NMICON)
+_PASSWD:PASSWD,UCH,,,                    # 0x00BB
+_PMCON2:PMCON2,UCH,,,                    # 0x00BB
+_WDTCON:WDTCON,UCH,,,                    # 0x00BB
 _FEAL:FEAL,UCH,,,                        # 0x00BC
-# _NMISR:NMISR,UCH,,,                      # 0x00BC (Alias of FEAL)
-# _WDTREL:WDTREL,UCH,,,                    # 0x00BC (Alias of FEAL)
+_NMISR:NMISR,UCH,,,                      # 0x00BC
+_WDTREL:WDTREL,UCH,,,                    # 0x00BC
 _BCON:BCON,UCH,,,                        # 0x00BD
-# _FEAH:FEAH,UCH,,,                        # 0x00BD (Alias of BCON)
-# _MODSUSP:MODSUSP,UCH,,,                  # 0x00BD (Alias of BCON)
-# _WDTWINB:WDTWINB,UCH,,,                  # 0x00BD (Alias of BCON)
+_FEAH:FEAH,UCH,,,                        # 0x00BD
+_MODSUSP:MODSUSP,UCH,,,                  # 0x00BD
+_WDTWINB:WDTWINB,UCH,,,                  # 0x00BD
 _COCON:COCON,UCH,,,                      # 0x00BE
-# _WDTL:WDTL,UCH,,,                        # 0x00BE (Alias of COCON)
+_WDTL:WDTL,UCH,,,                        # 0x00BE
 _SCU_PAGE:SCU_PAGE,UCH,,,                # 0x00BF
-# _WDTH:WDTH,UCH,,,                        # 0x00BF (Alias of SCU_PAGE)
+_WDTH:WDTH,UCH,,,                        # 0x00BF
 _IRCON:IRCON,UCH,,,                      # 0x00C0
-# _T21_T2CON:T21_T2CON,UCH,,,              # 0x00C0 (Alias of IRCON)
-# _T2_T2CON:T2_T2CON,UCH,,,                # 0x00C0 (Alias of IRCON)
+_T21_T2CON:T21_T2CON,UCH,,,              # 0x00C0
+_T2_T2CON:T2_T2CON,UCH,,,                # 0x00C0
 _CCEN:CCEN,UCH,,,                        # 0x00C1
-# _T21_T2MOD:T21_T2MOD,UCH,,,              # 0x00C1 (Alias of CCEN)
-# _T2_T2MOD:T2_T2MOD,UCH,,,                # 0x00C1 (Alias of CCEN)
+_T21_T2MOD:T21_T2MOD,UCH,,,              # 0x00C1
+_T2_T2MOD:T2_T2MOD,UCH,,,                # 0x00C1
 _CCL1:CCL1,UCH,,,                        # 0x00C2
-# _SYS_TIMER_RELOAD_LOW:SYS_TIMER_RELOAD_LOW,UCH,,, # 0x00C2 (Alias of CCL1)
-# _T21_RC2L:T21_RC2L,UCH,,,                # 0x00C2 (Alias of CCL1)
-# _T2_RC2L:T2_RC2L,UCH,,,                  # 0x00C2 (Alias of CCL1)
+_SYS_TIMER_RELOAD_LOW:SYS_TIMER_RELOAD_LOW,UCH,,, # 0x00C2
+_T21_RC2L:T21_RC2L,UCH,,,                # 0x00C2
+_T2_RC2L:T2_RC2L,UCH,,,                  # 0x00C2
 _CCH1:CCH1,UCH,,,                        # 0x00C3
-# _SYS_TIMER_RELOAD_HIGH:SYS_TIMER_RELOAD_HIGH,UCH,,, # 0x00C3 (Alias of CCH1)
-# _T21_RC2H:T21_RC2H,UCH,,,                # 0x00C3 (Alias of CCH1)
-# _T2_RC2H:T2_RC2H,UCH,,,                  # 0x00C3 (Alias of CCH1)
+_SYS_TIMER_RELOAD_HIGH:SYS_TIMER_RELOAD_HIGH,UCH,,, # 0x00C3
+_T21_RC2H:T21_RC2H,UCH,,,                # 0x00C3
+_T2_RC2H:T2_RC2H,UCH,,,                  # 0x00C3
 _CCL2:CCL2,UCH,,,                        # 0x00C4
-# _T21_T2L:T21_T2L,UCH,,,                  # 0x00C4 (Alias of CCL2)
-# _T2_T2L:T2_T2L,UCH,,,                    # 0x00C4 (Alias of CCL2)
-# _TL2:TL2,UCH,,,                          # 0x00C4 (Alias of CCL2)
+_T21_T2L:T21_T2L,UCH,,,                  # 0x00C4
+_T2_T2L:T2_T2L,UCH,,,                    # 0x00C4
+_TL2:TL2,UCH,,,                          # 0x00C4
 _CCH2:CCH2,UCH,,,                        # 0x00C5
-# _T21_T2H:T21_T2H,UCH,,,                  # 0x00C5 (Alias of CCH2)
-# _T2_T2H:T2_T2H,UCH,,,                    # 0x00C5 (Alias of CCH2)
-# _TH2:TH2,UCH,,,                          # 0x00C5 (Alias of CCH2)
+_T21_T2H:T21_T2H,UCH,,,                  # 0x00C5
+_T2_T2H:T2_T2H,UCH,,,                    # 0x00C5
+_TH2:TH2,UCH,,,                          # 0x00C5
 _CCL3:CCL3,UCH,,,                        # 0x00C6
 _CCH3:CCH3,UCH,,,                        # 0x00C7
 _P4_ALTSEL0:P4_ALTSEL0,UCH,,,            # 0x00C8
-# _P4_DATA:P4_DATA,UCH,,,                  # 0x00C8 (Alias of P4_ALTSEL0)
-# _P4_OD:P4_OD,UCH,,,                      # 0x00C8 (Alias of P4_ALTSEL0)
-# _P4_PUDSEL:P4_PUDSEL,UCH,,,              # 0x00C8 (Alias of P4_ALTSEL0)
-# _T2CON:T2CON,UCH,,,                      # 0x00C8 (Alias of P4_ALTSEL0)
-# _UART1_SCON:UART1_SCON,UCH,,,            # 0x00C8 (Alias of P4_ALTSEL0)
+_P4_DATA:P4_DATA,UCH,,,                  # 0x00C8
+_P4_OD:P4_OD,UCH,,,                      # 0x00C8
+_P4_PUDSEL:P4_PUDSEL,UCH,,,              # 0x00C8
+_T2CON:T2CON,UCH,,,                      # 0x00C8
+_UART1_SCON:UART1_SCON,UCH,,,            # 0x00C8
 _P4_ALTSEL1:P4_ALTSEL1,UCH,,,            # 0x00C9
-# _P4_DIR:P4_DIR,UCH,,,                    # 0x00C9 (Alias of P4_ALTSEL1)
-# _P4_PUDEN:P4_PUDEN,UCH,,,                # 0x00C9 (Alias of P4_ALTSEL1)
-# _UART1_SBUF:UART1_SBUF,UCH,,,            # 0x00C9 (Alias of P4_ALTSEL1)
+_P4_DIR:P4_DIR,UCH,,,                    # 0x00C9
+_P4_PUDEN:P4_PUDEN,UCH,,,                # 0x00C9
+_UART1_SBUF:UART1_SBUF,UCH,,,            # 0x00C9
 _ADC_CHCTR0:ADC_CHCTR0,UCH,,,            # 0x00CA
-# _ADC_CHINFR:ADC_CHINFR,UCH,,,            # 0x00CA (Alias of ADC_CHCTR0)
-# _ADC_CRCR1:ADC_CRCR1,UCH,,,              # 0x00CA (Alias of ADC_CHCTR0)
-# _ADC_GLOBCTR:ADC_GLOBCTR,UCH,,,          # 0x00CA (Alias of ADC_CHCTR0)
-# _ADC_RCR0:ADC_RCR0,UCH,,,                # 0x00CA (Alias of ADC_CHCTR0)
-# _ADC_RESR0L:ADC_RESR0L,UCH,,,            # 0x00CA (Alias of ADC_CHCTR0)
-# _ADC_RESRA0L:ADC_RESRA0L,UCH,,,          # 0x00CA (Alias of ADC_CHCTR0)
-# _CRCL:CRCL,UCH,,,                        # 0x00CA (Alias of ADC_CHCTR0)
-# _RCAP2L:RCAP2L,UCH,,,                    # 0x00CA (Alias of ADC_CHCTR0)
-# _UART1_BCON:UART1_BCON,UCH,,,            # 0x00CA (Alias of ADC_CHCTR0)
+_ADC_CHINFR:ADC_CHINFR,UCH,,,            # 0x00CA
+_ADC_CRCR1:ADC_CRCR1,UCH,,,              # 0x00CA
+_ADC_GLOBCTR:ADC_GLOBCTR,UCH,,,          # 0x00CA
+_ADC_RCR0:ADC_RCR0,UCH,,,                # 0x00CA
+_ADC_RESR0L:ADC_RESR0L,UCH,,,            # 0x00CA
+_ADC_RESRA0L:ADC_RESRA0L,UCH,,,          # 0x00CA
+_CRCL:CRCL,UCH,,,                        # 0x00CA
+_RCAP2L:RCAP2L,UCH,,,                    # 0x00CA
+_UART1_BCON:UART1_BCON,UCH,,,            # 0x00CA
 _ADC_CHCTR1:ADC_CHCTR1,UCH,,,            # 0x00CB
-# _ADC_CHINCR:ADC_CHINCR,UCH,,,            # 0x00CB (Alias of ADC_CHCTR1)
-# _ADC_CRPR1:ADC_CRPR1,UCH,,,              # 0x00CB (Alias of ADC_CHCTR1)
-# _ADC_GLOBSTR:ADC_GLOBSTR,UCH,,,          # 0x00CB (Alias of ADC_CHCTR1)
-# _ADC_RCR1:ADC_RCR1,UCH,,,                # 0x00CB (Alias of ADC_CHCTR1)
-# _ADC_RESR0H:ADC_RESR0H,UCH,,,            # 0x00CB (Alias of ADC_CHCTR1)
-# _ADC_RESRA0H:ADC_RESRA0H,UCH,,,          # 0x00CB (Alias of ADC_CHCTR1)
-# _CRCH:CRCH,UCH,,,                        # 0x00CB (Alias of ADC_CHCTR1)
-# _RCAP2H:RCAP2H,UCH,,,                    # 0x00CB (Alias of ADC_CHCTR1)
-# _UART1_BG:UART1_BG,UCH,,,                # 0x00CB (Alias of ADC_CHCTR1)
+_ADC_CHINCR:ADC_CHINCR,UCH,,,            # 0x00CB
+_ADC_CRPR1:ADC_CRPR1,UCH,,,              # 0x00CB
+_ADC_GLOBSTR:ADC_GLOBSTR,UCH,,,          # 0x00CB
+_ADC_RCR1:ADC_RCR1,UCH,,,                # 0x00CB
+_ADC_RESR0H:ADC_RESR0H,UCH,,,            # 0x00CB
+_ADC_RESRA0H:ADC_RESRA0H,UCH,,,          # 0x00CB
+_CRCH:CRCH,UCH,,,                        # 0x00CB
+_RCAP2H:RCAP2H,UCH,,,                    # 0x00CB
+_UART1_BG:UART1_BG,UCH,,,                # 0x00CB
 _ADC_CHCTR2:ADC_CHCTR2,UCH,,,            # 0x00CC
-# _ADC_CHINSR:ADC_CHINSR,UCH,,,            # 0x00CC (Alias of ADC_CHCTR2)
-# _ADC_CRMR1:ADC_CRMR1,UCH,,,              # 0x00CC (Alias of ADC_CHCTR2)
-# _ADC_PRAR:ADC_PRAR,UCH,,,                # 0x00CC (Alias of ADC_CHCTR2)
-# _ADC_RCR2:ADC_RCR2,UCH,,,                # 0x00CC (Alias of ADC_CHCTR2)
-# _ADC_RESR1L:ADC_RESR1L,UCH,,,            # 0x00CC (Alias of ADC_CHCTR2)
-# _ADC_RESRA1L:ADC_RESRA1L,UCH,,,          # 0x00CC (Alias of ADC_CHCTR2)
-# _UART1_FDCON:UART1_FDCON,UCH,,,          # 0x00CC (Alias of ADC_CHCTR2)
+_ADC_CHINSR:ADC_CHINSR,UCH,,,            # 0x00CC
+_ADC_CRMR1:ADC_CRMR1,UCH,,,              # 0x00CC
+_ADC_PRAR:ADC_PRAR,UCH,,,                # 0x00CC
+_ADC_RCR2:ADC_RCR2,UCH,,,                # 0x00CC
+_ADC_RESR1L:ADC_RESR1L,UCH,,,            # 0x00CC
+_ADC_RESRA1L:ADC_RESRA1L,UCH,,,          # 0x00CC
+_UART1_FDCON:UART1_FDCON,UCH,,,          # 0x00CC
 _ADC_CHCTR3:ADC_CHCTR3,UCH,,,            # 0x00CD
-# _ADC_CHINPR:ADC_CHINPR,UCH,,,            # 0x00CD (Alias of ADC_CHCTR3)
-# _ADC_LCBR:ADC_LCBR,UCH,,,                # 0x00CD (Alias of ADC_CHCTR3)
-# _ADC_QMR0:ADC_QMR0,UCH,,,                # 0x00CD (Alias of ADC_CHCTR3)
-# _ADC_RCR3:ADC_RCR3,UCH,,,                # 0x00CD (Alias of ADC_CHCTR3)
-# _ADC_RESR1H:ADC_RESR1H,UCH,,,            # 0x00CD (Alias of ADC_CHCTR3)
-# _ADC_RESRA1H:ADC_RESRA1H,UCH,,,          # 0x00CD (Alias of ADC_CHCTR3)
-# _UART1_FDSTEP:UART1_FDSTEP,UCH,,,        # 0x00CD (Alias of ADC_CHCTR3)
+_ADC_CHINPR:ADC_CHINPR,UCH,,,            # 0x00CD
+_ADC_LCBR:ADC_LCBR,UCH,,,                # 0x00CD
+_ADC_QMR0:ADC_QMR0,UCH,,,                # 0x00CD
+_ADC_RCR3:ADC_RCR3,UCH,,,                # 0x00CD
+_ADC_RESR1H:ADC_RESR1H,UCH,,,            # 0x00CD
+_ADC_RESRA1H:ADC_RESRA1H,UCH,,,          # 0x00CD
+_UART1_FDSTEP:UART1_FDSTEP,UCH,,,        # 0x00CD
 _ADC_CHCTR4:ADC_CHCTR4,UCH,,,            # 0x00CE
-# _ADC_EVINFR:ADC_EVINFR,UCH,,,            # 0x00CE (Alias of ADC_CHCTR4)
-# _ADC_INPCR0:ADC_INPCR0,UCH,,,            # 0x00CE (Alias of ADC_CHCTR4)
-# _ADC_QSR0:ADC_QSR0,UCH,,,                # 0x00CE (Alias of ADC_CHCTR4)
-# _ADC_RESR2L:ADC_RESR2L,UCH,,,            # 0x00CE (Alias of ADC_CHCTR4)
-# _ADC_RESRA2L:ADC_RESRA2L,UCH,,,          # 0x00CE (Alias of ADC_CHCTR4)
-# _ADC_VFCR:ADC_VFCR,UCH,,,                # 0x00CE (Alias of ADC_CHCTR4)
-# _UART1_FDRES:UART1_FDRES,UCH,,,          # 0x00CE (Alias of ADC_CHCTR4)
+_ADC_EVINFR:ADC_EVINFR,UCH,,,            # 0x00CE
+_ADC_INPCR0:ADC_INPCR0,UCH,,,            # 0x00CE
+_ADC_QSR0:ADC_QSR0,UCH,,,                # 0x00CE
+_ADC_RESR2L:ADC_RESR2L,UCH,,,            # 0x00CE
+_ADC_RESRA2L:ADC_RESRA2L,UCH,,,          # 0x00CE
+_ADC_VFCR:ADC_VFCR,UCH,,,                # 0x00CE
+_UART1_FDRES:UART1_FDRES,UCH,,,          # 0x00CE
 _ADC_CHCTR5:ADC_CHCTR5,UCH,,,            # 0x00CF
-# _ADC_ETRCR:ADC_ETRCR,UCH,,,              # 0x00CF (Alias of ADC_CHCTR5)
-# _ADC_EVINCR:ADC_EVINCR,UCH,,,            # 0x00CF (Alias of ADC_CHCTR5)
-# _ADC_Q0R0:ADC_Q0R0,UCH,,,                # 0x00CF (Alias of ADC_CHCTR5)
-# _ADC_RESR2H:ADC_RESR2H,UCH,,,            # 0x00CF (Alias of ADC_CHCTR5)
-# _ADC_RESRA2H:ADC_RESRA2H,UCH,,,          # 0x00CF (Alias of ADC_CHCTR5)
+_ADC_ETRCR:ADC_ETRCR,UCH,,,              # 0x00CF
+_ADC_EVINCR:ADC_EVINCR,UCH,,,            # 0x00CF
+_ADC_Q0R0:ADC_Q0R0,UCH,,,                # 0x00CF
+_ADC_RESR2H:ADC_RESR2H,UCH,,,            # 0x00CF
+_ADC_RESRA2H:ADC_RESRA2H,UCH,,,          # 0x00CF
 _PSW:PSW,UCH,,,                          # 0x00D0
 _ADC_PAGE:ADC_PAGE,UCH,,,                # 0x00D1
 _ADC_CHCTR6:ADC_CHCTR6,UCH,,,            # 0x00D2
-# _ADC_EVINSR:ADC_EVINSR,UCH,,,            # 0x00D2 (Alias of ADC_CHCTR6)
-# _ADC_QBUR0:ADC_QBUR0,UCH,,,              # 0x00D2 (Alias of ADC_CHCTR6)
-# _ADC_QINR0:ADC_QINR0,UCH,,,              # 0x00D2 (Alias of ADC_CHCTR6)
-# _ADC_RESR3L:ADC_RESR3L,UCH,,,            # 0x00D2 (Alias of ADC_CHCTR6)
-# _ADC_RESRA3L:ADC_RESRA3L,UCH,,,          # 0x00D2 (Alias of ADC_CHCTR6)
+_ADC_EVINSR:ADC_EVINSR,UCH,,,            # 0x00D2
+_ADC_QBUR0:ADC_QBUR0,UCH,,,              # 0x00D2
+_ADC_QINR0:ADC_QINR0,UCH,,,              # 0x00D2
+_ADC_RESR3L:ADC_RESR3L,UCH,,,            # 0x00D2
+_ADC_RESRA3L:ADC_RESRA3L,UCH,,,          # 0x00D2
 _ADC_CHCTR7:ADC_CHCTR7,UCH,,,            # 0x00D3
-# _ADC_EVINPR:ADC_EVINPR,UCH,,,            # 0x00D3 (Alias of ADC_CHCTR7)
-# _ADC_RESR3H:ADC_RESR3H,UCH,,,            # 0x00D3 (Alias of ADC_CHCTR7)
-# _ADC_RESRA3H:ADC_RESRA3H,UCH,,,          # 0x00D3 (Alias of ADC_CHCTR7)
+_ADC_EVINPR:ADC_EVINPR,UCH,,,            # 0x00D3
+_ADC_RESR3H:ADC_RESR3H,UCH,,,            # 0x00D3
+_ADC_RESRA3H:ADC_RESRA3H,UCH,,,          # 0x00D3
 _ADCON0:ADCON0,UCH,,,                    # 0x00D8
 _ADDATH:ADDATH,UCH,,,                    # 0x00D9
 _ADDATL:ADDATL,UCH,,,                    # 0x00DA
@@ -658,11 +657,11 @@ _ADCON1:ADCON1,UCH,,,                    # 0x00DC
 _ACC:ACC,UCH,,,                          # 0x00E0
 _IEN1:IEN1,UCH,,,                        # 0x00E8
 _FDCON:FDCON,UCH,,,                      # 0x00E9
-# _MISC_CON:MISC_CON,UCH,,,                # 0x00E9 (Alias of FDCON)
-# _MMCR2:MMCR2,UCH,,,                      # 0x00E9 (Alias of FDCON)
+_MISC_CON:MISC_CON,UCH,,,                # 0x00E9
+_MMCR2:MMCR2,UCH,,,                      # 0x00E9
 _FDSTEP:FDSTEP,UCH,,,                    # 0x00EA
 _FDRES:FDRES,UCH,,,                      # 0x00EB
-# _MMWR1:MMWR1,UCH,,,                      # 0x00EB (Alias of FDRES)
+_MMWR1:MMWR1,UCH,,,                      # 0x00EB
 _MMWR2:MMWR2,UCH,,,                      # 0x00EC
 _MMCR:MMCR,UCH,,,                        # 0x00F1
 _MMSR:MMSR,UCH,,,                        # 0x00F2
@@ -674,244 +673,244 @@ _HWBPDR:HWBPDR,UCH,,,                    # 0x00F7
 _IP1:IP1,UCH,,,                          # 0x00F8
 _IPH1:IPH1,UCH,,,                        # 0x00F9
 _CCU6_CC60RL:CCU6_CC60RL,UCH,,,          # 0x00FA
-# _CCU6_CC60SRL:CCU6_CC60SRL,UCH,,,        # 0x00FA (Alias of CCU6_CC60RL)
-# _CCU6_T12L:CCU6_T12L,UCH,,,              # 0x00FA (Alias of CCU6_CC60RL)
-# _CCU6_TCTR2L:CCU6_TCTR2L,UCH,,,          # 0x00FA (Alias of CCU6_CC60RL)
+_CCU6_CC60SRL:CCU6_CC60SRL,UCH,,,        # 0x00FA
+_CCU6_T12L:CCU6_T12L,UCH,,,              # 0x00FA
+_CCU6_TCTR2L:CCU6_TCTR2L,UCH,,,          # 0x00FA
 _CCU6_CC60RH:CCU6_CC60RH,UCH,,,          # 0x00FB
-# _CCU6_CC60SRH:CCU6_CC60SRH,UCH,,,        # 0x00FB (Alias of CCU6_CC60RH)
-# _CCU6_T12H:CCU6_T12H,UCH,,,              # 0x00FB (Alias of CCU6_CC60RH)
-# _CCU6_TCTR2H:CCU6_TCTR2H,UCH,,,          # 0x00FB (Alias of CCU6_CC60RH)
+_CCU6_CC60SRH:CCU6_CC60SRH,UCH,,,        # 0x00FB
+_CCU6_T12H:CCU6_T12H,UCH,,,              # 0x00FB
+_CCU6_TCTR2H:CCU6_TCTR2H,UCH,,,          # 0x00FB
 _CCL_PUHZ:CCL_PUHZ,UCH,,,                # 0x00FC
-# _CCU6_CC61RL:CCU6_CC61RL,UCH,,,          # 0x00FC (Alias of CCL_PUHZ)
-# _CCU6_CC61SRL:CCU6_CC61SRL,UCH,,,        # 0x00FC (Alias of CCL_PUHZ)
-# _CCU6_MODCTRL:CCU6_MODCTRL,UCH,,,        # 0x00FC (Alias of CCL_PUHZ)
-# _CCU6_T13L:CCU6_T13L,UCH,,,              # 0x00FC (Alias of CCL_PUHZ)
-# _VR0:VR0,UCH,,,                          # 0x00FC (Alias of CCL_PUHZ)
+_CCU6_CC61RL:CCU6_CC61RL,UCH,,,          # 0x00FC
+_CCU6_CC61SRL:CCU6_CC61SRL,UCH,,,        # 0x00FC
+_CCU6_MODCTRL:CCU6_MODCTRL,UCH,,,        # 0x00FC
+_CCU6_T13L:CCU6_T13L,UCH,,,              # 0x00FC
+_VR0:VR0,UCH,,,                          # 0x00FC
 _CCH_PUHZ:CCH_PUHZ,UCH,,,                # 0x00FD
-# _CCU6_CC61RH:CCU6_CC61RH,UCH,,,          # 0x00FD (Alias of CCH_PUHZ)
-# _CCU6_CC61SRH:CCU6_CC61SRH,UCH,,,        # 0x00FD (Alias of CCH_PUHZ)
-# _CCU6_MODCTRH:CCU6_MODCTRH,UCH,,,        # 0x00FD (Alias of CCH_PUHZ)
-# _CCU6_T13H:CCU6_T13H,UCH,,,              # 0x00FD (Alias of CCH_PUHZ)
-# _VR1:VR1,UCH,,,                          # 0x00FD (Alias of CCH_PUHZ)
+_CCU6_CC61RH:CCU6_CC61RH,UCH,,,          # 0x00FD
+_CCU6_CC61SRH:CCU6_CC61SRH,UCH,,,        # 0x00FD
+_CCU6_MODCTRH:CCU6_MODCTRH,UCH,,,        # 0x00FD
+_CCU6_T13H:CCU6_T13H,UCH,,,              # 0x00FD
+_VR1:VR1,UCH,,,                          # 0x00FD
 _CCL_GPV:CCL_GPV,UCH,,,                  # 0x00FE
-# _CCU6_CC62RL:CCU6_CC62RL,UCH,,,          # 0x00FE (Alias of CCL_GPV)
-# _CCU6_CC62SRL:CCU6_CC62SRL,UCH,,,        # 0x00FE (Alias of CCL_GPV)
-# _CCU6_CMPSTATL:CCU6_CMPSTATL,UCH,,,      # 0x00FE (Alias of CCL_GPV)
-# _CCU6_TRPCTRL:CCU6_TRPCTRL,UCH,,,        # 0x00FE (Alias of CCL_GPV)
-# _VR2:VR2,UCH,,,                          # 0x00FE (Alias of CCL_GPV)
+_CCU6_CC62RL:CCU6_CC62RL,UCH,,,          # 0x00FE
+_CCU6_CC62SRL:CCU6_CC62SRL,UCH,,,        # 0x00FE
+_CCU6_CMPSTATL:CCU6_CMPSTATL,UCH,,,      # 0x00FE
+_CCU6_TRPCTRL:CCU6_TRPCTRL,UCH,,,        # 0x00FE
+_VR2:VR2,UCH,,,                          # 0x00FE
 _CCH_GPV:CCH_GPV,UCH,,,                  # 0x00FF
-# _CCU6_CC62RH:CCU6_CC62RH,UCH,,,          # 0x00FF (Alias of CCH_GPV)
-# _CCU6_CC62SRH:CCU6_CC62SRH,UCH,,,        # 0x00FF (Alias of CCH_GPV)
-# _CCU6_CMPSTATH:CCU6_CMPSTATH,UCH,,,      # 0x00FF (Alias of CCH_GPV)
-# _CCU6_TRPCTRH:CCU6_TRPCTRH,UCH,,,        # 0x00FF (Alias of CCH_GPV)
+_CCU6_CC62RH:CCU6_CC62RH,UCH,,,          # 0x00FF
+_CCU6_CC62SRH:CCU6_CC62SRH,UCH,,,        # 0x00FF
+_CCU6_CMPSTATH:CCU6_CMPSTATH,UCH,,,      # 0x00FF
+_CCU6_TRPCTRH:CCU6_TRPCTRH,UCH,,,        # 0x00FF
 
 # =========================================
 # --- Konstanten ---
 # =========================================
 _ACK_07FF_BIT:ACK_07FF_BIT,UCH,,,        # 0x0000
-# _ACK_0800_BIT:ACK_0800_BIT,UCH,,,        # 0x0000 (Alias of ACK_07FF_BIT)
-# _ACK_5002_BIT:ACK_5002_BIT,UCH,,,        # 0x0000 (Alias of ACK_07FF_BIT)
-# _ACK_FF00_BIT:ACK_FF00_BIT,UCH,,,        # 0x0000 (Alias of ACK_07FF_BIT)
-# _ACK_REG_STOP_BIT:ACK_REG_STOP_BIT,UCH,,, # 0x0000 (Alias of ACK_07FF_BIT)
-# _ADC_SHORT:ADC_SHORT,UCH,,,              # 0x0000 (Alias of ACK_07FF_BIT)
-# _AIO_900:AIO_900,UCH,,,                  # 0x0000 (Alias of ACK_07FF_BIT)
-# _BCCARD:BCCARD,UCH,,,                    # 0x0000 (Alias of ACK_07FF_BIT)
-# _EBUS_S7:EBUS_S7,UCH,,,                  # 0x0000 (Alias of ACK_07FF_BIT)
-# _EBUS_SCHICHT_2:EBUS_SCHICHT_2,UCH,,,    # 0x0000 (Alias of ACK_07FF_BIT)
-# _EEA_ANF:EEA_ANF,UCH,,,                  # 0x0000 (Alias of ACK_07FF_BIT)
-# _EEP_FAST_INIT:EEP_FAST_INIT,UCH,,,      # 0x0000 (Alias of ACK_07FF_BIT)
-# _EE_I2C:EE_I2C,UCH,,,                    # 0x0000 (Alias of ACK_07FF_BIT)
-# _EE_PARAS:EE_PARAS,UCH,,,                # 0x0000 (Alias of ACK_07FF_BIT)
-# _FEHLER_DETAIL_EBENE:FEHLER_DETAIL_EBENE,UCH,,, # 0x0000 (Alias of ACK_07FF_BIT)
-# _HARD_52:HARD_52,UCH,,,                  # 0x0000 (Alias of ACK_07FF_BIT)
-# _INFONR:INFONR,UCH,,,                    # 0x0000 (Alias of ACK_07FF_BIT)
-# _ION:ION,UCH,,,                          # 0x0000 (Alias of ACK_07FF_BIT)
-# _MXSTB_A:MXSTB_A,UCH,,,                  # 0x0000 (Alias of ACK_07FF_BIT)
-# _NM_KALTSTART_BIT:NM_KALTSTART_BIT,UCH,,, # 0x0000 (Alias of ACK_07FF_BIT)
-# _OS_XC886:OS_XC886,UCH,,,                # 0x0000 (Alias of ACK_07FF_BIT)
-# _QQ_M1:QQ_M1,UCH,,,                      # 0x0000 (Alias of ACK_07FF_BIT)
-# _RAMROM:RAMROM,UCH,,,                    # 0x0000 (Alias of ACK_07FF_BIT)
-# _RX_XRAM_BUSY_BIT:RX_XRAM_BUSY_BIT,UCH,,, # 0x0000 (Alias of ACK_07FF_BIT)
-# _SFR_IO:SFR_IO,UCH,,,                    # 0x0000 (Alias of ACK_07FF_BIT)
-# _STOEREC:STOEREC,UCH,,,                  # 0x0000 (Alias of ACK_07FF_BIT)
-# _TX_EIG_QQ:TX_EIG_QQ,UCH,,,              # 0x0000 (Alias of ACK_07FF_BIT)
-# _TX_QQ_M11:TX_QQ_M11,UCH,,,              # 0x0000 (Alias of ACK_07FF_BIT)
-# _USER:USER,UCH,,,                        # 0x0000 (Alias of ACK_07FF_BIT)
-# _VAR_900:VAR_900,UCH,,,                  # 0x0000 (Alias of ACK_07FF_BIT)
-# _ZST_QQ_EIG:ZST_QQ_EIG,UCH,,,            # 0x0000 (Alias of ACK_07FF_BIT)
+_ACK_0800_BIT:ACK_0800_BIT,UCH,,,        # 0x0000
+_ACK_5002_BIT:ACK_5002_BIT,UCH,,,        # 0x0000
+_ACK_FF00_BIT:ACK_FF00_BIT,UCH,,,        # 0x0000
+_ACK_REG_STOP_BIT:ACK_REG_STOP_BIT,UCH,,, # 0x0000
+_ADC_SHORT:ADC_SHORT,UCH,,,              # 0x0000
+_AIO_900:AIO_900,UCH,,,                  # 0x0000
+_BCCARD:BCCARD,UCH,,,                    # 0x0000
+_EBUS_S7:EBUS_S7,UCH,,,                  # 0x0000
+_EBUS_SCHICHT_2:EBUS_SCHICHT_2,UCH,,,    # 0x0000
+_EEA_ANF:EEA_ANF,UCH,,,                  # 0x0000
+_EEP_FAST_INIT:EEP_FAST_INIT,UCH,,,      # 0x0000
+_EE_I2C:EE_I2C,UCH,,,                    # 0x0000
+_EE_PARAS:EE_PARAS,UCH,,,                # 0x0000
+_FEHLER_DETAIL_EBENE:FEHLER_DETAIL_EBENE,UCH,,, # 0x0000
+_HARD_52:HARD_52,UCH,,,                  # 0x0000
+_INFONR:INFONR,UCH,,,                    # 0x0000
+_ION:ION,UCH,,,                          # 0x0000
+_MXSTB_A:MXSTB_A,UCH,,,                  # 0x0000
+_NM_KALTSTART_BIT:NM_KALTSTART_BIT,UCH,,, # 0x0000
+_OS_XC886:OS_XC886,UCH,,,                # 0x0000
+_QQ_M1:QQ_M1,UCH,,,                      # 0x0000
+_RAMROM:RAMROM,UCH,,,                    # 0x0000
+_RX_XRAM_BUSY_BIT:RX_XRAM_BUSY_BIT,UCH,,, # 0x0000
+_SFR_IO:SFR_IO,UCH,,,                    # 0x0000
+_STOEREC:STOEREC,UCH,,,                  # 0x0000
+_TX_EIG_QQ:TX_EIG_QQ,UCH,,,              # 0x0000
+_TX_QQ_M11:TX_QQ_M11,UCH,,,              # 0x0000
+_USER:USER,UCH,,,                        # 0x0000
+_VAR_900:VAR_900,UCH,,,                  # 0x0000
+_ZST_QQ_EIG:ZST_QQ_EIG,UCH,,,            # 0x0000
 _ACK_0503_BIT:ACK_0503_BIT,UCH,,,        # 0x0001
-# _ACK_0704_BIT:ACK_0704_BIT,UCH,,,        # 0x0001 (Alias of ACK_0503_BIT)
-# _ACK_07FF:ACK_07FF,UCH,,,                # 0x0001 (Alias of ACK_0503_BIT)
-# _ACK_0800:ACK_0800,UCH,,,                # 0x0001 (Alias of ACK_0503_BIT)
-# _ACK_5002:ACK_5002,UCH,,,                # 0x0001 (Alias of ACK_0503_BIT)
-# _ACK_FF00:ACK_FF00,UCH,,,                # 0x0001 (Alias of ACK_0503_BIT)
-# _ACK_FF02_BIT:ACK_FF02_BIT,UCH,,,        # 0x0001 (Alias of ACK_0503_BIT)
-# _ACK_REG_STOP:ACK_REG_STOP,UCH,,,        # 0x0001 (Alias of ACK_0503_BIT)
-# _ADC_NONE:ADC_NONE,UCH,,,                # 0x0001 (Alias of ACK_0503_BIT)
-# _AIN_ERR_NI1000:AIN_ERR_NI1000,UCH,,,    # 0x0001 (Alias of ACK_0503_BIT)
-# _EE_RANGE_FAIL__DEF:EE_RANGE_FAIL__DEF,UCH,,, # 0x0001 (Alias of ACK_0503_BIT)
-# _MAX_OK:MAX_OK,UCH,,,                    # 0x0001 (Alias of ACK_0503_BIT)
-# _NGPBS_AFAKT:NGPBS_AFAKT,UCH,,,          # 0x0001 (Alias of ACK_0503_BIT)
-# _NM_INIT_BIT:NM_INIT_BIT,UCH,,,          # 0x0001 (Alias of ACK_0503_BIT)
-# _NTC1_TR_TST:NTC1_TR_TST,UCH,,,          # 0x0001 (Alias of ACK_0503_BIT)
-# _RX_QQ_M2:RX_QQ_M2,UCH,,,                # 0x0001 (Alias of ACK_0503_BIT)
-# _TCVZZ:TCVZZ,UCH,,,                      # 0x0001 (Alias of ACK_0503_BIT)
-# _ZST_QQ_M2:ZST_QQ_M2,UCH,,,              # 0x0001 (Alias of ACK_0503_BIT)
+_ACK_0704_BIT:ACK_0704_BIT,UCH,,,        # 0x0001
+_ACK_07FF:ACK_07FF,UCH,,,                # 0x0001
+_ACK_0800:ACK_0800,UCH,,,                # 0x0001
+_ACK_5002:ACK_5002,UCH,,,                # 0x0001
+_ACK_FF00:ACK_FF00,UCH,,,                # 0x0001
+_ACK_FF02_BIT:ACK_FF02_BIT,UCH,,,        # 0x0001
+_ACK_REG_STOP:ACK_REG_STOP,UCH,,,        # 0x0001
+_ADC_NONE:ADC_NONE,UCH,,,                # 0x0001
+_AIN_ERR_NI1000:AIN_ERR_NI1000,UCH,,,    # 0x0001
+_EE_RANGE_FAIL__DEF:EE_RANGE_FAIL__DEF,UCH,,, # 0x0001
+_MAX_OK:MAX_OK,UCH,,,                    # 0x0001
+_NGPBS_AFAKT:NGPBS_AFAKT,UCH,,,          # 0x0001
+_NM_INIT_BIT:NM_INIT_BIT,UCH,,,          # 0x0001
+_NTC1_TR_TST:NTC1_TR_TST,UCH,,,          # 0x0001
+_RX_QQ_M2:RX_QQ_M2,UCH,,,                # 0x0001
+_TCVZZ:TCVZZ,UCH,,,                      # 0x0001
+_ZST_QQ_M2:ZST_QQ_M2,UCH,,,              # 0x0001
 _ACK_0503:ACK_0503,UCH,,,                # 0x0002
-# _ACK_0704:ACK_0704,UCH,,,                # 0x0002 (Alias of ACK_0503)
-# _ACK_FE01_BIT:ACK_FE01_BIT,UCH,,,        # 0x0002 (Alias of ACK_0503)
-# _ACK_FF02:ACK_FF02,UCH,,,                # 0x0002 (Alias of ACK_0503)
-# _EEA_CONST_ANF:EEA_CONST_ANF,UCH,,,      # 0x0002 (Alias of ACK_0503)
-# _EE_RANGE_FAIL__INTBCC:EE_RANGE_FAIL__INTBCC,UCH,,, # 0x0002 (Alias of ACK_0503)
-# _ION_TEILER:ION_TEILER,UCH,,,            # 0x0002 (Alias of ACK_0503)
-# _L_EEA_CRC_BCC_INT:L_EEA_CRC_BCC_INT,UCH,,, # 0x0002 (Alias of ACK_0503)
-# _MB_2_INIT:MB_2_INIT,UCH,,,              # 0x0002 (Alias of ACK_0503)
-# _NGPBS_XWATOM:NGPBS_XWATOM,UCH,,,        # 0x0002 (Alias of ACK_0503)
-# _NM_RESET_BIT:NM_RESET_BIT,UCH,,,        # 0x0002 (Alias of ACK_0503)
-# _NM_S7_RESET_BIT:NM_S7_RESET_BIT,UCH,,,  # 0x0002 (Alias of ACK_0503)
-# _NTC2_TR_TST:NTC2_TR_TST,UCH,,,          # 0x0002 (Alias of ACK_0503)
-# _TIDLE_R2:TIDLE_R2,UCH,,,                # 0x0002 (Alias of ACK_0503)
-# _ZST_QQ_M10:ZST_QQ_M10,UCH,,,            # 0x0002 (Alias of ACK_0503)
-# _ZST_QQ_M10_BIT:ZST_QQ_M10_BIT,UCH,,,    # 0x0002 (Alias of ACK_0503)
+_ACK_0704:ACK_0704,UCH,,,                # 0x0002
+_ACK_FE01_BIT:ACK_FE01_BIT,UCH,,,        # 0x0002
+_ACK_FF02:ACK_FF02,UCH,,,                # 0x0002
+_EEA_CONST_ANF:EEA_CONST_ANF,UCH,,,      # 0x0002
+_EE_RANGE_FAIL__INTBCC:EE_RANGE_FAIL__INTBCC,UCH,,, # 0x0002
+_ION_TEILER:ION_TEILER,UCH,,,            # 0x0002
+_L_EEA_CRC_BCC_INT:L_EEA_CRC_BCC_INT,UCH,,, # 0x0002
+_MB_2_INIT:MB_2_INIT,UCH,,,              # 0x0002
+_NGPBS_XWATOM:NGPBS_XWATOM,UCH,,,        # 0x0002
+_NM_RESET_BIT:NM_RESET_BIT,UCH,,,        # 0x0002
+_NM_S7_RESET_BIT:NM_S7_RESET_BIT,UCH,,,  # 0x0002
+_NTC2_TR_TST:NTC2_TR_TST,UCH,,,          # 0x0002
+_TIDLE_R2:TIDLE_R2,UCH,,,                # 0x0002
+_ZST_QQ_M10:ZST_QQ_M10,UCH,,,            # 0x0002
+_ZST_QQ_M10_BIT:ZST_QQ_M10_BIT,UCH,,,    # 0x0002
 _ADC_MXCODE:ADC_MXCODE,UCH,,,            # 0x0003
-# _AI_MUXER:AI_MUXER,UCH,,,                # 0x0003 (Alias of ADC_MXCODE)
-# _AI_REF:AI_REF,UCH,,,                    # 0x0003 (Alias of ADC_MXCODE)
-# _EM_EE_REDUND__SELF:EM_EE_REDUND__SELF,UCH,,, # 0x0003 (Alias of ADC_MXCODE)
-# _HZ_KTND__I:HZ_KTND__I,UCH,,,            # 0x0003 (Alias of ADC_MXCODE)
-# _NG_DW_TOL:NG_DW_TOL,UCH,,,              # 0x0003 (Alias of ADC_MXCODE)
-# _NG_GR_MIN__FILT:NG_GR_MIN__FILT,UCH,,,  # 0x0003 (Alias of ADC_MXCODE)
-# _NM_NORMAL_BIT:NM_NORMAL_BIT,UCH,,,      # 0x0003 (Alias of ADC_MXCODE)
-# _NSY11:NSY11,UCH,,,                      # 0x0003 (Alias of ADC_MXCODE)
-# _NSY12:NSY12,UCH,,,                      # 0x0003 (Alias of ADC_MXCODE)
-# _QQ_M11:QQ_M11,UCH,,,                    # 0x0003 (Alias of ADC_MXCODE)
-# _TBOOSTRES:TBOOSTRES,UCH,,,              # 0x0003 (Alias of ADC_MXCODE)
+_AI_MUXER:AI_MUXER,UCH,,,                # 0x0003
+_AI_REF:AI_REF,UCH,,,                    # 0x0003
+_EM_EE_REDUND__SELF:EM_EE_REDUND__SELF,UCH,,, # 0x0003
+_HZ_KTND__I:HZ_KTND__I,UCH,,,            # 0x0003
+_NG_DW_TOL:NG_DW_TOL,UCH,,,              # 0x0003
+_NG_GR_MIN__FILT:NG_GR_MIN__FILT,UCH,,,  # 0x0003
+_NM_NORMAL_BIT:NM_NORMAL_BIT,UCH,,,      # 0x0003
+_NSY11:NSY11,UCH,,,                      # 0x0003
+_NSY12:NSY12,UCH,,,                      # 0x0003
+_QQ_M11:QQ_M11,UCH,,,                    # 0x0003
+_TBOOSTRES:TBOOSTRES,UCH,,,              # 0x0003
 _ACK_FE01:ACK_FE01,UCH,,,                # 0x0004
-# _AIN_ERR_TAUSS:AIN_ERR_TAUSS,UCH,,,      # 0x0004 (Alias of ACK_FE01)
-# _AI_TRL:AI_TRL,UCH,,,                    # 0x0004 (Alias of ACK_FE01)
-# _BOOSTER_ORL_MASK:BOOSTER_ORL_MASK,UCH,,, # 0x0004 (Alias of ACK_FE01)
-# _EE_RANGE_FAIL__BCC_STAT:EE_RANGE_FAIL__BCC_STAT,UCH,,, # 0x0004 (Alias of ACK_FE01)
-# _EM_EE_REDUND__RED_FS:EM_EE_REDUND__RED_FS,UCH,,, # 0x0004 (Alias of ACK_FE01)
-# _L_EEA_MAIN_CRC:L_EEA_MAIN_CRC,UCH,,,    # 0x0004 (Alias of ACK_FE01)
-# _NFSOUT:NFSOUT,UCH,,,                    # 0x0004 (Alias of ACK_FE01)
-# _NM_NETZSTATUS_BIT:NM_NETZSTATUS_BIT,UCH,,, # 0x0004 (Alias of ACK_FE01)
-# _NTC1_SCHLUSS:NTC1_SCHLUSS,UCH,,,        # 0x0004 (Alias of ACK_FE01)
-# _NTC_TEMP_TOL:NTC_TEMP_TOL,UCH,,,        # 0x0004 (Alias of ACK_FE01)
-# _RES_CNT_OFF:RES_CNT_OFF,UCH,,,          # 0x0004 (Alias of ACK_FE01)
-# _TBOOST:TBOOST,UCH,,,                    # 0x0004 (Alias of ACK_FE01)
+_AIN_ERR_TAUSS:AIN_ERR_TAUSS,UCH,,,      # 0x0004
+_AI_TRL:AI_TRL,UCH,,,                    # 0x0004
+_BOOSTER_ORL_MASK:BOOSTER_ORL_MASK,UCH,,, # 0x0004
+_EE_RANGE_FAIL__BCC_STAT:EE_RANGE_FAIL__BCC_STAT,UCH,,, # 0x0004
+_EM_EE_REDUND__RED_FS:EM_EE_REDUND__RED_FS,UCH,,, # 0x0004
+_L_EEA_MAIN_CRC:L_EEA_MAIN_CRC,UCH,,,    # 0x0004
+_NFSOUT:NFSOUT,UCH,,,                    # 0x0004
+_NM_NETZSTATUS_BIT:NM_NETZSTATUS_BIT,UCH,,, # 0x0004
+_NTC1_SCHLUSS:NTC1_SCHLUSS,UCH,,,        # 0x0004
+_NTC_TEMP_TOL:NTC_TEMP_TOL,UCH,,,        # 0x0004
+_RES_CNT_OFF:RES_CNT_OFF,UCH,,,          # 0x0004
+_TBOOST:TBOOST,UCH,,,                    # 0x0004
 _AI_ANAIN5:AI_ANAIN5,UCH,,,              # 0x0005
-# _AI_ESTB1:AI_ESTB1,UCH,,,                # 0x0005 (Alias of AI_ANAIN5)
-# _C_MX_RES_CNT:C_MX_RES_CNT,UCH,,,        # 0x0005 (Alias of AI_ANAIN5)
-# _K_NTC1:K_NTC1,UCH,,,                    # 0x0005 (Alias of AI_ANAIN5)
-# _MAXIONTST0:MAXIONTST0,UCH,,,            # 0x0005 (Alias of AI_ANAIN5)
-# _NGPBS_IMPS:NGPBS_IMPS,UCH,,,            # 0x0005 (Alias of AI_ANAIN5)
-# _NM_STARTFLAG_BIT:NM_STARTFLAG_BIT,UCH,,, # 0x0005 (Alias of AI_ANAIN5)
-# _REF_FUSE:REF_FUSE,UCH,,,                # 0x0005 (Alias of AI_ANAIN5)
-# _V24_KM_ADR_MAX:V24_KM_ADR_MAX,UCH,,,    # 0x0005 (Alias of AI_ANAIN5)
-# _V24_KM_ADR_MAX_SCOM:V24_KM_ADR_MAX_SCOM,UCH,,, # 0x0005 (Alias of AI_ANAIN5)
+_AI_ESTB1:AI_ESTB1,UCH,,,                # 0x0005
+_C_MX_RES_CNT:C_MX_RES_CNT,UCH,,,        # 0x0005
+_K_NTC1:K_NTC1,UCH,,,                    # 0x0005
+_MAXIONTST0:MAXIONTST0,UCH,,,            # 0x0005
+_NGPBS_IMPS:NGPBS_IMPS,UCH,,,            # 0x0005
+_NM_STARTFLAG_BIT:NM_STARTFLAG_BIT,UCH,,, # 0x0005
+_REF_FUSE:REF_FUSE,UCH,,,                # 0x0005
+_V24_KM_ADR_MAX:V24_KM_ADR_MAX,UCH,,,    # 0x0005
+_V24_KM_ADR_MAX_SCOM:V24_KM_ADR_MAX_SCOM,UCH,,, # 0x0005
 _AI_ANAIN6:AI_ANAIN6,UCH,,,              # 0x0006
-# _AI_THZ:AI_THZ,UCH,,,                    # 0x0006 (Alias of AI_ANAIN6)
-# _AI_TVL:AI_TVL,UCH,,,                    # 0x0006 (Alias of AI_ANAIN6)
-# _EPIONTSTDUR:EPIONTSTDUR,UCH,,,          # 0x0006 (Alias of AI_ANAIN6)
-# _NM_NO_AUTOSYN:NM_NO_AUTOSYN,UCH,,,      # 0x0006 (Alias of AI_ANAIN6)
-# _N_50HZ_IN:N_50HZ_IN,UCH,,,              # 0x0006 (Alias of AI_ANAIN6)
-# _SPEICHER_TIEFE:SPEICHER_TIEFE,UCH,,,    # 0x0006 (Alias of AI_ANAIN6)
-# _V24_TECHOHW:V24_TECHOHW,UCH,,,          # 0x0006 (Alias of AI_ANAIN6)
+_AI_THZ:AI_THZ,UCH,,,                    # 0x0006
+_AI_TVL:AI_TVL,UCH,,,                    # 0x0006
+_EPIONTSTDUR:EPIONTSTDUR,UCH,,,          # 0x0006
+_NM_NO_AUTOSYN:NM_NO_AUTOSYN,UCH,,,      # 0x0006
+_N_50HZ_IN:N_50HZ_IN,UCH,,,              # 0x0006
+_SPEICHER_TIEFE:SPEICHER_TIEFE,UCH,,,    # 0x0006
+_V24_TECHOHW:V24_TECHOHW,UCH,,,          # 0x0006
 _AI_ANAIN7:AI_ANAIN7,UCH,,,              # 0x0007
-# _AI_ESTB2:AI_ESTB2,UCH,,,                # 0x0007 (Alias of AI_ANAIN7)
-# _K_NTC2:K_NTC2,UCH,,,                    # 0x0007 (Alias of AI_ANAIN7)
-# _NGPBS_FABTAST:NGPBS_FABTAST,UCH,,,      # 0x0007 (Alias of AI_ANAIN7)
-# _NM_TALK_EBUS_BIT:NM_TALK_EBUS_BIT,UCH,,, # 0x0007 (Alias of AI_ANAIN7)
-# _TTOL__SW_CONTR:TTOL__SW_CONTR,UCH,,,    # 0x0007 (Alias of AI_ANAIN7)
-# _ZST_ENABLE:ZST_ENABLE,UCH,,,            # 0x0007 (Alias of AI_ANAIN7)
+_AI_ESTB2:AI_ESTB2,UCH,,,                # 0x0007
+_K_NTC2:K_NTC2,UCH,,,                    # 0x0007
+_NGPBS_FABTAST:NGPBS_FABTAST,UCH,,,      # 0x0007
+_NM_TALK_EBUS_BIT:NM_TALK_EBUS_BIT,UCH,,, # 0x0007
+_TTOL__SW_CONTR:TTOL__SW_CONTR,UCH,,,    # 0x0007
+_ZST_ENABLE:ZST_ENABLE,UCH,,,            # 0x0007
 _EM_EE_REDUND__RED_NFS:EM_EE_REDUND__RED_NFS,UCH,,, # 0x0008
-# _L_PRUEF_DAT_CRC:L_PRUEF_DAT_CRC,UCH,,,  # 0x0008 (Alias of EM_EE_REDUND__RED_NFS)
-# _NTC1_BRUCH:NTC1_BRUCH,UCH,,,            # 0x0008 (Alias of EM_EE_REDUND__RED_NFS)
-# _RECORD:RECORD,UCH,,,                    # 0x0008 (Alias of EM_EE_REDUND__RED_NFS)
-# _REGBNK_TASK_1:REGBNK_TASK_1,UCH,,,      # 0x0008 (Alias of EM_EE_REDUND__RED_NFS)
+_L_PRUEF_DAT_CRC:L_PRUEF_DAT_CRC,UCH,,,  # 0x0008
+_NTC1_BRUCH:NTC1_BRUCH,UCH,,,            # 0x0008
+_RECORD:RECORD,UCH,,,                    # 0x0008
+_REGBNK_TASK_1:REGBNK_TASK_1,UCH,,,      # 0x0008
 _INIT_TCYCL_0503:INIT_TCYCL_0503,UCH,,,  # 0x000A
-# _L_ID_PARA_BCC:L_ID_PARA_BCC,UCH,,,      # 0x000A (Alias of INIT_TCYCL_0503)
+_L_ID_PARA_BCC:L_ID_PARA_BCC,UCH,,,      # 0x000A
 _INIT_TCYCL_0800:INIT_TCYCL_0800,UCH,,,  # 0x000B
 _HZ_HYS__POS:HZ_HYS__POS,UCH,,,          # 0x000F
-# _IPC_IO_MASK:IPC_IO_MASK,UCH,,,          # 0x000F (Alias of HZ_HYS__POS)
-# _KTNMULFACT:KTNMULFACT,UCH,,,            # 0x000F (Alias of HZ_HYS__POS)
-# _MASKFSOUT:MASKFSOUT,UCH,,,              # 0x000F (Alias of HZ_HYS__POS)
-# _NG_INCR_DECR__INCR:NG_INCR_DECR__INCR,UCH,,, # 0x000F (Alias of HZ_HYS__POS)
-# _NG_REG_ANPASS__SELF:NG_REG_ANPASS__SELF,UCH,,, # 0x000F (Alias of HZ_HYS__POS)
-# _PU_TAKT__PAUSE:PU_TAKT__PAUSE,UCH,,,    # 0x000F (Alias of HZ_HYS__POS)
-# _P_HZTHTWWSOLL_MIN:P_HZTHTWWSOLL_MIN,UCH,,, # 0x000F (Alias of HZ_HYS__POS)
-# _P_LPG__START:P_LPG__START,UCH,,,        # 0x000F (Alias of HZ_HYS__POS)
-# _SEL_IN_1_2__1:SEL_IN_1_2__1,UCH,,,      # 0x000F (Alias of HZ_HYS__POS)
-# _SEL_IN_3_4__3:SEL_IN_3_4__3,UCH,,,      # 0x000F (Alias of HZ_HYS__POS)
-# _SEL_PR_1_2__1:SEL_PR_1_2__1,UCH,,,      # 0x000F (Alias of HZ_HYS__POS)
-# _SEL_PR_3_4__3:SEL_PR_3_4__3,UCH,,,      # 0x000F (Alias of HZ_HYS__POS)
-# _WW_HYS__POS:WW_HYS__POS,UCH,,,          # 0x000F (Alias of HZ_HYS__POS)
+_IPC_IO_MASK:IPC_IO_MASK,UCH,,,          # 0x000F
+_KTNMULFACT:KTNMULFACT,UCH,,,            # 0x000F
+_MASKFSOUT:MASKFSOUT,UCH,,,              # 0x000F
+_NG_INCR_DECR__INCR:NG_INCR_DECR__INCR,UCH,,, # 0x000F
+_NG_REG_ANPASS__SELF:NG_REG_ANPASS__SELF,UCH,,, # 0x000F
+_PU_TAKT__PAUSE:PU_TAKT__PAUSE,UCH,,,    # 0x000F
+_P_HZTHTWWSOLL_MIN:P_HZTHTWWSOLL_MIN,UCH,,, # 0x000F
+_P_LPG__START:P_LPG__START,UCH,,,        # 0x000F
+_SEL_IN_1_2__1:SEL_IN_1_2__1,UCH,,,      # 0x000F
+_SEL_IN_3_4__3:SEL_IN_3_4__3,UCH,,,      # 0x000F
+_SEL_PR_1_2__1:SEL_PR_1_2__1,UCH,,,      # 0x000F
+_SEL_PR_3_4__3:SEL_PR_3_4__3,UCH,,,      # 0x000F
+_WW_HYS__POS:WW_HYS__POS,UCH,,,          # 0x000F
 _AIN_ERR_BW1:AIN_ERR_BW1,UCH,,,          # 0x0010
-# _EM_EE_REDUND__RED_DEF:EM_EE_REDUND__RED_DEF,UCH,,, # 0x0010 (Alias of AIN_ERR_BW1)
-# _NTC2_SCHLUSS:NTC2_SCHLUSS,UCH,,,        # 0x0010 (Alias of AIN_ERR_BW1)
-# _QQ_M2:QQ_M2,UCH,,,                      # 0x0010 (Alias of AIN_ERR_BW1)
-# _REGBANK_TASK_2:REGBANK_TASK_2,UCH,,,    # 0x0010 (Alias of AIN_ERR_BW1)
-# _REGBNK_TASK_2:REGBNK_TASK_2,UCH,,,      # 0x0010 (Alias of AIN_ERR_BW1)
+_EM_EE_REDUND__RED_DEF:EM_EE_REDUND__RED_DEF,UCH,,, # 0x0010
+_NTC2_SCHLUSS:NTC2_SCHLUSS,UCH,,,        # 0x0010
+_QQ_M2:QQ_M2,UCH,,,                      # 0x0010
+_REGBANK_TASK_2:REGBANK_TASK_2,UCH,,,    # 0x0010
+_REGBNK_TASK_2:REGBNK_TASK_2,UCH,,,      # 0x0010
 _DE_MIN_CNT:DE_MIN_CNT,UCH,,,            # 0x0011
 _DDSPERRZAEHLER:DDSPERRZAEHLER,UCH,,,    # 0x0012
 _DDRX_OFFSET_S1:DDRX_OFFSET_S1,UCH,,,    # 0x0013
 _AD_SCALE_2:AD_SCALE_2,UCH,,,            # 0x0014
-# _DDTX_OFFSET_CNT:DDTX_OFFSET_CNT,UCH,,,  # 0x0014 (Alias of AD_SCALE_2)
-# _DIG_TST:DIG_TST,UCH,,,                  # 0x0014 (Alias of AD_SCALE_2)
-# _L_EWIGEN_ZAEHLER:L_EWIGEN_ZAEHLER,UCH,,, # 0x0014 (Alias of AD_SCALE_2)
+_DDTX_OFFSET_CNT:DDTX_OFFSET_CNT,UCH,,,  # 0x0014
+_DIG_TST:DIG_TST,UCH,,,                  # 0x0014
+_L_EWIGEN_ZAEHLER:L_EWIGEN_ZAEHLER,UCH,,, # 0x0014
 _L_FS_PARA:L_FS_PARA,UCH,,,              # 0x0016
 _EEA_CONST_CRC:EEA_CONST_CRC,UCH,,,      # 0x0018
-# _REGB_TIRP:REGB_TIRP,UCH,,,              # 0x0018 (Alias of EEA_CONST_CRC)
+_REGB_TIRP:REGB_TIRP,UCH,,,              # 0x0018
 _EEA_RAM_ANF:EEA_RAM_ANF,UCH,,,          # 0x0019
-# _ROM_END_L:ROM_END_L,UCH,,,              # 0x0019 (Alias of EEA_RAM_ANF)
-# _RX_BUF_LEN:RX_BUF_LEN,UCH,,,            # 0x0019 (Alias of EEA_RAM_ANF)
+_ROM_END_L:ROM_END_L,UCH,,,              # 0x0019
+_RX_BUF_LEN:RX_BUF_LEN,UCH,,,            # 0x0019
 _EEAEPKANF:EEAEPKANF,UCH,,,              # 0x001B
 _NTCYCL_0503:NTCYCL_0503,UCH,,,          # 0x001E
-# _NTCYCL_0800:NTCYCL_0800,UCH,,,          # 0x001E (Alias of NTCYCL_0503)
-# _NTCYCL_EIG_QQ:NTCYCL_EIG_QQ,UCH,,,      # 0x001E (Alias of NTCYCL_0503)
-# _NTCYCL_MAX:NTCYCL_MAX,UCH,,,            # 0x001E (Alias of NTCYCL_0503)
-# _NTCYCL_QQ_M10:NTCYCL_QQ_M10,UCH,,,      # 0x001E (Alias of NTCYCL_0503)
-# _NTCYCL_QQ_M2:NTCYCL_QQ_M2,UCH,,,        # 0x001E (Alias of NTCYCL_0503)
-# _NTC_MIN:NTC_MIN,UCH,,,                  # 0x001E (Alias of NTCYCL_0503)
+_NTCYCL_0800:NTCYCL_0800,UCH,,,          # 0x001E
+_NTCYCL_EIG_QQ:NTCYCL_EIG_QQ,UCH,,,      # 0x001E
+_NTCYCL_MAX:NTCYCL_MAX,UCH,,,            # 0x001E
+_NTCYCL_QQ_M10:NTCYCL_QQ_M10,UCH,,,      # 0x001E
+_NTCYCL_QQ_M2:NTCYCL_QQ_M2,UCH,,,        # 0x001E
+_NTC_MIN:NTC_MIN,UCH,,,                  # 0x001E
 _TFRS_A__SELF:TFRS_A__SELF,UCH,,,        # 0x001F
 _EM_EE_REDUND__RED_INTBCC:EM_EE_REDUND__RED_INTBCC,UCH,,, # 0x0020
-# _GEC_LDW_RUHE:GEC_LDW_RUHE,UCH,,,        # 0x0020 (Alias of EM_EE_REDUND__RED_INTBCC)
-# _NTC2_BRUCH:NTC2_BRUCH,UCH,,,            # 0x0020 (Alias of EM_EE_REDUND__RED_INTBCC)
+_GEC_LDW_RUHE:GEC_LDW_RUHE,UCH,,,        # 0x0020
+_NTC2_BRUCH:NTC2_BRUCH,UCH,,,            # 0x0020
 _GENPOLY8SIG:GENPOLY8SIG,UCH,,,          # 0x0021
 _GEC_PUHZ_SW:GEC_PUHZ_SW,UCH,,,          # 0x0024
 _L_S5_DAT_CRC:L_S5_DAT_CRC,UCH,,,        # 0x0027
 _DL_BOOSTERPLUS:DL_BOOSTERPLUS,UCH,,,    # 0x0028
-# _P_KOTHTWWSOLL_MIN:P_KOTHTWWSOLL_MIN,UCH,,, # 0x0028 (Alias of DL_BOOSTERPLUS)
+_P_KOTHTWWSOLL_MIN:P_KOTHTWWSOLL_MIN,UCH,,, # 0x0028
 _MIN_TAUTOSYN:MIN_TAUTOSYN,UCH,,,        # 0x0029
 _GEC_N_NOK_LIMIT:GEC_N_NOK_LIMIT,UCH,,,  # 0x002B
-# _GEC_N_NOK_VSP:GEC_N_NOK_VSP,UCH,,,      # 0x002B (Alias of GEC_N_NOK_LIMIT)
-# _GEC_N_NOK_ZUE_N:GEC_N_NOK_ZUE_N,UCH,,,  # 0x002B (Alias of GEC_N_NOK_LIMIT)
+_GEC_N_NOK_VSP:GEC_N_NOK_VSP,UCH,,,      # 0x002B
+_GEC_N_NOK_ZUE_N:GEC_N_NOK_ZUE_N,UCH,,,  # 0x002B
 _GEC_N_NOK_RUHE:GEC_N_NOK_RUHE,UCH,,,    # 0x002C
 _GEC_LDW_ARB:GEC_LDW_ARB,UCH,,,          # 0x002D
 _QAC_MIN:QAC_MIN,UCH,,,                  # 0x002E
 _QAC_SHORT:QAC_SHORT,UCH,,,              # 0x002F
 _AD_SCALE_3:AD_SCALE_3,UCH,,,            # 0x0030
-# _L_FHIST:L_FHIST,UCH,,,                  # 0x0030 (Alias of AD_SCALE_3)
+_L_FHIST:L_FHIST,UCH,,,                  # 0x0030
 _KPMULFACT:KPMULFACT,UCH,,,              # 0x0032
-# _RES_MAX_TIME:RES_MAX_TIME,UCH,,,        # 0x0032 (Alias of KPMULFACT)
+_RES_MAX_TIME:RES_MAX_TIME,UCH,,,        # 0x0032
 _GEC_AIN_REF:GEC_AIN_REF,UCH,,,          # 0x0035
 _L_EEAEPKDAT:L_EEAEPKDAT,UCH,,,          # 0x0036
-# _L_KES_DAT_CRC:L_KES_DAT_CRC,UCH,,,      # 0x0036 (Alias of L_EEAEPKDAT)
+_L_KES_DAT_CRC:L_KES_DAT_CRC,UCH,,,      # 0x0036
 _FCODE_NOT:FCODE_NOT,UCH,,,              # 0x0038
 _FCODE_MAX:FCODE_MAX,UCH,,,              # 0x0039
 _NTCYCL_EBUS_SCOM:NTCYCL_EBUS_SCOM,UCH,,, # 0x003C
 _MAX_TAUTOSYN:MAX_TAUTOSYN,UCH,,,        # 0x003D
 _P_KOTHTWWSOLL_MAX:P_KOTHTWWSOLL_MAX,UCH,,, # 0x003F
 _AIN_ERR_BW2:AIN_ERR_BW2,UCH,,,          # 0x0040
-# _NTC1_NTC2:NTC1_NTC2,UCH,,,              # 0x0040 (Alias of AIN_ERR_BW2)
+_NTC1_NTC2:NTC1_NTC2,UCH,,,              # 0x0040
 _P_HZTHTWWSOLL_MAX:P_HZTHTWWSOLL_MAX,UCH,,, # 0x0041
 _NIT_SHORT:NIT_SHORT,UCH,,,              # 0x0044
 _NIT_MIN:NIT_MIN,UCH,,,                  # 0x0045
-# _WAIT_A_2:WAIT_A_2,UCH,,,                # 0x0045 (Alias of NIT_MIN)
+_WAIT_A_2:WAIT_A_2,UCH,,,                # 0x0045
 _L_FCODE_ZAEHLER:L_FCODE_ZAEHLER,UCH,,,  # 0x0048
 _NR_ACTIVATE_STATI:NR_ACTIVATE_STATI,UCH,,, # 0x004F
 _AD_SCALE_4:AD_SCALE_4,UCH,,,            # 0x0050
-# _DE_MAX_CNT:DE_MAX_CNT,UCH,,,            # 0x0050 (Alias of AD_SCALE_4)
-# _K_ID:K_ID,UCH,,,                        # 0x0050 (Alias of AD_SCALE_4)
+_DE_MAX_CNT:DE_MAX_CNT,UCH,,,            # 0x0050
+_K_ID:K_ID,UCH,,,                        # 0x0050
 _EEAEPKCRC:EEAEPKCRC,UCH,,,              # 0x0051
 _EEAEPKANF2:EEAEPKANF2,UCH,,,            # 0x0053
 _PH_TST_T1:PH_TST_T1,UCH,,,              # 0x0059
@@ -919,8 +918,8 @@ _NG_GR_MIN__IMPS:NG_GR_MIN__IMPS,UCH,,,  # 0x0060
 _SCHEDULE_TAKT:SCHEDULE_TAKT,UCH,,,      # 0x0064
 _NR_NG_BR_MIN:NR_NG_BR_MIN,UCH,,,        # 0x0065
 _AD_SCALE_5:AD_SCALE_5,UCH,,,            # 0x0070
-# _KESS_BIT_MASK:KESS_BIT_MASK,UCH,,,      # 0x0070 (Alias of AD_SCALE_5)
-# _OFFSET_NR_CCINFO_NR:OFFSET_NR_CCINFO_NR,UCH,,, # 0x0070 (Alias of AD_SCALE_5)
+_KESS_BIT_MASK:KESS_BIT_MASK,UCH,,,      # 0x0070
+_OFFSET_NR_CCINFO_NR:OFFSET_NR_CCINFO_NR,UCH,,, # 0x0070
 _OFFSET_NR_CC_RELAESE:OFFSET_NR_CC_RELAESE,UCH,,, # 0x0071
 _OFFSET_NR_FW1:OFFSET_NR_FW1,UCH,,,      # 0x0072
 _OFFSET_NR_FW2:OFFSET_NR_FW2,UCH,,,      # 0x0073
@@ -929,30 +928,30 @@ _OFFSET_NR_FW4:OFFSET_NR_FW4,UCH,,,      # 0x0075
 _OFFSET_NR_FW5:OFFSET_NR_FW5,UCH,,,      # 0x0076
 _OFFSET_NR_CRC:OFFSET_NR_CRC,UCH,,,      # 0x0077
 _ANZ_INFONR:ANZ_INFONR,UCH,,,            # 0x0078
-# _REF_MIN_OFF:REF_MIN_OFF,UCH,,,          # 0x0078 (Alias of ANZ_INFONR)
+_REF_MIN_OFF:REF_MIN_OFF,UCH,,,          # 0x0078
 _ION_GRENZ:ION_GRENZ,UCH,,,              # 0x007A
 _ADX_TEST:ADX_TEST,UCH,,,                # 0x007C
 _V24_KM_ADR_DEFAULT:V24_KM_ADR_DEFAULT,UCH,,, # 0x007D
-# _V24_KM_ADR_SCOM_DEFAULT:V24_KM_ADR_SCOM_DEFAULT,UCH,,, # 0x007D (Alias of V24_KM_ADR_DEFAULT)
+_V24_KM_ADR_SCOM_DEFAULT:V24_KM_ADR_SCOM_DEFAULT,UCH,,, # 0x007D
 _MINTVSOLL__SELF:MINTVSOLL__SELF,UCH,,,  # 0x007F
-# _PNL_HZ__SELF:PNL_HZ__SELF,UCH,,,        # 0x007F (Alias of MINTVSOLL__SELF)
-# _REF_MIN_ON:REF_MIN_ON,UCH,,,            # 0x007F (Alias of MINTVSOLL__SELF)
-# _TBRMINOFF__SELF:TBRMINOFF__SELF,UCH,,,  # 0x007F (Alias of MINTVSOLL__SELF)
+_PNL_HZ__SELF:PNL_HZ__SELF,UCH,,,        # 0x007F
+_REF_MIN_ON:REF_MIN_ON,UCH,,,            # 0x007F
+_TBRMINOFF__SELF:TBRMINOFF__SELF,UCH,,,  # 0x007F
 _MINTVSOLL__TRLAUF:MINTVSOLL__TRLAUF,UCH,,, # 0x0080
-# _NG_GR_MIN__FABTAST:NG_GR_MIN__FABTAST,UCH,,, # 0x0080 (Alias of MINTVSOLL__TRLAUF)
-# _PNL_HZ__BETRART:PNL_HZ__BETRART,UCH,,,  # 0x0080 (Alias of MINTVSOLL__TRLAUF)
-# _PNL_HZ__PDL:PNL_HZ__PDL,UCH,,,          # 0x0080 (Alias of MINTVSOLL__TRLAUF)
-# _TBRMINOFF__ERDGAS:TBRMINOFF__ERDGAS,UCH,,, # 0x0080 (Alias of MINTVSOLL__TRLAUF)
+_NG_GR_MIN__FABTAST:NG_GR_MIN__FABTAST,UCH,,, # 0x0080
+_PNL_HZ__BETRART:PNL_HZ__BETRART,UCH,,,  # 0x0080
+_PNL_HZ__PDL:PNL_HZ__PDL,UCH,,,          # 0x0080
+_TBRMINOFF__ERDGAS:TBRMINOFF__ERDGAS,UCH,,, # 0x0080
 _EEAEPKCRC2:EEAEPKCRC2,UCH,,,            # 0x0089
 _EEA_RAM_ANF2:EEA_RAM_ANF2,UCH,,,        # 0x008A
-# _WAIT_A_1:WAIT_A_1,UCH,,,                # 0x008A (Alias of EEA_RAM_ANF2)
+_WAIT_A_1:WAIT_A_1,UCH,,,                # 0x008A
 _EEA_CONST_ANF2:EEA_CONST_ANF2,UCH,,,    # 0x008C
 _AD_SCALE_6:AD_SCALE_6,UCH,,,            # 0x0090
-# _NTC_ERR_ZEIT:NTC_ERR_ZEIT,UCH,,,        # 0x0090 (Alias of AD_SCALE_6)
-# _SST1:SST1,UCH,,,                        # 0x0090 (Alias of AD_SCALE_6)
+_NTC_ERR_ZEIT:NTC_ERR_ZEIT,UCH,,,        # 0x0090
+_SST1:SST1,UCH,,,                        # 0x0090
 _CS_BYTE_WR:CS_BYTE_WR,UCH,,,            # 0x00A0
-# _ENAB_MASK:ENAB_MASK,UCH,,,              # 0x00A0 (Alias of CS_BYTE_WR)
-# _ENAB_MASK_WD:ENAB_MASK_WD,UCH,,,        # 0x00A0 (Alias of CS_BYTE_WR)
+_ENAB_MASK:ENAB_MASK,UCH,,,              # 0x00A0
+_ENAB_MASK_WD:ENAB_MASK_WD,UCH,,,        # 0x00A0
 _CS_BYTE_RD:CS_BYTE_RD,UCH,,,            # 0x00A1
 _EEA_CONST_CRC2:EEA_CONST_CRC2,UCH,,,    # 0x00A2
 _INT_EEA_ID_NR_BCC:INT_EEA_ID_NR_BCC,UCH,,, # 0x00A3
@@ -960,13 +959,13 @@ _INT_EEA_ID_NR_BCC_1:INT_EEA_ID_NR_BCC_1,UCH,,, # 0x00A4
 _INT_EEA_ID_CRC_BCC:INT_EEA_ID_CRC_BCC,UCH,,, # 0x00A5
 _INT_EEA_ID_NR_BCC_2:INT_EEA_ID_NR_BCC_2,UCH,,, # 0x00A6
 _INT_EEA_ID_CRC_BCC_2:INT_EEA_ID_CRC_BCC_2,UCH,,, # 0x00A8
-# _NCL1HRS:NCL1HRS,UCH,,,                  # 0x00A8 (Alias of INT_EEA_ID_CRC_BCC_2)
+_NCL1HRS:NCL1HRS,UCH,,,                  # 0x00A8
 _EEA_ION_KALIB:EEA_ION_KALIB,UCH,,,      # 0x00A9
 _EEA_ION_KALIB_INV:EEA_ION_KALIB_INV,UCH,,, # 0x00AA
 _EEA_ION_KALIB_2:EEA_ION_KALIB_2,UCH,,,  # 0x00AB
 _SST3:SST3,UCH,,,                        # 0x00B0
 _C_DECGAP:C_DECGAP,UCH,,,                # 0x00B4
-# _NCL20SEC:NCL20SEC,UCH,,,                # 0x00B4 (Alias of C_DECGAP)
+_NCL20SEC:NCL20SEC,UCH,,,                # 0x00B4
 _REF_MAX_ON:REF_MAX_ON,UCH,,,            # 0x00B7
 _ROM_PAGES:ROM_PAGES,UCH,,,              # 0x00BF
 _REF_MAX_OFF:REF_MAX_OFF,UCH,,,          # 0x00C1
@@ -978,31 +977,31 @@ _NTC_TOL_ZEIT:NTC_TOL_ZEIT,UCH,,,        # 0x00E1
 _AD_TWWSOLL_MAX:AD_TWWSOLL_MAX,UCH,,,    # 0x00E9
 _QAC_MAX:QAC_MAX,UCH,,,                  # 0x00EB
 _HZ_HYS__NEG:HZ_HYS__NEG,UCH,,,          # 0x00F0
-# _NG_INCR_DECR__DECR:NG_INCR_DECR__DECR,UCH,,, # 0x00F0 (Alias of HZ_HYS__NEG)
-# _NG_REG_ANPASS__START:NG_REG_ANPASS__START,UCH,,, # 0x00F0 (Alias of HZ_HYS__NEG)
-# _PU_TAKT__PULS:PU_TAKT__PULS,UCH,,,      # 0x00F0 (Alias of HZ_HYS__NEG)
-# _P_LPG__BETRIEB:P_LPG__BETRIEB,UCH,,,    # 0x00F0 (Alias of HZ_HYS__NEG)
-# _RST3:RST3,UCH,,,                        # 0x00F0 (Alias of HZ_HYS__NEG)
-# _SEL_IN_1_2__2:SEL_IN_1_2__2,UCH,,,      # 0x00F0 (Alias of HZ_HYS__NEG)
-# _SEL_IN_3_4__4:SEL_IN_3_4__4,UCH,,,      # 0x00F0 (Alias of HZ_HYS__NEG)
-# _SEL_PR_1_2__2:SEL_PR_1_2__2,UCH,,,      # 0x00F0 (Alias of HZ_HYS__NEG)
-# _SEL_PR_3_4__4:SEL_PR_3_4__4,UCH,,,      # 0x00F0 (Alias of HZ_HYS__NEG)
-# _WW_HYS__NEG:WW_HYS__NEG,UCH,,,          # 0x00F0 (Alias of HZ_HYS__NEG)
-# _XRAM_PAGE_DEFAULT:XRAM_PAGE_DEFAULT,UCH,,, # 0x00F0 (Alias of HZ_HYS__NEG)
+_NG_INCR_DECR__DECR:NG_INCR_DECR__DECR,UCH,,, # 0x00F0
+_NG_REG_ANPASS__START:NG_REG_ANPASS__START,UCH,,, # 0x00F0
+_PU_TAKT__PULS:PU_TAKT__PULS,UCH,,,      # 0x00F0
+_P_LPG__BETRIEB:P_LPG__BETRIEB,UCH,,,    # 0x00F0
+_RST3:RST3,UCH,,,                        # 0x00F0
+_SEL_IN_1_2__2:SEL_IN_1_2__2,UCH,,,      # 0x00F0
+_SEL_IN_3_4__4:SEL_IN_3_4__4,UCH,,,      # 0x00F0
+_SEL_PR_1_2__2:SEL_PR_1_2__2,UCH,,,      # 0x00F0
+_SEL_PR_3_4__4:SEL_PR_3_4__4,UCH,,,      # 0x00F0
+_WW_HYS__NEG:WW_HYS__NEG,UCH,,,          # 0x00F0
+_XRAM_PAGE_DEFAULT:XRAM_PAGE_DEFAULT,UCH,,, # 0x00F0
 _NTC_TA_MAX:NTC_TA_MAX,UCH,,,            # 0x00F1
-# _QQ_M10:QQ_M10,UCH,,,                    # 0x00F1 (Alias of NTC_TA_MAX)
+_QQ_M10:QQ_M10,UCH,,,                    # 0x00F1
 _NIT_MAX:NIT_MAX,UCH,,,                  # 0x00F3
 _DIG_TST_2:DIG_TST_2,UCH,,,              # 0x00F5
 _NTC_MAX:NTC_MAX,UCH,,,                  # 0x00F8
-# _TTOL__NON_ZERO_CHECK:TTOL__NON_ZERO_CHECK,UCH,,, # 0x00F8 (Alias of NTC_MAX)
+_TTOL__NON_ZERO_CHECK:TTOL__NON_ZERO_CHECK,UCH,,, # 0x00F8
 _EEA_P_CODE:EEA_P_CODE,UCH,,,            # 0x00FA
-# _EEA_STATI_AKTIV:EEA_STATI_AKTIV,UCH,,,  # 0x00FA (Alias of EEA_P_CODE)
-# _MX_RES_CYCL:MX_RES_CYCL,UCH,,,          # 0x00FA (Alias of EEA_P_CODE)
+_EEA_STATI_AKTIV:EEA_STATI_AKTIV,UCH,,,  # 0x00FA
+_MX_RES_CYCL:MX_RES_CYCL,UCH,,,          # 0x00FA
 _BOOSTER_ANL_MASK:BOOSTER_ANL_MASK,UCH,,, # 0x00FB
 _HZ_KTND__D:HZ_KTND__D,UCH,,,            # 0x00FC
 _ADC_BREAK:ADC_BREAK,UCH,,,              # 0x00FF
-# _L_EEPROM:L_EEPROM,UCH,,,                # 0x00FF (Alias of ADC_BREAK)
-# _QQ_M25:QQ_M25,UCH,,,                    # 0x00FF (Alias of ADC_BREAK)
+_L_EEPROM:L_EEPROM,UCH,,,                # 0x00FF
+_QQ_M25:QQ_M25,UCH,,,                    # 0x00FF
 _EEA_ANF2:EEA_ANF2,UCH,,,                # 0x0100
 _TWARTEQQ:TWARTEQQ,UCH,,,                # 0x011D
 _EEA_HL_HIADR:EEA_HL_HIADR,UCH,,,        # 0x0191
@@ -1051,7 +1050,7 @@ _EEA_H_PON:EEA_H_PON,UCH,,,              # 0x01E6
 _EEA_H_BON:EEA_H_BON,UCH,,,              # 0x01E9
 _EEA_N_ZUE:EEA_N_ZUE,UCH,,,              # 0x01EB
 _EEA_BAUSTAND:EEA_BAUSTAND,UCH,,,        # 0x01EE
-# _EEA_PRUEF_LOW:EEA_PRUEF_LOW,UCH,,,      # 0x01EE (Alias of EEA_BAUSTAND)
+_EEA_PRUEF_LOW:EEA_PRUEF_LOW,UCH,,,      # 0x01EE
 _EEA_KUNDE:EEA_KUNDE,UCH,,,              # 0x01F0
 _EEA_VARIANTE:EEA_VARIANTE,UCH,,,        # 0x01F1
 _EEA_SERIAL_NO:EEA_SERIAL_NO,UCH,,,      # 0x01F3
@@ -1129,7 +1128,7 @@ _MINIONTST0:MINIONTST0,UCH,,,            # 0xFFFC
 _TX_BUFFER_END:TX_BUFFER_END,UCH,,,      # 0xF000
 _EBUS_ERROR:EBUS_ERROR,UCH,,,            # 0xF001
 _TX_QQ:TX_QQ,UCH,,,                      # 0xF002
-# _TX_XRAM:TX_XRAM,UCH,,,                  # 0xF002 (Alias of TX_QQ)
+_TX_XRAM:TX_XRAM,UCH,,,                  # 0xF002
 _TX_ZZ:TX_ZZ,UCH,,,                      # 0xF003
 _TX_PB:TX_PB,UCH,,,                      # 0xF004
 _TX_SB:TX_SB,UCH,,,                      # 0xF005
@@ -1142,7 +1141,7 @@ _TX_DB5:TX_DB5,UCH,,,                    # 0xF00B
 _TX_DB6:TX_DB6,UCH,,,                    # 0xF00C
 _TX_DBX:TX_DBX,UCH,,,                    # 0xF00D
 _RX_QQ:RX_QQ,UCH,,,                      # 0xF01B
-# _RX_XRAM:RX_XRAM,UCH,,,                  # 0xF01B (Alias of RX_QQ)
+_RX_XRAM:RX_XRAM,UCH,,,                  # 0xF01B
 _RX_ZZ:RX_ZZ,UCH,,,                      # 0xF01C
 _RX_PB:RX_PB,UCH,,,                      # 0xF01D
 _RX_SB:RX_SB,UCH,,,                      # 0xF01E
@@ -1162,7 +1161,7 @@ _RX_DB16:RX_DB16,UCH,,,                  # 0xF02F
 _RX_DB18:RX_DB18,UCH,,,                  # 0xF031
 _RX_DB20:RX_DB20,UCH,,,                  # 0xF033
 _RX_OFFSET_CNT:RX_OFFSET_CNT,UCH,,,      # 0xF035
-# _RX_XRAM_END:RX_XRAM_END,UCH,,,          # 0xF035 (Alias of RX_OFFSET_CNT)
+_RX_XRAM_END:RX_XRAM_END,UCH,,,          # 0xF035
 _RX_BUFFER_END:RX_BUFFER_END,UCH,,,      # 0xF036
 _EBUS_ACK:EBUS_ACK,UCH,,,                # 0xF037
 _TALK_EBUS:TALK_EBUS,UCH,,,              # 0xF038
@@ -1290,7 +1289,7 @@ _RX_TX_ZUSTAND:RX_TX_ZUSTAND,UCH,,,      # 0xF0C3
 _TX_ANF_05:TX_ANF_05,UCH,,,              # 0xF0C4
 _TX_ANF_50:TX_ANF_50,UCH,,,              # 0xF0C5
 _TX_ANF_FE:TX_ANF_FE,UCH,,,              # 0xF0C6
-# _TX_ANF_FF:TX_ANF_FF,UCH,,,              # 0xF0C6 (Alias of TX_ANF_FE)
+_TX_ANF_FF:TX_ANF_FF,UCH,,,              # 0xF0C6
 _TX_ANF_07:TX_ANF_07,UCH,,,              # 0xF0C7
 _M_5023_CRC:M_5023_CRC,UCH,,,            # 0xF0C8
 _TX_ANF_08:TX_ANF_08,UCH,,,              # 0xF0C9
