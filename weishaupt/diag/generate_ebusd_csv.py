@@ -143,19 +143,26 @@ def parse_syc_to_ebusd(filepath):
         crc_hex = f"{crc_val:02X}"
         addr_hex = f"0x{reg['address']:04X}"
         
-        # Construct the Read Fields (Merging bits if they exist)
+        # Construct the Read Fields ('s') and Write Fields ('m')
         if len(reg['bits']) > 0:
             reg['bits'].sort(key=lambda b: b['pos'])
-            fields_parts = ["s,_8_Skip,,,"]
+            
+            r_fields_parts = ["s,_8_Skip,,,"]
+            w_fields_parts = ["m,_8_Skip,,,"]
+            
             for b in reg['bits']:
-                fields_parts.append(f"{b['name']},m,_{b['name']},,,")
-            fields_str = " ".join(fields_parts)
+                r_fields_parts.append(f"{b['name']},s,_{b['name']},,,") # 's' for slave/read
+                w_fields_parts.append(f"{b['name']},m,_{b['name']},,,") # 'm' for master/write
+                
+            r_fields_str = " ".join(r_fields_parts)
+            w_fields_str = " ".join(w_fields_parts)
         else:
-            fields_str = f"s,_8_Skip,,, ,,s,_{reg['name']},,,"
+            r_fields_str = f"s,_8_Skip,,, ,,s,_{reg['name']},,,"
+            w_fields_str = f"m,_8_Skip,,, ,,m,_{reg['name']},,,"
 
-        # Build lines (Address placed in the 'comment' column)
-        r_line = f'r,,{reg["name"]},{addr_hex},,,,"{crc_hex}{payload}",,{fields_str}'
-        w_line = f'w,,{reg["name"]},{addr_hex},,,,"{crc_hex}{payload}",,m,_{reg["name"]},,,'
+        # Build lines 
+        r_line = f'r,,{reg["name"]},{addr_hex},,,,"{crc_hex}{payload}",,{r_fields_str}'
+        w_line = f'w,,{reg["name"]},{addr_hex},,,,"{crc_hex}{payload}",,{w_fields_str}'
         
         if is_duplicate:
             r_line = f"# {r_line:<90} # Alias of {original_name}"
