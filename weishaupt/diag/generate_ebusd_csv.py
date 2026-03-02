@@ -41,7 +41,6 @@ def parse_syc_to_ebusd(filepath):
     section_idx = 0
     current_section = actual_sections[section_idx]
     
-    # We use lists to ensure no duplicates are accidentally overwritten/lost
     raw_registers = []
     parent_map = {}
     raw_bits = []
@@ -85,7 +84,6 @@ def parse_syc_to_ebusd(filepath):
                                 'section_idx': section_idx, 'address': address, 'bits': []
                             }
                             raw_registers.append(reg_obj)
-                            # Add to map so bits can find it
                             parent_key = (current_section, address)
                             if parent_key not in parent_map:
                                 parent_map[parent_key] = []
@@ -112,7 +110,6 @@ def parse_syc_to_ebusd(filepath):
             
         parent_key = (parent_sec, parent_addr)
         
-        # If the parent byte wasn't explicitly named in the file, create a synthetic one
         if parent_key not in parent_map:
             reg_obj = {
                 'name': f"BYTE_{parent_addr:02X}", 'section': parent_sec,
@@ -121,7 +118,6 @@ def parse_syc_to_ebusd(filepath):
             raw_registers.append(reg_obj)
             parent_map[parent_key] = [reg_obj]
             
-        # Tuck the bit into all variables that map to this physical address
         for p_reg in parent_map[parent_key]:
             p_reg['bits'].append({'name': bit['name'], 'pos': bit_addr % 8})
 
@@ -154,11 +150,13 @@ def parse_syc_to_ebusd(filepath):
                 r_fields_parts.append(f"{b['name']},s,_{b['name']},,,") # 's' for slave/read
                 w_fields_parts.append(f"{b['name']},m,_{b['name']},,,") # 'm' for master/write
                 
-            r_fields_str = " ".join(r_fields_parts)
-            w_fields_str = " ".join(w_fields_parts)
+            # CHANGED: Joining with a comma instead of a space to maintain CSV columns
+            r_fields_str = ",".join(r_fields_parts)
+            w_fields_str = ",".join(w_fields_parts)
         else:
-            r_fields_str = f"s,_8_Skip,,, ,,s,_{reg['name']},,,"
-            w_fields_str = f"m,_8_Skip,,, ,,m,_{reg['name']},,,"
+            # Maintained the exact user requested formatting for single fields
+            r_fields_str = f"s,_8_Skip,,, ,,s,_{reg['name']},,," 
+            w_fields_str = f"m,_8_Skip,,, ,,m,_{reg['name']},,," 
 
         # Build lines 
         r_line = f'r,,{reg["name"]},{addr_hex},,,,"{crc_hex}{payload}",,{r_fields_str}'
@@ -179,7 +177,6 @@ def parse_syc_to_ebusd(filepath):
     # Sort primarily by Section Index, then CC, then YY
     parsed_records.sort(key=lambda r: (r['section_idx'], r['cc'], r['yy']))
 
-    # Use .inc instead of .csv
     out_filepath = os.path.splitext(filepath)[0] + ".inc"
     with open(out_filepath, 'w') as out_f:
         out_f.write("# type,circuit,name,comment,QQ,ZZ,PBSB,ID,class,name,type,divider,unit,str\n")
