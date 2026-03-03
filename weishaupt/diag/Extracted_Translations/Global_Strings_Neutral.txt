@@ -1,0 +1,363 @@
+========================================================
+ GLOBAL STRING TABLE - NEUTRAL
+========================================================
+
+--- String Block 65216 ---
+  ID 65216: Die Funktionsperiode sollte >= 0 sein
+  ID 65217: Andere
+  ID 65218: X
+  ID 65219: Y
+  ID 65220: Torte
+  ID 65221: Balken
+  ID 65222: Winkel
+  ID 65223: &Paste
+  ID 65224: &Copy
+  ID 65225: &Cut
+  ID 65226: &Undo
+  ID 65227: Select all
+  ID 65228: &Delete
+  ID 65229: Interval not compatible with MinInterval property!
+
+--- String Block 65232 ---
+  ID 65232: Lampen
+  ID 65233: Tastaturen
+  ID 65234: Fahrräder
+  ID 65235: Stühle
+  ID 65236: Standard
+  ID 65237: Funktionen
+  ID 65238: 8
+  ID 65239: Hinzufügen
+  ID 65240: Subtrahieren
+  ID 65241: Multiplizieren
+  ID 65242: Dividieren
+  ID 65243: Größter Wert
+  ID 65244: Kleinster Wert
+  ID 65245: Mittelwert
+  ID 65246: Arial
+  ID 65247: Die Größe des Pointers muß > 0 sein.
+
+--- String Block 65248 ---
+  ID 65248: ##0.## %
+  ID 65249: #,##0.###
+  ID 65250: Achsenbeschriftung
+  ID 65251: Achsenbeschriftung
+  ID 65252: Linie
+  ID 65253: Punkt
+  ID 65254: Fläche
+  ID 65255: Balken
+  ID 65256: Horiz. Balken
+  ID 65257: Torte
+  ID 65258: Feste Linie
+  ID 65259: Rotation
+  ID 65260: Autos
+  ID 65261: Telephone
+  ID 65262: Tabellen
+  ID 65263: Monitore
+
+--- String Block 65264 ---
+  ID 65264: Ungültige Datenquelle: %s
+  ID 65265: FillSampleValues NumValues müssen > 0 sein.
+  ID 65266: Der %s-Winkel muß zwischen 0 und 359 Grad liegen
+  ID 65267: Eine Datum/Zeit-Achse darf nicht logarithmisch sein
+  ID 65268: Min.- und Max.-Werte von log. Achsen sollten >= 0 sein
+  ID 65269: Titelseparation % muß größer als 0 sein
+  ID 65270: Die Achsensteigung muß >= 0 sein
+  ID 65271: Der Minimalwert einer Achse muß <= Maximum sein
+  ID 65272: Der Maximalwert einer Achse muß >= Minimum sein
+  ID 65273: Die logarithmische Basis der Achse sollte >= 2 sein
+  ID 65274: MaxPointsPerPage muß >= 0 sein.
+  ID 65275: Der Prozentsatz für 3D-Effekte muß zwischen %d und %d liegen
+  ID 65276: Zirkuläre Reihenabhängigkeiten sind nicht zulässig.
+  ID 65277: Der Prozentsatz der Balkenbreite muß zwischen 1 und 100 liegen
+  ID 65278: Der Offset-Prozentsatz eines Balkens muß zwischen -100% und 100% liegen
+  ID 65279: %s von %s
+
+--- String Block 65280 ---
+  ID 65280: Objekt mit Index %d konnte nicht gelesen werden
+  ID 65281: Registerseite '%s' mit Index %d konnte nicht gesetzt werden
+  ID 65282: Objekt mit Index %d konnte nicht gesetzt werden
+  ID 65283: Bei TabPosition tpLeft und tpRight muß MultiLine True sein
+  ID 65284: Ungültiger Index
+  ID 65285: Eintrag kann nicht eingefügt werden
+  ID 65286: Ungültiger Besitzer
+  ID 65287: %s ist bereits mit %s verknüpft
+  ID 65288: %d ist ein ungültiger Wert für PageIndex. PageIndex muß einen Wert zwischen 0 und %d besitzen
+  ID 65289: Die Größe einer JPEG-Grafik kann nicht verändert werden
+  ID 65290: JPEG-Fehler #%d
+  ID 65291: JPEG-Grafikdatei
+  ID 65292: Position der oberen Legende muß zwischen 0 und 100% liegen.
+  ID 65293: Erster Wert für Legende muß > 0 sein.
+  ID 65294: Farbbreite für Legende muß zwischen 0 und 100% liegen.
+  ID 65295: Kein ParentChart zum Validieren der Datenquelle
+
+--- String Block 65296 ---
+  ID 65296: Konnte Daten für '%s' nicht holen
+  ID 65297: Menü '%s' wird bereits von einem anderen Formular benutzt
+  ID 65298: Windows-Socket-Fehler: %s (%d), auf API '%s'
+  ID 65299: Asynchroner Socket-Fehler %d
+  ID 65300: Keine Adresse angegeben
+  ID 65301: Es kann kein neuer Socket erzeugt werden
+  ID 65302: Socket ist bereits geöffnet
+  ID 65303: Der Wert kann nicht geändert werden, während der Socket aktiv ist
+  ID 65304: Angedocktes Steuerelement muß einen Namen haben.
+  ID 65305: Fehler beim Entfernen des Steuerelements aus der Andock-Hierarchie
+  ID 65306:  - Andockzone nicht gefunden
+  ID 65307:  - Andockzone besitzt kein Steuerelement
+  ID 65308: Liste gestattet keine doppelten Einträge ($0%x)
+  ID 65309: Register-Element konnte nicht geleert werden
+  ID 65310: Registerseite mit Index %d konnte nicht gelöscht werden
+  ID 65311: Registerseite mit Index %d konnte nicht gelesen werden
+
+--- String Block 65312 ---
+  ID 65312: Entf
+  ID 65313: Umsch+
+  ID 65314: Strg+
+  ID 65315: Alt+
+  ID 65316: (Unbekannt)
+  ID 65317: Wert muß zwischen %d und %d liegen
+  ID 65318: Zeile kann nicht eingefügt werden
+  ID 65319: Ungültiges Format der Zwischenablage
+  ID 65320: Zwischenablage unterstützt keine Symbole
+  ID 65321: Zwischenablage kann nicht geöffnet werden
+  ID 65322: Text überschreitet Memo-Kapazität
+  ID 65323: Operation auf ausgewähltem Drucker nicht verfügbar
+  ID 65324: Zur Zeit ist kein Standard-Drucker gewählt
+  ID 65325: nach %s kann nicht geschrieben werden
+  ID 65326: Bits-Index außerhalb des zulässigen Bereichs
+  ID 65327: Ungültiger Datentyp für '%s'
+
+--- String Block 65328 ---
+  ID 65328: &Alle Nein
+  ID 65329: A&lle Ja
+  ID 65330: Rück
+  ID 65331: Tab
+  ID 65332: Esc
+  ID 65333: Enter
+  ID 65334: Leertaste
+  ID 65335: BildAuf
+  ID 65336: BildAb
+  ID 65337: Ende
+  ID 65338: Pos1
+  ID 65339: Left
+  ID 65340: Nach oben
+  ID 65341: Rechts
+  ID 65342: Nach unten
+  ID 65343: Einfg
+
+--- String Block 65344 ---
+  ID 65344: Ungültiger Wert der Eigenschaft
+  ID 65345: Ungültiger Eingabewert
+  ID 65346: Ungültiger Eingabewert. Benutzen Sie die ESC-Taste, um die Änderungen rückgängig zu machen.
+  ID 65347: Warnung
+  ID 65348: Fehler
+  ID 65349: Information
+  ID 65350: Bestätigung
+  ID 65351: &Ja
+  ID 65352: &Nein
+  ID 65353: OK
+  ID 65354: Abbrechen
+  ID 65355: &Hilfe
+  ID 65356: &Abbrechen
+  ID 65357: &Wiederholen
+  ID 65358: &Ignorieren
+  ID 65359: &Alle
+
+--- String Block 65360 ---
+  ID 65360: S&chließen
+  ID 65361: &Ignorieren
+  ID 65362: &Wiederholen
+  ID 65363: Abbrechen
+  ID 65364: &Alle
+  ID 65365: Formulare können nicht gezogen werden
+  ID 65366: Metadateien
+  ID 65367: Erweiterte Metadateien
+  ID 65368: Symbole
+  ID 65369: Bitmaps
+  ID 65370: Gitter zu groß für Operation
+  ID 65371: Zu viele Zeilen oder Spalten gelöscht
+  ID 65372: Gitterindex außerhalb des zulässigen Bereichs
+  ID 65373: Die Anzahl fester Spalten muß kleiner sein als die Spaltenanzahl
+  ID 65374: Die Anzahl fester Zeilen muß kleiner sein als die Zeilenanzahl
+  ID 65375: Es können keine Zeilen des Tabellengitters gelöscht oder eingefügt werden
+
+--- String Block 65376 ---
+  ID 65376: Menü zweimal eingefügt
+  ID 65377: Untermenü ist nicht im Menü
+  ID 65378: Nicht genügend Timer verfügbar
+  ID 65379: Der Drucker ist nicht am Drucken
+  ID 65380: Das Drucken ist im Gang
+  ID 65381: Druckerindex außerhalb des zulässigen Bereichs
+  ID 65382: Ausgewählter Drucker ist ungültig
+  ID 65383: %s an %s
+  ID 65384: GroupIndex kann nicht kleiner sein als der GroupIndex eines vorhergehenden Menüelementes
+  ID 65385: Formular kann nicht erstellt werden. Zur Zeit sind keine MDI-Formulare aktiv
+  ID 65386: Ein Steuerelement kann nicht sich selbst als Vorfahr haben
+  ID 65387: OK
+  ID 65388: Abbrechen
+  ID 65389: &Ja
+  ID 65390: &Nein
+  ID 65391: &Hilfe
+
+--- String Block 65392 ---
+  ID 65392: Zu viele Bilder
+  ID 65393: Ungültige ImageList
+  ID 65394: Bild kann nicht ersetzt werden
+  ID 65395: Ungültiger ImageList-Index
+  ID 65396: Die ImageList-Daten konnten nicht aus dem Stream gelesen werden
+  ID 65397: Die ImageList-Daten konnten nicht in den Stream geschrieben werden
+  ID 65398: Fehler beim Erstellen des Fenster-Gerätekontexts
+  ID 65399: Fehler beim Erzeugen einer Fensterklasse
+  ID 65400: Ein deaktiviertes oder unsichtbares Fenster kann nicht den Fokus erhalten
+  ID 65401: Element '%s' hat kein übergeordnetes Fenster
+  ID 65402: Ein MDI-Kindformular kann nicht verborgen werden
+  ID 65403: Eigenschaft Visible kann in OnShow oder OnHide nicht verändert werden
+  ID 65404: Aus einem sichtbaren Fenster kann kein modales gemacht werden
+  ID 65405: Eigenschaft Scrollbar außerhalb des zulässigen Bereichs
+  ID 65406: Eigenschaft %s außerhalb des gültigen Bereichs
+  ID 65407: Menüindex außerhalb des zulässigen Bereichs
+
+--- String Block 65408 ---
+  ID 65408: Ungültiges Eigenschaftselement: %s
+  ID 65409: Eigenschaft existiert nicht
+  ID 65410: Eigenschaft kann nur gelesen werden
+  ID 65411: Fehler beim Lesen von %s%s%s: %s
+  ID 65412: Vorfahr für '%s' nicht gefunden
+  ID 65413: Bitmap ist ungültig
+  ID 65414: Ungültiges Symbol
+  ID 65415: Metadatei ist ungültig
+  ID 65416: Ungültiges Pixelformat
+  ID 65417: Bereichsüberschreitung bei Zeilenindex
+  ID 65418: Die Größe eines Symbols kann nicht geändert werden
+  ID 65419: Unbekannte Bilddateierweiterung (.%s)
+  ID 65420: Format der Zwischenablage wird nicht unterstützt
+  ID 65421: Systemressourcen erschöpft.
+  ID 65422: Leinwand/Bild erlaubt kein Zeichnen
+  ID 65423: Ungültige Bildgröße
+
+--- String Block 65424 ---
+  ID 65424: In einen zum Lesen geöffneten Ressourcen-Stream kann nicht geschrieben werden
+  ID 65425: Klasse %s nicht gefunden
+  ID 65426: Ungültiges Stream-Format
+  ID 65427: Ressource %s nicht gefunden
+  ID 65428: Der Index der Liste überschreitet das Maximum (%d)
+  ID 65429: Die Kapazität der Liste ist erschöpft (%d)
+  ID 65430: Zu viele Einträge in der Liste (%d)
+  ID 65431: Operation bei sortierten Stringlisten nicht erlaubt
+  ID 65432: In der Stringliste sind Duplikate nicht erlaubt
+  ID 65433: Die Position des Register ist nicht mit dem aktuellen Erscheinungsbild kompatibel.
+  ID 65434: Das Erscheinungsbild des Registers ist nicht mit der aktuellen Position kompatibel.
+  ID 65435: Eine Komponente mit der Bezeichnung %s existiert bereits
+  ID 65436: ''%s'' ist kein gültiger Komponentenname
+  ID 65437: Eine Klasse mit der Bezeichnung %s existiert bereits
+  ID 65438: Ungültiger Wert der Eigenschaft
+  ID 65439: Ungültiger Pfad für Eigenschaft
+
+--- String Block 65440 ---
+  ID 65440: Do
+  ID 65441: Fr
+  ID 65442: Sa
+  ID 65443: Sonntag
+  ID 65444: Montag
+  ID 65445: Dienstag
+  ID 65446: Mittwoch
+  ID 65447: Donnerstag
+  ID 65448: Freitag
+  ID 65449: Samstag
+  ID 65450: %s kann nicht zu  %s zugewiesen werden
+  ID 65451: Datei %s kann nicht erstellt werden
+  ID 65452: Datei %s kann nicht geöffnet werden
+  ID 65453: Stream-Read-Fehler
+  ID 65454: Stream-Write-Fehler
+  ID 65455: Expandieren des Speicher-Stream wegen Speichermangel nicht möglich
+
+--- String Block 65456 ---
+  ID 65456: Januar
+  ID 65457: Februar
+  ID 65458: März
+  ID 65459: April
+  ID 65460: Mai
+  ID 65461: Juni
+  ID 65462: Juli
+  ID 65463: August
+  ID 65464: September
+  ID 65465: Oktober
+  ID 65466: November
+  ID 65467: Dezember
+  ID 65468: So
+  ID 65469: Mo
+  ID 65470: Di
+  ID 65471: Mi
+
+--- String Block 65472 ---
+  ID 65472: Abstrakter Fehler
+  ID 65473: Zugriffsverletzung bei Adresse %p in Modul '%s'. %s von Adresse %p
+  ID 65474: Win32-Fehler. Code: %d.
+%s
+  ID 65475: Eine Win32-API-Funktion ist fehlgeschlagen
+  ID 65476: Jan
+  ID 65477: Feb
+  ID 65478: Mär
+  ID 65479: Apr
+  ID 65480: Mai
+  ID 65481: Jun
+  ID 65482: Jul
+  ID 65483: Aug
+  ID 65484: Sep
+  ID 65485: Okt
+  ID 65486: Nov
+  ID 65487: Dez
+
+--- String Block 65488 ---
+  ID 65488: Format '%s' ungültig oder nicht kompatibel mit Argument
+  ID 65489: Kein Argument für Format '%s'
+  ID 65490: Ungültige Variant-Typumwandlung
+  ID 65491: Ungültige Variant-Operation
+  ID 65492: Variant-Methodenaufruf nicht unterstützt
+  ID 65493: Lesen
+  ID 65494: Schreiben
+  ID 65495: Format-String zu lang
+  ID 65496: Fehler beim Erstellen des Variant-Arrays
+  ID 65497: Variant ist kein Array
+  ID 65498: Index des Variant-Arrays außerhalb des Bereichs
+  ID 65499: Externe Exception %x
+  ID 65500: Auswertung von assert fehlgeschlagen
+  ID 65501: Schnittstelle nicht unterstützt
+  ID 65502: Exception in safecall-Methode
+  ID 65503: %s (%s, Zeile %d)
+
+--- String Block 65504 ---
+  ID 65504: Division durch Null
+  ID 65505: Fehler bei Bereichsprüfung
+  ID 65506: Integerüberlauf
+  ID 65507: Ungültige Gleitkommaoperation
+  ID 65508: Gleitkommadivision durch Null
+  ID 65509: Gleitkommaüberlauf
+  ID 65510: Gleitkommaunterlauf
+  ID 65511: Ungültige Zeigeroperation
+  ID 65512: Ungültige Typumwandlung
+  ID 65513: Zugriffsverletzung bei Adresse %p. %s von Adresse %p
+  ID 65514: Stack-Überlauf
+  ID 65515: Strg+C gedrückt
+  ID 65516: Privilegierte Anweisung
+  ID 65517: Operation abgebrochen
+  ID 65518: Exception %s in Modul %s bei %p.
+%s%s
+  ID 65519: Anwendungsfehler
+
+--- String Block 65520 ---
+  ID 65520: '%s' ist kein gültiger Integerwert
+  ID 65521: '%s' ist kein gültiger Gleitkommawert
+  ID 65522: '%s' ist kein gültiges Datum
+  ID 65523: '%s' ist keine gültige Uhrzeit
+  ID 65524: '%s' ist keine gültige Datums- und Uhrzeitangabe
+  ID 65525: Ungültiges Argument zum Codieren der Uhrzeit
+  ID 65526: Ungültiges Argument zum Codieren des Datums
+  ID 65527: Zu wenig Arbeitsspeicher
+  ID 65528: E/A-Fehler %d
+  ID 65529: Datei nicht gefunden
+  ID 65530: Ungültiger Dateiname
+  ID 65531: Zu viele geöffnete Dateien
+  ID 65532: Dateizugriff verweigert
+  ID 65533: Versuch hinter dem Dateiende zu lesen
+  ID 65534: Zu wenig Speicherplatz
+  ID 65535: Ungültige numerische Eingabe

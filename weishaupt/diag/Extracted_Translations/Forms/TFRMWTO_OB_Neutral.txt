@@ -1,0 +1,1476 @@
+--- Form: TFRMWTO_OB [Neutral] ---
+
+[Component]: TbShtService
+   -> Align
+   -> alClient
+   -> MultiLine
+   -> ParentShowHint
+   -> ShowHint
+   -> TabOrder
+   -> OnChange
+   -> FormShow
+   -> TTabSheet
+
+[Component]: TbShtBurner
+   -> Prozesswerte
+   -> ImageIndex
+   -> OnHide
+
+[Component]: TbShtBurnerHide
+   -> OnShow
+
+[Component]: TbShtBurnerShow
+   -> TGroupBox
+
+[Component]: GrpBxBurner
+   -> Align
+   -> alClient
+   -> TabOrder
+   -> TGroupBox
+
+[Component]: GrpBxOutlets
+   -> Ausgänge
+   -> Enabled
+   -> TabOrder
+   -> TLabel
+   -> lblUVW
+   -> I20 Stellung UVW
+   -> TCheckGroup
+
+[Component]: ChkGrpOutlets
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> TabOrder
+   -> Distance
+   -> HorDistance
+
+[Component]: Items.Strings
+   -> Gebläse
+   -> Düsenhzg (I24)
+   -> Zündung
+   -> Ölzahnradpumpe
+   -> MV1
+   -> MV2
+   -> Antiheberventil
+   -> HK-Pumpe int.
+   -> MFA1
+   -> MFA2
+   -> Columns
+   -> test
+   -> TComboBox
+   -> cbbxUVW
+   -> Style
+   -> csSimple
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> Heizung
+   -> TGroupBox
+
+[Component]: GrpBxValues
+   -> $Gebläseregelung/Verbrennungsregelung
+   -> Enabled
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpSetpoints
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> I21: Öl-Magnetventile#
+   -> I23: Ist-Drehzahl#U/min
+   -> I10: Betriebsphase (VPA)
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TGroupBox
+
+[Component]: GrpBxPhaseAlarm
+   -> Status
+   -> Enabled
+   -> TabOrder
+   -> TLabel
+
+[Component]: LblBetriebsartHZ
+   -> Betriebsart Heizung
+   -> TLabel
+
+[Component]: LblFCode
+   -> Fehler
+   -> TLabel
+
+[Component]: LblBetriebsartWW
+   -> Betriebsart Warmwasser
+   -> TLabel
+   -> Label1
+   -> IBN-Programm
+   -> TComboBox
+
+[Component]: CbBxBetriebsartHZ
+   -> Style
+   -> csSimple
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxBetriebsartHZChange
+
+[Component]: Items.Strings
+   -> Standby
+   -> Sommer
+   -> Winter
+   -> Kaminkehrer
+   -> Frostschutz
+   -> IBN-Programm
+   -> TComboBox
+
+[Component]: CbBxFCode
+   -> Style
+   -> csSimple
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxBetriebsartHZChange
+
+[Component]: Items.Strings
+   -> 1 1: STB Übertemperatur Vorlauf
+   -> 1 2: STW Übertemperatur Vorlauf
+   -> 1 3: STB Übertemperatur Abgas
+   -> 1 4: Max. Gradient Wassertasche
+   -> "1 5: Spreizung Vorlauf / Rücklauf
+   -> 1 6: Abgas Übertemperatur
+   -> $1 7: Verbrennungsluft-Übertemperatur
+   -> 19: Feuerraumüberdruck
+   -> 2 0: Wartung Feuerraumdruck
+   -> 2 1: Keine Flammenbildung
+   -> 2 2: Flammenausfall im Betrieb
+   -> 2 3: Flammenvortäuschung
+   -> 2 4: Not-Aus
+   -> 2 5: Alarm Kondensatpumpe
+   -> !2 7: Sensor Feuerraumdruck defekt
+   -> ,2 8: Anlagendruck/Rücklauftemp-Sensor defekt
+   -> (2 9:Wassertaschentemperatursensor defekt
+   -> 3 0: Vorlauffühler defekt
+   -> 3 1: Abgasfühler defekt
+   -> #3 2: Fehler LDW-Ruhestandskontrolle
+   -> 3 3: Außenfühler defekt
+   -> 3 4: Warmwasserfühler B3 defekt
+   -> 3 5: WW-Auslauf B12 defekt
+   -> 3 6: Anlagendruck zu gering
+   -> ,3 7: Verbrennungslufttemperatursensor defekt
+   -> 3 8: Pufferfühler B10 defekt
+   -> 3 9: Pufferfühler B11 defekt
+   -> 4 1: Fehler Abgasklappe
+   -> 4 2: PWM Pumpe defekt
+   -> 4 3: Gebläsefehler im Betrieb
+   -> !4 4: Gebläsefehler im Stillstand
+   -> '4 5: Fehler LDW Arbeitskontaktkontrolle
+   -> 4 7: Zündbaustein defekt
+   -> -4 8: OelLuftverbund: Abweichung des Gemisches
+   -> 5 0: Unbekannter Fehler
+   -> *5 1: CRC-Fehler Heizungsfachmannparameter
+   -> #5 2: CRC-Fehler Herstellerparameter
+   -> 5 3: Fehler Spannungsversorgung
+   -> 5 4: Interner Defekt
+   -> 5 5: Eeprom fehlerhaft
+   -> 5 6: Relaisrücklesung fehlerhaft
+   -> "5 7: Interner Kommunikationsfehler
+   -> 5 8: Zu häufig fernentriegelt
+   -> "5 9: Interner Kommunikationsfehler
+   -> '6 0: fehlerhafte BCC-ID im internen EEP
+   -> 6 1: keine BCC vorhanden
+   -> "6 2: fehlerhafte BCC-ID in der BCC
+   -> 6 3 : fehlerhafte BCC-Firmware
+   -> ,6 4: Blockade nach BCC Re-Update Anforderung
+   -> 6 5: BCC Systemfehler
+   -> +7 0: Düsenheizung zu kalt => keine Freigabe
+   -> .7 1: Kontakt Düsenheizung permanent geschaltet
+   -> %8 0: Fernsteuerung KA antwortet nicht
+   -> &8 1: Fernsteuerung FS 1antwortet nicht
+   -> *8 2: Fernsteuerung FS/EM 2 antwortet nicht
+   -> *8 3: Fernsteuerung FS/EM 3 antwortet nicht
+   -> )8 4: Fernsteuerung FS/EM 4antwortet nicht
+   -> *8 5: Fernsteuerung FS/EM 5 antwortet nicht
+   -> *8 6: Fernsteuerung FS/EM 6 antwortet nicht
+   -> *8 7: Fernsteuerung FS/EM 7 antwortet nicht
+   -> *8 8: Fernsteuerung FS/EM 8 antwortet nicht
+   -> !8 9: 4...20mA Eingang fehlerhaft
+   -> W1: Wartungsintervall abgelaufen
+   -> TComboBox
+   -> cbBxBetriebsartWW
+   -> Style
+   -> csSimple
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxBetriebsartHZChange
+
+[Component]: Items.Strings
+   -> Zapfen
+   -> Comfort
+   -> WW-Ladung
+   -> Standby
+   -> TEditGroup
+   -> EGrpStatus
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Brenner Taktsperre#s
+   -> Dyn. Taktsperre#s
+   -> I11: Laststellung#kW
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TComboBox
+   -> CbbxState
+   -> Style
+   -> csSimple
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxBetriebsartHZChange
+
+[Component]: Items.Strings
+   -> inaktiv (0)
+   -> Pr1: Entlüftung Schwarzwasser
+   -> Pr2: Entlüftung Ölleitung
+   -> Pr3: Minimale Brennerleistung
+   -> Pr4: Mittlere Brennerleistung
+   -> Pr5: Maximale Brennerleistung
+   -> Pr6: Minimale Brennerleistung
+   -> Pr7: Kühlung Vormischkammer
+   -> inaktiv (8)
+   -> inaktiv (9)
+   -> TGroupBox
+
+[Component]: GrpBoxInlets
+   -> Eingänge
+   -> Enabled
+   -> TabOrder
+   -> TCheckGroup
+
+[Component]: ChkGrpInlets
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> TabOrder
+   -> Distance
+   -> HorDistance
+
+[Component]: Items.Strings
+   -> Flamme
+   -> LDW (I27)
+   -> Alarm K-Pumpe
+   -> Freigabe Öltemp(I28)
+   -> Columns
+   -> test
+   -> TGroupBox
+
+[Component]: GrpBxSollIst
+   -> Soll-Istwerte
+   -> Enabled
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpTemps
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> Align
+   -> alClient
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> I30: Vorlauftemperatur eSTB#°C
+   -> I31: Abgastemperatur eSTB#°C
+   -> I29: Wassertaschentemp.#°C
+   -> I33: Außentemperatur B1#°C
+   -> )I34: Warmwassertemperatur (Ausf. W) B3#°C
+   -> )I35: Auslauftemperatur (Ausf. K/P) B12#°C
+   -> "I37: Verbrennungslufttemperatur#°C
+   -> I38: Pufferfühler B10#°C
+   -> I39: Weichenfühler B11#°C
+   -> I36: Rücklauftemp#°C
+   -> I19: Wasserdruck#bar
+   -> I16: Feuerraumdruck#mbar
+   -> I15: Eingangssignal#mA
+   -> I25: Aktueller Zündstrom#
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TGroupBox
+
+[Component]: GrpBxPumpensteuerung
+   -> Pumpensteuerung
+   -> Enabled
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpPumpe
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> I22 PWM-Sollwert#%
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TGroupBox
+
+[Component]: GrpBxWirkWA
+   -> Wirksame Wärmeanforderung
+   -> Enabled
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpWirkWA
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> Align
+   -> alClient
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> VL-Sollwert#°C
+   -> Hz-Sollwert#°C
+   -> WW-Sollwert#°C
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TCheckBox
+
+[Component]: ChkBxHZFrg
+   -> Freigabe
+   -> TabOrder
+   -> Visible
+   -> TCheckBox
+
+[Component]: ChkBxWWFrg
+   -> Freigabe
+   -> TabOrder
+   -> Visible
+   -> TTabSheet
+
+[Component]: TbShtMenu
+   -> Endanwender
+   -> ImageIndex
+   -> TGroupBox
+
+[Component]: GrpBxMenuDevice
+   -> Geräteparameter
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnMenuRead
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnMenuReadClick
+   -> TButton
+
+[Component]: BtnMenuWrite
+   -> &Eintragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnMenuWriteClick
+   -> TGroupBox
+
+[Component]: GrpBxMenuFile
+   -> Parameterdatei
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnMenuLoad
+   -> &Laden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnMenuLoadClick
+   -> TButton
+
+[Component]: BtnMenuSave
+   -> &Speichern
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnMenuSaveClick
+   -> TGroupBox
+
+[Component]: GrpBxMenu
+   -> Align
+   -> alTop
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpMenu
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> Align
+   -> alClient
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Normaltemperatur-Sollwert#°C
+   -> Absenktemperatur-Sollwert#°C
+   -> #Umschalttemperatur Sommer/Winter#°C
+   -> WW-Sollwert Tag#°C
+   -> Raum-Normaltemperatur#°C
+   -> Raum-Absenktemperatur#°C
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TRadioGroup
+
+[Component]: RGrpMenu
+   -> Columns
+
+[Component]: Items.Strings
+   -> W (Winterbetrieb)
+   -> S (Sommerbetrieb)
+   -> TabOrder
+   -> TGroupBox
+
+[Component]: GrpBxIWerte
+   -> I-Werte
+   -> Enabled
+   -> TabOrder
+   -> Visible
+   -> TEditGroup
+   -> EGrpIWerte
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> Align
+   -> alClient
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> #I17 IBN Feurraumdruck Stufe 1#mbar
+   -> #I18 IBN Feurraumdruck Stufe 2#mbar
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TTabSheet
+
+[Component]: TbShtService
+   -> Heizungsfachmann
+   -> ImageIndex
+   -> TGroupBox
+
+[Component]: GrpBxService
+   -> Align
+   -> alTop
+   -> TabOrder
+   -> TLabel
+
+[Component]: LblP10
+   -> AutoSize
+   -> P10: Gerätetyp
+   -> TLabel
+
+[Component]: LblP12
+   -> P12: Kesseladresse
+   -> Enabled
+   -> TLabel
+
+[Component]: LblP13
+   -> P13: Funktion MFA1
+   -> TLabel
+
+[Component]: LblP15
+   -> P15: Funktion VA
+   -> TLabel
+
+[Component]: LblP16
+   -> P16: Funktion H1
+   -> TLabel
+
+[Component]: LblOutSensor
+   -> AutoSize
+   -> Außenfühler
+   -> TLabel
+
+[Component]: LblPWM
+   -> AutoSize
+   -> PWM Pumpe
+   -> TLabel
+
+[Component]: LblP17
+   -> P17: Funktion H2
+   -> TLabel
+
+[Component]: LblAbgasklappe
+   -> AutoSize
+   -> P11: Abgasklappe
+   -> TLabel
+
+[Component]: LblP14
+   -> P14: Funktion MFA2
+   -> TLabel
+
+[Component]: LblKonfig
+   -> Konfiguration:
+   -> TComboBox
+
+[Component]: CbBxP10
+   -> Style
+   -> csDropDownList
+   -> Enabled
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxP10Change
+
+[Component]: Items.Strings
+   -> Ausf.- H
+   -> Ausf.- W
+   -> Ausf.- I
+   -> Ausf.- P
+   -> Ausf.- H mit Puffer P1
+   -> Ausf.- H mit Puffer P2
+   -> Ausf.- H mit Puffer P3
+   -> Ausf.- W mit Puffer P1
+   -> Ausf.- W mit Puffer P2
+   -> Ausf.- W mit Puffer P3
+   -> Ausf.- I mit Puffer P1
+   -> Ausf.- I mit Puffer P2
+   -> Ausf.- I mit Puffer P3
+   -> Ausf.- P
+   -> Ausf.- P mit Puffer P3
+   -> Ausf.- P mit Puffer P3
+   -> TComboBox
+
+[Component]: CbBxP13
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxP17Change
+
+[Component]: Items.Strings
+   -> 0 - Betriebsmeldung
+   -> 1 - Störungsweitermeldung
+   -> +2 - Zubringerpumpe vor hydraulischer Weiche
+   -> 3 - Heizkreis-Pumpe
+   -> 4 - WW-Ladepumpe
+   -> "5 - Zirk-pumpe gem. Ansteuerung H2
+   -> 6 - Zirk-pumpe gem. Zirk-Prog FB
+   -> &7 - Heizkreis-Pumpe ferngesteuert FB#1
+   -> TComboBox
+
+[Component]: CbBxP15
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxP17Change
+
+[Component]: Items.Strings
+   -> 0 - Betriebsmeldung
+   -> 1 - Störungsweitermeldung
+   -> +2 - Zubringerpumpe vor hydraulischer Weiche
+   -> 3 - Heizkreis-Pumpe
+   -> 4 - WW-Ladepumpe
+   -> "5 - Zirk-pumpe gem. Ansteuerung H2
+   -> 6 - Zirk-pumpe gem. Zirk-Prog FB
+   -> &7 - Heizkreis-Pumpe ferngesteuert FB#1
+   -> TComboBox
+
+[Component]: CbBxP16
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> 0 - Heizkreisfreigabe
+   -> 1 - Heizkreis Absenk/Normal
+   -> 2 - -----
+   -> 3 - Stand-By mit Frostschutz
+   -> TComboBox
+
+[Component]: CbBxP17
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxP17Change
+
+[Component]: Items.Strings
+   -> 0 - WW Freigabe
+   -> 1 - WW Absenk/Normal
+   -> 2 - Heizbetrieb mit Sonderniveau
+   -> 3 - Not-Aus
+   -> 4 - Zirkulationspumpe (P54)
+   -> TRadioGroup
+
+[Component]: RGrpOutSensor
+   -> Columns
+   -> Enabled
+
+[Component]: Items.Strings
+   -> Nein (-)
+   -> Ja (A)
+   -> mA (t)
+   -> TabOrder
+   -> OnClick
+
+[Component]: RGrpOutSensorClick
+   -> TRadioGroup
+
+[Component]: RGrpPWM
+   -> Columns
+   -> Enabled
+
+[Component]: Items.Strings
+   -> Nein (-)
+   -> Ja (P)
+   -> TabOrder
+   -> OnClick
+
+[Component]: RGrpPWMClick
+   -> TRadioGroup
+
+[Component]: RGrpP12
+   -> Columns
+   -> Enabled
+
+[Component]: Items.Strings
+   -> TabOrder
+   -> TRadioGroup
+
+[Component]: RGrpAbgasklappe
+   -> Columns
+   -> Enabled
+
+[Component]: Items.Strings
+   -> Nein
+   -> TabOrder
+   -> OnClick
+
+[Component]: RGrpAbgasklappeClick
+   -> TComboBox
+
+[Component]: CbBxP14
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxP17Change
+
+[Component]: Items.Strings
+   -> 0 - Betriebsmeldung
+   -> 1 - Störungsweitermeldung
+   -> +2 - Zubringerpumpe vor hydraulischer Weiche
+   -> 3 - Heizkreis-Pumpe
+   -> 4 - WW-Ladepumpe
+   -> "5 - Zirk-pumpe gem. Ansteuerung H2
+   -> 6 - Zirk-pumpe gem. Zirk-Prog FB
+   -> &7 - Heizkreis-Pumpe ferngesteuert FB#1
+   -> TEdit
+
+[Component]: EdtKonfig
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpPParas
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> P18 Sonderniveau Heizbetrieb#°C
+   -> P19 WW-Pumpe nach Weiche
+   -> P20 Außenfühler Korrektur#K
+   -> P21 Gebäudebewertung#
+   -> P22 Heizkennliniensteilheit#
+   -> P23 Anlagenfrostschutz#°C
+   -> P30 Min. Vorlauftemperatur#°C
+   -> P31 Max. Vorlauftemperatur#°C
+   -> "P32 Schaltdifferenz Vorlauftemp.#K
+   -> "P33 Abschalttemperatur Abgasweg#°C
+   -> P34 Brenner Taktsperre#min
+   -> P36 Minimale Brennerleistung#kW
+   -> P37 Maximale Brennerleistung#kW
+   -> P38 Konfiguration Betriebsweise#
+   -> .P39 Minimaler Anlagendruck für Warnmeldung#bar
+   -> P40 Pumpendauerlauf#
+   -> P41 Pumpennachlaufzeit#min
+   -> /P42 HZ Pumpenleistung bei Brenner Ein Stufe 1#%
+   -> 0P43 HZ Pumpenleistung bei Brenner Ein Stufe 2#%
+   -> 'P44 HZ Pumpenleistung bei Brenner Aus#%
+   -> P45 WW Pumpenleistung#%
+   -> !P46 Konfiguration Pumpenregelung#
+   -> )P47 Differenztemperatur Weichenregelung#K
+   -> )P48 Differenztemperatur VL/RL-Regelung#K
+   -> $P49 Trägheit dTemp. Pumpenregelung#s
+   -> !P50 VL Überhöhung bei WW-Ladung#K
+   -> P51 Schaltdifferenz WW#K
+   -> P52 Max. WW-Ladezeit#min
+   -> &P53 Abzug WW-Temp. bei Absenkbetrieb#K
+   -> &P54 Nachlaufzeit Zirkulationspumpe#min
+   -> P62 Nachbelüftungszeit#s
+   -> P63 Zündstromschwelle
+   -> P70 Wartungsintervall#h
+   -> P71 Option mit eBus Speisung#
+   -> "P77 Gebläsedrehzahl Stufe 2#U/Min.
+   -> "P78 Gebläsedrehzahl Stufe 1#U/Min.
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TComboBox
+
+[Component]: CbBxP46
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxP46Change
+
+[Component]: Items.Strings
+   -> TComboBox
+   -> cbbxP19
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+   -> cbbxP19Change
+
+[Component]: Items.Strings
+   -> TGroupBox
+
+[Component]: GrpBxServiceDevice
+   -> Geräteparameter
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnServiceRead
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnServiceReadClick
+   -> TButton
+
+[Component]: BtnServiceWrite
+   -> &Eintragen
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnServiceWriteClick
+   -> TGroupBox
+
+[Component]: GrpBxServiceFile
+   -> Parameterdatei
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnServiceLoad
+   -> &Laden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnServiceLoadClick
+   -> TButton
+
+[Component]: BtnServiceSave
+   -> &Speichern
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnServiceSaveClick
+   -> TTabSheet
+
+[Component]: TbShtAnlage
+   -> Anlage
+   -> ImageIndex
+   -> TGroupBox
+
+[Component]: GrpBoxIoParas
+   -> Align
+   -> alTop
+   -> TabOrder
+   -> TGroupBox
+
+[Component]: GrpBxidentPara
+   -> Ident Para
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnReadIdentPara
+   -> Anchors
+   -> akLeft
+   -> akBottom
+   -> Lesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadIdentParaClick
+   -> TButton
+
+[Component]: BtnWriteIdentPara
+   -> Anchors
+   -> akLeft
+   -> akBottom
+   -> Eintragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteIdentParaClick
+   -> TEditGroup
+   -> EgrpIdentPara
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> Align
+   -> alTop
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> P104 Variante
+   -> P101 Software Revision
+   -> P102 BCC Idf
+   -> P103 Gerätetyp
+   -> P106 Codierstecker CRC
+   -> Reserve1 u8
+   -> CRC
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpP104
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> Align
+   -> alTop
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> P104 Variante
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpAParas
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> A4 Schaltdifferenz Stufe2 aus#%
+   -> A5 Schaltdifferenz Stufe2 ein#%
+   -> $A6 Symm. Schaltdifferenz WW/Puffer#K
+   -> A7 Minimale Pumpenleistung#%
+   -> ,A15 max. Temp.-differenz Vor-/Rücklauftemp#K
+   -> (A16 max. Temp.-gradient Wassertasche#K/s
+   -> *A17 Korrektur Verbrennungslufttemperatur#%
+   -> %A18 Temp.-differenz Ende Taktsperre#K
+   -> A21 Leistung Zwangsteillast#
+   -> A22 Zeitraum Zwangsteillast#s
+   -> "A23 Leistung Flammenstabilisierung
+   -> A24 Rampe Hochmodulieren#%/s
+   -> A25 Rampe Runtermodulieren#%/s
+   -> A26 Drehzahl Vorbelüftung#%
+   -> A27 Zündleistung
+   -> A28 Flammenstabilisierungszeit#s
+   -> #A32 Gebläsekorrektur Zünddrehzahl#%
+   -> 2A35 Zuschaltung MV Stufe 2 (bei Gebläsedrehzahl)#%
+   -> 2A36 Abschaltung MV Stufe 2 (bei Gebläsedrehzahl)#%
+   -> +A37 Flammenfühler Schwelle (Ionisation)
+   -> #µA
+   -> 1A38 Zulässiger Feuerraumdruckanstieg Stufe 1#mbar
+   -> 1A39 Zulässiger Feuerraumdruckanstieg Stufe 2#mbar
+   -> !A40 Ansteuerzeit Umschaltventil#s
+   -> A41 Drehzahl Nachbelüftung#%
+   -> A43 Max. Laufzeit Abgasklappe#s
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TCheckBox
+   -> chkBxA1
+   -> A0.1 Anlagendruck und RL-Fühler
+   -> TabOrder
+   -> OnClick
+   -> chkBxA1Click
+   -> TCheckBox
+   -> chkBxA2
+   -> A0.2 Feuerraumsensor
+   -> TabOrder
+   -> OnClick
+   -> chkBxA2Click
+   -> TCheckBox
+   -> chkBxA3
+   -> "A0.3 Wassertaschentemperaturfühler
+   -> TabOrder
+   -> OnClick
+   -> chkBxA3Click
+   -> TGroupBox
+
+[Component]: GrpBoxIoParasFile
+   -> Parameterdatei
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnAnlageParasLoad
+   -> &Laden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnAnlageParasLoadClick
+   -> TButton
+
+[Component]: BtnIoParasSave
+   -> &Speichern
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnAnlageParasSaveClick
+   -> TGroupBox
+
+[Component]: GrpBoxIoParasDevice
+   -> Geräteparameter
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnAnlageParasRead
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnAnlageParasReadClick
+   -> TButton
+
+[Component]: BtnAnlageParasWrite
+   -> &Eintragen
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnAnlageParasWriteClick
+   -> TTabSheet
+
+[Component]: TbShtFailSafe
+   -> Hersteller
+   -> ImageIndex
+   -> TGroupBox
+
+[Component]: GrpBxFS
+   -> Align
+   -> alTop
+   -> TabOrder
+   -> TLabel
+   -> Transparent
+   -> TEditGroup
+   -> EGrpFS
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> S0   Optionen
+   -> S10 Nennleistung der Therme#kW
+   -> )S11 Min. Leistung der Therme (S11<S10)#kW
+   -> S20 Sicherheitszeit Start#s
+   -> S21 Sicherheitszeit Betrieb#s
+   -> S22 Vorbelüftungszeit#s
+   -> S23 Stabilisierungszeit#s
+   -> S24 Nachbelüftungszeit#s
+   -> +S25 Max.Anzahl Wiederanläufe bei FL-Ausfall
+   -> S26 Max.Anzahl Startversuche
+   -> S27 Zündstromschwelle unten
+   -> $S30 STW Abschalttemperatur Kessel#°C
+   -> .S40 Vormischkammertemperatur Freigabe Start#°C
+   -> 0S41 Vormischkammer Abkühltemperatur bis Start#°C
+   -> #S42 VK-Grenzwert Kalt-/Warmstart#°C
+   -> ,S50 Max. Drehzahl bei Nennleistung S10#U/min
+   -> 2S51 Min. Drehzahl bei minimaler Leistung S11#U/min
+   -> 5S52 Periodendauer Dosierpumpenansteuerung bei 15KW#ms
+   -> S53 Dosierpumpenhübe für 1l Öl
+   -> S54 Gebläseregler P-Anteil
+   -> S55 Gebläseregler I-Anteil#1/s
+   -> S56 Gebläseregleranpassung
+   -> S57 Gebläsestartsignal#%
+   -> )S58 Max. Abweichung Gemisch während 10s#%
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TCheckGroup
+
+[Component]: ChkGrpS00
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> TabOrder
+   -> OnClick
+
+[Component]: ChkGrpS00Click
+   -> Distance
+   -> HorDistance
+
+[Component]: Items.Strings
+   -> S0.0 Brennwertzentrale
+   -> !S0.1 Entlüftung Ölleitung erlaubt
+   -> S0.2 Zündstromüberwachung
+   -> S0.3 BCC aktiviert
+   -> S0.4 TW Ereigniszählung
+   -> Columns
+   -> test
+   -> TGroupBox
+
+[Component]: GrpBxFsDevice
+   -> Geräteparameter
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnFSRead
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnFSReadClick
+   -> TButton
+
+[Component]: BtnFSWrite
+   -> &Eintragen
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnFSWriteClick
+   -> TButton
+
+[Component]: BtnEEDownLoad
+   -> EEProm Download
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnEEDownLoadClick
+   -> TGroupBox
+
+[Component]: GrpBxFSFile
+   -> Parameterdatei
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnFSLoad
+   -> &Laden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnFSLoadClick
+   -> TButton
+
+[Component]: BtnFSSave
+   -> &Speichern
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnFSSaveClick
+   -> TButton
+   -> btnSaveAll
+   -> Alle &Daten speichern
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+   -> btnSaveAllClick
+   -> TTabSheet
+
+[Component]: TbShtStatistik
+   -> Statistik
+   -> ImageIndex
+   -> TGroupBox
+
+[Component]: GrpBxStatisticDevice
+   -> Gerätestatistik
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnStatisticRead
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnStatisticReadClick
+   -> TButton
+
+[Component]: BtnStatisticClear
+   -> Rüc&ksetzen
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnStatisticClearClick
+   -> TButton
+
+[Component]: BtnActivateStat
+   -> P_Code
+   -> TabOrder
+   -> Visible
+   -> OnClick
+
+[Component]: BtnActivateStatClick
+   -> TGroupBox
+
+[Component]: GrpBxStatisticFile
+   -> Statistikdatei
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnStatisticLoad
+   -> &Laden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnStatisticLoadClick
+   -> TButton
+
+[Component]: BtnStatisticSave
+   -> &Speichern
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnStatisticSaveClick
+   -> TGroupBox
+
+[Component]: GrpBxStatistic
+   -> Align
+   -> alTop
+   -> Enabled
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpStatistic
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> Align
+   -> alClient
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> F1 1: STB Übertemperatur Vorlauf
+   -> W1 2: STW Übertemperatur Vorlauf
+   -> F1 2: STW Übertemperatur Vorlauf
+   -> F1 3: STB Übertemperatur Abgas
+   -> !W1 4: Max. Gradient Wassertasche
+   -> #W1 5: Spreizung Vorlauf / Rücklauf
+   -> #F1 5: Spreizung Vorlauf / Rücklauf
+   -> W1 6: Abgas Übertemperatur
+   -> F1 6: Abgas Übertemperatur
+   -> %W1 7: Verbrennungsluft-Übertemperatur
+   -> %F1 7: Verbrennungsluft-Übertemperatur
+   -> W19: Feuerraumüberdruck
+   -> F19: Feuerraumüberdruck
+   -> W2 1: Keine Flammenbildung
+   -> F2 1: Keine Flammenbildung
+   -> W2 2: Flammenausfall im Betrieb
+   -> F2 2: Flammenausfall im Betrieb
+   -> F2 3: Flammenvortäuschung
+   -> W2 4: Not-Aus
+   -> W2 5: Alarm Kondensatpumpe
+   -> "W2 7: Sensor Feuerraumdruck defekt
+   -> -W2 8: Anlagendruck/Rücklauftemp-Sensor defekt
+   -> )F2 9:Wassertaschentemperatursensor defekt
+   -> F3 0: Vorlauffühler defekt
+   -> F3 1: Abgasfühler defekt
+   -> $F3 2: Fehler LDW-Ruhestandskontrolle
+   -> W3 3: Außenfühler defekt
+   -> !W3 4: Warmwasserfühler B3 defekt
+   -> W3 5: WW-Auslauf B12 defekt
+   -> W3 6: Anlagendruck zu gering
+   -> F3 6: Anlagendruck zu gering
+   -> -F3 7: Verbrennungslufttemperatursensor defekt
+   -> F3 8: Pufferfühler B10 defekt
+   -> F3 9: Pufferfühler B11 defekt
+   -> F4 1: Fehler Abgasklappe
+   -> W4 2: PWM Pumpe defekt
+   -> W4 3: Gebläsewarnung im Betrieb
+   -> F4 3: Gebläsefehler im Betrieb
+   -> "F4 4: Gebläsefehler im Stillstand
+   -> (F4 5: Fehler LDW Arbeitskontaktkontrolle
+   -> F4 7: Zündbaustein defekt
+   -> .F4 8: OelLuftverbund: Abweichung des Gemisches
+   -> F5 0: Unbekannter Fehler
+   -> +F5 1: CRC-Fehler Heizungsfachmannparameter
+   -> $F5 2: CRC-Fehler Herstellerparameter
+   -> !F5 3: Fehler Spannungsversorgung
+   -> F5 4: Interner Defekt
+   -> F5 5: Eeprom fehlerhaft
+   -> !F5 6: Relaisrücklesung fehlerhaft
+   -> #F5 7: Interner Kommunikationsfehler
+   -> F5 8: Zu häufig fernentriegelt
+   -> ,F7 0: Düsenheizung zu kalt => keine Freigabe
+   -> /F7 1: Kontakt Düsenheizung permanent geschaltet
+   -> Zeit seit letzter Wartung
+   -> Anzahl Fehlzündungen
+   -> Anzahl Zündungen
+   -> Anzahl Flammenausfälle
+   -> Betriebsstunden Brenner
+   -> Ölverbrauch (Liter)
+   -> Anzahl Netz ein
+   -> Betriebstunden Kessel
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TTabSheet
+
+[Component]: TbShtErrorBuffer
+   -> Fehlerhistorie
+   -> ImageIndex
+   -> TGroupBox
+
+[Component]: GrpBxHistoryDevice
+   -> Gerätehistorie
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnHistoryRead
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnHistoryReadClick
+   -> TButton
+
+[Component]: BtnHistoryClear
+   -> Rüc&ksetzen
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnHistoryClearClick
+   -> TGroupBox
+
+[Component]: GrpBxHistoryFile
+   -> Historiedatei
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnHistoryLoad
+   -> &Laden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnHistoryLoadClick
+   -> TButton
+
+[Component]: BtnHistorySave
+   -> &Speichern
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnHistorySaveClick
+   -> TGroupBox
+
+[Component]: GrpBxHistory
+   -> Align
+   -> alTop
+   -> TabOrder
+   -> TLabel
+
+[Component]: LblErrorCode
+   -> Fehlercode
+   -> TLabel
+   -> LBLI10
+   -> I10: Betriebsphase
+   -> TLabel
+   -> LBLI11
+   -> I11: Laststellung [KW]
+   -> TLabel
+   -> LBLI30
+   -> !I30: Vorlauftemperatur eSTB [°C]
+   -> TLabel
+   -> LBLI31
+   -> I31: Abgastemperatur [°C]
+   -> TLabel
+   -> LBLI33
+   -> I33: Außentemperatur [°C]
+   -> TLabel
+   -> LBLI37
+   -> $I37: Verbrennungslufttemperatur [°C]
+   -> TLabel
+   -> LBLI21
+   -> I21: Magnetventil
+   -> TLabel
+   -> LBLI20
+   -> I20: Stellung Umschaltventil
+   -> TLabel
+   -> LBLI34
+   -> I34: WW-Temperatur [°C]
+   -> TLabel
+   -> lblI14
+   -> I14: Brennerlaufzeit [s]
+   -> TLabel
+   -> LBLI40
+   -> !I40: Brennerstarts seit letzter..
+   -> TLabel
+
+[Component]: LblI16
+   -> I16: Feuerraumdruck [mbar]
+   -> TLabel
+
+[Component]: LblNr
+   -> Laufende Nummer
+   -> TStringGrid
+
+[Component]: StrGridHistory
+   -> TabStop
+   -> clWhite
+   -> ColCount
+   -> DefaultColWidth
+   -> DefaultRowHeight
+   -> FixedCols
+   -> RowCount
+   -> FixedRows
+   -> Options
+   -> goFixedVertLine
+   -> goFixedHorzLine
+   -> goVertLine
+   -> goHorzLine
+   -> goRangeSelect
+   -> goDrawFocusSelected
+   -> ScrollBars
+   -> ssHorizontal
+   -> TabOrder

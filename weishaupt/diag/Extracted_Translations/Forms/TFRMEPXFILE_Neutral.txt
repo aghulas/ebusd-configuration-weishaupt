@@ -1,0 +1,407 @@
+--- Form: TFRMEPXFILE [Neutral] ---
+
+[Component]: GrpBxMenuDevice
+   -> Align
+   -> alBottom
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnEpxcancel
+   -> &Abbrechen
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnEpxcancelClick
+   -> TButton
+
+[Component]: BtnEpxWrite
+   -> &Eintragen
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnEpxWriteClick
+   -> TButton
+
+[Component]: BtnEpxRead
+   -> A&uslesen
+   -> TabOrder
+   -> Visible
+   -> OnClick
+
+[Component]: BtnEpxReadClick
+   -> TButton
+
+[Component]: BtnEpxLoad
+   -> &Laden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnEpxLoadClick
+   -> TButton
+
+[Component]: BtnEpxSave
+   -> &Speichern
+   -> TabOrder
+   -> Visible
+   -> OnClick
+
+[Component]: BtnEpxSaveClick
+   -> TCheckBox
+   -> Chkbxeea
+   -> Chkbxeea
+   -> Checked
+   -> State
+   -> cbChecked
+   -> TabOrder
+   -> Visible
+   -> TRadioGroup
+
+[Component]: RGrpBusAdr
+   -> Align
+   -> alBottom
+   -> BusAdr Master
+   -> Columns
+
+[Component]: Items.Strings
+   -> 03H
+   -> 13H
+   -> 33H
+   -> 73H
+   -> F3H
+   -> TabOrder
+   -> Visible
+   -> OnClick
+
+[Component]: RGrpBusAdrClick
+   -> TGroupBox
+
+[Component]: GrpBxCRCs
+   -> Align
+   -> alBottom
+   -> CRCs
+   -> TabOrder
+   -> Visible
+   -> TEditGroup
+   -> EGrpCRCs
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> Align
+   -> alClient
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> NFS
+   -> Menü
+   -> Prüfdaten
+   -> Ion1
+   -> Ion2
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TsiLangLinked
+   -> siLangLinked1
+   -> Version
+   -> 5.3.1.1
+
+[Component]: StringsTypes.Strings
+   -> TIB_STRINGLIST
+   -> TSTRINGLIST
+
+[Component]: SmartExcludeProps.Strings
+   -> TfrmEPXFile.Caption
+
+[Component]: GrpBxMenuDevice.Caption
+
+[Component]: GrpBxCRCs.Caption
+   -> memoEpxFile.Lines
+
+[Component]: RGrpBusAdr.Items
+   -> EGrpCRCs.Items
+   -> NumOfLanguages
+   -> LangDispatcher
+   -> MainForm.siLangDispatcher1
+   -> OnChangeLanguage
+   -> siLangLinked1ChangeLanguage
+   -> LangDelim
+
+[Component]: LangNames.Strings
+   -> Deutsch
+   -> English
+   -> Francais
+   -> Italiano
+   -> Espanol
+   -> Nederlands
+   -> Dansk
+   -> Swedish
+   -> Norwegian
+   -> Slovenski
+   -> Hrvatski
+   -> Magyar
+   -> Polski
+   -> Russian
+   -> Greece
+   -> Language
+   -> Deutsch
+   -> TranslationData
+   -> stCaptions
+
+[Component]: BtnEpxcancel
+   -> &Abbrechen
+   -> &Cancel
+   -> &Interrompre
+   -> &Interrompere
+   -> &Salir
+   -> &Onderbreken
+   -> Afbryd
+   -> &Avbryt
+   -> &prekinuti
+   -> &Megszakítani
+   -> &Anuluj
+   -> &Ïðåðâàòü
+
+[Component]: BtnEpxLoad
+   -> &Laden
+   -> &Load
+   -> &Charger
+   -> &Caricare
+   -> &Cargar
+   -> &Laden
+   -> Indlæs
+   -> &Ladda
+   -> &pozvati
+   -> &Betölteni
+   -> &Otwórz
+   -> &Çàãðóçèòü
+
+[Component]: BtnEpxRead
+   -> A&uslesen
+   -> &Read
+   -> &Lire
+   -> &Leggere
+   -> &Leer
+   -> &Aflezen
+   -> Udlæs
+   -> &Läs
+   -> &oèitati
+   -> &Kiolvasni
+   -> Odczyt
+   -> Ñ&÷èòàòü
+
+[Component]: BtnEpxSave
+   -> &Speichern
+   -> &Save
+   -> &Enregistrer
+   -> &Salvare
+   -> &Guardar
+   -> &Opslaan
+   -> Gem
+   -> &Spara
+   -> &pohraniti
+   -> &Tárolni
+   -> &Zapis
+   -> &Ñîõðàíèòü
+
+[Component]: BtnEpxWrite
+   -> &Eintragen
+   -> &Write
+   -> &Ecrire
+   -> &Scrivere
+   -> &Escribir
+   -> &Optekenen
+   -> Skriv
+   -> &Skriv
+   -> &unijeti
+   -> &Bevinni
+   -> &Zapis w urz.
+   -> &Ââåñòè
+
+[Component]: RGrpBusAdr
+   -> BusAdr Master
+   -> BusAddr Master
+   -> Adresse Bus du master
+   -> Indirizzo Bus Master
+   -> BusAdr Master
+   -> Master Bus-adressse
+   -> Bus-adr. Master
+   -> BusAdr Master
+   -> Adres g³ówny magistrali eBus
+   -> ÀäðåñØèíû Master
+   -> stHints
+   -> TfrmEPXFile
+   -> memoEpxFile
+   -> pBarEpxFile
+
+[Component]: GrpBxMenuDevice
+
+[Component]: BtnEpxcancel
+
+[Component]: BtnEpxWrite
+
+[Component]: BtnEpxRead
+
+[Component]: BtnEpxLoad
+
+[Component]: BtnEpxSave
+
+[Component]: RGrpBusAdr
+
+[Component]: GrpBxCRCs
+   -> EGrpCRCs
+   -> stDisplayLabels
+   -> stFonts
+   -> TfrmEPXFile
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> Tahoma
+   -> memoEpxFile
+   -> Courier New
+   -> Courier New
+   -> Courier New
+   -> Courier New
+   -> Courier New
+   -> stMultiLines
+
+[Component]: stStrings
+
+[Component]: strcDatenuebertragungAnBusteilnehmerNichtMoeglich
+   -> An den Busteilnehmer können keine Daten übertragen werden!
+   -> Datatransfer to bus device impossible!
+   -> Aucune donnée ne peut être transférée au Bus
+   -> Impossibile trasferire dati al partecipante bus!
+   -> ¡Transferencia de datos a dispositivo Bus no es posible!
+   -> Aan de Busdeelnemer kunnen geen gegevens overgedragen worden!
+   -> Datatransport til busenhed er ikke mulig!
+   -> Till Bus-deltagaren kan inga data överföras
+   -> Na BUS uèesnika se ne mogu prenjeti podaci!
+   -> Nem lehet adatot továbbítani bus-résztvevõknek!
+   -> Brak mozl. rejestr. danych od uczestnika magistrali eBus!
+   -> Íà ïîëüçîâàòåëÿ øèíû íåëüçÿ ïåðåäàòü äàííûå!
+
+[Component]: strcFormatFehler
+   -> Format fehlerhaft!
+   -> Error in format
+   -> Format erroné !
+   -> Errore di formato!
+   -> ¡Formato erróneo!
+   -> Foutief formaat
+   -> Fejl i format
+   -> Formatfel
+   -> Pogreška formata!
+   -> Hibás formátum!
+   -> Format nieprawidlowy!
+   -> Äðóãîé ôîðìàò!
+
+[Component]: strcLimitFehler
+   -> Wert nicht im gültigen Bereich!
+   -> Values out of limits!
+   -> Valeur hors limites autorisées !
+   -> Valore fuori campo valido!
+   -> ¡Valores fuera de límites!
+   -> Ongeldige waarde
+   -> Værdi er ikke indenfor gyldigt område!
+   -> Värde ej inom giltigt omrade
+   -> Podatak nije u podruèju!
+   -> Az érték nem az érvényes tartományban van!
+   -> Wartosc w niedozwolonym zakresie!
+   -> Çíà÷åíèå çà ïðåäåëàìè äèàïàçîíà!
+
+[Component]: strcLoad_epx_file
+   -> Load parameter file
+   -> Load parameter file
+   -> Charger fichier de paramètres
+   -> Caricare file parametri
+   -> Cargar archivo de parámetros
+   -> Parameterbestand opladen
+   -> Indlæs parameter fil
+   -> Ladda parameterfil
+   -> Spremi datoteku parametara
+   -> paraméterfile betöltése
+   -> Otwórz plik z parametrami
+   -> Çàãðóçèòü ôàéë ïàðàìåòðîâ
+
+[Component]: strcParameter
+   -> Parameter
+   -> Parameter
+   -> Paramètres
+   -> Parametri
+   -> Parámetros
+   -> Parameters
+   -> Parameter
+   -> Parameter
+   -> Parametar
+   -> paraméter
+   -> Parametry
+   -> Ïàðàìåòðû
+
+[Component]: strcServiceKannOfflineNichtAusgefuehrtWerden
+   -> Service kann im Offline-Mode nicht ausgeführt werden!
+   -> Offline mode: service can not be done!
+   -> Le service ne peut se faire en mode off-line !
+   -> Il servizio non può venire eseguito nel modo offline!
+   -> ¡Modo Offline: servicio no es posible!
+   -> Service kan in offline-modus niet uitgevoerd worden!
+   -> Service kan ikke udføres i off-line-mode!
+   -> Service kan ej utföras offline
+   -> Servis se ne može obaviti u Offline-Modu!
+   -> Szerviz az Offline-üzemmódban nem végrehajtható!
+   -> Serwis nie moze byc aktywny w trybie offline!
+   -> Â ðåæèìå Offline ñåðâèñ ïðîâîäèòü íåëüçÿ!
+
+[Component]: strcFortsetzen
+   -> Fortsetzen?
+   -> Continue?
+   -> Continue?
+   -> Continue?
+   -> Continue?
+   -> Continue?
+   -> Continue?
+   -> Continue?
+   -> Continue?
+   -> Continue?
+   -> Continue?
+   -> Continue?
+
+[Component]: strcDateiKomplettUebertragen
+   -> Datei komplett übertragen?
+   -> Transfer file completly?
+   -> Transfer file completly?
+   -> Transfer file completly?
+   -> Transfer file completly?
+   -> Transfer file completly?
+   -> Transfer file completly?
+   -> Transfer file completly?
+   -> Transfer file completly?
+   -> Transfer file completly?
+   -> Transfer file completly?
+   -> Transfer file completly?
+
+[Component]: stOtherStrings
+   -> TfrmEPXFile.HelpFile
+   -> memoEpxFile.ImeName
+   -> stCollections
+   -> stCharSets
+   -> TfrmEPXFile
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> RUSSIAN_CHARSET
+   -> memoEpxFile
+   -> ANSI_CHARSET
+   -> ANSI_CHARSET
+   -> ANSI_CHARSET
+   -> ANSI_CHARSET

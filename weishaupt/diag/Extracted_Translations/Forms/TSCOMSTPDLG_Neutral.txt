@@ -1,0 +1,238 @@
+--- Form: TSCOMSTPDLG [Neutral] ---
+
+[Component]: RGrpComPort
+   -> Align
+   -> alTop
+   -> COM-Port
+   -> Columns
+
+[Component]: Items.Strings
+   -> &10
+   -> &11
+   -> &12
+   -> TabOrder
+   -> TComboBox
+   -> comboBaudRate
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> 1200
+   -> 2400
+   -> 4800
+   -> 9600
+   -> 187500
+   -> TCheckBox
+   -> cbxDTR
+   -> &DTR
+   -> TabOrder
+   -> OnClick
+   -> cbxDTRClick
+   -> TCheckBox
+   -> cbxRTS
+   -> &RTS
+   -> TabOrder
+   -> OnClick
+   -> cbxDTRClick
+   -> TCheckBox
+   -> cbxHardWareEcho
+   -> &Hardware-Echo
+   -> TabOrder
+   -> TButton
+   -> btnConnect
+   -> &Verbinden
+   -> TabOrder
+   -> OnClick
+   -> btnConnectClick
+   -> TButton
+   -> btnTrennen
+   -> &Trennen
+   -> TabOrder
+   -> OnClick
+   -> btnTrennenClick
+   -> TRadioGroup
+
+[Component]: RGrpConnectState
+   -> Enabled
+
+[Component]: Items.Strings
+   -> verbunden
+   -> getrennt
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnClose
+   -> &Schließen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnCloseClick
+   -> TCheckBox
+
+[Component]: ChkBxUSB
+   -> USB
+   -> TabOrder
+   -> OnClick
+
+[Component]: ChkBxUSBClick
+   -> TButton
+   -> btnOptoTest
+   -> &Opto-Adapter-Test
+   -> TabOrder
+   -> Visible
+   -> OnClick
+   -> btnOptoTestClick
+   -> TButton
+
+[Component]: BtnFindCom
+   -> &COM-Port finden
+   -> TabOrder
+   -> Visible
+   -> OnClick
+
+[Component]: BtnFindComClick
+   -> TsiLangLinked
+   -> siLangLinked1
+   -> Version
+   -> 5.3.1.1
+
+[Component]: StringsTypes.Strings
+   -> TIB_STRINGLIST
+   -> TSTRINGLIST
+   -> NumOfLanguages
+   -> LangDispatcher
+   -> MainForm.siLangDispatcher1
+   -> LangDelim
+
+[Component]: LangNames.Strings
+   -> Deutsch
+   -> Englisch
+   -> USA Englisch
+   -> Französisch
+   -> Spanisch
+   -> Italienisch
+   -> Tschechisch
+   -> Language
+   -> Deutsch
+   -> CommonContainer
+   -> MainForm.siLang1
+   -> TranslationData
+   -> stCaptions
+   -> TSComStpDlg
+   -> COM-Port SCom2
+   -> lblBaudRate
+   -> &Baudrate:
+   -> &Baud rate:
+   -> &Baud rate:
+   -> &Baud rate:
+   -> &Baud rate:
+   -> &Baud rate:
+
+[Component]: RGrpComPort
+   -> COM-Port
+   -> cbxDTR
+   -> &DTR
+   -> cbxRTS
+   -> &RTS
+   -> cbxHardWareEcho
+   -> &Hardware-Echo
+   -> btnConnect
+   -> &Verbinden
+   -> Connect
+   -> Connect
+   -> Connecter
+   -> Conectar
+   -> Collega
+   -> Pripojit
+   -> btnTrennen
+   -> &Trennen
+   -> Disconnect
+   -> Disconnect
+   -> &Deconnecter
+   -> Desconectar
+   -> Interrompi coll.
+   -> Odpojit
+
+[Component]: RGrpConnectState
+
+[Component]: BtnClose
+   -> &Schließen
+   -> Close
+   -> Close
+   -> Fermer
+   -> Cerrar
+   -> Chiudi
+   -> Zavrít
+
+[Component]: ChkBxUSB
+   -> USB
+   -> btnOptoTest
+   -> &Opto-Adapter-Test
+
+[Component]: BtnFindCom
+   -> &COM-Port finden
+   -> stHints
+   -> TSComStpDlg
+   -> lblBaudRate
+
+[Component]: RGrpComPort
+   -> comboBaudRate
+   -> cbxDTR
+   -> cbxRTS
+   -> cbxHardWareEcho
+   -> btnConnect
+   -> btnTrennen
+
+[Component]: RGrpConnectState
+
+[Component]: BtnClose
+
+[Component]: ChkBxUSB
+   -> btnOptoTest
+
+[Component]: BtnFindCom
+   -> stDisplayLabels
+   -> stFonts
+   -> TSComStpDlg
+   -> MS Sans Serif
+   -> lblBaudRate
+   -> MS Sans Serif
+   -> stMultiLines
+
+[Component]: RGrpComPort.Items
+   -> &1,&2,&3,&4,&5,&6,&7,&8,&9,&10,&11,&12
+   -> comboBaudRate.Items
+   -> 1200,2400,4800,9600,187500
+
+[Component]: RGrpConnectState.Items
+   -> verbunden,getrennt
+   -> connected,disconnected
+   -> connected,disconnected
+   -> connecté,déconnecté
+   -> conectado,desconectado
+   -> Collegato,"Collegamento interrotto"
+   -> p?ipojeno,odpojeno
+
+[Component]: stStrings
+
+[Component]: stOtherStrings
+   -> TSComStpDlg.HelpFile
+   -> comboBaudRate.ImeName
+   -> comboBaudRate.Text
+   -> Baud rate
+   -> Baud rate
+   -> Baud rate
+   -> Baud rate
+   -> Baud rate
+   -> stCollections
+   -> stCharSets
+   -> TSComStpDlg
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> lblBaudRate
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET

@@ -1,0 +1,432 @@
+--- Form: TFRMWST [Neutral] ---
+
+[Component]: GrpBoxHzIn
+   -> Align
+   -> alClient
+   -> Enabled
+   -> TabOrder
+   -> TLabel
+   -> lblHK1
+   -> AutoSize
+   -> HK1
+   -> TLabel
+   -> lblHK2
+   -> AutoSize
+   -> HK2
+   -> TLabel
+   -> lblHK3
+   -> AutoSize
+   -> HK3
+   -> TLabel
+   -> lblHK4
+   -> AutoSize
+   -> HK4
+   -> TLabel
+   -> lblHK5
+   -> AutoSize
+   -> HK5
+   -> TLabel
+   -> lblHK6
+   -> AutoSize
+   -> HK6
+   -> TLabel
+   -> lblHK7
+   -> AutoSize
+   -> HK7
+   -> TLabel
+   -> lblHK8
+   -> AutoSize
+   -> HK8
+   -> TLabel
+   -> lblWAHKs
+   -> Wärmeanforderung Heizkreis [°C]
+   -> TLabel
+   -> lblWAWW
+   -> Freigabe Warmwasser
+   -> TLabel
+   -> lblTimeOut
+   -> &Zeit seit letztem Sollwertbefehl [min]
+   -> TLabel
+   -> lblSysHZSoll
+   -> Soll-Temperatur-System [°C]
+   -> TLabel
+   -> lblSysWWSoll
+   -> Warmwassersollwert FB#1 [°C]
+   -> TLabel
+   -> lblHKFrg
+   -> Freigabe Heizkreis
+   -> TEditGroup
+   -> EGrpSysTimeout
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpHZIn
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEdit
+
+[Component]: EdtSysHKSoll
+   -> TabOrder
+   -> TEdit
+
+[Component]: EdtSysWA
+   -> TabOrder
+   -> TCheckBox
+   -> CheckBox4
+   -> TabOrder
+   -> TCheckBox
+   -> CheckBox2
+   -> TabOrder
+   -> TCheckBox
+   -> CheckBox3
+   -> TabOrder
+   -> TCheckBox
+   -> CheckBox1
+   -> TabOrder
+   -> TCheckBox
+   -> CheckBox5
+   -> TabOrder
+   -> TCheckBox
+   -> CheckBox6
+   -> TabOrder
+   -> TCheckBox
+   -> CheckBox7
+   -> TabOrder
+   -> TCheckBox
+   -> CheckBox8
+   -> TabOrder
+   -> TCheckBox
+   -> CheckBox9
+   -> TabOrder
+   -> TCheckBox
+   -> CheckBox10
+   -> TabOrder
+   -> TCheckBox
+   -> CheckBox11
+   -> TabOrder
+   -> TCheckBox
+   -> CheckBox12
+   -> TabOrder
+   -> TCheckBox
+   -> CheckBox13
+   -> TabOrder
+   -> TCheckBox
+   -> CheckBox14
+   -> TabOrder
+   -> TCheckBox
+   -> CheckBox15
+   -> TabOrder
+   -> TCheckBox
+   -> CheckBox16
+   -> TabOrder
+   -> TsiLangLinked
+   -> siLangLinked1
+   -> Version
+   -> 5.3.1.1
+
+[Component]: StringsTypes.Strings
+   -> TIB_STRINGLIST
+   -> TSTRINGLIST
+
+[Component]: SmartExcludeProps.Strings
+   -> CheckBox4.Caption
+   -> NumOfLanguages
+   -> LangDispatcher
+   -> MainForm.siLangDispatcher1
+   -> OnChangeLanguage
+   -> siLangLinked1ChangeLanguage
+   -> LangDelim
+
+[Component]: DoNotTranslate.Strings
+
+[Component]: GrpBoxHzIn
+   -> CheckBox4
+   -> CheckBox2
+   -> CheckBox3
+   -> CheckBox1
+   -> CheckBox5
+   -> CheckBox6
+   -> CheckBox7
+   -> CheckBox8
+   -> CheckBox9
+   -> CheckBox10
+   -> CheckBox11
+   -> CheckBox12
+   -> CheckBox13
+   -> CheckBox14
+   -> CheckBox15
+   -> CheckBox16
+
+[Component]: LangNames.Strings
+   -> Deutsch
+   -> English
+   -> Francais
+   -> Italiano
+   -> Espanol
+   -> Nederlands
+   -> Dansk
+   -> Swedish
+   -> Norwegian
+   -> Slovenski
+   -> Hrvatski
+   -> Magyar
+   -> Polski
+   -> Russian
+   -> Greece
+   -> Language
+   -> Deutsch
+   -> TranslationData
+   -> stCaptions
+   -> TfrmWST
+   -> System Wärmesteuerung
+   -> System heat control
+   -> Système pilotage chaleur
+   -> Comando calore sistema
+   -> Sistema control calor
+   -> Warmtesturing systeem
+   -> Varmestyrings system
+   -> System Värmestyrning
+   -> Sustav upravljanja toplinom
+   -> rendszer hõvezérlés
+   -> system sterowania ciep³em
+   -> Óïðàâëåíèå òåïëîì ñèñòåìû
+   -> lblHK1
+   -> HK1
+   -> HC1
+   -> CC 1
+   -> CR 1
+   -> Cto1
+   -> SK1
+   -> VK1
+   -> VK1
+   -> KG1
+   -> fûtõkör1
+   -> og 1
+   -> ÊÍ1
+   -> lblHK2
+   -> HK2
+   -> HC2
+   -> CC 2
+   -> CR 2
+   -> Cto2
+   -> SK2
+   -> VK2
+   -> VK2
+   -> KG2
+   -> fûtõkör2
+   -> og 2
+   -> ÊÍ2
+   -> lblHK3
+   -> HK3
+   -> HC3
+   -> CC 3
+   -> CR 3
+   -> Cto3
+   -> SK3
+   -> VK3
+   -> VK3
+   -> KG3
+   -> fûtõkör3
+   -> og 3
+   -> ÊÍ3
+   -> lblHK4
+   -> HK4
+   -> HC4
+   -> CC 4
+   -> CR 4
+   -> Cto4
+   -> SK4
+   -> VK4
+   -> VK4
+   -> KG4
+   -> fûtõkör4
+   -> og 4
+   -> ÊÍ4
+   -> lblHK5
+   -> HK5
+   -> HC5
+   -> CC 5
+   -> CR 5
+   -> Cto5
+   -> SK5
+   -> VK5
+   -> VK5
+   -> KG5
+   -> fûtõkör5
+   -> og 5
+   -> ÊÍ5
+   -> lblHK6
+   -> HK6
+   -> HC6
+   -> CC 6
+   -> CR 6
+   -> Cto6
+   -> SK6
+   -> VK6
+   -> VK6
+   -> KG6
+   -> fûtõkör6
+   -> og 6
+   -> ÊÍ6
+   -> lblHK7
+   -> HK7
+   -> HC7
+   -> CC 7
+   -> CR 7
+   -> Cto7
+   -> SK7
+   -> VK7
+   -> VK7
+   -> KG7
+   -> fûtõkör7
+   -> og 7
+   -> ÊÍ7
+   -> lblHK8
+   -> HK8
+   -> HC8
+   -> CC 8
+   -> CR 8
+   -> Cto8
+   -> SK8
+   -> VK8
+   -> VK8
+   -> KG8
+   -> fûtõkör8
+   -> og 8
+   -> ÊÍ8
+   -> lblHKFrg
+   -> Freigabe Heizkreis
+   -> Release HC
+   -> Autorisation circuit chauffage
+   -> Consenso circuito riscaldamento
+   -> Permiso Circuito
+   -> Vrijgave stookkring
+   -> VK frigivelse
+   -> Frigivning VK
+   -> Slobodno za krug grijanja
+   -> fûtõkör engedélyezés
+   -> zezwolenie na prace obiegu grz.
+   -> Çàïóñê êîíòóðà îòîïëåíèÿ
+   -> lblSysHZSoll
+   -> Soll-Temperatur-System [°C]
+   -> Setpoint temperature system [°C]
+   -> Température consigne système [°C]
+   -> Temperatura nomin. sistema [°C]
+   -> Consigna temp. sistema
+   -> Insteltemp. systeem [°C]
+   -> Beregnet system-setpunkt (°C)
+   -> Bör-temp. System [°C]
+   -> zadana temperatura sustava [°C]
+   -> rendszer par-hõmérséklet [°C]
+   -> t. zadana systemu [°C]
+   -> Çàäàííàÿ òåìïåðàòóðà ñèñòåìû [°C]
+   -> lblSysWWSoll
+   -> Warmwassersollwert FB#1 [°C]
+   -> Setpoint DHW FB#1 [°C]
+   -> Consigne ECS FB#1 [°C]
+   -> Valore nomin. acqua calda FB#1 [°C]
+   -> Consigna ACS FB#1 [ºC]
+   -> Insteltemp. warm water [°C]
+   -> Beregnet varmtvandstemperatur FB#1 [°C]
+   -> Bör-temp. Varmvatten FB#1 [°C]
+   -> zadana temperatura PTV-e  FB#1 [°C]
+   -> HMV par.érték FB#1 [°C]
+   -> wart.zad. t. c.w.u. FB#1 [°C]
+   -> Çàäàííîå çíà÷åíèå ãîðÿ÷åé âîäû ÄÓ#1 [°C]
+   -> lblTimeOut
+   -> Zeit seit letztem Sollwertbefehl [min]
+   -> Time since last setpoint command [min]
+   -> Temps depuis dernière demande consigne [min]
+   -> Tempo da ultimo comando valore nomin. [min]
+   -> Tiempo desde última orden consigna [min]
+   -> Tijdverloop sinds laatste instelling [min]
+   -> Tid siden sidste setpunktskrav [min]
+   -> Tid sedan senaste börvärdeskrav [min]
+   -> Vrijeme od zadnjeg zahtjeva [min]
+   -> idõ utolsó parérték-parancs óta [min]
+   -> czas od ostatniego polecenia zmiany wart. zad. [min]
+   -> Âðåìÿ ñ ïîñëåäíåãî çàäàííîãî çíà÷åíèÿ [ìèí]
+   -> lblWAHKs
+   -> Wärmeanforderung Heizkreis [°C]
+   -> Heating demand HC [°C]
+   -> Demande de chaleur cir.chauffage [°C]
+   -> Richiesta calore circuito riscaldam. [°C]
+   -> Demanda Cto. Calef. [ºC]
+   -> Warmtevraag stookkring [°C]
+   -> Varmekrav VK (°C)
+   -> Värmekrav Värmekrets [°C]
+   -> Toplinski zahtjev kruga grijanja  [°C]
+   -> fûtõkör hõigénye [°C]
+   -> zapotrzebowanie ciepla obiegu grz. [°C]
+   -> Çàïðîñ íà òåïëî êîíòóðà îòîïëåíèÿ [°C]
+   -> lblWAWW
+   -> Freigabe Warmwasser
+   -> Release DHW
+   -> Autorisation ECS
+   -> Consenso acqua calda
+   -> Permiso ACS
+   -> Vrijgave warm water
+   -> VV frigivelse
+   -> Frigivning Varmvatten
+   -> Slobodno za PTV
+   -> HMV engedélyezés
+   -> zezwolenie na przyg. c.w.u.
+   -> Çàïóñê ÃÂÑ
+   -> stHints
+   -> stDisplayLabels
+   -> stFonts
+   -> TfrmWST
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> Tahoma
+   -> stMultiLines
+   -> EGrpHZIn.Items
+   -> " "," "," "," "," "," "," "," "
+   -> EGrpSysTimeout.Items
+   -> " "," "," "," "," "," "," "," "
+
+[Component]: stStrings
+
+[Component]: stOtherStrings
+   -> stCollections
+   -> stCharSets
+   -> TfrmWST
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> RUSSIAN_CHARSET

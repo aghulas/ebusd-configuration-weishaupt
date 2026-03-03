@@ -1,0 +1,80 @@
+--- Form: TFRMPRUEFSTAND [Neutral] ---
+
+[Component]: EdtBaustand
+   -> TabOrder
+   -> TComboBox
+
+[Component]: CbBxKunde
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> Standard
+   -> Giersch
+   -> Scheer
+   -> Wolf
+   -> Viessmann
+   -> Brötje
+   -> Solvis
+   -> Hoval
+   -> GEO
+   -> Hydrotherm
+   -> Rendamax
+   -> MAN
+   -> Olymp
+   -> DHAL
+   -> TEdit
+
+[Component]: EdtVariante
+   -> TabOrder
+   -> TEdit
+
+[Component]: EdtSerNr
+   -> TabOrder
+   -> TEdit
+
+[Component]: EdtCRC
+   -> TabOrder
+   -> TGroupBox
+   -> GroupBox1
+   -> Optionen
+   -> TabOrder
+   -> TCheckGroup
+
+[Component]: ChkGrpOptions
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> Align
+   -> alClient
+   -> BorderStyle
+   -> bsNone
+   -> TabOrder
+   -> Distance
+   -> HorDistance
+
+[Component]: Items.Strings
+   -> Statistik
+   -> (Fehlerhistorie + Pointer-Initialisierung
+   -> BCC-ID + Redundanz
+   -> Dongle-Nr
+   -> Kessbits + Redundanz
+   -> test
+   -> TButton
+
+[Component]: Btnreset
+   -> &Reset
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnresetClick
+   -> TEdit
+
+[Component]: EdtIdNr
+   -> TabOrder
+   -> Visible
+   -> TEdit
+   -> edtParaNr
+   -> TabOrder
+   -> Visible

@@ -1,0 +1,156 @@
+--- Form: TSCOMTERMINAL [Neutral] ---
+
+[Component]: StringsTypes.Strings
+   -> TIB_STRINGLIST
+   -> TSTRINGLIST
+   -> NumOfLanguages
+   -> LangDispatcher
+   -> MainForm.siLangDispatcher1
+   -> OnChangeLanguage
+   -> siLangLinked1ChangeLanguage
+   -> LangDelim
+
+[Component]: LangNames.Strings
+   -> Deutsch
+   -> English
+   -> Francais
+   -> Italiano
+   -> Espanol
+   -> Nederlands
+   -> Dansk
+   -> Swedish
+   -> Norwegian
+   -> Slovenski
+   -> Hrvatski
+   -> Magyar
+   -> Polski
+   -> Russian
+   -> Greece
+   -> Language
+   -> Deutsch
+   -> TranslationData
+   -> stCaptions
+   -> TSComTerminal
+   -> Terminal
+   -> Terminal
+   -> Terminal
+   -> Terminal
+   -> Terminal
+   -> Terminal
+   -> Terminal
+   -> Terminal
+   -> Terminál
+   -> terminal
+   -> Òåðìèíàë
+   -> miLoeschen
+   -> &Löschen
+   -> &Delete
+   -> &Annuler
+   -> &Cancellare
+   -> &Borrar
+   -> &Wissen
+   -> Slette
+   -> &Radera
+   -> &brisati
+   -> &Törölni
+   -> &Usun¹æ
+   -> &Óäàëèòü
+   -> miStartStop
+   -> S&top
+   -> S&top
+   -> S&top
+   -> S&top
+   -> &Stop
+   -> &Stop
+   -> Stop
+   -> &Stopp
+   -> &Stop
+   -> S&top
+   -> &Ñòîï
+   -> mnuSave
+   -> &Speichern
+   -> &Save
+   -> &Enregistrer
+   -> &Salvare
+   -> &Guardar
+   -> &Opslaan
+   -> Gem
+   -> &Spara
+   -> &pohrani
+   -> &Tárolni
+   -> &Zapis
+   -> &Ñîõðàíèòü
+   -> stHints
+   -> TSComTerminal
+   -> Memo1
+   -> miLoeschen
+   -> miStartStop
+   -> mnuSave
+   -> stDisplayLabels
+   -> stFonts
+   -> TSComTerminal
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> Tahoma
+   -> stMultiLines
+   -> Memo1.Lines
+
+[Component]: stStrings
+
+[Component]: strcSave_terminal_file
+   -> Save Terminal file
+   -> Save Terminal file
+   -> Save Terminal file
+   -> Save Terminal file
+   -> Guardar archivo terminal
+   -> Terminal opslaan
+   -> Gem terminal file
+   -> Spara terminalfil
+   -> pohrani datoteku Terminal
+   -> terminalfile mentése
+   -> Zapis pliku (terminal)
+   -> Ñîõðàíèòü ôàéë
+
+[Component]: strcStart
+   -> Start
+   -> Start
+   -> Start
+   -> Start
+   -> Inicio
+   -> Start
+   -> Start
+   -> Start
+   -> Start
+   -> Start
+   -> start
+   -> Ñòàðò
+
+[Component]: strcStop
+   -> Stop
+   -> Stop
+   -> Stop
+   -> Stop
+   -> Stop
+   -> Stop
+   -> Stop
+   -> Stopp
+   -> Stop
+   -> Stop
+   -> stop
+   -> Ñòîï
+
+[Component]: stOtherStrings
+   -> Memo1.ImeName
+   -> TSComTerminal.HelpFile
+   -> stCollections
+   -> stCharSets
+   -> TSComTerminal
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> RUSSIAN_CHARSET

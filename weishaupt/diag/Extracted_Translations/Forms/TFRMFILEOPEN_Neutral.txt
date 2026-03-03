@@ -1,0 +1,9 @@
+--- Form: TFRMFILEOPEN [Neutral] ---
+
+[Component]: Lines.Strings
+   -> ParentFont
+   -> ReadOnly
+   -> ScrollBars
+   -> ssBoth
+   -> TabOrder
+   -> WantTabs

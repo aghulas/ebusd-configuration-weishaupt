@@ -1,0 +1,2993 @@
+--- Form: TMAINFORM [Neutral] ---
+
+[Component]: StringsTypes.Strings
+   -> TIB_STRINGLIST
+   -> TSTRINGLIST
+
+[Component]: SmartExcludeProps.Strings
+   -> tbCocoStp.Caption
+   -> tbEbusStp.Caption
+   -> tbPassword.Caption
+   -> sbarCxe.Panels
+   -> NumOfLanguages
+   -> LangDispatcher
+   -> siLangDispatcher1
+   -> OnChangeLanguage
+   -> siLang1ChangeLanguage
+   -> LangDelim
+
+[Component]: LangNames.Strings
+   -> Deutsch
+   -> English
+   -> Francais
+   -> Italiano
+   -> Espanol
+   -> Nederlands
+   -> Dansk
+   -> Swedish
+   -> Norwegian
+   -> Slovenski
+   -> Hrvatski
+   -> Magyar
+   -> Polski
+   -> Russian
+   -> Greece
+   -> Language
+   -> Deutsch
+   -> NeedAllDlgs
+   -> TranslationData
+   -> stCaptions
+   -> TMainForm
+   -> CxE-Lab
+   -> CxE-Lab
+   -> CxE-Lab
+   -> CxE-Lab
+   -> CxE-Lab
+   -> CxE-Lab
+   -> CxE-Lab
+   -> CxE-Lab
+   -> CxE-Lab
+   -> CxE-Lab
+   -> CxE-Lab
+   -> CxE-Lab
+   -> CxE-Lab
+   -> mnuAbout
+   -> Ü&ber
+   -> &About
+   -> &Environ
+   -> &Riguardo
+   -> &Acerca de
+   -> &Over
+   -> &Om
+   -> &About
+   -> &About
+   -> &preko
+   -> about
+   -> o programie
+   -> Ïî&
+   -> mnuAnaBCC
+   -> &Analyse BCC
+   -> &Analyse BCC
+   -> &Analyse BCC
+   -> &Analisi BCC
+   -> &Análisis BCC
+   -> &Analyse BCC
+   -> Analyse BCC
+   -> &Analys BCC
+   -> &Analyse BCC
+   -> &Analyse BCC
+   -> &BCC ellenõrzés
+   -> analiza BCC
+   -> &Àíàëèç BCC
+   -> mnuArrange
+   -> &Symbole anordnen
+   -> &Arrange symbols
+   -> &Organiser les symboles
+   -> &Organizzare i simboli
+   -> &Ordenar símbolos
+   -> &Symbolen schikken
+   -> Arr. Symboler
+   -> &Ordna symboler
+   -> &Arrange symbols
+   -> &Arrange symbols
+   -> &poredaj simbole
+   -> &szimbólumok elrend
+   -> Uklad symboli
+   -> &Ðàñïîëîæèòü ñèìâîëû
+   -> mnuBCC
+   -> &BCC
+   -> &BCC
+   -> &BCC
+   -> &BCC
+   -> &BCC
+   -> &BCC
+   -> BCC
+   -> &BCC
+   -> &BCC
+   -> &BCC
+   -> &BCC
+   -> &BCC
+   -> &BCC
+   -> mnuBusGraphic
+   -> &Datalogger
+   -> &Datalogger
+   -> &Datalogger
+   -> &Datalogger
+   -> &Datalogger
+   -> &Datalogger
+   -> Datalogger
+   -> &Datalogger
+   -> &Datalogger
+   -> &Datalogger
+   -> &datalogger
+   -> &Datalogger
+   -> &Ðåãèñòðàòîð äàííûõ
+   -> mnuBusscan
+   -> &Busscan
+   -> &Busscan
+   -> &Busscan
+   -> &Busscan
+   -> &Busscan
+   -> &Busscan
+   -> Busskan
+   -> &Busscan
+   -> &Busscan
+   -> &Busscan
+   -> &busscan
+   -> &Busscan
+   -> &ÑêàíØèíû
+   -> mnuCascade
+   -> Ü&berlappend
+   -> &Cascade
+   -> &Cascade
+   -> &Sovrapposti
+   -> &Cascada
+   -> &Overlappend
+   -> Kaskade
+   -> &Kaskad
+   -> &Cascade
+   -> &Cascade
+   -> &s preklapanjem
+   -> átlapolva
+   -> &zak³adki
+   -> ñ&íàëîæåíèåì
+   -> mnuClipboard
+   -> Clipboard
+   -> Clipboard
+   -> Clipboard
+   -> Clipboard
+   -> Clipboard
+   -> Clipboard
+   -> Clipboard
+   -> Urklipp
+   -> Clipboard
+   -> Clipboard
+   -> Clipboard
+   -> clipboard
+   -> Áóôåð îáìåíà
+   -> mnuClose
+   -> Close
+   -> Close
+   -> Close
+   -> Chiuso
+   -> Cerrar
+   -> Close
+   -> Luk
+   -> Stäng
+   -> Close
+   -> Close
+   -> zatvori
+   -> bezár
+   -> Zamknij
+   -> Çàêðûòü
+   -> mnuWCMRegler
+   -> WCM-Regler
+   -> CM controller
+   -> CM-Regler
+   -> Regolatore CM
+   -> Regulador CM
+   -> CM-regelaar
+   -> CM-regler
+   -> CM-regulator
+   -> CM controller
+   -> CM controller
+   -> CM-szabályzó
+   -> regulator CM
+   -> Ðåãóëÿòîð CM
+   -> mnuCoCoStp
+   -> &W-EA/Modem
+   -> &W-EA/Modem
+   -> &W-EA/Modem
+   -> &W-EA/Modem
+   -> &W-EA/Módem
+   -> &W-EA/modem
+   -> WEA/modem
+   -> &W-EA/modem
+   -> &W-EA/Modem
+   -> &W-EA/Modem
+   -> &W-EA/modem
+   -> &W-EA/Modem
+   -> &Ìîäåì W-EA
+   -> mnuDeutsch
+   -> Deutsch
+   -> &German
+   -> Allemand
+   -> &Tedesco
+   -> Alemán
+   -> Duits
+   -> Tysk
+   -> &Tyska
+   -> &German
+   -> &German
+   -> Njemacki
+   -> német
+   -> niemiecki
+   -> Íåìåöêèé
+   -> mnuDK
+   -> Dansk
+   -> Danish
+   -> Danois
+   -> Danese
+   -> Danés
+   -> Deens
+   -> Dansk
+   -> &Danska
+   -> Danish
+   -> Danish
+   -> Danski
+   -> dán
+   -> dunski
+   -> Äàòñêèé
+   -> mnueBUSstp
+   -> &eBUS
+   -> &eBUS
+   -> &eBUS
+   -> &eBus
+   -> &eBus
+   -> &eBUS
+   -> eBUS
+   -> &eBUS
+   -> &eBUS
+   -> &eBUS
+   -> &eBUS
+   -> &eBUS
+   -> &eBUS
+   -> mnueBusTrigger
+   -> eBus-Trigger
+   -> eBus-Trigger
+   -> eBus-Trigger
+   -> Trigger eBus
+   -> Trigger eBus
+   -> eBus-Trigger
+   -> eBus-Trigger
+   -> eBUS-Trigger
+   -> eBus-Trigger
+   -> eBus-Trigger
+   -> eBus-Trigger
+   -> eBus-òðèããåð
+   -> mnuEEPROM
+   -> &EEPROM
+   -> &EEPROM
+   -> &EEPROM
+   -> &EEPROM
+   -> &EEPROM
+   -> &EEPROM
+   -> EEPROM
+   -> &EEPROM
+   -> &EEPROM
+   -> &EEPROM
+   -> &EEPROM
+   -> &EEPROM
+   -> mnuEndanwender
+   -> &Endanwender
+   -> &EndUser
+   -> &Utilisateur final
+   -> &Utente finale
+   -> &Usuario final
+   -> &Eindgebruiker
+   -> Bruger
+   -> &Användare
+   -> &EndUser
+   -> &EndUser
+   -> &korisnik
+   -> &végfelhasználó
+   -> &U¿ytkownik
+   -> &ïîëüçîâàòåëü
+   -> mnuEnglisch
+   -> Englisch
+   -> &English
+   -> &Anglais
+   -> &Inglese
+   -> &Inglés
+   -> Englisch
+   -> Engelsk
+   -> &Engelska
+   -> &English
+   -> &English
+   -> Engleski
+   -> angol
+   -> &angielski
+   -> Àíãëèéñêèé
+   -> mnuEntwicklung
+   -> &Entwicklung
+   -> &Development
+   -> &Développement
+   -> &Sviluppo
+   -> &Desarrollo
+   -> &Ontwikkeling
+   -> Udvikling
+   -> &Utveckling
+   -> &Development
+   -> &Development
+   -> &razvoj
+   -> &fejlesztés
+   -> &rozwiniêcie
+   -> &Ðàçâèòèå
+   -> mnuESP
+   -> Espanol
+   -> Spanish
+   -> Espagnol
+   -> Spagnolo
+   -> Español
+   -> Spaans
+   -> Spansk
+   -> Spanska
+   -> Spanish
+   -> Spanish
+   -> Španjolski
+   -> spanyol
+   -> hiszpanski
+   -> Èñïàíñêèé
+   -> mnuExtras
+   -> E&xtras
+   -> E&xtras
+   -> E&xtras
+   -> Extra
+   -> E&xtras
+   -> &Extra's
+   -> Ekstra
+   -> &Extra
+   -> E&xtras
+   -> E&xtras
+   -> extrák
+   -> &Dodatki
+   -> Ý&êñòðà
+   -> mnuFachmann
+   -> Hei&zungsfachmann
+   -> Ser&vice
+   -> Ins&tallateur
+   -> &Installatore/tecnico
+   -> Ser&vicio Técnico
+   -> &Verwarmingsvakman
+   -> Fagmand
+   -> &Servicetekniker
+   -> Ser&vice
+   -> Ser&vice
+   -> &serviser grijanja
+   -> fûtéstechnikus
+   -> Serwis
+   -> Ñïå&öèàëèñò-òåïëîòåõíèê
+   -> mnuFB
+   -> &FB/EM
+   -> &FB/EM
+   -> &FB/EM
+   -> &FB/EM
+   -> F&B/EM
+   -> &FB/EM
+   -> FB/EM
+   -> &FB/EM
+   -> &FB/EM
+   -> &FB/EM
+   -> &FB/EM
+   -> &FB/EM
+   -> &ÄÓ/ÌÐ
+   -> mnuFile
+   -> &Datei
+   -> &File
+   -> &Fichier
+   -> &Archivio dati
+   -> &Archivo
+   -> &Bestand
+   -> Fil
+   -> &Fil
+   -> &File
+   -> &File
+   -> &datoteka
+   -> &adatok
+   -> &Plik
+   -> &Ôàéë
+   -> mnuFileExit
+   -> &Beenden
+   -> &Close
+   -> &Fermer
+   -> &Terminare
+   -> &Salir
+   -> &Sluiten
+   -> Luk
+   -> &Stäng
+   -> &Close
+   -> &Close
+   -> &završiti
+   -> &befejez
+   -> &Zakoñcz
+   -> &Çàêîí÷èòü
+   -> mnuFileOpen
+   -> &Oeffnen
+   -> &Open
+   -> &Ouvrir
+   -> &Aprire
+   -> &Abrir
+   -> &Openen
+   -> Åbn
+   -> &Öppna
+   -> &Open
+   -> &Open
+   -> &otvoriti
+   -> &nyit
+   -> &Otwórz
+   -> &Îòêðûòü
+   -> mnuFRA
+   -> Francais
+   -> French
+   -> Français
+   -> Francese
+   -> Francés
+   -> Frans
+   -> Fransk
+   -> Franska
+   -> French
+   -> French
+   -> Francuski
+   -> francia
+   -> francuski
+   -> Ôðàíöóçñêèé
+   -> mnuFunc
+   -> Functions
+   -> Function
+   -> Fonctions
+   -> Funzioni
+   -> Funciones
+   -> Functions
+   -> Funktioner
+   -> Funktioner
+   -> Function
+   -> Function
+   -> funkcije
+   -> funkciók
+   -> funkcje
+   -> Ôóíêöèè
+   -> mnuGR
+   -> Greece
+   -> Greek
+   -> Grèce
+   -> Greco
+   -> Griego
+   -> Greece
+   -> Græsk
+   -> Grekland
+   -> Greek
+   -> Greek
+   -> Grcki
+   -> görög
+   -> grecki
+   -> Ãðå÷åñêèé
+   -> mnuGraphic
+   -> &Grafik
+   -> &Graphic
+   -> &Graphique
+   -> &Grafico
+   -> &Gráfica
+   -> &Grafisch
+   -> Grafik
+   -> &Grafik
+   -> &Graphic
+   -> &Graphic
+   -> &Grafika
+   -> &grafika
+   -> &Grafika
+   -> &Ãðàôèê
+   -> mnuHersteller
+   -> &Hersteller
+   -> &Manufacturer
+   -> &Fabricant
+   -> &Costruttore
+   -> &Fabricante
+   -> &Fabrikant
+   -> Producent
+   -> &Tillverkare
+   -> &Manufacturer
+   -> &Manufacturer
+   -> &proizvodac
+   -> &gyártó
+   -> &Producent
+   -> &Ïðîèçâîäèòåëü
+   -> mnuHistorie
+   -> &Fehlerhistorie
+   -> &FaultHistory
+   -> &Historique défauts
+   -> &Storico errori
+   -> &Histórico
+   -> &Fouthistoriek
+   -> Historik
+   -> &Felhistorik
+   -> &FaultHistory
+   -> &FaultHistory
+   -> &povjest kvarova
+   -> &hibatörténet
+   -> &Historia bledów
+   -> &Ñïèñîê îøèáîê
+   -> mnuHR
+   -> Hrvatski
+   -> Hrvatski
+   -> Hrvatski
+   -> Hrvatski
+   -> Croata
+   -> Hrvatski
+   -> Hrvatski
+   -> Ungerska
+   -> Hrvatski
+   -> Hrvatski
+   -> Hrvatski
+   -> horvát
+   -> chorwacki
+   -> Õîðâàòñêèé
+   -> mnuHUN
+   -> Magyar
+   -> Magyar
+   -> Hongrois
+   -> Ungherese
+   -> Magiar
+   -> Magyar
+   -> Ungarsk
+   -> Magyar
+   -> Magyar
+   -> Magyar
+   -> Madarski
+   -> magyar
+   -> wegierski
+   -> Âåíãåðñêèé
+   -> mnuInfo
+   -> &Info
+   -> &Info
+   -> &Info
+   -> &Info
+   -> &Info
+   -> &Info
+   -> Information
+   -> &Info
+   -> &Info
+   -> &Info
+   -> &info
+   -> &info
+   -> &Èíôî
+   -> mnuInterface
+   -> Sch&nittstelle
+   -> &Interface
+   -> &Interface
+   -> &Interfaccia
+   -> &Puerto
+   -> &Interface
+   -> Interface
+   -> &Gränssnitt
+   -> &Interface
+   -> &Interface
+   -> &sucelje
+   -> csatlakozások
+   -> &z³¹cze transmisyjne
+   -> Èíòåð&ôåéñ
+   -> mnuIoParameter
+   -> &Io-Parameter
+   -> &Io-Parameter
+   -> &Paramètre Io
+   -> &Parametri Io
+   -> &IO-parámetros
+   -> &Io-parameter
+   -> Io-parameter
+   -> &Io-parameter
+   -> &Io-Parameter
+   -> &Io-Parameter
+   -> &Io-parametar
+   -> &IO-paraméterek
+   -> &Parametry Io
+   -> &Ïàðàìåòðû èîíèçàöèè
+   -> mnuITA
+   -> Italiano
+   -> Italian
+   -> Italien
+   -> Italiano
+   -> Italiano
+   -> Italiaans
+   -> Italiensk
+   -> Italienska
+   -> Italian
+   -> Italian
+   -> Talijanski
+   -> olasz
+   -> wloski
+   -> Èòàëüÿíñêèé
+   -> mnuKA
+   -> &KA
+   -> &KA
+   -> &KA
+   -> Regolatore KA
+   -> &KA
+   -> &KA
+   -> &KA
+   -> &KA
+   -> &KA
+   -> &KA
+   -> &KA
+   -> &KA
+   -> mnuLanguage
+   -> &Sprache
+   -> &Language
+   -> &Langue
+   -> &Lingua
+   -> &Idioma
+   -> &Taal
+   -> Sprog
+   -> &Sprak
+   -> &Language
+   -> &Language
+   -> &jezik
+   -> &nyelv
+   -> &jêzyk
+   -> &ßçûê
+   -> mnuLook
+   -> &Fenster
+   -> &Window
+   -> &Fenêtre
+   -> &Finestra
+   -> &Ventana
+   -> &Venster
+   -> Vindue
+   -> &Fönster
+   -> &Window
+   -> &Window
+   -> &prozor
+   -> &ablak
+   -> &Okno
+   -> &Îêíî
+   -> mnuNext
+   -> Next
+   -> Next
+   -> Suivant
+   -> Prossimo
+   -> Siguiente
+   -> Next
+   -> Næste
+   -> Nästa
+   -> Next
+   -> Next
+   -> slijedeci
+   -> következõ
+   -> nastêpny
+   -> Ñëåä.
+   -> mnuNL
+   -> Nederlands
+   -> Dutch
+   -> Hollande
+   -> Olandese
+   -> Holandés
+   -> Nederlands
+   -> Hollandsk
+   -> Nederländerna
+   -> Dutch
+   -> Dutch
+   -> Nizozemski
+   -> holland
+   -> holenderski
+   -> Ãîëëàíäñêèé
+   -> mnuNOR
+   -> Norwegian
+   -> Norwegian
+   -> Norvège
+   -> Norvegese
+   -> Noruego
+   -> Noors
+   -> Norsk
+   -> Norska
+   -> Norwegian
+   -> Norwegian
+   -> Norveški
+   -> norvég
+   -> norweski
+   -> Íîðâåæñêèé
+   -> mnuOptions
+   -> &Optionen
+   -> &Options
+   -> &Options
+   -> &Opzioni
+   -> &Opciones
+   -> &Opties
+   -> Optioner
+   -> &Optioner
+   -> &Options
+   -> &Options
+   -> &opcije
+   -> &opciók
+   -> &opcje
+   -> &Îïöèè
+   -> mnuPassword
+   -> &Password
+   -> &Password
+   -> &Password
+   -> &Password
+   -> &Contraseña
+   -> &Paswoord
+   -> Password
+   -> &Password
+   -> &Password
+   -> &Password
+   -> &lozinka
+   -> &kódszó
+   -> &has³o
+   -> &Ïàðîëü
+   -> mnuPOL
+   -> Polski
+   -> Polish
+   -> Polonais
+   -> Polacco
+   -> Polaco
+   -> Pools
+   -> Polsk
+   -> Polska
+   -> Polish
+   -> Polish
+   -> Poljski
+   -> lengyel
+   -> polski
+   -> Ïîëüñêèé
+   -> mnuPrevious
+   -> Previous
+   -> Previous
+   -> Précédent
+   -> Precedente
+   -> Anterior
+   -> Previous
+   -> Tidligere
+   -> Föregaende
+   -> Previous
+   -> Previous
+   -> prethodni
+   -> elõzetes
+   -> poprzedni
+   -> Ïðåäûäóù.
+   -> mnuPrint
+   -> D&rucken
+   -> &Print
+   -> &Imprimer
+   -> &Stampare
+   -> &Imprimir
+   -> &Drukken
+   -> Print
+   -> &Tryck
+   -> &Print
+   -> &Print
+   -> &ispis
+   -> nyomtat
+   -> &Drukuj
+   -> Ïå&÷àòü
+   -> mnuPrinterSetup
+   -> Drucker &einrichten
+   -> Printer &setup
+   -> Installer &imprimante
+   -> &Predisporre stampante
+   -> &Configurar impresora
+   -> Printer instellen
+   -> Printer setup
+   -> Skrivare Till
+   -> Printer &setup
+   -> Printer &setup
+   -> Postav &pisaca
+   -> nyomtató beáll
+   -> &Ustawienia wydruku
+   -> Óñòàíîâêà&ïðèíòåðà
+   -> mnuProtocol
+   -> &Protokoll
+   -> &Protocol
+   -> &Protocole
+   -> &Protocollo
+   -> &Protocolo
+   -> &Protocol
+   -> Protokol
+   -> &Protokoll
+   -> &Protocol
+   -> &Protocol
+   -> &Protokol
+   -> &protokoll
+   -> &Protokól
+   -> &Ïðîòîêîë
+   -> mnuPruefstand
+   -> &Prüfstandsdaten
+   -> &Test data
+   -> &Données du banc d'essais
+   -> &Dati di collaudo
+   -> &Datos ensayo
+   -> &Proefstandgegevens
+   -> Prøvestandsdata
+   -> &Provningsdata
+   -> &Test data
+   -> &Test data
+   -> &podaci provjere
+   -> &vizsgálópadi adatok
+   -> &dane kontr.
+   -> &Äàííûå èñï. ñòåíäà
+   -> mnuRUS
+   -> Russian
+   -> Russian
+   -> Russe
+   -> Russo
+   -> Ruso
+   -> Russian
+   -> Russisk
+   -> Ryska
+   -> Russian
+   -> Russian
+   -> Rusija
+   -> orosz
+   -> rosyjski
+   -> Ðóññêèé
+   -> mnuSaveAll
+   -> &Speichern Parameter
+   -> Save &WCM-CPU
+   -> &Enregistrer WCM-CPU
+   -> &Salvare WCM-CPU
+   -> &Guardar WCM-CPU
+   -> &Opslaan WCM-CPU
+   -> Gem WCM-CPU
+   -> &Spara WCM-CPU
+   -> Save &WCM-CPU
+   -> Save &WCM-CPU
+   -> &pohraniti WCM-CPU
+   -> &WCM-CPU tárol
+   -> Zapis &WCM-DU
+   -> &Ñîõðàíèòü WCM-CPU
+   -> mnuSaveBitmap
+   -> SaveBitmap
+   -> SaveBitmap
+   -> SaveBitmap
+   -> Salvare Bitmap
+   -> SaveBitmap
+   -> SaveBitmap
+   -> Gem Bitmap
+   -> SparaBitmap
+   -> SaveBitmap
+   -> SaveBitmap
+   -> SaveBitmap
+   -> Zapis mapy bitowej
+   -> ÑîõðàíèòüBitmap
+   -> mnuSLO
+   -> Slovenski
+   -> Slovenian
+   -> Slovène
+   -> Sloveno
+   -> Eslovaco
+   -> Sloveens
+   -> Slovensk
+   -> Slovenska
+   -> Slovenian
+   -> Slovenian
+   -> Slovenski
+   -> szlovén
+   -> slowenski
+   -> Ñëîâåíñêèé
+   -> mnuSonderzugriff
+   -> &Sonderzugriff
+   -> &Extra access
+   -> &Accès spécial
+   -> &Accesso speciale
+   -> &Acceso extra
+   -> &Extra toegang
+   -> Spc. adgang
+   -> &Extra access
+   -> &Extra access
+   -> &Extra access
+   -> &posebni zahvat
+   -> &spechozzáférés
+   -> &Dostep z poz. specjalnego
+   -> &Ñïåöäîñòóï
+   -> mnuStatistik
+   -> &Statistik
+   -> &Statistics
+   -> &Statistique
+   -> &Statistica
+   -> &Estadísticas
+   -> &Statistiek
+   -> Statistik
+   -> &Statistik
+   -> &Statistics
+   -> &Statistics
+   -> &statistika
+   -> &statisztika
+   -> &Statystyka
+   -> &Ñòàòèñòèêà
+   -> mnuSV
+   -> Schwedisch
+   -> Swedish
+   -> Suédois
+   -> Svedese
+   -> Sueco
+   -> Zweeds
+   -> Svensk
+   -> Svenska
+   -> Swedish
+   -> Swedish
+   -> Švedski
+   -> svéd
+   -> szwedzki
+   -> Øâåäñêèé
+   -> mnuTerminal
+   -> &Terminal
+   -> &Terminal
+   -> &Terminal
+   -> &Terminale
+   -> &Terminal
+   -> &Terminal
+   -> Terminal
+   -> &Terminal
+   -> &Terminal
+   -> &Terminal
+   -> &Terminal
+   -> &terminál
+   -> &terminal
+   -> &Òåðìèíàë
+   -> mnuTile
+   -> &Nebeneinander
+   -> &Tile
+   -> &Côte à côte
+   -> &Affiancato
+   -> &Mosaico
+   -> &Naast elkaar
+   -> Sideordnet
+   -> &Bredvid varandra
+   -> &Tile
+   -> &Tile
+   -> &pored
+   -> &egymás mellett
+   -> &S¹siaduj¹co
+   -> &Ðÿäîì
+   -> mnuVariablen
+   -> &Variablen
+   -> &Variables
+   -> &Variables
+   -> &Variabili
+   -> &Variables
+   -> &Variabelen
+   -> Variable
+   -> &Variabler
+   -> &Variables
+   -> &Variables
+   -> &varijable
+   -> &változó
+   -> &zmienne
+   -> &Ïåðåìåííûå
+   -> Systemzeit1
+   -> System&zeit
+   -> System time
+   -> System time
+   -> System time
+   -> Reloj del &sistema
+   -> System time
+   -> System time
+   -> System time
+   -> System time
+   -> System time
+   -> System time
+   -> System time
+   -> System time
+   -> System time
+   -> ToolBarCxe
+   -> ToolBarCxe
+   -> ToolBarCxe
+   -> ToolBarCxe
+   -> ToolBarCxe
+   -> ToolBarCxe
+   -> ToolBarCxe
+   -> Værktøjslinie
+   -> ToolBarCxe
+   -> ToolBarCxe
+   -> ToolBarCxe
+   -> ToolBarCxe
+   -> ToolBarCxe
+   -> ToolBarCxe
+   -> mnuSOL
+   -> S&OL
+   -> StopBusscan1
+   -> Stop Busscan
+   -> SimFS1
+   -> Sim FS
+   -> mnuFS1
+   -> FS1
+   -> mnuFS2
+   -> FS2
+   -> mnuFS1_2
+   -> FS1+2
+   -> mnuLeitstelle
+   -> Leitstelle
+   -> mnuFS_EM
+   -> FS+EM
+   -> mnuEM
+   -> mnuFS_EWW
+   -> FS+ EWW
+   -> mnuEWW
+   -> EWW
+   -> stHints
+   -> TMainForm
+   -> tbCocoStp
+   -> SCom2
+   -> SCom2
+   -> SCom2
+   -> SCom2
+   -> SCom2
+   -> SCom2
+   -> SCom2
+   -> SCom2
+   -> SCom2
+   -> SCom2
+   -> SCom2
+   -> SCom2
+   -> tbEbusStp
+   -> eBUS
+   -> eBUS
+   -> eBUS
+   -> eBUS
+   -> eBUS
+   -> eBUS
+   -> eBUS
+   -> eBUS
+   -> eBUS
+   -> eBUS
+   -> eBUS
+   -> eBUS
+   -> tbPassword
+   -> Password
+   -> Password
+   -> Password
+   -> Password
+   -> Contraseña
+   -> Password
+   -> Password
+   -> Password
+   -> Password
+   -> Password
+   -> lozinka
+   -> kódszó
+   -> has³o
+   -> Ïàðîëü
+   -> sbarCxe
+   -> ToolBarCxe
+   -> mnuFile
+   -> mnuFileOpen
+   -> mnuEndanwender
+   -> mnuFachmann
+   -> mnuHersteller
+   -> mnuStatistik
+   -> mnuHistorie
+   -> mnuProtocol
+   -> mnuIoParameter
+   -> mnuGraphic
+   -> mnuKA
+   -> mnuFB
+   -> mnuSaveAll
+   -> mnuPrint
+   -> mnuPrinterSetup
+   -> mnuFileExit
+   -> mnuLook
+   -> mnuCascade
+   -> mnuArrange
+   -> mnuTile
+   -> mnuExtras
+   -> mnuBusscan
+   -> mnuTerminal
+   -> mnuBusGraphic
+   -> mnuSonderzugriff
+   -> Systemzeit1
+   -> mnuOptions
+   -> mnuInterface
+   -> mnueBUSstp
+   -> mnuCoCoStp
+   -> mnuLanguage
+   -> mnuDeutsch
+   -> mnuEnglisch
+   -> mnuFRA
+   -> mnuITA
+   -> mnuESP
+   -> mnuNL
+   -> mnuDK
+   -> mnuSV
+   -> mnuNOR
+   -> mnuSLO
+   -> mnuHR
+   -> mnuHUN
+   -> mnuPOL
+   -> mnuRUS
+   -> mnuGR
+   -> mnuPassword
+   -> mnuInfo
+   -> mnuAbout
+   -> mnuFunc
+   -> mnuNext
+   -> mnuClose
+   -> mnuPrevious
+   -> mnuClipboard
+   -> mnuSaveBitmap
+   -> mnuEntwicklung
+   -> mnuVariablen
+   -> mnuPruefstand
+   -> mnuEEPROM
+   -> mnuWCMRegler
+   -> mnueBusTrigger
+   -> mnuBCC
+   -> mnuAnaBCC
+   -> mnuSOL
+   -> StopBusscan1
+   -> SimFS1
+   -> mnuFS1
+   -> mnuFS2
+   -> mnuFS1_2
+   -> mnuLeitstelle
+   -> mnuFS_EM
+   -> mnuEM
+   -> mnuFS_EWW
+   -> mnuEWW
+   -> stDisplayLabels
+   -> stFonts
+   -> TMainForm
+   -> Microsoft Sans Serif
+   -> Microsoft Sans Serif
+   -> Microsoft Sans Serif
+   -> Microsoft Sans Serif
+   -> Microsoft Sans Serif
+   -> sbarCxe
+   -> Tahoma
+   -> Tahoma
+   -> Tahoma
+   -> Tahoma
+   -> Tahoma
+   -> stMultiLines
+   -> stDlgsCaptions
+   -> (None)
+   -> (None)
+   -> (None)
+   -> (None)
+   -> (Nessuno)
+   -> (None)
+   -> Ingen
+   -> (Ingen)
+   -> (None)
+   -> (None)
+   -> (None)
+   -> (None)
+   -> brak
+   -> (íåò)
+   -> |Solid
+   -> |S&olid
+   -> |S&olid
+   -> |S&olid
+   -> Fisso
+   -> Sólido
+   -> S&olid
+   -> |S&olid
+   -> |S&olid
+   -> |S&olid
+   -> |S&olid
+   -> szolid
+   -> |Ñ&ïëîøíîé
+   -> Abort
+   -> &Abbrechen
+   -> &Cancel
+   -> &Interrompre
+   -> &Interrompere
+   -> &Salir
+   -> &Onderbreken
+   -> Afbryd
+   -> &Avbryt
+   -> &Cancel
+   -> &Cancel
+   -> &prekini
+   -> &megszakítás
+   -> &Anuluj
+   -> &Îòìåíà
+   -> Add to Custom Colors
+   -> &Add to Custom Colors
+   -> &Add to Custom Colours
+   -> &Add to Custom Colors
+   -> &Añadir a colores usuario
+   -> &Add to Custom Colors
+   -> Tilføj til standard farver
+   -> &Lägg till kundens färger
+   -> &Add to Custom Colours
+   -> &Add to Custom Colours
+   -> &umetni u boju
+   -> &hozzáad a haszn.színhez
+   -> Dodaj do Custom Colors
+   -> &Äîáàâèòü öâåòà ïî óìîë÷àíèþ
+   -> All
+   -> &Alle
+   -> &All
+   -> &Tous
+   -> &Tutti
+   -> &Todos
+   -> &Alle
+   -> Alle
+   -> &Alla
+   -> &All
+   -> &All
+   -> &sve
+   -> &mind
+   -> &wszystko
+   -> &Âñå
+   -> Apply
+   -> &Apply
+   -> &Apply
+   -> &Apply
+   -> &Applicare
+   -> &Aplicar
+   -> &Apply
+   -> Send
+   -> &Sök
+   -> &Apply
+   -> &Apply
+   -> &prihvati
+   -> &appl
+   -> Zastosuj
+   -> &Ïðèíÿòü
+   -> Basic colors:
+   -> &Basic colors:
+   -> &Basic colours:
+   -> &Basic colors:
+   -> &Colori base:
+   -> &Colores básicos
+   -> &Basic colors:
+   -> Basisfarve:
+   -> &Basfärger:
+   -> &Basic colours:
+   -> &Basic colours:
+   -> &osnovna boja:
+   -> &alapszín:
+   -> kolory podstawowe:
+   -> &Îñíîâíûå öâåòà:
+   -> Blue:
+   -> Bl&ue:
+   -> Bl&ue:
+   -> Bl&ue:
+   -> Blu:
+   -> A&zul:
+   -> Bl&ue:
+   -> Blå
+   -> &Bla
+   -> Bl&ue:
+   -> Bl&ue:
+   -> Pl&avo:
+   -> kék:
+   -> niebieski
+   -> Ñè&íèé:
+   -> Cancel
+   -> Abbrechen
+   -> Cancel
+   -> Interrompre
+   -> Interrompere
+   -> Salir
+   -> Afbreken
+   -> Afbryd
+   -> Avbryt
+   -> Cancel
+   -> Cancel
+   -> Prekini
+   -> megszakítás
+   -> Anuluj
+   -> Îòìåíèòü
+   -> Collate
+   -> C&ollate
+   -> C&ollate
+   -> C&ollate
+   -> &Fascicolare
+   -> Ordenar
+   -> C&ollate
+   -> Tilordne
+   -> &Jämför
+   -> C&ollate
+   -> C&ollate
+   -> C&ollate
+   -> C&ollate
+   -> C&ollate
+   -> Colour
+   -> Colore
+   -> Farve
+   -> Färg
+   -> Colour
+   -> Colour
+   -> boja
+   -> szín
+   -> kolor
+   -> Öâåò
+   -> Color:
+   -> &Color:
+   -> &Colour
+   -> &Color:
+   -> &Colore:
+   -> &Color
+   -> &Color:
+   -> Farve:
+   -> &Färg:
+   -> &Colour
+   -> &Colour
+   -> &boja:
+   -> &szín:
+   -> kolor:
+   -> &Öâåò:
+   -> Comment:
+   -> Comment:
+   -> Comment:
+   -> Comment :
+   -> Commento:
+   -> Comentarios:
+   -> Comment:
+   -> Kommentar:
+   -> Kommentar:
+   -> Comment:
+   -> Comment:
+   -> koment:
+   -> komment:
+   -> Komentarz:
+   -> Êîììåíòàðèé:
+   -> Confirm
+   -> Bestätigung
+   -> Confirmation
+   -> Confirmation
+   -> Conferma
+   -> Confirmar
+   -> Bevestiging
+   -> Bekræftelse
+   -> Bekräftelse
+   -> Confirmation
+   -> Confirmation
+   -> potvrda
+   -> elfogadás
+   -> Potwierdzenie
+   -> Ïîäòâåðæäåíèå
+   -> Copies
+   -> Copies
+   -> Copies
+   -> Copies
+   -> Copie
+   -> Copias
+   -> Copies
+   -> Kopier
+   -> Kopior
+   -> Copies
+   -> Copies
+   -> kopije
+   -> másolat
+   -> kopie
+   -> Êîïèè
+   -> Custom colors:
+   -> &Custom colors:
+   -> &Custom colours:
+   -> &Custom colors:
+   -> &Colores de usuario
+   -> &Custom colors:
+   -> Standard farver
+   -> & Kundens färger:
+   -> &Custom colours:
+   -> &Custom colours:
+   -> &umetni boju:
+   -> &haszn.szín:
+   -> &Öâåòà ïî óìîë÷àíèþ:
+   -> Define Custom Colors >>
+   -> &Define Custom Colors >>
+   -> &Define Custom Colours >>
+   -> &Define Custom Colors >>
+   -> &Definir colores usuario
+   -> &Define Custom Colors >>
+   -> Definer standard farver
+   -> &Ange kunders färger >>
+   -> &Define Custom Colours >>
+   -> &Define Custom Colours >>
+   -> &odredi boju unosa >>
+   -> &haszn.szín def. >>
+   -> &Zdefiniuj Custom Colors >>
+   -> &Îïðåäåëèòü öâåòà ïî óìîë÷àíèþ >>
+   -> Direction
+   -> Direction
+   -> Direction
+   -> Direction
+   -> Direzione
+   -> Dirección
+   -> Direction
+   -> Retning
+   -> Riktning
+   -> Direction
+   -> Direction
+   -> Direction
+   -> irány
+   -> Íàïðàâëåíèå
+   -> Down
+   -> &Down
+   -> &Down
+   -> &Down
+   -> &Inferiore
+   -> &Abajo
+   -> &Down
+   -> Ned
+   -> &Ner
+   -> &Down
+   -> &Down
+   -> &Down
+   -> &le
+   -> &Âíèç
+   -> Drives:
+   -> &Drives:
+   -> &Drives:
+   -> &Drives:
+   -> &Drives:
+   -> &Drives
+   -> &Drives:
+   -> Drev:
+   -> &Drives:
+   -> &Drives:
+   -> &Drives:
+   -> &Drives:
+   -> &meghajtó:
+   -> &Äðàéâåðû:
+   -> Effects
+   -> Effects
+   -> Effects
+   -> Effects
+   -> Effetti
+   -> Efectos
+   -> Effects
+   -> Effekter
+   -> Effekter
+   -> Effects
+   -> Effects
+   -> efekti
+   -> hatás
+   -> efekty
+   -> Ýôôåêòû
+   -> Error
+   -> Fehler
+   -> Error
+   -> Défaut
+   -> Errore
+   -> Error
+   -> Fout
+   -> Fejl
+   -> Fel
+   -> Error
+   -> Error
+   -> kvar
+   -> hiba
+   -> b³¹d
+   -> Îøèáêà
+   -> File name:
+   -> Datei&name:
+   -> File &name:
+   -> File &name:
+   -> &Nome file
+   -> Nombre &Archivo
+   -> File &name:
+   -> Fil og navn
+   -> Fil &namn
+   -> File &name:
+   -> File &name:
+   -> File &name:
+   -> File &név:
+   -> &Nazwa pliku
+   -> Èìÿ&ôàéëà:
+   -> Files of type:
+   -> Datei&typ:
+   -> Files of &type:
+   -> Files of &type:
+   -> &Tipo di file:
+   -> &Tipo Archivo
+   -> Files of &type:
+   -> Filtype
+   -> &Filtyp
+   -> Files of &type:
+   -> Files of &type:
+   -> Files of &type:
+   -> File tipusa:
+   -> &Typ pliku:
+   -> Òèï&ôàéëà:
+   -> Find Next
+   -> &Find Next
+   -> &Find Next
+   -> &Find Next
+   -> &Trova il prossimo
+   -> &Buscar siguiente
+   -> &Find Next
+   -> Find næste
+   -> &Finn nästa
+   -> &Find Next
+   -> &Find Next
+   -> &traži iduce
+   -> &következõ ker.
+   -> &Íàéòè ñëåäóþù.
+   -> Find what:
+   -> Fi&nd what:
+   -> Fi&nd what:
+   -> Fi&nd what:
+   -> Trova cosa:
+   -> &Buscar:
+   -> Fi&nd what:
+   -> Søg:
+   -> &Finn vad:
+   -> Fi&nd what:
+   -> Fi&nd what:
+   -> Fi&nd what:
+   -> keresni:
+   -> Íàé&òè:
+   -> Folder:
+   -> Folder:
+   -> Folder:
+   -> Folder:
+   -> Cartella
+   -> Carpeta:
+   -> Folder:
+   -> Mappe
+   -> Folder:
+   -> Folder:
+   -> Folder:
+   -> Folder:
+   -> Folder:
+   -> Folder:
+   -> Ïàïêà:
+   -> Font style:
+   -> Font st&yle:
+   -> Font st&yle:
+   -> Font st&yle:
+   -> &Stile carattere:
+   -> &Estilo de fuente:
+   -> Font st&yle:
+   -> Font Type
+   -> &Font-stil
+   -> Font st&yle:
+   -> Font st&yle:
+   -> Font st&yle:
+   -> betûtipus:
+   -> &Styl czcionki:
+   -> Âèä&øðèôòà:
+   -> Font:
+   -> &Font:
+   -> &Font:
+   -> &Font:
+   -> &Carattere
+   -> &Fuente:
+   -> &Font:
+   -> &Font:
+   -> &Font:
+   -> &Font:
+   -> &Font:
+   -> &betû:
+   -> &Czcionka:
+   -> &Øðèôò:
+   -> from:
+   -> &from:
+   -> &from:
+   -> &from:
+   -> &da:
+   -> &de:
+   -> &from:
+   -> Fra
+   -> &fran:
+   -> &from:
+   -> &from:
+   -> &od:
+   -> &from:
+   -> &èç:
+   -> Green:
+   -> &Green:
+   -> &Green:
+   -> &Green:
+   -> &Verde:
+   -> &Verde:
+   -> &Green:
+   -> Grøn
+   -> &Grön:
+   -> &Green:
+   -> &Green:
+   -> &zeleno:
+   -> &zöld:
+   -> zielony:
+   -> &Çåëåíûé:
+   -> Help
+   -> &Hilfe
+   -> &Help
+   -> &Aide
+   -> &Aiuto
+   -> A&yuda
+   -> &Hulp
+   -> Hjælp
+   -> &Hjälp
+   -> &Help
+   -> &Help
+   -> &pomoc
+   -> &segítség
+   -> &Pomoc
+   -> &Ïîìîùü
+   -> Hue:
+   -> Hu&e:
+   -> Hu&e:
+   -> Hu&e:
+   -> Co&lor:
+   -> Hu&e:
+   -> Farve
+   -> &Hue:
+   -> Hu&e:
+   -> Hu&e:
+   -> Hu&e:
+   -> Hu&e:
+   -> Îò&òåíîê:
+   -> Ignore
+   -> &Ignorieren
+   -> &Ignore
+   -> &Ignorer
+   -> &Ignorare
+   -> &Ignorar
+   -> &Negeren
+   -> Ignorer
+   -> &Ignorera
+   -> &Ignore
+   -> &Ignore
+   -> &ignoriraj
+   -> &elvetni
+   -> &Ignoruj
+   -> &Èãíîðèðîâàòü
+   -> Information
+   -> Information
+   -> Information
+   -> Information
+   -> Informazione
+   -> Información
+   -> Information
+   -> Information
+   -> Information
+   -> Information
+   -> Information
+   -> informacija
+   -> információ
+   -> informacja
+   -> Èíôîðìàöèÿ
+   -> Landscape
+   -> L&andscape
+   -> L&andscape
+   -> L&andscape
+   -> Paisa&je
+   -> L&andscape
+   -> Landskab
+   -> &Landskap
+   -> L&andscape
+   -> L&andscape
+   -> L&andscape
+   -> L&andscape
+   -> Pozioma
+   -> Âèä&
+   -> Look in:
+   -> Suchen &in:
+   -> Look &in:
+   -> Look &in:
+   -> &Guardare in:
+   -> Ver deta&lle:
+   -> Look &in:
+   -> Se på:
+   -> &Look in
+   -> Look &in:
+   -> Look &in:
+   -> traži &u:
+   -> Look &in:
+   -> Szukaj w:
+   -> Ïðîñìî&òðåòü:
+   -> Lum:
+   -> &Lum:
+   -> &Lum:
+   -> &Lum:
+   -> &Lum:
+   -> &Lum:
+   -> &Lum
+   -> &Lum:
+   -> &Lum:
+   -> &Lum:
+   -> &Lum:
+   -> &ßðêîñòü:
+   -> Match case
+   -> Match &case
+   -> Match &case
+   -> Match &case
+   -> Coinc. ma&yus/minus
+   -> Match &case
+   -> Matchningsexempel
+   -> Match &case
+   -> Match &case
+   -> Match &case
+   -> Match &case
+   -> Ó÷èòûâàòü&ðåãèñòð
+   -> Match whole words only
+   -> Match &whole words only
+   -> Match &whole words only
+   -> Match &whole words only
+   -> Coinc. &palabra completa
+   -> Match &whole words only
+   -> &Matcha endast hela ord
+   -> Match &whole words only
+   -> Match &whole words only
+   -> Match &whole words only
+   -> Match &whole words only
+   -> Ó÷èòûâàòü&òîëüêî öåëûå ñëîâà
+   -> Name:
+   -> &Name:
+   -> &Name:
+   -> &Name:
+   -> &Nome:
+   -> &Nombre:
+   -> &Name:
+   -> Navn:
+   -> &Namn:
+   -> &Name:
+   -> &Name:
+   -> &Naziv:
+   -> &név:
+   -> &Nazwa:
+   -> &Èìÿ:
+   -> New Folder
+   -> New Folder
+   -> New Folder
+   -> New Folder
+   -> Nuova cartella
+   -> Nueva carpeta
+   -> New Folder
+   -> Ny mappe
+   -> Ny folder
+   -> New Folder
+   -> New Folder
+   -> nova mapa
+   -> New Folder
+   -> Nowy folder
+   -> Íîâàÿ ïàïêà
+   -> &Nein
+   -> &No
+   -> &Non
+   -> &No
+   -> &No
+   -> &Neen
+   -> Nej
+   -> &Nej
+   -> &No
+   -> &No
+   -> &Ne
+   -> &nem
+   -> &nie
+   -> &Íåò
+   -> No To All
+   -> &Alle Nein
+   -> &All No
+   -> &Non pour tout
+   -> &Tutti No
+   -> No &a todo
+   -> &Alles neen
+   -> Nej til alle
+   -> &Nej till alla
+   -> &All No
+   -> &All No
+   -> &sve Ne
+   -> &mind nem
+   -> &nie dla wszystkich
+   -> &Âñå íåò
+   -> Number of copies:
+   -> Anzahl &Kopien:
+   -> Number of &copies:
+   -> Number of &copies:
+   -> &Numero di copie
+   -> Número &copias:
+   -> Number of &copies:
+   -> Antal kopier
+   -> Antal &kopior:
+   -> Number of &copies:
+   -> Number of &copies:
+   -> broj &kopije:
+   -> másolatok száma:
+   -> &Liczba kopii:
+   -> Êîëè÷åñòâî&êîïèé:
+   -> Open
+   -> &Oeffnen
+   -> &Open
+   -> &Open
+   -> &Aperto
+   -> &Abrir
+   -> &Open
+   -> Åben
+   -> &Öppna
+   -> &Open
+   -> &Open
+   -> &otvori
+   -> &megnyit
+   -> &Otwórz
+   -> &Îòêðûòü
+   -> Orientation
+   -> Orientation
+   -> Orientation
+   -> Orientation
+   -> Orientamento
+   -> Orientación
+   -> Orientation
+   -> Indstilling
+   -> Orientering
+   -> Orientation
+   -> Orientation
+   -> orijentacija
+   -> Orientation
+   -> Orientacja
+   -> Íàïðàâëåíèå
+   -> Pages
+   -> Pa&ges
+   -> Pa&ges
+   -> Pa&ges
+   -> Pagine
+   -> Pá&ginas
+   -> Pa&ges
+   -> Sider
+   -> &Sidor
+   -> Pa&ges
+   -> Pa&ges
+   -> str&anica
+   -> oldal
+   -> strony
+   -> Ñòðà&íèöû
+   -> Paper
+   -> Paper
+   -> Paper
+   -> Paper
+   -> Carta
+   -> Papel
+   -> Paper
+   -> Papir
+   -> Papper
+   -> Paper
+   -> Paper
+   -> papir
+   -> papír
+   -> papier
+   -> Áóìàãà
+   -> Picture:
+   -> Picture:
+   -> Picture:
+   -> Picture:
+   -> Figura:
+   -> Imagen:
+   -> Picture:
+   -> Billede
+   -> Bild:
+   -> Picture:
+   -> Picture:
+   -> slika:
+   -> kép:
+   -> Ðèñóíîê:
+   -> Portrait
+   -> P&ortrait
+   -> P&ortrait
+   -> P&ortrait
+   -> Ritratto
+   -> &Retrato
+   -> P&ortrait
+   -> Portræt
+   -> &Porträtt
+   -> P&ortrait
+   -> P&ortrait
+   -> P&ortrait
+   -> P&ortrait
+   -> Pionowa
+   -> Ï&îðòðåò
+   -> Preview
+   -> Vorschau
+   -> Preview
+   -> Preview
+   -> Anteprima
+   -> Vista previa
+   -> Preview
+   -> Optakt
+   -> Förhandsgranskning
+   -> Preview
+   -> Preview
+   -> prikaz
+   -> elõzetes
+   -> Podglad
+   -> Ïðåäâ. ïðîñìîòð
+   -> Print
+   -> Drucken
+   -> Print
+   -> Print
+   -> Stampare
+   -> Imprimir
+   -> Print
+   -> Print
+   -> Skriv
+   -> Print
+   -> Print
+   -> ispis
+   -> nyomtat
+   -> Drukuj
+   -> Ïå÷àòü
+   -> Print to file
+   -> Print to f&ile
+   -> Print to f&ile
+   -> Print to f&ile
+   -> Stampa in un file
+   -> Imprimir &en archivo
+   -> Print to f&ile
+   -> Print til fil
+   -> &Skriv till fil
+   -> Print to f&ile
+   -> Print to f&ile
+   -> &ispis u datoteku
+   -> nyomtatás fájlba
+   -> Drukuj do pliku
+   -> Ïå÷àòü â&ôàéë
+   -> Printer
+   -> Drucker
+   -> Printer
+   -> Printer
+   -> Stampare
+   -> Impresora
+   -> Printer
+   -> Printer
+   -> Skrivare
+   -> Printer
+   -> Printer
+   -> pisac
+   -> nyomtató
+   -> Drukarka
+   -> Ïðèíòåð
+   -> Properties
+   -> &Properties
+   -> &Properties
+   -> &Properties
+   -> &Proprietà
+   -> &Propiedades
+   -> &Properties
+   -> Opsætning
+   -> &Egenskaper
+   -> &Properties
+   -> &Properties
+   -> &osobine
+   -> &Properties
+   -> W³aœciwoœci
+   -> &Ñâîéñòâà
+   -> Read-only
+   -> &Read-only
+   -> &Read-only
+   -> &Read-only
+   -> &Sola lettura
+   -> &Sólo lectura
+   -> &Read-only
+   -> Læs kun
+   -> &Läs endast
+   -> &Read-only
+   -> &Read-only
+   -> &samo-citanje
+   -> &csak olvas
+   -> &Tylko do odczytu
+   -> &Òîëüêî ÷òåíèå
+   -> Red:
+   -> &Red:
+   -> &Red:
+   -> &Red:
+   -> &Rosso:
+   -> &Rojo
+   -> &Red:
+   -> Læs:
+   -> &Läs:
+   -> &Red:
+   -> &Red:
+   -> &crveno:
+   -> &vörös:
+   -> &czerwony:
+   -> &Êðàñíûé:
+   -> Replace
+   -> &Replace
+   -> &Replace
+   -> &Replace
+   -> &Sostituire
+   -> &Reemplazar
+   -> &Replace
+   -> Sæt ind
+   -> &Ersätt
+   -> &Replace
+   -> &Replace
+   -> &vrati
+   -> &Replace
+   -> &zast¹p
+   -> &Ïåðåìåñòèòü
+   -> Replace All
+   -> Replace &All
+   -> Replace &All
+   -> Replace &All
+   -> &Sostituire tutto
+   -> Reempla&zar todo
+   -> Replace &All
+   -> Sæt alt ind
+   -> Ersätt &Alla
+   -> Replace &All
+   -> Replace &All
+   -> vrati &sve
+   -> Replace &All
+   -> Zast¹p wszystko
+   -> Ïåðåìåñòèòü&âñå
+   -> Replace with:
+   -> Re&place with:
+   -> Re&place with:
+   -> Re&place with:
+   -> &Sostituire con:
+   -> Reemplazar &con:
+   -> Re&place with:
+   -> Sæt ind med
+   -> &Ersätt med:
+   -> Re&place with:
+   -> Re&place with:
+   -> vrati&kao:
+   -> Re&place with:
+   -> Zast¹p z:
+   -> Ïåðåìå&ñòèòü ñ:
+   -> Retry
+   -> &Wiederholen
+   -> &Retry
+   -> &Répéter
+   -> &Ripetere
+   -> Repe&tir
+   -> &Herhalen
+   -> Prøv igen
+   -> &Upprepa
+   -> &Retry
+   -> &Retry
+   -> &ponoviti
+   -> &ismételni
+   -> &Powtórz
+   -> &Ïîâòîð
+   -> Sample
+   -> Sample
+   -> Sample
+   -> Sample
+   -> Campione
+   -> Muestra
+   -> Sample
+   -> prøve
+   -> Prov
+   -> Sample
+   -> Sample
+   -> primjer
+   -> Sample
+   -> Îáðàçåö
+   -> Sat:
+   -> &Sat:
+   -> &Sat:
+   -> &Sat:
+   -> &Sat:
+   -> &Sat:
+   -> &Sat:
+   -> &Sat:
+   -> &Sat:
+   -> &Sat:
+   -> &Sat:
+   -> &Óñòàíîâëåí:
+   -> Save
+   -> &Speichern
+   -> &Save
+   -> &Enregistrer
+   -> &Salvare
+   -> &Guardar
+   -> &Save
+   -> Gem
+   -> &Spara
+   -> &Save
+   -> &Save
+   -> &spremi
+   -> &ment
+   -> &Zapisz
+   -> &Ñîõðàíèòü
+   -> Save as type:
+   -> Speichern unter:
+   -> Save as &type:
+   -> Save as &type:
+   -> &Salvare come tipo:
+   -> Guardar &como:
+   -> Save as &type:
+   -> Gem som
+   -> Spara som &typ:
+   -> Save as &type:
+   -> Save as &type:
+   -> Spremi kao &tip:
+   -> mentés tipusa:
+   -> &Zapisz jako
+   -> Ñîõðàíèòü&êàê:
+   -> Save in:
+   -> Speichern &in:
+   -> Save &in:
+   -> Save &in:
+   -> &Salvare in:
+   -> Guardar &en:
+   -> Save &in:
+   -> Gem i:
+   -> &Spara i:
+   -> Save &in:
+   -> Save &in:
+   -> Spremi &u:
+   -> Save &in:
+   -> Ñîõðàíèòü&â:
+   -> Script:
+   -> Sc&ript:
+   -> Sc&ript:
+   -> Sc&ript:
+   -> &Scritto
+   -> Sc&ript:
+   -> Skrift
+   -> &Skriva
+   -> Sc&ript:
+   -> Sc&ript:
+   -> Sc&ript:
+   -> Sc&ript:
+   -> skrypt
+   -> Sc&ript:
+   -> Selection
+   -> &Selection
+   -> &Selection
+   -> &Selection
+   -> &Selezione
+   -> &Selección
+   -> &Selection
+   -> Valg
+   -> &Val
+   -> &Selection
+   -> &Selection
+   -> &Selection
+   -> &válogatás
+   -> &wybór
+   -> &Âûáîð
+   -> Size:
+   -> Si&ze:
+   -> Si&ze:
+   -> Si&ze:
+   -> &Grandezza
+   -> Tama&ño
+   -> Si&ze:
+   -> Størrelse
+   -> &Storlek
+   -> Si&ze:
+   -> Si&ze:
+   -> Si&ze:
+   -> méret:
+   -> Format:
+   -> Ðàç&ìåð:
+   -> Source:
+   -> &Source:
+   -> &Source:
+   -> &Source:
+   -> &Origine
+   -> &Fuente:
+   -> &Source:
+   -> Kilde
+   -> &Källa
+   -> &Source:
+   -> &Source:
+   -> &Source:
+   -> &Source:
+   -> Zródlo:
+   -> &Èñòî÷íèê:
+   -> Status:
+   -> Status:
+   -> Status:
+   -> Status:
+   -> Stato:
+   -> Estado:
+   -> Status:
+   -> Status
+   -> Status:
+   -> Status:
+   -> Status:
+   -> Status:
+   -> státus:
+   -> Stan:
+   -> Ñòàòóñ:
+   -> Strikeout
+   -> Stri&keout
+   -> Stri&keout
+   -> Stri&keout
+   -> Stri&keout
+   -> Korriger
+   -> &Strikeout
+   -> Stri&keout
+   -> Stri&keout
+   -> Stri&keout
+   -> Stri&keout
+   -> Çà÷åð&êèâàíèå
+   -> to:
+   -> &to:
+   -> &to:
+   -> &to:
+   -> &a:
+   -> &to:
+   -> Til
+   -> &till:
+   -> &to:
+   -> &to:
+   -> &to:
+   -> &to:
+   -> &do:
+   -> &â:
+   -> Type:
+   -> Type:
+   -> Type:
+   -> Type:
+   -> Tipo:
+   -> Tipo:
+   -> Type:
+   -> Type
+   -> Typ:
+   -> Type:
+   -> Type:
+   -> tip
+   -> tip:
+   -> Typ:
+   -> Òèï:
+   -> Underline
+   -> &Underline
+   -> &Underline
+   -> &Underline
+   -> &Linea inferiore
+   -> &Subrayar
+   -> &Underline
+   -> Understreg
+   -> &Understryka
+   -> &Underline
+   -> &Underline
+   -> &Underline
+   -> &Underline
+   -> &podkreœlenie
+   -> &Ïîä÷åðêèâàíèå
+   -> &Up
+   -> &Up
+   -> &Up
+   -> &Superiore
+   -> &Arriba
+   -> &Up
+   -> &Upp
+   -> &Up
+   -> &Up
+   -> &Up
+   -> &Up
+   -> &Ââåðõ
+   -> Warning
+   -> Warnung
+   -> Warning
+   -> Attention
+   -> Avvertenza
+   -> Aviso
+   -> Waarschuwing
+   -> Advarsel
+   -> Varning
+   -> Warning
+   -> Warning
+   -> Upozorenje
+   -> figyelmeztetés
+   -> ostrze¿enie
+   -> Ïðåäóïðåæäåíèå
+   -> Where:
+   -> Where:
+   -> Where:
+   -> Where:
+   -> Dove:
+   -> Dónde:
+   -> Where:
+   -> Hvor
+   -> Var:
+   -> Where:
+   -> Where:
+   -> Gdje:
+   -> hol:
+   -> Gdzie:
+   -> Ãäå:
+   -> Yes
+   -> &Ja
+   -> &Yes
+   -> &Oui
+   -> &Si
+   -> &Sí
+   -> &Ja
+   -> &Ja
+   -> &Yes
+   -> &Yes
+   -> &Da
+   -> &igen
+   -> &tak
+   -> &Äà
+   -> Yes To All
+   -> A&lle Ja
+   -> A&ll Yes
+   -> &Oui pour tout
+   -> &Tutti si
+   -> To&do sí
+   -> A&lles ja
+   -> Ja til alle
+   -> &Ja till alla
+   -> A&ll Yes
+   -> A&ll Yes
+   -> s&ve Da
+   -> mind igen
+   -> &tak dla wszystkich
+   -> Âñå&äà
+
+[Component]: stStrings
+
+[Component]: strcAbsenkTempSollHint
+   -> P30+P32...Normaltemp
+   -> P30+P32...Normal temp
+   -> P30+P32...temp. normale
+   -> P30+P32...Temp norm.
+   -> P30+P32...Temp. normal
+   -> P30+P32...normale temp
+   -> P30+P32...Normaltemp
+   -> P30+P32...Normaltemp
+   -> P30+P32....Normaltemp
+   -> P30+P32...NormalTemp
+   -> P30+P32...Normaltemp
+   -> P30+P32...normalhõm
+   -> P30+P32...temp.norm.
+
+[Component]: strcAdresseAnThermeUmstellen
+   -> Bitte Adresse an der Therme umstellen!
+   -> Please adjust address at boiler!
+   -> Merci de changer l'adresse sur la chaudière !
+   -> Prego modificare l'indirizzo caldaia!
+   -> Ajustar dirección en caldera
+   -> Gelieve adres te veranderen!
+   -> Korriger adresse på kedel!
+   -> Ändra pannadress
+   -> Forandre kjeladresse
+   -> Spremenite prosim naslov na kotlu!
+   -> Molim promjenu adresa na termi
+   -> Állítsa át a címet a kazánon!
+   -> Proszê przestawiæ adres termy!
+   -> Ââåäèòå àäðåñ áîéëåðà!
+
+[Component]: strcAnlagenbetreiberVers
+   -> Anlagenbetreiber Version
+   -> User version
+   -> Version utilisateur
+   -> Versione conduttore impianto
+   -> Versión usuario
+   -> Versie installatiegebruiker
+   -> Bruger version
+   -> Användarversion
+   -> Brukerveiledning
+   -> Uporabnik razlièica
+   -> Verzija pogona postrojenja
+   -> Üzemeltetõi változat
+   -> Wersja u¿ytkownika
+   -> Âåðñèÿ äëÿ ïîòðåáèòåëÿ
+
+[Component]: strcBusscanWirdAusgefuehrt
+   -> Busscan wird ausgeführt...
+   -> Busscan is active...
+   -> Le Busscan est actif …
+   -> Busscan viene eseguito…
+   -> Busscan activo
+   -> Busscan wordt uitgevoerd...
+   -> Busskan bliver gennemført…..
+   -> Busscan utförs
+   -> Busscan utføres
+   -> Izvaja se bus scan…
+   -> Busscan se izvodi...
+   -> Busscan történik...
+   -> Busscan aktywny
+   -> Âûïîëíÿåòñÿ ñêàíèðîâàíèå øèíû...
+
+[Component]: strcBusteilnehmerKannNichtVisualisiertWerden
+   -> Der ausgewählte Busteilnehmer kann nicht visualisiert werden!
+   -> The selected bus device is not available!
+   -> Le Bus sélectionné ne peut pas être visualisé
+   -> Il partecipante bus selezionato non può venire visualizzato!
+   -> Dispositivo bus seleccionado no activo
+   -> De geselecteerde bus-deelnemer is niet beschikbaar!
+   -> Den valgte busenhed er ikke ledig
+   -> Vald Bus-deltagare kan ej visualiseras
+   -> Valgt Bus-deltaker er ikke ledig
+   -> Izbranega udeleženca na vodilu ni mogoèe prikazati!
+   -> Odabrani BUS ucesnik nije moguce vizualizirati
+   -> A kiválasztott buszrésztvevõ nem megjeleníthetõ!
+   -> Wybrany uczestnik magistrali eBus nie jest dostêpny!
+   -> Âûáðàííûé ïîòðåáèòåëü íà øèíå îòñóòñòâóåò!
+
+[Component]: strcDatenAktivNachNeustart
+   -> Die Änderungen werden erst nach Netzspannungsunterbrechnung am Gerät wirksam
+   -> Data are effective after new start-up!
+   -> Les valeurs ne seront actives qu'après un nouveau démarrage
+   -> I dati sono attivi solo dopo una nuova partenza!
+   -> Datos efectivos tras reiniciar
+   -> De gegevens zijn pas actief na een nieuwe start!
+   -> Data bliver først aktiveret efter genstart!
+   -> Data aktiveras först efter omstart
+   -> Data aktiveres först etter omstart
+   -> Podatki bo prièeli veljati šele po ponovnem zagonu!
+   -> Podaci ce biti djelotvorni tek kod novog pokretanja!
+   -> Az adatok csak újraindítás után lesznek hatásosak!
+   -> Dane aktualne dopiero po ponownym uruchomieniu!
+   -> Äàííûå áóäóò àêòèâíû òîëüêî ïðè ïîâòîðíîì ïóñêå!
+
+[Component]: strcDisabledParameterOutOfLimits
+   -> Gesperrter Parameter außerhalb des gültigen Bereichs
+   -> Disabled parameter out of limits
+   -> Paramètre bloqué en dehors de la plage de validité
+   -> Parametro interdetto al di fuori del campo valido
+   -> Parámetros deshabilitados fuera de rango válido
+   -> Gesloten paramater buiten het geldige bereik
+   -> Spærrede parametre er udenfor området
+   -> Spärrad parameter utanför giltigt område
+   -> Sperrede parametre er utenfor gyldig område
+   -> Blokirani parameter izven veljavnega obmoèja
+   -> Zaprijeceni parametri van važeceg podrucja
+   -> Tiltott paraméter az érvényes tartományon kívül
+   -> Parametr niedostêpny poza dopuszcz. zakresem
+   -> Áëîêèðîâàííûå ïàðàìåòðû çà ïðåäåëàìè äåéñòâèòåëüíûõ çíà÷åíèé
+
+[Component]: strcErrorDuringTransfer
+   -> Fehler während Datentransfer
+   -> Error during data transfer
+   -> Erreur de transfert de données
+   -> Errore durante il trasferimento dati
+   -> Fallo durante transmisión de datos
+   -> Fout tijdens data-overdracht
+   -> Fejl under datatransport
+   -> Fel vid dataöverföring
+   -> Feil under dataoverföring
+   -> Napaka med prenosom podatkov
+   -> Kvar u vrijeme prenosa podataka
+   -> Hiba adatátvitel alatt
+   -> Blad podczas transferu danych
+   -> Îøèáêà ïåðåäà÷è äàííûõ
+
+[Component]: strcFehlerAufbauVerbindung
+   -> Fehler beim Aufbau der Verbindung(Time Out)!
+   -> Error during connecting (Timeout)
+   -> Erreur lors de la connexion (temps écoulé)
+   -> Errore durante creazione del collegamento(time out)
+   -> Fallo durante establecimiento de conexión (Time out)
+   -> Fout tijdens de verbinding(Time Out)!
+   -> Fejl ved oprettelse af forbindelse (Time out)
+   -> Fel vid anslutning (Timeout)
+   -> Feil ved tilkobling (Timeout)
+   -> Napaka pri vzpostavljanju povezave (Time Out)!
+   -> Kvar pri uspostavi veze (Time Out)!
+   -> Hiba a kapcsolat felépítése alatt (Time Out)!
+   -> Nieudane po³¹czenie (Time Out)!
+   -> Îøèáêà âî âðåìÿ ñâÿçè (Time Out)!
+
+[Component]: strcGeraeteDateiFehlt
+   -> Es fehlt die Gerätedatei.Keine Kommunikation möglich!
+   -> Device file is missing. No communication possible!
+   -> Les valeurs appareil manquent. Communication impossible.
+   -> Manca archivio dati apparecchio.Comunicazione non possibile!
+   -> Falta archivo de dispositivo. Comunicación imposible.
+   -> Toestelbestand niet gevonden.Geen communicatie mogelijk!
+   -> Enhedsfil mangler: ingen mulighed for kommunikation
+   -> Apparatfil saknas. Ingen kommunikation möjlig
+   -> Enhetsfil mangler: ingen mulighet for kommunikasjon
+   -> Manjka datoteka naprave. Komunikacija ni mogoèa!
+   -> Manjkaju podaci o sklopu. Nije moguca komunikacija!
+   -> Nincsenek készülékadatok.Kommunikáció nem lehetséges!
+   -> Brak pliku urz¹dzenia. Komunikacja niemo¿liwa!
+   -> Ôàéë ïðèáîðà îòñóòñòâóåò. Ñâÿçü íå âîçìîæíà!
+
+[Component]: strcHZ
+   -> Riscalda.
+   -> Värme
+   -> Varme
+   -> OGR
+   -> Fûtés
+   -> Ogrzewanie
+   -> Îòîïëåíèå
+
+[Component]: strcHZFachmannVers
+   -> Heizungsfachmann Version
+   -> Service version
+   -> Version chauffagiste
+   -> Versione installatore/tecnico
+   -> Versión de servicio técnico
+   -> Versie verwarmingsvakman
+   -> Fagmandens version
+   -> Serviceversion (FM)
+   -> Serviceversjon
+   -> Serviser razlièica
+   -> Verzija servisera
+   -> Tüzeléstechnikusi változat
+   -> Wersja serwisowa
+   -> Âåðñèÿ äëÿ ñïåöèàëèñòà-òåïëîòåõíèêà
+
+[Component]: strclaborVers
+   -> Labor Version
+   -> Laboratory version
+   -> Version laboratoire
+   -> Versione laboratorio
+   -> Versión de laboratorio
+   -> Versie labo
+   -> Laboratorie version
+   -> Laboratorieversion
+   -> Laboratorieversjon
+   -> Laboratorij razlièica
+   -> Laboratorijska verzija
+   -> Labor változat
+   -> wersja Labor
+   -> Âåðñèÿ äëÿ ëàáîðàòîðèè
+
+[Component]: strcLoad_epb_file
+   -> Lade S-Parameterdatei
+   -> Load S-parameter file
+   -> Load S-parameter file
+   -> Caricare file parametri-S
+   -> Cargar parámetro S
+   -> Laad S-parameterbestand
+   -> Indlæs S-parameter fil
+   -> Ladda S-parameterfil
+   -> Innles S-parameterfil
+   -> Naloži datoteko S-parametrov
+   -> Puni P-parametarsku datoteku
+   -> Load S-paraméter file
+   -> Otwórz plik z parametr. S
+   -> Çàãðóçèòü ôàéë ïàðàìåòðîâ S
+
+[Component]: strcLoad_EPK_File
+   -> Lade P-Parameterdatei
+   -> Load P-parameter file
+   -> Load P-parameter file
+   -> Caricare file parametri-P
+   -> Cargar parámetro P
+   -> Laad P-parameterbestand
+   -> Indlæs P-parameter fil
+   -> Ladda P-parameterfil
+   -> Innles P-parameterfil
+   -> Naloži datoteko P-parametrov
+   -> Puni S-parametarsku datoteku
+   -> Load P-paraméter file
+   -> Otwórz plik z parametr. P
+   -> Çàãðóçèòü ôàéë ïàðàìåòðîâ P
+
+[Component]: strcLoad_graphic_file
+   -> Lade Protokolldatei
+   -> Open protocol file
+   -> Open protocol file
+   -> Aprire file protocollo
+   -> Abrir archivo de protocolo
+   -> Open protocolbestand
+   -> Åben protokol fil
+   -> Öppna protokollfil
+   -> Åpne protokollfil
+   -> Naloži protokolno datoteko
+   -> Otvori datoteku protokola
+   -> Open protokoll file
+   -> Otwórz plik protoko³u
+   -> Îòêðûòü ôàéë ïðîòîêîëà
+
+[Component]: strcLoad_Hist_file
+   -> Lade Fehlerhistorie
+   -> Load history file
+   -> Load history file
+   -> Caricare file storico
+   -> Cargar archivo histórico
+   -> Laad historiekbestand
+   -> Indlæs historik fil
+   -> Ladda felhistorikfil
+   -> Innles feilhistoriefil
+   -> Naloži arhiv napak
+   -> Puni povjesnu datoteku
+   -> Load hibatörténet file
+   -> Otwórz plik historii
+   -> Çàãðóçèòü ôàéë èñòîðèè
+
+[Component]: strcLoad_IO_file
+   -> Lade IO-Paramterdatei
+   -> Load IO-paramter file
+   -> Load IO-paramter file
+   -> Caricare file parametri IO
+   -> Cargar archivo parámetros IO
+   -> Laad IO-parameterbestand
+   -> Indlæs Io-parameter fil
+   -> Ladda IO-parameterfil
+   -> Innles IO-parameterfil
+   -> Naloži datoteko IO-parametrov
+   -> Puni IO-parametarsku datoteku
+   -> Load IO-paraméter file
+   -> Otwórz plik z parametr. IO
+   -> Çàãðóçèòü ôàéë ïàðàìåòðîâ IO
+
+[Component]: strcLoad_KA_File
+   -> Lade KA-Parameterdatei
+   -> Load KA-parameter file
+   -> Load KA-parameter file
+   -> Caricare file parametri KA
+   -> Cargar archivo parámetros KA
+   -> Laad KA-parameterbestand
+   -> Indlæs KA-parameter fil
+   -> Ladda KA-parameterfil
+   -> Innles KA-parameterfil
+   -> Naloži datoteko KA-parametrov
+   -> Puni KA-parametarsku datoteku
+   -> Load KA-paraméter file
+   -> Otwórz plik z parametr. KA
+   -> Çàãðóçèòü ôàéë ïàðàìåòðîâ KA
+
+[Component]: strcLoad_Menue_File
+   -> Lade Menue-Parameterdatei
+   -> Load Menue-parameter file
+   -> Load Menue-parameter file
+   -> Caricare file parametri menù
+   -> Cargar archivo parámetros menú
+   -> Laad menu-parameter-bestand
+   -> Indlæs menu-parameter fil
+   -> Ladda meny-parameterfil
+   -> Innles meny-parameterfil
+   -> Naloži datoteko menijskih parametrov
+   -> Puni parametarsku datoteku izbornika
+   -> Load menü-paraméter file
+   -> Otwórz plik z parametr. menu
+   -> Çàãðóçèòü ôàéë ïàðàìåòðîâ ìåíþ
+
+[Component]: strcLoad_picture_file
+   -> Lade Picture-Datei
+   -> Open picture file
+   -> Open picture file
+   -> Aprire file figura
+   -> Abrir archivo de imágenes
+   -> Open beeldbestand
+   -> Åbn billed fil
+   -> Öppna bildfil
+   -> Åpne bildfil
+   -> Naloži slikovno datoteko
+   -> Otvori datoteku slika
+   -> Open kép file
+   -> Otwórz plik grafiki
+   -> Îòêðûòü ãðàôè÷åñêèé ôàéë
+
+[Component]: strcLoad_sta_file
+   -> Lade Statistikdatei
+   -> Load statistics file
+   -> Load statistics file
+   -> Caricare file statistiche
+   -> Cargar archivo de estadísticas
+   -> Laad statistiekenbestand
+   -> Indlæs statistik fil
+   -> Ladda statistikfil
+   -> Innles statistikkfil
+   -> Naloži statistièno datoteko
+   -> Puni datoteku statistike
+   -> Load statisztikai file
+   -> Otwórz plik statystyki
+   -> Çàãðóçèòü ôàéë ñòàòèñòèêè
+
+[Component]: strcLoadEM_FB_File
+   -> Lade FB/EM-Parameterdatei
+   -> Load FB/EM-parameter file
+   -> Load FB/EM-parameter file
+   -> Caricare file parametri FB/EM
+   -> Cargar archivo parámetros FB/EM
+   -> Laad FB/EM-parameterbestand
+   -> Indlæs FB/EM-parameter fil
+   -> Ladda FB/EM-parameterfil
+   -> Innles FB/EM-parameterfil
+   -> Naloži datoteko FB/EM-parametrov
+   -> Puni FB/EM-parametarsku datoteku
+   -> Load FB/EM-paraméter file
+   -> Otwórz plik z parametr. FB/EM
+   -> Çàãðóçèòü ôàéë ïàðàìåòðîâ ÄÓ/ÌÐ
+
+[Component]: strcMiteBUSAdapterVerbinden
+   -> Mit eBUS-Adapter verbinden?
+   -> Connect with eBUS adapter
+   -> Raccorder avec adaptateur eBUS ?
+   -> Collegare con adattatore eBUS?
+   -> ¿Conectar con adaptador eBus?
+   -> Met eBUS-adapter verbinden?
+   -> Forbind med eBUS-adapter?
+   -> Förbind med eBUS-adapter
+   -> Forbindelse med eBUS-adapter?
+   -> Povežem z adapterjem eBUS?
+   -> Spojiti s eBUS adapterom?
+   -> Összekötni az eBUS-Adapterrel?
+   -> Po³¹czyæ z adapterem magistrali eBUS?
+   -> Ñîåäèíèòü àäàïòåðîì eBUS?
+
+[Component]: strcNormalTempSollHint
+   -> ---,Absenktemp...P31-P32
+   -> ---,Reducing temperature...P31-P32
+   -> ---,Temp. réduite...P31-P32
+   -> ---,temp in dimin...P31-P32
+   -> ---,Temp. reducida...P31-P32
+   -> ---verlaagde temp...P31-P32
+   -> ---,Sænkningstemp...P31-P32
+   -> ---,Nedsänkningstemp...P31-P32
+   -> Senkningstemperatur P31-P32
+   -> ---,Tznižana...P31-P32
+   -> Laboratorijska verzija
+   -> ---,csökkhõm...P31-P32
+   -> ---,temp.obni¿...P31-P32
+
+[Component]: strcNoValuesChanged_TransferAll
+   -> Keine Werte geändert. Sollen alle Werte eingetragen werden?
+   -> No values changed. Transfer all values?
+   -> Aucune valeur modifiée. Toutes les valeurs doivent-elles être reprises ?
+   -> Nessun valore modificato.Trasferire tutti i valori?
+   -> No hay cambios de valores. ¿Transferir todos los valores?
+   -> Geen waarden gewijzigd. Alle waarden overdragen?
+   -> Ingen værdier er ændret. Skal alle værdier registreres?
+   -> Inga värden ändrade. Skall alla värden föras in?
+   -> Ingen verdier endret. Skal alle verdier registreres?
+   -> Nobena vrednost ni bila spremenjena. Vnesem vse vrednosti?
+   -> Nema promjene podataka.Treba li unijeti sve iznose?
+   -> Nincs változtatott érték. Minden értéket be kell vinni?
+   -> Wartoœci niezmienione. Zapisaæ wszystkie wartoœci?
+   -> Çíà÷åíèÿ íå èçìåíåíû. Âíåñòè âñå çíà÷åíèÿ?
+
+[Component]: strcRaumAbsenkHint
+   -> 10...Raum-Normaltemperatur
+   -> 10...normal room temperature
+   -> 10...Temp. ambiante normale
+   -> 10...temp. normale ambiente
+   -> 10...Temp. Ambiente normal
+   -> 10...normale ruimtetemperatuur
+   -> 10...Normal rumtemperatur
+   -> 10...Rums-Normaltemperatur
+   -> Rom-normaltemperatur
+   -> 10...Normal Tsoba
+   -> 10..soba-normal.temp.
+   -> 10...szobanormálhõm
+   -> 10...temp.norm. w pom.
+
+[Component]: strcRaumNormalHint
+   -> ---,Raum-Absenktemperatur...35
+   -> ---,Reducing room temperature...35
+   -> ---,temp. ambiante réduite...35
+   -> ---,temp. ambiente in diminuz....35
+   -> ---,Temp. Ambiente reducida...35
+   -> ---,verlaagde ruimtetemperatuur...35
+   -> ---,Rum-sænkningstemperatur...35
+   -> ---,Rums-Nedsänkn.temp...35
+   -> Rom senket temperatur 35
+   -> ---,Znižana Tsoba...35
+   -> ---,sobna snižena temperatura...35
+   -> ---,szoba-csökkhõm...35
+   -> ---,temp.obniz. w pom....35
+
+[Component]: strcSave_Docu_File
+   -> Speichern Docu-Datei
+   -> Save Docu file
+   -> Save Docu file
+   -> Salvare file documenti
+   -> Salvar archivo Docu
+   -> Docu-bestand opslaan
+   -> Gem Docu fil.
+   -> Spara Dokumentfil
+   -> Lagre Dokumentfil
+   -> Shrani datoteko Docu
+   -> Pohrani Docu datoteku
+   -> Save dokum file
+   -> Zapis pliku dokumentu
+   -> Ñîõðàíèòü ôàéë äîêóìåíòà
+
+[Component]: strcSave_epb_file
+   -> Speichern S-Parameterdatei
+   -> Save S-parameter file
+   -> Save S-parameter file
+   -> Salvare file parametri-S
+   -> Salvar parámetro S
+   -> S-parameterbestand opslaan
+   -> Gem S-parameter-fil
+   -> Spara S-parameterfil
+   -> Lagre S-parameterfil
+   -> Shrani datoteko S-parametrov
+   -> Pohrani S-parametarsku datoteku
+   -> Save S-paraméter file
+   -> Zapis pliku z parametr. S
+   -> Ñîõðàíèòü ôàéë ïàðàìåòðîâ S
+
+[Component]: strcSave_Epk_file
+   -> Speichern P-Parameterdatei
+   -> Save P-parameter file
+   -> Save P-parameter file
+   -> Salvare file parametri-P
+   -> Salvar parámetro P
+   -> P-parameterbestand opslaan
+   -> Gem P-parameter fil
+   -> Spara P-parameterfil
+   -> Lagre P-parameterfil
+   -> Shrani datoteko P-parametrov
+   -> Pohrani P-parametarsku datoteku
+   -> Save P-paraméter file
+   -> Zapis pliku z parametr. P
+   -> Ñîõðàíèòü ôàéë ïàðàìåòðîâ P
+
+[Component]: strcSave_Hist_file
+   -> Speichern Fehlerhistorie
+   -> Save history file
+   -> Save history file
+   -> Salvare file storico
+   -> Salvar archivo histórico
+   -> Historiekbestand opslaan
+   -> Gem historik fil
+   -> Spara felhistorikfil
+   -> Lagre feilhistoriefil
+   -> Shrani arhiv napak
+   -> Pohrani povjesnu datoteku
+   -> Save hibatörténet file
+   -> Zapis pliku historii
+   -> Ñîõðàíèòü ôàéë èñòîðèè
+
+[Component]: strcSave_IO_file
+   -> Speichern IO-Paramterdatei
+   -> Save IO-paramter file
+   -> Save IO-paramter file
+   -> Salvare file parametri-IO
+   -> Salvar archivo parámetros IO
+   -> IO-parameterbestand opslaan
+   -> Gem Io-parameter fil
+   -> Spara IO-parameterfil
+   -> Lagre IO-parameterfil
+   -> Shrani datoteko IO-parametrov
+   -> Pohrani IO-parametarsku datoteku
+   -> Save IO-paraméter file
+   -> Zapis pliku z parametr. IO
+   -> Ñîõðàíèòü ôàéë ïàðàìåòðîâ IO
+
+[Component]: strcSave_KA_File
+   -> Speichern KA-Parameterdatei
+   -> Save KA-parameter file
+   -> Save KA-parameter file
+   -> Salvare file parametri-KA
+   -> Salvar archivo parámetros KA
+   -> KA-parameterbestand opslaan
+   -> Gem KA-parameter fil
+   -> Spara KA-parameterfil
+   -> Lagre KA-parameterfil
+   -> Shrani datoteko KA-parametrov
+   -> Pohrani KA-parametarsku datoteku
+   -> Save KA-paraméter file
+   -> Zapis pliku z parametr. KA
+   -> Ñîõðàíèòü ôàéë ïàðàìåòðîâ KA
+
+[Component]: strcSave_Menue_File
+   -> Speichern Menue-Parameterdatei
+   -> Save Menue-parameter file
+   -> Save Menue-parameter file
+   -> Salvare file parametri menù
+   -> Salvar archivo parámetros menú
+   -> Menu-parameterbestand opslaan
+   -> Gem menu-parameter fil
+   -> Spara meny-parameterfil
+   -> Lagre meny-parameterfil
+   -> Shrani datoteko menijskih parametrov
+   -> Pohrani parametarsku datoteku izbornika
+   -> Save menü-paraméter file
+   -> Zapis pliku z parametr. menu
+   -> Ñîõðàíèòü ôàéë ïàðàìåòðîâ ìåíþ
+
+[Component]: strcSave_sta_file
+   -> Speichern Statistikdatei
+   -> Save statistics file
+   -> Save statistics file
+   -> Salvare file statistiche
+   -> Salvar archivo de estadísticas
+   -> Statistiekenbestand opslaan
+   -> Gem statistik fil
+   -> Spara statistikfil
+   -> Lagre statistikk-fil
+   -> Shrani statistièno datoteko
+   -> Pohrani datoteku statistike
+   -> Save statisztikai file
+   -> Zapis pliku statystyki
+   -> Ñîõðàíèòü ôàéë ñòàòèñòèêè
+
+[Component]: strcSaveEM_FB_File
+   -> Speichern FB/EM-Parameterdatei
+   -> Save FB/EM-parameter file
+   -> Save FB/EM-parameter file
+   -> Salvare file parametri FB/EM
+   -> Salvar archivo parámetros FB/EM
+   -> FB/EM-parameterbestand opslaan
+   -> Gem FB/EM -parameter fil
+   -> Spara FB/EM-parameterfil
+   -> Lagre FB/EM-parameterfil
+   -> Shrani datoteko FB/EM-parametrov
+   -> Pohrani FB/EM-parametarsku datoteku
+   -> Save FB/EM-paraméter file
+   -> Zapis pliku z parametr. FB/EM
+   -> Ñîõðàíèòü ôàéë ïàðàìåòðîâ ÄÓ/ÌÐ
+
+[Component]: strcWHServiceVers
+   -> Weishaupt Service Version
+   -> Weishaupt Service version
+   -> Weishaupt Service Version
+   -> Versione service Weishaupt
+   -> Versión Weishaupt
+   -> Weishaupt service versie
+   -> Weishaupt service version
+   -> Weishaupt Serviceversion
+   -> Weishaupt Serviceversjon
+   -> Weishaupt Servis razlièica
+   -> Weishaupt servisna verzija
+   -> Weishaupt Service változat
+   -> wersja Weishaupt Service
+   -> Ñåðâèñíàÿ âåðñèÿ Weishaupt
+
+[Component]: strcWW
+   -> DHW
+   -> ECS
+   -> Acqua calda
+   -> ACS
+   -> STV
+   -> PTV
+   -> HMV
+   -> c.w.u.
+   -> ÃÂÑ
+
+[Component]: stOtherStrings
+   -> TMainForm.HelpFile
+   -> sbarCxe.SimpleText
+   -> OpenDlgMain.DefaultExt
+   -> OpenDlgMain.FileName
+   -> OpenDlgMain.Filter
+   -> OpenDlgMain.InitialDir
+   -> OpenDlgMain.Title
+   -> SaveDlgMain.DefaultExt
+   -> SaveDlgMain.FileName
+   -> SaveDlgMain.Filter
+   -> SaveDlgMain.InitialDir
+   -> SaveDlgMain.Title
+   -> stLocales
+   -> stCollections
+   -> stCharSets
+   -> TMainForm
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> RUSSIAN_CHARSET
+   -> sbarCxe
+   -> ANSI_CHARSET
+   -> ANSI_CHARSET
+   -> ANSI_CHARSET
+   -> ANSI_CHARSET
+   -> TsiLangDispatcher
+   -> siLangDispatcher1
+   -> ActiveLanguage
+   -> NumOfLanguages
+
+[Component]: LangNames.Strings
+   -> Deutsch
+   -> English
+   -> Francais
+   -> Italiano
+   -> Espanol
+   -> Nederlands
+   -> Dansk
+   -> Swedish
+   -> Norwegian
+   -> Slovenski
+   -> Hrvatski
+   -> Magyar
+   -> Polski
+   -> Russian
+   -> Greece
+   -> Language
+   -> Deutsch
+   -> TsiOpenDialog
+   -> OpenDlgMain
+   -> siLang
+   -> siLang1
+   -> TsiSaveDialog
+   -> SaveDlgMain
+   -> siLang
+   -> siLang1
+   -> TsiPrinterSetupDialog
+   -> PrinterSetupDlg
+   -> siLang
+   -> siLang1
+   -> TsiPrintDialog
+   -> PrintDlgMain
+   -> siLang
+   -> siLang1

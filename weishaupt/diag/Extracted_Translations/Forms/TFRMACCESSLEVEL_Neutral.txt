@@ -1,0 +1,249 @@
+--- Form: TFRMACCESSLEVEL [Neutral] ---
+
+[Component]: LblPassword
+   -> Password eingeben:
+   -> TButton
+   -> btnOk
+   -> &OK
+   -> TabOrder
+   -> OnClick
+   -> btnOkClick
+   -> TButton
+   -> btnCancel
+   -> &Abbrechen
+   -> TabOrder
+   -> OnClick
+   -> btnCancelClick
+   -> TButton
+   -> btnDongleSearch
+   -> &PC-Safety-Key
+   -> TabOrder
+   -> Visible
+   -> OnClick
+   -> btnDongleSearchClick
+   -> TEdit
+
+[Component]: EdtPassword
+   -> PasswordChar
+   -> TabOrder
+   -> OnKeyPress
+
+[Component]: EdtPasswordKeyPress
+   -> TButton
+   -> btnGraficAccess
+   -> &DL-Freischaltung
+   -> TabOrder
+   -> Visible
+   -> OnClick
+   -> btnGraficAccessClick
+   -> TButton
+   -> btnGraficPW
+   -> DL-Passwort
+   -> TabOrder
+   -> Visible
+   -> OnClick
+   -> btnGraficPWClick
+   -> TsiLangLinked
+   -> siLangLinked1
+   -> Version
+   -> 5.3.1.1
+
+[Component]: StringsTypes.Strings
+   -> TIB_STRINGLIST
+   -> TSTRINGLIST
+   -> NumOfLanguages
+   -> LangDispatcher
+   -> MainForm.siLangDispatcher1
+   -> OnChangeLanguage
+   -> siLangLinked1ChangeLanguage
+   -> LangDelim
+
+[Component]: LangNames.Strings
+   -> Deutsch
+   -> English
+   -> Francais
+   -> Italiano
+   -> Espanol
+   -> Nederlands
+   -> Dansk
+   -> Swedish
+   -> Norwegian
+   -> Slovenski
+   -> Hrvatski
+   -> Magyar
+   -> Polski
+   -> Russian
+   -> Greece
+   -> Language
+   -> Deutsch
+   -> TranslationData
+   -> stCaptions
+   -> TfrmAccessLevel
+   -> Access Level
+   -> Access Level
+   -> Access Level
+   -> Accesso livello
+   -> Nivel acceso
+   -> Access Level
+   -> Access-level
+   -> razina unosa
+   -> Access Level
+   -> Poziom dostêpu
+   -> Óðîâåíü äîñòóïà
+   -> btnCancel
+   -> &Abbrechen
+   -> &Cancel
+   -> &Interrompre
+   -> &Interrompere
+   -> &Salir
+   -> &Onderbreken
+   -> Afbryd
+   -> &Avbryt
+   -> &prekini
+   -> &megszakitás
+   -> &Anuluj
+   -> &Îòìåíèòü
+   -> btnDongleSearch
+   -> &PC-Safety-Key
+   -> Chiave &sicurezza PC
+   -> btnGraficAccess
+   -> &DL-Freischaltung
+   -> &DL  release
+   -> &Accès DL autorisé
+   -> &Consenso DL
+   -> &DL-Permiso
+   -> &DL-vrijschakeling
+   -> DL frigivning
+   -> &DL-Frikoppl.
+   -> &DL-slobodan uklop
+   -> &DL-engedélyezés
+   -> &Odblokowanie DL
+   -> &Äîñòóï ê ãðàôèêå
+   -> btnGraficPW
+   -> DL-Passwort
+   -> DL password
+   -> Mot de passe DL
+   -> Password DL
+   -> Contraseña DL
+   -> DL-paswoord
+   -> DL password
+   -> DL-password
+   -> DL lozinka
+   -> DL-kódszó
+   -> has³o DL
+   -> Ïàðîëü ãðàôèêè
+   -> btnOk
+   -> &OK
+   -> &OK
+   -> &OK
+   -> &OK
+   -> &OK
+   -> &OK
+   -> &OK
+   -> &OK
+   -> &OK
+
+[Component]: LblPassword
+   -> Password eingeben:
+   -> Insert password
+   -> Donner le mot de passe :
+   -> Inserire password
+   -> Contraseña:
+   -> Paswoord ingeven
+   -> Indsæt password:
+   -> Ange password
+   -> Unesi lozinku:
+   -> kódszót megadni:
+   -> Podaj has³o
+   -> Ââåñòè ïàðîëü
+   -> stHints
+   -> TfrmAccessLevel
+   -> btnCancel
+   -> btnDongleSearch
+   -> btnGraficAccess
+   -> btnGraficPW
+   -> btnOk
+
+[Component]: EdtPassword
+
+[Component]: LblPassword
+   -> stDisplayLabels
+   -> stFonts
+   -> TfrmAccessLevel
+   -> Microsoft Sans Serif
+   -> Microsoft Sans Serif
+   -> Microsoft Sans Serif
+   -> Tahoma
+   -> stMultiLines
+
+[Component]: stStrings
+
+[Component]: strcInvalidPassword
+   -> Ungültiges Passwort!
+   -> Invalid password
+   -> Mot de passe non valable !
+   -> Password non corretta!
+   -> Contraseña incorrecta
+   -> Ongeldig paswoord!
+   -> Ugyldigt password
+   -> Ogiltigt password
+   -> Neispravna lozinka
+   -> Érvénytelen kódszó!
+   -> Haslo nieaktualne!
+   -> Íåäåéñòâèòåëüíûé ïàðîëü!
+
+[Component]: strcPWOkDatenauswahlFreigeschaltet
+   -> Passwort OK! Erweiterte Datenauswahl beim DataLogger freigeschaltet.
+   -> Password OK! Additional data selection for DataLogger ready.
+   -> Mot de passe OK ! Accès au choix de données étendu autorisé.
+   -> Password OK! La selezione dati ampliata nel Data Logger è resa accessibile.
+   -> ¡Contraseña correcta! Selección ampliada de datos en DataLogger.
+   -> Paswoord OK! Bijkomende datakeuze bij DataLogger vrijgegeven.
+   -> Password er OK! Udvidet dataudvalg ved datalogger mulig.
+   -> Password OK! Extra datatillgang
+   -> Lozinka OK! Daljnji izbor podataka u DataLoggeru slobodno uklapajuæi.
+   -> Kódszó OK! Bõvített adatválaszték a DataLogger-nél engedélyezve.
+   -> Haslo OK! Dodatkowy wybór danych dla DataLogger aktywny.
+   -> Ïàðîëü OK! Îòêðûò äîñòóï ê ðàñøèðåííîìó âûáîðó äàííûõ â ðåãèñòðàòîðå äàííûõ
+
+[Component]: strcSchluesselAnfordern
+   -> Bitte Schlüssel anfordern.
+   -> Please ask for key.
+   -> Demander la clé.
+   -> Prego richiedere la chiave.
+   -> Pedir llave.
+   -> Gelieve sleutel op te vragen
+   -> Bestil nøgle
+   -> Begär nyckel
+   -> Molim pribavite kljuè
+   -> Kérje meg a kódszót.
+   -> Wymagany klucz.
+   -> Òðåáóéòå êëþ÷.
+
+[Component]: strcSchluesselEingegeben
+   -> Schlüssel eingeben und Schaltfläche erneut betätigen!
+   -> Insert key and push button again.
+   -> Entrer la clé et valider les niveaux d'accès
+   -> Inserire la chiave e azionare nuovamente il pulsante.
+   -> Poner llave y pulsar botón.
+   -> Sleutelwoord ingeven en schakelniveau opnieuw activeren!
+   -> Indsæt nøgle og kvitter igen
+   -> Ange nyckel och bekräfta igen
+   -> Unesite kljuè i ponovno pritisnite tipku!
+   -> Kódszót megadni és ismét mûködtetni a kapcsolási felületet!
+   -> Wpisz klucz i nacisnij ponownie przycisk!
+   -> Âñòàâèòü êëþ÷ è ïîâòîðíî íàæàòü êíîïêó!
+
+[Component]: stOtherStrings
+
+[Component]: EdtPassword.ImeName
+
+[Component]: EdtPassword.Text
+   -> TfrmAccessLevel.HelpFile
+   -> stCollections
+   -> stCharSets
+   -> TfrmAccessLevel
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> RUSSIAN_CHARSET

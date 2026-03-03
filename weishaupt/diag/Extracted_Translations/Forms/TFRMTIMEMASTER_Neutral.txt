@@ -1,0 +1,195 @@
+--- Form: TFRMTIMEMASTER [Neutral] ---
+
+[Component]: GrpBxeBus
+   -> eBUS-Zeitmaster
+   -> TabOrder
+   -> TLabel
+   -> lblSysTime
+   -> Systemzeit
+   -> TLabel
+   -> lblSysDate
+   -> Systemdatum
+   -> TEdit
+   -> EDtSysTime
+   -> Enabled
+   -> TabOrder
+   -> TEdit
+
+[Component]: EdtSysDate
+   -> Enabled
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnSendPCTime
+   -> &Aktualisieren
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnSendPCTimeClick
+   -> TGroupBox
+
+[Component]: GrpBxPC
+   -> TabOrder
+   -> TLabel
+   -> lblPCTime
+   -> Systemzeit
+   -> TLabel
+   -> lblPCDate
+   -> Systemdatum
+   -> TEdit
+   -> EDtPCTime
+   -> Enabled
+   -> TabOrder
+   -> TEdit
+   -> EDtPCDate
+   -> Enabled
+   -> TabOrder
+   -> TTimer
+   -> Timer1
+   -> OnTimer
+   -> Timer1Timer
+   -> TsiLangLinked
+   -> siLangLinked1
+   -> Version
+   -> 5.3.1.1
+
+[Component]: StringsTypes.Strings
+   -> TIB_STRINGLIST
+   -> TSTRINGLIST
+   -> NumOfLanguages
+   -> LangDispatcher
+   -> MainForm.siLangDispatcher1
+   -> OnChangeLanguage
+   -> siLangLinked1ChangeLanguage
+   -> LangDelim
+
+[Component]: LangNames.Strings
+   -> Deutsch
+   -> English
+   -> Francais
+   -> Italiano
+   -> Espanol
+   -> Nederlands
+   -> Dansk
+   -> Swedish
+   -> Norwegian
+   -> Slovenski
+   -> Hrvatski
+   -> Magyar
+   -> Polski
+   -> Russian
+   -> Greece
+   -> Language
+   -> Deutsch
+   -> TranslationData
+   -> stCaptions
+   -> TfrmTimeMaster
+   -> Systemzeit
+   -> System time
+   -> System time
+   -> Tempo sistema
+   -> Reloj del sistema
+   -> Systeemtijd
+   -> System time
+   -> System time
+   -> System time
+   -> System time
+   -> Czas systemowy
+   -> System time
+
+[Component]: BtnSendPCTime
+   -> &Aktualisieren
+   -> &Update
+   -> &Update
+   -> &Attualizzare
+   -> &Actualizar
+   -> &actualiseren
+   -> &Update
+   -> &Update
+   -> &Update
+   -> &Update
+   -> &Aktualizacja
+   -> &Update
+
+[Component]: GrpBxeBus
+   -> eBUS-Zeitmaster
+   -> eBUS time master
+   -> eBUS time master
+   -> eBus tempo master
+   -> Reloj del sistema eBUS
+   -> eBus-tijdbeheerder
+   -> eBUS time master
+   -> eBUS time master
+   -> eBUS time master
+   -> eBUS time master
+   -> eBUS
+   -> eBUS time master
+
+[Component]: GrpBxPC
+   -> lblPCDate
+   -> Systemdatum
+   -> System date
+   -> System date
+   -> Data sistema
+   -> Fecha del sistema
+   -> Systeemdatum
+   -> System date
+   -> System date
+   -> System date
+   -> System date
+   -> Data systemowa
+   -> System date
+   -> lblPCTime
+   -> Systemzeit
+   -> System time
+   -> System time
+   -> Tempo sistema
+   -> Reloj del sistema
+   -> Systeemtijd
+   -> System time
+   -> System time
+   -> System time
+   -> System time
+   -> Czas systemowy
+   -> System time
+   -> lblSysDate
+   -> Systemdatum
+   -> System date
+   -> System date
+   -> Data sistema
+   -> Fecha del sistema
+   -> Systeemdatum
+   -> System date
+   -> System date
+   -> System date
+   -> System date
+   -> Data systemowa
+   -> System date
+   -> lblSysTime
+   -> Systemzeit
+   -> System time
+   -> System time
+   -> Tempo sistema
+   -> Reloj del sistema
+   -> Systeemtijd
+   -> System time
+   -> System time
+   -> System time
+   -> System time
+   -> Czas systemowy
+   -> System time
+   -> stHints
+   -> stDisplayLabels
+   -> stFonts
+   -> TfrmTimeMaster
+   -> MS Sans Serif
+   -> stMultiLines
+
+[Component]: stStrings
+
+[Component]: stOtherStrings
+   -> stCollections
+   -> stCharSets
+   -> TfrmTimeMaster
+   -> DEFAULT_CHARSET

@@ -1,0 +1,470 @@
+--- Form: TFRMWCMREGLEREBUS [Neutral] ---
+
+[Component]: RGrpMasterAdr
+   -> MasterAdr des GFAs
+   -> Columns
+
+[Component]: Items.Strings
+   -> 1$03
+   -> 2$13
+   -> 3$33
+   -> 4$73
+   -> 5$F3
+   -> 6$1F
+   -> 7$3F
+   -> 8$7F
+   -> $10
+   -> $F1
+   -> TabOrder
+   -> TGroupBox
+   -> GroupBox2
+   -> CC-Commandos
+   -> TabOrder
+   -> TLabel
+   -> Label1
+   -> Infoadresse
+   -> TLabel
+   -> Label2
+   -> Wert
+   -> TLabel
+   -> Label3
+   -> Result
+   -> TLabel
+   -> Label4
+   -> Result High
+   -> TLabel
+   -> Label5
+   -> Result Low
+   -> TRadioGroup
+
+[Component]: RGrpReadWrite
+
+[Component]: Items.Strings
+   -> Lesen $50 22
+   -> Schreiben $50 23 (MM)
+   -> Schreiben $50 23 (MS)
+   -> Broadcast $50 23
+   -> TabOrder
+   -> OnClick
+
+[Component]: RGrpReadWriteClick
+   -> TEdit
+
+[Component]: EdtAdr
+   -> TabOrder
+   -> Visible
+   -> TButton
+   -> btnReadWrite
+   -> Senden
+   -> TabOrder
+   -> OnClick
+   -> btnReadWriteClick
+   -> TEdit
+   -> edtval
+   -> TabOrder
+   -> Visible
+   -> TEdit
+
+[Component]: EdtResult
+   -> TabOrder
+   -> Visible
+   -> TRadioGroup
+
+[Component]: RGrpAnzahl
+   -> Anzahl
+   -> Columns
+
+[Component]: Items.Strings
+   -> TabOrder
+   -> OnClick
+
+[Component]: RGrpAnzahlClick
+   -> TEditGroup
+   -> EGrpAdrs
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpVals
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpResults
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpResultHigh
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpResultLow
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TRadioGroup
+
+[Component]: RGrpMasterAdrSending
+   -> MasterAdr des PCs
+   -> Columns
+
+[Component]: Items.Strings
+   -> $FF (PC)
+   -> $00 (PC)
+   -> $30 (FB1)
+   -> $70 (FB2)
+   -> $F0 (FB3)
+   -> $17 (FB4)
+   -> $37 (FB5)
+   -> $77 (FB6)
+   -> $F7 (FB7)
+   -> $1F (FB8)
+   -> $10 (KA)
+   -> TabOrder
+   -> TGroupBox
+
+[Component]: GrpBx0507
+   -> 05 07
+   -> TabOrder
+   -> TRadioGroup
+
+[Component]: RGrpWA
+   -> Status WA
+
+[Component]: Items.Strings
+   -> Brenner ausschalten (00h)
+   -> keine Aktio (01h)
+   -> WW-Bereitung (55h)
+   -> Heizbetrieb (AAh)
+   -> Emissionskontrolle (CCh)
+   -> TÜV-Funktion (DDh)
+   -> Reglerstop (Eeh)
+   -> WW bei Reglerstop (66h)
+   -> Heizen und WW (BBh)
+   -> Stufiger Betrieb (44h)
+   -> TabOrder
+   -> TRadioGroup
+   -> RgrpAktor
+   -> Aktoranforderung
+
+[Component]: Items.Strings
+   -> keine Aktion (00h)
+   -> Kesselpumpe aus (01h)
+   -> Kesselpumpe ein (02h)
+   -> VV aus (03h)
+   -> VV ein (04h)
+   -> VV2 aus (05h)
+   -> VV2 ein (06h)
+   -> TabOrder
+   -> TRadioGroup
+
+[Component]: RGrpBrennstoff
+   -> Brennstoff
+
+[Component]: Items.Strings
+   -> don' care 00
+   -> Gas 01
+   -> Öl 10
+   -> don't care 11
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpSetpoints
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Kesselsollwert#°C [0-2000]
+   -> Druck-Sollwert#bar [0-100]
+   -> Stellgrad#% [0-100]
+   -> WW-Sollwert#°C [0-100]
+   -> Weichentemp#°C [0-100]
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TButton
+   -> btnsend
+   -> &Senden
+   -> TabOrder
+   -> OnClick
+   -> btnsendClick
+   -> TCheckBox
+
+[Component]: ChkBxCyclic
+   -> zyklisch senden 5s
+   -> TabOrder
+   -> OnClick
+
+[Component]: ChkBxCyclicClick
+   -> TGroupBox
+
+[Component]: GrpBx5003
+   -> 50 03/04
+   -> TabOrder
+   -> TLabel
+   -> Label6
+   -> Wert-Nummer:
+   -> TButton
+
+[Component]: BtnSend5003
+   -> Senden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnSend5003Click
+   -> TRadioGroup
+
+[Component]: RGrpI_P
+   -> Columns
+
+[Component]: Items.Strings
+   -> P-Einstellwert
+   -> I-Prozesswert
+   -> TabOrder
+   -> OnClick
+
+[Component]: RGrpI_PClick
+   -> TLMDSpinEdit
+   -> SpnEdtWert
+   -> Bevel.Mode
+   -> bmWindows
+   -> Caret.BlinkRate
+   -> TabOrder
+   -> AutoSelect
+   -> CustomButtons
+   -> MaxValue
+   -> DateTime
+   -> TRadioGroup
+
+[Component]: RGrpTel
+   -> Columns
+
+[Component]: Items.Strings
+   -> 50 03 Lesen
+   -> 50 04 Schreiben
+   -> TabOrder
+   -> OnClick
+
+[Component]: RGrpTelClick
+   -> TEditGroup
+   -> EGrpResult5003
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TComboBox
+   -> CbbxI_P
+   -> Style
+   -> csSimple
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> Prozesswert
+   -> Rücksetzbarer Wert
+   -> TComboBox
+   -> CbbxFaktor
+   -> Style
+   -> csSimple
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> 0,001
+   -> 0,01
+   -> 0,1
+   -> 100
+   -> 1000
+   -> 10000
+   -> TComboBox
+   -> CbbxUnit
+   -> Style
+   -> csSimple
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> -/-
+   -> Sek
+   -> Min
+   -> Std
+   -> Tage
+   -> U/min
+   -> U/sek
+   -> K/sek
+   -> Imp/U
+   -> Pkt
+   -> l/min
+   -> TEditGroup
+   -> EgrpResult
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Result
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TComboBox
+   -> cbbxPara
+   -> Style
+   -> csSimple
+   -> ItemHeight
+   -> TabOrder
+   -> Visible
+
+[Component]: Items.Strings
+   -> min;max
+   -> ---,min,max
+   -> TComboBox
+   -> CbbxFaktorPara
+   -> Style
+   -> csSimple
+   -> ItemHeight
+   -> TabOrder
+   -> Visible
+
+[Component]: Items.Strings
+   -> 0,001
+   -> 0,01
+   -> 0,1
+   -> 100
+   -> 0,5
+   -> TEditGroup
+   -> EGrpParawert
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Parameterwert
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TButton
+
+[Component]: Btn5009
+   -> $50 09 senden
+   -> TabOrder
+   -> OnClick
+
+[Component]: Btn5009Click
+   -> TTimer
+   -> Timer1
+   -> Enabled
+   -> Interval
+   -> OnTimer
+   -> Timer1Timer

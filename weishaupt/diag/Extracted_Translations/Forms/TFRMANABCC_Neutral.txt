@@ -1,0 +1,306 @@
+--- Form: TFRMANABCC [Neutral] ---
+
+[Component]: TbShtFS
+   -> Align
+   -> alClient
+   -> TabOrder
+   -> TTabSheet
+
+[Component]: TbShtFS
+   -> FS-Paras
+   -> TEditGroup
+   -> EGrpFS
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TGroupBox
+   -> GroupBox1
+   -> BCC
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnWriteFSDevice
+   -> &Eintragen
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteFSDeviceClick
+   -> TButton
+
+[Component]: BtnReadFSDevice
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadFSDeviceClick
+   -> TButton
+   -> btnReadSycInfo
+   -> Read Syc-Info
+   -> TabOrder
+   -> OnClick
+   -> btnReadSycInfoClick
+   -> TButton
+
+[Component]: BtnReadParas
+   -> Parameter &auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadParasClick
+   -> TButton
+
+[Component]: BtnLoadEpx
+   -> EPX-Datei &laden
+   -> TabOrder
+   -> Visible
+   -> OnClick
+
+[Component]: BtnLoadEpxClick
+   -> TButton
+
+[Component]: BtnSaveEpx
+   -> EPX-Datei &speichern
+   -> TabOrder
+   -> Visible
+   -> OnClick
+
+[Component]: BtnSaveEpxClick
+   -> TTabSheet
+
+[Component]: TbShtNFS
+   -> NFS-Paras
+   -> ImageIndex
+   -> TEditGroup
+   -> EGrpNFS
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TGroupBox
+   -> GroupBox5
+   -> BCC
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnReadNFSDevice
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadNFSDeviceClick
+   -> TButton
+
+[Component]: BtnWriteNFSDevice
+   -> &Eintragen
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteNFSDeviceClick
+   -> TTabSheet
+
+[Component]: TbShtMR
+   -> MasterReset
+   -> ImageIndex
+   -> TEditGroup
+   -> EGrpMR
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TGroupBox
+   -> GroupBox6
+   -> BCC
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnReadMRDevice
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadMRDeviceClick
+   -> TButton
+
+[Component]: BtnWriteMRDevice
+   -> &Eintragen
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteMRDeviceClick
+   -> TTabSheet
+
+[Component]: TbShtStatistik
+   -> Statistik
+   -> ImageIndex
+   -> TGroupBox
+   -> GroupBox7
+   -> BCC
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnReadStatisticDevice
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadStatisticDeviceClick
+   -> TButton
+
+[Component]: BtnWriteStatisticDevice
+   -> &Reset
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteStatisticDeviceClick
+   -> TEditGroup
+   -> EGRpStat
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TTabSheet
+
+[Component]: TbShtStat
+   -> Störungsrecorder
+   -> ImageIndex
+   -> TLabel
+   -> Label1
+   -> Fehler 1
+   -> TLabel
+   -> Label2
+   -> Fehler 2
+   -> TLabel
+   -> Label3
+   -> Fehler 3
+   -> TLabel
+   -> Label4
+   -> Fehler 4
+   -> TLabel
+   -> Label5
+   -> Fehler 5
+   -> TLabel
+   -> Label6
+   -> Fehler 6
+   -> TLabel
+   -> Label7
+   -> Fehler 7
+   -> TLabel
+   -> Label8
+   -> Fehler 8
+   -> TLabel
+   -> Label9
+   -> Fehler 9
+   -> TLabel
+   -> Label10
+   -> Fehler 10
+   -> TLabel
+   -> Label11
+   -> Fehlercode
+   -> TLabel
+   -> Label12
+   -> Std_High
+   -> TLabel
+   -> Label13
+   -> Std_Low
+   -> TLabel
+   -> Label14
+   -> 20_sec
+   -> TLabel
+   -> Label16
+   -> Pointer
+   -> TLabel
+   -> Label17
+   -> Betriebsstd_H
+   -> TLabel
+   -> Label18
+   -> Betriebsstd_L
+   -> TStringGrid
+   -> StringGridRec
+   -> ColCount
+   -> DefaultColWidth
+   -> Enabled
+   -> FixedCols
+   -> RowCount
+   -> FixedRows
+   -> TabOrder
+   -> TEdit
+
+[Component]: EdtPointer
+   -> Enabled
+   -> TabOrder
+   -> TEdit
+
+[Component]: EdtStd_H
+   -> Enabled
+   -> TabOrder
+   -> TEdit
+
+[Component]: EdtStd_L
+   -> Enabled
+   -> TabOrder
+   -> TGroupBox
+   -> GroupBox2
+   -> BCC
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnResetStoerRec
+   -> &Reset
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnResetStoerRecClick
+   -> TButton
+
+[Component]: BtnReadStoerRec
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadStoerRecClick
+   -> TOpenDialog
+   -> OpenDlgBCC
+   -> TSaveDialog
+   -> SaveDlgBCC

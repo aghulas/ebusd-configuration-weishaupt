@@ -1,0 +1,1897 @@
+--- Form: TFRMDATALOGGER [Neutral] ---
+
+[Component]: Title.Text.Strings
+   -> BottomAxis.Automatic
+   -> BottomAxis.AutomaticMaximum
+   -> BottomAxis.AutomaticMinimum
+   -> BottomAxis.DateTimeFormat
+   -> dd/mm/yyyy/hh/mm/ss
+   -> BottomAxis.Increment
+   -> È‰r
+   -> E.Âî?
+   -> BottomAxis.LabelsMultiLine
+   -> BottomAxis.Maximum
+   -> Chart3DPercent
+   -> LeftAxis.Automatic
+   -> LeftAxis.AutomaticMaximum
+   -> LeftAxis.AutomaticMinimum
+   -> LeftAxis.Maximum
+   -> LeftAxis.Minimum
+   -> LeftAxis.MinorTickCount
+   -> LeftAxis.Title.Caption
+   -> Temperatur [°C]
+   -> Legend.Alignment
+   -> laBottom
+   -> Legend.LegendStyle
+   -> lsSeries
+   -> RightAxis.Automatic
+   -> RightAxis.AutomaticMaximum
+   -> RightAxis.AutomaticMinimum
+   -> RightAxis.ExactDateTime
+   -> RightAxis.Increment
+   -> RightAxis.Maximum
+   -> RightAxis.Minimum
+   -> RightAxis.Title.Caption
+   -> Drehzahl [U/min]
+   -> View3D
+   -> Align
+   -> alClient
+   -> TabOrder
+   -> OnClick
+   -> Chart1Click
+   -> OnMouseDown
+   -> Chart1MouseDown
+   -> OnMouseMove
+   -> Chart1MouseMove
+   -> OnMouseUp
+   -> Chart1MouseUp
+   -> OnConstrainedResize
+   -> Chart1ConstrainedResize
+   -> TLabel
+   -> lblCrossHair
+   -> xxxxxxxxxxx
+   -> clYellow
+   -> ParentColor
+   -> Visible
+   -> TCheckListBox
+   -> clbDatenAuswahl
+   -> clMenu
+   -> Constraints.MaxHeight
+   -> Ctl3D
+   -> IntegralHeight
+   -> ItemHeight
+   -> ParentCtl3D
+   -> TabOrder
+   -> Visible
+   -> TCheckListBox
+   -> clbAbtastrate
+   -> OnClickCheck
+   -> clbAbtastrateClickCheck
+   -> clMenu
+   -> Constraints.MaxHeight
+   -> Ctl3D
+   -> IntegralHeight
+   -> ItemHeight
+
+[Component]: Items.Strings
+   -> 500 ms
+   -> 1 s
+   -> 2,5 s
+   -> 5 s
+   -> 10 s
+   -> 30 s
+   -> 1 min
+   -> 5 min
+   -> 10 min
+   -> 30 min
+   -> Auto
+   -> ParentCtl3D
+   -> TabOrder
+   -> Visible
+   -> TCheckListBox
+   -> clbBereich
+   -> OnClickCheck
+   -> clbBereichClickCheck
+   -> clMenu
+   -> Constraints.MaxHeight
+   -> Ctl3D
+   -> IntegralHeight
+   -> ItemHeight
+
+[Component]: Items.Strings
+   -> 10 s
+   -> 30 s
+   -> 1 min
+   -> 5 min
+   -> 10 min
+   -> 30 min
+   -> 1 h
+   -> 24h
+   -> ParentCtl3D
+   -> TabOrder
+   -> Visible
+   -> TProgressBar
+   -> PrgBarDL
+   -> Align
+   -> alBottom
+   -> Min
+   -> Max
+   -> TabOrder
+   -> Visible
+   -> TCheckListBox
+   -> clbVisibleLines
+   -> \Close: <Back>
+   -> Visible/unvisible: <Space>
+   -> Color: <Enter>
+   -> Linewidth:<+/->
+   -> Linestyle:<Strg>
+   -> OnClickCheck
+   -> clbVisibleLinesClickCheck
+   -> clMenu
+   -> Constraints.MaxHeight
+   -> Ctl3D
+   -> IntegralHeight
+   -> ItemHeight
+
+[Component]: Items.Strings
+   -> ParentCtl3D
+   -> ParentShowHint
+   -> ShowHint
+   -> TabOrder
+   -> Visible
+   -> OnDblClick
+   -> clbVisibleLinesDblClick
+   -> OnKeyDown
+   -> clbVisibleLinesKeyDown
+   -> OnMouseMove
+   -> clbVisibleLinesMouseMove
+   -> TFastLineSeries
+   -> Series1
+   -> Marks.ArrowLength
+   -> Marks.Visible
+   -> SeriesColor
+   -> clSilver
+   -> ShowInLegend
+   -> LinePen.Color
+   -> clSilver
+   -> LinePen.Visible
+   -> XValues.DateTime
+   -> XValues.Name
+   -> XValues.Multiplier
+   -> €ÿ?
+   -> XValues.Order
+   -> loAscending
+   -> YValues.DateTime
+   -> YValues.Name
+   -> YValues.Multiplier
+   -> €ÿ?
+   -> YValues.Order
+   -> loNone
+   -> TFastLineSeries
+   -> Series2
+   -> Marks.ArrowLength
+   -> Marks.Visible
+   -> SeriesColor
+   -> clSilver
+   -> ShowInLegend
+   -> VertAxis
+   -> aRightAxis
+   -> LinePen.Color
+   -> clSilver
+   -> XValues.DateTime
+   -> XValues.Name
+   -> XValues.Multiplier
+   -> €ÿ?
+   -> XValues.Order
+   -> loAscending
+   -> YValues.DateTime
+   -> YValues.Name
+   -> YValues.Multiplier
+   -> €ÿ?
+   -> YValues.Order
+   -> loNone
+   -> TToolBar
+   -> ToolBar1
+   -> ButtonWidth
+   -> ToolBar1
+   -> Images
+   -> ImageList1
+   -> TabOrder
+   -> TToolButton
+   -> tbPreview
+   -> Druckvorschau
+   -> tbPreview
+   -> Enabled
+   -> ImageIndex
+   -> ParentShowHint
+   -> ShowHint
+   -> OnClick
+   -> tbPreviewClick
+   -> TToolButton
+   -> TBOpenGraphic
+   -> Protokolldatei einlesen
+   -> tbLoadGraphic
+   -> ImageIndex
+   -> ParentShowHint
+   -> ShowHint
+   -> OnClick
+   -> TBOpenGraphicClick
+   -> TToolButton
+   -> tbSaveLogFile
+   -> Protokolldatei speichern
+   -> tbSaveLogFile
+   -> Enabled
+   -> ImageIndex
+   -> ParentShowHint
+   -> ShowHint
+   -> OnClick
+   -> tbSaveLogFileClick
+   -> TToolButton
+   -> tbSaveChart
+   -> Diagramm speichern
+   -> tbSaveChart
+   -> Enabled
+   -> ImageIndex
+   -> ParentShowHint
+   -> ShowHint
+   -> OnClick
+   -> tbSaveChartClick
+   -> TToolButton
+   -> ToolButton3
+   -> ToolButton3
+   -> ImageIndex
+   -> Style
+   -> tbsSeparator
+   -> TToolButton
+   -> tbStart
+   -> Start
+   -> tbStart
+   -> Enabled
+   -> ImageIndex
+   -> ParentShowHint
+   -> ShowHint
+   -> OnClick
+   -> tbStartClick
+   -> TToolButton
+   -> tbStop
+   -> Stop
+   -> tbStop
+   -> Enabled
+   -> ImageIndex
+   -> ParentShowHint
+   -> ShowHint
+   -> OnClick
+   -> tbStopClick
+   -> TToolButton
+   -> tbPause
+   -> Pause
+   -> tbPause
+   -> Enabled
+   -> ImageIndex
+   -> ParentShowHint
+   -> ShowHint
+   -> OnClick
+   -> tbPauseClick
+   -> TToolButton
+   -> ToolButton6
+   -> ToolButton6
+   -> ImageIndex
+   -> Style
+   -> tbsSeparator
+   -> TToolButton
+   -> tbFirstPage
+   -> 10 Seiten zurück scrollen
+   -> tbFirstPage
+   -> ImageIndex
+   -> ParentShowHint
+   -> ShowHint
+   -> OnClick
+   -> tbFirstPageClick
+   -> TToolButton
+   -> tbPrevPage
+   -> 1 Seite zurück scrollen
+   -> tbPrevPage
+   -> ImageIndex
+   -> ParentShowHint
+   -> ShowHint
+   -> OnClick
+   -> tbPrevPageClick
+   -> TToolButton
+   -> tbNextPage
+   -> 1 Seite vor scrollen
+   -> tbNextPage
+   -> ImageIndex
+   -> ParentShowHint
+   -> ShowHint
+   -> OnClick
+   -> tbNextPageClick
+   -> TToolButton
+   -> tbLastPage
+   -> 10 Seiten vor scrollen
+   -> tbLastPage
+   -> ImageIndex
+   -> ParentShowHint
+   -> ShowHint
+   -> OnClick
+   -> tbLastPageClick
+   -> TToolButton
+   -> ToolButton1
+   -> ToolButton1
+   -> ImageIndex
+   -> Style
+   -> tbsSeparator
+   -> TToolButton
+   -> tbAbtastrate
+   -> Abtastrate
+   -> Abtastrate
+   -> ImageIndex
+   -> ParentShowHint
+   -> ShowHint
+   -> Style
+   -> tbsCheck
+   -> OnClick
+   -> tbAbtastrateClick
+   -> TToolButton
+   -> ToolButton2
+   -> ToolButton2
+   -> ImageIndex
+   -> Style
+   -> tbsSeparator
+   -> TToolButton
+   -> tbBereich
+   -> Anzeigebereich
+   -> tbBereich
+   -> ImageIndex
+   -> ParentShowHint
+   -> ShowHint
+   -> Style
+   -> tbsCheck
+   -> OnClick
+   -> tbBereichClick
+   -> TToolButton
+   -> ToolButton5
+   -> ToolButton5
+   -> ImageIndex
+   -> Style
+   -> tbsSeparator
+   -> TToolButton
+   -> tbDatenAuswahl
+   -> Datenauswahl
+   -> tbDatenAuswahl
+   -> Enabled
+   -> ImageIndex
+   -> ParentShowHint
+   -> ShowHint
+   -> Style
+   -> tbsCheck
+   -> OnClick
+   -> tbDatenAuswahlClick
+   -> TToolButton
+   -> tbBrush
+   -> Linienbreite
+   -> tbBrush
+   -> Enabled
+   -> ImageIndex
+   -> ParentShowHint
+   -> ShowHint
+   -> OnClick
+   -> tbBrushClick
+   -> TToolButton
+   -> ToolButton7
+   -> ToolButton7
+   -> ImageIndex
+   -> Style
+   -> tbsSeparator
+   -> TToolButton
+   -> tbStartStop
+   -> Start ... Stop
+   -> tbStartStop
+   -> ImageIndex
+   -> ParentShowHint
+   -> ShowHint
+   -> OnClick
+   -> tbStartStopClick
+   -> TToolButton
+   -> tbMinMax
+   -> Min ... Max
+   -> tbMinMax
+   -> ImageIndex
+   -> ParentShowHint
+   -> ShowHint
+   -> OnClick
+   -> tbMinMaxClick
+   -> TToolButton
+   -> btnLoadXYFile
+   -> X-Y-Protokolldatei laden
+   -> btnLoadXYFile
+   -> ImageIndex
+   -> ParentShowHint
+   -> ShowHint
+   -> Visible
+   -> OnClick
+   -> btnLoadXYFileClick
+   -> TToolButton
+   -> btnSaveXYFile
+   -> X-Y-Protokolldatei speichern
+   -> btnSaveXYFile
+   -> ImageIndex
+   -> ParentShowHint
+   -> ShowHint
+   -> Visible
+   -> OnClick
+   -> btnSaveXYFileClick
+   -> TToolButton
+   -> tbVisiblelines
+   -> tbVisiblelines
+   -> ImageIndex
+   -> OnClick
+   -> tbVisiblelinesClick
+   -> TStatusBar
+   -> stbDataLogger
+   -> Panels
+   -> SimplePanel
+   -> TImageList
+   -> ImageList1
+   -> Bitmap
+   -> ÿÿÿÿÿ
+   -> ÿÿÿÿÿÿÿÿBM6
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ¿¿¿
+   -> ¿¿¿
+   -> ¿¿¿
+   -> ¿¿¿
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ¿¿¿
+   -> ¿¿¿
+   -> ¿¿¿
+   -> ¿¿¿
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ¿¿¿
+   -> ¿¿¿
+   -> ¿¿¿
+   -> ¿¿¿
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> {{{
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> {{{
+   -> {{{
+   -> {{{
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> {{{
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> {{{
+   -> {{{
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ÿÿÿ
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> {{{
+   -> ÿÿÿ
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ½½½
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ½½½
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ½½½
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ½½½
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ½½½
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ½½½
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ½½½
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ½½½
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> ½½½
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> {{{
+   -> ÿÿÿ
+   -> {{{
+   -> {{{
+   -> ÿÿÿ
+   -> ½½½
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> {{{
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> ÿÿÿ
+   -> BM>
+   -> ÿÿÿ
+   -> ÿÿÿÿÿÿÿÿÿÈÿÿà
+   -> ÿ¸ÿÿÀ
+   -> Ï¿à
+   -> Ï¼À
+   -> ÿ¼À
+   -> ß¿À
+   -> Ï|À
+   -> æüÀ
+   -> 3¼À
+   -> 3¼à
+   -> ‡¿à
+   -> ÿ¸ÿÿ
+   -> ÿÿÝÝñ
+   -> ÿÿçøÕUÿÿ€
+   -> çüÛûÑ
+   -> ÿüÜçÑ
+   -> þüœç‘ñ
+   -> Þïßñ
+   -> þøßÿßÿ
+   -> ÿÿÿÿÿÿ€
+   -> ÿÿÿÿÝÝÝÝÿÿÿÿÕUÕUÿÿÿÿ
+   -> ÿÿÿøßÿß¿üÿüø‡ü‡¼ü?ü8ÛûÛ»ü
+   -> Ý÷Ý·
+   -> žïž¯
+   -> ü?ü8ßÿß¿üÿüøŸÿŸ¿ÿÿÿøßÿß¿ÿÿÿÿ
+   -> ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+   -> ÿÿÿÿ
+   -> ÿÿÿ
+   -> ?ÿ?
+   -> ?ü?
+   -> ?ð?
+   -> ?ð?
+   -> ?ü?
+   -> ?ÿ?
+   -> ÿÿÿ
+   -> ÿÿÿÿ
+   -> ÿÿÿÿ
+   -> ÿÿÿÿÀ
+   -> ÿÿÿ
+   -> ÿÿà
+   -> ÿÿÿ
+   -> ø?ÿÿÿ
+   -> ÿÿÿ
+   -> TTimer
+   -> TimerAbtastrate
+   -> Enabled
+   -> Interval
+   -> OnTimer
+   -> TimerAbtastrateTimer
+   -> TsiOpenDialog
+   -> OpenDlgDataLogger
+   -> siLang
+   -> MainForm.siLang1
+   -> TsiSaveDialog
+   -> savdlgDataLogger
+   -> siLang
+   -> MainForm.siLang1
+   -> TsiLangLinked
+   -> siLangLinked1
+   -> Version
+   -> 5.3.1.1
+
+[Component]: StringsTypes.Strings
+   -> TIB_STRINGLIST
+   -> TSTRINGLIST
+
+[Component]: SmartExcludeProps.Strings
+   -> lblCrossHair.Caption
+   -> ToolBar1.Caption
+   -> tbPreview.Caption
+   -> TBOpenGraphic.Caption
+   -> tbSaveLogFile.Caption
+   -> tbSaveChart.Caption
+   -> ToolButton3.Caption
+   -> tbStart.Caption
+   -> tbStop.Caption
+   -> tbPause.Caption
+   -> ToolButton6.Caption
+   -> tbFirstPage.Caption
+   -> tbPrevPage.Caption
+   -> tbNextPage.Caption
+   -> tbLastPage.Caption
+   -> ToolButton1.Caption
+   -> tbAbtastrate.Caption
+   -> ToolButton2.Caption
+   -> tbBereich.Caption
+   -> ToolButton5.Caption
+   -> tbDatenAuswahl.Caption
+   -> tbBrush.Caption
+   -> ToolButton7.Caption
+   -> tbStartStop.Caption
+   -> tbMinMax.Caption
+   -> btnSaveXYFile.Caption
+   -> btnLoadXYFile.Caption
+   -> TfrmDataLogger.Hint
+   -> Chart1.Hint
+   -> lblCrossHair.Hint
+   -> clbDatenAuswahl.Hint
+   -> clbAbtastrate.Hint
+   -> clbBereich.Hint
+   -> PrgBarDL.Hint
+   -> ToolBar1.Hint
+   -> ToolButton3.Hint
+   -> ToolButton6.Hint
+   -> ToolButton1.Hint
+   -> ToolButton2.Hint
+   -> ToolButton5.Hint
+   -> ToolButton7.Hint
+   -> stbDataLogger.Hint
+   -> btnSaveXYFile.Hint
+   -> btnLoadXYFile.Hint
+   -> clbDatenAuswahl.Items
+   -> NumOfLanguages
+   -> LangDispatcher
+   -> MainForm.siLangDispatcher1
+   -> OnChangeLanguage
+   -> siLangLinked1ChangeLanguage
+   -> LangDelim
+
+[Component]: LangNames.Strings
+   -> Deutsch
+   -> English
+   -> Francais
+   -> Italiano
+   -> Espanol
+   -> Nederlands
+   -> Dansk
+   -> Swedish
+   -> Norwegian
+   -> Slovenski
+   -> Hrvatski
+   -> Magyar
+   -> Polski
+   -> Russian
+   -> Greece
+   -> Language
+   -> Deutsch
+   -> TranslationData
+   -> stCaptions
+   -> TfrmDataLogger
+   -> Datalogger
+   -> Datalogger
+   -> Datalogger
+   -> Datalogger
+   -> Datalogger
+   -> Datalogger
+   -> Datalogger
+   -> datalogger
+   -> Ðåãèñòðàòîð äàííûõ
+   -> tbVisiblelines
+   -> ToolButton4
+   -> stHints
+   -> tbAbtastrate
+   -> Abtastrate
+   -> Sample rate
+   -> Choix de fréquence
+   -> Rata ricerca
+   -> Tasa muestreo
+   -> Aftastpunt
+   -> Logfrekvens
+   -> Provskala
+   -> rata provjere
+   -> Letapogatásigyak
+   -> Czas próbkowania
+   -> ×àñòîòà âûáîðêè
+   -> tbBereich
+   -> Anzeigebereich
+   -> Interval
+   -> Zone de visualisation
+   -> Campo segnalazione
+   -> Periodo
+   -> Aanwijsbereik
+   -> Visningsområde
+   -> Indikeringsomrade
+   -> opseg prikaza
+   -> Kijelzõ-tart
+   -> Zakres wyœwietlania
+   -> Äèàïàçîí èíäèêàöèè
+   -> tbBrush
+   -> Linienbreite
+   -> Linewidth
+   -> Largeur de ligne
+   -> Larghezza linea
+   -> Ancho línea
+   -> Lijnbreedte
+   -> Liniebredde
+   -> Radbredd
+   -> širina crta
+   -> Vonalvastagság
+   -> Gruboœæ linii
+   -> Øèðèíà ëèíèè
+   -> tbDatenAuswahl
+   -> Datenauswahl
+   -> Data selection
+   -> Choix de données
+   -> Selezione data
+   -> Selección datos
+   -> Datakeuze
+   -> Dataudvalg
+   -> Dataval
+   -> odabir podataka
+   -> Adatkiválasztás
+   -> Wybór danych
+   -> Âûáîð ïàðàìåòðîâ
+   -> tbFirstPage
+   -> 10 Seiten zurück scrollen
+   -> Scroll 10 pages back
+   -> 10 pages précédentes
+   -> Scorrere 10 pagine indietro
+   -> Retroceso 10 páginas
+   -> 10 pagina's terug scrollen
+   -> Gå 10 sider tilbage
+   -> Scrolla tillbaka 10 sidor
+   -> odlistati 10 stranica unazad
+   -> 10 oldat visszafelé görgetni
+   -> do ty³u 10 stron
+   -> Ïðîêðóòèòü íà 10 ñòðàíèö íàçàä
+   -> tbLastPage
+   -> 10 Seiten vor scrollen
+   -> Scroll 10 pages forward
+   -> 10 pages suivantes
+   -> Scorrere 10 pagine avanti
+   -> Avance 10 páginas
+   -> 10 pagina's verder scrollen
+   -> Gå 10 sider frem
+   -> Scrolla fram 10 sidor
+   -> odlistati 10 stranica unaprijed
+   -> 10 oldalt elõre görgetni
+   -> do przodu 10 stron
+   -> Ïðîêðóòèòü íà 10 ñòðàíèö âïåðåä
+   -> tbMinMax
+   -> Min ... Max
+   -> Min ... Max
+   -> Min ... Max
+   -> Min … Max
+   -> Min .. Max
+   -> Min … Max
+   -> Min…Max
+   -> Min…Max
+   -> Min ... Maks
+   -> Min ... Max
+   -> min … maks.
+   -> Ìèí ... Ìàêñ
+   -> tbNextPage
+   -> 1 Seite vor scrollen
+   -> Scroll 1 page forward
+   -> Page suivante
+   -> Scorrere 1 pagina avanti
+   -> Avance 1 página
+   -> 1 pagina verder scrollen
+   -> Gå 1 side frem
+   -> Scrolla fram 1 sida
+   -> Okreni 1 stranicu unaprijed
+   -> 1 oldalt elõre görgetni
+   -> do przodu 1 stronê
+   -> Ïðîêðóòèòü íà 1 ñòðàíèöó âïåðåä
+   -> TBOpenGraphic
+   -> Protokolldatei einlesen
+   -> Load protocol file
+   -> Lire le fichier
+   -> Trasferire archivio dati protocollo
+   -> Cargar archivo protocolo
+   -> Protocolbestand inlezen
+   -> Indlæs protokol fil
+   -> Ladda protokollfil
+   -> Oèitati podatke protokola
+   -> Protokolladatokat beolvasni
+   -> Wczytaæ plik protoko³u
+   -> Ñ÷èòàòü ôàéë ïðîòîêîëà
+   -> tbPause
+   -> Pause
+   -> Break
+   -> Pause
+   -> Pausa
+   -> Interrumpir
+   -> Pauze
+   -> Pause
+   -> Paus
+   -> prekid
+   -> Szünet
+   -> pauza
+   -> Ïàóçà
+   -> tbPreview
+   -> Druckvorschau
+   -> Printpreview
+   -> Aperçu avant impression
+   -> Anteprima di stampa
+   -> Vista previa
+   -> Afdrukvoorbeeld
+   -> Vis print
+   -> Förhandsgranskning
+   -> pregled pred ispis
+   -> Nyomtatási kép
+   -> Podgl¹d wydruku
+   -> Ïðîñìîòð ïå÷àòè
+   -> tbPrevPage
+   -> 1 Seite zurück scrollen
+   -> Scroll 1 page back
+   -> Page précédente
+   -> Scorrere 1 pagina indietro
+   -> Retroceso 1 página
+   -> 1 pagina terug scrollen
+   -> Gå 1 side tilbage
+   -> Scrolla tillbaka 1 sida
+   -> Okreni 1 stranicu unazad
+   -> 1 oldalt visszafelé görgetni
+   -> do ty³u 1 stronê
+   -> Ïðîêðóòèòü íà 1 ñòðàíèöó íàçàä
+   -> tbSaveChart
+   -> Diagramm speichern
+   -> Save diagram
+   -> Enregistrer Diagramme
+   -> Salvare diagramma
+   -> Guardar diagrama
+   -> Diagram opslaan
+   -> Gem diagram
+   -> Spara diagram
+   -> Pohrani dijagram
+   -> Diagramot tárolni
+   -> Zapis diagramu
+   -> Ñîõðàíèòü äèàãðàììó
+   -> tbSaveLogFile
+   -> Protokolldatei speichern
+   -> Save protocol file
+   -> Enregistrer fichier
+   -> Salvare archivio dati protocollo
+   -> Guardar archivo protocolo
+   -> Protocolbestand opslaan
+   -> Gem protokoldata
+   -> Spara protokollfil
+   -> Pohrani podatke protokola
+   -> Protokolladatokat tárolni
+   -> Zapis pliku protoko³u
+   -> Ñîõðàíèòü ôàéë ïðîòîêîëà
+   -> tbStart
+   -> Start
+   -> Start
+   -> Start
+   -> Start
+   -> Iniciar
+   -> Start
+   -> Start
+   -> Start
+   -> Start
+   -> start
+   -> Ñòàðò
+   -> tbStartStop
+   -> Start ... Stop
+   -> Start ... Stop
+   -> Start ... Stop
+   -> Start … Stop
+   -> Inicio.. Stop
+   -> Start … Stop
+   -> Start….Stop
+   -> Start…Stop
+   -> Start ... Stop
+   -> start ... stop
+   -> Ñòàðò … ñòîï
+   -> tbStop
+   -> Stop
+   -> Stop
+   -> Stop
+   -> Stop
+   -> Stop
+   -> Stop
+   -> Stop
+   -> Stop
+   -> Stop
+   -> stop
+   -> Ñòîï
+   -> tbVisiblelines
+   -> stDisplayLabels
+   -> stFonts
+   -> TfrmDataLogger
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> stbDataLogger
+   -> Tahoma
+   -> Tahoma
+   -> Tahoma
+   -> Tahoma
+   -> Tahoma
+   -> Tahoma
+   -> stMultiLines
+   -> clbAbtastrate.Items
+   -> "500 ms","1 s","2,5 s","5 s","10 s","30 s","1 min","5 min","10 min","30 min",Auto
+   -> "500 ms","1 s","2,5 s","5 s","10 s","30 s","1 min","5 min","10 min","30 min",Auto
+   -> "500 ms","1 s","2,5 s","5 s","10 s","30 s","1 min","5 min","10 min","30 min",Auto
+   -> "500 ms","1 s","2,5 s","5 s","10 s","30 s","1 min","5 min","10 min","30 min",Auto
+   -> "500 ms","1 s","2,5 s","5 s","10 s","30 s","1 min","5 min","10 min","30 min",Auto
+   -> "500 ìñ","1 ñ","2,5 ñ","5 ñ","10 ñ","30 ñ","1 ìèí","5 ìèí","10 ìèí","30 ìèí",àâòî
+   -> clbBereich.Items
+   -> "10 s","30 s","1 min","5 min","10 min","30 min","1 h",24h
+   -> "10 s","30 s","1 min","5 min","10 min","30 min","1 h",24h
+   -> "10 s","30 s","1 min","5 min","10 min","30 min","1 h",24h
+   -> "10 s","30 s","1 min","5 min","10 min","30 min","1 h",24h
+   -> "10 s","30 s","1 min","5 min","10 min","30 min","1 h",24h
+   -> "10 ñ","30 ñ","1 ìèí","5 ìèí","10 ìèí","30 ìèí","1÷",24 ÷
+
+[Component]: stStrings
+
+[Component]: strcAbtastrate
+   -> Abtastrate
+   -> Sample rate
+   -> Choix de fréquence
+   -> Rata ricerca
+   -> Tasa muestreo
+   -> Aftastpunt
+   -> Logfrekvens
+   -> Provskala
+   -> rata provjere
+   -> Letapogatásigyak
+   -> Czas próbkowania
+   -> ×àñòîòà âûáîðêè
+
+[Component]: strcAnzeigeBereich
+   -> Anzeigebereich
+   -> Interval
+   -> Domaine de visualisation
+   -> Campo segnalazione
+   -> Periodo
+   -> Aanwijsbereik
+   -> Visningsområde
+   -> Indikeringsomrade
+   -> opseg prikaza
+   -> Kijelzõ-tart
+   -> Zakres wyœwietlania
+   -> Äèàïàçîí èíäèêàöèè
+
+[Component]: strcDatenaufzeichnung
+   -> Datenaufzeichnung
+   -> Datalogging
+   -> Représentation des données
+   -> Registrazione dati
+   -> Registro gráfico
+   -> Gegevens inloggen
+   -> Datalogning
+   -> Datalistning
+   -> prikaz podataka
+   -> Adatfelrajzolás
+   -> Pocz¹tek rejestracji danych
+   -> Ãðàôèê äàííûõ
+
+[Component]: strcGrenzenYAchse
+   -> Grenzen der Y-Achse
+   -> Limits Y- axxis
+   -> Limite axe Y
+   -> Limiti asse Y
+   -> Límites eje Y
+   -> Grenzen van y-as
+   -> Y-aksens grænse
+   -> Gränser för Y-axel
+   -> granice Y-osi
+   -> y-tengely határai
+   -> Wartoœci graniczne na osi Y
+   -> Ãðàíèöû îñè Y
+
+[Component]: strcInvalidInput
+   -> Ungültige Eingabe!
+   -> Invalid input!
+   -> Saisie non valide
+   -> Inserimento non valido!
+   -> Entrada no válida
+   -> Ongeldige input!
+   -> Ugyldig angivelse
+   -> Ogiltig inmatning
+   -> krivi unos!
+   -> Érvénytelen bevitel!
+   -> Nieprawid³owy wpis!
+   -> Íåâåðíûé ââîä!
+
+[Component]: strcLineWidth
+   -> Linienstärke
+   -> Linewidth
+   -> Epaisseur de ligne
+   -> Spessore linea
+   -> Ancho línea
+   -> Lijnsterkte
+   -> Liniebredde
+   -> Radbredd
+   -> debljina crte
+   -> Vonalvastagság
+   -> Gruboœæ linii
+   -> Òîëùèíà ëèíèè
+
+[Component]: strcMinMax
+   -> Min;Max:
+   -> Min;Max:
+   -> Min;Max:
+   -> Min;Max:
+   -> Min;Max
+   -> Min;Max:
+   -> Min;Max:
+   -> Min;Max:
+   -> Min;Maks:
+   -> Min;Max:
+   -> min;max:
+   -> Ìèí;Ìàêñ:
+
+[Component]: strcNoValuesSelected
+   -> Keine Werte ausgewählt!
+   -> No values selected!
+   -> Aucune valeur choisie !
+   -> Nessun valore selezionato!
+   -> No hay valores seleccionados
+   -> Geen waarden geselecteerd
+   -> Ingen værdier er valgt
+   -> Inga värden valda
+   -> Nema odabranih vrijednosti!
+   -> Nincs érték kiválasztva!
+   -> Brak wybranych wartoœci!
+   -> Çíà÷åíèå íå âûáðàíî!
+
+[Component]: strcSollProtokolSpeichern
+   -> Soll die Protokolldatei des Datenloggers gespeichert werden?
+   -> Save protocl file now?
+   -> Le protocole du Datenloggers doit-il être enregistré ?
+   -> L'archivio dati protocollo del datalogger deve venire salvato?
+   -> ¿Guardar archivo protocolo ahora?
+   -> Gegevens protocol nu opslaan?
+   -> Skal protokolfilen gemmes nu?
+   -> Lagra protokollfil nu?
+   -> Treba li podatke protokola Datenloggera pohraniti?
+   -> Tárolandó a Datenlogger protokolladatai?
+   -> Zapisaæ plik protoko³u Datenlogger?
+   -> Ñîõðàíèòü ôàéë ïðîòîêîëà ðåãèñòðàòîðà äàííûõ?
+
+[Component]: strcSpeed
+   -> Drehzahl [U/min]
+   -> Speed [rpm]
+   -> Vitesse de rotation [T/min]
+   -> Velocità [giri/min]
+   -> Velocidad giro [rpm]
+   -> Toerental [T/min.]
+   -> Omdrejningstal (o/min)
+   -> Varvtal [U/min]
+   -> Broj okretaja [U/min]
+   -> Fordszám [U/min]
+   -> predk. obr. [obr/min]
+   -> ×èñëî îáîðîòîâ [îá/ìèí]
+
+[Component]: strcSpeichernFehlgeschlagen
+   -> Speichern Grafikdatei fehlgeschlagen!
+   -> Saving of grafic file failed!
+   -> Enregistrement du graphique faux !
+   -> Salvataggio archivio dati grafico non riuscito!
+   -> Fallo al guardar diagrama
+   -> Opslaan grafische gegevens mislukt!
+   -> Forsøg på at gemme grafik-fil mislykkedes
+   -> Ogiltig lagring av grafikfil
+   -> Pohrana grafièkih podataka nije uspjela!
+   -> Grafikus adatok tárolója hibára futott!
+   -> Nieudany zapis pliku grafiki!
+   -> Ãðàôè÷åñêèé ôàéë íå ñîõðàíåí!
+
+[Component]: strcStartStop
+   -> Start...Stop
+   -> Start...Stop
+   -> Start...Stop
+   -> Start … Stop
+   -> Inicio.. Stop
+   -> Start … Stop
+   -> Start…Stop
+   -> Start…Stop
+   -> Start...Stop
+   -> Start...Stop
+   -> start…stop
+   -> Ñòàðò…Ñòîï
+
+[Component]: strcTemperature
+   -> Temperatur [°C]
+   -> Temperature [°C]
+   -> Temperature [°C]
+   -> Temperatura [°C]
+   -> Temperatura [ºC]
+   -> Temperatuur [°C]
+   -> Temperatur (°C)
+   -> Temperatur [°C]
+   -> Temperatura [°C]
+   -> hõmérséklet [°C]
+   -> temperatura [°C]
+   -> Òåìïåðàòóðà [°C]
+
+[Component]: strcVLIstB12
+   -> VL-Ist (NTC) B12
+   -> Sp-act (NTC) B12
+   -> Consigne départ (NTC) B12
+   -> Mandata attuale (NTC) B12
+   -> Ida-Valor Real (NTC) B12
+   -> Reële waarde VT (NTC) B12
+   -> Fremløbstemperatur (NTC) B12
+   -> Framledn.-Är (NTC) B12
+   -> Polaz je (NTC) B12
+   -> Elõrem-tény (NTC) B12
+   -> rzecz. t. zasilania (NTC) B12
+   -> Ôàêò. çíà÷. ïðÿìîé ëèíèè (NTC) B12
+
+[Component]: strcWWAuslaufB12
+   -> WW-Auslauf B12
+   -> DHW-outlet B12
+   -> Circulation ECS B12
+   -> Erogazione  acqua calda B12
+   -> ACS-consumo B12
+   -> WW-uitloop B12
+   -> VV-fremløb B12
+   -> VV-utlopp B12
+   -> PTV izlaz B12
+   -> HMV-ki B12
+   -> t. wyplywu c.w.u. B12
+   -> Âûõîä ãîðÿ÷åé âîäû B12
+
+[Component]: stOtherStrings
+   -> Series1.PercentFormat
+   -> ##0.## %
+   -> ##0.## %
+   -> ##0.## %
+   -> ##0.## %
+   -> ##0.## %
+   -> ##0.## %
+   -> Series1.ValueFormat
+   -> #,##0.###
+   -> #,##0.###
+   -> #,##0.###
+   -> #,##0.###
+   -> #,##0.###
+   -> #,##0.###
+   -> Series2.PercentFormat
+   -> ##0.## %
+   -> ##0.## %
+   -> ##0.## %
+   -> ##0.## %
+   -> ##0.## %
+   -> ##0.## %
+   -> Series2.ValueFormat
+   -> #,##0.###
+   -> #,##0.###
+   -> #,##0.###
+   -> #,##0.###
+   -> #,##0.###
+   -> #,##0.###
+   -> TfrmDataLogger.HelpFile
+   -> clbDatenAuswahl.ImeName
+   -> clbAbtastrate.ImeName
+   -> clbBereich.ImeName
+   -> Series1.ColorSource
+   -> Series1.Title
+   -> Series1.XLabelsSource
+   -> Series2.ColorSource
+   -> Series2.Title
+   -> Series2.XLabelsSource
+   -> stbDataLogger.SimpleText
+   -> OpenDlgDataLogger.DefaultExt
+   -> OpenDlgDataLogger.FileName
+   -> OpenDlgDataLogger.Filter
+   -> OpenDlgDataLogger.InitialDir
+   -> OpenDlgDataLogger.Title
+   -> savdlgDataLogger.DefaultExt
+   -> savdlgDataLogger.FileName
+   -> savdlgDataLogger.Filter
+   -> savdlgDataLogger.InitialDir
+   -> savdlgDataLogger.Title
+   -> stCollections
+   -> stbDataLogger.Panels[0].Text
+   -> stbDataLogger.Panels[1].Text
+   -> stbDataLogger.Panels[2].Text
+   -> stbDataLogger.Panels[3].Text
+   -> stCharSets
+   -> TfrmDataLogger
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> RUSSIAN_CHARSET
+   -> stbDataLogger
+   -> ANSI_CHARSET
+   -> ANSI_CHARSET
+   -> ANSI_CHARSET
+   -> ANSI_CHARSET
+   -> ANSI_CHARSET
+   -> TsiColorDialog
+   -> siColorDialog1
+   -> Ctl3D
+   -> Options
+   -> cdPreventFullOpen
+   -> siLang
+   -> MainForm.siLang1

@@ -1,0 +1,405 @@
+--- Form: TEBUSSTPDLG [Neutral] ---
+
+[Component]: RGrpComPort
+   -> Align
+   -> alTop
+   -> COM-Port
+   -> Columns
+   -> Enabled
+
+[Component]: Items.Strings
+   -> TabOrder
+   -> TButton
+   -> btnConnect
+   -> Anchors
+   -> akLeft
+   -> akTop
+   -> akRight
+   -> &Verbinden
+   -> TabOrder
+   -> OnClick
+   -> btnConnectClick
+   -> TButton
+   -> btnTrennen
+   -> Anchors
+   -> akLeft
+   -> akTop
+   -> akRight
+   -> &Trennen
+   -> TabOrder
+   -> OnClick
+   -> btnTrennenClick
+   -> TRadioGroup
+
+[Component]: RGrpConnectState
+   -> Anchors
+   -> akLeft
+   -> akTop
+   -> akRight
+   -> Status
+   -> Enabled
+
+[Component]: Items.Strings
+   -> verbunden
+   -> getrennt
+   -> TabOrder
+   -> TRadioGroup
+
+[Component]: RGrpAdr
+   -> Align
+   -> alTop
+   -> eBus-Adresse des PCs
+   -> Columns
+
+[Component]: Items.Strings
+   -> $00
+   -> $FF
+   -> TabOrder
+   -> TButton
+   -> btnVersion
+   -> Anchors
+   -> akLeft
+   -> akTop
+   -> akRight
+   -> Vers&ion
+   -> TabOrder
+   -> OnClick
+   -> btnVersionClick
+   -> TButton
+   -> btnDebugWin
+   -> Anchors
+   -> akLeft
+   -> akTop
+   -> akRight
+   -> &DebugWindow
+   -> TabOrder
+   -> OnClick
+   -> btnDebugWinClick
+   -> TButton
+   -> btnStopCounter
+   -> Anchors
+   -> akLeft
+   -> akTop
+   -> akRight
+   -> Sperr&Zähler
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+   -> btnStopCounterClick
+   -> TButton
+   -> btnAutoRepeat
+   -> Anchors
+   -> akLeft
+   -> akTop
+   -> akRight
+   -> Auto&Wiederholen
+   -> TabOrder
+   -> OnClick
+   -> btnAutoRepeatClick
+   -> TButton
+   -> btnAutoSyn
+   -> Anchors
+   -> akLeft
+   -> akTop
+   -> akRight
+   -> AutoS&yn
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+   -> btnAutoSynClick
+   -> TRadioGroup
+
+[Component]: RGrpConnectionType
+   -> Align
+   -> alTop
+   -> Adaptertyp
+
+[Component]: Items.Strings
+   -> PC-Cxe-Adapter
+   -> RAWE-Adapter Version 1.53
+   -> TabOrder
+   -> TButton
+   -> btnClose
+   -> &Schließen
+   -> TabOrder
+   -> OnClick
+   -> btnCloseClick
+   -> TsiLangLinked
+   -> siLangLinked1
+   -> Version
+   -> 5.3.1.1
+
+[Component]: StringsTypes.Strings
+   -> TIB_STRINGLIST
+   -> TSTRINGLIST
+   -> NumOfLanguages
+   -> LangDispatcher
+   -> MainForm.siLangDispatcher1
+   -> OnChangeLanguage
+   -> siLangLinked1ChangeLanguage
+   -> LangDelim
+
+[Component]: LangNames.Strings
+   -> Deutsch
+   -> English
+   -> Francais
+   -> Italiano
+   -> Espanol
+   -> Nederlands
+   -> Dansk
+   -> Swedish
+   -> Norwegian
+   -> Slovenski
+   -> Hrvatski
+   -> Magyar
+   -> Polski
+   -> Russian
+   -> Greece
+   -> Language
+   -> Deutsch
+   -> TranslationData
+   -> stCaptions
+   -> TeBusStpDlg
+   -> Verbindung PC zum eBUS
+   -> Connection PC to eBUS
+   -> Liaison PC avec eBus
+   -> Collegamento PC a eBus
+   -> Conexión PC al eBus
+   -> Verbinding PC - eBus
+   -> Forbindelse fra PC til eBUS
+   -> Anslutning PC till eBUS
+   -> Veza PC-a prema eBUS-u
+   -> PC->eBUS összeköttetés
+   -> Pod³¹czenie PC do eBUS
+   -> Ñîåäèíåíèå ÏÊ ñ eBUS
+   -> btnAutoRepeat
+   -> Auto&Wiederholen
+   -> Auto&Repeat
+   -> Auto&Répéter
+   -> Auto&Ripetere
+   -> Auto&Repetir
+   -> Auto&Opnieuw
+   -> Auto & gentag
+   -> &Auto Upprepn.
+   -> Auto&ponoviti
+   -> Auto&Ismételni
+   -> powt. auto
+   -> Àâòî&Ïîâòîðåíèå
+   -> btnAutoSyn
+   -> AutoS&yn
+   -> AutoS&yn
+   -> AutoS&yn
+   -> Auto&Sincronizza
+   -> Auto&Sinc
+   -> Auto&Syn
+   -> Auto Bus synk.
+   -> &AutoSyn
+   -> Autoszink
+   -> Àâòî&Ñèíõð
+   -> btnClose
+   -> &Schließen
+   -> &Close
+   -> &Fermer
+   -> &Chiudere
+   -> &Cerrar
+   -> &Sluiten
+   -> Luk
+   -> &Stäng
+   -> &zatvoriti
+   -> &Bezárni
+   -> &Zamknij
+   -> &Çàêð
+   -> btnConnect
+   -> &Verbinden
+   -> &Connect
+   -> &Connecter
+   -> &Collegare
+   -> C&onectar
+   -> &Verbinden
+   -> Etabler forbindelse
+   -> &Koppla till
+   -> &povezati
+   -> &Összekötni
+   -> &Po³¹cz
+   -> &Ñîåäèíåíèå
+   -> btnDebugWin
+   -> &DebugWindow
+   -> &DebugWindow
+   -> &DebugWindow
+   -> &Debug Window
+   -> &Pantalla Debug
+   -> &DebugWindow
+   -> Fejlmenu
+   -> &Rensa fönster
+   -> &provjera prozora
+   -> &DebugWindow
+   -> &Okno debug
+   -> &Îòëàäêà
+   -> btnStopCounter
+   -> Sperr&Zähler
+   -> Stop&counter
+   -> Blocage&Compteur
+   -> &Stop contatore
+   -> Contador &Bloqueo
+   -> &Stop&Teller
+   -> Stop tæller
+   -> &Stop-mätare
+   -> Zapor&brojaè
+   -> Zár&számláló
+   -> licznik&zatrzymañ
+   -> Ñ÷åò÷èê&áëîêèðîâîê
+   -> btnTrennen
+   -> &Trennen
+   -> &Disconnect
+   -> &Séparer
+   -> &Scollegare
+   -> &Desconectar
+   -> &Verbreken
+   -> Afbryd
+   -> &Koppla fran
+   -> &razdvojiti
+   -> &Szétkapcsolni
+   -> &Roz³¹cz
+   -> &Ðàçäåëåíèå
+   -> btnVersion
+   -> Vers&ion
+   -> Vers&ion
+   -> Ver&sion
+   -> Ver&sione
+   -> &Versión
+   -> &Versie
+   -> Version
+   -> &Version
+   -> &Verzija
+   -> Változat
+   -> Wer&sja
+   -> &Âåðñèÿ
+
+[Component]: RGrpAdr
+   -> eBus-Adresse des PCs
+   -> eBus address of PC
+   -> Adresse eBus du PC
+   -> Indirizzo eBus PC
+   -> Dirección eBus del PC
+   -> eBus-adres PC
+   -> PC'ens eBUS-adresse
+   -> eBUS-adress PC
+   -> eBus-adresa PC-a
+   -> PC eBus-címe
+   -> adres magistrali eBus komputera PC
+   -> Àäðåñ ÏÊ íà øèíà eBus
+
+[Component]: RGrpComPort
+   -> COM-Port
+   -> COM-Port
+   -> Port-COM
+   -> Porta COM
+   -> Puerto COM
+   -> COM-Port
+   -> COM-Port
+   -> COM-port
+   -> COM-Port
+   -> Port COM
+   -> COM-ïîðò
+
+[Component]: RGrpConnectionType
+   -> Adaptertyp
+   -> Adapter type
+   -> Type adaptateur
+   -> Tipo di adattatore
+   -> Tipo de adaptador
+   -> Adapter type
+   -> Adapter type
+   -> Adapter-typ
+   -> tip adaptera
+   -> adaptertípus
+   -> Typ adaptera
+   -> Òèï àäàïòåðà
+
+[Component]: RGrpConnectState
+   -> Status
+   -> Status
+   -> Status
+   -> Stato
+   -> Estado
+   -> Status
+   -> Status
+   -> Status
+   -> Status
+   -> státus
+   -> Status
+   -> Ñòàòóñ
+   -> stHints
+   -> TeBusStpDlg
+   -> btnAutoRepeat
+   -> btnAutoSyn
+   -> btnClose
+   -> btnConnect
+   -> btnDebugWin
+   -> btnStopCounter
+   -> btnTrennen
+   -> btnVersion
+
+[Component]: RGrpAdr
+
+[Component]: RGrpComPort
+
+[Component]: RGrpConnectionType
+
+[Component]: RGrpConnectState
+   -> stDisplayLabels
+   -> stFonts
+   -> TeBusStpDlg
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> Tahoma
+   -> stMultiLines
+
+[Component]: RGrpAdr.Items
+   -> $00,$FF
+
+[Component]: RGrpComPort.Items
+   -> &1,&2,&3,&4,&5,&6,&7,&8
+
+[Component]: RGrpConnectionType.Items
+   -> PC-Cxe-Adapter,"RAWE-Adapter Version 1.53"
+   -> PC-Cxe-Adapter,"RAWE-Adapter Version 1.53"
+   -> "Adaptateur PC-Cxe","Adaptateur RAWE Version 1.53"
+   -> "Adattatore PC-Cxe","adattatore RAWE versione 1.53"
+   -> "Adaptador PC-Cxe","Adaptador RAWE Version 1.53"
+   -> PC-Cxe-adapter,"RAWE-adapter versie 1.53"
+   -> PC-Cxe-Adapter,"RAWE-Adapter Version 1.53"
+   -> PC-Cxe-Adapter,"RAWE-Adapter Version 1.53"
+   -> PC-Cxe-Adapter,"RAWE-Adapter verzija 1.53"
+   -> PC-Cxe-adapter,"RAWE-Adapter Version 1.53"
+   -> "adapter PC-Cxe","adapter RAWE - wersja 1.53"
+   -> "Àäàïòåð ÏÊ-Cxe","RAWE-àäàïòåð âåðñèÿ 1.53"
+
+[Component]: RGrpConnectState.Items
+   -> verbunden,getrennt
+   -> connected,disconnected
+   -> lié, séparé
+   -> collegato,scollegato
+   -> conectado, desconectado
+   -> verbonden, verbroken
+   -> forbundet,afbrudt
+   -> tillkopplat,frankopplat
+   -> povezano,razdvojeno
+   -> összekapcsolva, szétválasztva
+   -> po³¹czony,roz³¹czony
+   -> ñîåäèíåí, ðàçäåëåí
+
+[Component]: stStrings
+
+[Component]: stOtherStrings
+   -> TeBusStpDlg.HelpFile
+   -> stCollections
+   -> stCharSets
+   -> TeBusStpDlg
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> RUSSIAN_CHARSET

@@ -1,0 +1,78 @@
+--- Form: TFRMBUSSTRUCT [Neutral] ---
+
+[Component]: PnlHint
+   -> Align
+   -> alBottom
+   -> BevelOuter
+   -> bvNone
+   -> Stop Scan F10
+   -> TabOrder
+   -> Visible
+   -> TsiLangLinked
+   -> siLangLinked1
+   -> Version
+   -> 5.3.1.1
+
+[Component]: StringsTypes.Strings
+   -> TIB_STRINGLIST
+   -> TSTRINGLIST
+   -> NumOfLanguages
+   -> LangDispatcher
+   -> MainForm.siLangDispatcher1
+   -> OnChangeLanguage
+   -> siLangLinked1ChangeLanguage
+   -> LangDelim
+
+[Component]: LangNames.Strings
+   -> Deutsch
+   -> English
+   -> Francais
+   -> Italiano
+   -> Espanol
+   -> Nederlands
+   -> Dansk
+   -> Swedish
+   -> Norwegian
+   -> Slovenski
+   -> Hrvatski
+   -> Magyar
+   -> Polski
+   -> Russian
+   -> Greece
+   -> Language
+   -> Deutsch
+   -> TranslationData
+   -> stCaptions
+   -> TfrmBusstruct
+   -> Busstruktur
+   -> Bus structure
+   -> Structure Bus
+   -> Struttura Bus
+   -> Estructura Bus
+   -> Busstructuur
+   -> Busstruktur
+   -> Bus-struktur
+   -> Bus structure
+   -> buszstruktúra
+   -> struktura Bus
+   -> Ñòðóêòóðà øèíû
+   -> stHints
+   -> stDisplayLabels
+   -> stFonts
+   -> TfrmBusstruct
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> Tahoma
+   -> stMultiLines
+
+[Component]: stStrings
+
+[Component]: stOtherStrings
+   -> stCollections
+   -> stCharSets
+   -> TfrmBusstruct
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> RUSSIAN_CHARSET

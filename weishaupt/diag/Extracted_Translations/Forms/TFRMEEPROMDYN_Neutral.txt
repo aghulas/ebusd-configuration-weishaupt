@@ -1,0 +1,1368 @@
+--- Form: TFRMEEPROMDYN [Neutral] ---
+
+[Component]: TbShtFS
+   -> Align
+   -> alClient
+   -> TabOrder
+   -> OnChange
+   -> PgCtrlDynChange
+   -> TTabSheet
+
+[Component]: TbShtFS
+   -> FS-Paras
+   -> TGroupBox
+
+[Component]: GrpBxButtons
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnFSRead
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnFSReadClick
+   -> TButton
+
+[Component]: BtnFSWrite
+   -> &Eintragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnFSWriteClick
+   -> TButton
+
+[Component]: BtnFSLoad
+   -> &Laden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnFSLoadClick
+   -> TButton
+
+[Component]: BtnFSSave
+   -> &Speichern
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnFSSaveClick
+   -> TCheckBox
+
+[Component]: ChkBxRedundFS
+   -> Redund
+   -> TabOrder
+   -> TCheckGroup
+
+[Component]: ChkGrpFS
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> TabOrder
+   -> OnCheckBoxClick
+
+[Component]: ChkGrpFSCheckBoxClick
+   -> Distance
+   -> HorDistance
+
+[Component]: Items.Strings
+   -> Columns
+   -> test
+   -> TEditGroup
+   -> EGrpFS
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> ShowHint
+   -> TabOrder
+   -> TabStop
+   -> DistanceH
+   -> DistanceV
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpFSByte
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> FS-Byte
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TCheckGroup
+
+[Component]: ChkGrpFS2
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> TabOrder
+   -> OnCheckBoxClick
+
+[Component]: ChkGrpFS2CheckBoxClick
+   -> Distance
+   -> HorDistance
+
+[Component]: Items.Strings
+   -> Columns
+   -> test
+   -> TEditGroup
+   -> EGrpFSByte2
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> FS-Byte
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TTabSheet
+
+[Component]: TbShtNFS
+   -> NFS-Paras
+   -> ImageIndex
+   -> TGroupBox
+   -> GroupBox1
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnNFSRead
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnNFSReadClick
+   -> TButton
+
+[Component]: BtnNFSWrite
+   -> &Eintragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnNFSWriteClick
+   -> TButton
+
+[Component]: BtnNFSLoad
+   -> &Laden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnNFSLoadClick
+   -> TButton
+
+[Component]: BtnNFSSave
+   -> &Speichern
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnNFSSaveClick
+   -> TCheckBox
+
+[Component]: ChkBxRedundNFS
+   -> Redund
+   -> TabOrder
+   -> TCheckBox
+
+[Component]: ChkBxNum
+   -> Num.
+   -> TabOrder
+   -> OnClick
+
+[Component]: ChkBxNumClick
+   -> TEditGroup
+   -> EGrpNFS
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> ShowHint
+   -> TabOrder
+   -> TabStop
+   -> DistanceH
+   -> DistanceV
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TCheckGroup
+
+[Component]: ChkGrpNFS
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> TabOrder
+   -> TabStop
+   -> OnCheckBoxClick
+
+[Component]: ChkGrpNFSCheckBoxClick
+   -> Distance
+   -> HorDistance
+
+[Component]: Items.Strings
+   -> Columns
+   -> test
+   -> TEditGroup
+   -> EGrpNFSByte
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> NFS-Byte
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TTabSheet
+
+[Component]: TbShtStat
+   -> Statistik
+   -> ImageIndex
+   -> TGroupBox
+   -> GroupBox2
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnStatRead
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnStatReadClick
+   -> TButton
+
+[Component]: BtnStatWrite
+   -> &Reset Statistik
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnStatWriteClick
+   -> TButton
+
+[Component]: BtnResetCounter
+   -> Reset &Counter
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnResetCounterClick
+   -> TCheckBox
+
+[Component]: ChkBxFCODE_Not
+   -> FCode_Not && Wrong_adr löschen
+   -> TabOrder
+   -> TButton
+   -> btnSaveStatistics
+   -> &Speichern
+   -> TabOrder
+   -> OnClick
+   -> btnSaveStatisticsClick
+   -> TCheckBox
+   -> chkBxExcelFormat
+   -> Excel-Format
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpStat
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpCounter
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TTabSheet
+
+[Component]: TbShtFunc
+   -> Funktionen
+   -> ImageIndex
+   -> TGroupBox
+
+[Component]: GrpBxReset
+   -> TabOrder
+   -> TButton
+   -> btnReset
+   -> Sen&den
+   -> TabOrder
+   -> OnClick
+   -> btnResetClick
+   -> TRadioGroup
+
+[Component]: RGrpInitcmds
+
+[Component]: Items.Strings
+   -> Reset ShutOffLoop (253)
+   -> SCom-Initialisierung ("U")
+   -> eBUS-Initialisierung ("AA")
+   -> TabOrder
+   -> TGroupBox
+
+[Component]: GrpBxSend
+   -> Senden...
+   -> TabOrder
+   -> TLabel
+
+[Component]: LblSendstring
+   -> SendString:
+   -> TLabel
+
+[Component]: LblReceivedString
+   -> Antwort:
+   -> TLabel
+   -> lblInterval
+   -> +Intervalzeit [s]:             Dauer [s]:
+   -> Enabled
+   -> TButton
+
+[Component]: BtnSend
+   -> Über&tragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnSendClick
+   -> TEdit
+
+[Component]: EdtSendstring
+   -> TabOrder
+   -> R,0,0
+   -> TEdit
+
+[Component]: EdtReceivedString
+   -> TabStop
+   -> ReadOnly
+   -> TabOrder
+   -> TCheckBox
+
+[Component]: ChkBxCyclic
+   -> zyklisch senden
+   -> TabOrder
+   -> OnClick
+
+[Component]: ChkBxCyclicClick
+   -> TEdit
+
+[Component]: EdtInterval
+   -> Enabled
+   -> TabOrder
+   -> TEdit
+
+[Component]: EdtTime
+   -> Enabled
+   -> TabOrder
+   -> TGroupBox
+   -> GroupBox3
+   -> Prozesswerte
+   -> TabOrder
+   -> TLabel
+
+[Component]: LblOffset
+   -> Offset:
+   -> TLabel
+
+[Component]: LblGain
+   -> Gain:
+   -> TLabel
+   -> lblKommentar
+   -> Kommentar:
+   -> TLabel
+
+[Component]: LblPrecision
+   -> Kommastellen
+   -> TLabel
+   -> Label1
+   -> P-Variablenliste:
+   -> TListBox
+   -> LstBxVar
+   -> ItemHeight
+   -> TabOrder
+   -> OnDblClick
+   -> LstBxVarDblClick
+   -> TRadioGroup
+
+[Component]: RGrpLists
+   -> Aktuelle Liste:
+   -> Columns
+   -> TabOrder
+   -> OnClick
+
+[Component]: RGrpListsClick
+   -> TRadioGroup
+
+[Component]: RGrpDataTyp
+   -> #Datentyp der ausgewählten Variable:
+   -> Columns
+
+[Component]: Items.Strings
+   -> Bit
+   -> UChar
+   -> SChar
+   -> SInt
+   -> UInt
+   -> U2Byte
+   -> U3Byte
+   -> TabOrder
+   -> TEdit
+
+[Component]: EdtOffset
+   -> TabOrder
+   -> TEdit
+
+[Component]: EdtGain
+   -> TabOrder
+   -> TEdit
+
+[Component]: EdtKommentar
+   -> TabOrder
+   -> TEdit
+
+[Component]: EdtPrecision
+   -> TabOrder
+   -> 4,0
+   -> TButton
+
+[Component]: BtnLoadList
+   -> P-Variablen &laden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnLoadListClick
+   -> TButton
+
+[Component]: BtnSaveList
+   -> P-Variablen &speichern
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnSaveListClick
+   -> TButton
+
+[Component]: BtnVisiVars
+   -> P-Variablen &visualisieren
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnVisiVarsClick
+   -> TListBox
+   -> LstBxSelVar
+   -> ItemHeight
+   -> TabOrder
+   -> OnDblClick
+   -> LstBxSelVarDblClick
+   -> TButton
+
+[Component]: BtnSelVal
+   -> &Wert einfügen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnSelValClick
+   -> TButton
+   -> btnPVarsClear
+   -> P-Variablen lös&chen
+   -> TabOrder
+   -> OnClick
+   -> btnPVarsClearClick
+   -> TCheckBox
+
+[Component]: ChkBxASAP
+   -> Service asap
+   -> TabOrder
+   -> TRadioGroup
+
+[Component]: RGrpAdr
+   -> Columns
+
+[Component]: Items.Strings
+   -> 1$03
+   -> 2$13
+   -> 3$33
+   -> 4$73
+   -> 5$F3
+   -> 6$1F
+   -> 7$3F
+   -> 8$7F
+   -> $10
+   -> $F1
+   -> TabOrder
+   -> Visible
+   -> OnClick
+
+[Component]: RGrpAdrClick
+   -> TTabSheet
+
+[Component]: TbShtPVars
+   -> Prozesswerte
+   -> ImageIndex
+   -> OnHide
+
+[Component]: TbShtPVarsHide
+   -> OnShow
+
+[Component]: TbShtPVarsShow
+   -> TCheckGroup
+
+[Component]: ChkGrpBits
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> TabOrder
+   -> Distance
+   -> HorDistance
+   -> Columns
+   -> test
+   -> TEditGroup
+   -> EGrpByteVars
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TGroupBox
+   -> GroupBox5
+   -> WW_Feld
+   -> TabOrder
+   -> TCheckGroup
+
+[Component]: ChkGrp0
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> TabOrder
+   -> Distance
+   -> HorDistance
+
+[Component]: Items.Strings
+   -> test
+   -> TCheckGroup
+
+[Component]: ChkGrp1
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> TabOrder
+   -> Distance
+   -> HorDistance
+
+[Component]: Items.Strings
+   -> test
+   -> TCheckGroup
+
+[Component]: ChkGrp2
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> TabOrder
+   -> Distance
+   -> HorDistance
+
+[Component]: Items.Strings
+   -> test
+   -> TCheckGroup
+
+[Component]: ChkGrp3
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> TabOrder
+   -> Distance
+   -> HorDistance
+
+[Component]: Items.Strings
+   -> test
+   -> TCheckGroup
+
+[Component]: ChkGrp4
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> TabOrder
+   -> Distance
+   -> HorDistance
+
+[Component]: Items.Strings
+   -> test
+   -> TCheckGroup
+
+[Component]: ChkGrp5
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> TabOrder
+   -> Distance
+   -> HorDistance
+
+[Component]: Items.Strings
+   -> test
+   -> TButton
+
+[Component]: BtnReadWW_Feld
+   -> &Lesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadWW_FeldClick
+   -> TButton
+
+[Component]: BtnWriteWW_Feld
+   -> &Schreiben
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteWW_FeldClick
+   -> TButton
+
+[Component]: BtnResetAll
+   -> &Reset All
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnResetAllClick
+   -> TButton
+
+[Component]: BtnSetAll
+   -> Set &All
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnSetAllClick
+   -> TTabSheet
+
+[Component]: TbShtMR
+   -> MasterReset/HW/etc
+   -> ImageIndex
+   -> TEditGroup
+   -> EGrpMR
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TGroupBox
+   -> GroupBox4
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnMRRead
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnMRReadClick
+   -> TButton
+
+[Component]: BtnMRWrite
+   -> &Eintragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnMRWriteClick
+   -> TButton
+
+[Component]: BtnMRLoad
+   -> &Laden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnMRLoadClick
+   -> TButton
+
+[Component]: BtnMRSave
+   -> &Speichern
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnMRSaveClick
+   -> TCheckBox
+
+[Component]: ChkBxRedundMR
+   -> Redund
+   -> TabOrder
+   -> TRadioGroup
+   -> RgrpParaType
+   -> Columns
+   -> Enabled
+
+[Component]: Items.Strings
+   -> Analog
+   -> FactorySettings
+   -> TabOrder
+   -> TTabSheet
+
+[Component]: TbShtBCCID
+   -> BCC-ID
+   -> ImageIndex
+   -> TEditGroup
+   -> EGRpBCCID
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> intern_eea_ID_number_BCC_High
+   -> intern_eea_ID_number_BCC_Low
+   -> intern_eea_ID_CRC_BCC
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TGroupBox
+   -> GroupBox7
+   -> BCC-ID
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnReadBCCID
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadBCCIDClick
+   -> TButton
+
+[Component]: BtnWriteBCCID
+   -> &Eintragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteBCCIDClick
+   -> TCheckBox
+
+[Component]: ChkBxRedundID
+   -> Redund
+   -> TabOrder
+   -> TGroupBox
+   -> GroupBox9
+   -> Systemstatistik
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnReadSysStat
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadSysStatClick
+   -> TButton
+
+[Component]: BtnResetSysStat
+   -> &Reset
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnResetSysStatClick
+   -> TEditGroup
+   -> EGrpSysStat
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> 1EEA_SYS_STATI_ANF
+   -> .2 EEA_SYS_STATI_END
+   -> EEA_SYS_STATI_PTR
+   -> 1 EEA_SYS_RES_CNT
+   -> 2 EEA_SYS_RES_CNT
+   -> 3 EEA_SYS_RES_CNT
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpSysStatResult
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> PTR
+   -> RES_CNT
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TTabSheet
+
+[Component]: TbShtLogger
+   -> Logger
+   -> ImageIndex
+   -> OnShow
+
+[Component]: TbShtLoggerShow
+   -> TChart
+   -> ChartLogger
+   -> AllowPanning
+   -> pmNone
+   -> BackWall.Brush.Color
+   -> clWhite
+   -> BackWall.Brush.Style
+   -> bsClear
+
+[Component]: Title.Text.Strings
+   -> BottomAxis.Automatic
+   -> BottomAxis.AutomaticMaximum
+   -> BottomAxis.AutomaticMinimum
+   -> BottomAxis.DateTimeFormat
+   -> dd/mm/yyyy/hh/mm/ss
+   -> BottomAxis.ExactDateTime
+   -> BottomAxis.Increment
+   -> %Å‰r
+   -> E.Âî?
+   -> BottomAxis.Maximum
+   -> LeftAxis.Automatic
+   -> LeftAxis.AutomaticMaximum
+   -> LeftAxis.AutomaticMinimum
+   -> LeftAxis.Maximum
+   -> Legend.Alignment
+   -> laBottom
+   -> RightAxis.Visible
+   -> TopAxis.Visible
+   -> View3D
+   -> View3DWalls
+   -> Align
+   -> alTop
+   -> BorderStyle
+   -> bsSingle
+   -> TabOrder
+   -> TLineSeries
+   -> Series1
+   -> Marks.ArrowLength
+   -> Marks.Style
+   -> smsValue
+   -> Marks.Visible
+   -> SeriesColor
+   -> clRed
+   -> ShowInLegend
+   -> Dark3D
+   -> Pointer.InflateMargins
+   -> Pointer.Style
+   -> psRectangle
+   -> Pointer.Visible
+   -> XValues.DateTime
+   -> XValues.Name
+   -> XValues.Multiplier
+   -> XValues.Order
+   -> loAscending
+   -> YValues.DateTime
+   -> YValues.Name
+   -> YValues.Multiplier
+   -> YValues.Order
+   -> loNone
+   -> TButton
+
+[Component]: BtnStartStop
+   -> &Start
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnStartStopClick
+   -> TButton
+
+[Component]: BtnMinMax
+   -> Min/Max
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnMinMaxClick
+   -> TButton
+
+[Component]: BtnClearGraph
+   -> Clear
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnClearGraphClick
+   -> TCheckBox
+
+[Component]: ChkBxAnzeige
+   -> Anzeige gestaucht
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnSaveData
+   -> Save Data
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnSaveDataClick
+   -> TTabSheet
+
+[Component]: TbShtMemory
+   -> ..Memory remains..
+   -> ImageIndex
+   -> TMemo
+   -> MemoMemory
+   -> TabStop
+   -> ScrollBars
+   -> ssBoth
+   -> TabOrder
+   -> TRadioGroup
+
+[Component]: RGrpSpeicher
+   -> Speicherbereich
+   -> Columns
+
+[Component]: Items.Strings
+   -> ROM
+   -> EEProm
+   -> Ram
+   -> Stack
+   -> TabOrder
+   -> OnClick
+
+[Component]: RGrpSpeicherClick
+   -> TButton
+
+[Component]: BtnReadMem
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadMemClick
+   -> TButton
+
+[Component]: BtnClC_CRC
+   -> &CRC
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnClC_CRCClick
+   -> TEditGroup
+   -> EGrpCRCAdrs
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> StartAdr
+   -> ZielAdr (CRC-Adr)
+   -> CRC
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpMemAdrs
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> StartAdr
+   -> ZielAdr
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TButton
+
+[Component]: BtnCancelMem
+   -> &Abbrechen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnCancelMemClick
+   -> TGroupBox
+   -> GroupBox6
+   -> Prüfstandsbefehle
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnPruefSend
+   -> &Senden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnPruefSendClick
+   -> TButton
+
+[Component]: BtnPruefRead
+   -> A&uslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnPruefReadClick
+   -> TComboBox
+
+[Component]: CbBxPruefbefehl
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxPruefbefehlChange
+
+[Component]: Items.Strings
+   -> Kaltstart;01C7
+   -> Shutt Off;01F8
+   -> FE;064B
+   -> Init EEPROM;0674
+   -> Init FS Parameter;078C
+   -> Init NFS Parameter;07B3
+   -> Reset Counter;0A95
+   -> Reset Device Statistics;0AAA
+   -> Reset User Statistics;0B52
+   -> Reset Historie;0B6D
+   -> Reset BCC;0CDE
+   -> Calcute PCS;0CE1
+   -> Calculate ROM CRC;0D19
+   -> Display Test On;0D26
+   -> Display Test Off;3056
+   -> zykl. Reset µCA;3069
+   -> zykl. Reset µCB;3191
+   -> Anforderung Vollast;31AE
+   -> Anforderung Teillast;361D
+   -> Special Fkt 1*3;3622
+   -> Special Fkt 2*3;37DA
+   -> Basis Calib CES Start;3AC3
+   -> U2_Save;3AFC
+   -> Relais Test;3B04
+   -> Reset DHW Config;3B3B
+   -> TEditGroup
+   -> EGrpPruefData
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> HighAdr
+   -> LowAdr
+   -> HighByte
+   -> LowByte
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TComboBox
+
+[Component]: CbBxPruefAck
+   -> Style
+   -> csSimple
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxPruefbefehlChange
+
+[Component]: Items.Strings
+   -> FE38;Kaltstart
+   -> FE07;Shutt Off
+   -> F9B4;FE
+   -> F98B;Init EEPROM
+   -> F873;Init FS Parameter
+   -> F84C;Init NFS Parameter
+   -> F56A;Reset Counter
+   -> F555;Reset Device Statistics
+   -> F4AD;Reset User Statistics
+   -> F492;Reset Historie
+   -> F321;Reset BCC
+   -> F31E;Calcute PCS
+   -> F2E6;Calculate ROM CRC
+   -> F2D9;Display Test On
+   -> CFA9;Display Test Off
+   -> CF96;zykl. Reset µCA
+   -> CE6E;zykl. Reset µCB
+   -> CE51;Anforderung Vollast
+   -> C9E2;Anforderung Teillast
+   -> C9DD;Special Fkt 1*3
+   -> C825;Special Fkt 2*3
+   -> FFC0;Allgemeiner Fehler
+   -> C53C; Basis Calib CES Start
+   -> C503;U2_Save
+   -> C4FB;Relais Test
+   -> C4C4;Reset DHW Config
+   -> TCheckBox
+
+[Component]: ChkBxAutoRead
+   -> autom. Lesen
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnSendCRC
+   -> C&RC senden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnSendCRCClick
+   -> TComboBox
+
+[Component]: CbBxCRC
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> 88;FS CRC-KM928
+   -> 197;NFS CRC-KM928
+   -> 241;FS CRC-IFS
+   -> 229;NFS CRC-IFS
+   -> TButton
+
+[Component]: BtnTest_HiAdr
+   -> Test
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnTest_HiAdrClick
+   -> TGroupBox
+   -> GroupBox10
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpAdr
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Adr1
+   -> Adr2
+   -> Adr3
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpVal
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Val1
+   -> Val2
+   -> Val3
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TButton
+
+[Component]: BtnSendSpecial
+   -> Senden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnSendSpecialClick
+   -> TComboBox
+   -> CbbXCmd1
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> RAM (S)
+   -> XRAM (Y)
+   -> EEPROM (W)
+   -> TComboBox
+   -> CbbXCmd2
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> RAM (S)
+   -> XRAM (Y)
+   -> EEPROM (W)
+   -> TComboBox
+   -> CbbXCmd3
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> RAM (S)
+   -> XRAM (Y)
+   -> EEPROM (W)
+   -> TTabSheet
+
+[Component]: TbShtIon
+   -> Ion-Kalib
+   -> ImageIndex
+   -> TEditGroup
+   -> EGrpIonKalib
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> ShowHint
+   -> TabOrder
+   -> TabStop
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Z_ion (RAM)
+   -> EEA_Ion_Kalib
+   -> EEA_Ion_Kalib_inv
+   -> EEA_Ion_Kalib_2
+   -> EEA_Ion_Kalib_2_inv
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TGroupBox
+   -> GroupBox8
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnReadKalib
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadKalibClick
+   -> TButton
+
+[Component]: BtnWriteKalib
+   -> &Eintragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteKalibClick
+   -> TCheckBox
+
+[Component]: ChkBxTakeZIon
+   -> Z_Ion übernehmen
+   -> Checked
+   -> State
+   -> cbChecked
+   -> TabOrder
+   -> TTimer
+   -> Timer1
+   -> Enabled
+   -> OnTimer
+   -> Timer1Timer
+   -> TTimer
+   -> LoggerTimer
+   -> Enabled
+   -> OnTimer
+   -> LoggerTimerTimer

@@ -1,0 +1,479 @@
+--- Form: TCOCOSTPDLG [Neutral] ---
+
+[Component]: LblVersion
+   -> Version:
+   -> TRadioGroup
+
+[Component]: RGrpComPort
+   -> Align
+   -> alTop
+   -> COM-Port
+   -> Columns
+
+[Component]: Items.Strings
+   -> TabOrder
+   -> TRadioGroup
+
+[Component]: RGrpConnectionType
+   -> Align
+   -> alTop
+   -> Verbindungstyp
+   -> Columns
+
+[Component]: Items.Strings
+   -> W-EA Direktverbindung
+   -> W-EA Modemverbindung
+   -> PC-CXe-Adapter
+   -> Mobile
+   -> TabOrder
+   -> OnClick
+
+[Component]: RGrpConnectionTypeClick
+   -> TButton
+   -> btnConnect
+   -> Anchors
+   -> akLeft
+   -> akTop
+   -> akRight
+   -> &Verbinden
+   -> TabOrder
+   -> OnClick
+   -> btnConnectClick
+   -> TButton
+   -> btnTrennen
+   -> Anchors
+   -> akLeft
+   -> akTop
+   -> akRight
+   -> &Trennen
+   -> TabOrder
+   -> OnClick
+   -> btnTrennenClick
+   -> TButton
+   -> btnClose
+   -> &Schließen
+   -> TabOrder
+   -> OnClick
+   -> btnCloseClick
+   -> TGroupBox
+
+[Component]: GrpBxModem
+   -> Modemparameter
+   -> TabOrder
+   -> TLabel
+
+[Component]: LblNumber
+   -> Telefonnummer
+   -> TLabel
+
+[Component]: LblinitSeq
+   -> Init-Sequenz
+   -> TLabel
+   -> lblCodenr
+   -> Codenummer
+   -> TRadioGroup
+
+[Component]: RGrpDialType
+   -> Columns
+
+[Component]: Items.Strings
+   -> (IWV) Pulswahl
+   -> (MFV) Tonwahl
+   -> TabOrder
+   -> TComboBox
+
+[Component]: CbBxNumber
+   -> ItemHeight
+   -> TabOrder
+   -> TEdit
+
+[Component]: EdtInitString
+   -> TabOrder
+   -> TEdit
+
+[Component]: EdtCodenr
+   -> PasswordChar
+   -> TabOrder
+   -> TRadioGroup
+
+[Component]: RGrpConnectState
+   -> Enabled
+
+[Component]: Items.Strings
+   -> verbunden
+   -> getrennt
+   -> TabOrder
+   -> TRadioGroup
+
+[Component]: RGrpAdr
+   -> PC-Bus-Adresse
+   -> Columns
+
+[Component]: Items.Strings
+   -> $ 00
+   -> $ FF
+   -> TabOrder
+   -> TCheckBox
+
+[Component]: ChkBxPowerSupply
+   -> Power supply active
+   -> Enabled
+   -> TabOrder
+   -> TCheckBox
+   -> ChkHWEcho
+   -> HW-Echo
+   -> Checked
+   -> State
+   -> cbChecked
+   -> TabOrder
+   -> Visible
+   -> TsiLangLinked
+   -> siLangLinked1
+   -> Version
+   -> 5.3.1.1
+
+[Component]: StringsTypes.Strings
+   -> TIB_STRINGLIST
+   -> TSTRINGLIST
+   -> NumOfLanguages
+   -> LangDispatcher
+   -> MainForm.siLangDispatcher1
+   -> OnChangeLanguage
+   -> siLangLinked1ChangeLanguage
+   -> LangDelim
+
+[Component]: LangNames.Strings
+   -> Deutsch
+   -> English
+   -> Francais
+   -> Italiano
+   -> Espanol
+   -> Nederlands
+   -> Dansk
+   -> Swedish
+   -> Norwegian
+   -> Slovenski
+   -> Hrvatski
+   -> Magyar
+   -> Polski
+   -> Russian
+   -> Greece
+   -> Language
+   -> Deutsch
+   -> TranslationData
+   -> stCaptions
+   -> TCoCoStpDlg
+   -> Verbindung PC zum W-EA
+   -> Connection PC to W-EA
+   -> Liaison PC au W-EA
+   -> Collegamento PC al W-EA
+   -> Conexión PC al W-EA
+   -> Verbinding PC naar W-EA
+   -> Forbindelse fra PC til W-EA
+   -> Koppling PC till W-EA
+   -> Spoj PC prema - weishaupt -EA
+   -> PC->W-EA kapcsolat
+   -> Pod³¹czenie PC do W-EA
+   -> Ñîåäèíåíèå ÏÊ ñ W-EA
+   -> btnClose
+   -> &Schließen
+   -> &Close
+   -> &Fermer
+   -> &Chiudere
+   -> &Cerrar
+   -> &Sluiten
+   -> Luk
+   -> &Stäng
+   -> &zatvoriti
+   -> &bezárni
+   -> &Zamknij
+   -> &Çàêðûòü
+   -> btnConnect
+   -> &Verbinden
+   -> C&onnect
+   -> &Connecter
+   -> &Collegare
+   -> C&onectar
+   -> &Verbinden
+   -> Forbind
+   -> &Koppla till
+   -> &spojiti
+   -> &összekapcsolni
+   -> &Po³¹cz
+   -> &Ñîåäèíèòü
+   -> btnTrennen
+   -> &Trennen
+   -> &Disconnect
+   -> &Séparer
+   -> &Scollegare
+   -> &Desconectar
+   -> &Afsluiten
+   -> Afbryd
+   -> &Koppla ifran
+   -> &odvojiti
+   -> &elválasztani
+   -> &Roz³¹cz
+   -> &Ðàçäåëèòü
+
+[Component]: GrpBxModem
+   -> Modemparameter
+   -> Modem parameters
+   -> Paramètre Modem
+   -> Parametri modem
+   -> Parámetros módem
+   -> Modemparameter
+   -> Modem parametre
+   -> Modemparameter
+   -> Parametri modema
+   -> Modem paraméterei
+   -> Parametry modemu
+   -> Ïàðàìåòðû ìîäåìà
+   -> lblCodenr
+   -> Codenummer
+   -> Code number
+   -> Numéro de code
+   -> Numero codice
+   -> Código
+   -> Codenummer
+   -> Kode nummer
+   -> Kod-nummer
+   -> kodni broj
+   -> kódszám
+   -> nr kodu
+   -> Íîìåð êîäà
+
+[Component]: LblinitSeq
+   -> Init-Sequenz
+   -> Init-Sequence
+   -> Séquence Init
+   -> Sequenza iniziale
+   -> Secuencia inicio
+   -> Init-sequentie
+   -> Init- sekvens
+   -> Init-sekvens
+   -> Init-Sequenz
+   -> sekwencja inicjuj¹ca
+   -> Ïîñëåäîâàò. èíèöèàëèçàöèè
+
+[Component]: LblNumber
+   -> Telefonnummer
+   -> Phone number
+   -> Numéro de téléphone
+   -> Numero di telefono
+   -> Num. Teléfono
+   -> Telefoonnummer
+   -> Telefonnummer
+   -> Tel.nummer
+   -> telefonski broj
+   -> telefonszám
+   -> nr telefonu
+   -> Íîìåð òåëåôîíà
+
+[Component]: LblVersion
+   -> Version:
+   -> Version:
+   -> Version :
+   -> Versione:
+   -> Versión:
+   -> Versie:
+   -> Version:
+   -> Version:
+   -> verzija
+   -> verzió:
+   -> wersja:
+   -> Âåðñèÿ:
+
+[Component]: RGrpAdr
+   -> PC-Bus-Adresse
+   -> PC-bus-address
+   -> Adresse Bus PC
+   -> Indirizzo bus PC
+   -> Dirección Bus del PC
+   -> PC-Bus-adres
+   -> PC-Bus-adresse
+   -> PC-Bus-adress
+   -> PC-Bus-adresa
+   -> PC-busz-cím
+   -> Adres magistrali eBus
+   -> Àäðåñ ÏÊ íà øèíå
+
+[Component]: RGrpComPort
+   -> COM-Port
+   -> COM-Port
+   -> Port COM
+   -> Porta COM
+   -> Puerto COM
+   -> COM-Port
+   -> COM-Port
+   -> COM-port
+   -> COM-Port
+   -> Port COM
+   -> COM-ïîðò
+
+[Component]: RGrpConnectionType
+   -> Verbindungstyp
+   -> Connection type
+   -> Type de liaison
+   -> Tipo di collegamento
+   -> Tipo conexión
+   -> Verbindingstype
+   -> Forbindelsestype
+   -> Anslutningstyp
+   -> tip spoja
+   -> kapcsolattípus
+   -> Rodzaj po³¹czenia
+   -> Òèï ñâÿçè
+
+[Component]: RGrpConnectState
+
+[Component]: RGrpDialType
+
+[Component]: ChkBxPowerSupply
+   -> Power supply active
+   -> ChkHWEcho
+   -> HW-Echo
+   -> stHints
+   -> TCoCoStpDlg
+   -> btnClose
+   -> btnConnect
+   -> btnTrennen
+
+[Component]: CbBxNumber
+
+[Component]: EdtCodenr
+
+[Component]: EdtInitString
+
+[Component]: GrpBxModem
+   -> lblCodenr
+
+[Component]: LblinitSeq
+
+[Component]: LblNumber
+
+[Component]: LblVersion
+
+[Component]: RGrpAdr
+
+[Component]: RGrpComPort
+
+[Component]: RGrpConnectionType
+
+[Component]: RGrpConnectState
+
+[Component]: RGrpDialType
+
+[Component]: ChkBxPowerSupply
+   -> ChkHWEcho
+   -> stDisplayLabels
+   -> stFonts
+   -> TCoCoStpDlg
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> Tahoma
+   -> stMultiLines
+
+[Component]: CbBxNumber.Items
+
+[Component]: RGrpAdr.Items
+   -> "$ 00","$ FF"
+
+[Component]: RGrpComPort.Items
+   -> &1,&2,&3,&4,&5,&6,&7,&8
+
+[Component]: RGrpConnectionType.Items
+   -> "W-EA Direktverbindung","W-EA Modemverbindung",PC-CXe-Adapter,Mobile
+   -> "W-EA direct connection","W-EA modem connection",PC-CXe-Adapter,Mobile
+   -> "Liaison directe W-EA","Liaison Modem W-EA",PC-CXe-Adapter,Mobile
+   -> "W-EA collegamento diretto","W-EA collegamento via modem",PC-CXe-Adapter,Mobile
+   -> "Directa al W-EA","Vía módem al W-EA",PC-CXe-Adapter,Mobile
+   -> "W-EA directe verbinding","W-EA modemverbinding",PC-CXe-Adapter,Mobile
+   -> "W-EA direkte forbindelse","W-EA modem forbindelse",PC-CXe-Adapter,Mobile
+   -> "W-EA direktanslutning",W-EA-modemanslutning,PC-CXe-Adapter,Mobile
+   -> "W-EA izravna veza","W-EA veza modemom",PC-CXe-Adapter,Mobile
+   -> "W-EA direktkapcsolat","W-EA modemkapcsolat",PC-CXe-Adapter,Mobile
+   -> "bezposr. pol. z W-EA","pol. modemowe z W-EA",PC-CXe-Adapter,Mobile
+   -> "Ïðÿìàÿ ñâÿçü ñ W-EA","Ñâÿçü ñ W-EA ÷åðåç ìîäåì",PC-CXe-Adapter,Mobile
+
+[Component]: RGrpConnectState.Items
+   -> verbunden,getrennt
+   -> connected,disconnected
+   -> En liaison, séparé
+   -> collegato,scollegato
+   -> conectado, desconectado
+   -> verbonden, verbroken
+   -> forbundet,afbrudt
+   -> tillkopplad, frankopplad
+   -> veza, prekinuta
+   -> összekötve,szétválasztva
+   -> po³¹czony,roz³¹czony
+   -> ñîåäèíåí, ðàçäåëåí
+
+[Component]: RGrpDialType.Items
+   -> "(IWV) Pulswahl","(MFV) Tonwahl"
+   -> "(IWV) pulse","(MFV) frequence"
+   -> "(IWV) Choix BIP","(MFV) Choix tonalité"
+   -> "(IWV) Selezione a impulsi","(MFV) Selezione a toni"
+   -> "Marcación por pulsos", "Marcación por tonos"
+   -> "(IWV) pulskeuze","(MFV) toonkeuze"
+   -> "(IWV) Pulsvalg","(MFV) Tonevalg"
+   -> "(IWV) pulsval", "(MFV) tonval"
+   -> "(IWV) pulsno biranje","(MFV) tonsko biranje"
+   -> "(IWV) impulzus","(MFV) tonüzemmód"
+   -> "(IWV) wybieranie impulsowe","(MFV) wybieranie tonowe"
+   -> "(IWV) Èìïóëüñíûé íàáîð","(MFV) Òîíîâûé íàáîð"
+
+[Component]: stStrings
+
+[Component]: strcUngueltigeCodeNr
+   -> Ungültige Code-Nummer!
+   -> Invalid code number
+   -> Code non valable !
+   -> Numero codice non valido!
+   -> Código incorrecto
+   -> Ongeldig code-nummer!
+   -> Ugyldigt kode-nummer
+   -> Ogiltigt kod-nummer
+   -> Neispravan kodni broj!
+   -> Érvénytelen kódszám!
+   -> Niewazny numer kodu!
+   -> Íåïðàâèëüíûé íîìåð êîäà!
+
+[Component]: strcVersion
+   -> Version
+   -> Version
+   -> Version
+   -> Versione
+   -> Versión
+   -> Versie
+   -> Version:
+   -> Version
+   -> verzija
+   -> változat
+   -> wersja
+   -> Âåðñèÿ
+
+[Component]: stOtherStrings
+
+[Component]: CbBxNumber.ImeName
+
+[Component]: CbBxNumber.Text
+
+[Component]: EdtCodenr.ImeName
+
+[Component]: EdtCodenr.Text
+
+[Component]: EdtInitString.ImeName
+
+[Component]: EdtInitString.Text
+   -> TCoCoStpDlg.HelpFile
+   -> stCollections
+   -> stCharSets
+   -> TCoCoStpDlg
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> RUSSIAN_CHARSET

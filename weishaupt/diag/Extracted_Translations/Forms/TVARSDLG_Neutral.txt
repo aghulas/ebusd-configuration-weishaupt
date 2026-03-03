@@ -1,0 +1,270 @@
+--- Form: TVARSDLG [Neutral] ---
+
+[Component]: Items.Strings
+   -> &UChar
+   -> &SChar
+   -> Binär
+   -> &Integer
+   -> &Word
+   -> Stat-2
+   -> Stat-3
+   -> TabOrder
+   -> TTabSheet
+   -> tsht_xRam
+   -> e&Xt. Ram
+   -> TListBox
+   -> lbxXRamList
+   -> Anchors
+   -> akLeft
+   -> akTop
+   -> akRight
+   -> akBottom
+   -> Columns
+   -> ItemHeight
+   -> TabOrder
+   -> OnClick
+   -> ListBoxClick
+   -> OnDblClick
+   -> ListBoxDblClick
+   -> OnKeyPress
+   -> ListBoxKeyPress
+   -> OnMouseDown
+   -> ListBoxMouseDown
+   -> TEdit
+   -> edName_X
+   -> TabOrder
+   -> TEdit
+   -> edWert_X
+   -> TabOrder
+   -> OnClick
+   -> EdWertRead
+   -> OnKeyPress
+   -> EditKeyPress
+   -> TRadioGroup
+   -> rgrpDarst_X
+   -> Darstellung
+   -> Columns
+
+[Component]: Items.Strings
+   -> UChar
+   -> SChar
+   -> Binär
+   -> Integer
+   -> Word
+   -> Stat-2
+   -> Stat-3
+   -> TabOrder
+   -> TTabSheet
+   -> tsht_Bit
+   -> Bits
+   -> TLabel
+   -> lblAdrBit
+   -> 32.0
+   -> TListBox
+   -> lbxBitList
+   -> Anchors
+   -> akLeft
+   -> akTop
+   -> akRight
+   -> akBottom
+   -> Columns
+   -> ItemHeight
+   -> TabOrder
+   -> OnClick
+   -> ListBoxClick
+   -> OnDblClick
+   -> ListBoxDblClick
+   -> OnKeyPress
+   -> ListBoxKeyPress
+   -> OnMouseDown
+   -> ListBoxMouseDown
+   -> TEdit
+   -> edName_B
+   -> TabOrder
+   -> TEdit
+   -> edWert_B
+   -> ReadOnly
+   -> TabOrder
+   -> TTabSheet
+   -> tsht_Const
+   -> &Konstanten
+   -> ImageIndex
+   -> TEdit
+   -> edName_C
+   -> TabOrder
+   -> TEdit
+   -> edWert_C
+   -> TabOrder
+   -> OnClick
+   -> EdWertRead
+   -> OnKeyPress
+   -> EditKeyPress
+   -> TRadioGroup
+   -> RadioGroup3
+   -> Darstellung
+   -> Columns
+
+[Component]: Items.Strings
+   -> UChar
+   -> SChar
+   -> Binär
+   -> Integer
+   -> Word
+   -> Stat-2
+   -> Stat-3
+   -> TabOrder
+   -> TListBox
+   -> lbxConstList
+   -> Anchors
+   -> akLeft
+   -> akTop
+   -> akRight
+   -> akBottom
+   -> Columns
+   -> ItemHeight
+   -> TabOrder
+   -> OnClick
+   -> ListBoxClick
+   -> OnDblClick
+   -> ListBoxDblClick
+   -> OnKeyPress
+   -> ListBoxKeyPress
+   -> OnMouseDown
+   -> ListBoxMouseDown
+   -> TButton
+
+[Component]: BtnSave
+   -> &Speichern
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnSaveClick
+   -> TTabSheet
+   -> tbShtSFR
+   -> SFR
+   -> ImageIndex
+   -> TEdit
+   -> edName_SFR
+   -> TabStop
+   -> ReadOnly
+   -> TabOrder
+   -> TEdit
+   -> edWert_SFR
+   -> TabStop
+   -> ReadOnly
+   -> TabOrder
+   -> OnKeyPress
+   -> EditKeyPress
+   -> TRadioGroup
+   -> rgrp_DarstSFR
+   -> Darstellung
+   -> Columns
+
+[Component]: Items.Strings
+   -> Dezimal
+   -> Binär
+   -> Hex
+   -> TabOrder
+   -> TListBox
+   -> lbxSFRlist
+   -> Anchors
+   -> akLeft
+   -> akTop
+   -> akRight
+   -> akBottom
+   -> Columns
+   -> DragMode
+   -> dmAutomatic
+   -> ItemHeight
+   -> TabOrder
+   -> OnClick
+   -> ListBoxClick
+   -> OnDblClick
+   -> ListBoxDblClick
+   -> OnKeyPress
+   -> ListBoxKeyPress
+   -> OnMouseDown
+   -> ListBoxMouseDown
+   -> TTabSheet
+
+[Component]: TbShtROM
+   -> ROM
+   -> ImageIndex
+   -> TLabel
+
+[Component]: LblFw
+   -> TLabel
+
+[Component]: LblDate
+   -> Datum
+   -> TLabel
+
+[Component]: LblCRC
+   -> CRC
+   -> TEditGroup
+   -> EGrpROM
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> 239
+   -> 240
+   -> 241
+   -> 242
+   -> 423
+   -> 244
+   -> 245
+   -> 246
+   -> 247
+   -> 248
+   -> 249
+   -> 250
+   -> 251
+   -> 252
+   -> 253
+   -> 254
+   -> 255
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TButton
+
+[Component]: BtnReadROM
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadROMClick
+   -> TRadioGroup
+
+[Component]: RGrpAdr
+   -> Align
+   -> alBottom
+   -> Columns
+
+[Component]: Items.Strings
+   -> 03H
+   -> 13H
+   -> 33H
+   -> 73H
+   -> F3H
+   -> 1FH
+   -> 3FH
+   -> 7FH
+   -> 10H
+   -> F1H
+   -> TabOrder
+   -> Visible
+   -> OnClick
+
+[Component]: RGrpAdrClick

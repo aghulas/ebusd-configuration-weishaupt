@@ -1,0 +1,427 @@
+--- Form: TFRMBCC [Neutral] ---
+
+[Component]: TbShtMainParas
+   -> Align
+   -> alClient
+   -> TabOrder
+   -> TTabSheet
+
+[Component]: TbShtFS
+   -> FS-Paras
+   -> TEditGroup
+   -> EGrpFS
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TGroupBox
+   -> GroupBox1
+   -> EEProm
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnWriteFSDevice
+   -> &Eintragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteFSDeviceClick
+   -> TButton
+
+[Component]: BtnReadFSDevice
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadFSDeviceClick
+   -> TGroupBox
+   -> GroupBox2
+   -> BCC
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnWriteFSBCC
+   -> E&intragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteFSBCCClick
+   -> TButton
+
+[Component]: BtnReadFSBCC
+   -> A&uslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadFSBCCClick
+   -> TTabSheet
+
+[Component]: TbShtNFS
+   -> NFS-Paras
+   -> ImageIndex
+   -> TEditGroup
+   -> EGrpNFS
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TGroupBox
+   -> GroupBox3
+   -> BCC
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnWriteNFSBCC
+   -> E&intragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteNFSBCCClick
+   -> TButton
+
+[Component]: BtnReadNFSBCC
+   -> A&uslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadNFSBCCClick
+   -> TGroupBox
+   -> GroupBox5
+   -> EEProm
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnReadNFSDevice
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadNFSDeviceClick
+   -> TButton
+
+[Component]: BtnWriteNFSDevice
+   -> &Eintragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteNFSDeviceClick
+   -> TTabSheet
+
+[Component]: TbShtMR
+   -> MasterReset
+   -> ImageIndex
+   -> TEditGroup
+   -> EGrpMR
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TGroupBox
+   -> GroupBox4
+   -> BCC
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnWriteMRBCC
+   -> E&intragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteMRBCCClick
+   -> TButton
+
+[Component]: BtnReadMRBCC
+   -> A&uslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadMRBCCClick
+   -> TGroupBox
+   -> GroupBox6
+   -> EEProm
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnReadMRDevice
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadMRDeviceClick
+   -> TButton
+
+[Component]: BtnWriteMRDevice
+   -> &Eintragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteMRDeviceClick
+   -> TTabSheet
+
+[Component]: TbShtMainParas
+   -> MainParas
+   -> ImageIndex
+   -> TEditGroup
+   -> EGrpMainParas
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TGroupBox
+   -> GroupBox8
+   -> EEProm
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnReadMainDevice
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadMainDeviceClick
+   -> TButton
+
+[Component]: BtnWriteMainDevice
+   -> &Eintragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteMainDeviceClick
+   -> TGroupBox
+   -> GroupBox9
+   -> BCC
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnWriteMainBCC
+   -> E&intragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteMainBCCClick
+   -> TButton
+
+[Component]: BtnReadMainBCC
+   -> A&uslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadMainBCCClick
+   -> TTabSheet
+
+[Component]: TbShtBCC
+   -> BCC ID
+   -> ImageIndex
+   -> TGroupBox
+   -> GroupBox7
+   -> EEProm
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnReadBCCID
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadBCCIDClick
+   -> TButton
+
+[Component]: BtnWriteBCCID
+   -> &Eintragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteBCCIDClick
+   -> TButton
+
+[Component]: BtnResetBCCID
+   -> &Reset ID
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnResetBCCIDClick
+   -> TEditGroup
+   -> EGRpBCCID
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> intern_eea_ID_number_BCC_High
+   -> intern_eea_ID_number_BCC_Low
+   -> intern_eea_ID_CRC_BCC
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TTabSheet
+
+[Component]: TbShtStat
+   -> Firmware
+   -> ImageIndex
+   -> TButton
+
+[Component]: BtnReadParas
+   -> Parameter &auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadParasClick
+   -> TButton
+
+[Component]: BtnLoadEpx
+   -> EPX-Datei &laden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnLoadEpxClick
+   -> TButton
+
+[Component]: BtnLoadBCC
+   -> &BCC-Datei laden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnLoadBCCClick
+   -> TButton
+
+[Component]: BtnWriteBCC
+   -> BCC e&intragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteBCCClick
+   -> TButton
+
+[Component]: BtnSaveBCC
+   -> B&CC-Datei speichern
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnSaveBCCClick
+   -> TButton
+
+[Component]: BtnReadBcc
+   -> BCC a&uslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadBccClick
+   -> TScrollBox
+   -> ScrollBox1
+   -> TabOrder
+   -> TLabel
+   -> lblFW
+   -> Firmware
+   -> TLabel
+   -> lblCRCFW
+   -> CRC
+   -> TLabel
+   -> lblID
+   -> ID-Nummer
+   -> TEdit
+
+[Component]: EdtFw
+   -> MaxLength
+   -> TabOrder
+   -> TEdit
+
+[Component]: EdtCRC
+   -> TabOrder
+   -> TEdit
+
+[Component]: EdtID
+   -> MaxLength
+   -> TabOrder
+   -> TButton
+   -> btnWriteID
+   -> ID eintragen
+   -> TabOrder
+   -> OnClick
+   -> btnWriteIDClick
+   -> TButton
+
+[Component]: BtnReadID
+   -> ID auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadIDClick
+   -> TCheckBox
+
+[Component]: ChkBxwithCRC
+   -> CRC-Berechnung
+   -> Checked
+   -> State
+   -> cbChecked
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnClcIDCRC
+   -> &CRC berechnen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnClcIDCRCClick
+   -> TButton
+
+[Component]: BtnSaveEpx
+   -> EPX-Datei &speichern
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnSaveEpxClick
+   -> TButton
+
+[Component]: BtnModBCC
+   -> BCC-Datei &modifizieren
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnModBCCClick
+   -> TOpenDialog
+   -> OpenDlgBCC
+   -> TSaveDialog
+   -> SaveDlgBCC

@@ -1,0 +1,31 @@
+--- Form: TSMALLSERIALFRM [Neutral] ---
+
+[Component]: Items.Strings
+   -> COM 1
+   -> COM 2
+   -> COM 3
+   -> COM 4
+   -> TabOrder
+   -> TComboBox
+   -> ComboBox2
+   -> Style
+   -> csDropDownList
+   -> Ctl3D
+   -> ItemHeight
+
+[Component]: Items.Strings
+   -> 110
+   -> 300
+   -> 600
+   -> 1200
+   -> 2400
+   -> 4800
+   -> 9600
+   -> 14400
+   -> 19200
+   -> 38400
+   -> 56000
+   -> 57600
+   -> 115200
+   -> ParentCtl3D
+   -> TabOrder

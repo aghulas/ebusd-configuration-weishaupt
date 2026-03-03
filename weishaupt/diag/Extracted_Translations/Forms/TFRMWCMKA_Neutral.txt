@@ -1,0 +1,6722 @@
+--- Form: TFRMWCMKA [Neutral] ---
+
+[Component]: TbShtProcess
+   -> Prozesswerte
+   -> ImageIndex
+   -> TGroupBox
+
+[Component]: GrpBxBurner
+   -> Align
+   -> alClient
+   -> Enabled
+   -> TabOrder
+   -> TGroupBox
+
+[Component]: GrpBxOutlets
+   -> Ausgänge
+   -> Enabled
+   -> TabOrder
+   -> TCheckGroup
+
+[Component]: ChkGrpOutlets
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> TabOrder
+   -> Distance
+   -> HorDistance
+
+[Component]: Items.Strings
+   -> MFA 1
+   -> MFA 2
+   -> Columns
+   -> test
+   -> TGroupBox
+
+[Component]: GrpStatus
+   -> Status
+   -> Enabled
+   -> TabOrder
+   -> TLabel
+
+[Component]: LblBetriebsart
+   -> Betriebsart
+   -> TLabel
+
+[Component]: LblFCode
+   -> Fehlercode
+   -> TComboBox
+
+[Component]: CbBxBetriebsartHZ
+   -> Style
+   -> csSimple
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> Service
+   -> Standby
+   -> Sommer
+   -> Automatik
+   -> Standby WTC
+   -> TEdit
+
+[Component]: EdtFCode
+   -> ReadOnly
+   -> TabOrder
+   -> TEdit
+
+[Component]: EdtTest
+   -> TabOrder
+   -> Visible
+   -> TGroupBox
+
+[Component]: GrpBoxInlets
+   -> Eingänge
+   -> Enabled
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpSetpoints
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Steuerspannung#V
+   -> Steuerstrom#mA
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TCheckBox
+
+[Component]: ChkBxH1
+   -> TabOrder
+   -> TGroupBox
+
+[Component]: GrpBxSollwerte
+   -> Soll-Istwerte
+   -> Enabled
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpTemps
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Solltemperatur System#°C
+   -> Weiche/PWT sek B22#°C
+   -> PWT prim. B24#°C
+   -> Puffertemperatur oben#°C
+   -> Puffertemperatur unten#°C
+   -> WW-Sollwert#°C
+   -> WW-Temperatur#°C
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TGroupBox
+
+[Component]: Grpkaskade
+   -> Kaskade
+   -> Enabled
+   -> TabOrder
+   -> TLabel
+
+[Component]: LblKaskKonfig
+   -> Konfiguration:
+   -> TEditGroup
+   -> EGrpKaskade
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> !Min. Grenze opt. Arbeitsbereich#%
+   -> Sollmodulationsgrad#%
+   -> !Max. Grenze opt. Arbeitsbereich#%
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpKessel2
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Adresse / Typ
+   -> Betriebsart
+   -> Nennleistung#KW
+   -> Aktuelle Leistung#KW
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpKessel3
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Adresse / Typ
+   -> Betriebsart
+   -> Nennleistung#KW
+   -> Aktuelle Leistung#KW
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpKessel4
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Adresse / Typ
+   -> Betriebsart
+   -> Nennleistung#KW
+   -> Aktuelle Leistung#KW
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpKessel5
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Adresse / Typ
+   -> Betriebsart
+   -> Nennleistung#KW
+   -> Aktuelle Leistung#KW
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpKessel1
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Adresse / Typ
+   -> Betriebsart
+   -> Nennleistung#KW
+   -> Aktuelle Leistung#KW
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TMemo
+   -> MemoKonfig
+   -> TabOrder
+   -> TTabSheet
+   -> TbshtParas
+   -> Fachmann
+   -> ImageIndex
+   -> TLabel
+
+[Component]: LblMFA
+   -> 301 Ausgang MFA
+   -> TLabel
+
+[Component]: LblVA
+   -> 302 Ausgang VA
+   -> TLabel
+
+[Component]: LblH1
+   -> 303 Eingang H1
+   -> TLabel
+
+[Component]: LblFolgewechsel
+   -> 311 Folgewechselmodus
+   -> TLabel
+
+[Component]: LblKesselfolge1
+   -> 313 Kesselfolge 1
+   -> TLabel
+   -> lblKesselfolge2
+   -> 314 Kesselfolge 2
+   -> TLabel
+
+[Component]: LblLegioZeit
+   -> 357 Legionellenzeitpunkt
+   -> TLabel
+
+[Component]: LblLegiofkt
+   -> 356 Legionellen-Funktion
+   -> TLabel
+
+[Component]: LblFolge1Kessel1
+   -> TLabel
+
+[Component]: LblFolge1Kessel3
+   -> TLabel
+
+[Component]: LblFolge1Kessel2
+   -> TLabel
+
+[Component]: LblFolge1Kessel4
+   -> TLabel
+
+[Component]: LblFolge1Kessel5
+   -> TLabel
+
+[Component]: LblFolge2Kessel1
+   -> TLabel
+
+[Component]: LblFolge2Kessel2
+   -> TLabel
+
+[Component]: LblFolge2Kessel3
+   -> TLabel
+
+[Component]: LblFolge2Kessel4
+   -> TLabel
+
+[Component]: LblFolge2Kessel5
+   -> TLabel
+   -> lblKonfig
+   -> 403 Konfiguration
+   -> Enabled
+   -> TComboBox
+
+[Component]: CbBxMFA
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> Störung
+   -> WW-Pumpe
+   -> Zirk-Pumpe
+   -> Zubr-Pumpe
+   -> TComboBox
+
+[Component]: CbBxVA
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> Störung
+   -> WW-Pumpe
+   -> Zirk-Pumpe
+   -> Zubr-Pumpe
+   -> TComboBox
+
+[Component]: CbBxH1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxH1Change
+
+[Component]: Items.Strings
+   -> Heiz-Freigabe
+   -> WW-Freigabe
+   -> Standby Syst
+   -> Sonderniveau
+   -> TEditGroup
+   -> EGrpSonderniveau
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> 304 Sonderniveau#°C
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TComboBox
+
+[Component]: CbBxFolgeWechsel
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> Folge 1
+   -> Folge 2
+   -> Zeitlich
+   -> Leistung
+   -> TEditGroup
+   -> EGrpWechselzeit
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> 312 Wechselzeit#min
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TComboBox
+
+[Component]: CbBxFolge1Kessel1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> TComboBox
+
+[Component]: CbBxFolge1Kessel2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> TComboBox
+
+[Component]: CbBxFolge1Kessel3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> TComboBox
+
+[Component]: CbBxFolge1Kessel4
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> TComboBox
+
+[Component]: CbBxFolge1Kessel5
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> TComboBox
+
+[Component]: CbBxFolge2Kessel5
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> TComboBox
+
+[Component]: CbBxFolge2Kessel4
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> TComboBox
+
+[Component]: CbBxFolge2Kessel3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> TComboBox
+
+[Component]: CbBxFolge2Kessel2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> TComboBox
+
+[Component]: CbBxFolge2Kessel1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpP3x
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> 315 Modulation Min#%
+   -> 316 Modulation Max#%
+   -> 317 Sperrzeit#min
+   -> 318 Abregeltemp#°C
+   -> 331 Weiche Überhöhung#K
+   -> 332 Weiche Min#°C
+   -> 333 Weiche Max#°C
+   -> 341 Pufferüberhöhung#K
+   -> 342 Puffer-Schaltdifferenz#K
+   -> 351 WW-Sollwert#°C
+   -> 352 WW-Min#°C
+   -> 353 WW-Max#°C
+   -> 354 WW-Schaltdiff#K
+   -> 355 WW-Überhöhung#K
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TComboBox
+
+[Component]: CbBxLegioZeit
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxLegioZeitChange
+
+[Component]: Items.Strings
+   -> --:--
+   -> 00:00
+   -> 00:15
+   -> 00:30
+   -> 00:45
+   -> 01:00
+   -> 01:15
+   -> 01:30
+   -> 01:45
+   -> 02:00
+   -> 02:15
+   -> 02:30
+   -> 02:45
+   -> 03:00
+   -> 03:15
+   -> 03:30
+   -> 03:45
+   -> 04:00
+   -> 04:15
+   -> 04:30
+   -> 04:45
+   -> 05:00
+   -> 05:15
+   -> 05:30
+   -> 05:45
+   -> 06:00
+   -> 06:15
+   -> 06:30
+   -> 06:45
+   -> 07:00
+   -> 07:15
+   -> 07:30
+   -> 07:45
+   -> 08:00
+   -> 08:15
+   -> 08:30
+   -> 08:45
+   -> 09:00
+   -> 09:15
+   -> 09:30
+   -> 09:45
+   -> 10:00
+   -> 10:15
+   -> 10:30
+   -> 10:45
+   -> 11:00
+   -> 11:15
+   -> 11:30
+   -> 11:45
+   -> 12:00
+   -> 12:15
+   -> 12:30
+   -> 12:45
+   -> 13:00
+   -> 13:15
+   -> 13:30
+   -> 13:45
+   -> 14:00
+   -> 14:15
+   -> 14:30
+   -> 14:45
+   -> 15:00
+   -> 15:15
+   -> 15:30
+   -> 15:45
+   -> 16:00
+   -> 16:15
+   -> 16:30
+   -> 16:45
+   -> 17:00
+   -> 17:15
+   -> 17:30
+   -> 17:45
+   -> 18:00
+   -> 18:15
+   -> 18:30
+   -> 18:45
+   -> 19:00
+   -> 19:15
+   -> 19:30
+   -> 19:45
+   -> 20:00
+   -> 20:15
+   -> 20:30
+   -> 20:45
+   -> 21:00
+   -> 21:15
+   -> 21:30
+   -> 21:45
+   -> 22:00
+   -> 22:15
+   -> 22:30
+   -> 22:45
+   -> 23:00
+   -> 23:15
+   -> 23:30
+   -> 23:45
+   -> 24:00
+   -> TComboBox
+
+[Component]: CbBxLegioFkt
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxLegioFktChange
+
+[Component]: Items.Strings
+   -> Aus
+   -> Montag
+   -> Dienstag
+   -> Mittwoch
+   -> Donnerstag
+   -> Freitag
+   -> Samstag
+   -> Sonntag
+   -> täglich
+   -> TCheckGroup
+
+[Component]: ChkGrpKonfig
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> Enabled
+   -> TabOrder
+   -> Distance
+   -> HorDistance
+
+[Component]: Items.Strings
+   -> Puffer oben
+   -> Puffer unten
+   -> Weiche
+   -> Speicher
+   -> Spannungseingang
+   -> Stromeingang
+   -> Columns
+   -> test
+   -> TGroupBox
+
+[Component]: GrpBxParas
+   -> Parameter
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnReadParas
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadParasClick
+   -> TButton
+
+[Component]: BtnWriteParas
+   -> &Eintragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteParasClick
+   -> TGroupBox
+
+[Component]: GrpBxParasFile
+   -> Parameterdatei
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnLoadParas
+   -> &Laden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnLoadParasClick
+   -> TButton
+
+[Component]: BtnSaveParas
+   -> &Speichern
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnSaveParasClick
+   -> TEditGroup
+   -> EGrpInfo11
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> Enabled
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> I11 Software Version
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TTabSheet
+   -> TBShtFMHZ
+   -> Fachmann
+   -> ImageIndex
+   -> TLabel
+   -> lbl521
+   -> 521 Ausgang MFA 1
+   -> TLabel
+   -> lbl522
+   -> 522 Ausgang VA
+   -> TLabel
+   -> lbl523
+   -> 523 Eingang H1
+   -> TLabel
+   -> lbl525
+   -> 525 Eingang N1
+   -> TLabel
+   -> lbl531
+   -> 531 Folgewechselmodus
+   -> TLabel
+   -> lbl533
+   -> 533 Kesselfolge 1
+   -> TLabel
+   -> lbl534
+   -> 534 Kesselfolge 2
+   -> TLabel
+   -> LBlFolge1Kess1
+   -> TLabel
+   -> LBlFolge1Kess2
+   -> TLabel
+   -> LBlFolge1Kess3
+   -> TLabel
+   -> LBlFolge2Kess1
+   -> TLabel
+   -> LBlFolge2Kess2
+   -> TLabel
+   -> LBlFolge2Kess3
+   -> TLabel
+   -> LBlFolge2Kess5
+   -> TLabel
+   -> LBlFolge2Kess4
+   -> TLabel
+   -> LBlFolge1Kess5
+   -> TLabel
+   -> LBlFolge1Kess4
+   -> TLabel
+
+[Component]: LblZeitDatum
+   -> Zeit-Datum: Sommerzeit
+   -> TLabel
+
+[Component]: Lbl593
+   -> 593 Sommerzeitbeginn
+   -> TLabel
+
+[Component]: Lbl594
+   -> 594 Sommerzeitende
+   -> TLabel
+   -> lblBetriebsartschalter
+   -> Betriebsartschalter
+   -> TLabel
+   -> lbl522KA3
+   -> 522 Ausgang MFA 2
+   -> TEditGroup
+   -> EgrpP524
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> 524 Sonderniveau#°C
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpP532
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> 532 Wechselzeit#h
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TComboBox
+
+[Component]: CbBxP521
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> Störung
+   -> WW-Pumpe
+   -> Zirk-Pumpe
+   -> Zubr-Pumpe
+   -> TComboBox
+
+[Component]: CbBxP522
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> Störung
+   -> WW-Pumpe
+   -> Zirk-Pumpe
+   -> Zubr-Pumpe
+   -> TComboBox
+
+[Component]: CbBxP523
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxP523Change
+
+[Component]: Items.Strings
+   -> Heiz-Freigabe
+   -> WW-Freigabe
+   -> Standby WTC
+   -> Standby Syst
+   -> Sonderniveau
+   -> TComboBox
+
+[Component]: CbBxP525
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxH1Change
+
+[Component]: Items.Strings
+   -> 2 - 10V
+   -> 4 - 20mA
+   -> TComboBox
+
+[Component]: CbBxP531
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> Folge 1
+   -> Folge 2
+   -> Zeitlich
+   -> Leistung
+   -> TComboBox
+
+[Component]: CbBxFolge1Kess1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> TComboBox
+
+[Component]: CbBxFolge1Kess2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> TComboBox
+
+[Component]: CbBxFolge1Kess3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> TComboBox
+
+[Component]: CbBxFolge1Kess5
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> TComboBox
+
+[Component]: CbBxFolge1Kess4
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> TComboBox
+
+[Component]: CbBxFolge2Kess4
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> TComboBox
+
+[Component]: CbBxFolge2Kess5
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> TComboBox
+
+[Component]: CbBxFolge2Kess1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> TComboBox
+
+[Component]: CbBxFolge2Kess2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> TComboBox
+
+[Component]: CbBxFolge2Kess3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpP535_562
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> 535 Modulation Min#%
+   -> 536 Modulation Max#%
+   -> 537 Sperrzeit#min
+   -> 538 Abregeldifferenz#K
+   -> 539 1/P-Regler
+   -> 540 I-Regler
+   -> 551 Weiche Überhöhung#K
+   -> 552 Weiche Min#°C
+   -> 553 Weiche Max#°C
+   -> 561 Pufferüberhöhung#K
+   -> 562 Puffer-Schaltdifferenz#K
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TComboBox
+
+[Component]: CbBxP593_tag
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxP593_tagChange
+
+[Component]: Items.Strings
+   -> TComboBox
+
+[Component]: CbBxP593_Monat
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxP593_MonatChange
+
+[Component]: Items.Strings
+   -> Jan
+   -> Feb
+   -> Mrz
+   -> Apr
+   -> Mai
+   -> Jun
+   -> Jul
+   -> Aug
+   -> Sep
+   -> Okt
+   -> Nov
+   -> Dez
+   -> TComboBox
+
+[Component]: CbBxP594_monat
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxP594_monatChange
+
+[Component]: Items.Strings
+   -> Jan
+   -> Feb
+   -> Mrz
+   -> Apr
+   -> Mai
+   -> Jun
+   -> Jul
+   -> Aug
+   -> Sep
+   -> Okt
+   -> Nov
+   -> Dez
+   -> TComboBox
+
+[Component]: CbBxP594_tag
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxP594_tagChange
+
+[Component]: Items.Strings
+   -> TGroupBox
+
+[Component]: GrpBxParasFM
+   -> Parameter
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnReadFM_HZK
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadFM_HZKClick
+   -> TButton
+
+[Component]: BtnWriteFM_HZK
+   -> &Eintragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteFM_HZKClick
+   -> TGroupBox
+
+[Component]: GrpBxFileKA
+   -> Parameterdatei
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnLoadParasKA
+   -> &Laden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnLoadParasKAClick
+   -> TButton
+
+[Component]: BtnSaveParasKA
+   -> &Speichern
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnSaveParasKAClick
+   -> TEdit
+
+[Component]: EdtBetriebsartschalter
+   -> TabStop
+   -> TabOrder
+   -> Visible
+   -> TComboBox
+
+[Component]: CbBxBetriebsartschalter
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> Standby WTC
+   -> Standby
+   -> Automatik
+   -> Sommer
+   -> TComboBox
+
+[Component]: CbBxP522KA3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> Störung
+   -> WW-Pumpe
+   -> Zirk-Pumpe
+   -> Zubr-Pumpe
+   -> Neutralisationspumpe
+   -> TEdit
+
+[Component]: EdtKesselfolge11
+   -> TabStop
+   -> TabOrder
+   -> Visible
+   -> TEdit
+
+[Component]: EdtKesselfolge12
+   -> TabStop
+   -> TabOrder
+   -> Visible
+   -> TEdit
+
+[Component]: EdtKesselfolge13
+   -> TabStop
+   -> TabOrder
+   -> Visible
+   -> TEdit
+
+[Component]: EdtKesselfolge14
+   -> TabStop
+   -> TabOrder
+   -> Visible
+   -> TEdit
+
+[Component]: EdtKesselfolge15
+   -> TabStop
+   -> TabOrder
+   -> Visible
+   -> TEdit
+
+[Component]: EdtKesselfolge21
+   -> TabStop
+   -> TabOrder
+   -> Visible
+   -> TEdit
+
+[Component]: EdtKesselfolge22
+   -> TabStop
+   -> TabOrder
+   -> Visible
+   -> TEdit
+
+[Component]: EdtKesselfolge23
+   -> TabStop
+   -> TabOrder
+   -> Visible
+   -> TEdit
+
+[Component]: EdtKesselfolge24
+   -> TabStop
+   -> TabOrder
+   -> Visible
+   -> TEdit
+
+[Component]: EdtKesselfolge25
+   -> TabStop
+   -> TabOrder
+   -> Visible
+   -> TTabSheet
+
+[Component]: TbShtFMWW
+   -> Fachmann WW
+   -> ImageIndex
+   -> TLabel
+   -> lbl579
+   -> 579 Legionellen-Funktion
+   -> TLabel
+   -> lbl580
+   -> 580 Legionellenzeitpunkt
+   -> TLabel
+   -> lbl582
+   -> 582 Zirk-Zeit
+   -> TLabel
+   -> lbl571
+   -> 571 WW-Variante
+   -> TLabel
+   -> lbl577
+   -> 577 WW-Ladezeit
+   -> TLabel
+
+[Component]: LblSolar
+   -> %Solarnutzung bei Legionellen-Funktion
+   -> TLabel
+
+[Component]: Lbl581
+   -> (581 Zirkulation bei Legionellen-Funktion
+   -> TComboBox
+   -> CbbxP579
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+   -> CbbxP579Change
+
+[Component]: Items.Strings
+   -> Aus
+   -> Montag
+   -> Dienstag
+   -> Mittwoch
+   -> Donnerstag
+   -> Freitag
+   -> Samstag
+   -> Sonntag
+   -> täglich
+   -> TComboBox
+   -> CbbxP580
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> 00:00
+   -> 00:15
+   -> 00:30
+   -> 00:45
+   -> 01:00
+   -> 01:15
+   -> 01:30
+   -> 01:45
+   -> 02:00
+   -> 02:15
+   -> 02:30
+   -> 02:45
+   -> 03:00
+   -> 03:15
+   -> 03:30
+   -> 03:45
+   -> 04:00
+   -> 04:15
+   -> 04:30
+   -> 04:45
+   -> 05:00
+   -> 05:15
+   -> 05:30
+   -> 05:45
+   -> 06:00
+   -> 06:15
+   -> 06:30
+   -> 06:45
+   -> 07:00
+   -> 07:15
+   -> 07:30
+   -> 07:45
+   -> 08:00
+   -> 08:15
+   -> 08:30
+   -> 08:45
+   -> 09:00
+   -> 09:15
+   -> 09:30
+   -> 09:45
+   -> 10:00
+   -> 10:15
+   -> 10:30
+   -> 10:45
+   -> 11:00
+   -> 11:15
+   -> 11:30
+   -> 11:45
+   -> 12:00
+   -> 12:15
+   -> 12:30
+   -> 12:45
+   -> 13:00
+   -> 13:15
+   -> 13:30
+   -> 13:45
+   -> 14:00
+   -> 14:15
+   -> 14:30
+   -> 14:45
+   -> 15:00
+   -> 15:15
+   -> 15:30
+   -> 15:45
+   -> 16:00
+   -> 16:15
+   -> 16:30
+   -> 16:45
+   -> 17:00
+   -> 17:15
+   -> 17:30
+   -> 17:45
+   -> 18:00
+   -> 18:15
+   -> 18:30
+   -> 18:45
+   -> 19:00
+   -> 19:15
+   -> 19:30
+   -> 19:45
+   -> 20:00
+   -> 20:15
+   -> 20:30
+   -> 20:45
+   -> 21:00
+   -> 21:15
+   -> 21:30
+   -> 21:45
+   -> 22:00
+   -> 22:15
+   -> 22:30
+   -> 22:45
+   -> 23:00
+   -> 23:15
+   -> 23:30
+   -> 23:45
+   -> TCheckBox
+
+[Component]: ChkBxP581
+   -> TabOrder
+   -> TComboBox
+   -> CbbxP582
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> TGroupBox
+
+[Component]: GrpBxParasWW
+   -> Parameter
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnReadFM_WW
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadFM_WWClick
+   -> TButton
+
+[Component]: BtnWriteFM_WW
+   -> &Eintragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteFM_WWClick
+   -> TCheckBox
+
+[Component]: ChkBxSolar
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpP572_576
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> 572 WW-Normal#°C
+   -> 573 WW-Absenk#°C
+   -> 574 WW-Max#°C
+   -> 575 WW-Schaltdiff#K
+   -> 576 WW-Überhöhung#K
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TComboBox
+   -> CbbxP571
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxLegioZeitChange
+
+[Component]: Items.Strings
+   -> Weiche/PWT
+   -> Puffer
+   -> TComboBox
+   -> CbbxP577
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxLegioZeitChange
+
+[Component]: Items.Strings
+   -> Aus
+   -> 10 min
+   -> 20 min
+   -> 30 min
+   -> 40 min
+   -> 50 min
+   -> 60 min
+   -> 70 min
+   -> 80 min
+   -> 90 min
+   -> 100 min
+   -> 110 min
+   -> 120 min
+   -> 130 min
+   -> 140 min
+   -> 150 min
+   -> 160 min
+   -> 170 min
+   -> 180 min
+   -> TEditGroup
+   -> EGrpP578
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> 578 Max Leistung für WW#%
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EgrpP580KA3
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> %580 Antilegionellen Solltemperatur#°C
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TTabSheet
+
+[Component]: TbShtWWProg
+   -> Warmwasser
+   -> ImageIndex
+   -> TGroupBox
+
+[Component]: GrpBxWWProg
+   -> TabOrder
+   -> TLabel
+   -> lblWWMo
+   -> 501 Montag
+   -> TLabel
+   -> lblWWDi
+   -> 502 Dienstag
+   -> TLabel
+   -> lblWWMi
+   -> 503 Mittwoch
+   -> TLabel
+   -> lblWWDo
+   -> 504 Donnerstag
+   -> TLabel
+   -> lblWWFr
+   -> 505 Freitag
+   -> TLabel
+   -> lblWWSa
+   -> 506 Samstag
+   -> TLabel
+   -> lblWWSo
+   -> 507 Sonntag
+   -> TLabel
+   -> lblWWTime1
+   -> Schaltzeit 1
+   -> TLabel
+   -> lblWWTime2
+   -> Schaltzeit 2
+   -> TLabel
+   -> lblWWTime3
+   -> Schaltzeit 3
+   -> TLabel
+   -> lblWWEin1
+   -> Ein
+   -> TLabel
+   -> lblWWAus1
+   -> Aus
+   -> TLabel
+   -> lblWWEin2
+   -> Ein
+   -> TLabel
+   -> lblWWAus2
+   -> Aus
+   -> TLabel
+   -> lblWWEin3
+   -> Ein
+   -> TLabel
+   -> lblWWAus3
+   -> Aus
+   -> TComboBox
+
+[Component]: CbBxWWSoEin1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWSaEin1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWFrEin1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWDoEin1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWMiEin1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWDiEin1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWMoEin1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+
+[Component]: Items.Strings
+   -> --:--
+   -> 00:00
+   -> 00:15
+   -> 00:30
+   -> 00:45
+   -> 01:00
+   -> 01:15
+   -> 01:30
+   -> 01:45
+   -> 02:00
+   -> 02:15
+   -> 02:30
+   -> 02:45
+   -> 03:00
+   -> 03:15
+   -> 03:30
+   -> 03:45
+   -> 04:00
+   -> 04:15
+   -> 04:30
+   -> 04:45
+   -> 05:00
+   -> 05:15
+   -> 05:30
+   -> 05:45
+   -> 06:00
+   -> 06:15
+   -> 06:30
+   -> 06:45
+   -> 07:00
+   -> 07:15
+   -> 07:30
+   -> 07:45
+   -> 08:00
+   -> 08:15
+   -> 08:30
+   -> 08:45
+   -> 09:00
+   -> 09:15
+   -> 09:30
+   -> 09:45
+   -> 10:00
+   -> 10:15
+   -> 10:30
+   -> 10:45
+   -> 11:00
+   -> 11:15
+   -> 11:30
+   -> 11:45
+   -> 12:00
+   -> 12:15
+   -> 12:30
+   -> 12:45
+   -> 13:00
+   -> 13:15
+   -> 13:30
+   -> 13:45
+   -> 14:00
+   -> 14:15
+   -> 14:30
+   -> 14:45
+   -> 15:00
+   -> 15:15
+   -> 15:30
+   -> 15:45
+   -> 16:00
+   -> 16:15
+   -> 16:30
+   -> 16:45
+   -> 17:00
+   -> 17:15
+   -> 17:30
+   -> 17:45
+   -> 18:00
+   -> 18:15
+   -> 18:30
+   -> 18:45
+   -> 19:00
+   -> 19:15
+   -> 19:30
+   -> 19:45
+   -> 20:00
+   -> 20:15
+   -> 20:30
+   -> 20:45
+   -> 21:00
+   -> 21:15
+   -> 21:30
+   -> 21:45
+   -> 22:00
+   -> 22:15
+   -> 22:30
+   -> 22:45
+   -> 23:00
+   -> 23:15
+   -> 23:30
+   -> 23:45
+   -> 24:00
+   -> TComboBox
+
+[Component]: CbBxWWMoAus1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWDiAus1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWMiAus1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWDoAus1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWFrAus1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWSaAus1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWSoAus1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWSoEin2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWSaEin2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWFrEin2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWDoEin2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWMiEin2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWDiEin2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWMoEin2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWMoAus2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWDiAus2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWMiAus2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWDoAus2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWFrAus2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWSaAus2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWSoAus2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWSoEin3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWSaEin3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWFrEin3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWDoEin3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWMiEin3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWDiEin3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWMoEin3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWMoAus3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWDiAus3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWMiAus3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWDoAus3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWFrAus3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWSaAus3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxWWSoAus3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxWWMoEin1Change
+   -> TCheckBox
+
+[Component]: ChkBxWWMoFr
+   -> Mo-Fr
+   -> TabOrder
+   -> OnClick
+
+[Component]: ChkBxWWMoFrClick
+   -> TCheckBox
+
+[Component]: ChkBxWWSaSo
+   -> Sa-So
+   -> TabOrder
+   -> OnClick
+
+[Component]: ChkBxWWSaSoClick
+   -> TCheckBox
+
+[Component]: ChkBxWWMoSo
+   -> Mo-So
+   -> TabOrder
+   -> OnClick
+
+[Component]: ChkBxWWMoSoClick
+   -> TGroupBox
+
+[Component]: GrpBxProgWW
+   -> Parameter
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnReadProgWW
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadProgWWClick
+   -> TButton
+
+[Component]: BtnWriteProgWW
+   -> &Eintragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteProgWWClick
+   -> TTabSheet
+
+[Component]: TbShtZirkProg
+   -> Zirkulation
+   -> ImageIndex
+   -> TGroupBox
+
+[Component]: GrpBxZirkProg
+   -> TabOrder
+   -> TLabel
+   -> lblZirkMo
+   -> 551 Montag
+   -> TLabel
+   -> lblZirkDi
+   -> 552 Dienstag
+   -> TLabel
+   -> lblZirkMi
+   -> 553 Mittwoch
+   -> TLabel
+   -> lblZirkDo
+   -> 554 Donnerstag
+   -> TLabel
+   -> lblZirkFr
+   -> 555 Freitag
+   -> TLabel
+   -> lblZirkSa
+   -> 556 Samstag
+   -> TLabel
+   -> lblZirkSo
+   -> 557 Sonntag
+   -> TLabel
+   -> lblZirkTime1
+   -> Schaltzeit 1
+   -> TLabel
+   -> lblZirkEin1
+   -> Ein
+   -> TLabel
+   -> lbZirkAus1
+   -> Aus
+   -> TLabel
+   -> lblZirkEin2
+   -> Ein
+   -> TLabel
+   -> lblZirkTime2
+   -> Schaltzeit 2
+   -> TLabel
+   -> lbZirkAus2
+   -> Aus
+   -> TLabel
+   -> lblZirkEin3
+   -> Ein
+   -> TLabel
+   -> lblZirkTime3
+   -> Schaltzeit 3
+   -> TLabel
+   -> lbZirkAus3
+   -> Aus
+   -> TComboBox
+
+[Component]: CbBxZirkMoEin1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkMoAus1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkMoEin2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkMoAus2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkMoEin3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkMoAus3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkDiEin1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkDiAus1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkDiEin2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkDiAus2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkDiEin3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkDiAus3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkMiAus3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkMiEin3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkMiAus2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkMiEin2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkMiAus1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkMiEin1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkDoEin1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkFrEin1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkSaEin1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkSoEin1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkSoAus1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkSaAus1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkFrAus1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkDoAus1
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkDoEin2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkFrEin2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkSaEin2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkSoEin2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkSaAus2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkSoAus2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkFrAus2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkDoAus2
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkDoEin3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkFrEin3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkSaEin3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkSoEin3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkSaAus3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkSoAus3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkFrAus3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TComboBox
+
+[Component]: CbBxZirkDoAus3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxZirkMoEin1Change
+   -> TCheckBox
+
+[Component]: ChkBxZirkMoFr
+   -> Mo-Fr
+   -> TabOrder
+   -> OnClick
+
+[Component]: ChkBxZirkMoFrClick
+   -> TCheckBox
+
+[Component]: ChkBxZirkSaSo
+   -> Sa-So
+   -> TabOrder
+   -> OnClick
+
+[Component]: ChkBxZirkSaSoClick
+   -> TCheckBox
+
+[Component]: ChkBxZirkMoSo
+   -> Mo-So
+   -> TabOrder
+   -> OnClick
+
+[Component]: ChkBxZirkMoSoClick
+   -> TGroupBox
+
+[Component]: GrpBxProgZirk
+   -> Parameter
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnReadProgZirk
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadProgZirkClick
+   -> TButton
+
+[Component]: BtnWriteProgZirk
+   -> &Eintragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnWriteProgZirkClick
+   -> TTabSheet
+
+[Component]: TbShtHistorie
+   -> Fehlerhistorie
+   -> ImageIndex
+   -> TGroupBox
+
+[Component]: GrpBxHistory
+   -> Enabled
+   -> TabOrder
+   -> TLabel
+
+[Component]: LblErr1
+   -> Fehler 1
+   -> TLabel
+
+[Component]: LblErr2
+   -> Fehler 2
+   -> TLabel
+
+[Component]: LblErr3
+   -> Fehler 3
+   -> TLabel
+
+[Component]: LblErr4
+   -> Fehler 4
+   -> TLabel
+
+[Component]: LblErr5
+   -> Fehler 5
+   -> TLabel
+
+[Component]: LblErrorCode
+   -> Fehlercode
+   -> TLabel
+
+[Component]: LblDate
+   -> Datum
+   -> TLabel
+
+[Component]: LblTime
+   -> Uhrzeit
+   -> TLabel
+   -> lblerr6
+   -> Fehler 6
+   -> TLabel
+   -> lblerr7
+   -> Fehler 7
+   -> TLabel
+   -> lblerr8
+   -> Fehler 8
+   -> TLabel
+   -> lblerr9
+   -> Fehler 9
+   -> TLabel
+   -> lblerr10
+   -> Fehler 10
+   -> TLabel
+
+[Component]: LblAdresse
+   -> Gerät
+   -> TStringGrid
+
+[Component]: StrGridHistory
+   -> ColCount
+   -> DefaultColWidth
+   -> FixedCols
+   -> RowCount
+   -> FixedRows
+   -> ScrollBars
+   -> ssNone
+   -> TabOrder
+   -> TGroupBox
+
+[Component]: GrpBxHistorie
+   -> Historie
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnReadHistorie
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadHistorieClick
+   -> TButton
+
+[Component]: BtnResetHistorie
+   -> &Reset
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnResetHistorieClick
+   -> TTabSheet
+
+[Component]: TbShtKonfig
+   -> Konfiguration
+   -> ImageIndex
+   -> TGroupBox
+
+[Component]: GrpBxConfig
+   -> Enabled
+   -> TabOrder
+   -> TGroupBox
+
+[Component]: GrpBxP512
+   -> 512
+   -> Enabled
+   -> TabOrder
+   -> TEdit
+
+[Component]: Edt512_A
+   -> TabOrder
+   -> #A 850KW WA
+   -> TEdit
+
+[Component]: Edt512_B
+   -> TabOrder
+   -> #B 850KW WA
+   -> TEdit
+
+[Component]: Edt512_C
+   -> TabOrder
+   -> #C 850KW WA
+   -> TEdit
+
+[Component]: Edt512_D
+   -> TabOrder
+   -> #D 850KW WA
+   -> TEdit
+
+[Component]: Edt512_E
+   -> TabOrder
+   -> #E 850KW WA
+   -> TGroupBox
+
+[Component]: GrpBxP513
+   -> 513
+   -> Enabled
+   -> TabOrder
+   -> TComboBox
+
+[Component]: CbBxP513_Weiche
+   -> Style
+   -> csSimple
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> Weiche
+   -> PWT
+   -> TComboBox
+
+[Component]: CbBxP513_Puffer
+   -> Style
+   -> csSimple
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> Puffer 1
+   -> Puffer 2
+   -> TComboBox
+
+[Component]: CbBxP513_WW
+   -> Style
+   -> csSimple
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> WW WTC#A
+   -> WW KA
+   -> TComboBox
+
+[Component]: CbBxP513_N1
+   -> Style
+   -> csSimple
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> N1: 2-10V
+   -> N1: 4-20mA
+   -> TGroupBox
+
+[Component]: GrpBxP514
+   -> 514
+   -> TabOrder
+   -> TEditGroup
+   -> EgrpVerbraucher
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> Align
+   -> alTop
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEdit
+
+[Component]: Edt514_Sonder
+   -> TabOrder
+   -> TGroupBox
+
+[Component]: GrpBxConfigParas
+   -> Konfiguration
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnReadConfig
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnReadConfigClick
+   -> TsiLangLinked
+   -> siLangLinked1
+   -> Version
+   -> 5.3.1.1
+
+[Component]: StringsTypes.Strings
+   -> TIB_STRINGLIST
+   -> TSTRINGLIST
+
+[Component]: SmartExcludeProps.Strings
+   -> TfrmWCMKA.Caption
+
+[Component]: GrpBxBurner.Caption
+
+[Component]: ChkGrpKonfig.Caption
+
+[Component]: GrpBxWWProg.Caption
+
+[Component]: GrpBxZirkProg.Caption
+
+[Component]: ChkGrpOutlets.Caption
+
+[Component]: CbBxFolge1Kessel1.Items
+
+[Component]: CbBxFolge1Kessel2.Items
+
+[Component]: CbBxFolge1Kessel3.Items
+
+[Component]: CbBxFolge1Kessel4.Items
+
+[Component]: CbBxFolge1Kessel5.Items
+
+[Component]: CbBxFolge2Kessel5.Items
+
+[Component]: CbBxFolge2Kessel4.Items
+
+[Component]: CbBxFolge2Kessel3.Items
+
+[Component]: CbBxFolge2Kessel2.Items
+
+[Component]: CbBxFolge2Kessel1.Items
+   -> MemoKonfig.Lines
+
+[Component]: LblFolge1Kessel1.Caption
+
+[Component]: LblFolge2Kessel1.Caption
+
+[Component]: LblFolge2Kessel2.Caption
+
+[Component]: LblFolge1Kessel2.Caption
+
+[Component]: LblFolge2Kessel3.Caption
+
+[Component]: LblFolge1Kessel3.Caption
+
+[Component]: LblFolge2Kessel4.Caption
+
+[Component]: LblFolge1Kessel4.Caption
+
+[Component]: LblFolge2Kessel5.Caption
+
+[Component]: LblFolge1Kessel5.Caption
+   -> LBlFolge2Kess1.Caption
+   -> LBlFolge1Kess1.Caption
+   -> LBlFolge2Kess2.Caption
+   -> LBlFolge1Kess2.Caption
+   -> LBlFolge2Kess3.Caption
+   -> LBlFolge1Kess3.Caption
+   -> LBlFolge2Kess4.Caption
+   -> LBlFolge1Kess4.Caption
+   -> LBlFolge2Kess5.Caption
+   -> LBlFolge1Kess5.Caption
+
+[Component]: GrpBxP512.Caption
+
+[Component]: GrpBxP513.Caption
+
+[Component]: GrpBxP514.Caption
+
+[Component]: CbBxP593_tag.Items
+
+[Component]: CbBxP594_tag.Items
+   -> CbbxP580.Items
+
+[Component]: CbBxWWMoEin1.Items
+
+[Component]: CbBxLegioZeit.Items
+   -> EgrpVerbraucher.Items
+   -> NumOfLanguages
+   -> LangDispatcher
+   -> MainForm.siLangDispatcher1
+   -> OnChangeLanguage
+   -> siLangLinked1ChangeLanguage
+   -> LangDelim
+
+[Component]: LangNames.Strings
+   -> Deutsch
+   -> English
+   -> Francais
+   -> Italiano
+   -> Espanol
+   -> Nederlands
+   -> Dansk
+   -> Swedish
+   -> Norwegian
+   -> Slovenski
+   -> Hrvatski
+   -> Magyar
+   -> Polski
+   -> Russian
+   -> Greece
+   -> Language
+   -> Deutsch
+   -> TranslationData
+   -> stCaptions
+
+[Component]: GrpBxConfig
+
+[Component]: GrpBxHistory
+
+[Component]: LblMFA
+   -> 301 Ausgang MFA
+   -> 301 Output MFA
+   -> Sortie MFA
+   -> 301 Uscita MFA
+   -> 301 Salida MFA
+   -> 301 Uitgang MFA
+   -> 301 Udgang MFA
+   -> 301 Utgang MFA
+   -> 301 izlaz MFA
+   -> 301 MFA kimenet
+   -> 301 Wyjœcie MFA
+   -> 301 Âûõîä MFA
+
+[Component]: LblVA
+   -> 302 Ausgang VA
+   -> 302 Output VA
+   -> Sortie VA
+   -> 302 Uscita VA
+   -> 302 Salida VA
+   -> 302 Uitgang VA
+   -> 302 Udgang VA
+   -> 302 Utgang VA
+   -> 302 izlaz VA
+   -> 302 VA kimenet
+   -> 302 Wyjœcie VA
+   -> 302 Âûõîä VA
+
+[Component]: LblH1
+   -> 303 Eingang H1
+   -> 303 Input H1
+   -> 303 Entrée H1
+   -> 303 Ingresso H1
+   -> 303 Entrada H1
+   -> 303 Ingang H1
+   -> 303 Indgang H1
+   -> 303 Ingang Värme 1
+   -> 303 ulaz H1
+   -> 303 bemenet H1
+   -> 303 wejœcie H1
+   -> 303 Âõîä H1
+
+[Component]: LblFolgewechsel
+   -> 311 Folgewechselmodus
+   -> 311 Sequence change mode
+   -> 311 Mode de cascade
+   -> 311 Modus inversione sequenza
+   -> 311 CambioSecuencia
+   -> 311 Ketelwisselmodus
+   -> 311 Rækkefølgeomkobling
+   -> 311 Pannföljdsväxling
+   -> 311 Oblik izmjene niza
+   -> 311 sorrendváltás-mod
+   -> 311 tryb prze³¹czenia
+   -> 311 Ðåæèì ñìåíû êîòëîâ
+
+[Component]: LblKesselfolge1
+   -> 313 Kesselfolge 1
+   -> 313 Boiler sequence 1
+   -> 313 Cascade 1
+   -> 313 Sequenza caldaia 1
+   -> 313 CascCalderas 1
+   -> 313 Ketelvolgorde 1
+   -> 313 Følge 1
+   -> 313 Pannföljd 1
+   -> 313 niz kotlova 1
+   -> 313 kazánsorrend 1
+   -> 313 cykl pracy kotlów 1
+   -> 313 Ïîñëåäîâàòåëüíîñòü êîòëîâ 1
+   -> lblKesselfolge2
+   -> 314 Kesselfolge 2
+   -> 314 Boiler sequence 2
+   -> 314 Cascade 2
+   -> 314 Sequenza caldaia 2
+   -> 314 CascCalderas 2
+   -> 314 Ketelvolgorde 2
+   -> 314 Følge 2
+   -> 314 Pannföljd 2
+   -> 314 niz kotlova 2
+   -> 314 kazánsorrend 2
+   -> 314 cykl pracy kotlów 2
+   -> 314 Ïîñëåäîâàòåëüíîñòü êîòëîâ 2
+
+[Component]: LblLegiofkt
+   -> 356 Legionellen-Funktion
+   -> 356 Legionnaires  function
+   -> 363 Fonction légionelles
+   -> 356 Funzione antilegionella
+   -> 356 Antilegionella
+   -> 356 Legionellen-functie
+   -> 356 Antilegionel-funktion
+   -> 356 Legionellafunktion
+   -> 356 funkcija legionele
+   -> 356 legionella-funkció
+   -> 356 funkcja ochrony przed legionell¹
+   -> 356 Ôóíêöèÿ äåáàêòåðèçàöèè
+
+[Component]: LblLegioZeit
+   -> 357 Legionellenzeitpunkt
+   -> 357 Legionnaires time
+   -> 357 Moment légionelles
+   -> 357 Orario funzione antilegionella
+   -> 357 HorarioLegionella
+   -> 357 Legionellen-tijdstip
+   -> 357 Legionel-tidspunkt
+   -> 357 Legionellatidpunkt
+   -> 357 vrijeme legionele
+   -> 357 legionella-idõpont
+   -> 357 temp. zabezp. przed legionella
+   -> 357 Âðåìÿ âêëþ÷åíèÿ äåáàêòåðèçàöèè
+   -> lblKonfig
+   -> 403 Konfiguration
+   -> 403 Configuration:
+   -> Configuration :
+   -> 403 Configurazione
+   -> 403 Configuración
+   -> 403 Configuratie
+   -> 403 Konfiguration
+   -> 403 Konfigurering
+   -> 403 konfiguracija
+   -> 403 konfiguráció
+   -> 403 konfiguracja
+   -> 403 Êîíôèãóðàöèÿ
+   -> lblWWMo
+   -> 501 Montag
+   -> 501 Monday
+   -> 501 Lundi
+   -> 501 Lunedì
+   -> 501 Lunes
+   -> 501 Maandag
+   -> 501 Mandag
+   -> 501 Måndag
+   -> 501 ponedjeljak
+   -> 501 hétfõ
+   -> 501 poniedzia³ek
+   -> 501 Ïîíåäåëüíèê
+   -> lblWWDi
+   -> 502 Dienstag
+   -> 502 Tuesday
+   -> 502 Mardi
+   -> 502 Martedì
+   -> 502 Martes
+   -> 502 Dinsdag
+   -> 502 Tirsdag
+   -> 502 Tisdag
+   -> 502 utorak
+   -> 502 kedd
+   -> 502 wtorek
+   -> 502 Âòîðíèê
+   -> lblWWMi
+   -> 503 Mittwoch
+   -> 503 Wednesday
+   -> 503 Mercredi
+   -> 503 Mercoledì
+   -> 503 Miércoles
+   -> 503 Woensdag
+   -> 503 Onsdag
+   -> 503 Onsdag
+   -> 503 srijeda
+   -> 503 szerda
+   -> 503 œroda
+   -> 503 Ñðåäà
+   -> lblWWDo
+   -> 504 Donnerstag
+   -> 504 Thursday
+   -> 504 Jeudi
+   -> 504 Giovedì
+   -> 504 Jueves
+   -> 504 Donderdag
+   -> 504 Torsdag
+   -> 504 Torsdag
+   -> 504 èetvrtak
+   -> 504 csütörtök
+   -> 504 czwartek
+   -> 504 ×åòâåðã
+   -> lblWWFr
+   -> 505 Freitag
+   -> 505 Friday
+   -> 505 Vendredi
+   -> 505 Venerdì
+   -> 505 Viernes
+   -> 505 Vrijdag
+   -> 505 Fredag
+   -> 505 Fredag
+   -> 505 petak
+   -> 505 péntek
+   -> 505 pi¹tek
+   -> 505 Ïÿòíèöà
+   -> lblWWSa
+   -> 506 Samstag
+   -> 506 Saturday
+   -> 506 Samedi
+   -> 506 Sabato
+   -> 506 Sábado
+   -> 506 Zaterdag
+   -> 506 Lørdag
+   -> 506 Lördag
+   -> 506 subota
+   -> 506 szombat
+   -> 506 sobota
+   -> 506 Ñóááîòà
+   -> lblWWSo
+   -> 507 Sonntag
+   -> 507 Sunday
+   -> 507 Dimanche
+   -> 507 Domenica
+   -> 507 Domingo
+   -> 507 Zondag
+   -> 507 Søndag
+   -> 507 Söndag
+   -> 507 nedjelja
+   -> 507 vasárnap
+   -> 507 niedziela
+   -> 507 Âîñêðåñåíüå
+   -> lbl521
+   -> 521 Ausgang MFA 1
+   -> 521 Output MFA 1
+   -> 521 Sortie MFA 1
+   -> 521 Uscita MFA 1
+   -> 521 Salida MFA 1
+   -> 521 Uitgang MFA 1
+   -> 521 Udgang MFA 1
+   -> 521 Utgang MFA 1
+   -> 521 izlaz MFA 1
+   -> 521 MFA 1 kimenet
+   -> 521 Wyjœcie MFA 1
+   -> 521 Âûõîä MFA 1
+   -> lbl522
+   -> 522 Ausgang VA
+   -> 522 Output VA
+   -> 522 Sortie VA
+   -> 522 Uscita VA
+   -> 522 Salida VA
+   -> 522 Uitgang VA
+   -> 522 Udgang VA
+   -> 522 Utgang VA
+   -> 522 izlaz VA
+   -> 522 VA kimenet
+   -> 522 Wyjœcie VA
+   -> 522 Âûõîä VA
+   -> lbl523
+   -> 523 Eingang H1
+   -> 523 Input H1
+   -> 523 Entrée H1
+   -> 523 Ingresso H1
+   -> 523 Entrada H1
+   -> 523 Ingang H1
+   -> 523 Indgang H1
+   -> 523 Ingang Värme 1
+   -> 523 ulaz H1
+   -> 523 bemenet H1
+   -> 523 wejœcie H1
+   -> 523 Âõîä H1
+   -> lbl525
+   -> 525 Eingang N1
+   -> 525 Input N1
+   -> 525 Entrée N1
+   -> 525 Ingresso N1
+   -> 525 Entrada N1
+   -> 525 Ingang N1
+   -> 525 Indgang N1
+   -> 525 Ingang N 1
+   -> 525 ulaz N1
+   -> 525 bemenet N1
+   -> 525 wejœcie N1
+   -> 525 Âõîä N1
+   -> lbl531
+   -> 531 Folgewechselmodus
+   -> 531 Sequence change mode
+   -> 531 Mode de cascade
+   -> 531 Modus inversione sequenza
+   -> 531 CambioSecuencia
+   -> 531 Ketelwisselmodus
+   -> 531 Rækkefølgeomkobling
+   -> 531 Pannföljdsväxling
+   -> 531 Oblik izmjene niza
+   -> 531 sorrendváltás-mod
+   -> 531 tryb prze³¹czenia
+   -> 531 Ðåæèì ñìåíû êîòëîâ
+   -> lbl533
+   -> 533 Kesselfolge 1
+   -> 533 Boiler sequence 1
+   -> 533 Cascade 1
+   -> 533 Sequenza caldaia 1
+   -> 533 CascCalderas 1
+   -> 533 Ketelvolgorde 1
+   -> 533 Følge 1
+   -> 533 Pannföljd 1
+   -> 533 niz kotlova 1
+   -> 533 kazánsorrend 1
+   -> 533 cykl pracy kotlów 1
+   -> 533 Ïîñëåäîâàòåëüíîñòü êîòëîâ 1
+   -> lbl534
+   -> 534 Kesselfolge 2
+   -> 534 Boiler sequence 2
+   -> 534 Cascade 2
+   -> 534 Sequenza caldaia 2
+   -> 534 CascCalderas 2
+   -> 534 Ketelvolgorde 2
+   -> 534 Følge 2
+   -> 534 Pannföljd 2
+   -> 534 niz kotlova 2
+   -> 534 kazánsorrend 2
+   -> 534 cykl pracy kotlów 2
+   -> 534 Ïîñëåäîâàòåëüíîñòü êîòëîâ 2
+   -> lblZirkMo
+   -> 551 Montag
+   -> 551 Monday
+   -> 551 Lundi
+   -> 551 Lunedì
+   -> 551 Lunes
+   -> 551 Maandag
+   -> 551 Mandag
+   -> 551 Måndag
+   -> 551 ponedjeljak
+   -> 551 hétfõ
+   -> 551 poniedzia³ek
+   -> 551 Ïîíåäåëüíèê
+   -> lblZirkDi
+   -> 552 Dienstag
+   -> 552 Tuesday
+   -> 552 Mardi
+   -> 552 Martedì
+   -> 552 Martes
+   -> 552 Dinsdag
+   -> 552 Tirsdag
+   -> 552 Tisdag
+   -> 552 utorak
+   -> 552 kedd
+   -> 552 wtorek
+   -> 552 Âòîðíèê
+   -> lblZirkMi
+   -> 553 Mittwoch
+   -> 553 Wednesday
+   -> 553 Mercredi
+   -> 553 Mercoledì
+   -> 553 Miércoles
+   -> 553 Woensdag
+   -> 553 Onsdag
+   -> 553 Onsdag
+   -> 553 srijeda
+   -> 553 szerda
+   -> 553 œroda
+   -> 553 Ñðåäà
+   -> lblZirkDo
+   -> 554 Donnerstag
+   -> 554 Thursday
+   -> 554 Jeudi
+   -> 554 Giovedì
+   -> 554 Jueves
+   -> 554 Donderdag
+   -> 554 Torsdag
+   -> 554 Torsdag
+   -> 554 èetvrtak
+   -> 554 csütörtök
+   -> 554 czwartek
+   -> 554 ×åòâåðã
+   -> lblZirkFr
+   -> 555 Freitag
+   -> 555 Friday
+   -> 555 Vendredi
+   -> 555 Venerdì
+   -> 555 Viernes
+   -> 555 Vrijdag
+   -> 555 Fredag
+   -> 555 Fredag
+   -> 555 petak
+   -> 555 péntek
+   -> 555 pi¹tek
+   -> 555 Ïÿòíèöà
+   -> lblZirkSa
+   -> 556 Samstag
+   -> 556 Saturday
+   -> 556 Samedi
+   -> 556 Sabato
+   -> 556 Sábado
+   -> 556 Zaterdag
+   -> 556 Lørdag
+   -> 556 Lördag
+   -> 556 subota
+   -> 556 szombat
+   -> 556 sobota
+   -> 556 Ñóááîòà
+   -> lblZirkSo
+   -> 557 Sonntag
+   -> 557 Sunday
+   -> 557 Dimanche
+   -> 557 Domenica
+   -> 557 Domingo
+   -> 557 Zondag
+   -> 557 Søndag
+   -> 557 Söndag
+   -> 557 nedjelja
+   -> 557 vasárnap
+   -> 557 niedziela
+   -> 557 Âîñêðåñåíüå
+   -> lbl571
+   -> 571 WW-Variante
+   -> DHW variation
+   -> Variante ECS
+   -> Variante ACS
+   -> Variante ACS
+   -> WW-variante
+   -> VV-variant
+   -> VV-variant
+   -> PTV-varijanta
+   -> HMV-tarolo valt
+   -> Wariant c.w.u.
+   -> Âàðèàíò ÃÂÑ
+   -> lbl577
+   -> 577 WW-Ladezeit
+   -> 577 WW load time
+   -> 577 Temps charge ECS MAXI
+   -> 577 Tempo max caric. AC
+   -> 577 Tiempo máx. carga ACS
+   -> 577 Max ww-laadtijd
+   -> 577 Max VV ladetid
+   -> 577 Max laddn.tid VV
+   -> 577 maks PTV vrijeme
+   -> 577 max HMV-töltidõ
+   -> 577 Maks.czas ³ad.cwu
+   -> lbl579
+   -> 579 Legionellen-Funktion
+   -> 579 Legionnaire function
+   -> 579 Fonction légionnelles
+   -> 579 Funzione legionella
+   -> 579 Función anti-legionela
+   -> 579 Legionellenfunctie
+   -> 579 Legionella-funktion
+   -> 579 Legionella-funktion
+   -> 579 funkcija legionele
+   -> 579 legionella funkció
+   -> 579 F.Legio
+   -> lbl580
+   -> 580 Legionellenzeitpunkt
+   -> 580 Legio time
+   -> 580 Moment légionnelles
+   -> 580 Orario Legio
+   -> 580 Tiempo anti-legionela
+   -> 580 Legio-tijdstip
+   -> 580 Legio-tidspunkt
+   -> 580 Legionella-tidpunkt
+   -> 580 Legio-vrijeme
+   -> 580 legionella idõpont
+   -> 580 Pkt czas.w³.f.Legio
+
+[Component]: ChkBxP581
+   -> lbl582
+   -> 582 Zirk-Zeit
+   -> 582 Circ. time
+   -> 582 Temps circulation
+   -> 582 Tempo-ricircolo
+   -> 582 Tiempo circul.
+   -> 582 Circ.-tijd
+   -> 582 Cirk-tid
+   -> 582 Cirk.-tid
+   -> 582 sat cirkulacije
+   -> 582 cirk-idõ
+   -> 582 Czas cyrkul.
+
+[Component]: Lbl593
+   -> 593 Sommerzeitbeginn
+   -> 593 Start of summer time
+   -> 593 Début heure été
+   -> 593 Inizio estate
+   -> 593 Inicio verano
+   -> 593 Begin zomertijd
+   -> 593 Sommertid start
+   -> 593 Start sommartid
+   -> 593 ljetno vrijeme od:
+   -> 593 nyári idõsz. kezd
+   -> 593 Poczatek czasu letniego
+
+[Component]: Lbl594
+   -> 594 Sommerzeitende
+   -> 594 End of summer time
+   -> 594 Fin heure été
+   -> 594 Fine estate
+   -> 594 Fin verano
+   -> 594 Einde zomertijd
+   -> 594 Sommertid slut
+   -> 594 Slut sommartid
+   -> 594 ljetno vrijeme do:
+   -> 594 nyári idõsz. vége
+   -> 594 Koniec czasu letniego
+   -> lblWWAus1
+   -> Aus
+   -> Off
+   -> Arrêt
+   -> Spento
+   -> Off
+   -> Uit
+   -> Off
+   -> Isklop
+   -> wy³.
+   -> Âûêë
+   -> lbZirkAus2
+   -> Aus
+   -> Off
+   -> Arrêt
+   -> Spento
+   -> Off
+   -> Uit
+   -> Off
+   -> Isklop
+   -> wy³.
+   -> Âûêë
+   -> lbZirkAus1
+   -> Aus
+   -> Off
+   -> Arrêt
+   -> Spento
+   -> Off
+   -> Uit
+   -> Off
+   -> Isklop
+   -> wy³.
+   -> Âûêë
+   -> lblWWAus3
+   -> Aus
+   -> Off
+   -> Arrêt
+   -> Spento
+   -> Off
+   -> Uit
+   -> Off
+   -> Isklop
+   -> wy³.
+   -> Âûêë
+   -> lblWWAus2
+   -> Aus
+   -> Off
+   -> Arrêt
+   -> Spento
+   -> Off
+   -> Uit
+   -> Off
+   -> Isklop
+   -> wy³.
+   -> Âûêë
+   -> lbZirkAus3
+   -> Aus
+   -> Off
+   -> Arrêt
+   -> Spento
+   -> Off
+   -> Uit
+   -> Off
+   -> Isklop
+   -> wy³.
+   -> Âûêë
+
+[Component]: GrpBxOutlets
+   -> Ausgänge
+   -> Outputs
+   -> Sorties
+   -> Uscite
+   -> Salidas
+   -> Uitgangen
+   -> Udgang
+   -> Utgangar
+   -> izlazi
+   -> kimenetek
+   -> Wyjœcia
+   -> Âûõîäû
+
+[Component]: BtnReadConfig
+   -> &Auslesen
+   -> &Read
+   -> &Lire
+   -> &Leggere
+   -> &Leer
+   -> &Aflezen
+   -> Udlæs
+   -> &Läsa
+   -> &oèitati
+   -> &Kiolvasni
+   -> &Odczyt
+   -> &Ñ÷èòàòü
+
+[Component]: BtnReadProgZirk
+   -> &Auslesen
+   -> &Read
+   -> &Lire
+   -> &Leggere
+   -> &Leer
+   -> &Aflezen
+   -> Udlæs
+   -> &Läsa
+   -> &oèitati
+   -> &Kiolvasni
+   -> &Odczyt
+   -> &Ñ÷èòàòü
+
+[Component]: BtnReadProgWW
+   -> &Auslesen
+   -> &Read
+   -> &Lire
+   -> &Leggere
+   -> &Leer
+   -> &Aflezen
+   -> Udlæs
+   -> &Läsa
+   -> &oèitati
+   -> &Kiolvasni
+   -> &Odczyt
+   -> &Ñ÷èòàòü
+
+[Component]: BtnReadParas
+   -> &Auslesen
+   -> &Read
+   -> &Lire
+   -> &Leggere
+   -> &Leer
+   -> &Aflezen
+   -> Udlæs
+   -> &Läsa
+   -> &oèitati
+   -> &Kiolvasni
+   -> &Odczyt
+   -> &Ñ÷èòàòü
+
+[Component]: BtnReadHistorie
+   -> &Auslesen
+   -> &Read
+   -> &Lire
+   -> &Leggere
+   -> &Leer
+   -> &Aflezen
+   -> Udlæs
+   -> &Läsa
+   -> &oèitati
+   -> &Kiolvasni
+   -> &Odczyt
+   -> &Ñ÷èòàòü
+
+[Component]: BtnReadFM_HZK
+   -> &Auslesen
+   -> &Read
+   -> &Lire
+   -> &Leggere
+   -> &Leer
+   -> &Aflezen
+   -> Udlæs
+   -> &Läsa
+   -> &oèitati
+   -> &Kiolvasni
+   -> &Odczyt
+   -> &Ñ÷èòàòü
+
+[Component]: BtnReadFM_WW
+   -> &Auslesen
+   -> &Read
+   -> &Lire
+   -> &Leggere
+   -> &Leer
+   -> &Aflezen
+   -> Udlæs
+   -> &Läsa
+   -> &oèitati
+   -> &Kiolvasni
+   -> &Odczyt
+   -> &Ñ÷èòàòü
+
+[Component]: LblBetriebsart
+   -> Betriebsart
+   -> Operation mode
+   -> Mode de fonctionnement
+   -> Tipo di esercizio
+   -> Modo de funcionamiento
+   -> Bedrijfsaard
+   -> Driftsmåde
+   -> Drifttyp
+   -> vrsta rada
+   -> üzemmód
+   -> Tryb pracy
+   -> Ðåæèì ðàáîòû
+
+[Component]: LblDate
+   -> Datum
+   -> Date
+   -> Date
+   -> Data
+   -> Fecha
+   -> Datum
+   -> Date
+   -> Date
+   -> Date
+   -> Date
+   -> Data
+   -> Date
+   -> lblWWEin3
+   -> Ein
+   -> Marche
+   -> Acceso
+   -> Aan
+   -> Till
+   -> Uklop
+   -> w³.
+   -> Âêë
+   -> lblZirkEin1
+   -> Ein
+   -> Marche
+   -> Acceso
+   -> Aan
+   -> Till
+   -> Uklop
+   -> w³.
+   -> Âêë
+   -> lblWWEin1
+   -> Ein
+   -> Marche
+   -> Acceso
+   -> Aan
+   -> Till
+   -> Uklop
+   -> w³.
+   -> Âêë
+   -> lblWWEin2
+   -> Ein
+   -> Marche
+   -> Acceso
+   -> Aan
+   -> Till
+   -> Uklop
+   -> w³.
+   -> Âêë
+   -> lblZirkEin3
+   -> Ein
+   -> Marche
+   -> Acceso
+   -> Aan
+   -> Till
+   -> Uklop
+   -> w³.
+   -> Âêë
+   -> lblZirkEin2
+   -> Ein
+   -> Marche
+   -> Acceso
+   -> Aan
+   -> Till
+   -> Uklop
+   -> w³.
+   -> Âêë
+
+[Component]: GrpBoxInlets
+   -> Eingänge
+   -> Inputs
+   -> Entrées
+   -> Ingressi
+   -> Entradas
+   -> Ingangen
+   -> Indgang
+   -> Ingangar
+   -> ulazi
+   -> bemenetek
+   -> Wejœcia
+   -> Âõîäû
+
+[Component]: BtnWriteProgWW
+   -> &Eintragen
+   -> &Write
+   -> &Ecrire
+   -> &Scrivere
+   -> &Escribir
+   -> &Optekenen
+   -> Skriv
+   -> &Skriva
+   -> &unositi
+   -> &Bevinni
+   -> &Zapis w urz.
+   -> &Âíåñòè
+
+[Component]: BtnWriteParas
+   -> &Eintragen
+   -> &Write
+   -> &Ecrire
+   -> &Scrivere
+   -> &Escribir
+   -> &Optekenen
+   -> Skriv
+   -> &Skriva
+   -> &unositi
+   -> &Bevinni
+   -> &Zapis w urz.
+   -> &Âíåñòè
+
+[Component]: BtnWriteFM_WW
+   -> &Eintragen
+   -> &Write
+   -> &Ecrire
+   -> &Scrivere
+   -> &Escribir
+   -> &Optekenen
+   -> Skriv
+   -> &Skriva
+   -> &unositi
+   -> &Bevinni
+   -> &Zapis w urz.
+   -> &Âíåñòè
+
+[Component]: BtnWriteFM_HZK
+   -> &Eintragen
+   -> &Write
+   -> &Ecrire
+   -> &Scrivere
+   -> &Escribir
+   -> &Optekenen
+   -> Skriv
+   -> &Skriva
+   -> &unositi
+   -> &Bevinni
+   -> &Zapis w urz.
+   -> &Âíåñòè
+
+[Component]: BtnWriteProgZirk
+   -> &Eintragen
+   -> &Write
+   -> &Ecrire
+   -> &Leggere
+   -> &Escribir
+   -> &Optekenen
+   -> Skriv
+   -> &Skriva
+   -> &unositi
+   -> &Bevinni
+   -> &Zapis w urz.
+   -> &Âíåñòè
+   -> TbshtParas
+   -> Fachmann
+   -> Expert
+   -> Installateur
+   -> Tecnico
+   -> Técnico
+   -> Vakman
+   -> Fagmanden
+   -> Fackman
+   -> serviser
+   -> szakember
+   -> Serwisant
+   -> Ñïåöèàëèñò
+   -> TBShtFMHZ
+   -> Fachmann
+   -> Engineer HC
+   -> Circuit chauff. Installateur
+   -> Tecnico circuito risc.
+   -> Técnico Cto. calef.
+   -> Vakman SK
+   -> Fagmanden VK
+   -> Fackman
+   -> struenjak KG
+   -> ftk szakember
+   -> Serwisant-ob.grz.
+
+[Component]: TbShtFMWW
+   -> Fachmann WW
+   -> Engineer DHW
+   -> ECS Installateur
+   -> Tecnico AC
+   -> Técnico ACS
+   -> Vakman
+   -> Fagmanden
+   -> Fackman
+   -> struenjak
+   -> HMV szakember
+   -> Serwisant-cwu
+   -> Ñïåöèàëèñò
+
+[Component]: LblErr1
+   -> Fehler 1
+   -> Error 1
+   -> Erreur 1
+   -> Errore 1
+   -> Error 1
+   -> Fout 1
+   -> Fejl 1
+   -> Fel 1
+   -> kvar 1
+   -> hiba 1
+   -> Blad 1
+   -> Îøèáêà 1
+   -> lblerr10
+   -> Fehler 10
+   -> Error 10
+   -> Erreur 10
+   -> Errore 10
+   -> Error 10
+   -> Fout 10
+   -> Fejl 10
+   -> Fel 10
+   -> kvar 10
+   -> hiba 10
+   -> Blad 10
+   -> Îøèáêà 10
+
+[Component]: LblErr2
+   -> Fehler 2
+   -> Error 2
+   -> Erreur 2
+   -> Errore 2
+   -> Error 2
+   -> Fout 2
+   -> Fejl 2
+   -> Fel 2
+   -> kvar 2
+   -> hiba 2
+   -> Blad 2
+   -> Îøèáêà 2
+
+[Component]: LblErr3
+   -> Fehler 3
+   -> Error 3
+   -> Erreur 3
+   -> Errore 3
+   -> Error 3
+   -> Fout 3
+   -> Fejl 3
+   -> Fel 3
+   -> kvar 3
+   -> hiba 3
+   -> Blad 3
+   -> Îøèáêà 3
+
+[Component]: LblErr4
+   -> Fehler 4
+   -> Error 4
+   -> Erreur 4
+   -> Errore 4
+   -> Error 4
+   -> Fout 4
+   -> Fejl 4
+   -> Fel 4
+   -> kvar 4
+   -> hiba 4
+   -> Blad 4
+   -> Îøèáêà 4
+
+[Component]: LblErr5
+   -> Fehler 5
+   -> Error 5
+   -> Erreur 5
+   -> Errore 5
+   -> Error 5
+   -> Fout 5
+   -> Fejl 5
+   -> Fel 5
+   -> kvar 5
+   -> hiba 5
+   -> Blad 5
+   -> Îøèáêà 5
+   -> lblerr6
+   -> Fehler 6
+   -> Error 6
+   -> Erreur 6
+   -> Errore 6
+   -> Error 6
+   -> Fout 6
+   -> Fejl 6
+   -> Fel 6
+   -> kvar 6
+   -> hiba 6
+   -> Blad 6
+   -> Îøèáêà 6
+   -> lblerr7
+   -> Fehler 7
+   -> Error 7
+   -> Erreur 7
+   -> Errore 7
+   -> Error 7
+   -> Fout 7
+   -> Fejl 7
+   -> Fel 7
+   -> kvar 7
+   -> hiba 7
+   -> Blad 7
+   -> Îøèáêà 7
+   -> lblerr8
+   -> Fehler 8
+   -> Error 8
+   -> Erreur 8
+   -> Errore 8
+   -> Error 8
+   -> Fout 8
+   -> Fejl 8
+   -> Fel 8
+   -> kvar 8
+   -> hiba 8
+   -> Blad 8
+   -> Îøèáêà 8
+   -> lblerr9
+   -> Fehler 9
+   -> Error 9
+   -> Erreur 9
+   -> Errore 9
+   -> Error 9
+   -> Fout 9
+   -> Fejl 9
+   -> Fel 9
+   -> kvar 9
+   -> hiba 9
+   -> Blad 9
+   -> Îøèáêà 9
+
+[Component]: LblFCode
+   -> Fehlercode
+   -> Error code
+   -> Code défaut
+   -> Codice errore
+   -> Código de error
+   -> Foutcode
+   -> Fejlkode
+   -> Felkod
+   -> smetnja koda
+   -> hibakód
+   -> Kod b³êdu
+   -> Êîä îøèáêè
+
+[Component]: LblErrorCode
+   -> Fehlercode
+   -> Error code
+   -> Code défaut
+   -> Codice errore
+   -> Código de error
+   -> Foutcode
+   -> Fejlkode
+   -> Felkod
+   -> smetnja koda
+   -> hibakód
+   -> Kod b³êdu
+   -> Êîä îøèáêè
+
+[Component]: TbShtHistorie
+   -> Fehlerhistorie
+   -> Error history
+   -> Historique défauts
+   -> Storico errori
+   -> Histórico de errores
+   -> Fouthistoriek
+   -> Fejlhistorik
+   -> Felhistorik
+   -> povjest kvarova
+   -> hibatörténet
+   -> Historia bledów
+   -> Ñïèñîê îøèáîê
+
+[Component]: LblAdresse
+   -> Gerät
+
+[Component]: ChkBxH1
+   -> Värme 1
+   -> fûtõkör1
+
+[Component]: GrpBxHistorie
+   -> Historie
+   -> History
+   -> Historique
+   -> Storico
+   -> Histórico
+   -> Historiek
+   -> Historik
+   -> Historik
+
+[Component]: Grpkaskade
+   -> Kaskade
+   -> Cascade
+   -> Cascade
+   -> Cascata
+   -> Cascada
+   -> Cascade
+   -> Kaskade
+   -> Kaskad
+   -> kaskada
+   -> kaszkád
+   -> kaskada
+   -> Êàñêàä
+
+[Component]: TbShtKonfig
+   -> Konfiguration
+   -> Configuration:
+   -> Configuration :
+   -> Configurazione:
+   -> Configuración
+   -> Configuratie
+   -> Konfiguration
+   -> Konfigurering:
+   -> Konfiguracija
+   -> Konfiguráció:
+   -> konfiguracja:
+   -> Êîíôèãóðàöèÿ:
+
+[Component]: GrpBxConfigParas
+   -> Konfiguration
+   -> Configuration:
+   -> Configuration :
+   -> Configurazione:
+   -> Configuración
+   -> Configuratie
+   -> Konfiguration
+   -> Konfigurering:
+   -> Konfiguracija
+   -> Konfiguráció:
+   -> konfiguracja:
+   -> Êîíôèãóðàöèÿ:
+
+[Component]: LblKaskKonfig
+   -> Konfiguration:
+   -> Configuration:
+   -> Configuration :
+   -> Configurazione:
+   -> Configuración
+   -> Configuratie
+   -> Konfiguration
+   -> Konfigurering:
+   -> Konfiguracija
+   -> Konfiguráció:
+   -> konfiguracja:
+   -> Êîíôèãóðàöèÿ:
+
+[Component]: BtnLoadParas
+   -> &Laden
+   -> &Load
+   -> &Charger
+   -> &Caricare
+   -> &Cargar
+   -> &Laden
+   -> Indlæs
+   -> &Ladda
+   -> &pozivati
+   -> &Betölteni
+   -> &Otwórz
+   -> &Çàãðóçèòü
+
+[Component]: BtnLoadParasKA
+   -> &Laden
+   -> &Load
+   -> &Charger
+   -> &Caricare
+   -> &Cargar
+   -> &Laden
+   -> Indlæs
+   -> &Ladda
+   -> &pozivati
+   -> &Betölteni
+   -> &Otwórz
+   -> &Çàãðóçèòü
+
+[Component]: ChkBxWWMoFr
+   -> Mo-Fr
+   -> Mo-Fr
+   -> Lu-Ve
+   -> Lu-Ve
+   -> Lu-Vi
+   -> Ma-Vr
+   -> Man-Fre
+   -> M-F
+   -> Po-Pe
+   -> hé-pé
+   -> pon-pt
+   -> Ïí-Ïò
+
+[Component]: ChkBxZirkMoFr
+   -> Mo-Fr
+   -> Mo-Fr
+   -> Lu-Ve
+   -> Lu-Ve
+   -> Lu-Vi
+   -> Ma-Vr
+   -> Man-Fre
+   -> M-F
+   -> Po-Pe
+   -> hé-pé
+   -> pon-pt
+   -> Ïí-Ïò
+
+[Component]: ChkBxZirkMoSo
+   -> Mo-So
+   -> Mo-Su
+   -> Lu-Di
+   -> Lu-Do
+   -> Lu-Do
+   -> Ma-Zo
+   -> Man-Søn
+   -> M-S
+   -> Po-Ne
+   -> hé-va
+   -> pon-ndz
+   -> Ïí-Âñê
+
+[Component]: ChkBxWWMoSo
+   -> Mo-So
+   -> Mo-Su
+   -> Lu-Di
+   -> Lu-Do
+   -> Lu-Do
+   -> Ma-Zo
+   -> Man-Søn
+   -> M-S
+   -> Po-Ne
+   -> hé-va
+   -> pon-ndz
+   -> Ïí-Âñê
+
+[Component]: GrpBxParasWW
+   -> Parameter
+   -> Parameter
+   -> Paramètres
+   -> Parametri
+   -> Parámetros
+   -> Parameter
+   -> Parameter
+   -> Parameter
+   -> parametar
+   -> paraméter
+   -> Parametr
+   -> Ïàðàìåòðû
+
+[Component]: GrpBxProgZirk
+   -> Parameter
+   -> Parameter
+   -> Paramètres
+   -> Parametri
+   -> Parámetros
+   -> Parameter
+   -> Parameter
+   -> Parameter
+   -> parametar
+   -> paraméter
+   -> Parametr
+   -> Ïàðàìåòðû
+
+[Component]: GrpBxParasFM
+   -> Parameter
+   -> Parameter
+   -> Paramètres
+   -> Parametri
+   -> Parámetros
+   -> Parameter
+   -> Parameter
+   -> Parameter
+   -> parametar
+   -> paraméter
+   -> Parametr
+   -> Ïàðàìåòðû
+
+[Component]: GrpBxProgWW
+   -> Parameter
+   -> Parameter
+   -> Paramètres
+   -> Parametri
+   -> Parámetros
+   -> Parameter
+   -> Parameter
+   -> Parameter
+   -> parametar
+   -> paraméter
+   -> Parametr
+   -> Ïàðàìåòðû
+
+[Component]: GrpBxParas
+   -> Parameter
+   -> Parameter
+   -> Paramètres
+   -> Parametri
+   -> Parámetros
+   -> Parameter
+   -> Parameter
+   -> Parameter
+   -> parametar
+   -> paraméter
+   -> parametr
+   -> Ïàðàìåòðû
+
+[Component]: GrpBxFileKA
+   -> Parameterdatei
+   -> Parameter file
+   -> Fichier paramètres
+   -> Archivio dati parametri
+   -> Archivo de parámetros
+   -> Bestand parameter
+   -> Parameter fil
+   -> Parameterfil
+   -> Datoteka parametara
+   -> paraméterérték
+   -> Plik z parametrami
+   -> Ôàéë ïàðàìåòðîâ
+
+[Component]: GrpBxParasFile
+   -> Parameterdatei
+   -> Parameter file
+   -> Fichier paramètres
+   -> Archivio dati parametri
+   -> Archivo de parámetros
+   -> Bestand parameter
+   -> Parameter fil
+   -> Parameterfil
+   -> Datoteka parametara
+   -> paraméterérték
+   -> Plik z parametrami
+   -> Ôàéë ïàðàìåòðîâ
+
+[Component]: TbShtProcess
+   -> Prozesswerte
+   -> Process values
+   -> Valeurs de process
+   -> Valori di processo
+   -> Valores de proceso
+   -> Proceswaarde
+   -> Procesværdi
+   -> Processdata
+   -> Procesni iznosi
+   -> foly.értékek
+   -> Dane procesowe
+   -> Ïðîöåññíûå çíà÷åíèÿ
+
+[Component]: BtnResetHistorie
+   -> &Reset
+   -> R&eset
+   -> R&eset
+   -> &Resettare
+   -> Rese&t
+   -> &Reset
+   -> Reset
+   -> &Aterställ
+   -> &vrati
+   -> &Visszaállítani
+   -> R&eset
+   -> Ñáðî&ñèòü
+
+[Component]: ChkBxZirkSaSo
+   -> Sa-So
+   -> Sa-Su
+   -> Sa-Di
+   -> Sa-Do
+   -> Sa-Do
+   -> Za-Zo
+   -> Lør-Søn
+   -> L-S
+   -> Su-Ne
+   -> szo-va
+   -> sob-ndz
+   -> Ñá-Âñê
+
+[Component]: ChkBxWWSaSo
+   -> Sa-So
+   -> Sa-Su
+   -> Sa-Di
+   -> Sa-Do
+   -> Sa-Do
+   -> Za-Zo
+   -> Lør-Søn
+   -> L-S
+   -> Su-Ne
+   -> szo-va
+   -> sob-ndz
+   -> Ñá-Âñê
+   -> lblZirkTime1
+   -> Schaltzeit 1
+   -> Time 1
+   -> Temps de commutation 1
+   -> Tempo commutazione 1
+   -> Tiempo conexión 1
+   -> Schakeltijd 1
+   -> Indkoblingstid 1
+   -> Koppl.tid 1
+   -> Sklopno vrijeme 1
+   -> kapcsidõ 1
+   -> czas prze³¹czenia 1
+   -> Âðåìÿ âêëþ÷åíèÿ 1
+   -> lblWWTime1
+   -> Schaltzeit 1
+   -> Time 1
+   -> Temps de commutation 1
+   -> Tempo commutazione 1
+   -> Tiempo conexión 1
+   -> Schakeltijd 1
+   -> Indkoblingstid 1
+   -> Koppl.tid 1
+   -> Sklopno vrijeme 1
+   -> kapcsidõ 1
+   -> czas prze³¹czania 1
+   -> Âðåìÿ âêëþ÷åíèÿ 1
+   -> lblZirkTime2
+   -> Schaltzeit 2
+   -> Time 2
+   -> Temps de commutation 2
+   -> Tempo commutazione 2
+   -> Tiempo conexión 2
+   -> Schakeltijd 2
+   -> Indkoblingstid 2
+   -> Koppl.tid 2
+   -> Sklopno vrijeme 2
+   -> kapcsidõ 2
+   -> czas prze³¹czenia 2
+   -> Âðåìÿ âêëþ÷åíèÿ 2
+   -> lblWWTime2
+   -> Schaltzeit 2
+   -> Time 2
+   -> Temps de commutation 2
+   -> Tempo commutazione 2
+   -> Tiempo conexión 2
+   -> Schakeltijd 2
+   -> Indkoblingstid 2
+   -> Koppl.tid 2
+   -> Sklopno vrijeme 2
+   -> kapcsidõ 2
+   -> czas prze³¹czania 2
+   -> Âðåìÿ âêëþ÷åíèÿ 2
+   -> lblZirkTime3
+   -> Schaltzeit 3
+   -> Time 3
+   -> Temps de commutation 3
+   -> Tempo commutazione 3
+   -> Tiempo conexión 3
+   -> Schakeltijd 3
+   -> Indkoblingstid 3
+   -> Koppl.tid 3
+   -> Sklopno vrijeme 3
+   -> kapcsidõ 3
+   -> czas prze³¹czenia 3
+   -> Âðåìÿ âêëþ÷åíèÿ 3
+   -> lblWWTime3
+   -> Schaltzeit 3
+   -> Time 3
+   -> Temps de commutation 3
+   -> Tempo commutazione 3
+   -> Tiempo conexión 3
+   -> Schakeltijd 3
+   -> Indkoblingstid 3
+   -> Koppl.tid 3
+   -> Sklopno vrijeme 3
+   -> kapcsidõ 3
+   -> czas prze³¹czania 3
+   -> Âðåìÿ âêëþ÷åíèÿ 3
+
+[Component]: ChkBxSolar
+
+[Component]: GrpBxSollwerte
+   -> Soll-Istwerte
+   -> Set-actual value
+   -> Valeurs consigne-réelles
+   -> Valori nomin./effettivi
+   -> Valores consigna - reales
+   -> Instel-reële waarde
+   -> Beregnet setpunkt
+   -> Bör-Ärvärde
+   -> treba i jeste iznosi
+   -> par-tényértékek
+   -> Wartoœci zmierzone zadane
+   -> Çàä.-Ôàêò. çíà÷åíèÿ
+
+[Component]: BtnSaveParas
+   -> &Speichern
+   -> &Save
+   -> &Enregistrer
+   -> &Salvare
+   -> &Guardar
+   -> &Opslaan
+   -> Gem
+   -> &Spara
+   -> &pohraniti
+   -> &Tárolni
+   -> &Zapis
+   -> &Ñîõðàíèòü
+
+[Component]: BtnSaveParasKA
+   -> &Speichern
+   -> &Save
+   -> &Enregistrer
+   -> &Salvare
+   -> &Guardar
+   -> &Opslaan
+   -> Gem
+   -> &Spara
+   -> &pohraniti
+   -> &Tárolni
+   -> &Zapis
+   -> &Ñîõðàíèòü
+
+[Component]: GrpStatus
+   -> Status
+   -> Status
+   -> Status
+   -> Stato
+   -> Estado
+   -> Status
+   -> Status
+   -> Status
+   -> status
+   -> státus
+   -> Status
+   -> Ñòàòóñ
+
+[Component]: LblTime
+   -> Uhrzeit
+   -> Time
+   -> Time
+   -> Tempo
+   -> Reloj
+   -> Tijd
+   -> Time
+   -> Time
+   -> Time
+   -> Time
+   -> Czas
+   -> Time
+
+[Component]: TbShtWWProg
+   -> Warmwasser
+   -> DHW
+   -> ECS
+   -> Acqua calda
+   -> ACS
+   -> Warm water
+   -> Varmt vand
+   -> Varmvatten
+   -> PTV
+   -> HMV
+   -> c.w.u.
+   -> Ãîðÿ÷àÿ âîäà
+
+[Component]: LblZeitDatum
+   -> Zeit-Datum: Sommerzeit
+   -> Time-Date: Summer time
+   -> Date heure d'été
+   -> Ora-data: estate
+   -> Hora-Fecha: Verano
+   -> Tijdstip-datum: zomertijd
+   -> Tid-dato: sommertid
+   -> Tid-Datum: Sommartid
+   -> Tid-Dato: Sommertid
+   -> Ura-Datum: Poletni èas
+   -> Sat-datum: ljetno vrijeme
+   -> idõ-nap: nyári idõsz.
+   -> Godzina-data: czas letni
+
+[Component]: TbShtZirkProg
+   -> Zirkulation
+   -> Circulation
+   -> Circulation
+   -> Ricircolo
+   -> Circulación
+   -> Circulatie
+   -> Cirkulation
+   -> Circulation
+   -> cirkulacija
+   -> keringtetés
+   -> cyrkulacja
+   -> Öèðêóëÿöèÿ
+   -> lblBetriebsartschalter
+   -> Betriebsartschalter
+   -> Type of oper.
+   -> Fct
+   -> TipoEser
+   -> Modo Cto
+   -> Werkingsstand
+   -> Driftsmade
+   -> Driftsatt
+   -> Driftstype
+   -> Rezim
+   -> vrst rada
+   -> uzemmod
+   -> Rodzaj pracy
+   -> Ðåæèì
+
+[Component]: LblSolar
+   -> Solarnutzung bei Legionellen-Funktion
+   -> Solar recov.  w.legio
+   -> Apport sol. Legion.
+   -> Sfrutt.solar  legio
+   -> Uso solar Legionella
+   -> Gebruik zon. bij legio
+   -> Soludnytte ved legio
+   -> Solaranv. vid Legio
+   -> Solarbruk
+   -> IzkSolar
+   -> Sa solarom antileg
+   -> szolar-legio
+   -> wykorz.en.st legio
+   -> ÈñïÑîëí.
+
+[Component]: Lbl581
+   -> 581 Zirkulation bei Legionellen-Funktion
+   -> 581 Circ w.legio
+   -> 581 Circ.Legion.
+   -> 581 Ricirc.legio
+   -> 581 Legionella
+   -> 581 Circ bij legio
+   -> 581 Cirk ved legio
+   -> 581 Cirk vid Legio
+   -> Sirk v legio
+   -> CirkLegio
+   -> 581 Cirk antileg
+   -> 581 legio-cirk
+   -> 581 cyrkul-legio
+   -> 581 ÖèðêÄèñáàêò
+   -> lbl522KA3
+   -> 522 Ausgang MFA 2
+   -> 522 Output MFA 2
+   -> 522 Sortie MFA 2
+   -> 522 Uscita MFA 2
+   -> 522 Salida MFA 2
+   -> 522 Uitgang MFA 2
+   -> 522 Udgang MFA 2
+   -> 522 Utgang MFA 2
+   -> 522 izlaz MFA 2
+   -> 522 MFA 2 kimenet
+   -> 522 Wyjœcie MFA 2
+   -> 522 Âûõîä MFA 2
+   -> stHints
+   -> TfrmWCMKA
+   -> PgCtrlKKM
+
+[Component]: TbShtProcess
+
+[Component]: GrpBxBurner
+
+[Component]: GrpBxOutlets
+
+[Component]: ChkGrpOutlets
+
+[Component]: GrpStatus
+
+[Component]: LblBetriebsart
+
+[Component]: LblFCode
+
+[Component]: CbBxBetriebsartHZ
+
+[Component]: EdtFCode
+
+[Component]: GrpBoxInlets
+   -> EGrpSetpoints
+
+[Component]: ChkBxH1
+
+[Component]: GrpBxSollwerte
+   -> EGrpTemps
+
+[Component]: Grpkaskade
+
+[Component]: LblKaskKonfig
+   -> EGrpKaskade
+   -> EGrpKessel2
+   -> EGrpKessel3
+   -> EGrpKessel4
+   -> EGrpKessel5
+   -> EGrpKessel1
+   -> MemoKonfig
+   -> TbshtParas
+
+[Component]: LblMFA
+
+[Component]: LblVA
+
+[Component]: LblH1
+
+[Component]: LblFolgewechsel
+
+[Component]: LblKesselfolge1
+   -> lblKesselfolge2
+
+[Component]: LblLegioZeit
+
+[Component]: LblLegiofkt
+
+[Component]: LblFolge1Kessel1
+
+[Component]: LblFolge1Kessel3
+
+[Component]: LblFolge1Kessel2
+
+[Component]: LblFolge1Kessel4
+
+[Component]: LblFolge1Kessel5
+
+[Component]: LblFolge2Kessel1
+
+[Component]: LblFolge2Kessel2
+
+[Component]: LblFolge2Kessel3
+
+[Component]: LblFolge2Kessel4
+
+[Component]: LblFolge2Kessel5
+   -> lblKonfig
+
+[Component]: CbBxMFA
+
+[Component]: CbBxVA
+
+[Component]: CbBxH1
+   -> EGrpSonderniveau
+
+[Component]: CbBxFolgeWechsel
+   -> EGrpWechselzeit
+
+[Component]: CbBxFolge1Kessel1
+
+[Component]: CbBxFolge1Kessel2
+
+[Component]: CbBxFolge1Kessel3
+
+[Component]: CbBxFolge1Kessel4
+
+[Component]: CbBxFolge1Kessel5
+
+[Component]: CbBxFolge2Kessel5
+
+[Component]: CbBxFolge2Kessel4
+
+[Component]: CbBxFolge2Kessel3
+
+[Component]: CbBxFolge2Kessel2
+
+[Component]: CbBxFolge2Kessel1
+   -> EGrpP3x
+
+[Component]: CbBxLegioZeit
+
+[Component]: CbBxLegioFkt
+
+[Component]: ChkGrpKonfig
+
+[Component]: GrpBxParas
+
+[Component]: BtnReadParas
+
+[Component]: BtnWriteParas
+
+[Component]: GrpBxParasFile
+
+[Component]: BtnLoadParas
+
+[Component]: BtnSaveParas
+   -> EGrpInfo11
+
+[Component]: TbShtWWProg
+
+[Component]: GrpBxWWProg
+   -> lblWWMo
+   -> lblWWDi
+   -> lblWWMi
+   -> lblWWDo
+   -> lblWWFr
+   -> lblWWSa
+   -> lblWWSo
+   -> lblWWTime1
+   -> lblWWTime2
+   -> lblWWTime3
+   -> lblWWEin1
+   -> lblWWAus1
+   -> lblWWEin2
+   -> lblWWAus2
+   -> lblWWEin3
+   -> lblWWAus3
+
+[Component]: CbBxWWSoEin1
+
+[Component]: CbBxWWSaEin1
+
+[Component]: CbBxWWFrEin1
+
+[Component]: CbBxWWDoEin1
+
+[Component]: CbBxWWMiEin1
+
+[Component]: CbBxWWDiEin1
+
+[Component]: CbBxWWMoEin1
+
+[Component]: CbBxWWMoAus1
+
+[Component]: CbBxWWDiAus1
+
+[Component]: CbBxWWMiAus1
+
+[Component]: CbBxWWDoAus1
+
+[Component]: CbBxWWFrAus1
+
+[Component]: CbBxWWSaAus1
+
+[Component]: CbBxWWSoAus1
+
+[Component]: CbBxWWSoEin2
+
+[Component]: CbBxWWSaEin2
+
+[Component]: CbBxWWFrEin2
+
+[Component]: CbBxWWDoEin2
+
+[Component]: CbBxWWMiEin2
+
+[Component]: CbBxWWDiEin2
+
+[Component]: CbBxWWMoEin2
+
+[Component]: CbBxWWMoAus2
+
+[Component]: CbBxWWDiAus2
+
+[Component]: CbBxWWMiAus2
+
+[Component]: CbBxWWDoAus2
+
+[Component]: CbBxWWFrAus2
+
+[Component]: CbBxWWSaAus2
+
+[Component]: CbBxWWSoAus2
+
+[Component]: CbBxWWSoEin3
+
+[Component]: CbBxWWSaEin3
+
+[Component]: CbBxWWFrEin3
+
+[Component]: CbBxWWDoEin3
+
+[Component]: CbBxWWMiEin3
+
+[Component]: CbBxWWDiEin3
+
+[Component]: CbBxWWMoEin3
+
+[Component]: CbBxWWMoAus3
+
+[Component]: CbBxWWDiAus3
+
+[Component]: CbBxWWMiAus3
+
+[Component]: CbBxWWDoAus3
+
+[Component]: CbBxWWFrAus3
+
+[Component]: CbBxWWSaAus3
+
+[Component]: CbBxWWSoAus3
+
+[Component]: ChkBxWWMoFr
+
+[Component]: ChkBxWWSaSo
+
+[Component]: ChkBxWWMoSo
+
+[Component]: GrpBxProgWW
+
+[Component]: BtnReadProgWW
+
+[Component]: BtnWriteProgWW
+
+[Component]: TbShtZirkProg
+
+[Component]: GrpBxZirkProg
+   -> lblZirkMo
+   -> lblZirkDi
+   -> lblZirkMi
+   -> lblZirkDo
+   -> lblZirkFr
+   -> lblZirkSa
+   -> lblZirkSo
+   -> lblZirkTime1
+   -> lblZirkEin1
+   -> lbZirkAus1
+   -> lblZirkEin2
+   -> lblZirkTime2
+   -> lbZirkAus2
+   -> lblZirkEin3
+   -> lblZirkTime3
+   -> lbZirkAus3
+
+[Component]: CbBxZirkMoEin1
+
+[Component]: CbBxZirkMoAus1
+
+[Component]: CbBxZirkMoEin2
+
+[Component]: CbBxZirkMoAus2
+
+[Component]: CbBxZirkMoEin3
+
+[Component]: CbBxZirkMoAus3
+
+[Component]: CbBxZirkDiEin1
+
+[Component]: CbBxZirkDiAus1
+
+[Component]: CbBxZirkDiEin2
+
+[Component]: CbBxZirkDiAus2
+
+[Component]: CbBxZirkDiEin3
+
+[Component]: CbBxZirkDiAus3
+
+[Component]: CbBxZirkMiAus3
+
+[Component]: CbBxZirkMiEin3
+
+[Component]: CbBxZirkMiAus2
+
+[Component]: CbBxZirkMiEin2
+
+[Component]: CbBxZirkMiAus1
+
+[Component]: CbBxZirkMiEin1
+
+[Component]: CbBxZirkDoEin1
+
+[Component]: CbBxZirkFrEin1
+
+[Component]: CbBxZirkSaEin1
+
+[Component]: CbBxZirkSoEin1
+
+[Component]: CbBxZirkSoAus1
+
+[Component]: CbBxZirkSaAus1
+
+[Component]: CbBxZirkFrAus1
+
+[Component]: CbBxZirkDoAus1
+
+[Component]: CbBxZirkDoEin2
+
+[Component]: CbBxZirkFrEin2
+
+[Component]: CbBxZirkSaEin2
+
+[Component]: CbBxZirkSoEin2
+
+[Component]: CbBxZirkSaAus2
+
+[Component]: CbBxZirkSoAus2
+
+[Component]: CbBxZirkFrAus2
+
+[Component]: CbBxZirkDoAus2
+
+[Component]: CbBxZirkDoEin3
+
+[Component]: CbBxZirkFrEin3
+
+[Component]: CbBxZirkSaEin3
+
+[Component]: CbBxZirkSoEin3
+
+[Component]: CbBxZirkSaAus3
+
+[Component]: CbBxZirkSoAus3
+
+[Component]: CbBxZirkFrAus3
+
+[Component]: CbBxZirkDoAus3
+
+[Component]: ChkBxZirkMoFr
+
+[Component]: ChkBxZirkSaSo
+
+[Component]: ChkBxZirkMoSo
+
+[Component]: GrpBxProgZirk
+
+[Component]: BtnReadProgZirk
+
+[Component]: BtnWriteProgZirk
+   -> TBShtFMHZ
+   -> lbl521
+   -> lbl522
+   -> lbl523
+   -> lbl525
+   -> lbl531
+   -> lbl533
+   -> lbl534
+   -> LBlFolge1Kess1
+   -> LBlFolge1Kess2
+   -> LBlFolge1Kess3
+   -> LBlFolge2Kess1
+   -> LBlFolge2Kess2
+   -> LBlFolge2Kess3
+   -> LBlFolge2Kess5
+   -> LBlFolge2Kess4
+   -> LBlFolge1Kess5
+   -> LBlFolge1Kess4
+
+[Component]: LblZeitDatum
+
+[Component]: Lbl593
+
+[Component]: Lbl594
+   -> EgrpP524
+   -> EGrpP532
+
+[Component]: CbBxP521
+
+[Component]: CbBxP522
+
+[Component]: CbBxP523
+
+[Component]: CbBxP525
+
+[Component]: CbBxP531
+
+[Component]: CbBxFolge1Kess1
+
+[Component]: CbBxFolge1Kess2
+
+[Component]: CbBxFolge1Kess3
+
+[Component]: CbBxFolge1Kess5
+
+[Component]: CbBxFolge1Kess4
+
+[Component]: CbBxFolge2Kess4
+
+[Component]: CbBxFolge2Kess5
+
+[Component]: CbBxFolge2Kess1
+
+[Component]: CbBxFolge2Kess2
+
+[Component]: CbBxFolge2Kess3
+   -> EGrpP535_562
+
+[Component]: CbBxP593_tag
+
+[Component]: CbBxP593_Monat
+
+[Component]: CbBxP594_monat
+
+[Component]: CbBxP594_tag
+
+[Component]: GrpBxParasFM
+
+[Component]: BtnReadFM_HZK
+
+[Component]: BtnWriteFM_HZK
+
+[Component]: GrpBxFileKA
+
+[Component]: BtnLoadParasKA
+
+[Component]: BtnSaveParasKA
+
+[Component]: TbShtFMWW
+   -> lbl579
+   -> lbl580
+   -> lbl582
+   -> CbbxP579
+   -> CbbxP580
+
+[Component]: ChkBxP581
+   -> CbbxP582
+
+[Component]: GrpBxParasWW
+
+[Component]: BtnReadFM_WW
+
+[Component]: BtnWriteFM_WW
+
+[Component]: ChkBxSolar
+
+[Component]: TbShtHistorie
+
+[Component]: GrpBxHistory
+
+[Component]: LblErr1
+
+[Component]: LblErr2
+
+[Component]: LblErr3
+
+[Component]: LblErr4
+
+[Component]: LblErr5
+
+[Component]: LblErrorCode
+
+[Component]: LblDate
+
+[Component]: LblTime
+   -> lblerr6
+   -> lblerr7
+   -> lblerr8
+   -> lblerr9
+   -> lblerr10
+
+[Component]: LblAdresse
+
+[Component]: StrGridHistory
+
+[Component]: GrpBxHistorie
+
+[Component]: BtnReadHistorie
+
+[Component]: BtnResetHistorie
+
+[Component]: TbShtKonfig
+
+[Component]: GrpBxConfig
+
+[Component]: GrpBxP512
+
+[Component]: Edt512_A
+
+[Component]: Edt512_B
+
+[Component]: Edt512_C
+
+[Component]: Edt512_D
+
+[Component]: Edt512_E
+
+[Component]: GrpBxP513
+
+[Component]: CbBxP513_Weiche
+
+[Component]: CbBxP513_Puffer
+
+[Component]: CbBxP513_WW
+
+[Component]: CbBxP513_N1
+
+[Component]: GrpBxP514
+   -> EgrpVerbraucher
+
+[Component]: GrpBxConfigParas
+
+[Component]: BtnReadConfig
+   -> EGrpP572_576
+   -> lbl571
+   -> CbbxP571
+   -> lbl577
+   -> CbbxP577
+   -> EGrpP578
+
+[Component]: EdtTest
+   -> lblBetriebsartschalter
+
+[Component]: EdtBetriebsartschalter
+
+[Component]: CbBxBetriebsartschalter
+
+[Component]: LblSolar
+
+[Component]: Lbl581
+   -> lbl522KA3
+
+[Component]: CbBxP522KA3
+   -> EgrpP580KA3
+
+[Component]: EdtKesselfolge11
+
+[Component]: EdtKesselfolge12
+
+[Component]: EdtKesselfolge13
+
+[Component]: EdtKesselfolge14
+
+[Component]: EdtKesselfolge15
+
+[Component]: EdtKesselfolge21
+
+[Component]: EdtKesselfolge22
+
+[Component]: EdtKesselfolge23
+
+[Component]: EdtKesselfolge24
+
+[Component]: EdtKesselfolge25
+
+[Component]: Edt514_Sonder
+   -> stDisplayLabels
+   -> stFonts
+   -> TfrmWCMKA
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> Tahoma
+   -> stMultiLines
+
+[Component]: CbBxZirkMiAus1.Items
+
+[Component]: CbBxZirkMiAus2.Items
+
+[Component]: CbBxZirkMiAus3.Items
+
+[Component]: CbBxZirkFrEin1.Items
+
+[Component]: CbBxZirkFrEin2.Items
+
+[Component]: CbBxZirkFrEin3.Items
+
+[Component]: CbBxZirkMoAus1.Items
+
+[Component]: CbBxZirkMoAus2.Items
+
+[Component]: CbBxZirkMoAus3.Items
+
+[Component]: CbBxZirkMiEin1.Items
+
+[Component]: CbBxZirkMiEin2.Items
+
+[Component]: CbBxZirkMiEin3.Items
+
+[Component]: CbBxZirkFrAus3.Items
+
+[Component]: CbBxZirkDiEin3.Items
+
+[Component]: CbBxZirkDoAus1.Items
+
+[Component]: CbBxZirkDoAus2.Items
+
+[Component]: CbBxZirkDiAus3.Items
+
+[Component]: CbBxZirkDiEin1.Items
+
+[Component]: CbBxZirkDiEin2.Items
+
+[Component]: CbBxZirkDoEin3.Items
+
+[Component]: CbBxZirkFrAus1.Items
+
+[Component]: CbBxZirkFrAus2.Items
+
+[Component]: CbBxZirkDoAus3.Items
+
+[Component]: CbBxZirkDoEin1.Items
+
+[Component]: CbBxZirkDoEin2.Items
+
+[Component]: CbBxZirkMoEin1.Items
+
+[Component]: CbBxFolge1Kess3.Items
+
+[Component]: CbBxFolge1Kess5.Items
+
+[Component]: CbBxFolge1Kess4.Items
+
+[Component]: CbBxZirkSoEin3.Items
+
+[Component]: CbBxFolge1Kess1.Items
+
+[Component]: CbBxFolge1Kess2.Items
+
+[Component]: CbBxFolge2Kess2.Items
+
+[Component]: CbBxFolge2Kess3.Items
+   -> CbbxP582.Items
+
+[Component]: CbBxFolge2Kess4.Items
+
+[Component]: CbBxFolge2Kess5.Items
+
+[Component]: CbBxFolge2Kess1.Items
+
+[Component]: CbBxZirkSoEin2.Items
+
+[Component]: CbBxZirkSaAus2.Items
+
+[Component]: CbBxZirkSaAus3.Items
+
+[Component]: CbBxZirkSaEin1.Items
+
+[Component]: CbBxZirkMoEin2.Items
+
+[Component]: CbBxZirkMoEin3.Items
+
+[Component]: CbBxZirkSaAus1.Items
+
+[Component]: CbBxZirkSoAus2.Items
+
+[Component]: CbBxZirkSoAus3.Items
+
+[Component]: CbBxZirkSoEin1.Items
+
+[Component]: CbBxZirkSaEin2.Items
+
+[Component]: CbBxZirkSaEin3.Items
+
+[Component]: CbBxZirkSoAus1.Items
+
+[Component]: CbBxWWFrAus3.Items
+
+[Component]: CbBxWWFrEin1.Items
+
+[Component]: CbBxWWFrAus2.Items
+
+[Component]: CbBxWWDoEin3.Items
+
+[Component]: CbBxWWFrAus1.Items
+
+[Component]: CbBxWWFrEin2.Items
+
+[Component]: CbBxWWMiAus3.Items
+
+[Component]: CbBxWWMiEin1.Items
+
+[Component]: CbBxWWMiAus2.Items
+
+[Component]: CbBxWWFrEin3.Items
+
+[Component]: CbBxWWMiAus1.Items
+
+[Component]: CbBxWWDiAus1.Items
+
+[Component]: CbBxWWDiEin2.Items
+
+[Component]: CbBxWWDiAus2.Items
+
+[Component]: CbBxWWDiEin1.Items
+
+[Component]: CbBxWWDiAus3.Items
+
+[Component]: CbBxWWDiEin3.Items
+
+[Component]: CbBxWWDoEin1.Items
+
+[Component]: CbBxWWDoEin2.Items
+
+[Component]: CbBxWWDoAus3.Items
+
+[Component]: CbBxWWDoAus1.Items
+
+[Component]: CbBxWWDoAus2.Items
+
+[Component]: CbBxWWSoAus1.Items
+
+[Component]: CbBxWWSoAus2.Items
+
+[Component]: CbBxWWSaEin3.Items
+
+[Component]: CbBxWWSaEin1.Items
+
+[Component]: CbBxWWSaEin2.Items
+
+[Component]: CbBxWWSoEin3.Items
+
+[Component]: CbBxWWSoEin2.Items
+
+[Component]: CbBxZirkDiAus1.Items
+
+[Component]: CbBxWWSoAus3.Items
+
+[Component]: CbBxWWSoEin1.Items
+
+[Component]: CbBxWWSaAus3.Items
+
+[Component]: CbBxWWMoAus2.Items
+
+[Component]: CbBxWWMoAus3.Items
+
+[Component]: CbBxWWMoAus1.Items
+
+[Component]: CbBxWWMiEin2.Items
+
+[Component]: CbBxWWMiEin3.Items
+
+[Component]: CbBxWWSaAus1.Items
+
+[Component]: CbBxWWSaAus2.Items
+
+[Component]: CbBxWWMoEin3.Items
+
+[Component]: CbBxZirkDiAus2.Items
+
+[Component]: CbBxWWMoEin2.Items
+
+[Component]: CbBxP525.Items
+   -> "2 - 10V","4 - 20mA"
+   -> EGrpSonderniveau.Items
+   -> "304 Sonderniveau#°C"
+   -> "304 Special level#°C"
+   -> "304 Niveau spécial#°C"
+   -> "304 livello speciale#°C"
+   -> "304 Nivel especial#°C"
+   -> "304 Speciaal niveau#°C"
+   -> "304 Specielt niveau"
+   -> "304 Specialniva#°C"
+   -> "304 posebna razina#°C"
+   -> "304 specszint#°C"
+   -> "304 poziom specjalny#°C"
+   -> "304 Ñïåö. óðîâåíü#°C"
+   -> EGrpWechselzeit.Items
+   -> "312 Wechselzeit#min"
+   -> "312 Change-over time#min"
+   -> "312 Intervalle de commutation#min"
+   -> "312 tempo inversione#min"
+   -> "312 TiempCambioSecuen#min"
+   -> "312 Wisseltijd#min"
+   -> "312 Omkoblingstidspunkt#min"
+   -> "312 Växeltid#min"
+   -> "312 vrijeme izmjene#min"
+   -> "312 váltásidõ#min"
+   -> "312 czas przelacz.#min"
+   -> "312 Âðåìÿ ñìåíû#÷àñ"
+   -> EGrpP3x.Items
+   -> "315 Modulation Min#%","316 Modulation Max#%","317 Sperrzeit#min","318 Abregeltemp#°C","331 Weiche Überhöhung#K","332 Weiche Min#°C","333 Weiche Max#°C","341 Pufferüberhöhung#K","342 Puffer-Schaltdifferenz#K","351 WW-Sollwert#°C","352 WW-Min#°C","353 WW-Max#°C","354 WW-Schaltdiff#K","355 WW-Überhöhung#K"
+   -> "315 Modulation Min#%","316 Modulation Max#%","317 Blocking time#min","318 Cont. temp#°C","331 De-couple exceeded#K","332 De-couple Min#°C","333 De-couple Max#°C","341 Calorifier exceeded#K","342 calorifier switch difference#K","351 DHW setpoint#°C","352 DHW Min#°C","353 DHW-Max#°C","354 DHW Switch diff#K","355 DHW exceeded#K"
+   -> "315 Modulation min#%","316 Modulation Max#%","317 Temps de blocage#min","318 Température de réglage#°C","331 Elévation bouteille casse-pression#K","332 Mini bouteille casse-pression#°C","333 Maxi bouteille casse-pression#°C","341 Surélévation tampon#K","342 Différentiel commutation tampon#K","351 Consigne ECS#°C","352 Mini ECS#°C","353 Maxi ECS#°C","354 Différentiel commutation CES#K","355 Surélévation ECS#K"
+   -> "315 modulazione min.#%","316 modulazione max.#%","317 tempo interdizione#min","318 temperatura di regolaz.#°C","331 superamento compensatore#K","332 compensatore min.#°C","333 compensatore max.#°C","341 superamento polmone#K","342 differenziale polmone#K","351 valore nomin. AC#°C","352 AC min.#°C","353 AC max.#°C","354 differenziale AC#K","355 superamento AC#K"
+   -> "315 Modulación Min#%","316 Modulación Max#%","317 TiempoMinParo#min","318 LimTempWTC#°C","331 ElevDemColector#K","332 TempMinColector#°C","333 TempMaxColector#°C","341 ElevDemAcum#K","342 Hister.Acum#K","351 Consig.ACS#°C","352 TempMinACS#°C","353 TempMaxACS#°C","354 Hister.ACS#K","355 IncrTempACS#K"
+   -> "315 Modulatie min#%","316 Modulatie max#%","317 Afsluittijd#min","318 Afregeltemp#°C","331 Evenwichtsfles verhoging#K","332 Evenwichtsfles min#°C","333 Evenwichtsfles max#°C","341 Buffervatverhoging#K","342 Buffervat-schakeldifferentieel#K","351 WW-instelwaarde#°C","352 WW-min#°C","353 WW-max#°C","354 WW-schakeldiff#K","355 WW-verhoging#K"
+   -> "315 Modulation Min#%","316 Modulation Max#%","317 Spærretid#min","318 Max.reguleringstemp#°C","331 Blandepotteforhøjelse#K","332 Blandepotte Min#°C","333 Blandepotte Max#°C","341 Buffer forhøjelse#K","342 Bufferindkoblingsdifferens#K","351 Beholdertemperatur#°C","352 VV-Min#°C","353 VV-Max#°C","354 VV-koblingsdiff#K","355 VV-forhøjelse#K"
+   -> "315 Modulering Min#%","316 Modulering Max#%","317 Spärrtid#min","318 Avregl.temp#°C","331 Växel Ökning#K","332 Växel Min#°C","333 Växel Max#°C","341 Ackum.ökning#K","342 Ackum.koppl.diff.#K","351 VV-Börvärde#°C","352 VV-Min#°C","353 VV-Max#°C","354 VV-Koppl.diff#K","355 VV-Ökning#K"
+   -> "315 Modulacija min#%","316 Modulacija maks#%","317 vrijeme zapora#min","318 temp.podregulacije#°C","331 razdjelnik preko#K","332 razdjelnik min#°C","333 razdjelnik maks#°C","341 aku-spremnik preko#K","342 sklopna razlika aku-spremnika#K","351 PTV zadano#°C","352 PTV-min#°C","353 PTV-maks#°C","354 PTV-sklopna razlika#K","355 PTV-preko#K"
+   -> "315 moduláció Min#%","316 moduláció Max#%","317 zároltidõ#min","318 leszabhõm#°C","331 váltó túlemelés#K","332 váltó Min#°C","333 váltó Max#°C","341 puffertúlemelés#K","342 puffer-kapcsdiff#K","351 HMV-parért#°C","352 HMV-Min#°C","353 HMV-Max#°C","354 HMV-kapcsdiff#K","355 HMV-túlemelés#K"
+   -> "315 minimalna modulacja#%","316 maksymalna modulacja#%","317 czas blokady#min","318 temperatura wyrównania#°C","331 przekrocz. temp. w sprzegle#K","332 min. temp. w sprzegle#°C","333 maks. temp. w sprzegle#°C","341 przekrocz. t. zasobnika#K","342 histereza czujn.t. zasobn.#K","351 wartosc zadana c.w.u.#°C","352 minimalna temperatura c.w.u.#°C","353 maks. temp. c.w.u.#°C","354 histereza czujn.temp. c.w.u.#K","355 przekrocz. temp. c.w.u.#K"
+   -> "315 Ìîäóëÿöèÿ ìèí.#%","316 Ìîäóëÿöèÿ ìàêñ.#%","317 Âðåìÿ áëîêèðîâêè#ìèí.","318 Òåìïåðàòóðà îòðåãóëèðîâàíèÿ#°C","331 Ïðåâûøåíèå íà ñòðåëêå#K","332 Ñòðåëêà ìèí.#°C","333 Ñòðåëêà ìàêñ.#°C","341 Ïðåâûøåíèå íà áóôåðå#K","342 Ðàçíîñòü ïåðåêëþ÷åíèé íà áóôåðå#K","351 Çàäàííîå çíà÷åíèå ÃÂ#°C","352 ÃÂ-ìèí.#°C","353 ÃÂ-ìàêñ.#°C","354 ÃÂ-Ðàçíîñòü ïåðåêëþ÷.#K","355 ÃÂ-ïðåâûøåíèå#K"
+   -> EgrpP524.Items
+   -> "524 Sonderniveau#°C"
+   -> "524 Special level#°C"
+   -> "524 Niveau spécial#°C"
+   -> "524 livello speciale#°C"
+   -> "524 Nivel especial#°C"
+   -> "524 Speciaal niveau#°C"
+   -> "524 Specielt niveau"
+   -> "524 Specialniva#°C"
+   -> "524 posebna razina#°C"
+   -> "524 specszint#°C"
+   -> "524 poziom specjalny#°C"
+   -> "524 Ñïåö. óðîâåíü#°C"
+   -> EGrpP532.Items
+   -> "532 Wechselzeit#h"
+   -> "532 Change-over time#h"
+   -> "532 Intervalle de commutation#h"
+   -> "532 tempo inversione#h"
+   -> "532 TiempCambioSecuen#h"
+   -> "532 Wisseltijd#h"
+   -> "532 Omkoblingstidspunkt"
+   -> "532 Växeltid#h"
+   -> "532 vrijeme izmjene#h"
+   -> "532 váltásidõ#h"
+   -> "532 czas przelacz.#h"
+   -> "532 Âðåìÿ ñìåíû#÷àñ"
+   -> EGrpP535_562.Items
+   -> "535 Modulation Min#%","536 Modulation Max#%","537 Sperrzeit#min","538 Abregeldifferenz#K","539 1/P-Regler","540 I-Regler","551 Weiche Überhöhung#K","552 Weiche Min#°C","553 Weiche Max#°C","561 Pufferüberhöhung#K","562 Puffer-Schaltdifferenz#K"
+   -> "535 Modulation Min#%","536 Modulation Max#%","537 Blocking time#min","538 Cont. temp#°C","539 1/P-Regler","540 I-Regler","551 De-couple exceeded#K","552 De-couple Min#°C","553 De-couple Max#°C","561 Calorifier exceeded#K","562 calorifier switch difference#K"
+   -> "535 Modulation min#%","536 Modulation Max#%","537 Temps de blocage#min","538 Température de réglage#°C","539 1/P-Regler","540 I-Regler","551 Elévation bouteille casse-pression#K","552 Mini bouteille casse-pression#°C","553 Maxi bouteille casse-pression#°C","561 Surélévation tampon#K","562 Différentiel commutation tampon#K"
+   -> "535 modulazione min.#%","536 modulazione max.#%","537 tempo interdizione#min","538 temperatura di regolaz.#°C","539 1/P-Regler","540 I-Regler","551 superamento compensatore#K","552 compensatore min.#°C","553 compensatore max.#°C","561 superamento polmone#K","562 differenziale polmone#K"
+   -> "535 Modulación Min#%","536 Modulación Max#%","537 TiempoMinParo#min","538 LimTempWTC#°C","539 1/P-Regler","540 I-Regler","551 ElevDemColector#K","552 TempMinColector#°C","553 TempMaxColector#°C","561 ElevDemAcum#K","562 Hister.Acum#K"
+   -> "535 Modulatie min#%","536 Modulatie max#%","537 Afsluittijd#min","538 Afregeltemp#°C","539 1/P-Regler","540 I-Regler","551 Evenwichtsfles verhoging#K","552 Evenwichtsfles min#°C","553 Evenwichtsfles max#°C","561 Buffervatverhoging#K","562 Buffervat-schakeldifferentieel#K"
+   -> "535 Modulation Min#%","536 Modulation Max#%","537 Spærretid#min","538 Max.reguleringstemp#°C","539 1/P-Regler","540 I-Regler","551 Blandepotteforhøjelse#K","552 Blandepotte Min#°C","553 Blandepotte Max#°C","561 Buffer forhøjelse#K","562 Bufferindkoblingsdifferens#K"
+   -> "535 Modulering Min#%","536 Modulering Max#%","537 Spärrtid#min","538 Avregl.temp#°C","539 1/P-Regler","540 I-Regler","551 Växel Ökning#K","552 Växel Min#°C","553 Växel Max#°C","561 Ackum.ökning#K","562 Ackum.koppl.diff.#K"
+   -> "535 Modulacija min#%","536 Modulacija maks#%","537 vrijeme zapora#min","538 temp.podregulacije#°C","539 1/P-Regler","540 I-Regler","551 razdjelnik preko#K","552 razdjelnik min#°C","553 razdjelnik maks#°C","561 aku-spremnik preko#K","562 sklopna razlika aku-spremnika#K"
+   -> "535 moduláció Min#%","536 moduláció Max#%","537 zároltidõ#min","538 leszabhõm#°C","539 1/P-Regler","540 I-Regler","551 váltó túlemelés#K","552 váltó Min#°C","553 váltó Max#°C","561 puffertúlemelés#K","562 puffer-kapcsdiff#K"
+   -> "535 minimalna modulacja#%","536 maksymalna modulacja#%","537 czas blokady#min","538 temperatura wyrównania#°C","539 1/P-Regler","540 I-Regler","551 przekrocz. temp. w sprzegle#K","552 min. temp. w sprzegle#°C","553 maks. temp. w sprzegle#°C","561 przekrocz. t. zasobnika#K","562 histereza czujn.t. zasobn.#K"
+   -> "535 Ìîäóëÿöèÿ ìèí.#%","536 Ìîäóëÿöèÿ ìàêñ.#%","537 Âðåìÿ áëîêèðîâêè#ìèí.","538 Òåìïåðàòóðà îòðåãóëèðîâàíèÿ#°C","539 1/P-Regler","540 I-Regler","551 Ïðåâûøåíèå íà ñòðåëêå#K","552 Ñòðåëêà ìèí.#°C","553 Ñòðåëêà ìàêñ.#°C","561 Ïðåâûøåíèå íà áóôåðå#K","562 Ðàçíîñòü ïåðåêëþ÷åíèé íà áóôåðå#K"
+   -> EGrpP572_576.Items
+   -> "572 WW-Normal#°C","573 WW-Absenk#°C","574 WW-Max#°C","575 WW-Schaltdiff#K","576 WW-Überhöhung#K"
+   -> "572 DHW Normal setpoint#°C","573 DHW Reduce setpoint#°C","574 DHW-Max#°C","575 DHW Switch diff#K","576 DHW exceeded#K"
+   -> "572 Consigne ECS normale#°C","573 Consigne ECS réduite#°C","574 Maxi ECS#°C","575 Différentiel commutation CES#K","576 Surélévation ECS#K"
+   -> "572 ACS setpoint normale#°C","573 ACS setpoint ridotto#°C","574 AC max.#°C","575 differenziale AC#K","576 superamento AC#K"
+   -> "572 Consigna ACS normal#°C","573 Consigna ACS reducida#°C","574 TempMaxACS#°C","575 Hister.ACS#K","576 IncrTempACS#K"
+   -> "572 Normale WW gewenstl#°C","573 Verlaagde WW gewenst#°C","574 WW-max#°C","575 WW-schakeldiff#K","576 WW-verhoging#K"
+   -> "572 Normal beregnet VV#°C","573 Beregnet sænk VV#°C","574 VV-Max#°C","575 VV-koblingsdiff#K","576 VV-forhøjelse#K"
+   -> "572 Normal VV-Bör#°C","573 Nedsänkt VV-Bör#°C","574 VV-Max#°C","575 VV-Koppl.diff#K","576 VV-Ökning#K"
+   -> "572 Normal PTV zadan#°C","573 Umanjen PTV zadan#°C","574 PTV-maks#°C","575 PTV-sklopna razlika#K","576 PTV-preko#K"
+   -> "572 normál HMV-par#°C","573 csökk HMV-par#°C","574 HMV-Max#°C","575 HMV-kapcsdiff#K","576 HMV-túlemelés#K"
+   -> "572 Temp.zad.norm.cwu#°C","573 Temp.zad.obni¿.cwu#°C","574 maks. temp. c.w.u.#°C","575 histereza czujn.temp. c.w.u.#K","576 przekrocz. temp. c.w.u.#K"
+   -> "572 Çàäàííîå çíà÷åíèå ÃÂ#°C","573 ÃÂ-ìèí.#°C","574 ÃÂ-ìàêñ.#°C","575 ÃÂ-Ðàçíîñòü ïåðåêëþ÷.#K","576 ÃÂ-ïðåâûøåíèå#K"
+   -> EGrpP578.Items
+   -> "578 Max Leistung für WW#%"
+   -> "578 Max load DHW#%"
+   -> "578 Puissance maxi ECS#%"
+   -> "578 Max Pot ACS#%"
+   -> "578 Pot.Max.Carga ACS#%"
+   -> "578 Max vermogen WW#%"
+   -> "578 Max.ydelse VV#%"
+   -> "578 Max.effekt VV#%"
+   -> "Maks ytelse VV"
+   -> "Maks. moc TV"
+   -> "578 Maks snaga PTV#%"
+   -> "578 maxtelj HMV-kesz#%"
+   -> "578 Moc maks.ladow.cwu#%"
+   -> "578 ÌàêñÌîùíÃÂÑ#%"
+   -> EGrpKessel1.Items
+   -> "Adresse / Typ",Betriebsart,Nennleistung#KW,"Aktuelle Leistung#KW"
+   -> "Address / Type","Type of oper.","Nominal rating#KW","Current rating#KW"
+   -> "Adresse / Type","Mode de fonctionnement","Puissance nominale#KW","Puissance actuelle#KW"
+   -> "indirizzo / tipo","tipo di esercizio","potenzialità nominale#KW","potenzialità attuale#KW"
+   -> "Dirección / Tipo",Modo,"Potencia nominal#KW","Potencia actual#KW"
+   -> "Adres / type",bedrijfsaard,"nominaal vermogen#KW","Actueel vermogen#KW"
+   -> "Adresse / type", driftsmåde, Nom.ydelse#kW,"Aktuel ydelse#kW"
+   -> "Adress / Typ",Drifttyp,Nom.effekt#KW,"Aktuell effekt#KW"
+   -> "Adresa / tip","vrsta rada","nazivna snaga#KW","sad je snaga#KW"
+   -> cím/tip,üzemmód,névl.teljm#KW,"aktuális teljm#KW"
+   -> "adres / typ","tryb pracy","moc nominalna#KW","moc aktualna#KW"
+   -> "Àäðåñ / Òèï","Ðåæèì ðàáîòû","Íîì. ìîùíîñòü#êÂò","Àêò. ìîùíîñòü#êÂò"
+   -> EGrpKessel4.Items
+   -> "Adresse / Typ",Betriebsart,Nennleistung#KW,"Aktuelle Leistung#KW"
+   -> "Address / Type","Type of oper.","Nominal rating#KW","Current rating#KW"
+   -> "Adresse / Type","Mode de fonctionnement","Puissance nominale#KW","Puissance actuelle#KW"
+   -> "indirizzo / tipo","tipo di esercizio","potenzialità nominale#KW","potenzialità attuale#KW"
+   -> "Dirección / Tipo",Modo,"Potencia nominal#KW","Potencia actual#KW"
+   -> "Adres / type",bedrijfsaard,"nominaal vermogen#KW","Actueel vermogen#KW"
+   -> "Adresse / type", driftsmåde, Nom.ydelse#kW,"Aktuel ydelse#kW"
+   -> "Adress / Typ",Drifttyp,Nom.effekt#KW,"Aktuell effekt#KW"
+   -> "Adresa / tip","vrsta rada","nazivna snaga#KW","sad je snaga#KW"
+   -> cím/tip,üzemmód,névl.teljm#KW,"aktuális teljm#KW"
+   -> "adres / typ","tryb pracy","moc nominalna#KW","moc aktualna#KW"
+   -> "Àäðåñ / Òèï","Ðåæèì ðàáîòû","Íîì. ìîùíîñòü#êÂò","Àêò. ìîùíîñòü#êÂò"
+   -> EGrpKessel5.Items
+   -> "Adresse / Typ",Betriebsart,Nennleistung#KW,"Aktuelle Leistung#KW"
+   -> "Address / Type","Type of oper.","Nominal rating#KW","Current rating#KW"
+   -> "Adresse / Type","Mode de fonctionnement","Puissance nominale#KW","Puissance actuelle#KW"
+   -> "indirizzo / tipo","tipo di esercizio","potenzialità nominale#KW","potenzialità attuale#KW"
+   -> "Dirección / Tipo",Modo,"Potencia nominal#KW","Potencia actual#KW"
+   -> "Adres / type",bedrijfsaard,"nominaal vermogen#KW","Actueel vermogen#KW"
+   -> "Adresse / type", driftsmåde, Nom.ydelse#kW,"Aktuel ydelse#kW"
+   -> "Adress / Typ",Drifttyp,Nom.effekt#KW,"Aktuell effekt#KW"
+   -> "Adresa / tip","vrsta rada","nazivna snaga#KW","sad je snaga#KW"
+   -> cím/tip,üzemmód,névl.teljm#KW,"aktuális teljm#KW"
+   -> "adres / typ","tryb pracy","moc nominalna#KW","moc aktualna#KW"
+   -> "Àäðåñ / Òèï","Ðåæèì ðàáîòû","Íîì. ìîùíîñòü#êÂò","Àêò. ìîùíîñòü#êÂò"
+   -> EGrpKessel2.Items
+   -> "Adresse / Typ",Betriebsart,Nennleistung#KW,"Aktuelle Leistung#KW"
+   -> "Address / Type","Type of oper.","Nominal rating#KW","Current rating#KW"
+   -> "Adresse / Type","Mode de fonctionnement","Puissance nominale#KW","Puissance actuelle#KW"
+   -> "indirizzo / tipo","tipo di esercizio","potenzialità nominale#KW","potenzialità attuale#KW"
+   -> "Dirección / Tipo",Modo,"Potencia nominal#KW","Potencia actual#KW"
+   -> "Adres / type",bedrijfsaard,"nominaal vermogen#KW","Actueel vermogen#KW"
+   -> "Adresse / type", driftsmåde, Nom.ydelse#kW,"Aktuel ydelse#kW"
+   -> "Adress / Typ",Drifttyp,Nom.effekt#KW,"Aktuell effekt#KW"
+   -> "Adresa / tip","vrsta rada","nazivna snaga#KW","sad je snaga#KW"
+   -> cím/tip,üzemmód,névl.teljm#KW,"aktuális teljm#KW"
+   -> "adres / typ","tryb pracy","moc nominalna#KW","moc aktualna#KW"
+   -> "Àäðåñ / Òèï","Ðåæèì ðàáîòû","Íîì. ìîùíîñòü#êÂò","Àêò. ìîùíîñòü#êÂò"
+   -> EGrpKessel3.Items
+   -> "Adresse / Typ",Betriebsart,Nennleistung#KW,"Aktuelle Leistung#KW"
+   -> "Address / Type","Type of oper.","Nominal rating#KW","Current rating#KW"
+   -> "Adresse / Type","Mode de fonctionnement","Puissance nominale#KW","Puissance actuelle#KW"
+   -> "indirizzo / tipo","tipo di esercizio","potenzialità nominale#KW","potenzialità attuale#KW"
+   -> "Dirección / Tipo",Modo,"Potencia nominal#KW","Potencia actual#KW"
+   -> "Adres / type",bedrijfsaard,"nominaal vermogen#KW","Actueel vermogen#KW"
+   -> "Adresse / type", driftsmåde, Nom.ydelse#kW,"Aktuel ydelse#kW"
+   -> "Adress / Typ",Drifttyp,Nom.effekt#KW,"Aktuell effekt#KW"
+   -> "Adresa / tip","vrsta rada","nazivna snaga#KW","sad je snaga#KW"
+   -> cím/tip,üzemmód,névl.teljm#KW,"aktuális teljm#KW"
+   -> "adres / typ","tryb pracy","moc nominalna#KW","moc aktualna#KW"
+   -> "Àäðåñ / Òèï","Ðåæèì ðàáîòû","Íîì. ìîùíîñòü#êÂò","Àêò. ìîùíîñòü#êÂò"
+
+[Component]: CbBxP531.Items
+   -> "Folge 1","Folge 2",Zeitlich,Leistung
+   -> "Sequence 1","Sequence 2",temporal,rating
+   -> "Cascade 1","Cascade 2","Fonction du temps",puissance
+   -> "sequenza 1","sequenza 2",temporizzata,potenzialità
+   -> "Secuencia 1","Secuencia 2",Temporal,Potencia
+   -> "Volgorde 1","Volgorde 2",tijdelijk,vermogen
+   -> "Følge 1", "Følge 2", Tidsbegrænset,Ydelse
+   -> "Pannföljd 1", "Pannföljd 2",Tid,Effekt
+   -> "Niz 1","Niz 2","Po vremenu",snagi
+   -> "sorrend 1","sorrend 2""",idõben,teljesítm
+   -> "cykl 1","cykl 2",równoczesny,moc
+   -> "Ïîñëåäîâàòåëüíîñòü 1","Ïîñëåäîâàòåëüíîñòü 2","ïî âðåìåíè",ìîùíîñòü
+
+[Component]: CbBxFolgeWechsel.Items
+   -> "Folge 1","Folge 2",Zeitlich,Leistung
+   -> "Sequence 1","Sequence 2",temporal,rating
+   -> "Cascade 1","Cascade 2","Fonction du temps",puissance
+   -> "sequenza 1","sequenza 2",temporizzata,potenzialità
+   -> "Secuencia 1","Secuencia 2",Temporal,Potencia
+   -> "Volgorde 1","Volgorde 2",tijdelijk,vermogen
+   -> "Følge 1", "Følge 2", Tidsbegrænset,Ydelse
+   -> "Pannföljd 1", "Pannföljd 2",Tid,Effekt
+   -> "Niz 1","Niz 2","Po vremenu",snagi
+   -> "sorrend 1","sorrend 2""",idõben,teljesítm
+   -> "cykl 1","cykl 2",równoczesny,moc
+   -> "Ïîñëåäîâàòåëüíîñòü 1","Ïîñëåäîâàòåëüíîñòü 2","ïî âðåìåíè",ìîùíîñòü
+   -> EGrpInfo11.Items
+   -> "I11 Software Version"
+   -> "I11 Software Version"
+   -> "I11 Software Version"
+   -> "I11 versione software"
+   -> "I11 Versión Software"
+   -> "I11 software-versie"
+   -> "I11 Software Version"
+   -> "I11 Mjukvaru-version"
+   -> "I11 verzija software"
+   -> "I11 Software változat"
+   -> "I11 wersja oprogramowania"
+   -> "I11 Âåðñèÿ ÏÎ"
+   -> EGrpKaskade.Items
+   -> "Min. Grenze opt. Arbeitsbereich#%",Sollmodulationsgrad#%,"Max. Grenze opt. Arbeitsbereich#%"
+   -> "Min. limit opt. operating range#%","setpoint mod. degreed#%","Max. limit opt. operating range#%"
+   -> "mini plage modulation optimale#%","Consigne de modulation#%","Maxi plage modulation optimale#%"
+   -> "limite min. campo di lavoro ott.#%","grado modulazione nomin.#%","limite max. campo di lavoto ott.#%"
+   -> "Lím inferior rango trabajo óptimo#%","Grado consigna modulación#%","Lím superior rango trabajo óptimo#%"
+   -> "Min. grens opt. arbeidsbereik#%",modulatiegraad#%,"Max. grens opt. arbeidsbereik#%"
+   -> "Min. grænse opt. arbejdsområde#%","Beregnet modulationsgrad#%","Max. grænse opt. arbejdsområde#%"
+   -> "Min.gräns opt.arbetsomrade#%",Börmoduleringsgrad#%,"Max.gräns opt.arbetsomrade#%"
+   -> "Min. granica opt. radnog opsega#%","zadani stupanj modulacije#%","Maks. granica opt. radnog opsega#%"
+   -> "opt. munkatartomány Min. határa#%",parmodfok#%,"opt. munkatartomány Max. határa#%"
+   -> "min.granica opt.zakr.pracy#%","zadany stopieñ modulacji#%","maks. granica opt. zakr. pracy#%"
+   -> "Ìèí. ïðåäåë ðàáî÷åãî äèàïàçîíà#%","Ñòåïåíü ìîäóëÿöèè#%","Ìàêñ. ïðåäåë ðàáî÷åãî äèàïàçîíà#%"
+
+[Component]: CbBxP513_N1.Items
+   -> "N1: 2-10V","N1: 4-20mA"
+
+[Component]: ChkGrpKonfig.Items
+   -> "Puffer oben","Puffer unten",Weiche,Speicher,Spannungseingang,Stromeingang
+   -> "Calorifier top","Calorifier bottom",De-couple,Tank,"Voltage input","Current input"
+   -> "Haut du tampon","Bas du tampon","Bouteille casse-pression ",Accumulateur,"Entrée de tension","Entrée de courant"
+   -> "polmone superiore","polmone inferiore",compensatore,bollitore,"ingresso tensione","ingresso corrente"
+   -> "Depósito arriba","Depósito abajo",Compensador,Acumulador,"Entrada tensión","Entrada corriente"
+   -> "Buffervat boven","Buffervat onder",evenwichtsfles,boiler,spanningsingang,stroomingang
+   -> "Buffer foroven", "Buffer forneden", Blandepotte, Beholder, Spændingsindgang, Strømindgang
+   -> "Ackum.upptill","Ackum.nedtill",Växel,Ackum.,Spänningsingang,Strömingang
+   -> "aku-spremnik gore","aku-spremnik dolje",razdjelnik,spremnik,"naponski ulaz","strujni ulaz"
+   -> "Puffer fenn","Puffer lenn",váltó,tároló,fesz-bemenet,áram-bemenet
+   -> "zasobnik (góra)","zasobnik (dó³)",sprzêg³o,zasobnik,"napiêcie na wejœciu","pr¹d na wejœciu"
+   -> "Âåðõíèé áóô. äàò÷èê","Íèæíèé áóô. äàò÷èê",Ñòðåëêà,Áîéëåð,"Âõîä íàïðÿæåíèÿ","Âõîä òîêà"
+   -> EGrpTemps.Items
+   -> "Solltemperatur System#°C","Weiche/PWT sek B22#°C","PWT prim. B24#°C","Puffertemperatur oben#°C","Puffertemperatur unten#°C",WW-Sollwert#°C,WW-Temperatur#°C
+   -> "Set temperature System#°C","De-couple temperature B22#°C","De-couple temperature B24#°C","Calorifier temperature top#°C","Calorifier temperature bottom#°C","DHW set value#°C",DHW-temperature#°C
+   -> "Consigne système#°C","Temp. Bouteille casse-pression B22#°C","Temp. Bouteille casse-pression B24#°C","Température haut du tampon#°C","Température bas du tampon#°C","Consigne ECS#°C","Température ECS#°C"
+   -> "temperatura nomin. sistema#°C","temperatura compensatore B22#°C","temperatura compensatore B24#°C","temperatura polmone superiore#°C","temperatura polmone inferiore#°C","valore nomin. AC#°C","temperatura AC#°C"
+   -> "Consig. sistema#°C","Temp. compensador B22#°C","Temp. compensador B24#°C","Temp arriba depósito#°C","Temp abajo depósito#°C","Consig. ACS#°C","Temp. ACS#°C"
+   -> "Insteltemperatuur systeem#°C","Eventwichtsfles-temp. B22#°C","Eventwichtsfles-temp. B24#°C","Buffervattemp. bovenaan#°C","Buffervattemp. onderaan#°C",WW-instelwaarde#°C,WW-temperatuur#°C
+   -> "Beregnet temp.system#°C","Blandepottetemperatur B22#°C","Blandepottetemperatur B24#°C","Buffertemperatur top#°C","Buffertemperatur bund°C""","Beregnet VV-setpunkt#°C",VV-temperatur#°C
+   -> "Börtemperatur System#°C","Växeltemperatur B22#°C","Växeltemperatur B24#°C","Ackum.temperatur upptill#°C","Ackum.temperatur nedtill#°C",VV-Börvärde#°C,VV-temperatur#°C
+   -> "zadana temperatura sustava#°C","temperatura razdjelnika B22#°C","temperatura razdjelnika B24#°C","temperatura aku-spremnika gore#°C","temperatura aku-spremnika dolje#°C",PTV-zadana#°C,PTV-temperatura#°C
+   -> "parhõm rendszer#°C","váltóhõmérséklet B22#°C","váltóhõmérséklet B24#°C","pufferhõmérséklet fenn#°C","pufferhõmérséklet lenn#°C",HMV-parérték#°C,HMV-hõmérséklet#°C
+   -> "zadana temperatura systemu#°C","temperatura w sprzêgle B22#°C","temperatura w sprzêgle B24#°C","temperatura zasobnika (góra)#°C","temperatura zasobnika (dó³)#°C","wartoœæ zadana c.w.u.#°C","temperatura c.w.u.#°C"
+   -> "Çàä. òåìïåðàòóðà ñèñòåìû#°C","Òåìïåðàòóðà ñòðåëêè B22#°C","Òåìïåðàòóðà ñòðåëêè B24#°C","Òåìïåðàòóðà âåðõí. áóô. äàò÷èêà#°C","Òåìïåðàòóðà íèæí. áóô. äàò÷èêà#°C","Çàäàííîå çíà÷åíèå ÃÂ#°C","Òåìïåðàòóðà ÃÂ#°C"
+
+[Component]: CbBxP513_Puffer.Items
+   -> --,"Puffer 1","Puffer 2"
+   -> --,"Calorifier 1","Calorifier 2"
+   -> --,"Tampon 1","Tampon 2"
+   -> --,"Polmone 1","Polmone 2"
+   -> --,"Acumulador 1","Acumulador 2"
+   -> --,"Buffervat 1","Buffervat 2"
+   -> --,Buffertemp.1,Buffertemp.2
+   -> --,Ackum.1,Ackum.2
+   -> --,"Akkum temp 1","Akkum temp 2"
+   -> --,"HranilTpl 1","HranilTpl 2"
+   -> --,"Aku-spremnik 1","Aku-spremnik 2"
+   -> --,"puffer 1","puffer 2"
+   -> --,"Bufor 1","Bufor 2"
+   -> --,"Áóôåð 1","Áóôåð 2"
+
+[Component]: CbBxP513_WW.Items
+   -> --,"WW WTC#A","WW KA"
+   -> --,"DHW WTC#A","DHW KA"
+   -> --,"ECS WTC#A","ECS KA"
+   -> --,"AC WTC#A","AC KA"
+   -> --,"ACS WTC#A","ACS KA"
+   -> --,"WW WTC#A","WW KA"
+   -> --,"Varmt vand WTC#A","Varmt vand KA"
+   -> --,"VV WTC#A","VV KA"
+   -> --,"PTV WTC#A","PTV KA"
+   -> --,"HMV WTC#A","HMV KA"
+   -> --,"cwu WTC#A","cwu KA"
+   -> --,"ÃÂÑ WTC#A","ÃÂÑ KA"
+
+[Component]: CbBxP594_monat.Items
+   -> --,Jan,Feb,Mrz,Apr,Mai,Jun,Jul,Aug,Sep,Okt,Nov,Dez
+   -> --,Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sept,Oct,Nov,Dec
+   -> --,Jan,Fév,Mar,Avr,Mai,Juin,Juil,Aoû,Sep,Oct,Nov,Déc
+   -> --,Gen,Feb,Mar,Apr,Mag,Giu,Lug,Ago,Sep,Okt,Nov,Dic
+   -> --,Ene,Feb,Mrz,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic
+   -> --,Jan,Feb,Maa,Apr,Mei,Jun,Jul,Aug,Sep,Okt,Nov,Dec
+   -> --,Jan,Feb,Mar,Apr,Maj,Jun,Jul,Aug,Sep,Okt,Nov,Dec
+   -> --,Jan,Feb,Mars,Apr,Maj,Jun,Jul,Aug,Sep,Okt,Nov,Dec
+   -> --,Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sept,Oct,Nov,Dec
+   -> --,jan,feb,mar,apr,maj,jun,jul,avg,sep,okt,nov,dec
+   -> --,Sje,Vel,Ožu,Tra,Svi,Lip,Srp,Kol,Ruj,Lis,Stu,Pro
+   -> --,Jan,Feb,Mrz,Ápr,Máj,Jún,Júl,Aug,Sep,Okt,Nov,Dec
+   -> --,sty,lut,mar,kwi,maj,cze,lip,sie,wrz,paŸ,lis,gru
+
+[Component]: CbBxP593_Monat.Items
+   -> --,Jan,Feb,Mrz,Apr,Mai,Jun,Jul,Aug,Sep,Okt,Nov,Dez
+   -> --,Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sept,Oct,Nov,Dec
+   -> --,Jan,Fév,Mar,Avr,Mai,Juin,Juil,Aoû,Sep,Oct,Nov,Déc
+   -> --,Gen,Feb,Mar,Apr,Mag,Giu,Lug,Ago,Sep,Okt,Nov,Dic
+   -> --,Ene,Feb,Mrz,Abr,May,Jun,Jul,Ago,Sep,Oct,Nov,Dic
+   -> --,Jan,Feb,Maa,Apr,Mei,Jun,Jul,Aug,Sep,Okt,Nov,Dec
+   -> --,Jan,Feb,Mar,Apr,Maj,Jun,Jul,Aug,Sep,Okt,Nov,Dec
+   -> --,Jan,Feb,Mars,Apr,Maj,Jun,Jul,Aug,Sep,Okt,Nov,Dec
+   -> --,Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sept,Oct,Nov,Dec
+   -> --,jan,feb,mar,apr,maj,jun,jul,avg,sep,okt,nov,dec
+   -> --,Sje,Vel,Ožu,Tra,Svi,Lip,Srp,Kol,Ruj,Lis,Stu,Pro
+   -> --,Jan,Feb,Mrz,Ápr,Máj,Jún,Júl,Aug,Sep,Okt,Nov,Dec
+   -> --,sty,lut,mar,kwi,maj,cze,lip,sie,wrz,paŸ,lis,gru
+
+[Component]: CbBxP513_Weiche.Items
+   -> --,Weiche,PWT
+   -> --,De-coup./PWT
+   -> --,Bouteil./Ech.aplaq
+   -> --,Collett/Scamb
+   -> --,Compensador/inter
+   -> --,Evenw./PWT
+   -> --,Blandepotte/PWT
+   -> --,Vaxel/VVX
+   -> Veksler PVV
+   -> Kretnica/TP
+   -> --,Skretnica/PWT
+   -> --,"valto hocs"
+   -> --,Sprzeglo/PWC
+   -> --,Ñòðåëêà/Òîáì
+   -> CbbxP577.Items
+   -> Aus,"10 min","20 min","30 min","40 min","50 min","60 min","70 min","80 min","90 min","100 min","110 min","120 min","130 min","140 min","150 min","160 min","170 min","180 min"
+   -> Off,"10 min","20 min","30 min","40 min","50 min","60 min","70 min","80 min","90 min","100 min","110 min","120 min","130 min","140 min","150 min","160 min","170 min","180 min"
+   -> Arret,"10 min","20 min","30 min","40 min","50 min","60 min","70 min","80 min","90 min","100 min","110 min","120 min","130 min","140 min","150 min","160 min","170 min","180 min"
+   -> Spento,"10 min","20 min","30 min","40 min","50 min","60 min","70 min","80 min","90 min","100 min","110 min","120 min","130 min","140 min","150 min","160 min","170 min","180 min"
+   -> Off,"10 min","20 min","30 min","40 min","50 min","60 min","70 min","80 min","90 min","100 min","110 min","120 min","130 min","140 min","150 min","160 min","170 min","180 min"
+   -> Uit,"10 min","20 min","30 min","40 min","50 min","60 min","70 min","80 min","90 min","100 min","110 min","120 min","130 min","140 min","150 min","160 min","170 min","180 min"
+   -> Off,"10 min","20 min","30 min","40 min","50 min","60 min","70 min","80 min","90 min","100 min","110 min","120 min","130 min","140 min","150 min","160 min","170 min","180 min"
+   -> Av,"10 min","20 min","30 min","40 min","50 min","60 min","70 min","80 min","90 min","100 min","110 min","120 min","130 min","140 min","150 min","160 min","170 min","180 min"
+   -> OFF
+   -> isklop,"10 min","20 min","30 min","40 min","50 min","60 min","70 min","80 min","90 min","100 min","110 min","120 min","130 min","140 min","150 min","160 min","170 min","180 min"
+   -> KI,"10 min","20 min","30 min","40 min","50 min","60 min","70 min","80 min","90 min","100 min","110 min","120 min","130 min","140 min","150 min","160 min","170 min","180 min"
+   -> Wyl.,"10 min","20 min","30 min","40 min","50 min","60 min","70 min","80 min","90 min","100 min","110 min","120 min","130 min","140 min","150 min","160 min","170 min","180 min"
+   -> ÂÛÊË,"10 min","20 min","30 min","40 min","50 min","60 min","70 min","80 min","90 min","100 min","110 min","120 min","130 min","140 min","150 min","160 min","170 min","180 min"
+   -> CbbxP579.Items
+   -> Aus,Montag,Dienstag,Mittwoch,Donnerstag,Freitag,Samstag,Sonntag,täglich
+   -> Off,Monday, Tuesday,Wednesday, Thursday,Friday, Saturday, Sunday, daily
+   -> Arrêt,Lundi,Mardi,Mercredi,jeudi,Vendredi,Samedi,Dimanche,Journalier
+   -> spento,lunedì,martedì,mercoledì,giovedì,venerdì,sabato,domenica,giornalmente
+   -> Off,Lunes,Martes,Miércoles,Jueves,Viernes,Sábado,Domingo,On
+   -> Uit,maandag,dinsdag,woensdag,donderdag,vrijdag,zaterdag,zondag,dagelijks
+   -> Off, Mandag, Tirsdag, Onsdag, Torsdag, Fredag, Lørdag, Søndag, dagligt
+   -> Av,Måndag,Tisdag,Onsdag,Torsdag,Fredag,Lördag,Söndag,daglig
+   -> Isklop,ponedjeljak,utorak,srijeda,èetvrtak,petak,subota,nedjelja,dnevno
+   -> KI,hétfõ,kedd,szerda,csütörtök,péntek,szombat,vasárnap,naponta
+   -> wy³,poniedzia³ek,wtorek,œroda,czwartek,pi¹tek,sobota,niedziela,codziennie
+   -> Âûêë,Ïîíåäåëüíèê,Âòîðíèê,Ñðåäà,×åòâåðã,Ïÿòíèöà,Ñóááîòà,Âîñêðåñåíüå,åæåäíåâíî
+
+[Component]: CbBxLegioFkt.Items
+   -> Aus,Montag,Dienstag,Mittwoch,Donnerstag,Freitag,Samstag,Sonntag,täglich
+   -> Off,Monday, Tuesday,Wednesday, Thursday,Friday, Saturday, Sunday, daily
+   -> Arrêt,Lundi,Mardi,Mercredi,jeudi,Vendredi,Samedi,Dimanche,Journalier
+   -> spento,lunedì,martedì,mercoledì,giovedì,venerdì,sabato,domenica,giornalmente
+   -> Off,Lunes,Martes,Miércoles,Jueves,Viernes,Sábado,Domingo,On
+   -> Uit,maandag,dinsdag,woensdag,donderdag,vrijdag,zaterdag,zondag,dagelijks
+   -> Off, Mandag, Tirsdag, Onsdag, Torsdag, Fredag, Lørdag, Søndag, dagligt
+   -> Av,Måndag,Tisdag,Onsdag,Torsdag,Fredag,Lördag,Söndag,daglig
+   -> Isklop,ponedjeljak,utorak,srijeda,èetvrtak,petak,subota,nedjelja,dnevno
+   -> KI,hétfõ,kedd,szerda,csütörtök,péntek,szombat,vasárnap,naponta
+   -> wy³,poniedzia³ek,wtorek,œroda,czwartek,pi¹tek,sobota,niedziela,codziennie
+   -> Âûêë,Ïîíåäåëüíèê,Âòîðíèê,Ñðåäà,×åòâåðã,Ïÿòíèöà,Ñóááîòà,Âîñêðåñåíüå,åæåäíåâíî
+
+[Component]: CbBxP523.Items
+   -> Heiz-Freigabe,WW-Freigabe,"Standby WTC","Standby Syst",Sonderniveau
+   -> "Heat release","DHW release","Standby WTC","Standby Syst","special level"
+   -> "Autorisation chauffage","Autotrisation ECS","Standby WTC","Standby Syst","Niveau spécial"
+   -> "consenso riscaldam.","consenso AC","Standby WTC","standby sistema","livello speciale"
+   -> "Permiso calefacción","Permiso ACS","Standby WTC","Standby Sist","Nivel especial"
+   -> Stookvrijgave,WW-vrijgave,"Standby WTC","Standby syst","speciaal niveau"
+   -> Varme-frigivelse,Varmtvandsfrigivelse,"Standby WTC","Standby syst","Specielt niveau"
+   -> Värme-Frigivn.,VV-frigivn.,"Standby WTC","Standby syst",Specialniva
+   -> "dozvola grijanju","PTV slobodno","Standby WTC","Standby sustava","posebna razina"
+   -> fût-eng,HMV-eng,"Standby WTC","Standby rend",specszint
+   -> "zezwolenie na prace obiegu grz.","zezwolenie na przyg. c.w.u.","Standby WTC",standby,"poziom specjalny"
+   -> "Çàïóñê îòîòïëåíèÿ","çàïóñê ÃÂÑ","Standby WTC","Standby ñèñòåìû","Ñïåö. óðîâåíü"
+
+[Component]: CbBxH1.Items
+   -> Heiz-Freigabe,WW-Freigabe,"Standby Syst",Sonderniveau
+   -> "Heat release","DHW release","Standby Syst","special level"
+   -> "Autorisation chauffage","Autotrisation ECS","Standby Syst","Niveau spécial"
+   -> "consenso riscaldam.","consenso AC","standby sistema","livello speciale"
+   -> "Permiso calefacción","Permiso ACS","Standby Sist","Nivel especial"
+   -> Stookvrijgave,WW-vrijgave,"Standby syst","speciaal niveau"
+   -> Varme-frigivelse,Varmtvandsfrigivelse,"Standby syst","Specielt niveau"
+   -> Värme-Frigivn., VV-frigivn., "Standby syst", Specialniva
+   -> "dozvola grijanju","PTV slobodno","Standby sustava","posebna razina"
+   -> fût-eng,HMV-eng,"Standby rend",specszint
+   -> "zezwolenie na prace obiegu grz.","zezwolenie na przyg. c.w.u.",standby,"poziom specjalny"
+   -> "Çàïóñê îòîòïëåíèÿ","çàïóñê ÃÂÑ","Standby ñèñòåìû","Ñïåö. óðîâåíü"
+
+[Component]: ChkGrpOutlets.Items
+   -> "MFA 1","MFA 2",VA
+   -> "MFA 1","MFA 2",VA
+   -> "MFA 1","MFA 2",VA
+   -> "MFA 1","MFA 2",VA
+   -> "MFA 1","MFA 2",VA
+   -> "MFA 1","MFA 2",VA
+   -> "MFA 1","MFA 2",VA
+   -> "MFA 1","MFA 2",VA
+   -> "MFA 1","MFA 2",VA
+   -> "MFA 1","MFA 2",VA
+   -> "MFA 1","MFA 2",VA
+   -> "MFA 1","MFA 2",VA
+
+[Component]: CbBxBetriebsartHZ.Items
+   -> Service,Standby,2,3,4,Sommer,6,7,8,9,10,Automatik,12,13,14,15,16,17,18,19,"Standby WTC"
+   -> Service,Standby,2,3,4,Summer,6,7,8,9,10,Automatic,12,13,14,15,16,17,18,19,"Standby WTC"
+   -> Service,Standby,2,3,4,Eté,6,7,8,9,10,Automatique,12,13,14,15,16,17,18,19,"Standby WTC"
+   -> service,standby,2,3,4,estate,6,7,8,9,10,automatico,12,13,14,15,16,17,18,19,"Standby WTC"
+   -> Servicio,Standby,2,3,4,Verano,6,7,8,9,10,Automatico,12,13,14,15,16,17,18,19,"Standby WTC"
+   -> Service,standby,2,3,4,zomer,6,7,8,9,10,automatisch,12,13,14,15,16,17,18,19,"Standby WTC"
+   -> Service,Standby,2,3,4,Sommer,6,7,8,9,10,Automatik,12,13,14,15,16,17,18,19,"Standby WTC"
+   -> Service,Standby,2,3,4,Sommar,6,7,8,9,10,Automatik,12,13,14,15,16,17,18,19,"Standby WTC"
+   -> Servis,Standby,2,3,4,ljeto,6,7,8,9,10,automatski,12,13,14,15,16,17,18,19,"Standby WTC"
+   -> szerviz,Standby,2,3,4,nyár,6,7,8,9,10,automata,12,13,14,15,16,17,18,19,"Standby WTC"
+   -> serwis,standby,2,3,4,lato,6,7,8,9,10,auto,12,13,14,15,16,17,18,19,"Standby WTC"
+   -> Ñåðâèñ,Standby,2,3,4,Ëåòî,6,7,8,9,10,Àâòîìàòèêà,12,13,14,15,16,17,18,19,"Standby WTC"
+   -> EGrpSetpoints.Items
+   -> Steuerspannung#V,Steuerstrom#mA
+   -> "Control voltage#V","Control current#mA"
+   -> "tension de commande#V","Courant de commande#mA"
+   -> "tensione ausiliaria#V","corrente ausiliaria#mA"
+   -> TensiónManiobra#V,CorrienteManiobra#mA
+   -> Stuurspanning#V,stuurstroom#mA
+   -> "Styrespænding #V",Styrestrøm#mA
+   -> Styrspänning#V,Styrström#mA
+   -> "napon upravljanja#V","struja upravljanja#mA"
+   -> vezérlõfesz#V,vezérlõáram#mA
+   -> "napiêcie steruj¹ce#V","pr¹d steruj¹cy#mA"
+   -> "Óïðàâëÿþùåå íàïðÿæåíèå#Â","Òîê óïðàâëåíèÿ#ìÀ"
+
+[Component]: CbBxMFA.Items
+   -> Störung,WW-Pumpe,Zirk-Pumpe,Zubr-Pumpe
+   -> Lockout,"DHW pump","Circul. pump","Feeder pump"
+   -> Défaut,"Pompe ECS","Pompe de circulation","Pompe chaudière externe"
+   -> blocco,"pompa AC","pompa ricircolo","pompa alimentaz."
+   -> Avería,"Bomba ACS","Bomba circulación","Bomba a consumo"
+   -> storing,WW-pomp,circ-pomp,transfertpomp
+   -> Fejl,VV-pumpe,Cirkpumpe,"Ekstern pumpe"
+   -> Störning,VV-pump,Cirk.pump,Matarpump
+   -> smetnje,PTV-crpka,cirk-crpka,dobavna-crpka
+   -> zavar,HMV-sziv,cirk-sziv,száll-sziv
+   -> "pompa lad.zasobnika c.w.u. zaklócenie","pompa cyrkulacyjna","pompa pomocnicza","pompa zasilajaca"
+   -> Íåèñïðàâíîñòü,"Íàñîñ ÃÂ","Öèðêóë. íàñîñ","Ïîäêà÷èâ. íàñîñ"
+
+[Component]: CbBxVA.Items
+   -> Störung,WW-Pumpe,Zirk-Pumpe,Zubr-Pumpe
+   -> Lockout,"DHW pump","Circul. pump","Feeder pump"
+   -> Défaut,"Pompe ECS","Pompe de circulation","Pompe chaudière externe"
+   -> blocco,"pompa AC","pompa ricircolo","pompa alimentaz."
+   -> Avería,"Bomba ACS","Bomba circulación","Bomba a consumo"
+   -> storing,WW-pomp,circ-pomp,transfertpomp
+   -> Fejl,VV-pumpe,Cirkpumpe,"Ekstern pumpe"
+   -> Störning,VV-pump,Cirk.pump,Matarpump
+   -> smetnje,PTV-crpka,cirk-crpka,dobavna-crpka
+   -> zavar,HMV-sziv,cirk-sziv,száll-sziv
+   -> "pompa lad.zasobnika c.w.u. zaklócenie","pompa cyrkulacyjna","pompa pomocnicza","pompa zasilajaca"
+   -> Íåèñïðàâíîñòü,"Íàñîñ ÃÂ","Öèðêóë. íàñîñ","Ïîäêà÷èâ. íàñîñ"
+
+[Component]: CbBxP522.Items
+   -> Störung,WW-Pumpe,Zirk-Pumpe,Zubr-Pumpe
+   -> Lockout,"DHW pump","Circul. pump","Feeder pump"
+   -> Défaut,"Pompe ECS","Pompe de circulation","Pompe chaudière externe"
+   -> blocco,"pompa AC","pompa ricircolo","pompa alimentaz."
+   -> Avería,"Bomba ACS","Bomba circulación","Bomba a consumo"
+   -> storing,WW-pomp,circ-pomp,transfertpomp
+   -> Fejl,VV-pumpe,Cirkpumpe,"Ekstern pumpe"
+   -> Störning,VV-pump,Cirk.pump,Matarpump
+   -> smetnje,PTV-crpka,cirk-crpka,dobavna-crpka
+   -> zavar,HMV-sziv,cirk-sziv,száll-sziv
+   -> "pompa lad.zasobnika c.w.u. zaklócenie","pompa cyrkulacyjna","pompa pomocnicza","pompa zasilajaca"
+   -> Íåèñïðàâíîñòü,"Íàñîñ ÃÂ","Öèðêóë. íàñîñ","Ïîäêà÷èâ. íàñîñ"
+
+[Component]: CbBxP521.Items
+   -> Störung,WW-Pumpe,Zirk-Pumpe,Zubr-Pumpe
+   -> Lockout,"DHW pump","Circul. pump","Feeder pump"
+   -> Défaut,"Pompe ECS","Pompe de circulation","Pompe chaudière externe"
+   -> blocco,"pompa AC","pompa ricircolo","pompa alimentaz."
+   -> Avería,"Bomba ACS","Bomba circulación","Bomba a consumo"
+   -> storing,WW-pomp,circ-pomp,transfertpomp
+   -> Fejl,VV-pumpe,Cirkpumpe,"Ekstern pumpe"
+   -> Störning,VV-pump,Cirk.pump,Matarpump
+   -> smetnje,PTV-crpka,cirk-crpka,dobavna-crpka
+   -> zavar,HMV-sziv,cirk-sziv,száll-sziv
+   -> "pompa lad.zasobnika c.w.u. zaklócenie","pompa cyrkulacyjna","pompa pomocnicza","pompa zasilajaca"
+   -> Íåèñïðàâíîñòü,"Íàñîñ ÃÂ","Öèðêóë. íàñîñ","Ïîäêà÷èâ. íàñîñ"
+   -> CbbxP571.Items
+   -> Weiche/PWT,Puffer
+   -> De-coup./PWT,Calorifier
+   -> Bouteil./Ech.aplaq,Tampon
+   -> Collett/Scamb,Polmone
+   -> Compensador/inter,Acumulador
+   -> Evenw./PWT,Buffervat
+   -> Blandepotte/PWT,Buffertemp.
+   -> Vaxel/VVX,Ackum.
+   -> "Veksler PVV","Akkum temp"
+   -> Kretnica/TP,HranilTpl
+   -> Skretnica/PWT,Aku-spremnik
+   -> "valto hocs",puffer
+   -> Sprzeglo/PWC,Bufor
+   -> Ñòðåëêà/Òîáì,Áóôåð
+
+[Component]: CbBxBetriebsartschalter.Items
+   -> "Standby WTC",Standby,Automatik,Sommer
+   -> Standby-WTC,Standby,Automatic,Summer
+   -> Standby-WTC,Standby,Automatique,Eté
+   -> Standby-WTC,Standby,Automatico,Estate
+   -> Standby-WTC,Standby,Automatico,Verano
+   -> Standby-WTC,Standby,Automatisch,Zomer
+   -> Standby-WTC,Standby,Automatik,Sommer
+   -> Standby-WTC,Standby,Automatik,Sommar
+   -> Standby-WTC,Standby,Automatski,ljeto
+   -> Standby-WTC,Standby,automata,nyar
+   -> standby-WTC,Standby,Automatycz.,Lato
+   -> Standby-WTC,Standby,Automatic,Summer
+
+[Component]: CbBxP522KA3.Items
+   -> Störung,WW-Pumpe,Zirk-Pumpe,Zubr-Pumpe,Neutralisationspumpe
+   -> Lockout,"DHW pump","Circ. pump","Feed pump","Neutra pump"
+   -> Défaut,"Pompe ECS","Pompe circ.","Pompe alim.","Pompe neutra",
+   -> Blocco,"Pompa ACS","Pompa ricirc","Pompa alim.","Pomp neutral",
+   -> Fallo,"Bomba ACS","Bomba Circ","Bomba colec","Bomba Neutr"
+   -> Storing,"WW pomp","Circ pomp","Toev pomp","Neutra pomp"
+   -> Fejl,"WW pumpe",Cirk.pumpe,"Ekstra pumpe","Neutra pumpe"
+   -> Störning,VV-pump,Cirk-pump,Matarpump,Neutral-pump
+   -> Feil,"VV pumpe","Sirk pumpe","Tilbr pumpe","Neutr pumpe"
+   -> Motnja,CrpSanVod,CirkCrpalka,DobavnaCrp,NevtrCrpalka
+   -> Smetnje,"Crpka PTV","Crpka cirk.","Crpka dobave","Crpka neutr."
+   -> zavar,HMVszivattyú,cirk.sziv,gy?jt?sziv,semleg.sziv
+   -> Zaklocenie,"Pompa cwu","Pompa cyrk","Pompa zasil.","Pompa neutra"
+   -> Lockout,"DHW pump","Circ. pump","Feed pump","Neutra pump"
+   -> EgrpP580KA3.Items
+   -> "580 Antilegionellen Solltemperatur#°C"
+   -> "580 Antileg setp temp#°C"
+   -> "580 Cons.temp.antileg.#°C"
+   -> "580 TempSetPointLegion#°C"
+   -> "580 TempSetPointLegion#°C"
+   -> "580 Antileg gew temp#°C"
+   -> "580 Legio setpkt temp#°C"
+   -> "580 Antilegio bortemp#°C"
+   -> "Antileg bor temp"
+   -> "Antileg zelj temp"
+   -> "580 Zadan antileg.temp#°C"
+   -> "580 antileg parhom #°C"
+   -> "580 Temp.zad.antyleg.#°C"
+   -> "580 ÇàäÒåìïÄåçèíô#°C"
+
+[Component]: stStrings
+
+[Component]: strcHZ
+   -> Risc.
+   -> Cto.
+   -> Värme
+   -> Grije
+   -> fûtés
+   -> tryb og
+   -> Îòîïëåíèå
+
+[Component]: strcPuffer1
+   -> Puffer 1
+   -> Calorifier 1
+   -> Tampon 1
+   -> Polmone 1
+   -> Depósito apoyo 1
+   -> Buffervat 1
+   -> Buffer 1
+   -> Ackumulator 1
+   -> aku-spremnik 1
+   -> puffer 1
+   -> zasobnik buforowy 1
+   -> Áóôåð 1
+
+[Component]: strcPuffer2
+   -> Puffer 2
+   -> Calorifier 2
+   -> Tampon 2
+   -> Polmone 2
+   -> Depósito apoyo 2
+   -> Buffervat 2
+   -> Buffer 2
+   -> Ackumulator 2
+   -> aku-spremnik 2
+   -> puffer 2
+   -> zasobnik buforowy 2
+   -> Áóôåð 2
+
+[Component]: strcStandby
+   -> Standby
+   -> Standby
+   -> Standby
+   -> Standby
+   -> Standby
+   -> Standby
+   -> Standby
+   -> Standby
+   -> Standby
+   -> standby
+   -> Standby
+
+[Component]: strcWeiche
+   -> Weiche
+   -> De-couple
+   -> Bouteille casse-pression
+   -> Compensatore
+   -> Compensador
+   -> Evenwichtsfles
+   -> Blandepotte
+   -> Växel
+   -> razdjelnik
+   -> váltó
+   -> sprzêg³o
+   -> Ñòðåëêà
+
+[Component]: strcWW
+   -> DHW
+   -> ECS
+   -> ACS
+   -> PTV
+   -> HMV
+   -> c.w.u.
+
+[Component]: strcWWCPUA
+   -> Warmwasser #A
+   -> DHW #A
+   -> Eau Chaude sanitaire #A
+   -> Acqua calda #A
+   -> ACS #A
+   -> Warm water #A
+   -> Varmt vand #A
+   -> Varmvatten #A
+   -> PTV #A
+   -> HMV #A
+   -> ciep³a woda #A
+   -> Ãîðÿ÷àÿ âîäà #A
+
+[Component]: strcWWKA
+   -> Warmwasser KA
+   -> DHW KA
+   -> Eau Chaude sanitaire KA
+   -> Acqua calda KA
+   -> ACS KA
+   -> Warm water KA
+   -> Varmt vand KA
+   -> Varmvatten KA
+   -> PTV KA
+   -> HMV KA
+   -> ciep³a woda KA
+   -> Ãîðÿ÷àÿ âîäà KA
+
+[Component]: strcP52xKA3
+   -> Neutralisationspumpe
+   -> Neutra pump
+   -> Pompe neutra
+   -> Pomp neutral
+   -> Bomba Neutr
+   -> Neutra pomp
+   -> Neutra pumpe
+   -> Neutral-pump
+   -> Neutr pumpe
+   -> NevtrCrpalka
+   -> Crpka neutr.
+   -> semleg.sziv
+   -> Pompa neutra
+   -> ÍåéòðÍàñîñ
+
+[Component]: strcP524KA3
+   -> WTC-Sperre
+   -> WTC block
+   -> Verrouil.WTC
+   -> Inibiz. WTC
+   -> WTC suspens
+   -> WTC blokk.
+   -> WTC tidsfors
+   -> WTC-sparr
+   -> WTC sperre
+   -> Zapora WTC
+   -> WTC zapor
+   -> WTC retesz
+   -> WTC blokada
+   -> Áëîê WTC
+
+[Component]: strcP571KA3
+   -> Weiche/PWT
+   -> De-coup./PWT
+   -> Bouteil./Ech.aplaq
+   -> Collett/Scamb
+   -> Compensador/inter
+   -> Evenw./PWT
+   -> Blandepotte/PWT
+   -> Vaxel/VVX
+   -> Veksler PVV
+   -> Kretnica/TP
+   -> Skretnica/PWT
+   -> valto hocs
+   -> Sprzeglo/PWC
+   -> Ñòðåëêà/ Òîáì
+
+[Component]: stOtherStrings
+   -> TfrmWCMKA.HelpFile
+
+[Component]: CbBxBetriebsartHZ.ImeName
+
+[Component]: CbBxBetriebsartHZ.Text
+
+[Component]: EdtFCode.ImeName
+
+[Component]: EdtFCode.Text
+   -> MemoKonfig.ImeName
+
+[Component]: CbBxMFA.ImeName
+
+[Component]: CbBxMFA.Text
+
+[Component]: CbBxVA.ImeName
+
+[Component]: CbBxVA.Text
+
+[Component]: CbBxH1.ImeName
+
+[Component]: CbBxH1.Text
+
+[Component]: CbBxFolgeWechsel.ImeName
+
+[Component]: CbBxFolgeWechsel.Text
+
+[Component]: CbBxFolge1Kessel1.ImeName
+
+[Component]: CbBxFolge1Kessel1.Text
+
+[Component]: CbBxFolge1Kessel2.ImeName
+
+[Component]: CbBxFolge1Kessel2.Text
+
+[Component]: CbBxFolge1Kessel3.ImeName
+
+[Component]: CbBxFolge1Kessel3.Text
+
+[Component]: CbBxFolge1Kessel4.ImeName
+
+[Component]: CbBxFolge1Kessel4.Text
+
+[Component]: CbBxFolge1Kessel5.ImeName
+
+[Component]: CbBxFolge1Kessel5.Text
+
+[Component]: CbBxFolge2Kessel5.ImeName
+
+[Component]: CbBxFolge2Kessel5.Text
+
+[Component]: CbBxFolge2Kessel4.ImeName
+
+[Component]: CbBxFolge2Kessel4.Text
+
+[Component]: CbBxFolge2Kessel3.ImeName
+
+[Component]: CbBxFolge2Kessel3.Text
+
+[Component]: CbBxFolge2Kessel2.ImeName
+
+[Component]: CbBxFolge2Kessel2.Text
+
+[Component]: CbBxFolge2Kessel1.ImeName
+
+[Component]: CbBxFolge2Kessel1.Text
+
+[Component]: CbBxLegioZeit.ImeName
+
+[Component]: CbBxLegioZeit.Text
+
+[Component]: CbBxLegioFkt.ImeName
+
+[Component]: CbBxLegioFkt.Text
+
+[Component]: CbBxWWSoEin1.ImeName
+
+[Component]: CbBxWWSoEin1.Text
+
+[Component]: CbBxWWSaEin1.ImeName
+
+[Component]: CbBxWWSaEin1.Text
+
+[Component]: CbBxWWFrEin1.ImeName
+
+[Component]: CbBxWWFrEin1.Text
+
+[Component]: CbBxWWDoEin1.ImeName
+
+[Component]: CbBxWWDoEin1.Text
+
+[Component]: CbBxWWMiEin1.ImeName
+
+[Component]: CbBxWWMiEin1.Text
+
+[Component]: CbBxWWDiEin1.ImeName
+
+[Component]: CbBxWWDiEin1.Text
+
+[Component]: CbBxWWMoEin1.ImeName
+
+[Component]: CbBxWWMoEin1.Text
+
+[Component]: CbBxWWMoAus1.ImeName
+
+[Component]: CbBxWWMoAus1.Text
+
+[Component]: CbBxWWDiAus1.ImeName
+
+[Component]: CbBxWWDiAus1.Text
+
+[Component]: CbBxWWMiAus1.ImeName
+
+[Component]: CbBxWWMiAus1.Text
+
+[Component]: CbBxWWDoAus1.ImeName
+
+[Component]: CbBxWWDoAus1.Text
+
+[Component]: CbBxWWFrAus1.ImeName
+
+[Component]: CbBxWWFrAus1.Text
+
+[Component]: CbBxWWSaAus1.ImeName
+
+[Component]: CbBxWWSaAus1.Text
+
+[Component]: CbBxWWSoAus1.ImeName
+
+[Component]: CbBxWWSoAus1.Text
+
+[Component]: CbBxWWSoEin2.ImeName
+
+[Component]: CbBxWWSoEin2.Text
+
+[Component]: CbBxWWSaEin2.ImeName
+
+[Component]: CbBxWWSaEin2.Text
+
+[Component]: CbBxWWFrEin2.ImeName
+
+[Component]: CbBxWWFrEin2.Text
+
+[Component]: CbBxWWDoEin2.ImeName
+
+[Component]: CbBxWWDoEin2.Text
+
+[Component]: CbBxWWMiEin2.ImeName
+
+[Component]: CbBxWWMiEin2.Text
+
+[Component]: CbBxWWDiEin2.ImeName
+
+[Component]: CbBxWWDiEin2.Text
+
+[Component]: CbBxWWMoEin2.ImeName
+
+[Component]: CbBxWWMoEin2.Text
+
+[Component]: CbBxWWMoAus2.ImeName
+
+[Component]: CbBxWWMoAus2.Text
+
+[Component]: CbBxWWDiAus2.ImeName
+
+[Component]: CbBxWWDiAus2.Text
+
+[Component]: CbBxWWMiAus2.ImeName
+
+[Component]: CbBxWWMiAus2.Text
+
+[Component]: CbBxWWDoAus2.ImeName
+
+[Component]: CbBxWWDoAus2.Text
+
+[Component]: CbBxWWFrAus2.ImeName
+
+[Component]: CbBxWWFrAus2.Text
+
+[Component]: CbBxWWSaAus2.ImeName
+
+[Component]: CbBxWWSaAus2.Text
+
+[Component]: CbBxWWSoAus2.ImeName
+
+[Component]: CbBxWWSoAus2.Text
+
+[Component]: CbBxWWSoEin3.ImeName
+
+[Component]: CbBxWWSoEin3.Text
+
+[Component]: CbBxWWSaEin3.ImeName
+
+[Component]: CbBxWWSaEin3.Text
+
+[Component]: CbBxWWFrEin3.ImeName
+
+[Component]: CbBxWWFrEin3.Text
+
+[Component]: CbBxWWDoEin3.ImeName
+
+[Component]: CbBxWWDoEin3.Text
+
+[Component]: CbBxWWMiEin3.ImeName
+
+[Component]: CbBxWWMiEin3.Text
+
+[Component]: CbBxWWDiEin3.ImeName
+
+[Component]: CbBxWWDiEin3.Text
+
+[Component]: CbBxWWMoEin3.ImeName
+
+[Component]: CbBxWWMoEin3.Text
+
+[Component]: CbBxWWMoAus3.ImeName
+
+[Component]: CbBxWWMoAus3.Text
+
+[Component]: CbBxWWDiAus3.ImeName
+
+[Component]: CbBxWWDiAus3.Text
+
+[Component]: CbBxWWMiAus3.ImeName
+
+[Component]: CbBxWWMiAus3.Text
+
+[Component]: CbBxWWDoAus3.ImeName
+
+[Component]: CbBxWWDoAus3.Text
+
+[Component]: CbBxWWFrAus3.ImeName
+
+[Component]: CbBxWWFrAus3.Text
+
+[Component]: CbBxWWSaAus3.ImeName
+
+[Component]: CbBxWWSaAus3.Text
+
+[Component]: CbBxWWSoAus3.ImeName
+
+[Component]: CbBxWWSoAus3.Text
+
+[Component]: CbBxZirkMoEin1.ImeName
+
+[Component]: CbBxZirkMoEin1.Text
+
+[Component]: CbBxZirkMoAus1.ImeName
+
+[Component]: CbBxZirkMoAus1.Text
+
+[Component]: CbBxZirkMoEin2.ImeName
+
+[Component]: CbBxZirkMoEin2.Text
+
+[Component]: CbBxZirkMoAus2.ImeName
+
+[Component]: CbBxZirkMoAus2.Text
+
+[Component]: CbBxZirkMoEin3.ImeName
+
+[Component]: CbBxZirkMoEin3.Text
+
+[Component]: CbBxZirkMoAus3.ImeName
+
+[Component]: CbBxZirkMoAus3.Text
+
+[Component]: CbBxZirkDiEin1.ImeName
+
+[Component]: CbBxZirkDiEin1.Text
+
+[Component]: CbBxZirkDiAus1.ImeName
+
+[Component]: CbBxZirkDiAus1.Text
+
+[Component]: CbBxZirkDiEin2.ImeName
+
+[Component]: CbBxZirkDiEin2.Text
+
+[Component]: CbBxZirkDiAus2.ImeName
+
+[Component]: CbBxZirkDiAus2.Text
+
+[Component]: CbBxZirkDiEin3.ImeName
+
+[Component]: CbBxZirkDiEin3.Text
+
+[Component]: CbBxZirkDiAus3.ImeName
+
+[Component]: CbBxZirkDiAus3.Text
+
+[Component]: CbBxZirkMiAus3.ImeName
+
+[Component]: CbBxZirkMiAus3.Text
+
+[Component]: CbBxZirkMiEin3.ImeName
+
+[Component]: CbBxZirkMiEin3.Text
+
+[Component]: CbBxZirkMiAus2.ImeName
+
+[Component]: CbBxZirkMiAus2.Text
+
+[Component]: CbBxZirkMiEin2.ImeName
+
+[Component]: CbBxZirkMiEin2.Text
+
+[Component]: CbBxZirkMiAus1.ImeName
+
+[Component]: CbBxZirkMiAus1.Text
+
+[Component]: CbBxZirkMiEin1.ImeName
+
+[Component]: CbBxZirkMiEin1.Text
+
+[Component]: CbBxZirkDoEin1.ImeName
+
+[Component]: CbBxZirkDoEin1.Text
+
+[Component]: CbBxZirkFrEin1.ImeName
+
+[Component]: CbBxZirkFrEin1.Text
+
+[Component]: CbBxZirkSaEin1.ImeName
+
+[Component]: CbBxZirkSaEin1.Text
+
+[Component]: CbBxZirkSoEin1.ImeName
+
+[Component]: CbBxZirkSoEin1.Text
+
+[Component]: CbBxZirkSoAus1.ImeName
+
+[Component]: CbBxZirkSoAus1.Text
+
+[Component]: CbBxZirkSaAus1.ImeName
+
+[Component]: CbBxZirkSaAus1.Text
+
+[Component]: CbBxZirkFrAus1.ImeName
+
+[Component]: CbBxZirkFrAus1.Text
+
+[Component]: CbBxZirkDoAus1.ImeName
+
+[Component]: CbBxZirkDoAus1.Text
+
+[Component]: CbBxZirkDoEin2.ImeName
+
+[Component]: CbBxZirkDoEin2.Text
+
+[Component]: CbBxZirkFrEin2.ImeName
+
+[Component]: CbBxZirkFrEin2.Text
+
+[Component]: CbBxZirkSaEin2.ImeName
+
+[Component]: CbBxZirkSaEin2.Text
+
+[Component]: CbBxZirkSoEin2.ImeName
+
+[Component]: CbBxZirkSoEin2.Text
+
+[Component]: CbBxZirkSaAus2.ImeName
+
+[Component]: CbBxZirkSaAus2.Text
+
+[Component]: CbBxZirkSoAus2.ImeName
+
+[Component]: CbBxZirkSoAus2.Text
+
+[Component]: CbBxZirkFrAus2.ImeName
+
+[Component]: CbBxZirkFrAus2.Text
+
+[Component]: CbBxZirkDoAus2.ImeName
+
+[Component]: CbBxZirkDoAus2.Text
+
+[Component]: CbBxZirkDoEin3.ImeName
+
+[Component]: CbBxZirkDoEin3.Text
+
+[Component]: CbBxZirkFrEin3.ImeName
+
+[Component]: CbBxZirkFrEin3.Text
+
+[Component]: CbBxZirkSaEin3.ImeName
+
+[Component]: CbBxZirkSaEin3.Text
+
+[Component]: CbBxZirkSoEin3.ImeName
+
+[Component]: CbBxZirkSoEin3.Text
+
+[Component]: CbBxZirkSaAus3.ImeName
+
+[Component]: CbBxZirkSaAus3.Text
+
+[Component]: CbBxZirkSoAus3.ImeName
+
+[Component]: CbBxZirkSoAus3.Text
+
+[Component]: CbBxZirkFrAus3.ImeName
+
+[Component]: CbBxZirkFrAus3.Text
+
+[Component]: CbBxZirkDoAus3.ImeName
+
+[Component]: CbBxZirkDoAus3.Text
+
+[Component]: CbBxP521.ImeName
+
+[Component]: CbBxP521.Text
+
+[Component]: CbBxP522.ImeName
+
+[Component]: CbBxP522.Text
+
+[Component]: CbBxP523.ImeName
+
+[Component]: CbBxP523.Text
+
+[Component]: CbBxP525.ImeName
+
+[Component]: CbBxP525.Text
+
+[Component]: CbBxP531.ImeName
+
+[Component]: CbBxP531.Text
+
+[Component]: CbBxFolge1Kess1.ImeName
+
+[Component]: CbBxFolge1Kess1.Text
+
+[Component]: CbBxFolge1Kess2.ImeName
+
+[Component]: CbBxFolge1Kess2.Text
+
+[Component]: CbBxFolge1Kess3.ImeName
+
+[Component]: CbBxFolge1Kess3.Text
+
+[Component]: CbBxFolge1Kess5.ImeName
+
+[Component]: CbBxFolge1Kess5.Text
+
+[Component]: CbBxFolge1Kess4.ImeName
+
+[Component]: CbBxFolge1Kess4.Text
+
+[Component]: CbBxFolge2Kess4.ImeName
+
+[Component]: CbBxFolge2Kess4.Text
+
+[Component]: CbBxFolge2Kess5.ImeName
+
+[Component]: CbBxFolge2Kess5.Text
+
+[Component]: CbBxFolge2Kess1.ImeName
+
+[Component]: CbBxFolge2Kess1.Text
+
+[Component]: CbBxFolge2Kess2.ImeName
+
+[Component]: CbBxFolge2Kess2.Text
+
+[Component]: CbBxFolge2Kess3.ImeName
+
+[Component]: CbBxFolge2Kess3.Text
+
+[Component]: CbBxP593_tag.ImeName
+
+[Component]: CbBxP593_tag.Text
+
+[Component]: CbBxP593_Monat.ImeName
+
+[Component]: CbBxP593_Monat.Text
+
+[Component]: CbBxP594_monat.ImeName
+
+[Component]: CbBxP594_monat.Text
+
+[Component]: CbBxP594_tag.ImeName
+
+[Component]: CbBxP594_tag.Text
+   -> CbbxP579.ImeName
+   -> CbbxP579.Text
+   -> CbbxP580.ImeName
+   -> CbbxP580.Text
+   -> CbbxP582.ImeName
+   -> CbbxP582.Text
+
+[Component]: Edt512_A.ImeName
+
+[Component]: Edt512_A.Text
+   -> #A 850KW WA
+
+[Component]: Edt512_B.ImeName
+
+[Component]: Edt512_B.Text
+   -> #B 850KW WA
+
+[Component]: Edt512_C.ImeName
+
+[Component]: Edt512_C.Text
+   -> #C 850KW WA
+
+[Component]: Edt512_D.ImeName
+
+[Component]: Edt512_D.Text
+   -> #D 850KW WA
+
+[Component]: Edt512_E.ImeName
+
+[Component]: Edt512_E.Text
+   -> #E 850KW WA
+
+[Component]: CbBxP513_Weiche.ImeName
+
+[Component]: CbBxP513_Weiche.Text
+
+[Component]: CbBxP513_Puffer.ImeName
+
+[Component]: CbBxP513_Puffer.Text
+
+[Component]: CbBxP513_WW.ImeName
+
+[Component]: CbBxP513_WW.Text
+
+[Component]: CbBxP513_N1.ImeName
+
+[Component]: CbBxP513_N1.Text
+   -> CbbxP571.ImeName
+   -> CbbxP571.Text
+   -> CbbxP577.ImeName
+   -> CbbxP577.Text
+
+[Component]: EdtTest.ImeName
+
+[Component]: EdtTest.Text
+
+[Component]: EdtBetriebsartschalter.ImeName
+
+[Component]: EdtBetriebsartschalter.Text
+
+[Component]: CbBxBetriebsartschalter.ImeName
+
+[Component]: CbBxBetriebsartschalter.Text
+
+[Component]: CbBxP522KA3.ImeName
+
+[Component]: CbBxP522KA3.Text
+
+[Component]: EdtKesselfolge11.ImeName
+
+[Component]: EdtKesselfolge11.Text
+
+[Component]: EdtKesselfolge12.ImeName
+
+[Component]: EdtKesselfolge12.Text
+
+[Component]: EdtKesselfolge13.ImeName
+
+[Component]: EdtKesselfolge13.Text
+
+[Component]: EdtKesselfolge14.ImeName
+
+[Component]: EdtKesselfolge14.Text
+
+[Component]: EdtKesselfolge15.ImeName
+
+[Component]: EdtKesselfolge15.Text
+
+[Component]: EdtKesselfolge21.ImeName
+
+[Component]: EdtKesselfolge21.Text
+
+[Component]: EdtKesselfolge22.ImeName
+
+[Component]: EdtKesselfolge22.Text
+
+[Component]: EdtKesselfolge23.ImeName
+
+[Component]: EdtKesselfolge23.Text
+
+[Component]: EdtKesselfolge24.ImeName
+
+[Component]: EdtKesselfolge24.Text
+
+[Component]: EdtKesselfolge25.ImeName
+
+[Component]: EdtKesselfolge25.Text
+
+[Component]: Edt514_Sonder.ImeName
+
+[Component]: Edt514_Sonder.Text
+   -> stCollections
+   -> stCharSets
+   -> TfrmWCMKA
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> RUSSIAN_CHARSET

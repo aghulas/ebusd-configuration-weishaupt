@@ -1,0 +1,135 @@
+--- Form: TSERIALFRM [Neutral] ---
+
+[Component]: Items.Strings
+   -> COM 1
+   -> COM 2
+   -> COM 3
+   -> COM 4
+   -> COM 5
+   -> COM 6
+   -> COM 7
+   -> COM 8
+   -> COM 9
+   -> COM10
+   -> COM11
+   -> COM12
+   -> COM13
+   -> COM14
+   -> COM15
+   -> COM16
+   -> COM17
+   -> COM18
+   -> COM19
+   -> COM20
+   -> TComboBox
+   -> ComboBox2
+   -> Style
+   -> csDropDownList
+   -> Ctl3D
+   -> ItemHeight
+   -> ParentCtl3D
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> 110
+   -> 300
+   -> 600
+   -> 1200
+   -> 2400
+   -> 4800
+   -> 9600
+   -> 14400
+   -> 19200
+   -> 38400
+   -> 56000
+   -> 57600
+   -> 115200
+   -> TComboBox
+   -> ComboBox3
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> 1.5
+   -> TComboBox
+   -> ComboBox4
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> TComboBox
+   -> ComboBox5
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> None
+   -> Odd
+   -> Even
+   -> Mark
+   -> Space
+   -> TGroupBox
+   -> GroupBox2
+   -> Flow Control
+   -> TabOrder
+   -> TSpeedButton
+   -> SpeedButton1
+   -> Hardware (Rts/Cts)
+   -> OnClick
+   -> SpeedButton1Click
+   -> TSpeedButton
+   -> SpeedButton2
+   -> Hardware (Dtr/Dsr)
+   -> OnClick
+   -> SpeedButton2Click
+   -> TSpeedButton
+   -> SpeedButton3
+   -> Software (Xon/Xoff)
+   -> OnClick
+   -> SpeedButton3Click
+   -> TSpeedButton
+   -> SpeedButton4
+   -> Clear all
+   -> OnClick
+   -> SpeedButton4Click
+   -> TCheckBox
+   -> CheckBox1
+   -> Cts output flow control
+   -> TabOrder
+   -> TCheckBox
+   -> CheckBox2
+   -> Dsr output flow control
+   -> TabOrder
+   -> TCheckBox
+   -> CheckBox3
+   -> Xon/Xoff output flow control
+   -> TabOrder
+   -> TCheckBox
+   -> CheckBox4
+   -> Xon/Xoff input flow control
+   -> TabOrder
+   -> TRadioGroup
+   -> RadioGroup1
+   -> Rts input flow control
+
+[Component]: Items.Strings
+   -> Disable
+   -> Enable
+   -> Handshake
+   -> Toggle
+   -> TabOrder
+   -> TRadioGroup
+   -> RadioGroup2
+   -> Dtr input flow control
+
+[Component]: Items.Strings
+   -> Disable
+   -> Enable
+   -> Handshake
+   -> TabOrder

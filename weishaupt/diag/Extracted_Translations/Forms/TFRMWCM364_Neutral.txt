@@ -1,0 +1,3768 @@
+--- Form: TFRMWCM364 [Neutral] ---
+
+[Component]: TbShtBurner
+   -> Align
+   -> alClient
+   -> MultiLine
+   -> ParentShowHint
+   -> ShowHint
+   -> TabOrder
+   -> OnChange
+   -> FormShow
+   -> TTabSheet
+
+[Component]: TbShtBurner
+   -> Prozesswerte WTC
+   -> ImageIndex
+   -> OnHide
+
+[Component]: TbShtBurnerHide
+   -> OnShow
+
+[Component]: TbShtBurnerShow
+   -> TGroupBox
+
+[Component]: GrpBxBurner
+   -> Align
+   -> alClient
+   -> TabOrder
+   -> TGroupBox
+
+[Component]: GrpBxOutlets
+   -> Ausgänge
+   -> Enabled
+   -> TabOrder
+   -> TLabel
+   -> lblUVW
+   -> Stellung UV
+   -> TCheckGroup
+
+[Component]: ChkGrpOutlets
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> TabOrder
+   -> Distance
+   -> HorDistance
+
+[Component]: Items.Strings
+   -> MFA
+   -> Zündung
+   -> Gasventil 1
+   -> Gasventil 2
+   -> Pumpe
+   -> Columns
+   -> test
+   -> TRadioGroup
+
+[Component]: RGrpUVW
+   -> Columns
+
+[Component]: Items.Strings
+   -> Heizung
+   -> TabOrder
+   -> TGroupBox
+
+[Component]: GrpBxValues
+   -> $Gebläseregelung/Verbrennungsregelung
+   -> Enabled
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpIoValues
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Io-Sollwert
+   -> I32: Io-Istwert
+   -> Ansteuersignal Gasstellglied#%
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpSetpoints
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Soll-Drehzahl#U/min
+   -> Ist-Drehzahl#U/min
+   -> Gebläse-PWM#%
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TGroupBox
+
+[Component]: GrpBxPhaseAlarm
+   -> Status
+   -> Enabled
+   -> TabOrder
+   -> TLabel
+
+[Component]: LblBetriebsartHZ
+   -> Betriebsart Heizung
+   -> TLabel
+
+[Component]: LblFCode
+   -> Fehler
+   -> TLabel
+
+[Component]: LblBetriebsartWW
+   -> Betriebsart Warmwasser
+   -> TComboBox
+
+[Component]: CbBxBetriebsartHZ
+   -> Style
+   -> csSimple
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxBetriebsartHZChange
+
+[Component]: Items.Strings
+   -> Standby
+   -> Sommer
+   -> Winter
+   -> Kaminkehrer
+   -> Frostschutz
+   -> TComboBox
+
+[Component]: CbBxFCode
+   -> Style
+   -> csSimple
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxBetriebsartHZChange
+
+[Component]: Items.Strings
+   -> F1 1: STB Übertemperatur Vorlauf
+   -> F1 2: STW Übertemperatur Vorlauf
+   -> F1 3: STB Übertemperatur Abgas
+   -> F1 4: Max. Gradient Vorlauf
+   -> F1 5: Spreizung Vorlauf / Abgas
+   -> F1 6: Abgas Übertemperatur
+   -> F1 8: Spreizung Vorlauf / STB
+   -> F2 1: Keine Flammenbildung
+   -> F2 2: Flammenausfall im Betrieb
+   -> F2 3: Flammenvortäuschung
+   -> F2 4: H2-Not Aus Funktion
+   -> )F3 0: Sicherheitstemperaturfühler defekt
+   -> F3 1: Abgasfühler defekt
+   -> 32:
+   -> W3 3: Außenfühler defekt
+   -> W3 4: Warmwasserfühler defekt
+   -> F3 5: Vorlauffühler defekt
+   -> F3 6: Wasserdruck zu gering
+   -> 'W3 7: Gradient ohne Durchflusserkennung
+   -> F3 8: Fühler B10 defekt
+   -> F3 9: Weichenfühler B11 defekt
+   -> "F4 1: Gasventilkreis V1/V2 defekt
+   -> F4 2: PWM Pumpe defekt
+   -> F4 3: Gebläsefehler im Betrieb
+   -> "F4 4: Gebläsefehler im Stillstand
+   -> +F5 1: CRC-Fehler Heizungsfachmannparameter
+   -> 8F5 2: CRC-Fehler Herstellerparameter/SCOT-Fehler Io-Soll
+   -> !F5 3: Fehler Spannungsversorgung
+   -> !F5 6: Fehler Ionisationsschaltung
+   -> $F6 1: SCOT - Regelabweichung zu groß
+   -> F6 2: Tauchspule fehlerhaft
+   -> 2F6 4: Kalibration: Basiswert außerhalb Werksgrenze
+   -> .F6 5: Kalibration: Starke Abweichung Basiswert
+   -> "F6 6: Kalibration nicht ausführbar
+   -> #W8 0: Fernsteuerung antwortet nicht
+   -> #W8 1: Fernsteuerung antwortet nicht
+   -> #W8 2: Fernsteuerung antwortet nicht
+   -> #W8 3: Fernsteuerung antwortet nicht
+   -> #W8 4: Fernsteuerung antwortet nicht
+   -> #W8 5: Fernsteuerung antwortet nicht
+   -> #W8 6: Fernsteuerung antwortet nicht
+   -> #W8 7: Fernsteuerung antwortet nicht
+   -> #W8 8: Fernsteuerung antwortet nicht
+   -> 8 9:
+   -> W1: Wartungsintervall abgelaufen
+   -> TComboBox
+   -> cbBxBetriebsartWW
+   -> Style
+   -> csSimple
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxBetriebsartHZChange
+
+[Component]: Items.Strings
+   -> Zapfen
+   -> Comfort
+   -> WW-Ladung
+   -> Standby
+   -> TEditGroup
+   -> EGrpStatus
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Brenner Taktsperre#min
+   -> I11: Laststellung#%
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEdit
+
+[Component]: EdtBetriebsartHZ
+   -> TabOrder
+   -> TEdit
+
+[Component]: EdtFCode
+   -> TabOrder
+   -> TEdit
+
+[Component]: EdtBetriebsartWW
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpBetriebBrenner
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> Visible
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> *I45: Brennerbetrieb seit letzter Wartung#h
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TGroupBox
+
+[Component]: GrpBoxInlets
+   -> Eingänge
+   -> Enabled
+   -> TabOrder
+   -> TCheckGroup
+
+[Component]: ChkGrpInlets
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> TabOrder
+   -> Distance
+   -> HorDistance
+
+[Component]: Items.Strings
+   -> Flamme
+   -> Columns
+   -> test
+   -> TGroupBox
+
+[Component]: GrpBxSollIst
+   -> Soll-Istwerte
+   -> Enabled
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpTemps
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> I30: Vorlauftemperatur eSTB#°C
+   -> I31: Abgastemperatur#°C
+   -> I33: Außentemperatur B1#°C
+   -> )I34: Warmwassertemperatur (Ausf. W) B3#°C
+   -> !I35: Vorlauftemperatur NTC B12#°C
+   -> I37: Durchfluss (Ausf. C)#l/min
+   -> I38: Pufferfühler B10#°C
+   -> I39: Weichenfühler B11#°C
+   -> I15: Eingangssignal#mA
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TGroupBox
+
+[Component]: GrpBxPumpensteuerung
+   -> Pumpensteuerung
+   -> Enabled
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpPumpe
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> PWM-Minwert#%
+   -> PWM-Sollwert#%
+   -> PWM-Maxwert#%
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TGroupBox
+
+[Component]: GrpBxWirkWA
+   -> Wirksame Wärmeanforderung
+   -> Enabled
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpWirkWA
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> VL-Sollwert#°C
+   -> WW-Sollwert#°C
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TCheckBox
+
+[Component]: ChkBxHZFrg
+   -> Freigabe
+   -> TabOrder
+   -> TCheckBox
+
+[Component]: ChkBxWWFrg
+   -> Freigabe
+   -> TabOrder
+   -> TTabSheet
+
+[Component]: TbShtMenu
+   -> Endanwender
+   -> ImageIndex
+   -> TGroupBox
+
+[Component]: GrpBxMenuDevice
+   -> Geräteparameter
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnMenuRead
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnMenuReadClick
+   -> TButton
+
+[Component]: BtnMenuWrite
+   -> &Eintragen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnMenuWriteClick
+   -> TGroupBox
+
+[Component]: GrpBxMenuFile
+   -> Parameterdatei
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnMenuLoad
+   -> &Laden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnMenuLoadClick
+   -> TButton
+
+[Component]: BtnMenuSave
+   -> &Speichern
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnMenuSaveClick
+   -> TGroupBox
+
+[Component]: GrpBxMenu
+   -> Align
+   -> alTop
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpMenu
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> Align
+   -> alClient
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Normaltemperatur-Sollwert#°C
+   -> Absenktemperatur-Sollwert#°C
+   -> #Umschalttemperatur Sommer/Winter#°C
+   -> WW-Sollwert Tag#°C
+   -> Raum-Normaltemperatur#°C
+   -> Raum-Absenktemperatur#°C
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TRadioGroup
+
+[Component]: RGrpMenu
+   -> Columns
+
+[Component]: Items.Strings
+   -> W (Winterbetrieb)
+   -> S (Sommerbetrieb)
+   -> TabOrder
+   -> TEdit
+
+[Component]: EdtRaumNormal
+   -> TabOrder
+   -> Visible
+   -> TEdit
+
+[Component]: EdtRaumAbsenk
+   -> TabOrder
+   -> Visible
+   -> TEdit
+
+[Component]: EdtAbsenktemp
+   -> TabOrder
+   -> Visible
+   -> TEdit
+
+[Component]: EdtNormalTemp
+   -> TabOrder
+   -> Visible
+   -> TTabSheet
+
+[Component]: TbShtService
+   -> Heizungsfachmann
+   -> ImageIndex
+   -> TGroupBox
+
+[Component]: GrpBxService
+   -> Align
+   -> alTop
+   -> TabOrder
+   -> TLabel
+
+[Component]: LblP10
+   -> AutoSize
+   -> P10: Gerätetyp
+   -> TLabel
+
+[Component]: LblP12
+   -> P12: Kesseladresse
+   -> TLabel
+
+[Component]: LblP13
+   -> P13: Funktion MFA
+   -> TLabel
+
+[Component]: LblP14
+   -> P14: Funktion VA
+   -> TLabel
+
+[Component]: LblP15
+   -> P15: H1
+   -> TLabel
+
+[Component]: LblP11
+   -> P11: Gasart
+   -> TLabel
+
+[Component]: LblOutSensor
+   -> AutoSize
+   -> Außenfühler
+   -> TLabel
+
+[Component]: LblPWM
+   -> AutoSize
+   -> PWM Pumpe
+   -> TLabel
+
+[Component]: LblP17
+   -> P17: H2
+   -> TComboBox
+
+[Component]: CbBxP10
+   -> Style
+   -> csDropDownList
+   -> Enabled
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxP10Change
+
+[Component]: Items.Strings
+   -> Ausf.- H
+   -> Ausf.- W
+   -> Ausf.- I
+   -> Ausf.- P
+   -> Ausf.- C
+   -> Ausf.- H mit Puffer P1
+   -> Ausf.- H mit Puffer P2
+   -> Ausf.- H mit Puffer P3
+   -> Ausf.- W mit Puffer P1
+   -> Ausf.- W mit Puffer P2
+   -> Ausf.- W mit Puffer P3
+   -> Ausf.- I mit Puffer P1
+   -> Ausf.- I mit Puffer P2
+   -> Ausf.- I mit Puffer P3
+   -> Ausf.- P
+   -> Ausf.- P --
+   -> Ausf.- P mit Puffer P3
+   -> Ausf.- C
+   -> Ausf.- C --
+   -> Ausf.- C mit Puffer P3
+   -> TComboBox
+
+[Component]: CbBxP13
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> 0 - Flüssiggasvorventil
+   -> 1 - Störungsweitermeldung
+   -> 2 - Zubringerpumpe vor BW-Ladung
+   -> !3 - Zubringerpumpe nach BW-Ladung
+   -> 4 - WW-Ladepumpe
+   -> 5 - WW-Zirkulationspumpe
+   -> 6 - FB-Programmsteuerung
+   -> 7 - FB#1-Pumpensteuerung
+   -> TComboBox
+
+[Component]: CbBxP14
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> 0 - Flüssiggasvorventil
+   -> 1 - Störungsweitermeldung
+   -> 2 - Zubringerpumpe vor BW-Ladung
+   -> !3 - Zubringerpumpe nach BW-Ladung
+   -> 4 - WW-Ladepumpe
+   -> 5 - WW-Zirkulationspumpe
+   -> 6 - FB-Programmsteuerung
+   -> 7 - FB#1-Pumpensteuerung
+   -> TComboBox
+
+[Component]: CbBxP15
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+
+[Component]: Items.Strings
+   -> 0 - Heizkreisfreigabe
+   -> 1 - Heizkreis Absenk/Normal
+   -> 2 - -----
+   -> 3 - Stand-By mit Frostschutz
+   -> TComboBox
+
+[Component]: CbBxP17
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxP17Change
+
+[Component]: Items.Strings
+   -> 0 - WW Freigabe
+   -> 1 - WW Absenk/Normal
+   -> 2 - Heizbetrieb mit Sonderniveau
+   -> 3 - Not-Aus
+   -> TEditGroup
+   -> EGrpP1x
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> P18: Sonderniveau Heizbetrieb#°C
+   -> P20: Außenfühler-Korrektur#K
+   -> P21: Gebäude-Bewertung#
+   -> P22: Heizkennlinien-Steilheit#
+   -> P23: Anlagenfrostschutz#°C
+   -> "P30: Minimale Vorlauftemperatur#°C
+   -> "P31: Maximale Vorlauftemperatur#°C
+   -> $P32: Schaltdifferenz Vorlauftemp.#°C
+   -> P33: Abschalttemp. Abgasweg#°C
+   -> P34: Brenner Taktsperre#min
+   -> P35: Startgasmenge bei Zündung#%
+   -> P36: Minimale Kesselleistung#%
+   -> P37: Max. Leistung Heizung#%
+   -> P38: Max. Leistung WW#%
+   -> P39: O2-Korrektur#O2
+   -> P40: Dauerlauf Pumpe Heizung#
+   -> P41: Pumpennachlauf Heizung#min
+   -> P42: Min. Pumpenleistung#%
+   -> P43: Max. Pumpenleistung#%
+   -> P44: Weichenregelung#K
+   -> P45: Pumpenleistung WW#%
+   -> P50: Überhöhung WW-Ladung#K
+   -> P51: Schaltdifferenz WW#K
+   -> P52: Max. WW-Ladezeit#min
+   -> P53: WW-Temp. Absenkbetrieb#°C
+   -> P70: Wartungsintervall#h
+   -> P71: eBUS-Speisung
+   -> $P72: O2-Korrektur unterer Bereich#O2
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TRadioGroup
+
+[Component]: RGrpP11
+
+[Component]: Items.Strings
+   -> Flüssiggas (F)
+   -> Erdgas (E)
+   -> Erdgas Abgasklappe (EA)
+   -> TabOrder
+   -> TRadioGroup
+
+[Component]: RGrpOutSensor
+   -> Columns
+   -> Enabled
+
+[Component]: Items.Strings
+   -> Nein (-)
+   -> Ja (A)
+   -> mA (t)
+   -> TabOrder
+   -> OnClick
+
+[Component]: RGrpOutSensorClick
+   -> TRadioGroup
+
+[Component]: RGrpPWM
+   -> Columns
+   -> Enabled
+
+[Component]: Items.Strings
+   -> Nein (-)
+   -> Ja (P)
+   -> TabOrder
+   -> OnClick
+
+[Component]: RGrpPWMClick
+   -> TRadioGroup
+
+[Component]: RGrpP12
+   -> Columns
+
+[Component]: Items.Strings
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpAnlageParas
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> A1: VL-Regler (P-Anteil)
+   -> A2: VL-Regler (I-Anteil)
+   -> A3: VL-Regler (D-Anteil)
+   -> A7: Max. Spreizung VL/Abgas#K
+   -> A8: Kesselleistung bei Zündung#%
+   -> A9: Max. Vorlaufgradient#K/s
+   -> A10: Maximale Drehzahl#U/min
+   -> A11: Verzögerte Startleistung#%
+   -> A12: GDW/WDW
+   -> A13: Max. Spreizung eSTB-NTC#K
+   -> A20: Zündfrequenz#Hz
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpP1xC
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> P18: Sonderniveau Heizbetrieb#°C
+   -> P20: Außenfühler-Korrektur#K
+   -> P21: Gebäude-Bewertung#
+   -> P22: Heizkennlinien-Steilheit#
+   -> P23: Anlagenfrostschutz#°C
+   -> "P30: Minimale Vorlauftemperatur#°C
+   -> "P31: Maximale Vorlauftemperatur#°C
+   -> $P32: Schaltdifferenz Vorlauftemp.#°C
+   -> P33: Abschalttemp. Abgasweg#°C
+   -> P34: Brenner Taktsperre#min
+   -> P35: Startgasmenge bei Zündung#%
+   -> P36: Minimale Kesselleistung#%
+   -> P37: Max. Leistung Heizung#%
+   -> P38: Max. Leistung WW#%
+   -> P39: O2-Korrektur#O2
+   -> P40: Dauerlauf Pumpe Heizung#
+   -> P41: Pumpennachlauf Heizung#min
+   -> P42: Min. Pumpenleistung#%
+   -> P43: Max. Pumpenleistung#%
+   -> P44: Weichenregelung#K
+   -> P45: Pumpenleistung WW#%
+   -> P60: Comforttemp. (Ausf. C)#°C
+   -> P61: Hysterese (Ausf. C)#K
+   -> P62: Boosterfunktion (Ausf. C)#
+   -> P70: Wartungsintervall#h
+   -> P71: eBUS-Speisung
+   -> $P72: O2-Korrektur unterer Bereich#O2
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpAnlageParasC
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> A1: VL-Regler (P-Anteil)
+   -> A2: VL-Regler (I-Anteil)
+   -> A3: VL-Regler (D-Anteil)
+   -> A4: Combi-Regler (P-Anteil)
+   -> A5: Combi-Regler (I-Anteil)#s
+   -> A6: Combi-Regler (D-Anteil)#s
+   -> A7: Max. Spreizung VL/Abgas#K
+   -> A8: Kesselleistung bei Zündung#%
+   -> A9: Max. Vorlaufgradient#K/s
+   -> A10: Maximale Drehzahl#U/min
+   -> A11: Verzögerte Startleistung#%
+   -> A12: GDW
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TGroupBox
+
+[Component]: GrpBxServiceDevice
+   -> Geräteparameter
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnServiceRead
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnServiceReadClick
+   -> TButton
+
+[Component]: BtnServiceWrite
+   -> &Eintragen
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnServiceWriteClick
+   -> TGroupBox
+
+[Component]: GrpBxServiceFile
+   -> Parameterdatei
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnServiceLoad
+   -> &Laden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnServiceLoadClick
+   -> TButton
+
+[Component]: BtnServiceSave
+   -> &Speichern
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnServiceSaveClick
+   -> TTabSheet
+
+[Component]: TbShtFailSafe
+   -> Hersteller
+   -> ImageIndex
+   -> TGroupBox
+
+[Component]: GrpBxFS
+   -> Align
+   -> alTop
+   -> TabOrder
+   -> TLabel
+   -> Transparent
+   -> TLabel
+
+[Component]: LblType
+   -> S0: Sensor- /Aktor-Konfiguration
+   -> TEditGroup
+   -> EGrpFS
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> Align
+   -> alTop
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> S0:   Optionen
+   -> $S2:   Stabilisierungszeit#s#0.1#25.5
+   -> S3:   Nachspülzeit#s#0.1#25.5
+   -> S4:   Minimale Drehzahl#%
+   -> &S6:   STW Abschalttemperatur Kessel#°C
+   -> -S8:   Obere Eingabegrenze max. Drehzahl#U/min
+   -> S10: Vor-/Nachspüldrehzahl#%
+   -> S11: Gebläseregler (P-Anteil)
+   -> S12: Gebläseregler (I-Anteil)
+   -> S13: Gebläseregleranpassung
+   -> S14: Gebläsestartsignal (PWM)#%
+   -> S17: Io-Regleranpassung
+   -> %S19: Linear Koeffizient Gasstellglied
+   -> ,S20: Quadratischer Koeffizient Gasstellglied
+   -> S21: Toleranz Gasstellglied#%
+   -> S22: Toleranz Io-Signal#Punkte
+   -> (S23: Kaskade-Leistungsanhebung (unten)#%
+   -> $S24: Flüssiggas-Leistungsabsenkung#%
+   -> S25: Startgradient Io-Soll#s
+   -> %S26: Io-Grenzwert halber Gradient#Pkt
+   -> S27: Sicherheitszeit#s
+   -> 6S28: Io-Schwellwert für Ende Flammenstabilisierung#Pkt
+   -> ,S29: Kaskade--Leistungsanhebung (oben)#U/min
+   -> 'S30: Grenzleistung Hochmodulieren#U/min
+   -> )S31: Grenzleistung Runtermodulieren#U/min
+   -> *S32: Leistungsrampe Hochmodulieren#U/min/s
+   -> ,S33: Leistungsrampe Runtermodulieren#U/min/s
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TComboBox
+
+[Component]: CbBxType
+   -> Style
+   -> csDropDownList
+   -> ItemHeight
+   -> TabOrder
+   -> OnChange
+
+[Component]: CbBxTypeChange
+
+[Component]: Items.Strings
+   -> WTC 15/25/32
+   -> WTC 45/60
+   -> WTC K
+   -> TCheckBox
+
+[Component]: ChkBxOptExZue
+   -> Option ext. Zündung
+   -> Enabled
+   -> TabOrder
+   -> TCheckBox
+   -> chbxBCC
+   -> BCC aktiviert
+   -> Enabled
+   -> TabOrder
+   -> Visible
+   -> TGroupBox
+
+[Component]: GrpBxFsDevice
+   -> Geräteparameter
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnFSRead
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnFSReadClick
+   -> TButton
+
+[Component]: BtnFSWrite
+   -> &Eintragen
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnFSWriteClick
+   -> TGroupBox
+
+[Component]: GrpBxFSFile
+   -> Parameterdatei
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnFSLoad
+   -> &Laden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnFSLoadClick
+   -> TButton
+
+[Component]: BtnFSSave
+   -> &Speichern
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnFSSaveClick
+   -> TButton
+   -> btnSaveAll
+   -> Alle &Daten speichern
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+   -> btnSaveAllClick
+   -> TTabSheet
+
+[Component]: TbShtStatistik
+   -> Statistik
+   -> ImageIndex
+   -> TGroupBox
+
+[Component]: GrpBxStatisticDevice
+   -> Gerätestatistik
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnStatisticRead
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnStatisticReadClick
+   -> TButton
+
+[Component]: BtnStatisticClear
+   -> Rüc&ksetzen
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnStatisticClearClick
+   -> TGroupBox
+
+[Component]: GrpBxStatisticFile
+   -> Statistikdatei
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnStatisticLoad
+   -> &Laden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnStatisticLoadClick
+   -> TButton
+
+[Component]: BtnStatisticSave
+   -> &Speichern
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnStatisticSaveClick
+   -> TGroupBox
+
+[Component]: GrpBxStatistic
+   -> Align
+   -> alTop
+   -> Enabled
+   -> TabOrder
+   -> TEditGroup
+   -> EGrpStatistic
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> Align
+   -> alClient
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> F1 1: STB Übertemperatur Vorlauf
+   -> F1 2: STW Übertemperatur Vorlauf
+   -> F1 3: STB Übertemperatur Abgas
+   -> F1 4: Max. Gradient Vorlauf
+   -> F1 5: Spreizung Vorlauf / Abgas
+   -> F1 6: Abgas Übertemperatur
+   -> F1 8: Spreizung Vorlauf / STB
+   -> F2 1: Keine Flammenbildung
+   -> F2 2: Flammenausfall im Betrieb
+   -> F2 3: Flammenvortäuschung
+   -> F2 4: H2-Not Aus Funktion
+   -> )F3 0: Sicherheitstemperaturfühler defekt
+   -> F3 1: Abgasfühler defekt
+   -> W3 3: Außenfühler defekt
+   -> W3 4: Warmwasserfühler defekt
+   -> F3 5: Vorlauffühler defekt
+   -> F3 6: Wasserdruck zu gering
+   -> 'W3 7: Gradient ohne Durchflusserkennung
+   -> F3 8: Fühler B10 defekt
+   -> F3 9: Weichenfühler B11 defekt
+   -> "F4 1: Gasventilkreis V1/V2 defekt
+   -> F4 2: PWM Pumpe defekt
+   -> F4 3: Gebläsefehler im Betrieb
+   -> "F4 4: Gebläsefehler im Stillstand
+   -> +F5 1: CRC-Fehler Heizungsfachmannparameter
+   -> 8F5 2: CRC-Fehler Herstellerparameter/SCOT-Fehler Io-Soll
+   -> !F5 3: Fehler Spannungsversorgung
+   -> $F6 1: SCOT - Regelabweichung zu groß
+   -> F6 2: Tauchspule fehlerhaft
+   -> 2F6 4: Kalibration: Basiswert außerhalb Werksgrenze
+   -> .F6 5: Kalibration: Starke Abweichung Basiswert
+   -> "F6 6: Kalibration nicht ausführbar
+   -> I40: Tagesschaltspielzähler
+   -> I41: Tagesbetriebsstundenzähler
+   -> I42: Schaltspielzähler Brenner
+   -> I43: Betriebsstunden Brenner
+   -> (I45: Brennerbetrieb seit letzter Wartung
+   -> "     bei Wartungsintervall (P70)#h
+   -> Anzahl Netz ein
+   -> Betriebstunden Kessel
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TTabSheet
+
+[Component]: TbShtErrorBuffer
+   -> Fehlerhistorie
+   -> ImageIndex
+   -> TGroupBox
+
+[Component]: GrpBxHistoryDevice
+   -> Gerätehistorie
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnHistoryRead
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnHistoryReadClick
+   -> TButton
+
+[Component]: BtnHistoryClear
+   -> Rüc&ksetzen
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnHistoryClearClick
+   -> TGroupBox
+
+[Component]: GrpBxHistoryFile
+   -> Historiedatei
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnHistoryLoad
+   -> &Laden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnHistoryLoadClick
+   -> TButton
+
+[Component]: BtnHistorySave
+   -> &Speichern
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnHistorySaveClick
+   -> TGroupBox
+
+[Component]: GrpBxHistory
+   -> Align
+   -> alTop
+   -> TabOrder
+   -> TLabel
+
+[Component]: LblErr1
+   -> Fehler 1
+   -> TLabel
+
+[Component]: LblErr2
+   -> Fehler 2
+   -> TLabel
+
+[Component]: LblErr3
+   -> Fehler 3
+   -> TLabel
+
+[Component]: LblErr4
+   -> Fehler 4
+   -> TLabel
+
+[Component]: LblErr5
+   -> Fehler 5
+   -> TLabel
+
+[Component]: LblErrorCode
+   -> Fehlercode
+   -> TLabel
+
+[Component]: LblPhase
+   -> I10: Betriebsphase
+   -> TLabel
+
+[Component]: LblPowerPosition
+   -> I11: Laststellung
+   -> TLabel
+   -> lblbrennerlauf
+   -> I16: Brennerlaufzeit [s]
+   -> TLabel
+
+[Component]: LblBoilerTemp
+   -> !I30: Vorlauftemperatur eSTB [°C]
+   -> TLabel
+
+[Component]: LblFluegastemp
+   -> I31: Abgastemperatur [°C]
+   -> TLabel
+
+[Component]: Lbl_IoSignal
+   -> I32: Ionisationssignal
+   -> TLabel
+
+[Component]: LblOutTemp
+   -> I33: Außentemperatur [°C]
+   -> TLabel
+
+[Component]: LblWAUTemp
+   -> I34: WW-Temperatur [°C]
+   -> TLabel
+
+[Component]: LblFlowValue
+   -> %I21: Ansteuersignal Gasstellglied [%]
+   -> TLabel
+
+[Component]: LblPosUSV
+   -> I20: Stellung Umschaltventil
+   -> TLabel
+   -> lblerr6
+   -> Fehler 6
+   -> TStringGrid
+
+[Component]: StrGridHistory
+   -> ColCount
+   -> DefaultColWidth
+   -> FixedCols
+   -> RowCount
+   -> FixedRows
+   -> ScrollBars
+   -> ssNone
+   -> TabOrder
+   -> TTabSheet
+
+[Component]: TbShtIoParas
+   -> Io-Parameter
+   -> ImageIndex
+   -> TGroupBox
+
+[Component]: GrpBoxIoParas
+   -> Align
+   -> alTop
+   -> TabOrder
+   -> TLabel
+   -> lblIoParas
+   -> Erdgas
+   -> Font.Charset
+   -> DEFAULT_CHARSET
+   -> Font.Color
+   -> clWindowText
+   -> Font.Height
+   -> Font.Name
+   -> MS Sans Serif
+   -> Font.Style
+   -> ParentFont
+   -> TLabel
+   -> lblIoParas1
+   -> Flüssiggas
+   -> TLabel
+   -> lblIoParas2
+   -> Erdgas Abgasklappe
+   -> TLabel
+   -> lblParameter
+   -> Parameter
+   -> TLabel
+
+[Component]: Lbl_IO18
+   -> IO18: Ion Limit
+   -> Visible
+   -> TLabel
+
+[Component]: Lbl_Io20
+   -> IO20: Io-Soll Basiswert
+   -> Visible
+   -> TEditGroup
+   -> EGrpIoParas
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> IO1: Kalibrationsfaktor#%
+   -> IO2: min. Io-Sollwert(Werk)#Pkt
+   -> IO3: max. Io-Sollwert(Werk)#Pkt
+   -> IO4: Gas-Startkick#%
+   -> IO5: Gasrampe bei Zündung#%
+   -> IO7: Io-Soll-Kurve bei 8,5%#%
+   -> IO8: Io-Soll-Kurve bei 17,0%#%
+   -> IO9: Io-Soll-Kurve bei 25,6%#%
+   -> IO10: Io-Soll-Kurve bei 34,1%#%
+   -> IO11: Io-Soll-Kurve bei 42,6%#%
+   -> IO12: Io-Soll-Kurve bei 51,2%#%
+   -> IO13: Io-Soll-Kurve bei 68,2%#%
+   -> IO14: Io-Soll-Kurve bei 85,3%#%
+   -> IO15: Io-Soll-Kurve bei 102,4%#%
+   -> IO16: Io-Soll-Kurve bei 119,4%#%
+   -> IO17: Kalibrierdrehzahl#%
+   -> IO18: Io-Schwellwert 50V#--
+   -> IO19: Kick_2#--
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpIoSoll
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> IO19: Io-Soll Basiswert
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EGrpIoParasFl
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Pkt#
+   -> Pkt#
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEditGroup
+   -> EgrpIoParasKask
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Pkt#
+   -> Pkt#
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TGroupBox
+
+[Component]: GrpBoxIoParasFile
+   -> Parameterdatei
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnIoParasLoad
+   -> &Laden
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnIoParasLoadClick
+   -> TButton
+
+[Component]: BtnIoParasSave
+   -> &Speichern
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnIoParasSaveClick
+   -> TGroupBox
+
+[Component]: GrpBoxIoParasDevice
+   -> Geräteparameter
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnIoParasRead
+   -> &Auslesen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnIoParasReadClick
+   -> TButton
+
+[Component]: BtnIoParasWrite
+   -> &Eintragen
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnIoParasWriteClick
+   -> TButton
+
+[Component]: BtnIoSoll
+   -> Basiswert eintragen
+   -> Enabled
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnIoSollClick
+   -> TsiLangLinked
+   -> siLangLinked1
+   -> Version
+   -> 5.3.1.1
+
+[Component]: StringsTypes.Strings
+   -> TIB_STRINGLIST
+   -> TSTRINGLIST
+
+[Component]: SmartExcludeProps.Strings
+   -> TFrmWCM364.Caption
+
+[Component]: GrpBxBurner.Caption
+
+[Component]: ChkGrpOutlets.Caption
+
+[Component]: RGrpUVW.Caption
+
+[Component]: GrpBxMenu.Caption
+
+[Component]: RGrpMenu.Caption
+
+[Component]: GrpBxService.Caption
+
+[Component]: GrpBxFS.Caption
+
+[Component]: GrpBxStatistic.Caption
+
+[Component]: GrpBxHistory.Caption
+
+[Component]: GrpBoxIoParas.Caption
+
+[Component]: ChkGrpInlets.Caption
+
+[Component]: RGrpP11.Caption
+
+[Component]: RGrpOutSensor.Caption
+
+[Component]: RGrpPWM.Caption
+
+[Component]: RGrpP12.Caption
+   -> NumOfLanguages
+   -> LangDispatcher
+   -> MainForm.siLangDispatcher1
+   -> OnChangeLanguage
+   -> siLangLinked1ChangeLanguage
+   -> LangDelim
+
+[Component]: LangNames.Strings
+   -> Deutsch
+   -> English
+   -> Francais
+   -> Italiano
+   -> Espanol
+   -> Nederlands
+   -> Dansk
+   -> Swedish
+   -> Norwegian
+   -> Slovenski
+   -> Hrvatski
+   -> Magyar
+   -> Polski
+   -> Russian
+   -> Greece
+   -> Language
+   -> Deutsch
+   -> TranslationData
+   -> stCaptions
+
+[Component]: BtnFSLoad
+   -> &Laden
+   -> &Load
+   -> &Charger
+   -> &Caricare
+   -> &Cargar
+   -> &Laden
+   -> Indlæs
+   -> &Ladda
+   -> &pozivati
+   -> &Betölteni
+   -> &Otwórz
+   -> &Çàãðóçèòü
+
+[Component]: BtnFSRead
+   -> &Auslesen
+   -> &Read
+   -> &Lire
+   -> &Leggere
+   -> &Leer
+   -> &Aflezen
+   -> Udlæs
+   -> &Läs
+   -> &ocitati
+   -> &Kiolvasni
+   -> &Odczyt
+   -> &Ñ÷èòàòü
+
+[Component]: BtnFSSave
+   -> &Speichern
+   -> &Save
+   -> &Enregistrer
+   -> &Salvare
+   -> &Guardar
+   -> &Opslaan
+   -> Gem
+   -> &Spara
+   -> &pohraniti
+   -> &Tárolni
+   -> &Zapis
+   -> &Ñîõðàíèòü
+
+[Component]: BtnFSWrite
+   -> &Eintragen
+   -> &Write
+   -> &Ecrire
+   -> &Scrivere
+   -> &Escribir
+   -> &Optekenen
+   -> Skriv
+   -> &Skriv
+   -> &unositi
+   -> &Bevinni
+   -> &Zapis w urz.
+   -> &Ââåñòè
+
+[Component]: BtnHistoryClear
+   -> Rüc&ksetzen
+   -> R&eset
+   -> R&eset
+   -> &Resettare
+   -> Rese&t
+   -> &Reset
+   -> Reset
+   -> &Aterställ
+   -> &vrati
+   -> &Visszaállítani
+   -> R&eset
+   -> Ñáðî&ñèòü
+
+[Component]: BtnHistoryLoad
+   -> &Laden
+   -> &Load
+   -> &Charger
+   -> &Caricare
+   -> &Cargar
+   -> &Laden
+   -> Indlæs
+   -> &Ladda
+   -> &pozivati
+   -> &Betölteni
+   -> &Otwórz
+   -> &Çàãðóçèòü
+
+[Component]: BtnHistoryRead
+   -> &Auslesen
+   -> &Read
+   -> &Lire
+   -> &Leggere
+   -> &Leer
+   -> &Aflezen
+   -> Udlæs
+   -> &Läs
+   -> &ocitati
+   -> &Kiolvasni
+   -> &Odczyt
+   -> &Ñ÷èòàòü
+
+[Component]: BtnHistorySave
+   -> &Speichern
+   -> &Save
+   -> &Enregistrer
+   -> &Salvare
+   -> &Guardar
+   -> &Opslaan
+   -> Gem
+   -> &Spara
+   -> &pohraniti
+   -> &Tárolni
+   -> &Zapis
+   -> &Ñîõðàíèòü
+
+[Component]: BtnIoParasLoad
+   -> &Laden
+   -> &Load
+   -> &Charger
+   -> &Caricare
+   -> &Cargar
+   -> &Laden
+   -> Indlæs
+   -> &Ladda
+   -> &pozivati
+   -> &Betölteni
+   -> &Otwórz
+   -> &Çàãðóçèòü
+
+[Component]: BtnIoParasRead
+   -> &Auslesen
+   -> &Read
+   -> &Lire
+   -> &Leggere
+   -> &Leer
+   -> &Aflezen
+   -> Udlæs
+   -> &Läs
+   -> &ocitati
+   -> &Kiolvasni
+   -> &Odczyt
+   -> &Ñ÷èòàòü
+
+[Component]: BtnIoParasSave
+   -> &Speichern
+   -> &Save
+   -> &Enregistrer
+   -> &Salvare
+   -> &Guardar
+   -> &Opslaan
+   -> Gem
+   -> &Spara
+   -> &pohraniti
+   -> &Tárolni
+   -> &Zapis
+   -> &Ñîõðàíèòü
+
+[Component]: BtnIoParasWrite
+   -> &Eintragen
+   -> &Write
+   -> &Ecrire
+   -> &Scrivere
+   -> &Escribir
+   -> &Optekenen
+   -> Skriv
+   -> &Skriv
+   -> &unositi
+   -> &Bevinni
+   -> &Zapis w urz.
+   -> &Ââåñòè
+
+[Component]: BtnIoSoll
+   -> Basiswert eintragen
+   -> Enter base value
+   -> Ecrire données de base
+   -> Inserire valore base
+   -> Escribir valor básico
+   -> Basiswaarde ingeven
+   -> Basisværdi registreres
+   -> Mata in basvärde
+   -> Upisati osnovne podatke
+   -> Bázisértéket bevinni
+   -> &Zapis w urzadzeniu wartosci podstawowej
+   -> Ââåñòè áàçîâîå çíà÷åíèå
+
+[Component]: BtnMenuLoad
+   -> &Laden
+   -> &Load
+   -> &Charger
+   -> &Caricare
+   -> &Cargar
+   -> &Laden
+   -> Indlæs
+   -> &Ladda
+   -> &pozivati
+   -> &Betölteni
+   -> &Otwórz
+   -> &Çàãðóçèòü
+
+[Component]: BtnMenuRead
+   -> &Auslesen
+   -> &Read
+   -> &Lire
+   -> &Leggere
+   -> &Leer
+   -> &Aflezen
+   -> Udlæs
+   -> &Läs
+   -> &ocitati
+   -> &Kiolvasni
+   -> &Odczyt
+   -> &Ñ÷èòàòü
+
+[Component]: BtnMenuSave
+   -> &Speichern
+   -> &Save
+   -> &Enregistrer
+   -> &Salvare
+   -> &Guardar
+   -> &Opslaan
+   -> Gem
+   -> &Spara
+   -> &pohraniti
+   -> &Tárolni
+   -> &Zapis
+   -> &Ñîõðàíèòü
+
+[Component]: BtnMenuWrite
+   -> &Eintragen
+   -> &Write
+   -> &Ecrire
+   -> &Scrivere
+   -> &Escribir
+   -> &Optekenen
+   -> Skriv
+   -> &Skriv
+   -> &unositi
+   -> &Bevinni
+   -> &Zapis w urz.
+   -> &Ââåñòè
+   -> btnSaveAll
+   -> Alle &Daten speichern
+   -> Save all &Data
+   -> Enregistrer &toutes les données
+   -> &Salvare tutti i dati
+   -> Guardar todos los &datos
+   -> &Alle gegevens opslaan
+   -> Alle data gemmes
+   -> &Lagra alla data
+   -> &sve podatke pohraniti
+   -> Minden &adatot tárolni
+   -> Zapis &wszystkich danych
+   -> Ñîõðàíèòü &âñå äàííûå
+
+[Component]: BtnServiceLoad
+   -> &Laden
+   -> &Load
+   -> &Charger
+   -> &Caricare
+   -> &Cargar
+   -> &Laden
+   -> Indlæs
+   -> &Ladda
+   -> &pozivati
+   -> &Betölteni
+   -> &Otwórz
+   -> &Çàãðóçèòü
+
+[Component]: BtnServiceRead
+   -> &Auslesen
+   -> &Read
+   -> &Lire
+   -> &Leggere
+   -> &Leer
+   -> &Aflezen
+   -> Udlæs
+   -> &Läs
+   -> &ocitati
+   -> &Kiolvasni
+   -> &Odczyt
+   -> &Ñ÷èòàòü
+
+[Component]: BtnServiceSave
+   -> &Speichern
+   -> &Save
+   -> &Enregistrer
+   -> &Salvare
+   -> &Guardar
+   -> &Opslaan
+   -> Gem
+   -> &Spara
+   -> &pohraniti
+   -> &Tárolni
+   -> &Zapis
+   -> &Ñîõðàíèòü
+
+[Component]: BtnServiceWrite
+   -> &Eintragen
+   -> &Write
+   -> &Ecrire
+   -> &Scrivere
+   -> &Escribir
+   -> &Optekenen
+   -> Skriv
+   -> &Skriv
+   -> &unositi
+   -> &Bevinni
+   -> &Zapis w urz.
+   -> &Ââåñòè
+
+[Component]: BtnStatisticClear
+   -> Rüc&ksetzen
+   -> R&eset
+   -> R&eset
+   -> &Resettare
+   -> Rese&t
+   -> &Reset
+   -> Reset
+   -> &Aterställ
+   -> &vrati
+   -> &Visszaállítani
+   -> R&eset
+   -> Ñáðî&ñèòü
+
+[Component]: BtnStatisticLoad
+   -> &Laden
+   -> &Load
+   -> &Charger
+   -> &Caricare
+   -> &Cargar
+   -> &Laden
+   -> Indlæs
+   -> &Ladda
+   -> &pozivati
+   -> &Betölteni
+   -> &Otwórz
+   -> &Çàãðóçèòü
+
+[Component]: BtnStatisticRead
+   -> &Auslesen
+   -> &Read
+   -> &Lire
+   -> &Leggere
+   -> &Leer
+   -> &Aflezen
+   -> Udlæs
+   -> &Läs
+   -> &ocitati
+   -> &Kiolvasni
+   -> &Odczyt
+   -> &Ñ÷èòàòü
+
+[Component]: BtnStatisticSave
+   -> &Speichern
+   -> &Save
+   -> &Enregistrer
+   -> &Salvare
+   -> &Guardar
+   -> &Opslaan
+   -> Gem
+   -> &Spara
+   -> &pohraniti
+   -> &Tárolni
+   -> &Zapis
+   -> &Ñîõðàíèòü
+   -> chbxBCC
+   -> BCC aktiviert
+   -> BCC activated
+   -> BBC activé
+   -> BBC attivato
+   -> BCC activado
+   -> BCC geactiveerd
+   -> BCC aktiveret
+   -> BCC aktiverad
+   -> BCC aktiviran
+   -> BCC aktiválva
+   -> aktywny BCC
+   -> BCC àêòèâèðîâàíî
+
+[Component]: ChkBxHZFrg
+   -> Freigabe
+   -> Release
+   -> Autorisation
+   -> Consenso
+   -> Permiso
+   -> Vrijgave
+   -> Frigivelse
+   -> Frigivning
+   -> odobreno
+   -> engedélyezés
+   -> Zezwolenie
+   -> Ïóñê
+
+[Component]: ChkBxOptExZue
+   -> Option ext. Zündung
+   -> Option ext. ignition
+   -> Option allumage ext.
+   -> Opzione accensione esterna
+   -> Opción encendido ext.
+   -> Optie ext. Ontsteking
+   -> Option extern tænding
+   -> Option extern tändning
+   -> opcija vanjsko paljenje
+   -> opció külso gyújtás
+   -> opcja: zewn. zaplon
+   -> Îïöèÿ âíåøí. çàæèãàíèå
+
+[Component]: ChkBxWWFrg
+   -> Freigabe
+   -> Release
+   -> Autorisation
+   -> Consenso
+   -> Permiso
+   -> Vrijgave
+   -> Frigivelse
+   -> Frigivning
+   -> odobreno
+   -> engedélyezés
+   -> Zezwolenie
+   -> Ïóñê
+
+[Component]: GrpBoxInlets
+   -> Eingänge
+   -> Inputs
+   -> Entrées
+   -> Ingressi
+   -> Entradas
+   -> Ingangen
+   -> Indgange
+   -> Ingangar
+   -> ulazi
+   -> bemenetek
+   -> Wejscia
+   -> Âõîäû
+
+[Component]: GrpBoxIoParasDevice
+   -> Geräteparameter
+   -> Unit parameter
+   -> Paramètres appareil
+   -> Parametri apparecchiatura
+   -> Parámetros de aparato
+   -> Toestelparameters
+   -> Enhedsparameter
+   -> Apparatparameter
+   -> parametri kotla
+   -> készülékparaméter
+   -> parametry urzadzenia
+   -> Ïàðàìåòðû ïðèáîðà
+
+[Component]: GrpBoxIoParasFile
+   -> Parameterdatei
+   -> Parameter file
+   -> Fichier paramètres
+   -> Archivio dati parametri
+   -> Archivo de parámetros
+   -> Parameterbestand
+   -> Parameter fil
+   -> Parameterfil
+   -> podaci parametara
+   -> paraméteradatok
+   -> plik z parametrami
+   -> Ôàéë ïàðàìåòðîâ
+
+[Component]: GrpBxFsDevice
+   -> Geräteparameter
+   -> Unit parameter
+   -> Paramètres appareil
+   -> Parametri apparecchiatura
+   -> Parámetros de aparato
+   -> Toestelparameters
+   -> Enhedsparameter
+   -> Apparatparameter
+   -> parametri kotla
+   -> készülékparaméter
+   -> parametry urzadzenia
+   -> Ïàðàìåòðû ïðèáîðà
+
+[Component]: GrpBxFSFile
+   -> Parameterdatei
+   -> Parameter file
+   -> Fichier paramètres
+   -> Archivio dati parametri
+   -> Archivo de parámetros
+   -> Parameterbestand
+   -> Parameter fil
+   -> Parameterfil
+   -> podaci parametara
+   -> paraméteradatok
+   -> plik z parametrami
+   -> Ôàéë ïàðàìåòðîâ
+
+[Component]: GrpBxHistoryDevice
+   -> Gerätehistorie
+   -> Unit history
+   -> Historique appareil
+   -> Storico apparecchiatura
+   -> Histórico de aparato
+   -> Toestelhistoriek
+   -> Enhedsparameter
+   -> Apparathistorik
+   -> povjest kotla
+   -> készüléktörténet
+   -> historia urzadzenia
+   -> Èñòîðèÿ ïðèáîðà
+
+[Component]: GrpBxHistoryFile
+   -> Historiedatei
+   -> History file
+   -> Fichier historique
+   -> Storico archivio dati
+   -> Archivo histórico
+   -> Historiek
+   -> Parameter fil
+   -> Historikfil
+   -> povjest podataka
+   -> tört.adatok
+   -> plik historii
+   -> Ôàéë èñòîðèè
+
+[Component]: GrpBxMenuDevice
+   -> Geräteparameter
+   -> Unit parameter
+   -> Paramètres appareil
+   -> Parametri apparecchiatura
+   -> Parámetros de aparato
+   -> Toestelparameters
+   -> Enhedsparameter
+   -> Apparatparameter
+   -> parametri kotla
+   -> készülékparaméter
+   -> parametry urzadzenia
+   -> Ïàðàìåòðû ïðèáîðà
+
+[Component]: GrpBxMenuFile
+   -> Parameterdatei
+   -> Parameter file
+   -> Fichier paramètres
+   -> Archivio dati parametri
+   -> Archivo de parámetros
+   -> Parameterbestand
+   -> Parameter fil
+   -> Parameterfil
+   -> podaci parametara
+   -> paraméteradatok
+   -> plik z parametrami
+   -> Ôàéë ïàðàìåòðîâ
+
+[Component]: GrpBxOutlets
+   -> Ausgänge
+   -> Outputs
+   -> Sorties
+   -> Uscite
+   -> Salidas
+   -> Uitgangen
+   -> Udgange
+   -> Utgangar
+   -> izlazi
+   -> kimenetek
+   -> wyjscia
+   -> Âûõîäû
+
+[Component]: GrpBxPhaseAlarm
+   -> Status
+   -> Status
+   -> Status
+   -> Stato
+   -> Estado
+   -> Status
+   -> Status
+   -> Status
+   -> Status
+   -> státus
+   -> status
+   -> Ñòàòóñ
+
+[Component]: GrpBxPumpensteuerung
+   -> Pumpensteuerung
+   -> Pump control
+   -> Cde de pompe
+   -> Comando pompa
+   -> Control de bomba
+   -> Pompsturing
+   -> Pumpestyring
+   -> Pumpstyrning
+   -> upravljanje crpkom
+   -> szivattyúvezérlés
+   -> sterowanie pompy
+   -> Óïðàâëåíèå íàñîñîì
+
+[Component]: GrpBxServiceDevice
+   -> Geräteparameter
+   -> Unit parameter
+   -> Paramètres appareil
+   -> Parametri apparecchiatura
+   -> Parámetros de aparato
+   -> Toestelparameters
+   -> Enhedsparameter
+   -> Apparatparameter
+   -> parametri kotla
+   -> készülékparaméter
+   -> parametry urzadzenia
+   -> Ïàðàìåòðû ïðèáîðà
+
+[Component]: GrpBxServiceFile
+   -> Parameterdatei
+   -> Parameter file
+   -> Fichier paramètres
+   -> Archivio dati parametri
+   -> Archivo de parámetros
+   -> Parameterbestand
+   -> Parameter fil
+   -> Parameterfil
+   -> podaci parametara
+   -> paraméteradatok
+   -> plik z parametrami
+   -> Ôàéë ïàðàìåòðîâ
+
+[Component]: GrpBxSollIst
+   -> Soll-Istwerte
+   -> Set-actual value
+   -> Valeurs consignes-réelles
+   -> Valori nomin./effettivi
+   -> Valores consigna/reales
+   -> Instel-reële waarde
+   -> Beregnet setpunkt
+   -> Bör-Ärvärden
+   -> zadani-stvarni podaci
+   -> par-tényértékek
+   -> wartosci zmierzone zadane
+   -> Çàä.-Ôàêò. çíà÷åíèÿ
+
+[Component]: GrpBxStatisticDevice
+   -> Gerätestatistik
+   -> Unit statistic
+   -> Statistiques appareil
+   -> Statistica apparecchiatura
+   -> Estadística de aparato
+   -> Toestelstatistiek
+   -> Enhedsstatistik
+   -> Apparatstatistik
+   -> statistika kotla
+   -> készülékstatisztika
+   -> statystyka urzadzenia
+   -> Ñòàòèñòèêà ïðèáîðà
+
+[Component]: GrpBxStatisticFile
+   -> Statistikdatei
+   -> Statistic file
+   -> Fichier statistiques
+   -> Statistica archivio dati
+   -> Archivo de estadísticas
+   -> Statistiekbestand
+   -> Statistik fil
+   -> Statistikfil
+   -> podaci statistike
+   -> statisztikai adatok
+   -> plik statystyki
+   -> Ôàéë ñòàòèñòèêè
+
+[Component]: GrpBxValues
+   -> Gebläseregelung/Verbrennungsregelung
+   -> Fan control/combustion control
+   -> Régulation ventilateur/Combustion
+   -> Regolaz. ventilatore/regolaz. combustione
+   -> Regulación de soplante / Regulación de combustión
+   -> Ventilatorregeling/verbrandingsregeling
+   -> Blæserregulering/forbrændingsregulering
+   -> Fläktreglering/Förbränningsreglering
+   -> regulacija ventilatora/regulacija izgaranja
+   -> vent.szabályozás/tüz.szabályozás
+   -> regulacja dmuchawy/regulacja procesu spalania
+   -> Ðåãóëèðîâàíèÿ âåíòèëÿòîðà/ ñæèãàíèÿ
+
+[Component]: GrpBxWirkWA
+   -> Wirksame Wärmeanforderung
+   -> Effective heat demand
+   -> demande de chaleur influante
+   -> Richiesta calore attiva
+   -> Demanda de calor efectiva
+   -> Actieve warmtevraag
+   -> Aktivt varmekrav
+   -> Aktuellt värmekrav
+   -> djelotvoran toplinski zahtjev
+   -> hatásos hoigény
+   -> rzeczywiste zapotrzebowanie ciepla
+   -> Ôàêòè÷åñêèé çàïðîñ íà òåïëî
+
+[Component]: Lbl_IoSignal
+   -> I32: Ionisationssignal
+   -> I32: Ionisation signal
+   -> I32 : signal d'ionisation
+   -> I32: Segnale ionizzazione
+   -> I32: señal ionización
+   -> I32: Ionisatiesignaal
+   -> I32: Ioniseringssignal
+   -> Joniseringssignal
+   -> I32: signal ionizacije
+   -> I32: ionizációs jel
+   -> I32: sygnal jonizacji
+   -> I32: Ñèãíàë èîíèçàöèè
+
+[Component]: LblBetriebsartHZ
+   -> Betriebsart Heizung
+   -> Type of operation heating
+   -> Mode de chauffage
+   -> Tipo esercizio riscaldamento
+   -> Modo calefacción
+   -> Bedrijfsaard verwarming
+   -> Driftsmåde varme
+   -> Driftsätt Värme
+   -> vrsta rada grijanja
+   -> Üzemmód futés
+   -> tryb pracy - ogrzewanie
+   -> Ðåæèì îòîïëåíèÿ
+
+[Component]: LblBetriebsartWW
+   -> Betriebsart Warmwasser
+   -> Type of operation domestic hot water
+   -> Mode ECS
+   -> Tipo esercizio acqua calda
+   -> Modo ACS
+   -> Bedrijfsaard warm water
+   -> Driftsmåde varmtvand
+   -> Driftsätt Varmvatten
+   -> vrsta rada za PTV
+   -> üzemmód HMV
+   -> tryb pracy - c.w.u.
+   -> Ðåæèì ÃÂÑ
+
+[Component]: LblBoilerTemp
+   -> I30: Vorlauftemperatur eSTB [°C]
+   -> I30: Supply temperature eSTB [°C]
+   -> I30: Température départ eSTB [°C]
+   -> I30: Temperatura mandata eSTB [°C]
+   -> I30: Temp. Ida eSTB [ºC]
+   -> I30: Vertrektemperatuur eSTB [°C]
+   -> I30: Fremløbstemperatur eSTB [°C]
+   -> I30: Framledningstemp. eSTB [°C]
+   -> I30: temperatura polaza eSTB [°C]
+   -> I30: elorem.homérséklet eSTB [°C]
+   -> I30: temperatura zasilania (eSTB) [°C]
+   -> I30: Òåìïåðàòóðà â ïðÿìîé ëèíèè eSTB [°C]
+   -> lblbrennerlauf
+   -> I16: Brennerlaufzeit [s]
+   -> I16: Burner operating time [s]
+   -> I16: Temps de marche brûleur [s]
+   -> I16:Tempo funzionam. bruciatore [s]
+   -> I16: Tiempo funcionamiento quemador [s]
+   -> I16: Branderlooptijd [s]
+   -> I16: Brænderløbetid [s]
+   -> I16: Brännargangtid [s.]
+   -> I16: vrijeme rada plamenika [s]
+   -> I16: égofutásido [s]
+   -> I16:czas pracy palnika [s]
+   -> I16: Âðåìÿ ðàáîòû ãîðåëêè [ñ]
+
+[Component]: LblErr1
+   -> Fehler 1
+   -> Error 1
+   -> Erreur 1
+   -> Errore 1
+   -> Error 1
+   -> Fout 1
+   -> Fejl 1
+   -> Fel 1
+   -> kvar 1
+   -> hiba 1
+   -> Blad 1
+   -> Îøèáêà 1
+
+[Component]: LblErr2
+   -> Fehler 2
+   -> Error 2
+   -> Erreur 2
+   -> Errore 2
+   -> Error 2
+   -> Fout 2
+   -> Fejl 2
+   -> Fel 2
+   -> kvar 2
+   -> hiba 2
+   -> Blad 2
+   -> Îøèáêà 2
+
+[Component]: LblErr3
+   -> Fehler 3
+   -> Error 3
+   -> Erreur 3
+   -> Errore 3
+   -> Error 3
+   -> Fout 3
+   -> Fejl 3
+   -> Fel 3
+   -> kvar 3
+   -> hiba 3
+   -> Blad 3
+   -> Îøèáêà 3
+
+[Component]: LblErr4
+   -> Fehler 4
+   -> Error 4
+   -> Erreur 4
+   -> Errore 4
+   -> Error 4
+   -> Fout 4
+   -> Fejl 4
+   -> Fel 4
+   -> kvar 4
+   -> hiba 4
+   -> Blad 4
+   -> Îøèáêà 4
+
+[Component]: LblErr5
+   -> Fehler 5
+   -> Error 5
+   -> Erreur 5
+   -> Errore 5
+   -> Error 5
+   -> Fout 5
+   -> Fejl 5
+   -> Fel 5
+   -> kvar 5
+   -> hiba 5
+   -> Blad 5
+   -> Îøèáêà 5
+   -> lblerr6
+   -> Fehler 6
+   -> Error 6
+   -> Erreur 6
+   -> Errore 6
+   -> Error 6
+   -> Fout 6
+   -> Fejl 6
+   -> Fel 6
+   -> kvar 6
+   -> hiba 6
+   -> Blad 6
+   -> Îøèáêà 6
+
+[Component]: LblErrorCode
+   -> Fehlercode
+   -> Error code
+   -> Code erreur
+   -> Codice errore
+   -> Código de error
+   -> Foutcode
+   -> Fejlkode
+   -> Felkod
+   -> kôd kvara
+   -> hibakód
+   -> Kod bledu
+   -> Êîä îøèáêè
+
+[Component]: LblFCode
+   -> Fehler
+   -> Error
+   -> Erreur
+   -> Errore
+   -> Error
+   -> Fout
+   -> Fejl
+   -> Fel
+   -> kvar
+   -> hiba
+   -> blad
+   -> Îøèáêà
+
+[Component]: LblFlowValue
+   -> I21: Ansteuersignal Gasstellglied [%]
+   -> I21: Start signal gas setting element [%]
+   -> I21: Signal de cde réglage gaz [%]
+   -> I21: Segnale regolazione gas [%]
+   -> I21: señal control ajuste gas [%]
+   -> I21: Aanstuursignaal gasregelcomponent [%]
+   -> I21: Styresignal reguleringsspole [%]
+   -> I21: Styrsignal gaslänkarm [%]
+   -> I21: signal upravljanja postavnim sklopom plina [%]
+   -> I21: gázállítótag kivezérlése [%]
+   -> I21: sygnal sterujacy elementu wykonawczego [%]
+   -> I21: Ñèãíàë óïðàâëåíèÿ ñåðâîïðèâîäà ãàçîâîãî äðîññåëÿ [%]
+
+[Component]: LblFluegastemp
+   -> I31: Abgastemperatur [°C]
+   -> I31:Flue gas temperature [°C]
+   -> I31: Température fumées [°C]
+   -> I31: Temperatura fumi [°C]
+   -> I31: Temp. Humos [ºC]
+   -> I31: Rookgastemperatuur [°C]
+   -> I31: Røggastemperatur [°C]
+   -> I31: Avgastemperatur [°C]
+   -> I31: temperatura dimnih plinova [°C]
+   -> I31: füstgázhomérséklet [°C]
+   -> I31: Temperatura spalin [°C]
+   -> I31: Òåìïåðàòóðà äûìîâûõ ãàçîâ [°C]
+   -> lblIoParas
+   -> Erdgas
+   -> Natural Gas
+   -> Gaz naturel
+   -> Gas metano
+   -> Gas natural
+   -> Aardgas
+   -> N-gas
+   -> Naturgas
+   -> prirodni plin
+   -> földgáz
+   -> gaz ziemny
+   -> Ïðèðîäíûé ãàç
+   -> lblIoParas1
+   -> Flüssiggas
+   -> Liquid Petroleum Gas
+   -> GPL
+   -> Gas liquido
+   -> Gas licuado
+   -> LPG
+   -> F-gas
+   -> Gasol
+   -> UNP-plin
+   -> Pbgáz
+   -> gaz plynny
+   -> Ñæèæåííûé ãàç
+   -> lblIoParas2
+   -> Erdgas Abgasklappe
+   -> Natural Gas flue gas damper
+   -> Clapet de fumées gaz naturel
+   -> Serranda fumi gas metano
+   -> Clapeta humos gas natural
+   -> Aardgas rookgasklep
+   -> N-gas røggasklap
+   -> Naturgas avgasspjäll
+   -> dimovodna zaklopka prirodnog plina
+   -> földgáz füstgázcsapp
+   -> gaz ziemny (wspólne odprowadzenie spalin)
+   -> Ïðèðîäíûé ãàç Çàñëîíêà äûìîâûõ ãàçîâ
+
+[Component]: LblOutSensor
+   -> Außenfühler
+   -> External sensor
+   -> Sonde extérieure
+   -> Sonda esterna
+   -> Sonda exterior
+   -> Buitenvoeler
+   -> Udeføler
+   -> Utomhusgivare
+   -> vanjsko pipalo
+   -> külso érzékelo
+   -> czujnik temperatury zewnetrznej
+   -> Íàðóæíûé äàò÷èê
+
+[Component]: LblOutTemp
+   -> I33: Außentemperatur [°C]
+   -> I33: External temperature [°C]
+   -> I33: Température extérieure [°C]
+   -> I33: Temperatura esterna [°C]
+   -> I33: Temp. Exterior [ºC]
+   -> I33: Buitentemperatuur [°C]
+   -> I33: Udetemperatur [°C]
+   -> I33: Utetemperatur [°C]
+   -> I33: vanjska temperatura [°C]
+   -> I33: külso hom. [°C]
+   -> I33: temperatura zewnetrzna [°C]
+   -> I33: Íàðóæíàÿ òåìïåðàòóðà [°C]
+
+[Component]: LblP10
+   -> P10: Gerätetyp
+   -> P10: Type of unit
+   -> P10: Type d'appareil
+   -> P10: Tipo apparecchio
+   -> P10: tipo aparato
+   -> P10: Toesteltype
+   -> P10: Kedeltype
+   -> P10: Apparattyp
+   -> P10: tip kotla
+   -> P10: készüléktipus
+   -> P10: typ urzadzenia
+   -> P10: Òèï ïðèáîðà
+
+[Component]: LblP11
+   -> P11: Gasart
+   -> P11: Type of gas
+   -> P11: Type de gaz
+   -> P11: Tipo di gas
+   -> P11: tipo de gas
+   -> P11: Gassoort
+   -> P11: Gasart
+   -> P11: Gastyp
+   -> P11: vrsta plina
+   -> P11: gázfajta
+   -> P11: rodzaj gazu
+   -> P11: Âèä ãàçà
+
+[Component]: LblP12
+   -> P12: Kesseladresse
+   -> P12: Boiler address
+   -> P12: Adresse chaudière
+   -> P12. Indirizzo caldaia
+   -> P12: dirección caldera
+   -> P12: Keteladres
+   -> P12: Kedeladresse
+   -> P12: Pannadress
+   -> P12: adresa kotla
+   -> P12: kazáncím
+   -> P12: adres kotla
+   -> P12: Àäðåñ êîòëà
+
+[Component]: LblP13
+   -> P13: Funktion MFA
+   -> P13: Function MFA
+   -> P13: Fonction MFA
+   -> P13: Funzione MFA
+   -> P13: Función MFA
+   -> P13: Functie MFA
+   -> P13: Funktion MFA
+   -> P13: Funktion MFA
+   -> P13: funkcija MFA
+   -> P13: MFA funkció
+   -> P13: funkcja MFA
+   -> P13: Ôóíêöèÿ MFA
+
+[Component]: LblP14
+   -> P14: Funktion VA
+   -> P14: Function VA
+   -> P14: Fonction VA
+   -> P14: Funzione VA
+   -> P14: Función VA
+   -> P14: Functie VA
+   -> P14: Funktion VA
+   -> P14: Funktion VA
+   -> P14: funkcija VA
+   -> P14: VA funkció
+   -> P14: funkcja VA
+   -> P14: Ôóíêöèÿ VA
+
+[Component]: LblP15
+   -> P15: H1
+   -> P15: H1
+   -> P15: H1
+   -> P15: Ingresso H1
+   -> P15: H1
+   -> P15: H1
+   -> P15: H1
+   -> P15: Värme1
+   -> P15: H1
+   -> P15: H1
+   -> P15: H1
+
+[Component]: LblP17
+   -> P17: H2
+   -> P17: H2
+   -> P17: H2
+   -> P17: Ingresso H2
+   -> P17: H2
+   -> P17: H2
+   -> P17: H2
+   -> P17: Värme2
+   -> P17: H2
+   -> P17: H2
+   -> P17: H2
+   -> lblParameter
+   -> Parameter
+   -> Parameter
+   -> Paramètre
+   -> Parametri
+   -> Parámetros
+   -> Parameter
+   -> Parameter
+   -> Parameter
+   -> parametar
+   -> paraméter
+   -> parametry
+   -> Ïàðàìåòðû
+
+[Component]: LblPhase
+   -> I10: Betriebsphase
+   -> I10: Operating phase
+   -> I10: Phase de fonctionnement
+   -> I10: Fase esercizio
+   -> I10: fase de funcionamiento
+   -> I10: Bedrijfsfase
+   -> I10: Driftsfase
+   -> I10: Driftfas
+   -> I10: faza rada
+   -> I10: üzemfázis
+   -> I10: faza pracy
+   -> I10: Ðàáî÷àÿ ôàçà
+
+[Component]: LblPosUSV
+   -> I20: Stellung Umschaltventil
+   -> Setting change-over valve
+   -> I20: Position vanne directionnelle
+   -> I20: Posizione valvola deviatrice
+   -> I20: posición válvula de cambio
+   -> I20: Stand omschakelventiel
+   -> I20: Stilling 3-vejs ventil
+   -> I20: Läge omkoppl.ventil
+   -> I20: postav preklopnog ventila
+   -> I20: átkapcsszelep állása
+   -> I20: tryb pracy zaworu przelaczajacego
+   -> I20: Ïîëîæåíèå ïåðåêëþ÷. êëàïàíà
+
+[Component]: LblPowerPosition
+   -> I11: Laststellung
+   -> I11: Load setting
+   -> I11: Réglage de puissance
+   -> I11: Posizione di carico
+   -> I11: posición carga
+   -> I11: Lastpositie
+   -> I11: Laststilling
+   -> I11: Lastläge
+   -> I11: postav snage
+   -> I11: telj.pozíció
+   -> I11: pozycja mocy
+   -> I11: Ïîëîæåíèå íàãðóçêè
+
+[Component]: LblPWM
+   -> PWM Pumpe
+   -> PWM pump
+   -> Pompe PWM
+   -> Pompa PWM
+   -> Bomba PWM
+   -> PWM-pomp
+   -> PWM Pumpe
+   -> PWM-pump
+   -> PWM crpka
+   -> PWM sziv.
+   -> pompa PWM
+   -> Íàñîñ PWM
+
+[Component]: LblType
+   -> S0: Sensor- /Aktor-Konfiguration
+   -> S0: Sensor- /Actor-configuration
+   -> S0: Configuration sondes/Mobiles
+   -> S0: Configurazione sensore/attuatore
+   -> S0: Configuración sensores/actuadores
+   -> S0: Sensor- /Actor-configuratie
+   -> S0: Føler- /Aktor-konfigurering
+   -> S0: Sensor- /Aktör-konfigurering
+   -> S0: konfig. pipalo/aktivator
+   -> S0: érz- /végreh-konfiguráció
+   -> S0: konfiguracja czujników /elementów wykonawczych
+   -> S0: Êîíôèãóðàöèÿ ñåíñîðîâ /ñåðâîïðèâîäîâ
+   -> lblUVW
+   -> Stellung UV
+   -> Setting UV
+   -> Position UV
+   -> Posizione valvola deviatrice
+   -> Posición UV
+   -> Stand UV
+   -> Stilling 3-vejs ventil
+   -> Läge UV
+   -> postav UV
+   -> UV pozíció
+   -> tryb pracy zaworu przelaczajacego
+   -> Ïîëîæåíèå ïåðåêëþ÷. êëàïàíà
+
+[Component]: LblWAUTemp
+   -> I34: WW-Temperatur [°C]
+   -> I34: DHW-Temperature [°C]
+   -> I34: Température ECS [°C]
+   -> I34: Temperatura acqua calda [°C]
+   -> I34: Temp. ACS [ºC]
+   -> I34: WW-temperatuur [°C]
+   -> I34: VV-temperatur [°C]
+   -> I34: VV-Temperatur [°C]
+   -> I34: PTV-temperatura [°C]
+   -> I34: HMV-homérséklet [°C]
+   -> I34: temperatura c.w.u. [°C]
+   -> I34: Òåìïåðàòóðà ÃÂ [°C]
+
+[Component]: TbShtBurner
+   -> Prozesswerte WTC
+   -> Process values WTC
+   -> Valeur process WTC
+   -> Valori di processo WTC
+   -> Datos de proceso WTC
+   -> Proceswaarde WTC
+   -> Procesværdi WTC
+   -> Processvärden WTC
+   -> WTC podaci procesa
+   -> WTC folyértékek
+   -> Dane procesowe WTC
+   -> Äàííûå ïðîöåññà WTC
+
+[Component]: TbShtErrorBuffer
+   -> Fehlerhistorie
+   -> Error history
+   -> Historique défauts
+   -> Storico errori
+   -> Histórico de errores
+   -> Fouthistoriek
+   -> Fejlhistorik
+   -> Felhistorik
+   -> povjest kvarova
+   -> hibatörténet
+   -> Historia bledów
+   -> Ñïèñîê îøèáîê
+
+[Component]: TbShtFailSafe
+   -> Hersteller
+   -> Manufacturer
+   -> fabricant
+   -> Costruttore
+   -> Fabricante
+   -> Fabrikant
+   -> Producent
+   -> Tillverkare
+   -> proizvodac
+   -> gyártó
+   -> Producent
+   -> Èçãîòîâèòåëü
+
+[Component]: TbShtIoParas
+   -> Io-Parameter
+   -> Io-Parameter
+   -> Paramètre Io
+   -> Parametri Io
+   -> Parámetros Io
+   -> Io-parameter
+   -> Io-parameter
+   -> Io-parameter
+   -> Io-parametar
+   -> Io-paraméter
+   -> Parametry Io
+   -> Ïàðàìåòðû èîíèçàöèè
+
+[Component]: TbShtMenu
+   -> Endanwender
+   -> End user
+   -> Utilisateur final
+   -> Utente finale
+   -> Usuario final
+   -> Eindgebruiker
+   -> Bruger
+   -> Användare
+   -> korisnik
+   -> végfelhasználó
+   -> Uzytkownik
+   -> Êîíå÷íûé ïîòðåáèòåëü
+
+[Component]: TbShtService
+   -> Heizungsfachmann
+   -> Heating specialist
+   -> Installateur
+   -> Installatore
+   -> Técnico de calefacción
+   -> Verwarmingsvakman
+   -> Fagmanden
+   -> Servicetekniker,FM
+   -> serviser
+   -> futéstechnikus
+   -> Serwisant
+   -> Ñïåöèàëèñò-òåïëîòåõíèê
+
+[Component]: TbShtStatistik
+   -> Statistik
+   -> Statistic
+   -> Statistiques
+   -> Statistica
+   -> Estadística
+   -> Statistiek
+   -> Statistik
+   -> Statistik
+   -> statistika
+   -> statisztika
+   -> statystyka
+   -> Ñòàòèñòèêà
+
+[Component]: Lbl_IO18
+   -> IO18: Ion Limit
+   -> IO18: Ion Limit
+   -> IO18: Ion Limit
+   -> IO18: Ion Limit
+   -> IO18: Ion Limit
+   -> IO18: Ion Limit
+   -> IO18: Ion Limit
+   -> IO18: Ion Limit
+   -> IO18: Ion Limit
+   -> IO18: Ion Limit
+   -> IO18: Ion Limit
+   -> IO18: Ion Limit
+
+[Component]: Lbl_Io20
+   -> IO20: Io-Soll Basiswert
+   -> IO20: Io-set base value
+   -> IO20: Io-set base value
+   -> IO20: Io-set base value
+   -> IO20: Io-set base value
+   -> IO20: Io-set base value
+   -> IO20: Io-set base value
+   -> IO20: Io-set base value
+   -> IO20: Io-set base value
+   -> IO20: Io-set base value
+   -> IO20: Io-set base value
+   -> IO20: Io-set base value
+   -> stHints
+   -> TFrmWCM364
+
+[Component]: BtnFSLoad
+
+[Component]: BtnFSRead
+
+[Component]: BtnFSSave
+
+[Component]: BtnFSWrite
+
+[Component]: BtnHistoryClear
+
+[Component]: BtnHistoryLoad
+
+[Component]: BtnHistoryRead
+
+[Component]: BtnHistorySave
+
+[Component]: BtnIoParasLoad
+
+[Component]: BtnIoParasRead
+
+[Component]: BtnIoParasSave
+
+[Component]: BtnIoParasWrite
+
+[Component]: BtnIoSoll
+
+[Component]: BtnMenuLoad
+
+[Component]: BtnMenuRead
+
+[Component]: BtnMenuSave
+
+[Component]: BtnMenuWrite
+   -> btnSaveAll
+
+[Component]: BtnServiceLoad
+
+[Component]: BtnServiceRead
+
+[Component]: BtnServiceSave
+
+[Component]: BtnServiceWrite
+
+[Component]: BtnStatisticClear
+
+[Component]: BtnStatisticLoad
+
+[Component]: BtnStatisticRead
+
+[Component]: BtnStatisticSave
+
+[Component]: CbBxBetriebsartHZ
+   -> cbBxBetriebsartWW
+
+[Component]: CbBxFCode
+
+[Component]: CbBxP10
+
+[Component]: CbBxP13
+
+[Component]: CbBxP14
+
+[Component]: CbBxP15
+
+[Component]: CbBxP17
+
+[Component]: CbBxType
+   -> chbxBCC
+
+[Component]: ChkBxHZFrg
+
+[Component]: ChkBxOptExZue
+
+[Component]: ChkBxWWFrg
+
+[Component]: ChkGrpInlets
+
+[Component]: ChkGrpOutlets
+
+[Component]: EdtBetriebsartHZ
+
+[Component]: EdtBetriebsartWW
+
+[Component]: EdtFCode
+
+[Component]: EdtRaumAbsenk
+
+[Component]: EdtRaumNormal
+   -> EGrpAnlageParas
+   -> EGrpBetriebBrenner
+   -> EGrpFS
+   -> EGrpIoParas
+   -> EGrpIoParasFl
+   -> EgrpIoParasKask
+   -> EGrpIoSoll
+   -> EGrpIoValues
+   -> EGrpMenu
+   -> EGrpP1x
+   -> EGrpPumpe
+   -> EGrpSetpoints
+   -> EGrpStatistic
+   -> EGrpStatus
+   -> EGrpTemps
+   -> EGrpWirkWA
+
+[Component]: GrpBoxInlets
+
+[Component]: GrpBoxIoParas
+
+[Component]: GrpBoxIoParasDevice
+
+[Component]: GrpBoxIoParasFile
+
+[Component]: GrpBxBurner
+
+[Component]: GrpBxFS
+
+[Component]: GrpBxFsDevice
+
+[Component]: GrpBxFSFile
+
+[Component]: GrpBxHistory
+
+[Component]: GrpBxHistoryDevice
+
+[Component]: GrpBxHistoryFile
+
+[Component]: GrpBxMenu
+
+[Component]: GrpBxMenuDevice
+
+[Component]: GrpBxMenuFile
+
+[Component]: GrpBxOutlets
+
+[Component]: GrpBxPhaseAlarm
+
+[Component]: GrpBxPumpensteuerung
+
+[Component]: GrpBxService
+
+[Component]: GrpBxServiceDevice
+
+[Component]: GrpBxServiceFile
+
+[Component]: GrpBxSollIst
+
+[Component]: GrpBxStatistic
+
+[Component]: GrpBxStatisticDevice
+
+[Component]: GrpBxStatisticFile
+
+[Component]: GrpBxValues
+
+[Component]: GrpBxWirkWA
+
+[Component]: Lbl_IoSignal
+
+[Component]: LblBetriebsartHZ
+
+[Component]: LblBetriebsartWW
+
+[Component]: LblBoilerTemp
+   -> lblbrennerlauf
+
+[Component]: LblErr1
+
+[Component]: LblErr2
+
+[Component]: LblErr3
+
+[Component]: LblErr4
+
+[Component]: LblErr5
+   -> lblerr6
+
+[Component]: LblErrorCode
+
+[Component]: LblFCode
+
+[Component]: LblFlowValue
+
+[Component]: LblFluegastemp
+   -> lblIoParas
+   -> lblIoParas1
+   -> lblIoParas2
+
+[Component]: LblOutSensor
+
+[Component]: LblOutTemp
+
+[Component]: LblP10
+
+[Component]: LblP11
+
+[Component]: LblP12
+
+[Component]: LblP13
+
+[Component]: LblP14
+
+[Component]: LblP15
+
+[Component]: LblP17
+   -> lblParameter
+
+[Component]: LblPhase
+
+[Component]: LblPosUSV
+
+[Component]: LblPowerPosition
+
+[Component]: LblPWM
+
+[Component]: LblType
+   -> lblUVW
+
+[Component]: LblWAUTemp
+   -> PgeCtrlWCM
+
+[Component]: RGrpMenu
+
+[Component]: RGrpOutSensor
+
+[Component]: RGrpP11
+
+[Component]: RGrpP12
+
+[Component]: RGrpPWM
+
+[Component]: RGrpUVW
+
+[Component]: StrGridHistory
+
+[Component]: TbShtBurner
+
+[Component]: TbShtErrorBuffer
+
+[Component]: TbShtFailSafe
+
+[Component]: TbShtIoParas
+
+[Component]: TbShtMenu
+
+[Component]: TbShtService
+
+[Component]: TbShtStatistik
+
+[Component]: EdtAbsenktemp
+
+[Component]: EdtNormalTemp
+
+[Component]: Lbl_IO18
+
+[Component]: Lbl_Io20
+   -> EGrpP1xC
+   -> EGrpAnlageParasC
+   -> stDisplayLabels
+   -> stFonts
+   -> TFrmWCM364
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> Tahoma
+   -> lblIoParas
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> Tahoma
+   -> stMultiLines
+
+[Component]: CbBxBetriebsartHZ.Items
+   -> Standby,Sommer,Winter,Kaminkehrer,Frostschutz
+   -> Standby,Summer,Winter,Chimney sweep,Frost protection
+   -> Standby,Eté,Hiver,Ramoneur,Antigel
+   -> Standby,estate,inverno,spazzacamino,protezione antigelo
+   -> Standby,Verano,Invierno,Retorno chimenea,Protección antihielo
+   -> Standby,zomer,winter,schoorsteenveger, vorstbeveiliging
+   -> Standby,Sommer,Vinter,Skorstensfejer,Frostsikring
+   -> Standby,Sommar,Vinter,Sotare,Frostskydd
+   -> Standby,ljeto,zima,dimnjacar,"zaštita od smrzavanja"
+   -> Standby,nyár,tél,kéménysepro,fagyvédelem
+   -> standby,lato,zima,kominiarz,"ochrona przed zamarzaniem"
+   -> Standby,Ëåòî,Çèìà,Òðóáî÷èñò,Òåðìîçàùèòà
+   -> cbBxBetriebsartWW.Items
+   -> Zapfen,Comfort,WW-Ladung,Standby
+   -> Tap,Comfort,DHW loading,Standby
+   -> Puisage,Confort,Charge ECS,Standby
+   -> Erogare,comfort,caricamento AC,standby
+   -> Consumo,Confort,Carga ACS,Standby
+   -> Tap, comfort,WW-lading,standby
+   -> Tapning,Comfort,VV-produktion,Standby
+   -> Tappning,Comfort,VV-laddning,Standby
+   -> zahvat,komfor,grijanje PTV,Standby
+   -> csapolás,komfort,HMV-töltés,Standby
+   -> "pobór wody","funkcja komfort","?adowanie zasobnika c.w.u.",standby
+   -> "Ðàçáîð âîäû",Êîìôîðò,"Çàãðóçêà ãîðÿ÷åé âîäû",Standby
+
+[Component]: CbBxFCode.Items
+   -> ,1,2,3,4,5,6,7,8,9,10,"F1 1: STB Übertemperatur Vorlauf","F1 2: STW Übertemperatur Vorlauf","F1 3: STB Übertemperatur Abgas","F1 4: Max. Gradient Vorlauf ","F1 5: Spreizung Vorlauf / Abgas ","F1 6: Abgas Übertemperatur ",17,"F1 8: Spreizung Vorlauf / STB",19,20,"F2 1: Keine Flammenbildung ","F2 2: Flammenausfall im Betrieb ","F2 3: Flammenvortäuschung ","F2 4: H2-Not Aus Funktion",25,26,27,28,29,"F3 0: Sicherheitstemperaturfühler defekt ","F3 1: Abgasfühler defekt ",32:,"W3 3: Außenfühler defekt ","W3 4: Warmwasserfühler defekt ","F3 5: Vorlauffühler defekt ","F3 6: Wasserdruck zu gering","W3 7: Gradient ohne Durchflusserkennung","F3 8: Fühler B10 defekt","F3 9: Weichenfühler B11 defekt",40,"F4 1: Gasventilkreis V1/V2 defekt ","F4 2: PWM Pumpe defekt ","F4 3: Gebläsefehler im Betrieb ","F4 4: Gebläsefehler im Stillstand ",45,46,47,48,49,50,"F5 1: CRC-Fehler Heizungsfachmannparameter ","F5 2: CRC-Fehler Herstellerparameter/SCOT-Fehler Io-Soll","F5 3: Fehler Spannungsversorgung ",54,55,"F5 6: Fehler Ionisationsschaltung",57,58,59,60,"F6 1: SCOT - Regelabweichung zu groß","F6 2: Tauchspule fehlerhaft",63,"F6 4: Kalibration: Basiswert außerhalb Werksgrenze","F6 5: Kalibration: Starke Abweichung Basiswert","F6 6: Kalibration nicht ausführbar",67,68,69,70,71,72,73,74,75,76,77,78,79,"W8 0: Fernsteuerung antwortet nicht","W8 1: Fernsteuerung antwortet nicht","W8 2: Fernsteuerung antwortet nicht","W8 3: Fernsteuerung antwortet nicht","W8 4: Fernsteuerung antwortet nicht","W8 5: Fernsteuerung antwortet nicht","W8 6: Fernsteuerung antwortet nicht","W8 7: Fernsteuerung antwortet nicht","W8 8: Fernsteuerung antwortet nicht","8 9:",90,"W1: Wartungsintervall abgelaufen"
+   -> ,1,2,3,4,5,6,7,8,9,10,"F1 1: STB Excess temperature supply","F12:STW Excess temperature supply","F1 3: STB Excess temperature flue gas","F1 4: Max. gradient supply ","F1 5: Inclination supply / flue gas ","F1 6: Flue gas excess temperature ",17,"F1 8: Inclination supply/ STB",19,20,"F2 1: No flame formation ","F2 2: Flame failure during operation ","F2 3: Flame simulation ","F2 4: H2-Emergency off function",25,26,27,28,29,"F3 0: Safety temperature sensor defective ","F3 1: Flue gas sensor defective ",32:,"W3 3: External sensor defective ","W3 4: Domestic hot water sensor defective ","F3 5:Supply sensor defective ","F3 6: Water pressure insufficient",37:,"F3 8: Sensor B10 defectivet","F3 9: De-couple sensor B11 defective",40,"F4 1: Gas valve cycle V1/V2 defective ","F4 2: PWM Pump defective ","F4 3: Fan fault during operation ","F4 4: Fan faulty during shutdown ",45,46,47,48,49,50,"F5 1: CRC-Error heating engineer parameter ","F5 2: CRC-Error manufacturer parameter/SCOT-Error Io-set","F5 3:Error voltage supply ",54,55,"F5 6: Error ionisation switching",57,58,59,60,"F6 1: SCOT - Control deviation too high","F6 2: Immersion coil faulty",63,"F6 4: Calibration: Base value outside of factory limit","F6 5: Calibration: Strong deviation base value","F6 6: Calibration cannot be carried out",67,68,69,70,71,72,73,74,75,76,77,78,79,"W8 0: Remote control does not respond","W8 1: Remote control does not respond","W8 2: Remote control does not respond","W8 3: Remote control does not respond","W8 4: Remote control does not respond","W8 5: Remote control does not respond","W8 6: Remote control does not respond","W8 7: Remote control does not respond","W8 8: Remote control does not respond","8 9",90,"W1: Service interval elapsed"
+   -> ,1,2,3,4,5,6,7,8,9,10,"F1 1: STB Surchauffe départ","F1 2: STW Surchauffe départ","F1 3: STB Surchauffe fumées","F1 4: Gradient Maxi départ ","F1 5: Différentiel Départ / Fumées ","F1 6: Surchauffe fumées ",17,"F1 8: Différentiel Départ / STB",19,20,"F2 1: Pas de formation de flamme ","F2 2: Défaut flamme en service ","F2 3: Flamme à l'arrêt ","F2 4: H2-Fonction arrêt d'urgence",25,26,27,28,29,"F3 0: Sonde sécurité défectueuse ","F3 1: Sonde fumées défectueuse ",32:,"W3 3: Sonde extérieure défectueuse ","W3 4: Sonde ECS défectueuse ","F3 5: Sonde départ défectueuse ","F3 6: Pression eau trop faible",37:,"F3 8: Sonde B10 défectueuse","F3 9: Sonde bouteille casse-pression B11 défectueuse",40,"F4 1: Circuit vannes gaz V1/V2 défectueux ","F4 2: PWM Pompe défectueuse ","F4 3: Défaut turbine en service ","F4 4: Défaut turbine à l'arrêt ",45,46,47,48,49,50,"F5 1: CRC-Défaut paramètres installateur ","F5 2: CRC-Défaut paramètres fabricant/SCOT-Défaut consigne Io","F5 3: Défaut tension d'alimentation ",54,55,"F5 6: Défaut d'ionistaion",57,58,59,60,"F6 1: SCOT - Ecart réglage trop grand","F6 2: Bobine défectueuse",63,"F6 4: Calibration: Valeur de base hors limites usine","F6 5: Calibration: Fort écart valeur de base","F6 6: Calibration impossible",67,68,69,70,71,72,73,74,75,76,77,78,79,"W8 0: La cde à distance ne répond pas","W8 1: La cde à distance ne répond pas","W8 2: La cde à distance ne répond pas","W8 3: La cde à distance ne répond pas","W8 4: La cde à distance ne répond pas","W8 5: La cde à distance ne répond pas","W8 6: La cde à distance ne répond pas","W8 7: La cde à distance ne répond pas","W8 8: La cde à distance ne répond pas","8 9:",90,"W1: Intervalle d'attente écoulé"
+   -> ,1,2,3,4,5,6,7,8,9,10,"F1 1: STB sovrattemperatura mandata","F1 2: STW sovrattemperatura mandata","F1 3: STB sovrattemperatura fumi","F1 4: gradiente mandata max. ","F1 5: salto mandata / fumi ","F1 6: sovrattemperatura fumi ",17,"F1 8: salto mandata / STB",19,20,"F2 1: mancata formazione di fiamma ","F2 2: caduta di fiamma in esercizio ","F2 3: simulazione di fiamma ","F2 4: H2 funzione emergenza-spento",25,26,27,28,29,"F3 0: sonda temperatura di sicurezza difettosa ","F3 1: sonda fumi difettosa ",32:,"W3 3: sonda esterna difettosa ","W3 4: sonda acqua calda difettosa ","F3 5: sonda mandata difettosa ","F3 6: pressione acqua troppo bassa",37:,"F3 8: sonda B10 difettosa","F3 9: sonda compensatpre B11 difettosa",40,"F4 1: circuito valvola gas V1/V2 difettoso ","F4 2: pompa PWM difettosa ","F4 3: errore ventilatore in esercizio ","F4 4: erore ventilatore in sosta ",45,46,47,48,49,50,"F5 1: errore CRC parametri installatore/tecnico ","F5 2: errore CRC parametri costruttore/SCOT errore Io nomin.","F5 3: errore alimentazione tensione ",54,55,"F5 6: errore intervento ionizzazione",57,58,59,60,"F6 1: discordanza di regolazione SCOT troppo grande","F6 2: bobina immersione difettosa",63,"F6 4: calibratura: valore base fuori limite di fabbrica","F6 5: calibratura: forte discordanza valore base","F6 6: calibratura non eseguibile",67,68,69,70,71,72,73,74,75,76,77,78,79,"W8 0: comando remoto non risponde","W8 1: comando remoto non risponde","W8 2: comando remoto non risponde","W8 3: comando remoto non risponde","W8 4: comando remoto non risponde","W8 5: comando remoto non risponde","W8 6: comando remoto non risponde","W8 7: comando remoto non risponde","W8 8: comando remoto non risponde","8 9","9 0","W1: intervallo di manutenzione scaduto"
+   -> ,1,2,3,4,5,6,7,8,9,10,"F1 1: Sobretemperatura ida STB ","F1 2: Sobretemperatura ida STW ","F1 3: Sobretemperatura humos STB","F1 4: Gradiente máximo ida ","F1 5: Diferencia Ida/Humos ","F1 6: Sobretemperatura humos ",17,"F1 8: Diferencia ida/STB",19,20,"F2 1: No hay formación de llama ","F2 2: Caída de llama en marcha ","F2 3: Llama extraña ","F2 4: H2-Función paro emergencia",25,26,27,28,29,"F3 0: Sonda temp. seguridad defectuosa ","F3 1: Sonda humos defectuosa ",32,"W3 3: Sonda exterior defectuosa ","W3 4: Sonda ACS defectuosa ","F3 5: Sonda ida defectuosa ","F3 6: Baja presión de gas",37:,"F3 8: Sonda B10 defectuosa","F3 9: Sonda B11 compensador defectuosa",40,"F4 1: Cto. válvulas gas V1/V2 defectuoso ","F4 2: Bomba PWM defectuosa","F4 3: Fallo soplante en marcha ","F4 4: Fallo soplante en reposo ",45,46,47,48,49,50,"F5 1: Fallo CRC parámetros técnico ","F5 2: Fallo CRC parámetros fabricante/Fallo SCOT consig. Io","F5 3: Fallo tensión alimentación ",54,55,"F5 6: Fallo cto. ionización",57,58,59,60,"F6 1: Desviación regul. SCOT muy alta","F6 2: Fallo bobina inmers.",63,"F6 4: Calibración: valor básico fuera de límites fábrica","F6 5: Calibración alta desviación valor básico","F6 6: Calibración imposible",67,68,69,70,71,72,73,74,75,76,77,78,79,"W8 0: Control remoto no responde","W8 1: Control remoto no responde","W8 2: Control remoto no responde","W8 3: Control remoto no responde","W8 4: Control remoto no responde","W8 5: Control remoto no responde","W8 6: Control remoto no responde","W8 7: Control remoto no responde","W8 8: Control remoto no responde","8 9",90,"W1: Intervalo mantenimiento sobrepasado"
+   -> ,1,2,3,4,5,6,7,8,9,10,"F1 1: STB overtemperatuur vertrek","F1 2: STW overtemperatuur vertrek","F1 3: STB overtemperatuur rookgas","F1 4: max. gradiënt vertrek","F1 5: verschil vertrek / rookgas ","F1 6: rookgas overtemperatuur ",17,"F1 8: verschil vertrek / STB",19,20,"F2 1: geen vlamvorming ","F2 2: vlamuitval tijdens werking ","F2 3: vlamsimulatie ","F2 4: H2-nood UIT-functie",25,26,27,28,29,"F3 0: veiligheidstemperatuurvoeler defect ","F3 1: rookgasvoeler defect ",32:,"W3 3: buitenvoeler defect ","W3 4: warmwatervoeler defect ","F3 5: vertrekvoeler defect","F3 6: gasdruk te laag",37:,"F3 8: Voeler B10 defect","F3 9: voeler evenwichtsfles B11 defect",40,"F4 1: gasventielkring V1/V2 defect ","F4 2: PWM-pomp defect ","F4 3: ventilatorfout tijdens werking ","F4 4: ventilatorfout tijdens stilstand ",45,46,47,48,49,50,"F5 1: CRC-fout parameter verwarmingsvakman ","F5 2: CRC-fout fabrikantparameter/SCOT-fout io-instelwaarde","F5 3: fout spanningstoevoer",54,55,"F5 6: fout ionisatieschakeling",57,58,59,60,"F6 1: SCOT - regelafwijking te groot","F6 2: stuursignaal magneetspoel defect",63,"F6 4: calibratie: basiswaarde buiten werkingsgrenzen","F6 5: calibratie: sterke afwijking basiswaarde","F6 6: calibratie onmogelijk ",67,68,69,70,71,72,73,74,75,76,77,78,79,"W8 0: afstandsbed. antwoordt niet","W8 1: afstandsbed. antwoordt niet","W8 2: afstandsbed. antwoordt niet","W8 3: afstandsbed. antwoordt niet","W8 4: afstandsbed. antwoordt niet","W8 5: afstandsbed. antwoordt niet","W8 6: afstandsbed. antwoordt niet","W8 7: afstandsbed. antwoordt niet","W8 8: afstandsbed. antwoordt niet","8 9:",90,"W1: onderhoudsinterval afgelopen"
+   -> ,1,2,3,4,5,6,7,8,9,10,"F1 1: STB overtemperatur fremløb","F1 2: STW overtemperatur fremløb","F1 3: STB overtemperatur røggas","F1 4: Max. gradient fremløb ","F1 5: Spredning fremløb / røggas ","F1 6: Røggas overtemperatur ",17,"F1 8: Spredning fremløb / STB",19,20,"F2 1: Ingen flammebillede ","F2 2: Flammeudfald under drift ","F2 3: Falsk flammesignal ","F2 4: H2-Nødafbryder Funktion",25,26,27,28,29,"F3 0: Sikkerhedstemperaturføler defekt ","F3 1: Røggasføler defekt ",32:,"W3 3: Udeføler defekt ","W3 4: Varmtvandsføler defekt ","F3 5: Fremløbsføler defekt ","F3 6: Vandtryk er for lavt",37:,"F3 8: Føler B10 defekt","F3 9: Blandepotteføler B11 defekt",40,"F4 1: Gasventilkreds V1/V2 defekt ","F4 2: PWM pumpe defekt ","F4 3: Blæserfejl under drift ","F4 4: Blæserfejl under stilstand ",45,46,47,48,49,50,"F5 1: CRC-fejl fagmandens parameter ","F5 2: CRC-fejl producent parameter/SCOT-fejl beregnet Io","F5 3: Fejl strømforsyning ",54,55,"F5 6: Fejl ioniseringskobling",57,58,59,60,"F6 1: SCOT - reguleringsafvigelse er for stor","F6 2: Spole fejlbehæftet",63,"F6 4: Kalibrering: Basisværdi udenfor fabriksindstilling","F6 5: Kalibrereing: Stor afvigelse i basisværdi","F6 6: Kalibrering kan ikke udføres",67,68,69,70,71,72,73,74,75,76,77,78,79,"W8 0: Fjernstyring svarer ikke","W8 1: Fjernstyring svarer ikke","W8 2: Fjernstyring svarer ikke","W8 3: Fjernstyring svarer ikke","W8 4: Fjernstyring svarer ikke","W8 5: Fjernstyring svarer ikke","W8 6: Fjernstyring svarer ikke","W8 7: Fjernstyring svarer ikke","W8 8: Fjernstyring svarer ikke","8 9:",90,"W1: Serviceinterval er udløbet"
+   -> ,1,2,3,4,5,6,7,8,9,10,"F1 1: STB Ökad temp. Framledn.","F1 2: STW Övertemp. Framledn.","F1 3: STB Övertemp.r Avgas","F1 4: Max. Gradient Framledn. ","F1 5: Spridning framledn. / Avgas ","F1 6: Avgas Övertemp. ",17,"F1 8: Spridning framledn. / STB",19,20,"F2 1: Ingen flambildning ","F2 2: Flambortfall i drift ","F2 3: Flamminskning ","F2 4: H2-NÖD/AV-funktion",25,26,27,28,29,"F3 0: Säkerhetstemp.givare defekt ","F3 1: Avgasgivare defekt ",32:,"W3 3: Utomhusgivare defekt ","W3 4: Varmvattengivare defekt ","F3 5: Framledn.givare defekt ","F3 6: Vattentryck för lagt",37:,"F3 8: Givare B10 defekt","F3 9: Växelgivare B11 defekt",40,"F4 1: Gasventilkrets V1/V2 defekt ","F4 2: PWM-pump defekt ","F4 3: Fläktfel i drift ","F4 4: Fläktfel i stillestand ",45,46,47,48,49,50,"F5 1: CRC-Fel FM-parameter ","F5 2: CRC-fel Tillverkarparameter/SCOT-fel Io-Bör","F5 3: Fel Spänningsförsörjning ",54,55,"F5 6: Fel Joniseringskoppling",57,58,59,60,"F6 1: SCOT - Regleravvikelse för stor","F6 2: Gasventil felaktig",63,"F6 4: Kalibrering: Basvärde utanför fabriksgräns","F6 5: Kalibrering: Stark avvikelse Basvärde","F6 6: Kalibrering ej möjlig",67,68,69,70,71,72,73,74,75,76,77,78,79,"W8 0: Fjärrstyrning svarar ej","W8 1: Fjärrstyrning svarar ej","W8 2: Fjärrstyrning svarar ej","W8 3: Fjärrstyrning svarar ej","W8 4: Fjärrstyrning svarar ej","W8 5: Fjärrstyrning svarar ej","W8 6: Fjärrstyrning svarar ej","W8 7: Fjärrstyrning svarar ej","W8 8: Fjärrstyrning svarar ej","8 9:",90,"W1: Serviceintervall överskridet"
+   -> ,1,2,3,4,5,6,7,8,9,10,"F1 1: STB temperature prekoracenja polaza","F1 2: STW temperature prekoracenja polaza","F1 3: STB temperature prekoracenja dima","F1 4: maks. gradijent polaza ","F1 5: potpora polaz / dim.plinovi ","F1 6: prekoracenje temp.dimnih plinova ",17,"F1 8: potpora polaz / STB",19,20,"F2 1: nema tvorbe plamena ","F2 2: ispad plamena u radu ","F2 3: lažni plamen ","F2 4: H2-funkcija isklopa u nuždi",25,26,27,28,29,"F3 0: u kvaru sigurnosno pipalo temperature ","F3 1: u kvaru pipalo dimnih plinova ",32:,"W3 3: u kvaru pipalo vanjske temperature ","W3 4: u kvaru pipalo PTV ","F3 5: u kvaru pipalo polaza ","F3 6: premali tlak vode",37:,"F3 8: pipalo B10 u kvaru","F3 9: pipalo razdjelnika B11u kvaru",40,"F4 1: krug plinskog ventila V1/V2 u kvaru ","F4 2: PWM crpka u kvaru ","F4 3: smetnje ventilatora u radu ","F4 4: smetnje ventilatora u mirovanju ",45,46,47,48,49,50,"F5 1: CRC-kvar u parametru servisera ","F5 2: CRC-kvar u parametru proizvodaca/SCOT-kvar Io-zadana","F5 3: kvar naponskog napajanja",54,55,"F5 6: Kvar ionizacijskog uklopa",57,58,59,60,"F6 1: SCOT - regulacijsko odstupanje preveliko","F6 2: svitak reg.ventila u kvaru",63,"F6 4: kalibracija: osnovni iznos van tvornickih granica","F6 5: kalibracija: veliko odstupanje osnovnih iznosa","F6 6: kalibracija nije izvediva",67,68,69,70,71,72,73,74,75,76,77,78,79,"W8 0: daljinsko upravljanje ne odgovara","W8 1: daljinsko upravljanje ne odgovara","W8 2: daljinsko upravljanje ne odgovara","W8 3: daljinsko upravljanje ne odgovara","W8 4: daljinsko upravljanje ne odgovara","W8 5: daljinsko upravljanje ne odgovara","W8 6: daljinsko upravljanje ne odgovara","W8 7: daljinsko upravljanje ne odgovara","W8 8: daljinsko upravljanje ne odgovara","8 9:",90,"W1: istekao interval servisiranja"
+   -> ,1,2,3,4,5,6,7,8,9,10,"F1 1: STB túlhomérséklet elorem.","F1 2: STW túlhomérséklet elorem.","F1 3: STB túlhomérséklet füstgáz","F1 4: Max. gradiens elorem. ","F1 5: szétvált elorem. / füstgáz ","F1 6: füstgáz túlhomérséklet ",17,"F1 8: szétvált elorem. / STB",19,20,"F2 1: nincs lángképzodés ","F2 2: lángkiesés üzemközben ","F2 3: lángtévesztés ","F2 4: H2-vész KI funkció",25,26,27,28,29,"F3 0: hibás bizthomérzékelo ","F3 1: hibás füstgázérzékelo ",32:,"W3 3: hibás külsoérzékelo ","W3 4: hibás melegvízérzékelo ","F3 5: hibás eloremérzékelo ","F3 6: túl alacsony gáznyomás",37:,"F3 8: hibás érzékelo B10","F3 9: hibás váltóérzékelo B11",40,"F4 1: hibás V1/V2 gázszelepkör ","F4 2: hibás PWM sziv ","F4 3: venthiba üzemközben ","F4 4: venthiba állásközben ",45,46,47,48,49,50,"F5 1: szakemberparaméter CRC-hiba  ","F5 2: gyártóparaméter CRC-hiba/SCOT-hiba Io-par","F5 3: feszellátási hiba ",54,55,"F5 6: ionizációskapcs hiba",57,58,59,60,"F6 1: SCOT-szabeltérés túl nagy","F6 2: hibás merülotekercs",63,"F6 4: kalibrálás: alapérték gyári határon kívül","F6 5: kalibrálás: bázisérték eros eltérése","F6 6: kalibrálás: nem végrehajtható",67,68,69,70,71,72,73,74,75,76,77,78,79,"W8 0: távvezérlés nem válaszol","W8 1: távvezérlés nem válaszol","W8 2: távvezérlés nem válaszol","W8 3: távvezérlés nem válaszol","W8 4: távvezérlés nem válaszol","W8 5: távvezérlés nem válaszol","W8 6: távvezérlés nem válaszol","W8 7: távvezérlés nem válaszol","W8 8: távvezérlés nem válaszol","8 9:",90,"W1: karbintervallum lejárt"
+   -> ,1,2,3,4,5,6,7,8,9,10,"F1 1: przekroczenie temperatury bezpieczenstwa (STB)","F1 2: przekroczenie ogranicznika temperatury zasilania (STW)","F1 3: przekroczenie temperatury spalin (STB)","F1 4: maksymalny gradient temperatury zasilania ","F1 5: rozpietosc temperatur zasilania/spalin ","F1 6: przekroczenie temperatury spalin ",17,"F1 8: rozpietosc temperatur zasilania/STB",19,20,"F2 1: plomien nie tworzy sie ","F2 2: zanik plomienia podczas pracy ","F2 3: niewlasciwy sygnal plomienia ","F2 4: H2-funkcja wylaczenia awaryjnego",25,26,27,28,29,"F3 0: uszkodzony czujnik temperatury bezpieczenstwa ","F3 1: uszkodzony czujnik temperatury spalin ",32:,"W3 3: uszkodzony czujnik temperatury zewnetrznej ","W3 4: uszkodzony czujnik temperatury cieplej wody ","F3 5: uszkodzony czujnik temperatury zasilania ","F3 6: zbyt niskie cisnienie wody",37:,"F3 8: uszkodzony czujnik (B10)","F3 9: uszkodzony czujnik temperatury w sprzegle (B11)",40,"F4 1: uszkodzony obwód elektryczny zaworów gaz. V1/V2 ","F4 2: uszkodzona pompa PWM ","F4 3: blad dmuchawy podczas pracy ","F4 4: blad dmuchawy podczas przestoju ",45,46,47,48,49,50,"F5 1: blad CRC-parametry serwisowe ","F5 2: blad CRC-parametry producenta/blad wartosci zadanej Io elektrody SCOT","F5 3: nieprawidlowe napiecie zasilania ",54,55,"F5 6: blad w ukladzie jonizacji",57,58,59,60,"F6 1: elektroda SCOT - zbyt duza odchylka regulacji","F6 2: uszkodzona cewka zaworu",63,"F6 4: kalibracja: wartosc podstawowa poza wartoscia graniczna producenta","F6 5: kalibracja: duza odchylka od wartosci podstawowej","F6 6: brak mozliwosci wykonania kalibracji",67,68,69,70,71,72,73,74,75,76,77,78,79,"W8 0: zdalne sterowanie nie odpowiada","W8 1: zdalne sterowanie nie odpowiada","W8 2: zdalne sterowanie nie odpowiada","W8 3: zdalne sterowanie nie odpowiada","W8 4: zdalne sterowanie nie odpowiada","W8 5: zdalne sterowanie nie odpowiada","W8 6: zdalne sterowanie nie odpowiada","W8 7: zdalne sterowanie nie odpowiada","W8 8: zdalne sterowanie nie odpowiada","8 9:",90,"W1: minal przedzial czasowy, po którym jest wymagana konserwacja"
+   -> ,1,2,3,4,5,6,7,8,9,10,"F1 1: Èçá. òåìïåðàòóðà STB ïðÿìîé ëèíèè","F1 2:  Èçá. òåìïåðàòóðà STW ïðÿìîé ëèíèè","F1 3: Èçá. òåìïåðàòóðà STB äûì. ãàçîâ","F1 4: Ìàêñ. ïåðåïàä òåìï. ïðÿìîé ëèíèè ","F1 5: Ïåðåïàä òåìï. ïðÿìîé ëèíèè / äûìîâûõ ãàçîâ ","F1 6: Èçá. òåìïåðàòóðà äûìîâûõ ãàçîâ ",17,"F1 8: Ïåðåïàä òåìï. ïðÿìîé ëèíèè / STB",19,20,"F2 1:  Íåò ïëàìåíè ","F2 2: Ñðûâ ïëàìåíè ïðè ðàáîòå ","F2 3: Èìèòàöèÿ ïëàìåíè ","F2 4:H2-Àâàðèéíîå âûêëþ÷åíèå",25,26,27,28,29,"F3 0: Äàò÷èê òåìïåðàòóðû áåçîïàñíîñòè íåèñïðàâåí ","F3 1: Äàò÷èê äûìîâûõ ãàçîâ íåèñïðàâåí",32:,"W3 3: Íàðóæíûé äàò÷èê íåèñïðàâåí ","W3 4: Äàò÷èê ãîðÿ÷åé âîäû íåèñïðàâåí  ","F3 5: Äàò÷èê ïðÿìîé ëèíèè íåèñïðàâåí ","F3 6: Ñëèøêîì íèçêîå äàâëåíèå âîäû",37:,"F3 8: Äàò÷èê B10 íåèñïðàâåí","F3 9: Äàò÷èê ãèäðàâëè÷åñêîé ñòðåëêè B11 íåèñïðàâåí",40,"F4 1: Êîíòóð ãàçîâîãî êëàïàíà V1/V2 íåèñïðàâåí ","F4 2: Íàñîñ PWM íåèñïðàâåí ","F4 3: Îøèáêà âåíòèëÿòîðà ïðè ðàáîòå ","F4 4: Îøèáêà âåíòèëÿòîðà ïðè îñòàíîâå ",45,46,47,48,49,50,"F5 1: Îøèáêà CRC â ïàðàìåòðàõ ñïåöèàëèñòà ","F5 2: CRC-Error manufacturer parameter/SCOT-Error Io-set","F5 3:Error voltage supply ",54,55,"F5 6: Error ionisation switching",57,58,59,60,"F6 1: SCOT - Control deviation too high","F6 2: Immersion coil faulty",63,"F6 4: Calibration: Base value outside of factory limit","F6 5: Calibration: Strong deviation base value","F6 6: Calibration cannot be carried out",67,68,69,70,71,72,73,74,75,76,77,78,79,"W8 0: Remote control does not respond","W8 1: Remote control does not respond","W8 2: Remote control does not respond","W8 3: Remote control does not respond","W8 4: Remote control does not respond","W8 5: Remote control does not respond","W8 6: Remote control does not respond","W8 7: Remote control does not respond","W8 8: Remote control does not respond","8 9",90,"W1: Service interval elapsed"
+
+[Component]: CbBxP10.Items
+   -> "Ausf.- H","Ausf.- W","Ausf.- I","Ausf.- P","Ausf.- C","Ausf.- H mit Puffer P1","Ausf.- H mit Puffer P2","Ausf.- H mit Puffer P3","Ausf.- W mit Puffer P1","Ausf.- W mit Puffer P2","Ausf.- W mit Puffer P3","Ausf.- I mit Puffer P1","Ausf.- I mit Puffer P2","Ausf.- I mit Puffer P3","Ausf.- P","Ausf.- P --","Ausf.- P mit Puffer P3","Ausf.- C","Ausf.- C --","Ausf.- C mit Puffer P3"
+   -> "Vers.- H","Vers.- W","Vers.- I","Vers.- P","Vers.- H with calorifier P1","Vers.- H with calorifier P2","Vers.- H with calorifier P3","Vers.- W with calorifier P1","Vers.- W with calorifier P2","Vers.- W with calorifier P3","Vers.- I with calorifier P1","Vers.- I with calorifier P2","Vers.- I with calorifier P3","Vers.- P ","Vers.- P --","Vers.- P with calorifier P3"
+   -> "Exéc.- H","Exéc.- W","Exéc.- I","Exéc.- P","Exéc.- H avec tampon P1","Exéc.- H avec tampon P2","Exéc.- H avec tampon P3","Exéc.- W avec tampon P1","Exéc.- W avec tampon P2","Exéc.- W avec tampon P3","Exéc.- I avec tampon P1","Exéc.- I avec tampon P2","Exéc.- I avec tampon P3","Exéc.- P ","Exéc.- P --","Exéc.- P avec tampon P3"
+   -> "esec.- H","esec.- W","esec.- I","esec.- P","esec.- H con polmone P1","esec.- H con polmone P2","esec.- H con polmone P3","esec.- W con polmone P1","esec.- W con polmone P2","esec.- W con polmone P3","esec.- I con polmone P1","esec.- I con polmone P2","esec.- I con polmone P3","esec.- P ","esec.- P --","esec.- P con polmone P3"
+   -> "Ejec.- H","Ejec.- W","Ejec.- I","Ejec.- P","Ejec.- H con depósito P1","Ejec.- H con depósito P2","Ejec.- H con depósito P3","Ejec.- W con depósito P1","Ejec.- W con depósito P2","Ejec.- W con depósito P3","Ejec.- I con depósito P1","Ejec.- I con depósito P2","Ejec.- I con depósito P3","Ejec.- P ","Ejec.- P --","Ejec.- P con depósito P3"
+   -> "Uitv.- H","Uitv.- W","Uitv.- I","Uitv.- P","Uitv. – H met buffervat P1","Uitv.- H met buffervat P2","Uitv.- H met buffervat P3","Uitv.- W met buffervat P1","Uitv.- W met buffervat P2","Uitv.- W met buffervat P3","Uitv.- I met buffervat P1","Uitv.- I met buffervat P2","Uitv.- I met buffervat P3","Uitv.- P ","Uitv.- P –","Uitv.-P met buffervat P3"
+   -> "Udf.- H","Idf.- W","Udf.- I","Udf.- P","Udf.- H med buffer P1","Udf.- H med buffer P2","Udf.- H med buffer P3","Udf.- W med buffer P1","Udf.- W med buffer P2","Udf.- W med buffer P3","Udf.- I med buffer P1","Udf.- I med buffer P2","Udf.- I med buffer P3","Udf.- P ","Udf.- P --","Udf.- P med buffer P3"
+   -> Utf.- H,"Utf.- W","Utf.- I","Utf.- P","Utf.- H med Ackum. P1","Utf.- H med Ackum. P2","Utf.- H med Ackum. P3","Utf.- W med Ackum. P1","Utf.- W med Ackum. P2","Utf.- W med Ackum. P3","Utf.- I med Ackum. P1","Utf.- I med Ackum. P2","Utf.- I med Ackum. P3","Utf.- P ","Utf.- P --","Utf.- P med Ackum. P3"
+   -> "izve.- H","izve.- W","izve.- I","izve.- P","izve.- H s aku-spremnikom P1","izve.- H s aku-spremnikom P2","izve.- H s aku-spremnikom P3","izve.- W s aku-spremnikom P1","izve.- W s aku-spremnikom P2","izve.- W s aku-spremnikom P3","izve.- I s aku-spremnikom P1","izve.- I s aku-spremnikom P2","izve.- I s aku-spremnikom P3","izve.- P ","izve.- P --","izve.- P s aku-spremnikom P3"
+   -> "kiv.- H","kiv.- W","kiv.- I","kiv.- P","kiv.- H P1 pufferrel","kiv.- H P2 pufferrel","kiv.- H P3 pufferrel","kiv.- W P1 pufferrel","kiv.- W P2 pufferrel","kiv.- W P3 pufferrel","kiv.- I P1 pufferrel","kiv.- I P2 pufferrel","kiv.- I P3 pufferrel","kiv.- P ","kiv.- P --","kiv.- P P3 pufferrel"
+   -> "wersja - H","wersja - W","wersja - I","wersja - P","wersja - H z zasobnikiem buforowym P1","wersja - H z zasobnikiem buforowym P2","wersja - H z zasobnikiem buforowym P3","wersja - W z zasobnikiem buforowym P1","wersja - W z zasobnikiem buforowym P2","wersja - W z zasobnikiem buforowym P3","wersja - I z zasobnikiem buforowym P1"," wersja - I z zasobnikiem buforowym P2"," wersja - I z zasobnikiem buforowym P3"," wersja - P","wersja - P --","wersja - P z zasobnikiem buforowym P3"
+   -> "Èñï.- H","Èñï.- W","Èñï.- I","Èñï.- P","Èñï.- H ñ áóôåðîì P1","Èñï.- H ñ áóôåðîì P2","Èñï.- H ñ áóôåðîì P3","Èñï.- W ñ áóôåðîì P1","Èñï.- W ñ áóôåðîì P2","Èñï.- W ñ áóôåðîì P3","Èñï.- I ñ áóôåðîì P1","Èñï.- I ñ áóôåðîì P2","Èñï.- I ñ áóôåðîì P3","Èñï.- P ","Èñï.- P --","Èñï.- P ñ áóôåðîì P3"
+
+[Component]: CbBxP13.Items
+   -> "0 - Flüssiggasvorventil","1 - Störungsweitermeldung","2 - Zubringerpumpe vor BW-Ladung","3 - Zubringerpumpe nach BW-Ladung","4 - WW-Ladepumpe","5 - WW-Zirkulationspumpe","6 - FB-Programmsteuerung","7 - FB#1-Pumpensteuerung"
+   -> "0 - LPG pre-valve","1 - Lockout signal","2 - Supply pump in front of DW loading","3 - Supply pump after DWloading","4 - DHW feeder pump","5 - DHW circulation pump","6 - FB-Programme control","7 - FB#1-Pump control"
+   -> "0 - Vanne GPL","1 - Signalisation défauts à distance","2 - Pompe externe chaudière avant charge ECS","3 - Pompe externe chaudière après charge ECS","4 - Pompe charge ECS","5 - Pompe circulation ECS","6 - Cde programme à distance FB","7 - FB#1-Cde pompe"
+   -> "0 - valvola gas liquido","1 - segnalazione remota blocco","2 - pompa alimentaz. a monte caricamento acqua sanitaria","3 - pompa alimentaz. a valle caricamento acqua sanitaria","4 - pompa caricamento AC","5 - pompa ricircolo AC","6 - comando programma FB","7 - comando pompa FB#1"
+   -> "0 - Válvula gas licuado","1 - Avería","2 - Bomba anterior a carga ACS","3 - Bomba tras carga ACS","4 - Bomba carga ACS","5 - Bomba circulación ACS","6 - Programa control FB","7 - Control bomba FB#1"
+   -> "0 - LPG-voorventiel","1 - Foutmelding","2 - Toevoerpomp voor WW-lading","3 - Toevoerpomp na WW-lading","4 - WW-laadpomp","5 - WW-circulatiepomp","6 - FB-programmasturing,"7 - FB#1-pompsturing"
+   -> "0 - F-gas forventil","1 - Fejlmelding","2 - Ekstern pumpe til VV-produktion","3 - Ekstern pumpe efter VV-produktion","4 - VV-ladepumpe","5 - VV-cirkulationspumpe","6 - FB-programstyring","7 - FB#1-Pumpestyring"
+   -> "0 - Gasolförventil","1 - Störningsrapportering","2 - Matarpump före BW-laddning","3 - Matarpump efter BW-laddning","4 - VV-laddningspump","5 - VV-crkulationspump","6 - FB-programstyrning","7 - FB#1-pumpstyrning"
+   -> "0 - UNP predventil","1 - prijenos dojave smetnji","2 - dobavna crpka ispred ulaza vode ","3 - dobavna crpka nakon ulaza vode","4 - PTV-napojna crpka","5 - PTV-cirkulacijska crpka","6 - upravljanje programom FB","7 - FB#1-upravljanje crpkom"
+   -> "0 - PBgázszelep","1 - zavartovábbjelzés","2 - szállsziv HMV-töltés elott","3 - szállsziv HMV-töltés után","4 - HMV-töltoszivattyú","5 - HMV-keringetosziv","6 - FB-programvezérlés","7 - FB#1-szivvezérlés"
+   -> "0 - zawór gazu plynnego","1 - komunikat o zaklóceniu","2 - pompa kotla","3 - pompa obiegu grzewczego","4 - pompa ladujaca c.w.u.","5 - pompa cyrkulacyjna c.w.u.","6 - sterowanie FB","7 - FB#1-sterowanie pompy"
+   -> "0 - Êëàïàí ñæèæåííîãî ãàçà","1 - Ñèãíàë ïåðåäà÷è íåèñïðàâíîñòè","2 - Ïîäêà÷èâàþùèé íàñîñ ïåðåä çàãðóçêîé òåõí. âîäû","3 - Ïîäêà÷èâàþùèé íàñîñ ïîñëå çàãðóçêè òåõí. âîäû","4 - Íàñîñ ãîðÿ÷åé âîäû","5 - Öèðêóëÿö. íàñîñ ÃÂ","6 - Ïðîãðàììíîå óïðàâëåíèå ÄÓ","7 - ÄÓ#1-Óïðàâëåíèå íàñîñîì"
+
+[Component]: CbBxP14.Items
+   -> "0 - Flüssiggasvorventil","1 - Störungsweitermeldung","2 - Zubringerpumpe vor BW-Ladung","3 - Zubringerpumpe nach BW-Ladung","4 - WW-Ladepumpe","5 - WW-Zirkulationspumpe","6 - FB-Programmsteuerung","7 - FB#1-Pumpensteuerung"
+   -> "0 - LPG pre-valve","1 - Lockout signal","2 - Supply pump in front of DW loading","3 - Supply pump after DWloading","4 - DHW feeder pump","5 - DHW circulation pump","6 - FB-Programme control","7 - FB#1-Pump control"
+   -> "0 - Vanne GPL","1 - Signalisation défauts à distance","2 - Pompe externe chaudière avant charge ECS","3 - Pompe externe chaudière après charge ECS","4 - Pompe charge ECS","5 - Pompe circulation ECS","6 - Cde programme à distance FB","7 - FB#1-Cde pompe"
+   -> "0 - valvola gas liquido","1 - segnalazione remota blocco","2 - pompa alimentaz. a monte caricamento acqua sanitaria","3 - pompa alimentaz. a valle caricamento acqua sanitaria","4 - pompa caricamento AC","5 - pompa ricircolo AC","6 - comando programma FB","7 - comando pompa FB#1"
+   -> "0 - Válvula gas licuado","1 - Avería","2 - Bomba anterior a carga ACS","3 - Bomba tras carga ACS","4 - Bomba carga ACS","5 - Bomba circulación ACS","6 - Programa control FB","7 - Control bomba FB#1"
+   -> "0 - LPG-voorventiel","1 - Foutmelding","2 - Toevoerpomp voor WW-lading","3 - Toevoerpomp na WW-lading","4 - WW-laadpomp","5 - WW-circulatiepomp","6 - FB-programmasturing,"7 - FB#1-pompsturing"
+   -> "0 - F-gas forventil","1 - Fejlmelding","2 - Ekstern pumpe til VV-produktion","3 - Ekstern pumpe efter VV-produktion","4 - VV-ladepumpe","5 - VV-cirkulationspumpe","6 - FB-programstyring","7 - FB#1-Pumpestyring"
+   -> "0 - Gasolförventil","1 - Störningsrapportering","2 - Matarpump före BW-laddning","3 - Matarpump efter BW-laddning","4 - VV-laddningspump","5 - VV-cirkulationspump","6 - FB-programstyrning","7 - FB#1-pumpstyrning"
+   -> "0 - UNP predventil","1 - prijenos dojave smetnji","2 - dobavna crpka ispred ulaza vode ","3 - dobavna crpka nakon ulaza vode","4 - PTV-napojna crpka","5 - PTV-cirkulacijska crpka","6 - upravljanje programom FB","7 - FB#1-upravljanje crpkom"
+   -> "0 - PBgázszelep","1 - zavartovábbjelzés","2 - szállsziv HMV-töltés elott","3 - szállsziv HMV-töltés után","4 - HMV-töltoszivattyú","5 - HMV-keringetosziv","6 - FB-programvezérlés","7 - FB#1-szivvezérlés"
+   -> "0 - zawór gazu plynnego","1 - komunikat o zaklóceniu","2 - pompa kotla","3 - pompa obiegu grzewczego","4 - pompa ladujaca c.w.u.","5 - pompa cyrkulacyjna c.w.u.","6 - sterowanie FB","7 - FB#1-sterowanie pompy"
+   -> "0 - Êëàïàí ñæèæåííîãî ãàçà","1 - Ñèãíàë ïåðåäà÷è íåèñïðàâíîñòè","2 - Ïîäêà÷èâàþùèé íàñîñ ïåðåä çàãðóçêîé òåõí. âîäû","3 - Ïîäêà÷èâàþùèé íàñîñ ïîñëå çàãðóçêè òåõí. âîäû","4 - Íàñîñ ãîðÿ÷åé âîäû","5 - Öèðêóëÿö. íàñîñ ÃÂ","6 - Ïðîãðàììíîå óïðàâëåíèå ÄÓ","7 -ÄÓ#1-Óïðàâëåíèå íàñîñîì"
+
+[Component]: CbBxP15.Items
+   -> "0 - Heizkreisfreigabe","1 - Heizkreis Absenk/Normal","2 - -----","3 - Stand-By mit Frostschutz"
+   -> "0 - Heat ycle release","1 - Heat cycle lowering/normal","2 - -----","3 - Stand-By with frost protection"
+   -> "0 - Autorisation chauffage","1 - Circuit chauffage réduit/normal","2 - -----","3 - Stand-By avec antigel"
+   -> "0 - consenso circuito riscaldam.","1 - circuito riscaldam. ridotto/normale","2 - -----","3 - stand-by con protezione antigelo"
+   -> "0 - Permiso cto. Calef-.","1 - Calef. Reducida/normal","2 - -----","3 - Stand-By con protección antihielo"
+   -> "0 - Stookkringvrijgave","1 - Stookkring verlaagd regime/normaal","2 - -----","3 - Standby met vorstbeveiliging"
+   -> "0 - Varmekredsfrigivelse","1 - Varmekreds sænkning/normal","2 - -----","3 - Stand-By med frostsikring"
+   -> "0 - Värmekretsfrigivning","1 - Värmedkrets Nedsänk/Normal","2 - -----","3 - Standby med frostskydd"
+   -> "0 - Odobreno za krug grijanja","1 - krug grijanja sniženo/normalno","2 - -----","3 - Stand-By uz zaštitu od smrzavanja"
+   -> "0 - futokörengedélyezés","1 - futokör csökk/normál","2 - -----","3 - Stand-By fagyvédelemmel"
+   -> "0 - zezwolenie na prace obiegu grzewczego","1 - obieg grzewczy - temperatura obnizona/normalna","2 - -----","3 - stand-by z ochrona przed zamarzaniem"
+   -> "0 - Çàïóñê êîíòóðà îòîïëåíèÿ","1 - Êîíòóð îòîïëåíèÿ ïîíèæåíèå/íîðìà","2 - -----","3 - Stand-By ñ òåðìîçàùèòîé"
+
+[Component]: CbBxP17.Items
+   -> "0 - WW Freigabe","1 - WW Absenk/Normal","2 - Heizbetrieb mit Sonderniveau","3 - Not-Aus"
+   -> "0 - DHW release","1 - DHW lowering/normal","2 - Heating with special levelu","3 -Emergency off"
+   -> "0 - Autorisation ECS","1 - ECS réduit/normal","2 - Chauffage avec niveau spécial","3 - Arrêt d'urgence"
+   -> "0 - consenso AC","1 - AC ridotta/normale","2 - esercizio riscaldam. con livello speciale","3 - emergenza-spento"
+   -> "0 - Permiso ACS","1 - ACS reducida/normal","2 - Calef. Con nivel especial","3 - Paro emergencia"
+   -> "0 - WW vrijgave","1 - WW verlaagd regime/normaal","2 - Verwarming met speciaal niveau","3 - Nood-UIT"
+   -> "0 - VV frigivelse","1 - VV sænkning/Normal","2 - varmedrift med speciel funktion","3 - Nødafbryder"
+   -> "0 - VV Frigivning","1 - VV Nedsänk/Normal","2 - Värmedrift pa specialniva","3 - NÖD-AV"
+   -> "0 - PTV odobreno","1 - PTV sniženo/normalno","2 - rad grijanja u posebnoj razini","3 - isklop u nuždi"
+   -> "0 - HMV-engedély","1 - HMV csökk/normál","2 - futésüzem specszinttel","3 - vész-KI"
+   -> "0 - zezwolenie na przygotowanie c.w.u.","1 - przygotowanie c.w.u.-temperatura obnizona/normalna","2 - tryb ogrzewania na poziomie specjalnym","3 - wylacznik awaryjny"
+   -> "0 - Çàïóñê ÃÂÑ","1 - ÃÂÑ ïîíèæåíèå/íîðìà","2 - Ðåæèì îòîïëåíèÿ ñ ñïåö.óðîâíåì","3 - Àâàðèéíîå âûêëþ÷åíèå"
+
+[Component]: CbBxType.Items
+   -> "WTC 15/25/32","WTC 45/60","WTC K"
+   -> "WTC 15/25/32","WTC 45/60","WTC K"
+   -> "WTC 15/25/32","WTC 45/60","WTC K"
+   -> "WTC 15/25/32","WTC 45/60","WTC K"
+   -> "WTC 15/25/32","WTC 45/60","WTC K"
+   -> "WTC 15/25/32","WTC 45/60","WTC K"
+   -> "WTC 15/25/32","WTC 45/60","WTC K"
+   -> "WTC 15/25/32","WTC 45/60","WTC K"
+   -> WTC 15/25/32,"WTC 45/60","WTC K"
+   -> "WTC 15/25/32","WTC 45/60","WTC K"
+   -> "WTC 15/25/32","WTC 45/60","WTC K"
+   -> "WTC 15/25/32","WTC 45/60","WTC K"
+
+[Component]: ChkGrpInlets.Items
+   -> H1,H2,Flamme
+   -> H1,H2,Flame
+   -> H1,H2,Flamme
+   -> H1,H2,fiamma
+   -> H1,H2,Llama
+   -> H1,H2,vlam
+   -> H1,H2,Flamme
+   -> Värme1,Värme2,Flamma
+   -> H1,H2,plamen
+   -> H1,H2,láng
+   -> H1,H2,plomien
+   -> H1,H2,Ïëàìÿ
+
+[Component]: ChkGrpOutlets.Items
+   -> MFA,VA,Zündung,"Gasventil 1       ","Gasventil 2",Pumpe
+   -> MFA,VA,ignition,"Gas valve 1       ","Gas valve 2",Pump
+   -> MFA,VA,Allumage,"Vanne gaz 1       ","Vanne gaz 2",Pompe
+   -> MFA,VA,accensione,"valvola gas 1       ","valvola gas 2",pompa
+   -> MFA,VA,Encendido,"Válv. gas 1       ","Válv. gas 2",Bomba
+   -> MFA,VA,ontsteking,"Gasventiel 1       ","Gasventiel 2",pomp
+   -> MFA,VA,tænding,"Gasventil 1       ","Gasventil 2",Pumpe
+   -> MFA,VA,Tändning,"Gasventil 1       ","Gasventil 2",Pump
+   -> MFA,VA,paljenje,"ventil plina 1       ","ventil plina 2",crpka
+   -> MFA,VA,gyújtás,"gázszelep 1       ","gázszelep 2",sziv
+   -> MFA,VA,zaplon,"zawór gazowy 1       ","zawór gazowy 2",pompa
+   -> MFA,VA,çàæèãàíèå,"Ãàçîâûé êëàïàí 1       ","Ãàçîâûé êëàïàí 2",Íàñîñ
+   -> EGrpAnlageParas.Items
+   -> "A1: VL-Regler (P-Anteil)","A2: VL-Regler (I-Anteil)","A3: VL-Regler (D-Anteil)","A7: Max. Spreizung VL/Abgas#K","A8: Kesselleistung bei Zündung#%","A9: Max. Vorlaufgradient#K/s","A10: Maximale Drehzahl#U/min","A11: Verzögerte Startleistung#%","A12: GDW/WDW","A13: Max. Spreizung eSTB-NTC#K","A20: Zündfrequenz#Hz"
+   -> "A1: Supl. controller (P content)","A2: Supl. controller (I content)","A3: Supl. controller (D content)","A7: Max. inclination supl./flue gas#K","A8: Boiler rating at ignition#%","A9: Max. supply gradient#K/s","A10: Maximum speed#rpm","A11: Delayed start rating#%","A12: GDW/WDW","A13: Max. inclination eSTB-NTC#K","A20: Ignition frequency#Hz"
+   -> "A1: Régulateur départ (Composante P)","A2: Régulateur départ (Composante I)","A3: Régulateur départ (Composante D)","A7: Différentiel Maxi Dép./Fumées#K","A8: Puissance chaudière à l'allumage#%","A9: Gradient départ Maxi#K/s","A10: Vitesse Maxi#Tr/min","A11: Puissance démarrage#%","A12: GDW/WDW","A13: Différentiel Maxi eSTB-NTC#K","A20: Ignition frequency#Hz"
+   -> "A1: regolatore mandata (quota P)","A2: regolatore mandata (quota I)","A3: regolatore mandata (quota D)","A7: salto max. mandata/fumi#K","A8: potenzialità caldaia in accensione#%","A9: gradiente mandata max.#K/s","A10: numero giri massimo#U/min","A11: potenzialità avviamento ritardata#%","A12: GDW/WDW","A13: salto max. eSTB-NTC#K","A20: Ignition frequency#Hz"
+   -> "A1: Regul. ida (Parte P)","A2: Regul. ida (Parte I)","A3: Regul. ida (Parte D)","A7: Diferencia máx. Ida/humos#K","A8: Pot. caldera encendido#%","A9: Gradiente máx. ida#K/s","A10: Veloc. máx.#U/min","A11: Pot arranque retardada#%","A12: GDW/WDW","A13: Diferencia máx. eSTB-NTC#K","A20: Ignition frequency#Hz"
+   -> "A1: vertrekregelaar (P-aandeel)","A2: vertrekregelaar(I-aandeel)","A3: vertrekregelaar (D-aandeel)","A7: max. verschil vertrek/rookgas#K","A8: ketelvermogen bij ontsteking#%","A9: max. vertrekgradiënt#K/s","A10: max. toerental#t/min","A11: vertraagd startvermogen#%","A12: GDW/WDW","A13: max. verschil eSTB-NTC#K","A20: Ignition frequency#Hz"
+   -> "A1: Fremløbsregulering (P-andel)","A2: Fremløbsregulering (I-andel)","A3: Fremløbsregulering (D-andel)","A7: Max. spredning fremløb/røggas#K","A8: Kedelydelse ved tænding#%","A9: Max. fremløbsgradient#K/s","A10: Max. omdrejningstal#o/min","A11: Forsinket startydelse#%","A12: GDW/WDW","A13: Max. spredning eSTB-NTC#K","A20: Ignition frequency#Hz"
+   -> "A1:Framledn.-regulator (P-andel)","A2: Framledn.-regulator (I-andel)","A3: Framledn.-regulator (D-andel)","A7: Max. Spridning framledn./Avgas#K","A8: Panneffekt vid tändning#%","A9: Max. Framledn.gradient#K/s","A10: Max. varvtal#U/min","A11: Fördröjd Starteffekt#%","A12: GDW/WDW","A13: Max. Spridning eSTB-NTC#K","A20: Ignition frequency#Hz"
+   -> "A1: VL-regulator (P-udio)","A2: VL-regulator (I-udio)","A3: VL-regulator (D-udio)","A7: Maks. potpora VL/dim.plinova#K","A8: snaga kotla kod paljenja#%","A9: Maks. gradijent polaza#K/s","A10: Maks. broj okretaja#U/min","A11: zatezna snaga pokretanja#%","A12: sklopka tlaka plina/vode","A13: Maks.potpora eSTB-NTC#K","A20: Ignition frequency#Hz"
+   -> "A1: elore-szab (P-rész)","A2: elore-szab (I-rész)","A3: elore-szab (D-rész)","A7: Max. eltérés elore/füstgáz#K","A8: kazántelj. gyújtáskor#%","A9: Max. elorem-gradiens#K/s","A10: Max. fordulatszám#1/min","A11: késleltetett indtelj#%","A12: GDW/WDW","A13: Max. szétvált eSTB-NTC#K","A20: Ignition frequency#Hz"
+   -> "A1: regulator temperatury zasilania (zakres proporcjonalnosci)","A2: regulator temperatury zasilania (czas zdwojenia)","A3: regulator temperatury zasilania (czas wyprzedzenia)","A7: maksymalna rozpietosc temperatur zasilania/spalin#K","A8: moc kotla podczas zaplonu#%","A9: maksymalny gradient temperatury zasilania#K/s","A10: maksymalna predkosc obrotowa#obr/min","A11: opózniona moc rozruchu#%","A12: GDW/WDW","A13: maksymalna rozpietosc temperatur eSTB-NTC#K","A20: Ignition frequency#Hz"
+   -> "A1: Ðåãóëÿòîð ïðÿìîé ëèíèè (÷àñòü P)","A2:  Ðåãóëÿòîð ïðÿìîé ëèíèè (÷àñòü I)","A3:  Ðåãóëÿòîð ïðÿìîé ëèíèè (÷àñòü D)","A7: Maêñ. ïåðåïàä ïðÿì. ëèíèè/äûì. ãàçû#K","A8: Ìîùíîñòü êîòëà íà çàæèãàíèè#%","A9: Ìàêñ. ïåðåïàä â ïðÿìîé ëèíèè#K/ñ","A10: Ìàêñ. ÷àñòîòà âðàùåíèÿ#îá/ìèí","A11: Ñòàðò. ìîùíîñòü ñ çàäåðæêîé#%","A12: Ðåëå äàâëåíèÿ ãàçà/ðåëå äàâëåíèÿ âîäû","A13: Ìàêñ. ïåðåïàä íà eSTB-NTC#K","A20: Ignition frequency#Hz"
+   -> EGrpBetriebBrenner.Items
+   -> "I45: Brennerbetrieb seit letzter Wartung#h"
+   -> "I45: Burner operation since last service#h"
+   -> "I45: Marche brûleur depuis dernier entretien#h"
+   -> "I45: esercizio bruciatore da ultima manutenzione#h"
+   -> "I45: Funcionamiento quemador desde último mantenimiento#h"
+   -> "I45: Branderwerking sinds laatste onderhoud#h"
+   -> "I45: Brænderdrift siden sidste service#h"
+   -> "I45:Brännardrift sedan senaste service#h"
+   -> "I45: rad plamenika od zadnjeg servisa#h"
+   -> "I45: égoüzem utolsó karb óta#h"
+   -> "I45: praca palnika od ostatniej konserwacji#h"
+   -> "I45: Ðàáîòà ãîðåëêè ñ ïîñëåäíåãî òåõîáñëóæèâàíèÿ#÷"
+   -> EGrpFS.Items
+   -> "S0:   Optionen","S2:   Stabilisierungszeit#s#0.1#25.5","S3:   Nachspülzeit#s#0.1#25.5","S4:   Minimale Drehzahl#%","S6:   STW Abschalttemperatur Kessel#°C","S8:   Obere Eingabegrenze max. Drehzahl#U/min","S10: Vor-/Nachspüldrehzahl#%","S11: Gebläseregler (P-Anteil)","S12: Gebläseregler (I-Anteil)","S13: Gebläseregleranpassung","S14: Gebläsestartsignal (PWM)#%","S17: Io-Regleranpassung","S19: Linear Koeffizient Gasstellglied","S20: Quadratischer Koeffizient Gasstellglied","S21: Toleranz Gasstellglied#%","S22: Toleranz Io-Signal#Punkte","S23: Kaskade-Leistungsanhebung (unten)#%","S24: Flüssiggas-Leistungsabsenkung#%","S25: Startgradient Io-Soll#s","S26: Io-Grenzwert halber Gradient#Pkt","S27: Sicherheitszeit#s","S28: Io-Schwellwert für Ende Flammenstabilisierung#Pkt","S29: Kaskade--Leistungsanhebung (oben)#U/min","S30: Grenzleistung Hochmodulieren#U/min","S31: Grenzleistung Runtermodulieren#U/min","S32: Leistungsrampe Hochmodulieren#U/min/s","S33: Leistungsrampe Runtermodulieren#U/min/s"
+   -> "S0:   Options","S2:   Stabilisation time#s#0.1#25.5","S3:   Post-rinse time#s#0.1#25.5","S4:   Minimum speed#%","S6:   STW Switch off temperature boiler#°C","S8:   Upper input limit max. speed#rpm","S10: Pre-/post rinse time#%","S11: Fan controller (P content)","S12: Fan controller (I content)","S13: Fan controller adjustment","S14: Fan start signal(PWM)#%","S17: Io-controller adjustment","S19: Linear coefficient gas setting element","S20: Square coefficient gas setting element","S21: Tolerance gas setting element#%","S22: Tolernace Io-Signal#Punkte","S23: Cascade-ratings increase (bottom)#%","S24:LPG ratings decrease#%","S25: Start gradient Io-set#s","S26: Io-limit value half gradient#Pkt","S27: Safety time#s","S28: Io-Threshold value for end flame stabilisation#Point","S29: Cascade--ratings increase (top)#rpm","S30: Limit rating modulating up#rpm","S31: Limit rating modulating down#rp","S32: Ratings ramp modulating up#rpm/s","S33: ratings ramp modulating down#rpm/s"
+   -> "S0:   Options","S2:   Temps stabilisation#s#0.1#25.5","S3:   Temps post-ventilation#s#0.1#25.5","S4:   Vitesse mini#%","S6:   STW Température coupure chaudière#°C","S8:   Grande vitesse Maxi#Tr/min","S10: Vitesse pré/post-ventilation#%","S11: Régulateur turbine (Composante P)","S12: Régulateur turbine (Composante I)","S13: Adaptation régulateur turbine","S14: Signal démarage turbine (PWM)#%","S17: Adaptation régulateur Io","S19: Coef. linéaire réglage gaz","S20: Coef. parabolique réglage gaz","S21: Tolérance réglage gaz#%","S22: Tolérance signal Io#Points","S23: Elévation puissance cascade (en bas)#%","S24: Diminution puissance GPL#%","S25: Gradient consigne démarrage Io#s","S26: Limite moitié gradient Io#Pkt","S27: Temps de sécurité#s","S28: Valeur Io de stabilisation de flamme#Pkt","S29: Elévation puissance cascade (en haut)#U/min","S30: Limite puissance haute modulation#U/min","S31: Limite puissance basse modulation#U/min","S32: Modulation haute#U/min/s","S33: Modulation basse#U/min/s"
+   -> "S0:   opzioni","S2:   tempo stabilizzazione#s#0.1#25.5","S3:   tempo postventilazione#s#0.1#25.5","S4:   nimero giri minimo#%","S6:   STW temperat. spegnimento caldaia#°C","S8:   limite inserimento superiore nr. giri max.#U/min","S10: numero giri pre-/postventilazione#%","S11: regolatore ventilatore (quota P)","S12: regolatore ventilatore (quota I)","S13: adattamento regolatore ventilatore","S14: segnale avviamento ventilatore (PWM)#%","S17: adattamento regolatore Io","S19: coefficiente lineare organo regolazione gas","S20: coefficiente quadrato organo regolazione gas","S21: tolleranza organo regolazione gas#%","S22: tolleranza segnale Io#punti","S23: innalzamento potenzialità cascata (inferiore)#%","S24: riduzione potenzialità gas liquido#%","S25: gradiente avviamento Io nomin.#s","S26: valore limite Io metà gradiente#Pkt","S27: tempo di sicurezza#s","S28: valore di soglia Io per termine stabilizzazione fiamma#Pkt","S29: innalzamento potenzialità cascata (superiore)#U/min","S30: potenzialità limite modulazione in salita#U/min","S31: potenzialità limite modulazione in discesa#U/min","S32: rampa potenzialità modulazione in salita#U/min/s ","S33: rampa potenzialità modulazione in discesa#U/min/s"
+   -> "S0:   Opciones","S2:   Tiempo estabilización#s#0.1#25.5","S3:   Tiempo postbarrido#s#0.1#25.5","S4:   Veloc. mínima#%","S6:   Temp. corte caldera STW#°C","S8:   Límite superior veloc. máx.#U/min","S10: Veloc. pre/postbarrido#%","S11: Regul. soplante (Parte P)","S12: Regul. soplante (Parte I)","S13: Ajuste regul. soplante","S14: Señal arranque soplante (PWM)#%","S17: Ajuste regul. Io","S19: Coeficiente Lineal ajuste gas","S20: Coeficiente cuadrático ajuste gas","S21: Tolerancia ajuste gas#%","S22: Tolerancio señal Io#Punkte","S23: Aumento potencia cascada (inferior)#%","S24: Reducción pot. gas licuado#%","S25: Gradiente arranque consig. Io#s","S26: Límite Io medio gradiente#Pkt","S27: Tiempo seguridadt#s","S28: Umbral Io para fin estabilización de llama#Pkt","S29: Aumento potencia cascada (superior)#U/min","S30: Límite potencia aumentar modulación#U/min","S31: Límite potencia reducir modulación#U/min","S32: Rampa potencia aumentar modulación#U/min/s","S33: Rampa potencia reducir modulación#U/min/s"
+   -> "S0:   opties","S2:   stabilisatietijd#s#0.1#25.5","S3:   naspoeltijd#s#0.1#25.5","S4:   minimaal toerental#%","S6:   STW uitschakeltemperatuur ketel#°C","S8:   bovenste inputgrens max. toerental#t/min","S10: voor-/naspoeltoerental#%","S11: ventilatorregelaar (P-aandeel)","S12: ventilatorregelaar (I-aandeel)","S13: aanpassing ventilatorregelaar","S14: ventilatorstartsignaal (PWM)#%","S17: aanpassing Io-regelaar","S19: lineaire coëfficient gasregelcomponent","S20: kwadratische coëfficient gasregelcomponent","S21: tolerantie gasregelcomponent#%","S22: tolerantie Io-signaal#punten","S23: cascade-vermogenverhoging (onder)#%",S24:LPG-vermogenverlaging#%,"S25: startgradiënt Io-instelwaarde#s","S26: Io-grenswaarde halve gradiënt#Pt","S27: veiligheidstijd#s","S28: Io-drempel voor einde vlamstabilisatie#Pt","S29: cascade-vermogenverhoging (boven)#t/min","S30: grensvermogen hoge modulatie#t/min","S31: grensvermogen lage modulatie#t/min","S32:vermogenbereik hoge modulatie#t/min/s","S33: vermogenbereik lage modulatie#t"
+   -> "S0:   Optioner","S2:   Stabiliseringstid#s#0.1#25.5","S3:   Efterskylletid#s#0.1#25.5","S4:   Min. omdrejningstal#%","S6:   STW udkoblingstemperatur kedel#°C","S8:   Øvre indstillingsgrænse max. omdrejningstal#o/min","S10: Før-/Efterskylletidsomdrejningstal#%","S11: Blæserregulator (P-andel)","S12: Blæserregulator (I-andel)","S13: Blæserreguleringstilpasning","S14: Blæserstartsignal (PWM)#%","S17: Io-reguleringstilpasning","S19: Linear koefficient reguleringsspole","S20: kvadratisk koefficient reguleringsspole","S21: Tolerance reguleringsspole#%","S22: Tolerance Io-signal#Punkte","S23: Kaskade-ydelseshævning (nedre)#%","S24: F-gas-ydelsesænkning#%","S25: Beregnet startgradient Io-#s","S26: Io-grænseværdi halv gradient#Pkt","S27: Sikkerhedstid#s","S28: Io-niveau ved afslutning af flammestabilisering#Pkt","S29: Kaskade--ydelseshævning (øvre)#o/min","S30: Grænseydelse opadmodulerende#o/min","S31: Grænseydelse nedadmodulerende#o/min","S32: Ydelsesrampe opadmodulerende#o/min/s","S33: Ydelsesrampe nedadmodulerende
+   -> "S0:   Optioner","S2:   Stabilisieringstid#s#0.1#25.5","S3:   Eftervädr.tid#s#0.1#25.5","S4:   Min. varvtall#%","S6:   STW Frankoppl.temp.  panna#°C","S8:   Övre inmatn.gräns max. varvtal#U/min","S10: För-/Eftervädr.tid varvtal#%","S11: Fläktregulator (P-andel)","S12: Fläktregulator (I-andel)","S13: Fläktregulatoranpassning","S14: Fläktstartsignal (PWM)#%","S17: Io-regleranpassning","S19: Linjär koefficient gaslänkarm","S20: Kvadratisk koefficient gaslänkarm","S21: Tolerans gaslänkarm#%","S22: Tolerans Io-signal#Punkter","S23: Kaskad-effektökning (nedtill)#%","S24: Gasol-effektsänkning#%","S25: Startgradient Io-Bör#s","S26: Io-gränsvärde halv gradient#Pkt","S27: Säkerhetstid#s","S28: Io-Tröskelvärde för Slut flamstabilisering#Pkt","S29: Kaskad--effektökning (upptill)#U/min","S30: Gränseffekt uppmodulering#U/min","S31: Gränseffekt nedmodulering#U/min","S32: Effektramp uppmodulering#U/min/s","S33: Effektramp nedmodulering#U/min/s"
+   -> "S0:   opcije","S2:   vrijeme stabiliziranja#s#0.1#25.5","S3:   vrijeme naknadnog vjetrenjat#s#0.1#25.5","S4:   min. broj okretaja#%","S6:   STW isklopna temperatura kotla#°C","S8:   gornja granica unosa maks. broja okretaja#U/min","S10: broj okretaja u pred- i naknadnom provjetravanju#%","S11: regulator ventilatora (P-udio)","S12: regulator ventilatora (I-udio)","S13: prilagodba ventilatorskog regulatora","S14: signal pokretanja ventilatora (PWM)#%","S17: Io-prilagodba regulatora","S19: linearni koeficjent regulacijskog sklopa plina","S20: kvadratni koeficjent regulacijskog sklopa plina","S21: tolerancija regulacijskog sklopa plina#%","S22: tolerancija Io-signala#Punkte","S23: kaskadno podizanje snage (donje)#%","S24: smanjenje snage za UNP-plin#%","S25: gradijent kretanja Io-treba#s","S26: Io-granica iznosa pola gradijenta#Pkt","S27: sigurnosno vrijeme#s","S28: Io-iznos vala za kraj vremena stabilizacije plamena#Pkt","S29: podizanje snage za dimovodnu zaklopku  (gore)#U/min","S30: granica moduliranja prema gore#U/min","S31: granica moduliranja prema dolje#U/min","S32: granica snage moduliranja prema gore#U/min/s","S33: granica snage moduliranja prema dolje#U/min/s"
+   -> "S0:  opciók","S2:  stabilizációsido#s#0.1#25.5","S3:   utószellido#s#0.1#25.5","S4:   Min. fordszám#%","S6:   STW lekapcshomérséklet kazán#°C","S8:   max. fordszámfelso beadhatára#1/min","S10: elo-/utószellfordszám#%","S11: ventszabályzás (P-rész)","S12: ventszabályzás (I-rész)","S13: ventszabillesztés","S14: ventindjel (PWM)#%","S17: Io-szabillesztés","S19: lineár.tényezo gázállítótag","S20: négyz. tényezo gázállítótag","S21: gázállítótag turése#%","S22: Io-jel turése#pont","S23: kaszkád-teljemelés (alul)#%","S24: PBgáz-teljcsökkentés#%","S25: startgradiens Io-par#s","S26: Io-határérték félgradiens#Pnt","S27: biztido#s","S28: Io-eltérték a lángstabilizáció végére#Pnt","S29: kaszkád-teljemelés (felül)#1/min","S30: határtelj felfelemodulációnál#1/min","S31: határtelj lefelemodulációnál#1/min","S32: teljrámpa felfelemodulációnál#1/min/s","S33: teljrámpa lefelemodulációnál#1/min/s"
+   -> "S0:   Opcje","S2:   czas stabilizacji#s#0.1#25.5","S3:   czas przedmuchu po wylaczeniu#s#0.1#25.5","S4:   minimalna predkosc obrotowa#%","S6:   temperatura powodujaca wylaczenie kotla przez STW#°C","S8:   górna granica wprowadzenia maksymalnej predkosci obrotowej#obr/min","S10: predkosc obrotowa podczas przedmuchu wstepnego/po wylaczeniu#%","S11: regulator predkosci obrotowej dmuchawy (zakres proporcjonalnosci)","S12: regulator predkosci obrotowej dmuchawy (czas zdwojenia)","S13: dopasowanie regulatora predkosci obrotowej dmuchawy","S14: poczatkowa predkosc obrotowa dmuchawy PWM#%","S17: dopasowanie regulatora Io","S19: wspólcz.f.lin. (el.wykonawczy)","S20: wspólcz.f.kwadr. (el.wykonawczy)","S21: tolerancja elementu wykonawczego#%","S22: tolerancja sygnalu Io#punkty","S23: zwiekszenie mocy-doln. predk. obr. (kaskada)#%","S24: obnizenie mocy (gaz plynny)#%","S25: gradient poczatk. wartosci zadanej Io#s","S26: polowa gradientu wartosci granicznej Io#pkt","S27: czas bezpieczenstwa#s","S28: warto?? progowa Io dla ko?ca stabilizacji p?omienia#pkt","S29: zwi?kszenie mocy-górn. pr?dk. obr. (kaskada)#obr/min","S30: prog. cz?stotliwo?? górn. zakr. modulacji#obr/min","S31: prog. cz?stotliwo?? doln. zakr. modulacji#obr/min","S32: wart.powy?ej której jest inny gradient modulacji#obr/min/s","S33: wart.poni?ej której jest inny gradient modulacji#obr/min/s"
+   -> "S0:    Îïöèè","S2:   Âðåìÿ ñòàáèëèçàöèè#ñ#0.1#25.5","S3:   Âðåìÿ äîï. ïðîäóâêè#ñ#0.1#25.5","S4:   Ìèí. ÷àñòîòà âðàùåíèÿ#%","S6:   Òåìïåðàòóðà îòêëþ÷åíèÿ êîòëà íà STW#°C","S8:   Âåðõíèé ïðåäåë ââîäà ìàêñ. ÷àñòîòû âðàùåíèÿ#îá/ìèí","S10: ×àñòîòà âðàùåíèÿ ïðåäâ./äîï. ïðîäóâêè#%","S11:  Ðåãóëÿòîð âåíòèëÿòîðà (÷àñòü P)","S12:  Ðåãóëÿòîð âåíòèëÿòîðà (÷àñòü I)","S13: Àäàïòàöèÿ ðåãóëÿòîðà âåíòèëÿòîðà","S14:  Ñèãíàë äëÿ çàïóñêà âåíòèëÿòîðà (PWM)#%","S17: Àäàïòàöèÿ ðåãóëÿòîðà èîíèçàöèè","S19: Ëèíåéíûé êîýôôèöèåíò ãàçîâîãî äðîññåëÿ","S20: Êâàäðàòè÷íûé êîýôôèöèåíò ãàçîâîãî äðîññåëÿ","S21: Äîïóñê äëÿ ãàçîâîãî äðîññåëÿ#%","S22: Äîïóñê äëÿ ñèãíàëà èîíèçàöèè#áàëë","S23: Êàñêàä-óâåëè÷åíèå ìîùíîñòè (â äèàïàçîíå ìàëîé íàãðóçêè)#%","S24: Ñæèæ. ãàç-ñíèæåíèå ìîùíîñòè#%","S25:  Ñòàðòîâîå îòêëîíåíèå Èî-çàä#ñ","S26:  Ïðåäåëüíîå çíà÷åíèå èîíèçàöèè-ïîëîâèíà ïåðåïàäà#áàëë","S27: Âðåìÿ áåçîïàñíîñòè#ñ","S28: Ïîðîãîâîå çíà÷åíèå Èî â êîíöå ñòàáèëèçàöèè ïëàìåíè#áàëë","S29: Êàñêàä-óâåëè÷åíèå ìîùíîñòè (â äèàïàçîíå áîëüøîé íàãðóçêè)#îá/ìèí","S30: Limit rating modulating up#rpm","S31: Limit rating modulating down#rp","S32: Ratings ramp modulating up#rpm/s","S33: ratings ramp modulating down#rpm/s"
+   -> EGrpIoParas.Items
+   -> "IO1: Kalibrationsfaktor#%","IO2: min. Io-Sollwert(Werk)#Pkt","IO3: max. Io-Sollwert(Werk)#Pkt","IO4: Gas-Startkick#%","IO5: Gasrampe bei Zündung#%","IO7: Io-Soll-Kurve bei 8,5%#%","IO8: Io-Soll-Kurve bei 17,0%#%","IO9: Io-Soll-Kurve bei 25,6%#%","IO10: Io-Soll-Kurve bei 34,1%#%","IO11: Io-Soll-Kurve bei 42,6%#%","IO12: Io-Soll-Kurve bei 51,2%#%","IO13: Io-Soll-Kurve bei 68,2%#%","IO14: Io-Soll-Kurve bei 85,3%#%","IO15: Io-Soll-Kurve bei 102,4%#%","IO16: Io-Soll-Kurve bei 119,4%#%","IO17: Kalibrierdrehzahl#%","IO18: Io-Schwellwert 50V#--","IO19: Kick_2#--"
+   -> "IO1: Calibration factor#%","IO2: min. Io-set value(factory)#Point","IO3: max. Io-set value(factory)#Point","IO4: Gas -Start kick#%","IO5: Gas ramp at ignition#%","IO7: Io-set curve at 8.5%#%","IO8: Io-set curve at 17.0%#%","IO9: Io-set curve at 25.6%#%","IO10: Io-set curve at 34.1%#%","IO11: Io-set curve at 42.6%#%","IO12: Io-set curve at 51.2%#%","IO13: Io-set curve at 68.2%#%","IO14: Io-set curve at 85.3%#%","IO15: Io-set curve at 102.4%#%","IO16: Io-set curve at 119.4%#%","IO17: Calibration speed#%","IO18: Io-Threshold value 50V","IO19: Kick_2#--"
+   -> "IO1: Facteur calibration#%","IO2: Consigne mini Io(Usine)#Pts","IO3: Consigne Maxii Io(Usine)#Pts","IO4: Surpuissance démarrage gaz#%","IO5: Rampe gaz à l'allumage#%","IO7: Courbe consigne Io à 8,5%#%","IO8: Courbe consigne Io à 17,0%#%","IO9: Courbe consigne Io à 25,6%#%","IO10: Courbe consigne Io à 34,1%#%","IO11: Courbe consigne Io à 42,6%#%","IO12: Courbe consigne Io à 51,2%#%","IO13: Courbe consigne Io à 68,2%#%","IO14: Courbe consigne Io à 85,3%#%","IO15: Courbe consigne Io à 102,4%#%","IO16: Courbe consigne Io à 119,4%#%","IO17: Vitesse calibrée#%","IO18: Valeur Io 50V","IO19: Kick_2#--"
+   -> "IO1: fattore calibratura#%","IO2: valore nomi. Io min.(fabbrica)#P.ti","IO3: valore nomin. Io max.(fabbrica)#P.ti","IO4: spunto avviamento gas#%","IO5: rampa gas in accensione#%","IO7: curva nomin. Io a 8,5%#%","IO8: curva nomin. Io a 17,0%#%","IO9: curva nomin. Io a 25,6%#%","IO10: curva nomin. Io a 34,1%#%","IO11: curva nomin. Io a 42,6%#%","IO12: curva nomin. Io a 51,2%#%","IO13: curva nomin. Io a 68,2%#%","IO14: curva nomin. Io a 85,3%#%","IO15: curva nomin. Io a 102,4%#%","IO16: curva nomin. Io a 119,4%#%","IO17: numero giri calibratura#%","IO18: valore di soglia Io 50V","IO19: Kick_2#--"
+   -> "IO1: Factor calibración#%","IO2: Consig. mín. Io(fábrica)#Pkt","IO3: Consig. máx Io(Werk)#Pkt","IO4: Gas-Startkick#%","IO5: Rampa gas encendido#%","IO7: Curva consig.-Io al 8,5%#%","IO8: Curva consig.-Io al 17,0%#%","IO9: Curva consig.-Io al 25,6%#%","IO10: Curva consig.-Io al 34,1%#%","IO11: Curva consig.-Io al 42,6%#%","IO12: Curva consig.-Io al 51,2%#%","IO13: Curva consig.-Io al 68,2%#%","IO14: Curva consig.-Io al 85,3%#%","IO15: Curva consig.-Io al 102,4%#%","IO16: Curva consig.-Io al 119,4%#%","IO17: Veloc. calibración#%","IO18: Umbral Io 50V","IO19: Kick_2#--"
+   -> "IO1: calibratiefactor#%","IO2: min. Io-instelwaarde(fabriek)#Pt","IO3: max. Io-instelwaarde(fabriek)#Pt","IO4: Gas-startkick#%","IO5: gasarmatuur bij ontsteking#%","IO7: Io-instelcurve bij 8,5%#%","IO8: Io-instelcurve bij 17,0%#%","IO9: Io-instelcurve bij 25,6%#%","IO10: Io-instelcurve bij 34,1%#%","IO11: Io-instelcurve bij 42,6%#%","IO12: Io-instelcurve bij 51,2%#%","IO13: Io-instelcurve bij 68,2%#%","IO14: Io-instelcurve bij 85,3%#%","IO15: Io-instelcurve bij 102,4%#%","IO16: Io-instelcurve bij 119,4%#%","IO17: calibratietoerental#%","IO18: Io_drempel 50V","IO19: Kick_2#--"
+   -> "IO1: Kalibreringsfaktor#%","IO2: beregnet min. Io-værdi(Fabriksindstilling)#Pkt","IO3: beregnet max. Io-værdi(Fabriksindstilling)#Pkt","IO4: Gas-Startkick#%","IO5: Gasrampe ved tænding#%","IO7: Beregnet Io-kurve ved 8,5%#%","IO8: Beregnet Io-kurve ved 17,0%#%","IO9: Beregnet Io-kurve ved 25,6%#%","IO10: Beregnet Io-kurve ved 34,1%#%","IO11: Beregnet Io-kurve ved 42,6%#%","IO12: Beregnet Io-kurve ved 51,2%#%","IO13: Beregnet Io-kurve ved 68,2%#%","IO14: Beregnet Io-kurve ved 85,3%#%","IO15: Beregnet Io-kurve ved 102,4%#%","IO16: Beregnet Io-kurve ved 119,4%#%","IO17: Kalibreringsomdrejningstal#%","IO18: Io-niveau 50V","IO19: Kick_2#--"
+   -> "IO1: Kalibreringsfaktor#%","IO2: min. Io-Börvärde(Fabrik)#Pkt","IO3: max. Io-Börvärde(Fabrik)#Pkt","IO4: Gas-Startkick#%","IO5: Gasramp vid tändning#%","IO7: Io-Bör-kurva vid 8,5%#%","IO8: Io-Bör-kurva vid 17,0%#%","IO9: Io-Bör-kurva vid 25,6%#%","IO10: Io-Bör-kurva vid 34,1%#%","IO11: Io-Bör-kurva vid 42,6%#%","IO12: Io-Bör-kurva vid 51,2%#%","IO13: Io-Bör-kurva vid 68,2%#%","IO14: Io-Bör-kurva vid 85,3%#%","IO15: Io-Bör-kurva vid 102,4%#%","IO16: Io-Bör-kurva vid 119,4%#%","IO17: Kalibreringsvarvtal#%","IO18: Io-Tröskelvärde 50V","IO19: Kick_2#--"
+   -> "IO1: faktor kalibriranja#%","IO2: min. Io-zadani iznos(tvornicki)#Pkt","IO3: maks. Io-zadani iznos(tvornicki)#Pkt","IO4: uklop plina za start#%","IO5: plinska pruga kod paljenja#%","IO7: Io-zadana krivulja kod 8,5%#%","IO8: Io-zadana krivulja kod 17,0%#%","IO9: Io-zadana krivulja kod 25,6%#%","IO10: Io-zadana krivulja kod 34,1%#%","IO11: Io-zadana krivulja kod 42,6%#%","IO12: Io-zadana krivulja kod 51,2%#%","IO13: Io-zadana krivulja kod 68,2%#%","IO14: Io-zadana krivulja kod 85,3%#%","IO15: Io-zadana krivulja kod 102,4%#%","IO16: Io-zadana krivulja kod 119,4%#%","IO17: kalibracijski broj okretaja#%","IO18: Io-prag iznosa na 50V","IO19: Kick_2#--"
+   -> "IO1: kalibrációstény#%","IO2: min. Io-parérték(gyár)#Pkt","IO3: max. Io-parérték(gyár)#Pkt","IO4: gáz-startkick#%","IO5: gázszer.sor gyújtásnál#%","IO7: Io-par-görbe 8,5%#%","IO8: Io-par-görbe 17,0%#%","IO9: Io-par-görbe 25,6%#%","IO10: Io-par-görbe 34,1%#%","IO11: Io-par-görbe 42,6%#%","IO12: Io-par-görbe 51,2%#%","IO13: Io-par-görbe 68,2%#%","IO14: Io-par-görbe 85,3%#%","IO15: Io-par-görbe 102,4%#%","IO16: Io-par-görbe 119,4%#%","IO17: kalibrációsfordszám#%","IO18: Io-eltérték 50V","IO19: Kick_2#--"
+   -> "IO1: wspólczynnik kalibracji#%","IO2: minimalna wartosc zadana Io (fabrycznie)#pkt","IO3: maksymalna wartosc zadana Io (fabrycznie)#pkt","IO4: wartosc poczatkowa (gaz)#%","IO5: ilosc gazu podczas zaplonu#%","IO7: wartosc zadana Io dla mocy 8,5%#%","IO8: wartosc zadana Io dla mocy 17,0%#%","IO9: wartosc zadana Io dla mocy 25,6%#%","IO10: wartosc zadana Io dla mocy 34,1%#%","IO11: wartosc zadana Io dla mocy 42,6%#%","IO12: wartosc zadana Io dla mocy 51,2%#%","IO13: wartosc zadana Io dla mocy 68,2%#%","IO14: wartosc zadana Io dla mocy 85,3%#%","IO15: wartosc zadana Io dla mocy 102,4%#%","IO16: wartosc zadana Io dla mocy 119,4%#%","IO17: predkosc obrotowa podczas kalibracji#%","IO18: wartosc progowa Io 50V","IO19: Kick_2#--"
+   -> "IO1: Êîýôôèöèåíò êàëèáðîâêè#%","IO2: Ìèí. çàäàííîå çíà÷åíèå Èî (çàâîä)#áàëë","IO3: Ìàêñ. çàäàííîå çíà÷åíèå Èî (çàâîä)#áàëë","IO4: Ñêà÷îê ãàçà íà ñòàðòå#%","IO5: Âðåìÿ âûáåãà ñåðâîïðèâîäà ãàç. äðîññåëÿ íà çàæèãàíèè#%","IO7: Ãðàôèê çàä. çíà÷åíèé Èî íà 8,5%#%","IO8: Ãðàôèê çàä. çíà÷åíèé Èî íà 17,0%#%","IO9:Ãðàôèê çàä. çíà÷åíèé Èî íà 25,6%#%","IO10: Ãðàôèê çàä. çíà÷åíèé Èî íà 34,1%#%","IO11: Ãðàôèê çàä. çíà÷åíèé Èî íà 42,6%#%","IO12: Ãðàôèê çàä. çíà÷åíèé Èî íà 51,2%#%","IO13: Ãðàôèê çàä. çíà÷åíèé Èî íà 68,2%#%","IO14: Ãðàôèê çàä. çíà÷åíèé Èî íà 85,3%#%","IO15:Ãðàôèê çàä. çíà÷åíèé Èî íà 102,4%#%","IO16: Ãðàôèê çàä. çíà÷åíèé Èî íà 119,4%#%","IO17: Êàëèáðîâàííàÿ ÷àñòîòà âðàùåíèÿ#%","IO18: Ïîðîãîâîå çíà÷åíèå 50Â","IO19: Kick_2#--"
+   -> EGrpIoParasFl.Items
+   -> %#,Pkt#,Pkt#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,Point#,Point#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,Pkt#,Pkt#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,P.ti#,P.ti#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,Point#,Point#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,Pt#,Pt#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,Pkt#,Pkt#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,Point#,Point#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,Point#,Point#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,Pnt#,Pnt#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,Pkt#,Pkt#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,áàëë#,áàëë#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> EgrpIoParasKask.Items
+   -> %#,Pkt#,Pkt#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,Point#,Point#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,Pkt#,Pkt#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,P.ti#,P.ti#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,Point#,Point#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,Pt#,Pt#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,Pkt#,Pkt#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,Point#,Point#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,Point#,Point#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,Pnt#,Pnt#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,Pkt#,Pkt#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> %#,áàëë#,áàëë#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,%#,..,..
+   -> EGrpIoSoll.Items
+   -> "IO19: Io-Soll Basiswert"
+   -> "IO19: Io-set base value"
+   -> "IO19: Valeur base consigne Io"
+   -> "IO19: valore base Io nomin."
+   -> "IO19: Consig.-Io valor básico"
+   -> "IO19: Io-instel-basiswaarde"
+   -> "IO19: Beregnet Io-basisværdi"
+   -> "IO19: Io-Bör Basvärde"
+   -> "IO19: Io-zadani bazni iznos"
+   -> "IO19: Io-par alapérték"
+   -> "IO19: podstawowa wartosc zadana Io"
+   -> "IO19: Áàçîâîå çàäàííîå çíà÷åíèå Èî"
+   -> EGrpIoValues.Items
+   -> Io-Sollwert,"I32: Io-Istwert","Ansteuersignal Gasstellglied#%"
+   -> "Io-Set value","I32: Io-Actual value","Start signal gas setting element#%"
+   -> "Consigne Io","I32: Io réel","Signal cde réglage gaz#%"
+   -> "valore nomin. Io","I32: valore effettivo Io","segnale comando organo regolazione gas#%"
+   -> Consig.-Io,"I32: Valor real Io","Control ajuste gas#%"
+   -> Io-instelwaarde,"I32: Io-reële waarde","Aanstuursignaal gasregelcomponent#%"
+   -> "Beregnet Io-værdi","I32: Aktuel Io-værdi","Styresignal reguleringsspole#%"
+   -> Io-Börvärde,"I32: Io-Ärvärde","Styrsignal gaslänkarm#%"
+   -> Io-zadana,"I32: Io-iznos je","signal upravljanja regulacijskog sklopa plina#%"
+   -> Io-parérték,"I32: Io-tényérték","gázállítótag kivezérlojele#%"
+   -> "wartosc zadana Io","I32: wartosc rzeczywista Io","sygnal sterujacy elementu wykonawczego#%"
+   -> "Çàäàííîå çíà÷åíèå Èî","I32:  Ôàêòè÷åñêîå  çíà÷åíèå Èî","Ñèãíàë óïðàâëåíèÿ ãàçîâûì äðîññåëåì#%"
+   -> EGrpMenu.Items
+   -> Normaltemperatur-Sollwert#°C,Absenktemperatur-Sollwert#°C,"Umschalttemperatur Sommer/Winter#°C","WW-Sollwert Tag#°C",Raum-Normaltemperatur#°C,Raum-Absenktemperatur#°C
+   -> "Normal temperature set value#°C","Lowering temperature set value#°C","Switch over temperature Summer/Winter#°C","DHW set value day#°C","Normal room temperature#°C","Lowering room temperature#°C"
+   -> "Consigne température normale#°C","Consigne température réduite#°C","Température commutation été/hiver#°C","Consigne ECS jour#°C","Température ambiante normale#°C","Température ambiante réduite#°C"
+   -> "valore nomin. temperatura normale#°C","valore nomin. temperatura ridotta#°C","temperatura commutazione estate/inverno#°C","valore nomin. AC giorno#°C","temperatura ambiente normale#°C","temperatura ambiente ridotta#°C"
+   -> "Consig. Temp. normal#°C","Consig. Temp. reducida#°C","Temp. Cambio Invierno/Verano#°C","Consig. Día ACS#°C","Temp. Ambiente normal#°C","Temp. Ambiente reducida#°C"
+   -> "Normale temperatuur-instelwaarde#°C",verlaagde-temperatuur-instelwaarde#°C,"omschakeltemperatuur zomer/winter#°C","WW-instelwaarde dag#°C","normale ruimtetemperatuur#°C","verlaagde ruimtetemperatuur#°C"
+   -> "Beregnet normaltemperatur#°C","Beregnet sænkningstemperatur#°C","Koblingstemperatur sommer/vinter#°C","Beregnet VV-temp dag#°C","Normal rumtemperatur#°C",Rumsænkningstemperatur#°C
+   -> Normaltemperatur-Börvärde#°C,Nedsänkstemperatur-Börvärde#°C,"Omkoppl.temperatur Sommar/Vinter#°C","VV-Börvärde Dag#°C",Rum-Normaltemperatur#°C,Rum-Nedsänktemperatur#°C
+   -> "Normalna temperatura zadana#°C","snižena temperatura zadana#°C","temperatura preklopa ljeto/zima#°C","PTV treba biti u danu#°C","sobna normalna temperatura#°C","sobna snižena temperatura#°C"
+   -> normálhomérséklet-parérték#°C,csökkhom-parérték#°C,"átkapcshom nyár/tél#°C","WW-parérték nap#°C",helyis-normálhomérséklet#°C,helyis-csökkhom#°C
+   -> "wartosc zadana temperatury normalnej#°C","wartosc zadana temperatury obnizonej#°C","temperatura przelaczenia lato/zima#°C","wartosc zadana temperatury c.w.u. (dzien)#°C","temperatura normalna w pomieszczeniu#°C","temperatura obnizona w pomieszczeniu#°C"
+   -> "Çàä. òåìïåðàòóðà äëÿ íîðìàëüíîãî ðåæèìà#°C","Çàä. òåìïåðàòóðà äëÿ ðåæèìà ñíèæåíèÿ#°C","Òåìïåðàòóðà ïåðåêëþ÷åíèÿ ðåæèìîâ Ëåòî/Çèìà#°C","Çàä. äíåâíàÿ òåìïåðàòóðà ÃÂ#°C","Êîìíàòíàÿ òåìïåðàòóðà â íîðìàëüíîì ðåæèìå#°C","Êîìíàòíàÿ òåìïåðàòóðà â ðåæèìå ñíèæåíèÿ#°C"
+   -> EGrpP1x.Items
+   -> "P18: Sonderniveau Heizbetrieb#°C","P20: Außenfühler-Korrektur#K","P21: Gebäude-Bewertung# ","P22: Heizkennlinien-Steilheit# ","P23: Anlagenfrostschutz#°C","P30: Minimale Vorlauftemperatur#°C","P31: Maximale Vorlauftemperatur#°C","P32: Schaltdifferenz Vorlauftemp.#°C","P33: Abschalttemp. Abgasweg#°C","P34: Brenner Taktsperre#min","P35: Startgasmenge bei Zündung#%","P36: Minimale Kesselleistung#%","P37: Max. Leistung Heizung#%","P38: Max. Leistung WW#%","P39: O2-Korrektur#O2","P40: Dauerlauf Pumpe Heizung# ","P41: Pumpennachlauf Heizung#min","P42: Min. Pumpenleistung#%","P43: Max. Pumpenleistung#%","P44: Weichenregelung#K","P45: Pumpenleistung WW#%","P50: Überhöhung WW-Ladung#K","P51: Schaltdifferenz WW#K","P52: Max. WW-Ladezeit#min","P53: WW-Temp. Absenkbetrieb#°C","P70: Wartungsintervall#h","P71: eBUS-Speisung","P72: O2-Korrektur unterer Bereich#O2"
+   -> "P18: Special level heating#°C","P20: External sensor correction#K","P21: Building evaluation# ","P22: Heat reference line gradient# ","P23: Installation frost protection#°C","P30: minimum supply temperature#°C","P31: Maximum supply temperature#°C","P32: Switch difference supply temp.#°C","P33: Switch off temp. flue gas duct#°C","P34: Burner start/stop block#min","P35: Start gas quantity at ignition#%","P36: Minimum boiler rating#%","P37: Max. rating heating#%","P38: Max. rating DHW#%","P39: O2-correction#O2","P40: Cont. run pump heating# ","P41: Pump run-on heating#min","P42: Min. pump rating#%","P43: Max. pump rating#%","P44: De-couple control#K","P45: Pump rating DHW#%","P50: Excess DHW loading#K","P51: Switch difference DHW#K","P52: Max. DHW load time#min","P53: DHW-Temp. Lowering operation#°C","P70: Service interval#h","P71: eBUS supply","P72: O2-correction lower limit#O2"
+   -> "P18: Niveau spécial chauffage#°C","P20: Correction sonde extérieure#K","P21: Comportement thermique bâtiment# ","P22: Pente courbe de chauffe# ","P23: Antigel installation#°C","P30: Température départ mini#°C","P31: Température départ Maxi#°C","P32: Différentiel commutation départ#°C","P33: Température coupure fumées#°C","P34: Intervalle redémarrage brûleur#min","P35: Débit gaz à l'allumage#%","P36: Puissance chaudière mini#%","P37: Puissance Maxi chauffage#%","P38: Puissance Maxi ECS#%","P39: Correction O2#O2","P40: Fonctionnement continu pompe chauffage# ","P41: Post-fonctionnement pompe chauffage#min","P42: Puissance pompe mini#%","P43: Puissance pompe Maxi#%","P44: Régulation bouteille casse-pression#K","P45: Puissance pompe ECS#%","P50: Elévation charge ECS#K","P51: Différentiel commutation ECSK","P52: Temps charge ECS Maxi#min","P53: Fct température réduite ECS#°C","P70: Intervalle d'attente#h","P71: Alimentation eBUS","P72: Correction O2 plage inférieure#O2"
+   -> "P18: livello speciale esercizio riscaldam.#°C","P20: correzione sonda esterna#K","P21: valutazione edificio# ","P22: pendenza curva riscaldamento# ","P23: protezione antigelo impianto#°C","P30: temperatura mandata minima#°C","P31: temperatura mandata massima#°C","P32: differenziale temperatura mandata#°C","P33: temperatura spegnimento scarico fumi#°C","P34: interdizione intermittenza bruciatore#min","P35: portata gas avviemento in accensione#%","P36: potenzialità caldaia minima#%","P37: potenzialità max. riscaldam.#%","P38: potenzialità max. AC#%","P39: correzione O2#O2","P40: funzionamento continuo pompa riscaldam.# ","P41: postfunzionamento pompa riscaldam.#min","P42: portata pompa min.#%","P43: portata pompa max.#%","P44: regolazione compensatore#K","P45: portata pompa AC#%","P50: superamento caricamento AC#K","P51: differenziale AC#K","P52: tempo max. caricamento AC#min","P53: temper. AC esercizio ridotto#°C","P70: intervallo di manutenzione#h","P71: alimentazione eBUS","P72: correzione O2 campo inferior
+   -> "P18: Nivel especial calefacción#°C","P20: Corrección sonda exterior#K","P21: Valoración edificio# ","P22: Pendiente curva calefacción# ","P23: Portección antihielo instalación#°C","P30: Temp. ida mín.#°C","P31: Temp. ida máx.°C","P32: Diferencial conex. temp. ida#°C","P33: Temp. corte humos#°C","P34: Bloqueo arranques quemador#min","P35: Caudal gas inicial encendido#%","P36: Pot. caldera mín.#%","P37: Pot. caldera máx.#%","P38: Pot. máx. ACS#%","P39: Correción O2#O2","P40: Tipo func. bomba# ","P41: Tiempo inercia bomba#min","P42: Pot. mín. bomba#%","P43: Pot. máx. bomba#%","P44: Regul. compensador#K","P45: Pot. bomba ACS#%","P50: Aumento carga ACS#K","P51: Diferencial conex. ACS#K","P52: Tiempo máx. carga ACS#min","P53: Temp. ACS reducida#°C","P70: Intervalo mantenimiento#h","P71: Alimentación eBUS","P72: Corrección O2 límite inferior#O2"
+   -> "P18: Speciaal niveau verwarming#°C","P20: Buitenvoeler-correctie#K","P21: gebouw-evaluatie# ","P22: Stookkenlijn-steilheid# ","P23: installatievorstbeveiliging#°C","P30: minimale vertrektemperatuur#°C","P31: maximale vertrektemperatuur#°C","P32: schakeldifferentieel vertrektemp.#°C","P33: uitschakeltemp. rookgasweg#°C","P34: verhindering brander#min","P35: startgasdebiet bij ontsteking#%","P36: minimaal ketelvermogen#%","P37: max. vermogen verwarming#%","P38: max. vermogen WW#%","P39: O2-correctie#O2","P40: continue werking pomp verwarming# ","P41: pompnaloop verwarming#min","P42: min. pompvermogen#%","P43: max. pompvermogen#%","P44: regeling evenwichtsfles#K","P45: pompvermogen WW#%","P50: verhoging WW-lading#K","P51: schakeldifferentieel WW#K","P52: max. WW-laadtijd#min","P53: WW-temp. verlaagd bedrijf#°C","P70: onderhoudsinterval#h","P71: eBUS-voeding","P72: O2-correctie onderste bereik#O2"
+   -> "P18: Varmedrift med speciel funktion#°C","P20: Udeføler-korrektur#K","P21: Bedømmelse af bygning# ","P22: Varmekurve stejlhed# ","P23: Forstsikring af anlæg#°C","P30: Min.fremløbstemperatursetpunkt#°C","P31: Max. fremløbstemperatursetpunkt#°C","P32: koblingdifferens fremløbstemp.#°C","P33: Udkoblingstemp. røggas#°C","P34: Brænder taktspærre#min","P35: Startgasmængde ved tænding#%","P36: Min. kedelydelse#%","P37: Max. ydelse varme#%","P38: Max. ydelse VV#%","P39: O2-korrektur#O2","P40: Konstant løbende pumpe# ","P41: Pumpeefterløb varme#min","P42: Min. Pumpeydelse#%","P43: Max. Pumpeydelse#%","P44: Blandepotteregulering#K","P45: Pumpeydelse VV#%","P50: Forhøjelse af VV-produktion#K","P51: Koblingsdifferens VV#K","P52: Max. VV-ladetid#min","P53: VV-temp. sænkningsdrift#°C","P70: serviceinterval#h","P71: eBUS-forsyning","P72: O2-korrektur nedre område#O2"
+   -> "P18: Specialniva Värmedrift#°C","P20: Utomhusgivare-korrektur#K","P21: Byggnads-bedömning# ","P22: Värmekurvor-Gradient# ","P23: Anläggn.frostskydd#°C","P30: Min. framledn.temperatur#°C","P31: Max. framledn.temperatur#°C","P32: Kopplingsdifferens Framledn.temp.#°C","P33: Frankoppl.temp. avgasväg#°C","P34: Brännare taktspärr#min","P35: Startgasmängd vid tändning#%","P36: Min. panneffekt#%","P37: Max. effekt Värme#%","P38: Max. effekt VV#%","P39: O2-korrektur#O2","P40: Kontin.drift Pump Värme# ","P41: Pumpeftergang Värme#min","P42: Min. pumpeffekt#%","P43: Max. pumpeffekt#%","P44: Växelreglering#K","P45: Pumpeffekt VV#%","P50: Övertemp.-laddning#K","P51: Koppl.differens VV#K","P52: Max. VV-laddningstid#min","P53: VV-temp. Nedsänkn.drift#°C","P70: Serviceintervall#h","P71: eBUS-inmatning","P72: O2-korrektur nedre omrade#O2"
+   -> "P18: posebna razina rada grijanja#°C","P20: korektura vanjskog pipala#K","P21: ocjena zgrade# ","P22: strmina krivulje grijanja# ","P23: zaštita postrojenja od smrzavanja#°C","P30: minimalna temperatura polaza#°C","P31: maksimalna temperatura polaza#°C","P32: uklopna razlika polazne temperature#°C","P33: Isklopna temp. dimovoda#°C","P34: zapor takta plamenika#min","P35: startna kolicina plina kod paljenja#%","P36: minimalna snaga kotla#%","P37: Maks. snaga grijanja#%","P38: Maks. snaga za PTV#%","P39: O2-korektura#O2","P40: trajni rad crpke grijanja# ","P41: naknadni rad crpke grijanja#min","P42: min. snaga crpke#%","P43: maks. snaga crpke#%","P44: regulacija razdjelnika#K","P45: snaga crpka PTV-a#%",P50:,P51:,P52:,P53:,"P70: intervali servisiranjal#h","P71: eBUS-napajanje","P72: O2-korektura donjeg opsega#O"
+   -> "P18: specszint futésüzem#°C","P20: külsohomérz-korr#K","P21: épület-tényezo# ","P22: futésjellgörbe meredekség# ","P23: ber.fagyvédelem#°C","P30: Min. eloremhom#°C","P31: Max. eloremhom#°C","P32: kapcsdiff eloremhom.#°C","P33: lekapcshom füstgázút#°C","P34: égo indzár#min","P35: gyújtáskori startgázmenny#%","P36: Min. kazánteljesítmény#%","P37: Max. futési telj#%","P38: Max. HMV-telj#%","P39: O2-korr#O2","P40: sziv folymuködés# ","P41: szivutánfutás#min","P42: Min. szivteljesítm#%","P43: Max. szivteljesítm#%","P44: váltószabályozás#K","P45: HMV-szivtelj#%","P50: emelés HMV-töltés#K","P51: kapcsdiff HMV#K","P52: Max. HMV-töltido#min","P53: HMV-hom. csökküzemben#°C","P70: karbintervall#h","P71: eBUS-betáp","P72: O2-korr alsó tartománya#O2"
+   -> "P18: tryb ogrzewania na poziomie specjalnym#°C","P20: korekta czujnika temperatury zewnetrznej#K","P21: ocena budynku# ","P22: krzywe grzewcze# ","P23: ochrona instalacji przed zamarzaniem#°C","P30: minimalna temperatura zasilania#°C","P31: maksymalna temperatura zasilania#°C","P32: odchylka temperatury zasilania#°C","P33: temperatura w ukladzie odprowadzania spalin powodujaca wylaczenie#°C","P34: czas blokady palnika#min","P35: ilosc gazu zaplonowego#%","P36: minimalna moc kotla#%","P37: moc maksymalna (ogrzewanie)#%","P38: moc maksymalna (c.w.u.)#%","P39: korekta O2#O2","P40: praca ciagla pompy dla ogrzewania# ","P41: czas wybiegu pompy dla ogrzewania#min","P42: moc minimalna pompy#%","P43: moc maksymalna pompy#%","P44: regulacja temperatury w sprzegle#K","P45: moc pompy c.w.u.#%","P50: przewyzszenie temperatury c.w.u.(ladowanie)#K","P51: odchylka zalaczenia c.w.u.#K","P52: maksymalny czas ladowania c.w.u.#min","P53: temperatura c.w.u (tryb temperatury obnizonej)#°C","P70: przedzia? czasowy, po którym jes","P71: zasilanie eBUS","P72: korekta O2 w dolnym zakresie mocy#O2"
+   -> "P18: Ñïåö. óðîâåíü ðåæèìà îòîïëåíèÿ#°C","P20: Êîððåêòèðîâêà ïî íàðóæíîìó äàò÷èêó#K","P21: Îöåíêà çäàíèÿ# ","P22: Êðóòèçíà õàðàêòåðèñòèê ðàáîòû óñòàíîâêè â ðåæèìå îòîïëåíèÿ# ","P23: Òåðìîçàùèòà óñòàíîâêè#°C","P30: Ìèí. òåìïåðàòóðà â ïðÿì. ëèíèè#°C","P31: Ìàêñ. òåìïåðàòóðà â ïðÿì. ëèíèè#°C","P32: Ðàçíîñòü ïåðåêëþ÷åíèé òåìï. â ïðÿìîé ëèíèè#°C","P33: Òåìïåðàòóðà îòêëþ÷åíèÿ äûìîõîäà#°C","P34: Òàêòîâûé áàðüåð ãîðåëêè#ìèí","P35: Èñõîäíûé îáúåì ãàçà íà çàæèãàíèè#%","P36: Ìèí. ìîùíîñòü êîòëà#%","P37:Ìàêñ. ìîùíîñòü â ðåæèìå îòîïëåíèÿ#%","P38: Ìàêñ. ìîùíîñòü â ðåæèìå ÃÂ#%","P39: Êîððåêòèðîâêà O2#O2","P40: Ïîñòîÿííàÿ ðàáîòà íàñîñà â ðåæèìå îòîïëåíèÿ# ","P41: Äîïîëíèò. ðàáîòà íàñîñà â ðåæèìå îòîïëåíèÿ#ìèí","P42: Ìèí. ìîùíîñòü íàñîñà#%","P43: Ìàêñ. ìîùíîñòü íàñîñà#%","P44: Ðåãóëèðîâàíèå ñ ãèäðàâëè÷. ñòðåëêîé#K","P45: Ìîùíîñòü íàñîñà ÃÂ#%","P50: Ïðåâûøåíèå òåìïåðàòóðû ÃÂ#K","P51:  Ðàçíîñòü ïåðåêëþ÷åíèé äëÿ òåìï. ÃÂ#K","P52: Ìàêñ. âðåìÿ çàãðóçêè ÃÂ#ìèí","P53: Òåìïåðàòóðà ÃÂ â ðåæèìå ñíèæåíèÿ#°C","P70: Èíòåðâàë òåõîáñëóæèâà","P71: eBUS supply","P72: O2-correction lower limit#O2"
+   -> EGrpPumpe.Items
+   -> PWM-Minwert#%,PWM-Sollwert#%,PWM-Maxwert#%
+   -> "PWM-Min value#%","PWM-set valuet#%","PWM-Max value#%"
+   -> "PWM mini#%","PWM Consigne#%","PWM Maxi#%"
+   -> "valore min. PWM#%","valore nomin. PWM#%","valore max. PWM#%"
+   -> "Valor mín. PWM#%","Consig. PWM#%","Valor máx. PWM#%"
+   -> PWM-minwaarde#%,PWM-instelwaarde#%,PWM-maxwaarde#%
+   -> PWM-Min.værdi#%,"Beregnet PWM-værdi#%",PWM-Max.værdi#%
+   -> PWM-Minvärde#%,PWM-Börvärde#%,PWM-Maxvärde#%
+   -> PWM-min.iznos#%,PWM-zadano#%,"PWM-maks. iznos#%"
+   -> PWM-Minérték#%,PWM-parérték#%,PWM-Maxérték#%
+   -> "minimalna predkosc obrotowa PWM#%","zadana predkosc obrotowa PWM#%","maksymalna predkosc obrotowa PWM#%"
+   -> "Ìèí. ÷àñòîòà âðàùåíèÿ PWM#%","Çàäàííàÿ ÷àñòîòà âðàùåíèÿ PWM#%","Ìàêñ. ÷àñòîòà âðàùåíèÿ PWM#%"
+   -> EGrpSetpoints.Items
+   -> Soll-Drehzahl#U/min,Ist-Drehzahl#U/min,Gebläse-PWM#%
+   -> "Set speed#rpm","actual speed#rpm",Fan-PWM#%
+   -> "Consigne vitesse#Tr/min","Vitesse réelle#Tr/min",Turbine-PWM#%
+   -> "numero giri nomin.#U/min","numero giri effettivo#U/min","ventilatore PWM#%"
+   -> "Veloc. Consig.#U/min","Veloc. real#U/min","Soplante PWM#%"
+   -> Instel-toerental#t/min,reëel toerental#t/min,ventilator-PWM#%
+   -> Beregnet-omdrejningstal#o/min,Aktuelt-omdrejningstal#o/min,Blæser-PWM#%
+   -> Bör-varvtal#U/min,Är-varvtal#U/min,Fläkt-PWM#%
+   -> "zadani broj okretaja#U/min","stvarni broj okretaja#U/min",ventilator-PWM#%
+   -> par-fordszám#1/min,tény-fordszám#1/min,vent-PWM#%
+   -> "zadana predkosc obrotowa#obr/min","rzeczywista predkosc obrotowa#obr/min","rzeczywista predkosc obrotowa dmuchawy PWM#%"
+   -> "Çàä. ÷àñòîòà âðàùåíèÿ#îá/ìèí","ôàêòè÷åñêàÿ ÷àñòîòà âðàùåíèÿ#îá/ìèí",âåíòèëÿòîð-PWM#%
+   -> EGrpStatistic.Items
+   -> "F1 1: STB Übertemperatur Vorlauf","F1 2: STW Übertemperatur Vorlauf","F1 3: STB Übertemperatur Abgas","F1 4: Max. Gradient Vorlauf ","F1 5: Spreizung Vorlauf / Abgas ","F1 6: Abgas Übertemperatur ","F1 8: Spreizung Vorlauf / STB","F2 1: Keine Flammenbildung ","F2 2: Flammenausfall im Betrieb ","F2 3: Flammenvortäuschung ","F2 4: H2-Not Aus Funktion","F3 0: Sicherheitstemperaturfühler defekt ","F3 1: Abgasfühler defekt ","W3 3: Außenfühler defekt ","W3 4: Warmwasserfühler defekt ","F3 5: Vorlauffühler defekt ","F3 6: Wasserdruck zu gering","W3 7: Gradient ohne Durchflusserkennung","F3 8: Fühler B10 defekt","F3 9: Weichenfühler B11 defekt","F4 1: Gasventilkreis V1/V2 defekt ","F4 2: PWM Pumpe defekt ","F4 3: Gebläsefehler im Betrieb ","F4 4: Gebläsefehler im Stillstand ","F5 1: CRC-Fehler Heizungsfachmannparameter ","F5 2: CRC-Fehler Herstellerparameter/SCOT-Fehler Io-Soll","F5 3: Fehler Spannungsversorgung ","F6 1: SCOT - Regelabweichung zu groß","F6 2: Tauchspule fehlerhaft","F6 4: Kalibration: Basiswert außerhalb Werksgrenze","F6 5: Kalibration: Starke Abweichung Basiswert","F6 6: Kalibration nicht ausführbar","I40: Tagesschaltspielzähler","I41: Tagesbetriebsstundenzähler","I42: Schaltspielzähler Brenner","I43: Betriebsstunden Brenner","I45: Brennerbetrieb seit letzter Wartung","     bei Wartungsintervall (P70)#h","Anzahl Netz ein","Betriebstunden Kessel"
+   -> "F1 1: STB Excess temperature supply","F1 2: STW Excess temperature supply","F1 3: STB Excess temperature flue gas","F1 4: Max. gradient supply ","F1 5: Inclination supply / flue gas ","F1 6: Flue gas excess temperature ","F1 8: Inclination supply / STB","F2 1: No flame formation","F2 2: Flame failure during operation ","F2 3: Flame simulation ","F2 4: H2-Emergency off function","F3 0: Safety temperature sensor defective ","F3 1: Flue gas sensor defective ","W3 3: External sensor defective ","W3 4: Domestic hot water sensor defective ","F3 5: Supply sensor defective ","F3 6: Water pressure insufficient","W3 7: No water flow","F3 8: Sensor B10 defective","F3 9: De-couple sensor B11 defective","F4 1: Gas valve cycle V1/V2 defective ","F4 2: PWM Pump defective ","F4 3: Fan fault during operating ","F4 4: Fan fault during shutdown ","F5 1: CRC-Error heating engineer parameter ","F5 2: CRC-Erro manufacturer parameter/SCOT-Error Io-set","F5 3: Error voltage supply ","F6 1: SCOT - Control deviation too high","F6 2: immersion coil faulty","F6 4: Calibration: base value outside of factory limit","F6 5: Calibration: Strong deviation base value","F6 6: Calibration cannot be carried out","I40: Day switch hysteresis counter","I41: Day operating hours counter","I42: Switch hysteresis burner","I43: operating hours burner","I45: Burner operation since last service","     at service interval (P70)#h","Number mains on","Operating hours boiler"
+   -> "F1 1: STB Surchauffe départ","F1 2: STW Surchauffe départ","F1 3: STB Surchauffe fumées","F1 4: Gradient départ Maxi ","F1 5: Différentiel Départ / Fumées ","F1 6: Surchauffe fumées ","F1 8: Différentiel Départ / STB","F2 1: Pas de formation de flamme ","F2 2: Défaut flamme en service ","F2 3: Flamme à l'arrêt ","F2 4: H2-Fonction arrêt d'urgence","F3 0: Sonde sécurité défectueuse ","F3 1: Sonde fumées défectueuse ","W3 3: Sonde extérieure défectueuse ","W3 4: Sonde ECS défectueuse ","F3 5: Sonde départ défectueuse ","F3 6: Pression eau trop faible","W3 7: No water flow","F3 8: Sonde B10 défectueuse","F3 9: Sonde bouteille casse-pression B11 défectueuse","F4 1: Circuit vannes gaz V1/V2 défectueux ","F4 2: PWM Pompe défectueuse ","F4 3: Défaut turbine en service ","F4 4: Défaut turbine à l'arrêt ","F5 1: CRC-Défaut paramètres installateur ","F5 2: CRC-Défaut paramètres fabricant/SCOT-Défaut consigne Io","F5 3: Défaut tension d'alimentation ","F6 1: SCOT - Ecart de réglage trop grand","F6 2: Bobine défectueuse","F6 4: Calibration: valeur base hors limites usine","F6 5: Calibration: Fort écart valeur de base","F6 6: Calibration impossible","I40: Compteur journalier démarrages brûleur","I41: Compteur horaire journalier","I42: Totalisateur démarrages brûleur","I43: Heures de marche brûleur","I45: Marche brûleur depuis dernier entretien","     par intervalle d'entretien (P70)#h","Nombre mise sous tension","Heures de fonctionnement chaudière"
+   -> "F1 1: STB sovrattemperatura mandata","F1 2: STW sovrattemperatura mandata","F1 3: STB sovrattemperatura fumi","F1 4: gradiente max. mandata ","F1 5: salto mandata / fumi ","F1 6: sovrattemperatura fumi ","F1 8: salto mandata / STB","F2 1: mancata formazione di fiamma ","F2 2: caduta di fiamma in esercizio ","F2 3: simulazione di fiamma ","F2 4: H2 funzione emergenza-spento","F3 0: sonda temperatura sicurezza difettosa ","F3 1: sonda fumi difettosa ","W3 3: sonda esterna difettosa ","W3 4: sonda acqua calda difettosa ","F3 5: sonda mandata difettosa ","F3 6: pressione acqua troppo bassa","W3 7: No water flow","F3 8: sonda B10 difettosa","F3 9: sonda compensatore B11 difettosa","F4 1: circuito valvola gas V1/V2 difettoso ","F4 2: pompa PWM difettosa ","F4 3: errore ventilatore in esercizio ","F4 4: errore ventilatore in sosta ","F5 1: errore CRC parametri installatore/tecnico ","F5 2: errore CRC parametri costruttore/SCOT errore Io nomin.","F5 3: errore alimentazione tensione ","F6 1: discordanza regolazione SCOT troppo grande","F6 2: bobina immersione difettosa","F6 4: calibratura: valore base fuori limite di fabbrica","F6 5: calibratura: forte discordanza valore base","F6 6: calibratura non eseguibile","I40: contatore interventi giornaliero","I41: contaore esercizio giornaliero","I42: contatore interventi bruciatore","I43: ore esercizio bruciatore","I45: esercizio bruciatore dall'ultima manutenzione","     per intervallo manutenzione (P70)#h","quantità rete on","ore esercizio caldaia"
+   -> "F1 1: Sobretemperatura ida STB","F1 2: Sobretemperatura ida STW","F1 3: Sobretemperatura humos STB","F1 4: Gradiente máx. ida","F1 5: Diferencia ida/humos ","F1 6: Sobretemperatura humos ","F1 8: Diferencia ida/STB","F2 1: No hay formación de llama ","F2 2: Caída de llama en marcha ","F2 3: Llama extraña ","F2 4: H2-Paro emergencia","F3 0: Sonda. temp. seguridad defectuosa ","F3 1: Sonda humos defectuosa ","W3 3: Sonda exterior ","W3 4: Sonda ACS defectuosa ","F3 5: Sonda ida defectuosa ","F3 6: Baja presión de agua","W3 7: No water flow","F3 8: Fühler B10 defekt","F3 9: Sonda B11 compensador defectuosa","F4 1: Cto. válvulas gas V1/V2 defectuoso ","F4 2: Bomba PWM defectuosa ","F4 3: Fallo soplante en marcha ","F4 4: Fallos soplante en reposo ","F5 1: Fallo CRC parámetros técnico ","F5 2: Fallo CRC parámetros fabricante/Fallo SCOT consig. Iol","F5 3: Fallo alimentación tensión ","F6 1: Desviación SCOT muy alta","F6 2: Bobina inmers. defectuosa","F6 4: Calibración: valor básico fuera límite fábrica","F6 5: Calibración: desviación valor básico muy alta","F6 6: Calibración imposible","I40: Contador diario arranques","I41: Contador diario horas funcionamiento","I42: Contador arranques quemador","I43: Horas funcionamiento quemador","I45: Funcionamiento quemador desde último mantenimiento","     en intervalo mantenimiento (P70)#h","Tiempo con tensión","Horas funcionamiento caldera"
+   -> "F1 1: STB overtemperatuur vertrek","F1 2: STW overtemperatuur vertrek","F1 3: STB overtemperatuur rookgas","F1 4: max. gradiënt vertrek ","F1 5: verschil vertrek / rookgas ","F1 6: rookgas overtemperatuur ","F1 8: verschil vertrek / STB ","F2 1: geen vlamvorming ","F2 2: vlamuitval tijdens werking ","F2 3: vlamsimulatie ","F2 4: H2-nood-UIT-functie","F3 0: veiligheidstemperatuurvoeler defect ","F3 1: rookgasvoeler defekt ","W3 3: buitenvoeler defect ","W3 4: warmwatervoeler defect ","F3 5: vertrekvoeler defect ","F3 6: waterdruk te laag","W3 7: No water flow","F3 8: voeler B10 decekt","F3 9: voeler evenwichtsfles B11 defect","F4 1: gasventielkring V1/V2 defect ","F4 2: PWM-pomp defect ","F4 3: Ventilatorfout tijdens werking","F4 4: ventilatorfout tijdens stilstand ","F5 1: CRC-fout parameter verwarmingsvakman ","F5 2: CRC-fout fabrikantenparamater/SCOT-fout Io-instelwaarde","F5 3: fout spanningstoevoer","F6 1: SCOT - regelafwijking te groot","F6 2: stuursignaal magneetspoel defect","F6 4: calibratie basiswaarde buiten werkingsgrens","F6 5: calibratie: sterke afwijking basiswaarde","F6 6: calibratie onmogelijk","I40: dagelijkse schakelingenteller","I41: dagelijkse bedrijfsurenteller","I42: schakelingenteller brander","I43: bedrijfsuren brander","I45: branderbedrijf sinds laatste onderhoud","     bij onderhoudsinterval (P70)#h","aantal net aan","bedrijfsuren ketel"
+   -> "F1 1: STB overtemperatur fremløb","F1 2: STW overtemperatur fremløb","F1 3: STB obertemperatur røggas","F1 4: Max. gradient fremløb ","F1 5: Spredning fremløb / røggas ","F1 6: Røggas overtemperatur ","F1 8: Spredning fremløb / STB","F2 1: Ingen flammenbillede ","F2 2: Flammeudfald under drift ","F2 3: Falsk flammesignal ","F2 4: H2-Nødafbryder funktion","F3 0: Sikkerhedstemperaturføler defekt ","F3 1: Røggasføler defekt ","W3 3: Udeføler defekt ","W3 4: Varmtvandsføler defekt ","F3 5: Fremløbsføler defekt ","F3 6: Vandtryk er for lavt","W3 7: No water flow","F3 8: Føler B10 defekt","F3 9: Blandepotteføler B11 defekt","F4 1: Gasventilkreds V1/V2 defekt ","F4 2: PWM Pumpe defekt ","F4 3: Blæserfejl under drift ","F4 4: Blæserfejl under stilstand ","F5 1: CRC-fejl fagmandens parameter ","F5 2: CRC-fejl producent parameter/SCOT-fejl beregnet Io","F5 3: Fejl strømforsyning ","F6 1: SCOT - Reguleringsafvigelse er for stor","F6 2: Spole fejlbehæftet","F6 4: Kalibrering: Basisværdi udenfor fabriksindstilling","F6 5: Kalibrering: Stor afvigelse af basisværdi","F6 6: Kalibrering kan ikke udføres","I40: Døgntæller for antal start/stop brænder","I41: Døgntæller for antal brænderdriftstimer","I42: Tæller for antal stat/stop brænder","I43: Driftstimetæller brænder","I45: Driftstimer siden sidste service","     ved serviceinterval (P70)#h","Antal net On","Driftstimer kedel"
+   -> "F1 1:STB Övertemperatur Framledn.","F1 2: STW Övertemperatur Framledn.","F1 3: STB Övertemperatur Avgas","F1 4: Max. Gradient Framledn. ","F1 5: Spridning framledn. / Avgas ","F1 6: Avgas Övertemperatur ","F1 8: Spridning framledn. / STB","F2 1: Ingen flambildning ","F2 2: Flambortfall i drift ","F2 3: Flamsimulering ","F2 4: H2-NÖD-/AV-funktion","F3 0: Säkerhetstemperaturgivare defekt ","F3 1: Avgasgivare defekt ","W3 3: Utomhusgivare defekt ","W3 4: Varmvattengivare defekt ","F3 5: Framledn.givare defekt ","F3 6: Vattentryck för lagt","W3 7: No water flow","F3 8: Givare B10 defekt","F3 9: Växelgivare B11 defekt","F4 1: Gasventilkrets V1/V2 defekt ","F4 2: PWM-pump defekt ","F4 3: Fläktfel vid drift ","F4 4: Fläktfel vid stillestand ","F5 1: CRC-fel FM-parameter ","F5 2: CRC-fel Tillverkarparameter/SCOT-fel Io-Bör","F5 3: Fel Spänningsförsörjning ","F6 1: SCOT - Regleravvikelse för stor","F6 2: Gasventil felaktig","F6 4: Kalibrering: basvärde utanför fabriksgräns","F6 5: Kalibrering: Stark avvikelse basvärdet","F6 6: Kalibrering ej möjlig","I40: Koppl.mätare Dag","I41: Drifttidmätare Dag","I42: Koppl.mätare Brännare","I43: Drifttidmätare Brännare","I45: Brännardrift sedan senaste service","     vid service-intervall (P70)#h","Antal nät Till","Drifttimmar panna"
+   -> "F1 1: STB prekoracenja temp.polaza","F1 2: STW prekoracenja temp.polaza","F1 3: STB prekoracenja temp.dimnih plinova","F1 4: maks. gradijent polaza ","F1 5: potpora polaz / dim.plinovi ","F1 6: prekoracenja temp.dimnih plinova ","F1 8: potpora polaz / STB","F2 1: nema tvorbe plamena ","F2 2: ispad plamena u radu ","F2 3: lažni plamen ","F2 4: H2-funkcija isklopa u nuždi","F3 0: u kvaru sigurnosno pipalo temperature ","F3 1: u kvaru pipalo dimnih plinova ","W3 3: u kvaru pipalo vanjske temperature ","W3 4: u kvaru pipalo PTV ","F3 5: ","F3 6: premali tlak plina","W3 7: No water flow","F3 8: ","F3 9: pipalo razdjelnika B11 u kvaru","F4 1: krug plinskog ventila V1/V2 u kvaru ","F4 2: PWM crpka u kvaru ","F4 3: smetnje ventilatora u radu ","F4 4: smetnje ventilatora u mirovanju ","F5 1: CRC-kvar u parametru servisera ","F5 2: CRC-kvar u parametru proizvodaca/SCOT-kvar Io-zadano","F5 3: kvar naponskog napajanja ","F6 1: SCOT - regulacijsko odstupanje preveliko","F6 2: svitak reg.ventila u kvaru","F6 4: kalibracija: osnovni iznos van tvornickih granica","F6 5: kalibracija: veliko odstupanje osnovnih iznosa","F6 6: kalibracija nije izvediva","I40: brojilo dnevnih preklopa","I41: dnevno brojilo sati rada ","I42: brojilo preklopa plamenika","I43: brojilo sati rada plamenika","I45: rad plamenika od zadnjeg sevisa","     kod intervala servisiranja od (P70)#h","broj uklopa napona","sati rada kotla"
+   -> "F1 1: STB túlhomérséklet elorem","F1 2: STW túlhomérséklet elorem","F1 3: STB túlhomérséklet füstgáz","F1 4: Max. gradiens elorem. ","F1 5: szétvált elorem / füstgáz ","F1 6: füstgáz túlhomérséklet ","F1 8: szétvált elorem / STB","F2 1: nincs lángképzodés ","F2 2: üzemközb.lángkimaradás ","F2 3: lángtévesztés ","F2 4: H2-vész KI funkció","F3 0: hibás bizthomérsékletérz. ","F3 1: hibásfüstgázérz. ","W3 3: hibás külsoérz. ","W3 4: hibás HMV-érz. ","F3 5: hibás eloremérz. ","F3 6: túl alacsony víznyomás","W3 7: No water flow","F3 8: hibás B10 érzékelo","F3 9: hibás B11 váltóérz.","F4 1: hibás V1/V2 gázszelepkör ","F4 2: hibás PWM sziv ","F4 3: venthiba üzemközben ","F4 4: venthiba állásközben ","F5 1: szakemberparaméter CRC-hiba ","F5 2: gyártóparaméter CRC-hiba/SCOT-hiba Io-par","F5 3: feszellátási hiba ","F6 1: SCOT - szabeltérés túl nagy","F6 2: hibás merülotekercs","F6 4: kalibráció: alapérték gyári határon kívül","F6 5: kalibráció: alapérték nagy eltérése","F6 6: kalibráció nem végrehajtható","I40: napi bekapcs-számláló","I41: napi üzemóra-számláló","I42: égo bekapcs-számláló","I43: égo üzemóra-számláló","I45: égoüzem az utkarb óta","     karbintervallnál (P70)#h","hálózat-be számláló","kazán üzemóra"
+   -> "F1 1: przekroczenie temperatury bezpieczenstwa (STB)","F1 2: przekroczenie ogranicznika temperatury zasilania (STW)","F1 3: przekroczenie temperatury spalin (STB)","F1 4: maksymalny gradient temperatury zasilania ","F1 5: rozpietosc temperatur zasilania/spalin ","F1 6: przekroczenie temperatury spali ","F1 8: rozpietosc temperatur zasilania/STB","F2 1: plomien nie tworzy sie ","F2 2: zanik plomienia podczas pracy ","F2 3: niewlasciwy sygnal plomienia ","F2 4: H2-funkcja wylaczenia awaryjnego","F3 0: uszkodzony czujnik temperatury bezpieczenstwa ","F3 1: uszkodzony czujnik temperatury spalin ","W3 3: uszkodzony czujnik temperatury zewnetrznej ","W3 4: uszkodzony czujnik temperatury cieplej wody ","F3 5: uszkodzony czujnik temperatury zasilania ","F3 6: zbyt niskie cisnienie wody","W3 7: No water flow","F3 8: uszkodzony czujnik (B10)","F3 9: uszkodzony czujnik temperatury w sprzegle (B11","F4 1: uszkodzony obwód elektryczny zaworów gaz. V1/V2 ","F4 2: uszkodzona pompa PWM ","F4 3: blad dmuchawy podczas pracy ","F4 4: blad dmuchawy podczas przestoju ","F5 1: blad CRC-parametry serwisowe ","F5 2: blad CRC-parametry producenta/blad wartosci zadanej Io elektrody SCOT","F5 3: nieprawidlowe napiecie zasilania ","F6 1: elektroda SCOT - zbyt duza odchylka regulacji","F6 2: uszkodzona cewka zaworu","F6 4: kalibracja: wartosc podstawowa poza wartoscia graniczna producenta","F6 5: kalibracja: duza odchylka od wartosci podstawowej","F6 6: brak mozliwosci wykonania kalibracji","I40: licznik zalaczen na dobe","I41: licznik godzin pracy na dobe","I42: licznik zalaczen palnika","I43: liczba godzin pracy palnika","I45: praca palnika od ostatniej konserwacji","     dla przedzialu czasowego, po którym jest wymagana konserwacja (P70)#h","liczba zalaczen sieci","liczba godzin pracy kotla"
+   -> "F1 1: Èçá. òåìïåðàòóðà STB ïðÿìîé ëèíèè","F1 2: Èçá. òåìïåðàòóðà STW ïðÿìîé ëèíèè","F1 3: Èçá. òåìïåðàòóðà STB äûì. ãàçîâ","F1 4: Ìàêñ. ïåðåïàä ïðÿìîé ëèíèè ","F1 5: Ïåðåïàä òåìï. ïðÿìîé ëèíèè / äûìîâûõ ãàçîâ ","F1 6:Èçá. òåìïåðàòóðà äûìîâûõ ãàçîâ ","F1 8: Ïåðåïàä òåìï. ïðÿìîé ëèíèè / STB","F2 1: Íåò ïëàìåíè ","F2 2: Ñðûâ ïëàìåíè ïðè ðàáîòå ","F2 3: Èìèòàöèÿ ïëàìåíè  ","F2 4: H2-Àâàðèéíîå âûêëþ÷åíèå","F3 0: Äàò÷èê òåìïåðàòóðû áåçîïàñíîñòè íåèñïðàâåí ","F3 1:  Äàò÷èê äûìîâûõ ãàçîâ íåèñïðàâåí ","W3 3: Íàðóæíûé äàò÷èê íåèñïðàâåí  ","W3 4: Äàò÷èê ãîðÿ÷åé âîäû íåèñïðàâåí ","F3 5: Äàò÷èê ïðÿìîé ëèíèè íåèñïðàâåí ","F3 6: Ñëèøêîì íèçêîå äàâëåíèå âîäû","W3 7: No water flow","F3 8: Äàò÷èê B10 íåèñïðàâåí","F3 9: Äàò÷èê ãèäðàâëè÷åñêîé ñòðåëêè B11 íåèñïðàâåí","F4 1:  Êîíòóð ãàçîâîãî êëàïàíà V1/V2 íåèñïðàâåí ","F4 2: Íàñîñ PWM íåèñïðàâåí  ","F4 3: Îøèáêà âåíòèëÿòîðà ïðè ðàáîòå ","F4 4: Îøèáêà âåíòèëÿòîðà ïðè îñòàíîâå ","F5 1:  Îøèáêà CRC â ïàðàìåòðàõ ñïåöèàëèñòà ","F5 2: Îøèáêà CRC ïàðàìåòðîâ èçãîòîâèòåëÿ /îøèáêà SCOT-Èî-çàä","F5 3: Îøèáêà ïî","F6 1: SCOT - Control deviation too high","F6 2: immersion coil faulty","F6 4: Calibration: base value outside of factory limit","F6 5: Calibration: Strong deviation base value","F6 6: Calibration cannot be carried out","I40: Day switch hysteresis counter","I41: Day operating hours counter","I42: Switch hysteresis burner","I43: operating hours burner","I45: Burner operation since last service","     at service interval (P70)#h","Number mains on","Operating hours boiler"
+   -> EGrpStatus.Items
+   -> "Brenner Taktsperre#min","I11: Laststellung#%"
+   -> "Burner start/stop block#min","I11: Load setting#%"
+   -> "Intervalle redémarrage brûleur#min","I11: Réglage puissance#%"
+   -> "interdizione intermittenza bruciatore#min","I11: posizione carico#%"
+   -> "Bloqueo arranques quemador#min","I11: Posición carga#%"
+   -> Verhindering brander#min,"I11: Laststelling#%"
+   -> "Brænder taktspærre#min","I11: Laststilling#%"
+   -> "Brännare taktspärr#min","I11: Lastläge#%"
+   -> "zapor takta plamenika#min","I11: postav snage#%"
+   -> "égo indzár#min","I11: Laststellung#%"
+   -> "czas blokady palnika#min","I11: pozycja mocy#%"
+   -> "Òàêòîâûé áàðüåð ãîðåëêè#ìèí","I11: Ïîëîæåíèå íàãðóçêè#%"
+   -> EGrpTemps.Items
+   -> "I30: Vorlauftemperatur eSTB#°C","I31: Abgastemperatur#°C","I33: Außentemperatur B1#°C","I34: Warmwassertemperatur (Ausf. W) B3#°C","I35: Vorlauftemperatur NTC B12#°C","I37: Durchfluss (Ausf. C)#l/min","I38: Pufferfühler B10#°C","I39: Weichenfühler B11#°C"
+   -> "I30: Supply temperature eSTB#°C","I31: Flue gas temperature#°C","I33: External temperature B1#°C","I34: Domestic hot water temperature (vers. W) B3#°C","I35: Supply temperature NTC B12#°C","I37: Throughput #l/min","I38: Calorifier sensor B10#°C","I39: De-couple sensor B11#°C"
+   -> "I30: Température départ eSTB#°C","I31: Température fumées#°C","I33: Température extérieure B1#°C","I34: Température ECS (Exéc. W) B3#°C","I35: Température départ NTC B12#°C","I37: Débit #l/min","I38: Sonde tampon B10#°C","I39: Sonde bouteille casse-pression B11#°C"
+   -> "I30: temperatura mandata eSTB#°C","I31: temperatura fumi#°C","I33: temperatura esterna B1#°C","I34: temperatura acqua calda (esec. W) B3#°C","I35: temperatura mandata NTC B12#°C","I37: portata #l/min","I38: sonda polmone B10#°C","I39: sonda compensatore B11#°C"
+   -> "I30: Temp. ida eSTB#°C","I31: Temp. humos#°C","I33: Temp. Exterior B1#°C","I34: Temp. ACS (Ejec. W)#°C","I35: Temp. Ida B12 NTC#°C","I37: Caudal #l/min","I38: Temp. B10 depósito#°C","I39: Temp. B11 compensador#°C"
+   -> "I30: vertrektemp. eSTB#°C","I31: rookgastemp. #°C","I33: buitentemp. B1#°C","I34: warmwatertemp. (uitv. W) B3#°C","I35: vertrektemperatuur NTC B12#°C","I37: debiet#l/min","I38: buffervatvoeler B10#°C","I39: voeler evenwichtsfles B11#°C"
+   -> "I30: Temperatur sikkerhedstemperaturføler eSTB#°C","I31: Røggastemperatur#°C","I33: Udetemperatur B1#°C","I34: Varmtvandstemperatur (Udf. W) B3#°C","I35: Fremløbstemperatur NTC B12#°C","I37: Gennemstrømning #l/min","I38: Bufferføler B10#°C","I39: Blandepotteføler B11#°C"
+   -> "I30: Framledn.temperature STB#°C","I31: Avgastemperatur#°C","I33: Utetemperatur B1#°C","I34: Varmvattentemperatur (Utf. W) B3#°C","I35: Framledn.temperatur NTC B12#°C","I37: Genomflöde #l/min","I38: Ackum.givare B10#°C","I39: Växelgivare B11#°C"
+   -> "I30: temperatura polaza eSTB#°C","I31: temperatura dimnih plinova#°C","I33: vanjska temperatura B1#°C","I34: temperatura PTV-e (izv. W) B3#°C","I35: temperatura polaza NTC B12#°C","I37: protok #l/min","I38: pipalo aku-spremnika B10#°C","I39: pipalo razdjelnika B11#°C"
+   -> "I30: eloremhom eSTB#°C","I31: füstgázhom#°C","I33: külsohom B1#°C","I34: HMV-homér (kiv. W) B3#°C","I35: eloremhom NTC B12#°C","I37: átfoly-érték #l/min","I38: pufferérz B10#°C","I39: váltóérz B11#°C"
+   -> "I30: temperatura zasilania (eSTB)#°C","I31: temperatura spalin#°C","I33: temperatura zewnetrzna (B1)#°C","I34: temperatura c.w.u. (wersja W) B3#°C","I35: temperatura zasilania (NTC) B12#°C","I37: natê¿enie przep³ywu #l/min","I38: czujnik temperatury zasobnika (B10)#°C","I39: czujnik temperatury w sprzegle (B11)#°C"
+   -> "I30: Òåìïåðàòóðà â ïðÿì. ëèíèè eSTB#°C","I31: Òåìïåðàòóðà äûì. ãàçîâ#°C","I33: Íàðóæíàÿ òåìïåðàòóðà B1#°C","I34: Òåìïåðàòóðà ãîðÿ÷åé âîäû (èñï. W) B3#°C","I35: Òåìïåðàòóðà â ïðÿì. ëèíèè NTC B12#°C","I37: Ðàñõîä#ë/ìèí","I38: Áóôåðíûé äàò÷èê B10#°C","I39: Äàò÷èê ãèäðàâëè÷åñêîé ñòðåëêè B11#°C"
+   -> EGrpWirkWA.Items
+   -> VL-Sollwert#°C,WW-Sollwert#°C
+   -> "Supl. set value#°C","DHW set value#°C"
+   -> "Consigne départ#°C ","Consigne ECS#°C"
+   -> "valore nomin. mandata#°C","valore nomin. AC#°C"
+   -> "Consig. Temp. ida#°C","Consig. ACS#°C"
+   -> Vertrek-instelw.#°C,WW-instelwaarde#°C
+   -> "Beregnet fremløbstemperatur#°C","Beregnet VV-temperatur#°C"
+   -> Framledn.-Börvärde#°C,VV-Börvärde#°C
+   -> "Polaz zadan#°C",PTV-zadan#°C
+   -> elorem-parérték#°C,HMV-parérték#°C
+   -> "wartosc zadana temperatury zasilania#°C","wartosc zadana temperatury c.w.u.#°C"
+   -> "Çàä. çíà÷åíèå ïðÿìîé ëèíèè#°C","çàä. çíà÷åíèå ÃÂ#°C"
+
+[Component]: RGrpMenu.Items
+   -> "W (Winterbetrieb)","S (Sommerbetrieb)"
+   -> "W (Winter operation)","S (Summer operation)"
+   -> "W (Fonctionnement hiver)","S (Fonctionnement été)"
+   -> "W (esercizio invernale)","S (esercizio estivo)"
+   -> "W (Invierno)","S (Verano)"
+   -> "W (Winterbedrijf)","S (Zomerbedrijf)"
+   -> "W (Vinterdrift)","S (Sommerdrift)"
+   -> "W (Vinterdrift)","S (Sommardrift)"
+   -> "W (rad zimi)","S (rad ljeti)"
+   -> "W (téli üzem)","S (nyári üzem)"
+   -> "W (tryb zimowy)","S (tryb letni)"
+   -> "W (çèìíèé ðåæèì)","S (ëåòíèé ðåæèì)"
+
+[Component]: RGrpOutSensor.Items
+   -> "Nein (-)","Ja (A)","mA (t)"
+   -> "No (-)","Yes (A)","mA (t)"
+   -> "Non (-)","Oui (A)","mA (t)"
+   -> "no (-)","sì (A)","mA (t)"
+   -> "No (-)","Sí (A)","mA (t)"
+   -> "Neen (-)","Ja (A)","mA (t)"
+   -> "Nej (-)","Ja (A)","mA (t)"
+   -> "Nej (-)","Ja (A)","mA (t)"
+   -> "Ne (-)","Da (A)","mA (t)"
+   -> "nem (-)","igen (A)","mA (t)"
+   -> "nie (-)","tak (A)","mA (t)"
+   -> "Íåò (-)","Äà (A)","ìÀ (t)"
+
+[Component]: RGrpP11.Items
+   -> "Flüssiggas (F)","Erdgas (E)","Erdgas Abgasklappe (EA)"
+   -> "Liquid Petroleum Gas (F)","Natural Gas (E)","Natrual Gas flue gas damper (EA)"
+   -> "GPL (F)","Gaz naturel (E)","Clapet fumées gaz naturel (EA)"
+   -> "gas liquido (F),"metano (E)","serranda fumi metano (EA)"
+   -> "Gas licuado (F)","Gas natural (E)","Clapeta humos gas natural (EA)"
+   -> "LPG (F)","Aardgas (E)","Aardgas rookgasklep (EA)"
+   -> "F-gas (F)","N-gas (E)","N-gas røggasklap (EA)"
+   -> "Gasol (F)","Naturgas (E)","Naturgas avgasspjäll (EA)"
+   -> UNP (F),"prirodni plin (E)","dim.zaklopka prirodni plin (EA)"
+   -> "PBgáz (F)","földgáz (E)","földgáz füstgázcsapp (EA)"
+   -> "gaz plynny (F)","gaz ziemny (E)","gaz ziemny (wspólne odprowadzenie spalin) (EA)"
+   -> "Ñæèæåííûé ãàç (F)","Ïðèðîäíûé ãàç (E)","Ïðèðîäíûé ãàç Çàñëîíêà äûìîâûõ ãàçîâ (EA)"
+
+[Component]: RGrpP12.Items
+   -> 1,A,B,C,D,E
+   -> 1,A,B,C,D,E
+   -> 1,A,B,C,D,E
+   -> 1,A,B,C,D,E
+   -> 1,A,B,C,D,E
+   -> 1,A,B,C,D,E
+   -> 1,A,B,C,D,E
+   -> 1,A,B,C,D,E
+   -> 1,A,B,C,D,E
+   -> 1,A,B,C,D,E
+   -> 1,A,B,C,D,E
+   -> 1,A,B,C,D,E
+
+[Component]: RGrpPWM.Items
+   -> "Nein (-)","Ja (P)"
+   -> "No (-)","Yes (P)"
+   -> "Non (-)","Oui (P)"
+   -> "no (-)","sì (P)"
+   -> "No (-)","Sí (P)"
+   -> "Neen (-)","Ja (P)"
+   -> "Nej (-)","Ja (P)"
+   -> "Nej (-)","Ja (P)"
+   -> "Ne (-)","Da (P)"
+   -> "nem (-)","igen (P)"
+   -> "nie (-)","tak (P)"
+   -> "Íåò (-)","Äà (P)"
+
+[Component]: RGrpUVW.Items
+   -> Heizung,WW
+   -> Heating,DHW
+   -> Chauffage,ECS
+   -> riscaldamento,"acqua calda"
+   -> Calefacción, ACS
+   -> Verwarming,WW
+   -> Varme,"Varmt vand"
+   -> Värme,VV
+   -> grijanje, PTV
+   -> futés,HMV
+   -> ogrzewanie,cwu
+   -> Îòîïëåíèå, ÃÂÑ
+   -> EGrpP1xC.Items
+   -> "P18: Sonderniveau Heizbetrieb#°C","P20: Außenfühler-Korrektur#K","P21: Gebäude-Bewertung# ","P22: Heizkennlinien-Steilheit# ","P23: Anlagenfrostschutz#°C","P30: Minimale Vorlauftemperatur#°C","P31: Maximale Vorlauftemperatur#°C","P32: Schaltdifferenz Vorlauftemp.#°C","P33: Abschalttemp. Abgasweg#°C","P34: Brenner Taktsperre#min","P35: Startgasmenge bei Zündung#%","P36: Minimale Kesselleistung#%","P37: Max. Leistung Heizung#%","P38: Max. Leistung WW#%","P39: O2-Korrektur#O2","P40: Dauerlauf Pumpe Heizung# ","P41: Pumpennachlauf Heizung#min","P42: Min. Pumpenleistung#%","P43: Max. Pumpenleistung#%","P44: Weichenregelung#K","P45: Pumpenleistung WW#%","P60: Comforttemp. (Ausf. C)#°C","P61: Hysterese (Ausf. C)#K","P62: Boosterfunktion (Ausf. C)#","P70: Wartungsintervall#h","P71: eBUS-Speisung","P72: O2-Korrektur unterer Bereich#O2"
+   -> "P18: Special level heating#°C","P20: External sensor correction#K","P21: Building evaluation# ","P22: Heat reference line gradient# ","P23: Installation frost protection#°C","P30: Minimum supply temperature#°C","P31: Maximum supply temperaturer#°C","P32: Switch difference supply temp.#°C","P33: Switch off temp. flue gas duct#°C","P34: Butrner start/stop block#min","P35: Start gas quantity at ignition#%","P36: Minimum boiler rating#%","P37: Max. rating heating#%","P38: Max. rating DHW#%","P39: O2-correction#O2","P40: Cont. run pump heating# ","P41: Pump run on heating#min","P42: Min. pump rating#%","P43: Max. pump rating#%","P44: De-couple rating#K","P45: Pump rating DHW%","P60: Comfor temp. (vers. C)#°C","P61: Hysteresis (vers. C)#K","P62: Booster function (vers. C)#","P70: Service interval#h","P71: eBUS supply","P72: O2-correction lower range#O2"
+   -> "P18: Niveau spécial chauffage#°C","P20: Correction sonde extérieure#K","P21: Comportement thermique bâtiment# ","P22: Pente courbe de chauffe# ","P23: Antigel installation#°C","P30: Température départ mini#°C","P31: Température départ Maxi#°C","P32: Différentiel commutation départ#°C","P33: Température coupure fumées#°C","P34: Intervalle redémarrage brûleur#min","P35: Débit gaz à l'allumage#%","P36: Puissance chaudière mini#%","P37: Puissance Maxi chauffage#%","P38: Puissance Maxi ECS#%","P39: Correction O2#O2","P40: Fonctionnement continu pompe chauffage# ","P41: Post-fonctionnement pompe chauffage#min","P42: Puissance pompe mini#%","P43: Puissance pompe Maxi#%","P44: Régulation bouteille casse-pression#K","P45: Puissance pompe ECS#%","P60: Température confort (Exéc. C)#°C","P61: Hystérésis (Exéc. C)#K","P62: Fonction booster (Exéc. C)#","P70: Intervalle d'attente#h","P71: alimentation eBUS","P72: Correction O2 plage inférieure#O2"
+   -> "P18: livello speciale esercizio riscaldam.#°C","P20: correzione sonda esterna#K","P21: valutazione edificio# ","P22: pendenza curva riscaldamento# ","P23: protezione antigelo impianto#°C","P30: temperatura mandata minima#°C","P31: temperatura mandata massima#°C","P32: differenziale temperatura mandata#°C","P33: temperatura spegnimento scarico fumi#°C","P34: interdizione intermittenza bruciatore#min","P35: portata gas avviamento in accensione#%","P36: potenzialità caldaia minima#%","P37: potenzialità max. riscaldamento#%","P38: potenzialità max. AC#%","P39: correzione O2#O2","P40: funzionamento continuo pompa riscaldam.# ","P41: postfunzionamento pompa riscaldam.#min","P42: portata pompa min.#%","P43: portata pompa max.#%","P44: regolazione compensatore#K","P45: portata pompa AC#%","P60: temperatura comfort (esec. C)#°C","P61: isteresi (esec. C)#K","P62: funzione booster (esec. C)#","P70: intervallo manutenzione#h","P71: alimentazione eBUS","P72: correzione O2 campo inferiore#O2"
+   -> "P18: Nivel especial calefacción#°C","P20: Corrección sonda exterior#K","P21: Valoración edificio# ","P22: Pendiente curva calefacción# ","P23: Portección antihielo instalación#°C","P30: Temp. ida mín.#°C","P31: Temp. ida máx.°C","P32: Diferencial conex. temp. ida#°C","P34: Bloqueo arranques quemador#min","P35: Caudal gas inicial encendido#%","P36: Pot. caldera mín.#%","P37: Pot. caldera máx.#%","P38: Pot. máx. ACS#%","P39: Correción O2#O2","P40: Tipo func. bomba# ","P41: Tiempo inercia bomba#min","P42: Pot. mín. bomba#%","P43: Pot. máx. bomba#%","P44: Regul. compensador#K","P45: Pot. bomba ACS#%","P50: Aumento carga ACS#K","P51: Diferencial conex. ACS#K","P52: Tiempo máx. carga ACS#min","P53: Temp. ACS reducida#°C","P70: Intervalo mantenimiento#h","P71: Alimentación eBUS","P72: Corrección O2 límite inferior#O2"
+   -> "P18: Speciaal niveau verwarming#°C","P20: Buitenvoeler-correctie#K","P21: gebouw-evaluatie# ","P22: Stookkenlijn-steilheid# ","P23: installatievorstbeveiliging#°C","P30: minimale vertrektemperatuur#°C","P31: maximale vertrektemperatuur#°C","P32: schakeldifferentieel vertrektemp.#°C","P33: uitschakeltemp. rookgasweg#°C","P34: verhindering brander#min","P35: startgasdebiet bij ontsteking#%","P36: minimaal ketelvermogen#%","P37: max. vermogen verwarming#%","P38: max. vermogen WW#%","P39: O2-correctie#O2","P40: continue werking pomp verwarming# ","P41: pompnaloop verwarming#min","P42: min. pompvermogen#%","P43: max. pompvermogen#%","P44: regeling evenwichtsfles#K","P45: pompvermogen WW#%","P60: comforttemp. (uitv. C)#°C","P61: hysteresis (uitv. C)#K","P62: boosterfunctie (uitv. C)#","P70: onderhoudsinterval#h","P71: eBUS-voeding","P72: O2-correctie onderste bereik#O2"
+   -> "P18: Varmedrift med specielfunktion#°C","P20: Temperaturkorrektion udeføler#K","P21: Bedømmelse af bygning# ","P22: Varmekurve stejlhed# ","P23: Frostsikring af anlæg#°C","P30: Min.fremløbstemperatursetpunkt#°C","P31: Max.fremløbstemperatursetpunkt#°C","P32: Koblingsdifferens fremløbstemp.#°C","P33: Udkoblingstemperatur røggas#°C","P34: Brænder taktspærre#min","P35: Startgasmængde ved tænding#%","P36: Min. kedydelse#%","P37: Max. varmeydelse#%","P38: Max.ydelse varmtvandsproduktion#%","P39: O2-korrektur#O2","P40: Pumpe konstant løbende# ","P41: Pumpens efterløbstid ved varmedrift#min","P42: Min. Pumpeydelse#%","P43: Max. Pumpeydelse#%","P44: Volumenstrømregulering med blandepotte#K","P45: Pumpeydelse VV#%","P60: Comforttemp. (Udf. C)#°C","P61: Hysterese (Udf. C)#K","P62: Boosterfunktion (Udf. C)#","P70: Serviceinterval#h","P71: eBUS-forsyning aktiv","P72: O2-korrektur i dellastområde#O2"
+   -> "P18: Specialniva Värmedrift#°C","P20: Utomhusgivare-korrektur#K","P21: Byggnadsbedömning# ","P22: Värmekurvor-Gradient# ","P23: Anläggningsfrostskydd#°C","P30: Minimal Framledn.temperatur#°C","P31: Maximal Framledn.temperatur#°C","P32: Koppl.differens Framledn.temp.#°C","P33: Frankoppltemp. Avgasväg#°C","P34: Brännare taktspärr#min","P35: Startgasmängd vid tändning#%","P36: Minimal Panneffekt#%","P37: Max. effekt Värme#%","P38: Max. effekt VV#%","P39: O2-korrektur#O2","P40: Kontin.gang Pump Värme# ","P41: Pumpeftergang Värme#min","P42: Min. Pumpeffekt#%","P43: Max. Pumpeffekt#%","P44: Växelreglering#K","P45: Pumpeffekt VV#%","P60: Comforttemp. (Utf. C)#°C","P61: Hysteres (Utf. C)#K","P62: Boosterfunktion (Utf. C)#","P70: Service-intervall#h","P71: eBUS-inmatning","P72: O2-korrektur nedre omrade#O2"
+   -> "P18: posebna razina rada grijanja#°C","P20: korektura vanjskog pipala#K","P21: ocjena zgrade# ","P22: strmina krivulje grijanja# ","P23: zaštita postrojenja od smrzavanja#°C","P30: minimalna temperatura polaza#°C","P31: maksimalna temperatura polaza#°C","P32: uklopna razlika polazne temperature#°C","P33: Isklopna temp. dimovoda#°C","P34: zapor takta plamenika#min","P35: startna kolièina plina kod paljenja#%","P36: minimalna snaga kotla#%","P37: Maks. snaga grijanja#%","P38: Maks. snaga za PTV#%","P39: O2-korektura#O2","P40: trajni rad crpke grijanja# ","P41: naknadni rad crpke grijanja#min","P42: min. snaga crpke#%","P43: maks. snaga crpke#%","P44: regulacija razdjelnika#K","P45: snaga crpka PTV-a#%","P60: Comfor temp. (izv. C)#°C","P61: Hystereza (izv. C)#K","P62: Booster funkcija(izv. C)#","P70: intervali servisiranja#h","P71: eBUS-napajanje","P72: O2-korektura donjeg opsega#O2"
+   -> "P18: specszint fûtésüzem#°C","P20: külsõhõmérz-korr#K","P21: épület-tényezõ# ","P22: fûtésjellgörbe meredekség# ","P23: ber.fagyvédelem#°C","P30: Min. elõremhõm#°C","P31: Max. elõremhõm#°C","P32: kapcsdiff elõremhõm#°C","P33: lekapcshõm füstgázút#°C","P34: égõ indzár#min","P35: gyújtáskori startgázmenny#%","P36: Min. kazánteljesítmény#%","P37: Max. fûtési telj#%","P38: Max. HMV-telj#%","P39: O2-korr#O2","P40: fûtési sziv folymûködés# ","P41: fûtési szivutánfutás#min","P42: Min. szivtelj#%","P43: Max. szivtelj#%","P44: váltószab#K","P45: HMV szivtelj#%","P60: komforthõm. (kiv. C)#°C","P61: hiszterézis (kiv. C)#K","P62: boosterfunkció (kiv. C)#","P70: karbintervall#h","P71: eBUS-táplálás","P72: alsó tartomány O2-korr #O2"
+   -> "P18: tryb ogrzewania na poziomie specjalnym#°C","P20: korekta czujnika temperatury zewnêtrznej#K","P21: ocena budynku# ","P22: krzywe grzewcze# ","P23: ochrona instalacji przed zamarzaniem#°C","P30: minimalna temperatura zasilania#°C","P31: maksymalna temperatura zasilania#°C","P32: odchy³ka temperatury zasilania#°C","P33: temperatura w uk³adzie odprowadzania spalin powoduj¹ca wy³¹czenie#°C","P34: czas blokady palnika#min","P35: iloœæ gazu zap³onowego#%","P36: minimalna moc kot³a#%","P37: moc maksymalna (ogrzewanie)#%","P38: moc maksymalna (c.w.u.)#%","P39: korekta O2#O2","P40: praca ci¹g³a pompy dla ogrzewania# ","P41: czas wybiegu pompy dla ogrzewania#min","P42: moc minimalna pompy#%","P43: moc maksymalna pompy#%","P44: regulacja temperatury w sprzêgle#K","P45: moc pompy c.w.u.#%","P60: temperatura dla funkcji komfort (wersja C)#°C","P61: histereza (wersja C)#K","P62: funkcja booster (wersja C)#","P70: przedzia³ czasowy, po którym jest wymagana konserwacja#h","P71: zasilanie eBUS","P72: korekta O2 w dolnym
+   -> "P18: Ñïåö. óðîâåíü ðåæèìà îòîïëåíèÿ#°C","P20: Êîððåêòèðîâêà ïî íàðóæíîìó äàò÷èêó#K","P21: Îöåíêà çäàíèÿ# ","P22: Êðóòèçíà õàðàêòåðèñòèê ðàáîòû óñòàíîâêè â ðåæèìå îòîïëåíèÿ# ","P23:Òåðìîçàùèòà óñòàíîâêè#°C","P30: Ìèí. òåìïåðàòóðà â ïðÿì. ëèíèè#°C","P31: Ìàêñ. òåìïåðàòóðà â ïðÿì. ëèíèè#°C","P32: Ðàçíîñòü ïåðåêëþ÷åíèé äëÿ òåìïåðàòóðû â ïðÿìîé ëèíèè#°C","P33: Òåìïåðàòóðà îòêëþ÷åíèÿ äûìîõîäà#°C","P34:Òàêòîâûé áàðüåð ãîðåëêè#ìèí","P35: Èñõîäíûé îáúåì ãàçà íà çàæèãàíèè#%","P36: Ìèí. ìîùíîñòü êîòëà#%","P37: Ìàêñ. ìîùíîñòü â ðåæèìå îòîïëåíèÿ#%","P38: Ìàêñ. ìîùíîñòü â ðåæèìå ÃÂ#%","P39: Êîððåêòèðîâêà O2#O2","P40: Ïîñòîÿííàÿ ðàáîòà íàñîñà â ðåæèìå îòîïëåíèÿ# ","P41: Äîïîëíèòåëüíàÿ ðàáîòà íàñîñà â ðåæèìå îòîïëåíèÿ#ìèí","P42: Ìèí. ìîùíîñòü íàñîñà#%","P43: Ìàêñ. ìîùíîñòü íàñîñà#%","P44: Ðåãóëèðîâàíèå ñ ãèäðàâëè÷. ñòðåëêîé#K","P45: Ìîùíîñòü íàñîñà ÃÂ#%","P60: Ïîääåðæèâàåìàÿ çàä. òåìïåðàòóðà (Èñï. C)#°C","P61: Ãèñòåðåçèñ (Èñï. C)#K","P62:Ôóíêöèÿ óñèëèòåëÿ (Èñï. C)#","P70: Èíòåðâàë òåõîáñëóæèâàíèÿ#÷","P71: Ïèòàíèå øèíû BUS","P72: O2-correction lower range#O2"
+   -> EGrpAnlageParasC.Items
+   -> "A1: VL-Regler (P-Anteil)","A2: VL-Regler (I-Anteil)","A3: VL-Regler (D-Anteil)","A4: Combi-Regler (P-Anteil)","A5: Combi-Regler (I-Anteil)#s","A6: Combi-Regler (D-Anteil)#s","A7: Max. Spreizung VL/Abgas#K","A8: Kesselleistung bei Zündung#%","A9: Max. Vorlaufgradient#K/s","A10: Maximale Drehzahl#U/min","A11: Verzögerte Startleistung#%","A12: GDW"
+   -> "A1: Supl. controller (P contentl)","A2: Supl. contoller (I content)","A3: Supl. controller (D content)","A4: Combi controller (P contentl)","A5: Combi controller (I contentl)#s","A6: Combi controller (D contentl)#s","A7: Max. Inclination supl./flue gas#K","A8: Boiler rating at ignition#%","A9: Max. supply gradient#K/s","A10: Maximum speedl#rpm","A11: Delayed start rating#%","A12: GPS"
+   -> "A1: Rég. départ (Composante P)","A2: Rég. départ (Composante I)","A3: Rég. départ (Composante D)","A4: Rég. combiné (Composante P)","A5: Rég. combiné (Composante I)#s","A6: Rég. combiné (Composante D)#s","A7: Différentiel Maxi Dép./Fumées#K","A8: Puissance chaudière à l'allumage#%","A9: Gradient départ Maxi#K/s","A10: Vitesse Maxi#Tr/min","A11: Puissance démarrage#%","A12: GPS"
+   -> "A1: regolatore mandata (quota P)","A2: regolatore mandata (quota I)","A3: regolatore mandata (quota D)","A4: regolatore combi (quota P)","A5: regolatore combi (quota I)#s","A6: regolatore combi (quota D)#s","A7: salto max. mandata/fumi#K","A8: potenzialità caldaia in accensione#%","A9: gradiente mandata max.#K/s","A10: numero giri massimo#U/min","A11: potenzialità avviamento ritardata#%","A12: GPS"
+   -> "A1: Regul. ida (Parte P)","A2: Regul. ida (Parte I)","A3: Regul. ida (Parte D)","A4: Regul. Combi (Parte P)","A5: Regul. Combi (Parte I)#s","A6: Regul. Combi (Parte D)#s","A7: Diferencia máx. Ida/humos#K","A8: Pot. caldera encendido#%","A9: Gradiente máx. ida#K/s","A10: Veloc. máx.#U/min","A11: Pot arranque retardada#%","A12: GPS"
+   -> "A1: vertrekregelaar (P-aandeel)","A2: vertrekregelaar(I-aandeel)","A3: vertrekregelaar (D-aandeel)","A4: combi-regelaar (P- aandeel)","A5: combi-regelaar (I-aandeel)#s","A6: combi-regelaar (D- aandeel)#s","A7: max. verschil vertrek/rookgas#K","A8: ketelvermogen bij ontsteking#%","A9: max. vertrekgradiënt#K/s","A10: max. toerental#t/min","A11: vertraagd startvermogen#%","A12: GDW"
+   -> "A1: Fremløbsregulering (P-andel)","A2: Fremløbsregulering (I-andel)","A3: Fremløbsregulering (D-andel)","A4: Combi-Regulering (P-andel)","A5: Combi-Regulering (I-andel)#s","A6: Combi-Regulering (D-andel)#s","A7: Max. spredning fremløb/røggas#K","A8: Kedelydelse ved tænding#%","A9: Max. fremløbsgradient#K/s","A10: Max. omdrejningstal#o/min","A11: Forsinket startydelse#%","A12: GPS"
+   -> "A1: Framledn.-regulator (P-Andel)","A2: Framledn.-regulator (I-Andel)","A3: Framledn.-regulator (D-Andel)","A4: Combi-Regulator (P-Andel)","A5: Combi-Regulator (I-Andel)#s","A6: Combi-Regulator (D-Andel)#s","A7: Max. Spridning framledn./Avgas#K","A8: Panneffekt vid tändning#%","A9: Max. framledn.gradient#K/s","A10: Maximalt Varvtal#U/min","A11: Fördröjd Starteffekt#%","A12: GDW"
+   -> "A1: VL-regulator (P-udio)","A2: VL-regulator (I-udio)","A3: VL-regulator (D-udio)","A4: Combi-regulator (P-udio)","A5: Combi-regulator (I-udio)#s","A6: Combi-regulator (D-udio)#s","A7: maks. potpora VL/dim.plinova#K","A8: snaga kotla kod paljenja#%","A9: maks. gradijent polaza#K/s","A10: maks. broj okretaja#U/min","A11: zatezna snaga pokretanja#%","A12: sklopka tlaka plina"
+   -> "A1: elõre-szab (P-rész)","A2: elõre-szab (I-rész)","A3: elõre-szab (D-rész)","A4: kombi-szab (P-rész)","A5: kombi-szab (I-rész)#s","A6: kombi-szab (D-rész)#s","A7: Max. eltérés elõre/füstgáz#K","A8: kazántelj. gyújtáskor#%","A9: Max. elõrem-gradiens#K/s","A10: Max. fordulatszám#1/min","A11: késleltetett indtelj#%","A12: GPS"
+   -> "A1: regulator temperatury zasilania (zakres proporcjonalnoœci)","A2: regulator temperatury zasilania (czas zdwojenia)","A3: regulator temperatury zasilania (czas wyprzedzenia)","A4: reg. combi-zakres proporcjonalnosci","A5: reg. combi-czas zdwojenia#s","A6: reg. combi-czas wyprzedzenia#s","A7: maksymalna rozpiêtoœæ temperatur zasilania/spalin#K","A8: moc kot³a podczas zap³onu#%","A9: maksymalny gradient temperatury zasilania#K/s","A10: maksymalna prêdkoœæ obrotowa#obr/min","A11: opóŸniona moc rozruchu#%","A12: czujnik ciœnienia gazu"
+   -> "A1: Ðåãóëÿòîð ïðÿìîé ëèíèè (÷àñòü P)","A2:  Ðåãóëÿòîð ïðÿìîé ëèíèè (÷àñòü I)","A3: Ðåãóëÿòîð ïðÿìîé ëèíèè (÷àñòü D)","A4: Êîìáèíèðîâàííûé ðåãóëÿòîð (÷àñòü P)","A5: Êîìáèíèðîâàííûé ðåãóëÿòîð (÷àñòü I)#ñ","A6: Êîìáèíèðîâàííûé ðåãóëÿòîð (÷àñòü D)#ñ","A7: Maêñ. ïåðåïàä ïðÿì. ëèíèè/äûì. ãàçû#K","A8: Ìîùíîñòü êîòëà íà çàæèãàíèè#%","A9:  Ìàêñ. ïåðåïàä â ïðÿìîé ëèíèè#K/ñ","A10: Ìàêñ. ÷àñòîòà âðàùåíèÿ#îá/ìèí","A11: Ñòàðò. ìîùíîñòü ñ çàäåðæêîé#%","A12: Ðåëå äàâëåíèÿ ãàçà"
+
+[Component]: stStrings
+
+[Component]: strcPGeraetF35
+   -> F3 5: WW-Auslauffühler B12 defekt
+   -> F3 5: DHW-Outlet sensor B12 defective
+   -> F3 5: Sonde ECS B12 défectueuse
+   -> F35: Sonda erogazione AC B12 difettosa
+   -> F3 5: Sonda ACS B12 defectuosa
+   -> F3 5: WW-uitloopvoeler B12 defect
+   -> F3 5: VV-fremløbsføler B12 defekt
+   -> F3 5: VV-Utloppsgivare B12 defekt
+   -> F3 5: PTV-izlazno pipalo B12 u kvaru
+   -> F3 5: hibás HMV-kiférzékelo B12
+   -> F3 5: uszkodzony czujnik temperatury wyplywu c.w.u. (B12)
+   -> F3 5: Äàò÷èê ÃÂ íà âûõîäå B12 íåèñïðàâåí
+
+[Component]: strcPGeraetF38
+   -> F3 8: Ausschaltfühler B10 defekt
+   -> F3 8: Switch off sensor B10 defective
+   -> F3 8: Sonde B10 défectueuse
+   -> F38: Sonda disattivazione B10 difettosa
+   -> F3 8: Sonda desconex. B10 defectuosa
+   -> F3 8: Uitschakelvoeler B10 defect
+   -> F3 8: Udkoblingsføler B10 defekt
+   -> F3 8: Frankoppl.givare B10 defekt
+   -> F3 8: isklopno pipalo B10 u kvaru
+   -> F3 8: hibás kikapcsérz B10
+   -> F3 8: uszkodzony czujnik wylaczenia (B10)
+   -> F3 8: Äàò÷èê âûêëþ÷åíèÿ B10 íåèñïðàâåí
+
+[Component]: strcPGeraetI34
+   -> I34: Einschaltfühler B3
+   -> I34: Switch on sensor B3
+   -> I34: Sonde B3
+   -> I34: Sonda attivazione B3
+   -> I34: Sonda conex. B3
+   -> I34: Inschakelvoeler B3
+   -> I34: Indkoblingsføler B3
+   -> I34: Tillkoppl.givare B3
+   -> I34: uklopno pipalo B3
+   -> I34: bekapcsérzékelo B3
+   -> I34: czujnik wlaczenia (B3)
+   -> I34: Äàò÷èê âêëþ÷åíèÿ B3
+
+[Component]: strcPGeraetI35
+   -> I35: WW-Auslauf B12
+   -> I35: DHW-Outlet B12
+   -> I35: Sonde ECS B12
+   -> I35: Erogazione AC B12
+   -> I35: Salida ACS B12
+   -> I35: WW-uitloop B12
+   -> I35: VV:fremløb B12
+   -> I35: VV-utlopp B12
+   -> I35: PTV izlaz B12
+   -> I35: HMV-kif B12
+   -> I35: temperatura wyplywu c.w.u. (B12)
+   -> I35: ÃÂ íà âûõîäå B12
+
+[Component]: strcPGeraetI38
+   -> I38: Ausschaltfühler B10
+   -> I38: Switch off sensor B10
+   -> I38: Sonde B10
+   -> I38: Sonda disattivazione B10
+   -> I38: Sonda desconex. B10
+   -> I38: Uitschakelvoeler B10
+   -> I38: Udkoblingsføler B10
+   -> I38: Frankoppl.givare B10
+   -> I38: isklopno pipalo B10
+   -> I38: kikapcsérz B10
+   -> I38: czujnik wylaczenia (B10)
+   -> I38: Äàò÷èê âûêëþ÷åíèÿ B10
+
+[Component]: strcPGeraetW34
+   -> W3 4: Einschaltfühler B3 defekt
+   -> W3 4: Switch on sensor B3 defective
+   -> W3 4: Sonde B3 défectueuse
+   -> W34: Sonda attivazione B3 difettosa
+   -> W3 4: Sonda conex. B3 defectuosa
+   -> W3 4: Inschakelvoeler B3 defect
+   -> W3 4: Indkoblingsføler B3 defekt
+   -> W3 4: Tillkoppl.givare B3 defekt
+   -> W3 4: uklopno pipalo B3 u kvaru
+   -> W3 4: hibás bekapcsérz B3
+   -> W3 4: uszkodzony czujnik wlaczenia (B3)
+   -> W3 4: Äàò÷èê âêëþ÷åíèÿ B3 íåèñïðàâåí
+
+[Component]: strcPGeraetI34C
+   -> I34: Warmwassertemperatur (Ausf. C)
+   -> I34: Domestic hot water temperature (vers. C)
+   -> I34: Température ECS (Exéc. C)
+   -> I34: temperatura acqua calda (esec. C)
+   -> I34: Temp. ACS (Ejec. C)
+   -> I34: warmwatertemp. (uitv. C)
+   -> I34: Varmtvandstemperatur (Udf. C)
+   -> I34: Varmvattentemperatur (Utf. C)
+   -> I34: temperatura PTV-e (izv. C)
+   -> I34: HMV-homér (kiv. C)
+   -> I34: temperatura c.w.u. (wersja C)
+   -> I34: Òåìïåðàòóðà ãîðÿ÷åé âîäû (èñï. C)
+
+[Component]: strcParaIO18_R3
+   -> IO18: Ion Limit
+
+[Component]: stOtherStrings
+
+[Component]: CbBxBetriebsartHZ.ImeName
+
+[Component]: CbBxBetriebsartHZ.Text
+   -> cbBxBetriebsartWW.ImeName
+   -> cbBxBetriebsartWW.Text
+
+[Component]: CbBxFCode.ImeName
+
+[Component]: CbBxFCode.Text
+
+[Component]: CbBxP10.ImeName
+
+[Component]: CbBxP10.Text
+
+[Component]: CbBxP13.ImeName
+
+[Component]: CbBxP13.Text
+
+[Component]: CbBxP14.ImeName
+
+[Component]: CbBxP14.Text
+
+[Component]: CbBxP15.ImeName
+
+[Component]: CbBxP15.Text
+
+[Component]: CbBxP17.ImeName
+
+[Component]: CbBxP17.Text
+
+[Component]: CbBxType.ImeName
+
+[Component]: CbBxType.Text
+
+[Component]: EdtBetriebsartHZ.ImeName
+
+[Component]: EdtBetriebsartHZ.Text
+
+[Component]: EdtBetriebsartWW.ImeName
+
+[Component]: EdtBetriebsartWW.Text
+
+[Component]: EdtFCode.ImeName
+
+[Component]: EdtFCode.Text
+
+[Component]: EdtRaumAbsenk.ImeName
+
+[Component]: EdtRaumAbsenk.Text
+
+[Component]: EdtRaumNormal.ImeName
+
+[Component]: EdtRaumNormal.Text
+   -> TFrmWCM364.HelpFile
+
+[Component]: EdtAbsenktemp.ImeName
+
+[Component]: EdtAbsenktemp.Text
+
+[Component]: EdtNormalTemp.ImeName
+
+[Component]: EdtNormalTemp.Text
+   -> stCollections
+   -> stCharSets
+   -> TFrmWCM364
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> RUSSIAN_CHARSET
+   -> lblIoParas
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> RUSSIAN_CHARSET

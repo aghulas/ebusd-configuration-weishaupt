@@ -1,0 +1,1162 @@
+--- Form: TFRMDATASELECT [Neutral] ---
+
+[Component]: LblBusClient
+   -> Busteilnehmer
+   -> TLabel
+
+[Component]: LblValues
+   -> Messgrößen
+   -> TTreeView
+   -> TreeViewClients
+   -> Indent
+   -> ReadOnly
+   -> TabOrder
+   -> OnClick
+   -> TreeViewClientsClick
+   -> TCheckListBox
+   -> ChkLstBxData
+   -> OnClickCheck
+   -> ChkLstBxDataClickCheck
+   -> ItemHeight
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnCancel
+   -> &Schließen
+   -> TabOrder
+   -> OnClick
+
+[Component]: BtnCancelClick
+   -> TButton
+   -> btnSelectData
+   -> &Uebernehmen
+   -> TabOrder
+   -> OnClick
+   -> btnSelectDataClick
+   -> TCheckBox
+
+[Component]: ChkBxLines
+   -> &Dicke Linien
+   -> TabOrder
+   -> OnClick
+
+[Component]: ChkBxLinesClick
+   -> TCheckBox
+
+[Component]: ChkBxTmpFile
+   -> temporäre Sicherungsdatei
+   -> Checked
+   -> State
+   -> cbChecked
+   -> TabOrder
+   -> TButton
+
+[Component]: BtnReadResCnt
+   -> Res-Cnt auslesen
+   -> TabOrder
+   -> Visible
+   -> OnClick
+
+[Component]: BtnReadResCntClick
+   -> TEdit
+
+[Component]: EdtRes_cnt
+   -> Enabled
+   -> TabOrder
+   -> Visible
+   -> TsiLangLinked
+   -> siLangLinked1
+   -> Version
+   -> 5.3.1.1
+
+[Component]: StringsTypes.Strings
+   -> TIB_STRINGLIST
+   -> TSTRINGLIST
+   -> NumOfLanguages
+   -> LangDispatcher
+   -> MainForm.siLangDispatcher1
+   -> OnChangeLanguage
+   -> siLangLinked1ChangeLanguage
+   -> LangDelim
+
+[Component]: LangNames.Strings
+   -> Deutsch
+   -> English
+   -> Francais
+   -> Italiano
+   -> Espanol
+   -> Nederlands
+   -> Dansk
+   -> Swedish
+   -> Norwegian
+   -> Slovenski
+   -> Hrvatski
+   -> Magyar
+   -> Polski
+   -> Russian
+   -> Greece
+   -> Language
+   -> Deutsch
+   -> TranslationData
+   -> stCaptions
+   -> TfrmDataSelect
+   -> Datenauswahl
+   -> Data selection
+   -> Choix de données
+   -> Selezione dati
+   -> Selección de datos
+   -> Dataselectie
+   -> Data valg
+   -> Dataval
+   -> izbor podataka
+   -> Adatkiválasztás
+   -> wybór danych
+   -> Âûáîð äàííûõ
+
+[Component]: BtnCancel
+   -> &Schließen
+   -> &Close
+   -> &Fermer
+   -> &Chiudere
+   -> &Cerrar
+   -> &Sluiten
+   -> Luk
+   -> &Stäng
+   -> &zatvoriti
+   -> &Bezárni
+   -> &Zamknij
+   -> &Çàêðûòü
+   -> btnSelectData
+   -> &Uebernehmen
+   -> &Accept
+   -> &reprendre
+   -> &Assumere
+   -> &Aceptar
+   -> &Overnemen
+   -> Accepter
+   -> &Acceptera
+   -> &preuzeti
+   -> &Átvenni
+   -> &Przechwyæ
+   -> &Ïðèíÿòü
+
+[Component]: ChkBxLines
+   -> &Dicke Linien
+   -> &Thick lines
+   -> &Lignes épaisses
+   -> &Spessore linee
+   -> &Línea gruesa
+   -> &Dikke lijnen
+   -> Tykke linier
+   -> &Fet rad
+   -> &debljina crta
+   -> &vastag vonal
+   -> &Grube linie
+   -> &Æèðíûå ëèíèè
+
+[Component]: ChkBxTmpFile
+   -> temporäre Sicherungsdatei
+   -> temporary file
+   -> Fichier de sauvegarde temporaire
+   -> Salvataggio dati temporaneo
+   -> Archivo seguridad temporal
+   -> Tijdelijk bestand
+   -> Tmp-filer
+   -> temporär fil
+   -> temporar sigurnosni podaci
+   -> átmeneti bizt.adatok
+   -> Plik tymczasowy
+   -> Âðåìåííûé ôàéë
+
+[Component]: LblBusClient
+   -> Busteilnehmer
+   -> Bus device
+   -> Composant du Bus
+   -> Partecipante Bus
+   -> Dispositivo Bus
+   -> Bus-deelnemer
+   -> Bus  enhed
+   -> Bus-deltagare
+   -> BUS-uèesnik
+   -> Busrésztvevõk
+   -> uczestnik magistrali eBus
+   -> Ïîëüçîâàòåëü øèíû
+
+[Component]: LblValues
+   -> Messgrößen
+   -> Values
+   -> Grandeurs de mesures
+   -> Valori
+   -> Datos
+   -> Meetgrootte
+   -> Værdier
+   -> Värden
+   -> mjerne velièine
+   -> Változók
+   -> wielkoœci mierzone
+   -> Âåëè÷èíû èçìåðåíèÿ
+   -> stHints
+   -> TfrmDataSelect
+
+[Component]: LblBusClient
+
+[Component]: LblValues
+   -> TreeViewClients
+   -> ChkLstBxData
+
+[Component]: BtnCancel
+   -> btnSelectData
+
+[Component]: ChkBxLines
+
+[Component]: ChkBxTmpFile
+   -> stDisplayLabels
+   -> stFonts
+   -> TfrmDataSelect
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> Tahoma
+   -> stMultiLines
+   -> ChkLstBxData.Items
+
+[Component]: stStrings
+
+[Component]: strcDrehzIst
+   -> Drehz-Ist
+   -> Speed act.
+   -> Vitesse de rotation réelle
+   -> Numero giri attuale
+   -> Veloc. real
+   -> Reële waarde toerental
+   -> Omdr.
+   -> Varvtal Är
+   -> Broj okretaja je
+   -> fordsz-tény
+   -> rzecz. predk. obr.
+   -> ×àñòÂðàù-Ôàêò
+
+[Component]: strcDrehzSoll
+   -> Drehz-Soll
+   -> Speed set
+   -> Consigne vitesse de rotation
+   -> Numero giri nominale
+   -> Veloc. consigna
+   -> Instelwaarde toerental
+   -> Beregnet omdr.
+   -> Varvtal Bör
+   -> zadani broj okretaja
+   -> fordsz-par
+   -> zad. predk. obr.
+   -> ×àñòÂðàù-Çàäàí
+
+[Component]: strcEHeizung
+   -> Elektr. Heizung
+   -> Elect. heating
+   -> Réchauffage électrique
+   -> Riscaldamento elettrico
+   -> Calef. eléctrica
+   -> Elektr. verwarming
+   -> Elektrisk varme
+   -> El.värme
+   -> elektro grijanje
+   -> el.fûtés
+   -> ogrzewanie elektryczne
+   -> Ýëåêòðîîáîãðåâ
+
+[Component]: strcFlamme
+   -> .Flamme
+   -> Flame
+   -> Flamme
+   -> Fiamma
+   -> Llama
+   -> Vlam
+   -> Flamme
+   -> Flamma
+   -> plamen
+   -> láng
+   -> p³omieñ
+   -> Ïëàìÿ
+
+[Component]: strcFuehlerB10
+   -> Pufferfühler B10
+   -> Calorifier sensor
+   -> Sonde de ballon B10
+   -> Sonda polmone B10
+   -> Sonda depósito apoyo B10
+   -> Buffervatvoeler B10
+   -> Bufferføler B10
+   -> Ackum.givare B10
+   -> pipalo aku-spremnika B10
+   -> pufferérzékelõ B10
+   -> czujnik t. zasobnika B10
+   -> Áóôåðíûé äàò÷èê B10
+
+[Component]: strcFuehlerB11
+   -> Weichenfühler B11
+   -> De-couple sensor B11
+   -> Sonde de bouteille casse-pression B11
+   -> Sonda compensatore B11
+   -> Sonda compensador B11
+   -> Evenwichtsflesvoeler B11
+   -> Blandepotteføler B11
+   -> Växelgivare B11
+   -> pipalo razdjelnika B11
+   -> váltóérzékelõ B11
+   -> czujnik t. w sprzegle B11
+   -> Äàò÷èê ñòðåëêè B11
+
+[Component]: strcFuehlerB12
+   -> Auslauftemp. B12
+   -> Outlet temp. B12
+   -> température de circulation B12
+   -> Temperatura erogazione B12
+   -> Sonda consumo B12
+   -> Uitlooptemp. B12
+   -> Fremløbstemp. B12
+   -> Utloppstemp.B12
+   -> vanjsko pipalo B12
+   -> kim.hõm B12
+   -> t. wyplywu c.w.u. B12
+   -> Òåìïåðàòóðà âîäû íà âûõîäå B12
+
+[Component]: strcHZFG
+   -> .HZ-FG
+   -> Heat. FG
+   -> HZ-FG
+   -> Consenso riscaldam.
+   -> HZ-FG
+   -> Varme frigivelse
+   -> Värme-FG
+   -> HZ-FG
+   -> fûtés-FG
+   -> zezwolenie na prace obiegu grz.
+   -> Ïóñê ÊÍ
+
+[Component]: strcHZSoll
+   -> HZ-Soll
+   -> Heat set point
+   -> Consigne HZ
+   -> Riscaldamento nomin.
+   -> HZ-consigna
+   -> Instelwaarde verw.
+   -> Varmekreds beregnet værdi
+   -> Värme Bör
+   -> HZ-zadano
+   -> fûtés-par
+   -> wart. zad. temperatury dla ogrzewania
+   -> ÊÍ-Çàäàí
+
+[Component]: strcIOIst
+   -> Io-Ist
+   -> Io actual
+   -> Io réel
+   -> Ionizzazione attuale
+   -> Io-real
+   -> Reële io-waarde
+   -> Ioniseringsværdi
+   -> Io-Är
+   -> Io-iznosi
+   -> Io-tény
+   -> wartosc Io rzecz.
+   -> Èî-Ôàêò
+
+[Component]: strcIoSoll
+   -> Io-Soll
+   -> Io set point
+   -> Consigne Io
+   -> Ionizzazione nomin.
+   -> Io-consigna
+   -> Io-instelwaarde
+   -> Beregnet ioniseringsværdi
+   -> Io-Bör
+   -> Io-zadana
+   -> Io-par
+   -> wartosc Io zad.
+   -> Èî-Çàäàí
+
+[Component]: strcMFA
+   -> .MFA
+   -> MFA
+   -> MFA
+   -> MFA
+   -> MFA
+   -> MFA
+   -> MFA
+   -> MFA
+   -> MFA
+   -> MFA
+   -> MFA
+
+[Component]: strcMischerAuf
+   -> .Mischer Auf
+   -> Mixer open
+   -> Mélangeur ouvert
+   -> Miscelatrice apre
+   -> Válvula abrir
+   -> Mengkraan open
+   -> Ventil åben
+   -> Blandare öppen
+   -> Mješaè otva.
+   -> keverõ nyit
+   -> mieszacz otw.
+   -> Ñìåñèòåëü îòêð
+
+[Component]: strcMischerZu
+   -> .Mischer Zu
+   -> Mixer close
+   -> Mélangeur fermé
+   -> Miscelatrice chiude
+   -> Válvula cerrar
+   -> Mengkraan dicht
+   -> Ventil lukket
+   -> Blandare stängd
+   -> Mješaè zatv.
+   -> keverõ zár
+   -> mieszacz zamkn.
+   -> Ñìåñèòåëü çàêð
+
+[Component]: strcModGrad
+   -> Mod.-Grad
+   -> Mod. degree
+   -> Degré de modulation
+   -> Grado modulazione
+   -> Grado modul.
+   -> Modulatiegraad
+   -> Modulationsgrad
+   -> Mod-grad
+   -> model-stupanj
+   -> mod.-fok
+   -> stopieñ modul.
+   -> ÑòåïåíüÌîäóë
+
+[Component]: strcOeldosierpumpe
+   -> Öldosierpumpe
+   -> Oil dosing pump
+   -> Pompe de dosage fioul
+   -> Pompa dosatrice olio
+   -> Bomba dosif. Liq.
+   -> Oliedoseerpomp
+   -> Oliedoseringspumpe
+   -> Oljedoserpump
+   -> Crpka doziranja ulja
+   -> olajad,sziv.
+   -> Äîçèð. íàñîñ
+
+[Component]: strcOelventil
+   -> .Ölventil
+   -> Oil valve
+   -> Vanne fioul
+   -> Valvola olio
+   -> Válvula líq.
+   -> Olieventiel
+   -> Oileventil
+   -> Oljeventil
+   -> Ventil ulja
+   -> olajszelep
+   -> Ýëåêòðîîáîãðåâ
+
+[Component]: strcPumpe
+   -> .Pumpe
+   -> Pump
+   -> Pompe
+   -> Pompa
+   -> Bomba
+   -> Pomp
+   -> Pumpe
+   -> Pump
+   -> Crpka
+   -> szivattyú
+   -> pompa
+   -> Íàñîñ
+
+[Component]: strcPWMPumpe
+   -> PWM Pumpe
+   -> PWM pump
+   -> Pompe PWM
+   -> Pompa PWM
+   -> Bomba PWM
+   -> PWM-pomp
+   -> PWM-pumpe
+   -> PWM-pump
+   -> PWM crpka
+   -> PWM sziv.
+   -> pompa PWM
+   -> Íàñîñ PWM
+
+[Component]: strcSollModGrad
+   -> Sollmod.-Grad
+   -> Set mod. degree
+   -> Consigne de modulation
+   -> Grado modulazione nomin.
+   -> Grado modul. consigna
+   -> Instelmodulatiegraad
+   -> Beregnet modulationsgrad
+   -> Mod-grad Bör
+   -> Zadan model-stupanj
+   -> par.mod.-fok
+   -> stopieñ modul.zad.
+   -> ÑòåïåíüÇàäÌîäóë
+
+[Component]: strcSteuerSpg
+   -> SteuerSpg
+   -> Control voltage
+   -> Tension de cde
+   -> Tensione ausiliaria
+   -> Tensión maniobra
+   -> Stuurspanning
+   -> Styreprogram
+   -> Styrspänning
+   -> Napon upravljanja
+   -> vez.fesz.
+   -> napiêcie steruj¹ce
+   -> ÓïðàâëÍàïð
+
+[Component]: strcSteuerStrom
+   -> SteuerStrom
+   -> Control current
+   -> Courant de cde
+   -> Corrente ausiliaria
+   -> Corriente maniobra
+   -> Stuurstroom
+   -> Styrestrøm
+   -> Styrström
+   -> Struja upravljanja
+   -> vez.áram
+   -> pr¹d steruj¹cy
+   -> ÓïðàâëÒîê
+
+[Component]: strcStoerung
+   -> .Störung
+   -> Lockout
+   -> Défaut
+   -> Blocco
+   -> Avería
+   -> Storing
+   -> Fejl
+   -> Störning
+   -> Smetnja
+   -> Zavar
+   -> zak³ócenie
+   -> Íåèñïðàâíîñòü
+
+[Component]: strcTAbgas
+   -> T-Abgas
+   -> Flue gas temp.
+   -> Température fumées
+   -> Temperatura fumi
+   -> Temp. humos
+   -> T-rookgas
+   -> Temp.røggas
+   -> T-avgas
+   -> T-dim.plin
+   -> T-füstgáz
+   -> t. spalin
+   -> Ò-ÄûìÃàç
+
+[Component]: strcTauchspule
+   -> Tauchspule
+   -> Immersion coil
+   -> Bobine
+   -> Bobina ad immersione
+   -> Bobina inmersión
+   -> Dompelhuls
+   -> Reguleringsspole
+   -> Doppspole
+   -> Potopni svitak
+   -> mer.tekercs
+   -> cewka zaworu
+   -> Êàòóøêà
+
+[Component]: strcTAussen
+   -> T-Aussen
+   -> Outdoor temp.
+   -> Température extérieure
+   -> Temperatura esterna
+   -> Temp. exterior
+   -> T buiten
+   -> Temp.ude
+   -> Utetemp.
+   -> T-vanjska
+   -> T-külsõ
+   -> t. zewn.
+   -> Ò-íàðóæí
+
+[Component]: strcTAussen_gem
+   -> T-Aussen gem.
+   -> Outdoor temp. meas.
+   -> Température extérieure mesurée
+   -> Temperatura esterna miscelata
+   -> Temp. exterior medida
+   -> Gem. T buiten
+   -> Temp. ude gennemsnit
+   -> Utetemp.mätv.
+   -> T-vanjska mje.
+   -> T-külsõ mért
+   -> t. zewn. zmierzona
+   -> Ò-íàðóæíÈçì
+
+[Component]: strcTAussenB1
+   -> T-Aussen B1
+   -> Outdoor temp. B1
+   -> Température extérieure B1
+   -> Temperatura esterna B1
+   -> Temp. exterior B1
+   -> T buiten B1
+   -> Temp B1
+   -> Utetemp. B1
+   -> T-vanjska B1
+   -> T-külsõ B1
+   -> t. zewn. B1
+   -> Ò-íàðóæí B1
+
+[Component]: strcTKlemmen
+   -> T-Klemmen
+   -> Temp. terminal
+   -> Bornes T
+   -> Morsetti temperatura
+   -> Temp. bornes
+   -> Klemmen
+   -> Temp klemmer
+   -> Temp.-klammer
+   -> T-stezaljke
+   -> T-kapocs
+   -> T-êëåììû
+
+[Component]: strcTooManyValuesSelected
+   -> Zu viele Messgrößen ausgewählt!
+   -> Too many values selected!
+   -> Trop de mesures sélectionnées !
+   -> Selezionato troppi valori!
+   -> Demasiadas variables
+   -> Te veel meetgroottes gekozen
+   -> Valgt for mange målestørrelser
+   -> För manga värden valda
+   -> Odabrano previše mjernih velièina!
+   -> Túl sok változó lett kiválasztva!
+   -> Wybrano zbyt wiele parametrów!
+   -> Âûáðàíî ñëèøêîì ìíîãî âåëè÷èí!
+
+[Component]: strcTPufferOben
+   -> Puffertemperatur oben
+   -> Calorifier temp. top
+   -> Température en haut du tampon
+   -> Temperatura polmone superiore
+   -> Temp. depósito apoyo arriba
+   -> Buffervattemperatuur boven
+   -> Øvre buffertemperatur
+   -> Ack.temp. upptill
+   -> Temperatura aku-spremnika gore
+   -> pufferhõmérséklet fenn
+   -> t. zasobnika (góra)
+   -> Òåìïåðàòóðà âåðõí. áóô. äàò÷èêà
+
+[Component]: strcTPufferUnten
+   -> Puffertemperatur unten
+   -> Calorifier temp. bottom
+   -> Température en bas du tampon
+   -> Temperatura polmone inferiore
+   -> Temp. depósito apoyo abajo
+   -> Buffervattemperatuur onder
+   -> Nedre buffertemperatur
+   -> Ack.temp. nedtill
+   -> Temperatura aku-spremnika dolje
+   -> pufferhõmérséklet lenn
+   -> t. zasobnika (dól)
+   -> Òåìïåðàòóðà íèæí. áóô. äàò÷èêà
+
+[Component]: strcTRaumIst
+   -> Raumtemp.
+   -> Room temp.
+   -> Température ambiante
+   -> Temperatura ambiente
+   -> Temp. local
+   -> Ruimtetemperatuur
+   -> Rumtemp.
+   -> Rumstemp.
+   -> Sobna temeratura
+   -> szobahõm.
+   -> t. w pomieszczeniu
+   -> Êîìí. òåìïåðàòóðà
+
+[Component]: strcTRaumSoll
+   -> Raumtemp. Soll
+   -> Set room temp.
+   -> Consigne température ambiante
+   -> Temperatura ambiente nomin.
+   -> Temp. local consigna
+   -> Instelwaarde ruimtetemp.
+   -> Beregnet rumtemp.
+   -> Rumstemp. Bör
+   -> Sobna temeratura zadana
+   -> szobahõm.par
+   -> wart. zad. temperatury w pom.
+   -> Êîìí. òåìï. çàä
+
+[Component]: strcTSollSys
+   -> Solltemp. System
+   -> Set temp. system
+   -> Consigne température système
+   -> Temperatura nomin. sistema
+   -> Sistema temp. consigna
+   -> Insteltemperatuur systeem
+   -> Systemsetpunkt
+   -> Börtemp. System
+   -> zadana temperatura sustava
+   -> par.hõm. rendszer
+   -> temperatura zadana systemu
+   -> Çàä. òåìï. ñèñòåìû
+
+[Component]: strcTVK
+   -> T-VK
+   -> Temp. VK
+   -> T-VK
+   -> Temp. cam. premiscel.
+   -> T-VK
+   -> T-VK
+   -> Temperatur varmekreds
+   -> Temp-VK
+   -> T-VK
+   -> T-VK
+   -> T-VK
+
+[Component]: strcTWeiche
+   -> Weichentemperatur
+   -> De-couple temp.
+   -> Température bouteille casse-pression
+   -> Temperatura compensatore idraulico
+   -> Temp. compensador
+   -> Temperatuur evenwichtsfles
+   -> Blandepottetemp.
+   -> Växeltemperatur
+   -> temperatura razdjelnika
+   -> váltóhõmérséklet
+   -> t. w sprzegle hydraulicznym
+   -> Òåìïåðàòóðà ñòðåëêè
+
+[Component]: strcTZuluft
+   -> T-Zuluft
+   -> Supply air temp.
+   -> Température air comburant
+   -> Temperatura adduzione aria
+   -> Temp.aire impulsado
+   -> T lucht
+   -> Frisklufttemp.
+   -> Temp.tilluft
+   -> T-ulaznog zraka
+   -> T-szívottlev.
+   -> t. powietrza zasilajacego
+   -> Ò-ïðèòî÷í.
+
+[Component]: strcUV
+   -> .UV
+   -> Valvola deviatrice
+   -> 3-vejs ventil
+   -> zawór przelaczajacy
+
+[Component]: strcVA
+   -> .VA
+
+[Component]: strcVentil1
+   -> .Ventil 1
+   -> Valve 1
+   -> Vanne 1
+   -> Valvola 1
+   -> Válvula 1
+   -> Ventiel 1
+   -> Ventil 1
+   -> Ventil 1
+   -> Ventil 1
+   -> szelep 1
+   -> zawór 1
+   -> Êëàïàí 1
+
+[Component]: strcVentil2
+   -> .Ventil 2
+   -> Valve 2
+   -> Vanne 2
+   -> Valvola 2
+   -> Válvula 2
+   -> Ventiel 2
+   -> Ventil 2
+   -> Ventil 2
+   -> Ventil 2
+   -> szelep 2
+   -> zawór 2
+   -> Êëàïàí 2
+
+[Component]: strcVLIst
+   -> VL-Ist
+   -> Supply act.
+   -> Départ réel
+   -> Mandata attuale
+   -> Ida real
+   -> VT reëel
+   -> Aktuel fremløb
+   -> Framl.-Är
+   -> VL-iznosi
+   -> elõre-tény
+   -> rzecz. t. zasilania
+   -> Ïðÿì-Ôàêò
+
+[Component]: strcVLIstB12
+   -> VL-Ist (NTC) B12
+   -> Sup. act (NTC) B12
+   -> Départ réel (NTC) B12
+   -> Mandata attuale (NTC) B12
+   -> Ida real (NTC) B12
+   -> VT reëel (NTC) B12
+   -> Aktuel fremløb (NTC) B12
+   -> Framl.-Är (NTC) B12
+   -> VL-iznosi (NTC) B12
+   -> elõre-tény (NTC) B12
+   -> rzecz. t. zasilania (NTC) B12
+   -> Ïðÿì-Ôàêò (NTC) B12
+
+[Component]: strcVLIstHZK
+   -> VL-Ist HZK
+   -> Sup. act heat.
+   -> Départ circuit chauffage réel
+   -> Mandata attuale circuito riscald.
+   -> Ida real HZK
+   -> VT reëel SK
+   -> Aktuel fremløbstemperatur varme
+   -> Framl.-Är Värmekrets
+   -> VL-iznosi HZK
+   -> elõre-tény HZK
+   -> rzecz. t. zasilania obiegu grz.
+   -> Ïðÿì-Ôàêò ÊÍ
+
+[Component]: strcVLIstSTB
+   -> VL-Ist (eSTB)
+   -> Sup. act. (eSTB)
+   -> Départ réel (eSTB)
+   -> Mandata attuale (eSTB)
+   -> Ida real (eSTB)
+   -> VT reëel (eSTB)
+   -> Aktuel fremløb (eSTB)
+   -> Framl.-Är (eSTB)
+   -> VL-iznosi (eSTB)
+   -> elõre-tény (eSTB)
+   -> rzecz. t. zasilania (eSTB)
+   -> Ïðÿì-Ôàêò (eSTB)
+
+[Component]: strcVLSoll
+   -> VL-Soll
+   -> Supply set point
+   -> Consigne départ
+   -> Mandata nomin.
+   -> Ida consigna
+   -> VT instelw.
+   -> Beregnet fremløb
+   -> Framl.-Bör
+   -> VL-zadano
+   -> elõre-par
+   -> zad. t. zasilania
+   -> Ïðÿì-Çàäàí
+
+[Component]: strcVLSollHZK
+   -> VL-Soll HZK
+   -> Sup. set point heat.
+   -> Consigne départ circuit chauffage
+   -> Mandata nomin. circuito riscald.
+   -> Ida consigna Cto.
+   -> VT instelw. SK
+   -> Aktuel fremløbstemperatur varme
+   -> Framl.-Bör HZK
+   -> VL-treba HZK
+   -> elõre-par HZK
+   -> zad. t. zasilania obiegu grz.
+   -> Ïðÿì-Çàäàí HZK
+
+[Component]: strcWWAuslaufB12
+   -> WW-Auslauf B12
+   -> DHW outlet B12
+   -> Sortie ECS B12
+   -> Erogazione acqua calda B12
+   -> ACS ida B12
+   -> WW-uitloop B12
+   -> VV-fremløb B12
+   -> VV-utlopp B12
+   -> PTV izlaz B12
+   -> HMV-ki B12
+   -> t. wyplywu c.w.u. B12
+   -> Âûõîä ÃÂ B12
+
+[Component]: strcWWFG
+   -> .WW-FG
+   -> DHW FG
+   -> ECS-FG
+   -> Consenso AC
+   -> ACS FG
+   -> WW-FG
+   -> VV-frigivelse
+   -> VV FG
+   -> PTV izlaz B13
+   -> HMV-
+   -> zezwolenie na przyg. c.w.u.
+   -> Ïóñê ÃÂÑ
+
+[Component]: strcWWIst
+   -> WW-Ist
+   -> DHW actual
+   -> ECS Réel
+   -> Acqua calda attuale
+   -> ACS real
+   -> WW reëel
+   -> Aktuel VV
+   -> VV Är
+   -> PTV iznosi
+   -> HMV-tény
+   -> rzecz. t. c.w.u.
+   -> ÃÂ-Ôàêò
+
+[Component]: strcWWIstB3
+   -> WW-Ist B3
+   -> DHW actual B3
+   -> ECS réel B3
+   -> Acqua calda attuale B3
+   -> ACS real B3
+   -> WW reëel B3
+   -> Aktuel VV B3
+   -> VV Är B3
+   -> PTV iznosi na B3
+   -> HMV-tény B3
+   -> rzecz. t. c.w.u. B3
+   -> ÃÂ-Ôàêò B3
+
+[Component]: strcWWSoll
+   -> WW-Soll
+   -> DHW set point
+   -> Consigne ECS
+   -> Acqua calda nomin.
+   -> ACS consigna
+   -> WW instelw.
+   -> Beregnet VV
+   -> VV Bör
+   -> PTV zadana
+   -> HMV-par
+   -> zad. temp. c.w.u.
+   -> ÃÂ-Çàäàí
+
+[Component]: strcWWTurbine
+   -> WW-Turbine
+   -> DHW turbine
+   -> ECS-Turbine
+   -> Turbina AC
+   -> ACS turbina
+   -> WW-turbine
+   -> VV-flowføler
+   -> VV-turbin
+   -> PTV turbina
+   -> HMV-turbina
+   -> Òóðáèíà ÃÂ
+
+[Component]: strcZuendung
+   -> .Zündung
+   -> Ignition
+   -> Allumage
+   -> Accensione
+   -> Encendido
+   -> Ontsteking
+   -> Tænding
+   -> Tändning
+   -> paljenje
+   -> gyújtás
+   -> zap³on
+   -> Çàæèãàíèå
+
+[Component]: strcTAussen_misch
+   -> T-Aussen misch.
+   -> Outdoor temp. mixed
+   -> Outdoor temp. mixed
+   -> Outdoor temp. mixed
+   -> Outdoor temp. mixed
+   -> Outdoor temp. mixed
+   -> Outdoor temp. mixed
+   -> Outdoor temp. mixed
+   -> Outdoor temp. mixed
+   -> Outdoor temp. mixed
+   -> Outdoor temp. mixed
+   -> Outdoor temp. mixed
+
+[Component]: strcZirktemp
+   -> Zirktemp.
+   -> Circ. temp.
+   -> Circ. temp.
+   -> Circ. temp.
+   -> Circ. temp.
+   -> Circ. temp.
+   -> Circ. temp.
+   -> Circ. temp.
+   -> Circ. temp.
+   -> Circ. temp.
+   -> Circ. temp.
+   -> Circ. temp.
+
+[Component]: strcZirkpumpe
+   -> .Zirkpumpe
+   -> Circ. ump
+   -> Circ. ump
+   -> Circ. ump
+   -> Circ. ump
+   -> Circ. ump
+   -> Circ. ump
+   -> Circ. ump
+   -> Circ. ump
+   -> Circ. ump
+   -> Circ. ump
+   -> Circ. ump
+
+[Component]: strcLadepumpe
+   -> .Ladepumpe
+   -> Feeder pump
+   -> Feeder pump
+   -> Feeder pump
+   -> Feeder pump
+   -> Feeder pump
+   -> Feeder pump
+   -> Feeder pump
+   -> Feeder pump
+   -> Feeder pump
+   -> Feeder pump
+   -> Feeder pump
+
+[Component]: strcMischerpumpe
+   -> .Mischerpumpe
+   -> Mixer pump
+   -> Mixer pump
+   -> Mixer pump
+   -> Mixer pump
+   -> Mixer pump
+   -> Mixer pump
+   -> Mixer pump
+   -> Mixer pump
+   -> Mixer pump
+   -> Mixer pump
+   -> Mixer pump
+
+[Component]: strcVL_Mod_Soll
+   -> VL/Mod-Sollwert
+   -> Sup./Mod setpoint
+   -> Sup./Mod setpoint
+   -> Mandata setpoint
+   -> Sup./Mod setpoint
+   -> Sup./Mod setpoint
+   -> Sup./Mod setpoint
+   -> Sup./Mod setpoint
+   -> Sup./Mod setpoint
+   -> Sup./Mod setpoint
+   -> Sup./Mod setpoint
+   -> Sup./Mod setpoint
+
+[Component]: strcRL_B13
+   -> RL-Ist B13
+   -> Return act. B13
+   -> Return act. B13
+   -> Ritorno B13
+   -> Return act. B13
+   -> Return act. B13
+   -> Return act. B13
+   -> Return act. B13
+   -> Return act. B13
+   -> Return act. B13
+   -> Return act. B13
+   -> Return act. B13
+
+[Component]: strcTWeiche_B11
+   -> Weichentemp B11
+   -> De-couple temp. B11
+   -> De-couple temp. B11
+   -> Comp. idraulico B11
+   -> De-couple temp. B11
+   -> De-couple temp. B11
+   -> De-couple temp. B11
+   -> De-couple temp. B11
+   -> De-couple temp. B11
+   -> De-couple temp. B11
+   -> De-couple temp. B11
+   -> De-couple temp. B11
+
+[Component]: strcPWM_Fan
+   -> PWM Gebläse
+   -> PWM fan
+   -> PWM fan
+   -> PWM ventilatore
+   -> PWM fan
+   -> PWM fan
+   -> PWM fan
+   -> PWM fan
+   -> PWM fan
+   -> PWM fan
+   -> PWM fan
+   -> PWM fan
+
+[Component]: strcGDW
+   -> .GDW
+   -> .GPS
+   -> .GPS
+   -> .Pressostato gas
+   -> .GPS
+   -> .GPS
+   -> .GPS
+   -> .GPS
+   -> .GPS
+   -> .GPS
+   -> .GPS
+   -> .GPS
+
+[Component]: strcLDW
+   -> .LDW
+   -> .APS
+   -> .APS
+   -> .Pressostato aira
+   -> .APS
+   -> .APS
+   -> .APS
+   -> .APS
+   -> .APS
+   -> .APS
+   -> .APS
+   -> .APS
+
+[Component]: strcLDW_Siphon
+   -> .LDW Siphon
+   -> .APS Siphon
+   -> .APS Siphon
+   -> .Pressostato sifone
+   -> .APS Siphon
+   -> .APS Siphon
+   -> .APS Siphon
+   -> .APS Siphon
+   -> .APS Siphon
+   -> .APS Siphon
+   -> .APS Siphon
+   -> .APS Siphon
+
+[Component]: strcWDW
+   -> .WDW
+   -> .WPS
+   -> .WPS
+   -> .Pressostato acqua
+   -> .WPS
+   -> .WPS
+   -> .WPS
+   -> .WPS
+   -> .WPS
+   -> .WPS
+   -> .WPS
+   -> .WPS
+
+[Component]: stOtherStrings
+   -> TfrmDataSelect.HelpFile
+   -> ChkLstBxData.ImeName
+   -> stCollections
+   -> stCharSets
+   -> TfrmDataSelect
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> RUSSIAN_CHARSET

@@ -1,0 +1,452 @@
+--- Form: TFRMKAWST [Neutral] ---
+
+[Component]: GrpBoxHzIn
+   -> Align
+   -> alClient
+   -> Enabled
+   -> TabOrder
+   -> TLabel
+   -> lblHK1
+   -> AutoSize
+   -> HK1
+   -> TLabel
+   -> lblHK2
+   -> AutoSize
+   -> HK2
+   -> TLabel
+   -> lblHK3
+   -> AutoSize
+   -> HK3
+   -> TLabel
+   -> lblHK4
+   -> AutoSize
+   -> HK4
+   -> TLabel
+   -> lblHK5
+   -> AutoSize
+   -> HK5
+   -> TLabel
+   -> lblHK6
+   -> AutoSize
+   -> HK6
+   -> TLabel
+   -> lblHK7
+   -> AutoSize
+   -> HK7
+   -> TLabel
+   -> lblHK8
+   -> AutoSize
+   -> HK8
+   -> TLabel
+   -> lblWAHKs
+   -> Wärmeanforderung Heizkreis [°C]
+   -> TLabel
+   -> lblWAWW
+   -> Freigabe Warmwasser
+   -> TLabel
+   -> lblSysHZSoll
+   -> Soll-Temperatur-System [°C]
+   -> TLabel
+   -> lblSysWWSoll
+   -> Warmwassersollwert [°C]
+   -> TLabel
+   -> lblHKFrg
+   -> Freigabe Heizkreis
+   -> TEditGroup
+   -> EGrpHZIn
+   -> HorzScrollBar.Visible
+   -> VertScrollBar.Visible
+   -> BorderStyle
+   -> bsNone
+   -> ShowHint
+   -> TabOrder
+   -> DistanceH
+   -> DistanceV
+
+[Component]: Items.Strings
+   -> Columns
+   -> WidthEdit
+   -> WidthLabel
+   -> WidthUnit
+   -> pReadOnly
+   -> MaxLength
+   -> EditRight
+   -> EditWithColor
+   -> TEdit
+
+[Component]: EdtSysHKSoll
+   -> TabOrder
+   -> TEdit
+
+[Component]: EdtSysWA
+   -> TabOrder
+   -> TCheckBox
+
+[Component]: ChkBxWWFrei4
+   -> TabOrder
+   -> TCheckBox
+
+[Component]: ChkBxWWFrei2
+   -> TabOrder
+   -> TCheckBox
+
+[Component]: ChkBxWWFrei3
+   -> TabOrder
+   -> TCheckBox
+
+[Component]: ChkBxWWFrei1
+   -> TabOrder
+   -> TCheckBox
+
+[Component]: ChkBxWWFrei5
+   -> TabOrder
+   -> TCheckBox
+
+[Component]: ChkBxWWFrei6
+   -> TabOrder
+   -> TCheckBox
+
+[Component]: ChkBxWWFrei7
+   -> TabOrder
+   -> TCheckBox
+
+[Component]: ChkBxWWFrei8
+   -> TabOrder
+   -> TCheckBox
+
+[Component]: ChkBxHZFrei1
+   -> TabOrder
+   -> TCheckBox
+
+[Component]: ChkBxHZFrei2
+   -> TabOrder
+   -> TCheckBox
+
+[Component]: ChkBxHZFrei3
+   -> TabOrder
+   -> TCheckBox
+
+[Component]: ChkBxHZFrei4
+   -> TabOrder
+   -> TCheckBox
+
+[Component]: ChkBxHZFrei5
+   -> TabOrder
+   -> TCheckBox
+
+[Component]: ChkBxHZFrei6
+   -> TabOrder
+   -> TCheckBox
+
+[Component]: ChkBxHZFrei7
+   -> TabOrder
+   -> TCheckBox
+
+[Component]: ChkBxHZFrei8
+   -> TabOrder
+   -> TsiLangLinked
+   -> siLangLinked1
+   -> Version
+   -> 5.3.1.1
+
+[Component]: StringsTypes.Strings
+   -> TIB_STRINGLIST
+   -> TSTRINGLIST
+
+[Component]: SmartExcludeProps.Strings
+   -> EGrpHZIn.Items
+   -> NumOfLanguages
+   -> LangDispatcher
+   -> MainForm.siLangDispatcher1
+   -> OnChangeLanguage
+   -> siLangLinked1ChangeLanguage
+   -> LangDelim
+
+[Component]: DoNotTranslate.Strings
+
+[Component]: ChkBxWWFrei4
+
+[Component]: ChkBxWWFrei2
+
+[Component]: ChkBxWWFrei3
+
+[Component]: ChkBxWWFrei1
+
+[Component]: ChkBxWWFrei5
+
+[Component]: ChkBxWWFrei6
+
+[Component]: ChkBxWWFrei7
+
+[Component]: ChkBxWWFrei8
+
+[Component]: ChkBxHZFrei1
+
+[Component]: ChkBxHZFrei2
+
+[Component]: ChkBxHZFrei3
+
+[Component]: ChkBxHZFrei4
+
+[Component]: ChkBxHZFrei5
+
+[Component]: ChkBxHZFrei6
+
+[Component]: ChkBxHZFrei7
+
+[Component]: ChkBxHZFrei8
+
+[Component]: GrpBoxHzIn
+
+[Component]: LangNames.Strings
+   -> Deutsch
+   -> English
+   -> Francais
+   -> Italiano
+   -> Espanol
+   -> Nederlands
+   -> Dansk
+   -> Swedish
+   -> Norwegian
+   -> Slovenski
+   -> Hrvatski
+   -> Magyar
+   -> Polski
+   -> Russian
+   -> Greece
+   -> Language
+   -> Deutsch
+   -> TranslationData
+   -> stCaptions
+   -> TfrmKAWST
+   -> System Wärmesteuerung
+   -> System heat control
+   -> Système pilotage chaleur
+   -> Comando calore sistema
+   -> Sistema control calor
+   -> Warmtesturing systeem
+   -> Varmestyrings system
+   -> System Värmestyrning
+   -> Sustav upravljanja toplinom
+   -> rendszer hõvezérlés
+   -> KA-sterowanie cieplem
+   -> Óïðàâëåíèå òåïëîì ñèñòåìû
+   -> lblHK1
+   -> HK1
+   -> HC1
+   -> CC 1
+   -> CR 1
+   -> Cto1
+   -> SK1
+   -> VK1
+   -> VK1
+   -> KG1
+   -> fûtõkör1
+   -> og 1
+   -> HK1
+   -> lblHK2
+   -> HK2
+   -> HC2
+   -> CC 2
+   -> CR 2
+   -> Cto2
+   -> SK2
+   -> VK2
+   -> VK2
+   -> KG2
+   -> fûtõkör2
+   -> og 2
+   -> HK2
+   -> lblHK3
+   -> HK3
+   -> HC3
+   -> CC 3
+   -> CR 3
+   -> Cto3
+   -> SK3
+   -> VK3
+   -> VK3
+   -> KG3
+   -> fûtõkör3
+   -> og 3
+   -> HK3
+   -> lblHK4
+   -> HK4
+   -> HC4
+   -> CC 4
+   -> CR 4
+   -> Cto4
+   -> SK4
+   -> VK4
+   -> VK4
+   -> KG4
+   -> fûtõkör4
+   -> og 4
+   -> HK4
+   -> lblHK5
+   -> HK5
+   -> HC5
+   -> CC 5
+   -> CR 5
+   -> Cto5
+   -> SK5
+   -> VK5
+   -> VK5
+   -> KG5
+   -> fûtõkör5
+   -> og 5
+   -> HK5
+   -> lblHK6
+   -> HK6
+   -> HC6
+   -> CC 6
+   -> CR 6
+   -> Cto6
+   -> SK6
+   -> VK6
+   -> VK6
+   -> KG6
+   -> fûtõkör6
+   -> og 6
+   -> HK6
+   -> lblHK7
+   -> HK7
+   -> HC7
+   -> CC 7
+   -> CR 7
+   -> Cto7
+   -> SK7
+   -> VK7
+   -> VK7
+   -> KG7
+   -> fûtõkör7
+   -> og 7
+   -> HK7
+   -> lblHK8
+   -> HK8
+   -> HC8
+   -> CC 8
+   -> CR 8
+   -> Cto8
+   -> SK8
+   -> VK8
+   -> VK8
+   -> KG8
+   -> fûtõkör8
+   -> og 8
+   -> HK8
+   -> lblHKFrg
+   -> Freigabe Heizkreis
+   -> Release HC
+   -> Autorisation circuit chauffage
+   -> Consenso circuito riscaldamento
+   -> Permiso Circuito
+   -> Vrijgave stookkring
+   -> Varmekreds frigives
+   -> Frigivning VK
+   -> Slobodno za krug grijanja
+   -> fûtõkör engedélyezés
+   -> zezwolenie na prace obiegu grz.
+   -> Çàïóñê êîíòóðà îòîïëåíèÿ
+   -> lblSysHZSoll
+   -> Soll-Temperatur-System [°C]
+   -> Setpoint temperature system [°C]
+   -> Température consigne système [°C]
+   -> Temp. nomin. sistema [°C]
+   -> Consigna temp. sistema
+   -> Insteltemp. systeem [°C]
+   -> Beregnet-system-setpunkt (°C)
+   -> Bör-temp. System [°C]
+   -> zadana temperatura sustava [°C]
+   -> rendszer par-hõmérséklet [°C]
+   -> t. zadana systemu [°C]
+   -> Çàäàííàÿ òåìïåðàòóðà ñèñòåìû [°C]
+   -> lblSysWWSoll
+   -> Warmwassersollwert [°C]
+   -> Setpoint DHW [°C]
+   -> Température consigne ECS [°C]
+   -> Temp. nomin. acqua calda [°C]
+   -> Consigna ACS [ºC]
+   -> Insteltemp. warm water [°C]
+   -> Beregnet varmtvandstemperatur (°C)
+   -> Bör-temp. Varmvatten [°C]
+   -> zadana temperatura PTV-e [°C]
+   -> HMV par.érték [°C]
+   -> t. zadana c.w.u. [°C]
+   -> Çàäàííîå çíà÷åíèå ãîðÿ÷åé âîäû  [°C]
+   -> lblWAHKs
+   -> Wärmeanforderung Heizkreis [°C]
+   -> Heating demand HC [°C]
+   -> Demande de chaleur circuit chauffage [°C]
+   -> Richiesta calore circuito riscald. [°C]
+   -> Demanda Cto. Calef. [ºC]
+   -> Warmtevraag [°C]
+   -> Varmekrav varmekreds (°C)
+   -> Värmekrav Värmekrets [°C]
+   -> Toplinski zahtjev kruga grijanja  [°C]
+   -> fûtõkör hõigénye [°C]
+   -> zapotrzebowanie ciepla obiegu grz. [°C]
+   -> Çàïðîñ íà òåïëî òåïëîâîãî êîíòóðà [°C]
+   -> lblWAWW
+   -> Freigabe Warmwasser
+   -> Release DHW
+   -> Autorisation ECS
+   -> Consenso acqua calda
+   -> Permiso ACS
+   -> Vrijgave warm water
+   -> Varmtvand frigives
+   -> Frigivning Varmvatten
+   -> Slobodno za PTV
+   -> HMV engedélyezés
+   -> zezwolenie na przyg. c.w.u.
+   -> Çàïóñê ÃÂÑ
+   -> stHints
+   -> TfrmKAWST
+   -> lblHK1
+   -> lblHK2
+   -> lblHK3
+   -> lblHK4
+   -> lblHK5
+   -> lblHK6
+   -> lblHK7
+   -> lblHK8
+   -> lblWAHKs
+   -> lblWAWW
+   -> lblSysHZSoll
+   -> lblSysWWSoll
+   -> lblHKFrg
+   -> EGrpHZIn
+
+[Component]: EdtSysHKSoll
+
+[Component]: EdtSysWA
+   -> stDisplayLabels
+   -> stFonts
+   -> TfrmKAWST
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> MS Sans Serif
+   -> Tahoma
+   -> stMultiLines
+
+[Component]: stStrings
+
+[Component]: stOtherStrings
+   -> TfrmKAWST.HelpFile
+
+[Component]: EdtSysHKSoll.ImeName
+
+[Component]: EdtSysHKSoll.Text
+
+[Component]: EdtSysWA.ImeName
+
+[Component]: EdtSysWA.Text
+   -> stCollections
+   -> stCharSets
+   -> TfrmKAWST
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> DEFAULT_CHARSET
+   -> RUSSIAN_CHARSET
