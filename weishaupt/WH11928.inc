@@ -1485,7 +1485,7 @@ w,,CS_BYTE_RD,0x00A1,,,,"1902A1",,m,_8_Skip,,, ,,m,_CS_BYTE_RD,,,
 r,,EEA_CONST_CRC2,0x00A2,,,,"1A02A2",,s,_8_Skip,,, ,,s,_EEA_CONST_CRC2,,,
 w,,EEA_CONST_CRC2,0x00A2,,,,"1A02A2",,m,_8_Skip,,, ,,m,_EEA_CONST_CRC2,,,
 
-BCC_ID
+#BCC_ID
 r,,INT_EEA_ID_NR_BCC,0x00A3,,,,"1B02A3",,s,_8_Skip,,, ,,s,_INT_EEA_ID_NR_BCC,,,
 w,,INT_EEA_ID_NR_BCC,0x00A3,,,,"1B02A3",,m,_8_Skip,,, ,,m,_INT_EEA_ID_NR_BCC,,,
 r,,INT_EEA_ID_NR_BCC_1,0x00A4,,,,"1C02A4",,s,_8_Skip,,, ,,s,_INT_EEA_ID_NR_BCC_1,,,
