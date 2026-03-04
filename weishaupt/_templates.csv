@@ -1039,7 +1039,7 @@ _EEA_FC_16:EEA_FC_16,UCH,,,              # 0x01CE
 _EEA_FC_15:EEA_FC_15,UCH,,,              # 0x01D0
 _EEA_FC_14:EEA_FC_14,UCH,,,              # 0x01D2
 _EEA_FC_12:EEA_FC_12,UCH,,,              # 0x01D4
-_EEA_FC_11:EEA_FC_11,UCH,,,"F11: STB Übertemperatur Vorlauf".de "F11: STB Excess temperature supply".en
+_EEA_FC_11:EEA_FC_11,UCH,,,"F11: STB Excess temperature supply".en
 _EEA_HBRONTAG:EEA_HBRONTAG,UCH,,,        # 0x01D8
 _EEA_NZUENDTAG:EEA_NZUENDTAG,UCH,,,      # 0x01D9
 _EEA_N_PON:EEA_N_PON,UCH,,,              # 0x01DA
