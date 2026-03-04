@@ -1,0 +1,5 @@
+Component,Type,German,English,French,Italian,Spanish,Dutch,Danish,Swedish,Norwegian,Slovenian,Croatian,Hungarian,Polish,Russian
+RGrpAdr,TButton,AutoS&yn,btnAutoSynClick,eBus-Adresse des PCs,eBus address of PC,Adresse eBus du PC,Indirizzo eBus PC,Dirección eBus del PC,eBus-adres PC,PC'ens eBUS-adresse,eBUS-adress PC,eBus-adresa PC-a,PC eBus-címe,adres magistrali eBus komputera PC,Àäðåñ ÏÊ íà øèíà eBus
+RGrpComPort,TButton,akLeft,akTop,akRight,&Trennen,btnTrennenClick,COM-Port,Port-COM,Porta COM,Puerto COM,COM-Port,COM-port,COM-Port,Port COM,COM-ïîðò
+RGrpConnectState,TRadioGroup,"collegato,scollegato","conectado, desconectado","verbonden, verbroken","forbundet,afbrudt","tillkopplat,frankopplat","povezano,razdvojeno","összekapcsolva, szétválasztva","po³¹czony,roz³¹czony","ñîåäèíåí, ðàçäåëåí",TeBusStpDlg.HelpFile,stCollections,stCharSets,TeBusStpDlg,RUSSIAN_CHARSET
+RGrpConnectionType,TButton,Változat,Wer&sja,&Âåðñèÿ,Adaptertyp,Adapter type,Type adaptateur,Tipo di adattatore,Tipo de adaptador,Adapter type,Adapter-typ,tip adaptera,adaptertípus,Typ adaptera,Òèï àäàïòåðà

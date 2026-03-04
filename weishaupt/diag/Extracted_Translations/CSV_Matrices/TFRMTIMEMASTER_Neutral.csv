@@ -1,0 +1,4 @@
+Component,Type,German,English,French,Italian,Spanish,Dutch,Danish,Swedish,Norwegian,Slovenian,Croatian,Hungarian,Polish,Russian
+BtnSendPCTime,,&Aktualisieren,&Update,&Attualizzare,&Actualizar,&actualiseren,&Update,&Aktualizacja,&Update,,,,,,
+GrpBxPC,TLabel,Tempo sistema,Reloj del sistema,Systeemtijd,System time,Czas systemowy,System time,stHints,stDisplayLabels,stFonts,TfrmTimeMaster,stMultiLines,stCollections,stCharSets,TfrmTimeMaster
+GrpBxeBus,TLabel,eBUS-Zeitmaster,lblSysTime,Systemzeit,lblSysDate,Systemdatum,EDtSysTime,eBUS-Zeitmaster,eBUS time master,eBus tempo master,Reloj del sistema eBUS,eBus-tijdbeheerder,eBUS time master,eBUS,eBUS time master

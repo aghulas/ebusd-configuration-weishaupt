@@ -69,6 +69,8 @@ r,,MB_0002,0x002E,,,,"72012E",,s,_8_Skip,,,,LO_FRELI,s,_LO_FRELI,,,,LO_KFLZ,s,_L
 w,,MB_0002,0x002E,,,,"72012E",,m,_8_Skip,,,,LO_FRELI,m,_LO_FRELI,,,,LO_KFLZ,m,_LO_KFLZ,,,,LO_VX_BAD,m,_LO_VX_BAD,,,,LO_STB,m,_LO_STB,,,,LO_STBA,m,_LO_STBA,,,,LO_ION,m,_LO_ION,,,,MRESTARTED,m,_MRESTARTED,,,
 r,,MB_0003,0x002F,,,,"73012F",,s,_8_Skip,,,,OPTRESTART,s,_OPTRESTART,,,,OPTNACHFAC,s,_OPTNACHFAC,,,,OPTLDW_VSP,s,_OPTLDW_VSP,,,,OPT_NGIST,s,_OPT_NGIST,,,,OPTNOLDW,s,_OPTNOLDW,,,,OPT_TC,s,_OPT_TC,,,,OPT_GDW,s,_OPT_GDW,,,,OPTNOEMERGENCYRESET,s,_OPTNOEMERGENCYRESET,,,
 w,,MB_0003,0x002F,,,,"73012F",,m,_8_Skip,,,,OPTRESTART,m,_OPTRESTART,,,,OPTNACHFAC,m,_OPTNACHFAC,,,,OPTLDW_VSP,m,_OPTLDW_VSP,,,,OPT_NGIST,m,_OPT_NGIST,,,,OPTNOLDW,m,_OPTNOLDW,,,,OPT_TC,m,_OPT_TC,,,,OPT_GDW,m,_OPT_GDW,,,,OPTNOEMERGENCYRESET,m,_OPTNOEMERGENCYRESET,,,
+
+#FS-Paras
 r,,TCVSP,0x0030,,,,"6C0130",,s,_8_Skip,,, ,,s,_TCVSP,,,
 w,,TCVSP,0x0030,,,,"6C0130",,m,_8_Skip,,, ,,m,_TCVSP,,,
 r,,TCHZZ,0x0031,,,,"6D0131",,s,_8_Skip,,, ,,s,_TCHZZ,,,
@@ -115,6 +117,7 @@ r,,NG_BR_MIN,0x0044,,,,"180144",,s,_8_Skip,,, ,,s,_NG_BR_MIN,,,
 w,,NG_BR_MIN,0x0044,,,,"180144",,m,_8_Skip,,, ,,m,_NG_BR_MIN,,,
 r,,EE_CONST_CRC,0x0045,,,,"190145",,s,_8_Skip,,, ,,s,_EE_CONST_CRC,,,
 w,,EE_CONST_CRC,0x0045,,,,"190145",,m,_8_Skip,,, ,,m,_EE_CONST_CRC,,,
+
 r,,T_CNT_0001,0x0046,,,,"1A0146",,s,_8_Skip,,, ,,s,_T_CNT_0001,,,
 w,,T_CNT_0001,0x0046,,,,"1A0146",,m,_8_Skip,,, ,,m,_T_CNT_0001,,,
 r,,T_CNT_0002,0x0047,,,,"1B0147",,s,_8_Skip,,, ,,s,_T_CNT_0002,,,
@@ -233,10 +236,12 @@ r,,YPWM,0x007E,,,,"22017E",,s,_8_Skip,,, ,,s,_YPWM,,,
 w,,YPWM,0x007E,,,,"22017E",,m,_8_Skip,,, ,,m,_YPWM,,,
 r,,STACK,0x0080,,,,"DC0180",,s,_8_Skip,,, ,,s,_STACK,,,
 w,,STACK,0x0080,,,,"DC0180",,m,_8_Skip,,, ,,m,_STACK,,,
-r,,IRAEPKANF,0x00AB,,,,"F701AB",,s,_8_Skip,,, ,,s,_IRAEPKANF,,,
-w,,IRAEPKANF,0x00AB,,,,"F701AB",,m,_8_Skip,,, ,,m,_IRAEPKANF,,,
-# r,,MAXTVSOLL,0x00AB,,,,"F701AB",,s,_8_Skip,,, ,,s,_MAXTVSOLL,,,                            # Alias of IRAEPKANF
-# w,,MAXTVSOLL,0x00AB,,,,"F701AB",,m,_8_Skip,,, ,,m,_MAXTVSOLL,,,                            # Alias of IRAEPKANF
+
+#NFS-Paras
+#r,,IRAEPKANF,0x00AB,,,,"F701AB",,s,_8_Skip,,, ,,s,_IRAEPKANF,,,
+#w,,IRAEPKANF,0x00AB,,,,"F701AB",,m,_8_Skip,,, ,,m,_IRAEPKANF,,,
+r,,MAXTVSOLL,0x00AB,,,,"F701AB",,s,_8_Skip,,, ,,s,_MAXTVSOLL,,,                            # Alias of IRAEPKANF
+w,,MAXTVSOLL,0x00AB,,,,"F701AB",,m,_8_Skip,,, ,,m,_MAXTVSOLL,,,                            # Alias of IRAEPKANF
 r,,MINTVSOLL,0x00AC,,,,"F001AC",,s,_8_Skip,,, ,,s,_MINTVSOLL,,,
 w,,MINTVSOLL,0x00AC,,,,"F001AC",,m,_8_Skip,,, ,,m,_MINTVSOLL,,,
 r,,HZ_HYS,0x00AD,,,,"F101AD",,s,_8_Skip,,, ,,s,_HZ_HYS,,,
@@ -345,6 +350,8 @@ r,,REF_KORR,0x00E0,,,,"BC01E0",,s,_8_Skip,,, ,,s,_REF_KORR,,,
 w,,REF_KORR,0x00E0,,,,"BC01E0",,m,_8_Skip,,, ,,m,_REF_KORR,,,
 r,,KES_DAT_CRC,0x00E1,,,,"BD01E1",,s,_8_Skip,,, ,,s,_KES_DAT_CRC,,,
 w,,KES_DAT_CRC,0x00E1,,,,"BD01E1",,m,_8_Skip,,, ,,m,_KES_DAT_CRC,,,
+
+
 r,,AIN_FS_ERR_MASK,0x00E2,,,,"BE01E2",,s,_8_Skip,,, ,,s,_AIN_FS_ERR_MASK,,,
 w,,AIN_FS_ERR_MASK,0x00E2,,,,"BE01E2",,m,_8_Skip,,, ,,m,_AIN_FS_ERR_MASK,,,
 r,,ERR_MERK_ALT,0x00E3,,,,"BF01E3",,s,_8_Skip,,, ,,s,_ERR_MERK_ALT,,,
@@ -1477,12 +1484,16 @@ r,,CS_BYTE_RD,0x00A1,,,,"1902A1",,s,_8_Skip,,, ,,s,_CS_BYTE_RD,,,
 w,,CS_BYTE_RD,0x00A1,,,,"1902A1",,m,_8_Skip,,, ,,m,_CS_BYTE_RD,,,
 r,,EEA_CONST_CRC2,0x00A2,,,,"1A02A2",,s,_8_Skip,,, ,,s,_EEA_CONST_CRC2,,,
 w,,EEA_CONST_CRC2,0x00A2,,,,"1A02A2",,m,_8_Skip,,, ,,m,_EEA_CONST_CRC2,,,
+
+BCC_ID
 r,,INT_EEA_ID_NR_BCC,0x00A3,,,,"1B02A3",,s,_8_Skip,,, ,,s,_INT_EEA_ID_NR_BCC,,,
 w,,INT_EEA_ID_NR_BCC,0x00A3,,,,"1B02A3",,m,_8_Skip,,, ,,m,_INT_EEA_ID_NR_BCC,,,
 r,,INT_EEA_ID_NR_BCC_1,0x00A4,,,,"1C02A4",,s,_8_Skip,,, ,,s,_INT_EEA_ID_NR_BCC_1,,,
 w,,INT_EEA_ID_NR_BCC_1,0x00A4,,,,"1C02A4",,m,_8_Skip,,, ,,m,_INT_EEA_ID_NR_BCC_1,,,
 r,,INT_EEA_ID_CRC_BCC,0x00A5,,,,"1D02A5",,s,_8_Skip,,, ,,s,_INT_EEA_ID_CRC_BCC,,,
 w,,INT_EEA_ID_CRC_BCC,0x00A5,,,,"1D02A5",,m,_8_Skip,,, ,,m,_INT_EEA_ID_CRC_BCC,,,
+
+
 r,,INT_EEA_ID_NR_BCC_2,0x00A6,,,,"1E02A6",,s,_8_Skip,,, ,,s,_INT_EEA_ID_NR_BCC_2,,,
 w,,INT_EEA_ID_NR_BCC_2,0x00A6,,,,"1E02A6",,m,_8_Skip,,, ,,m,_INT_EEA_ID_NR_BCC_2,,,
 r,,INT_EEA_ID_CRC_BCC_2,0x00A8,,,,"1002A8",,s,_8_Skip,,, ,,s,_INT_EEA_ID_CRC_BCC_2,,,
@@ -1689,6 +1700,8 @@ r,,EEA_F_HIST_END,0x0231,,,,"9D06020231",,s,_8_Skip,,, ,,s,_EEA_F_HIST_END,,,
 w,,EEA_F_HIST_END,0x0231,,,,"9D06020231",,m,_8_Skip,,, ,,m,_EEA_F_HIST_END,,,
 r,,SYS_TAKT,0x02EE,,,,"42060202EE",,s,_8_Skip,,, ,,s,_SYS_TAKT,,,
 w,,SYS_TAKT,0x02EE,,,,"42060202EE",,m,_8_Skip,,, ,,m,_SYS_TAKT,,,
+
+# Main Paras
 r,,EEA_TVSOLL_EPM,0x0300,,,,"1006030200",,s,_8_Skip,,, ,,s,_EEA_TVSOLL_EPM,,,
 w,,EEA_TVSOLL_EPM,0x0300,,,,"1006030200",,m,_8_Skip,,, ,,m,_EEA_TVSOLL_EPM,,,
 r,,EEA_TVABSENK,0x0301,,,,"1106030201",,s,_8_Skip,,, ,,s,_EEA_TVABSENK,,,
@@ -1699,6 +1712,8 @@ r,,EEA_WISO_EPM,0x0303,,,,"1306030203",,s,_8_Skip,,, ,,s,_EEA_WISO_EPM,,,
 w,,EEA_WISO_EPM,0x0303,,,,"1306030203",,m,_8_Skip,,, ,,m,_EEA_WISO_EPM,,,
 r,,EEA_MAINPARACRC,0x0304,,,,"1406030204",,s,_8_Skip,,, ,,s,_EEA_MAINPARACRC,,,
 w,,EEA_MAINPARACRC,0x0304,,,,"1406030204",,m,_8_Skip,,, ,,m,_EEA_MAINPARACRC,,,
+
+
 r,,EEA_TVSOLL_EPM2,0x0307,,,,"1706030207",,s,_8_Skip,,, ,,s,_EEA_TVSOLL_EPM2,,,
 w,,EEA_TVSOLL_EPM2,0x0307,,,,"1706030207",,m,_8_Skip,,, ,,m,_EEA_TVSOLL_EPM2,,,
 

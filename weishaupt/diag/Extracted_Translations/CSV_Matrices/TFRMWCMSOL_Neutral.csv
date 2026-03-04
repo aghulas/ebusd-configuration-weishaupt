@@ -1,0 +1,78 @@
+Component,Type,German,English,French,Italian,Spanish,Dutch,Danish,Swedish,Norwegian,Slovenian,Croatian,Hungarian,Polish,Russian
+BtnActivate,,&Aktivieren,,,,,,,,,,,,,
+BtnActivateClick,TGroupBox,WidthUnit,pReadOnly,MaxLength,EditRight,EditWithColor,EgrpReserve,A?? 1/P-Regler,WidthEdit,WidthLabel,WidthUnit,pReadOnly,MaxLength,EditRight,EditWithColor
+BtnDeactivate,,&Deaktivieren,,,,,,,,,,,,,
+BtnLoadParas,,&Laden,&Load,&Charger,&Caricare,&Cargar,&Laden,Indlæs,&Ladda,&pozivati,&Betölteni,&Otwórz,&Çàãðóçèòü,,
+BtnReadAParas,,&Auslesen,,,,,,,,,,,,,
+BtnReadConfig,,&Ñ÷èòàòü,EGrpP572_576,lbl571,CbbxP571,lbl577,CbbxP577,EGrpP578,GroupBox4,Label1,Label2,Label4,Label5,CbbxPuffer,CbbxVFStyp
+BtnReadFM_HZK,,&Auslesen,&Read,&Lire,&Leggere,&Leer,&Aflezen,Udlæs,&Läsa,&oèitati,&Kiolvasni,&Odczyt,&Ñ÷èòàòü,,
+BtnReadFM_WW,,&Auslesen,&Read,&Lire,&Leggere,&Leer,&Aflezen,Udlæs,&Läsa,&oèitati,&Kiolvasni,&Odczyt,&Ñ÷èòàòü,,
+BtnReadHistorie,,&Auslesen,&Read,&Lire,&Leggere,&Leer,&Aflezen,Udlæs,&Läsa,&oèitati,&Kiolvasni,&Odczyt,&Ñ÷èòàòü,,
+BtnReadMonatsertrag,,"Aus,Ein",CbbxP317.Items,"WA-Sol,WES-C",EGrpP319.Items,319 Kollektoranzahl,CbbxP318.Items,"CPU/KA,EWW8",CbbxP320.Items,20-7 EA1.0 | 20-11 EA1.0,EGrpAParas.Items,A21: Minimale Weichentemperatur#°C | A22: Maximale Weichentemperatur#°C | A23: Weiche Überhöhung#K | A24: WTC Modulation B10# | A25: Kessel Abregelungstemperatur | A41: Stagnations- Abschaltschwelle: Kollektor - Maximaltemperatur#°C | A42: Abschaltschwelle: FlowRotor - Maximaltemperatur#°C | A43: WASol maximal Temperatur#°C | A44: WES-C maximal Temperatur#°C,| A49: Spez. Min. Pumpenleistung Hydraulikgruppe#% | A50: Spez. Max. Pumpenleistung Hydraulikgruppe,#% | A61: V - P Regelparameter | A62: V - I Regelparameter#1/s | A63: DTR - P Regelparameter | A64: DTR - I Regelparameter#1/s,"Aus,Ein"
+BtnReadMonatsertragClick,TIB_STRINGLIST,Nederlands,Dansk,Swedish,Norwegian,Slovenski,Hrvatski,Magyar,Polski,Russian,Greece,Language,Deutsch,TranslationData,stCaptions
+BtnReadTagesertrag,,&Auslesen,,,,,,,,,,,,,
+BtnResetHistorie,,&Reset,R&eset,&Resettare,Rese&t,&Reset,Reset,&Aterställ,&vrati,&Visszaállítani,R&eset,Ñáðî&ñèòü,,,
+BtnSaveParas,,&Speichern,&Save,&Enregistrer,&Salvare,&Guardar,&Opslaan,Gem,&Spara,&pohraniti,&Tárolni,&Zapis,&Ñîõðàíèòü,,
+BtnSaveParasClick,TComboBox,EditRight,EditWithColor,CbbxP318,Style,csDropDownList,ItemHeight,CPU/KA,EWW8,CbbxP320,Style,csDropDownList,ItemHeight,20-7 EA1.0,20-11 EA1.0
+BtnWriteAParas,,&Eintragen,,,,,,,,,,,,,
+BtnWriteFM_HZK,TBShtFMHZ,&Bevinni,&Zapis w urz.,&Âíåñòè,Fachmann,Engineer HC,Circuit chauff. Installateur,Tecnico circuito risc.,Técnico Cto. calef.,Vakman SK,Fagmanden VK,Fackman,struenjak KG,ftk szakember,Serwisant-ob.grz.
+BtnWriteFM_WW,,&Eintragen,&Write,&Ecrire,&Scrivere,&Escribir,&Optekenen,Skriv,&Skriva,&unositi,&Bevinni,&Zapis w urz.,&Âíåñòè,,
+CbBx827,TGroupBox,Style,csDropDownList,ItemHeight,Aus,Ein,,,,,,,,,
+CbBxLegioFktChange,TComboBox,Aus,Montag,Dienstag,Mittwoch,Donnerstag,Freitag,Samstag,Sonntag,täglich,CbbxP580,Style,csDropDownList,ItemHeight,
+CbBxLegioZeitChange,TCheckBox,1A50: Spez. Max. Pumpenleistung Hydraulikgruppe,A61: V - P Regelparameter,A62: V - I Regelparameter#1/s,A63: DTR - P Regelparameter,A64: DTR - I Regelparameter#1/s,WidthEdit,WidthLabel,WidthUnit,pReadOnly,MaxLength,EditRight,EditWithColor,GroupBox3,Parameter
+CbBxP801,TEditGroup,#863 Solldifferenztemperatur T3-T2#K,864 Schaltdifferenz DTR Aus#K,881 Solarer Überschuss#°C,882 Rückkühlfunktion#,883 Solar Prio HZ#KW,884 Solar Prio WW#KW,WidthEdit,WidthLabel,WidthUnit,pReadOnly,MaxLength,EditRight,EditWithColor,EGrpP8xx
+CbBxStatus,TEdit,2 Solarregler in Handfunktion,3 Solarregler in Notbetrieb,4 Pumpenstandsschutz,5 Referenzierung unterer AP,6 Referenzierung Kennlinie,7 Keine solare Energiegewinnung,8 Kein Ertrag,9 Solare Energiegewinnung,10 Solare Rückkühlung,11 Kollektorschutz,12 DTR Sonderphase,13 Stabilisierung,14 Ertrag,15 Regelung
+ChkBxP581,TComboBox,ItemHeight,lbl582,582 Zirk-Zeit,582 Circ. time,582 Temps circulation,582 Tempo-ricircolo,582 Tiempo circul.,582 Circ.-tijd,582 Cirk-tid,582 Cirk.-tid,582 sat cirkulacije,582 cirk-idõ,582 Czas cyrkul.,CbbxP582
+ChkBxSolar,TEditGroup,574 WW-Max#°C,575 WW-Schaltdiff#K,576 WW-Überhöhung#K,WidthEdit,WidthLabel,WidthUnit,pReadOnly,MaxLength,EditRight,EditWithColor,CbbxP571,Style,csDropDownList,ItemHeight
+ChkGrpKonfig,TGroupBox,B10,B11,test,,,,,,,,,,,
+ChkGrpValues,TTabSheet,Überschuss HZ,Überschuss WW,Übertemp HZ,Übertemp WW,Akzeptanz HZ,Akzeptanz WW,Variabler Ausgang,test,Fachmann,lbl801,801 Ausgang VA,test,,
+EdtError,TGroupBox,FlowRotor Volumenstrom#l/min,Ertrag#kW,Gedämpfter Ertrag#kW,Leistung Pumpe#%,Systemsollwert#°C,WidthEdit,WidthLabel,WidthUnit,pReadOnly,MaxLength,EditRight,EditWithColor,GroupBox5,EgrpValues
+GrpBxBurner,TGroupBox,Betriebszustand,Label5,Fehlermeldung,CbbxPuffer,Style,csSimple,ItemHeight,CbbxVFStyp,Style,csSimple,ItemHeight,VFS1 12,VFS2 40,lbl801
+GrpBxConfig,TLabel,Label8,P340 Version Sol,,,,,,,,,,,,
+GrpBxConfigParas,TButton,Konfiguration,Configuration:,Configuration :,Configurazione:,Configuración,Configuratie,Konfiguration,Konfigurering:,Konfiguracija,Konfiguráció:,konfiguracja:,Êîíôèãóðàöèÿ:,,
+GrpBxFileKA,TButton,Parameterdatei,Parameter file,Fichier paramètres,Archivio dati parametri,Archivo de parámetros,Bestand parameter,Parameter fil,Parameterfil,Datoteka parametara,paraméterérték,Plik z parametrami,Ôàéë ïàðàìåòðîâ,,
+GrpBxFreischaltung,TButton,Kommunikation freischalten,,,,,,,,,,,,,
+GrpBxHistorie,TButton,Historie,History,Historique,Storico,Histórico,Historiek,Historik,,,,,,,
+GrpBxHistory,TLabel,579 legionella funkció,579 F.Legio,lbl580,580 Legionellenzeitpunkt,580 Legio time,580 Moment légionnelles,580 Orario Legio,580 Tiempo anti-legionela,580 Legio-tijdstip,580 Legio-tidspunkt,580 Legionella-tidpunkt,580 Legio-vrijeme,580 legionella idõpont,580 Pkt czas.w³.f.Legio
+GrpBxP513,TCheckGroup,P333 Konfig Sol,,,,,,,,,,,,,
+GrpBxP514,TEditGroup,P334 Konfig Verbraucher,EgrpVerbraucher,WidthEdit,WidthLabel,WidthUnit,pReadOnly,MaxLength,EditRight,EditWithColor,EgrpVerbraucher,,,,
+GrpBxParasFM,TButton,Parameter,Paramètres,Parametri,Parámetros,Parameter,parametar,paraméter,Parametr,Ïàðàìåòðû,,,,,
+GrpBxParasWW,TButton,Parameter,Paramètres,Parametri,Parámetros,Parameter,parametar,paraméter,Parametr,Ïàðàìåòðû,,,,,
+Lbl581,TComboBox,(581 Zirkulation bei Legionellen-Funktion,CbbxP579,Style,csDropDownList,ItemHeight,581 Zirkulation bei Legionellen-Funktion,TbshtAParas,A-Parameter,GroupBox3,Parameter,TbshtAParas,EGrpAParas,GroupBox3,
+LblAdresse,TStringGrid,Gerät,,,,,,,,,,,,,
+LblBetriebsstd,TLabel,Betriebsstd [h],,,,,,,,,,,,,
+LblDate,TLabel,Datum,Date,Data,Fecha,Datum,Date,Data,Date,,,,,,
+LblDatum,TLabel,Datum,,,,,,,,,,,,,
+LblDatumMonate,TLabel,Datum,,,,,,,,,,,,,
+LblErr1,TLabel,Îøèáêà 1,lblerr10,Fehler 10,Error 10,Erreur 10,Errore 10,Error 10,Fout 10,Fejl 10,Fel 10,kvar 10,hiba 10,Blad 10,Îøèáêà 10
+LblErr2,TLabel,Fehler 2,Error 2,Erreur 2,Errore 2,Error 2,Fout 2,Fejl 2,Fel 2,kvar 2,hiba 2,Blad 2,Îøèáêà 2,,
+LblErr3,TLabel,Fehler 3,Error 3,Erreur 3,Errore 3,Error 3,Fout 3,Fejl 3,Fel 3,kvar 3,hiba 3,Blad 3,Îøèáêà 3,,
+LblErr4,TLabel,Fehler 4,Error 4,Erreur 4,Errore 4,Error 4,Fout 4,Fejl 4,Fel 4,kvar 4,hiba 4,Blad 4,Îøèáêà 4,,
+LblErr5,TLabel,Îøèáêà 8,lblerr9,Fehler 9,Error 9,Erreur 9,Errore 9,Error 9,Fout 9,Fejl 9,Fel 9,kvar 9,hiba 9,Blad 9,Îøèáêà 9
+LblErrorCode,TLabel,Fehlercode,Error code,Code défaut,Codice errore,Código de error,Foutcode,Fejlkode,Felkod,smetnja koda,hibakód,Kod b³êdu,Êîä îøèáêè,,
+LblErtrag,TLabel,Ertrag [kWh],,,,,,,,,,,,,
+LblErtragMonate,TLabel,Ertrag[kWh],,,,,,,,,,,,,
+LblP317,TLabel,317 Sol-Schema,,,,,,,,,,,,,
+LblP318,TLabel,318 Verwendung B3,,,,,,,,,,,,,
+LblP320,TComboBox,320 Typ WHP-Sol,Cbbx882,CbbxP317,EGrpP319,CbbxP318,CbbxP320,,,,,,,,
+LblRueckkuhl,TStringGrid,Rückkühlung [kWh],GroupBox1,Statistik,,,,,,,,,,,
+LblRueckkuhlMonate,TLabel,Ertrag[kWh],Label10,Rückkühlung[kWh],Label6,Datum,Label9,Ertrag[kWh],Label10,Rückkühlung[kWh],GroupBox2,Statistik,Label6,Label9,Label10
+LblSolar,TLabel,%Solarnutzung bei Legionellen-Funktion,Solarnutzung bei Legionellen-Funktion,,,,,,,,,,,,
+LblTime,TLabel,Label1,Puffervariante,Label2,VFS-Typ,Label4,Betriebszustand,Label5,Fehlermeldung,GroupBox5,lblerr6,lblerr7,lblerr8,lblerr9,lblerr10
+StrGridHistory,TGroupBox,ColCount,DefaultColWidth,FixedCols,RowCount,FixedRows,ScrollBars,ssNone,,,,,,,
+StrGridMonate,TGroupBox,ColCount,DefaultColWidth,FixedCols,RowCount,FixedRows,ScrollBars,ssVertical,GroupBox2,Statistik,GroupBox2,,,,
+StrGridTage,TGroupBox,ColCount,DefaultColWidth,FixedCols,RowCount,FixedRows,ScrollBars,ssNone,GroupBox1,Statistik,GroupBox1,,,,
+TbShtFMWW,TLabel,Tecnico AC,Técnico ACS,Vakman,Fagmanden,Fackman,struenjak,HMV szakember,Serwisant-cwu,Ñïåöèàëèñò,lbl579,lbl580,lbl582,CbbxP579,CbbxP580
+TbShtHistorie,TGroupBox,Fehlerhistorie,Error history,Historique défauts,Storico errori,Histórico de errores,Fouthistoriek,Fejlhistorik,Felhistorik,povjest kvarova,hibatörténet,Historia bledów,Ñïèñîê îøèáîê,,
+TbShtKonfig,TGroupBox,Konfiguration,Configuration:,Configuration :,Configurazione:,Configuración,Configuratie,Konfiguration,Konfigurering:,Konfiguracija,Konfiguráció:,konfiguracja:,Êîíôèãóðàöèÿ:,,
+TbShtProcess,TGroupBox,Prozesswerte,Process values,Valeurs de process,Valori di processo,Valores de proceso,Proceswaarde,Procesværdi,Processdata,Procesni iznosi,foly.értékek,Dane procesowe,Ïðîöåññíûå çíà÷åíèÿ,,
+TbShtStatMonate,TLabel,Statistik Monate,,,,,,,,,,,,,
+TbShtStatTage,TLabel,Statistik Tage,,,,,,,,,,,,,
+strcHZ,,Risc.,Cto.,Värme,Grije,fûtés,tryb og,Îòîïëåíèå,,,,,,,
+strcPuffer1,,Puffer 1,Calorifier 1,Tampon 1,Polmone 1,Depósito apoyo 1,Buffervat 1,Buffer 1,Ackumulator 1,aku-spremnik 1,puffer 1,zasobnik buforowy 1,Áóôåð 1,,
+strcPuffer2,,Puffer 2,Calorifier 2,Tampon 2,Polmone 2,Depósito apoyo 2,Buffervat 2,Buffer 2,Ackumulator 2,aku-spremnik 2,puffer 2,zasobnik buforowy 2,Áóôåð 2,,
+strcStandby,,Standby,standby,Standby,,,,,,,,,,,
+strcWW,,DHW,ECS,ACS,PTV,HMV,c.w.u.,,,,,,,,
+strcWWCPUA,,Warmwasser #A,DHW #A,Eau Chaude sanitaire #A,Acqua calda #A,ACS #A,Warm water #A,Varmt vand #A,Varmvatten #A,PTV #A,HMV #A,ciep³a woda #A,Ãîðÿ÷àÿ âîäà #A,,
+strcWWKA,,Acqua calda KA,ACS KA,Warm water KA,Varmt vand KA,Varmvatten KA,PTV KA,HMV KA,ciep³a woda KA,Ãîðÿ÷àÿ âîäà KA,TfrmWCMSOL.HelpFile,stCollections,stCharSets,TfrmWCMSOL,RUSSIAN_CHARSET
+strcWeiche,,Weiche,De-couple,Bouteille casse-pression,Compensatore,Compensador,Evenwichtsfles,Blandepotte,Växel,razdjelnik,váltó,sprzêg³o,Ñòðåëêà,,

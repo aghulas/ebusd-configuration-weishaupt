@@ -1,0 +1,8 @@
+Component,Type,German,English,French,Italian,Spanish,Dutch,Danish,Swedish,Norwegian,Slovenian,Croatian,Hungarian,Polish,Russian
+BtnClose,,&Schließen,Close,Fermer,Cerrar,Chiudi,Zavrít,,,,,,,,
+BtnFindCom,TSComStpDlg,"&1,&2,&3,&4,&5,&6,&7,&8,&9,&10,&11,&12",comboBaudRate.Items,"1200,2400,4800,9600,187500","verbunden,getrennt","connected,disconnected","connecté,déconnecté","conectado,desconectado","Collegato,""Collegamento interrotto","p?ipojeno,odpojeno",TSComStpDlg.HelpFile,Baud rate,stCollections,stCharSets,lblBaudRate
+BtnFindComClick,TIB_STRINGLIST,Französisch,Spanisch,Italienisch,Tschechisch,Language,Deutsch,CommonContainer,MainForm.siLang1,TranslationData,stCaptions,COM-Port SCom2,lblBaudRate,&Baudrate:,&Baud rate:
+ChkBxUSB,,USB,btnOptoTest,&Opto-Adapter-Test,btnOptoTest,,,,,,,,,,
+ChkBxUSBClick,TButton,btnOptoTest,&Opto-Adapter-Test,btnOptoTestClick,,,,,,,,,,,
+RGrpComPort,TComboBox,Pripojit,btnTrennen,&Trennen,Disconnect,&Deconnecter,Desconectar,Interrompi coll.,Odpojit,comboBaudRate,cbxDTR,cbxRTS,cbxHardWareEcho,btnConnect,btnTrennen
+RGrpConnectState,TButton,verbunden,getrennt,,,,,,,,,,,,

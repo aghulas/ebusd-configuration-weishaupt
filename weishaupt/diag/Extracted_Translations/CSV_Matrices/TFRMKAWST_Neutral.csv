@@ -1,0 +1,4 @@
+Component,Type,German,English,French,Italian,Spanish,Dutch,Danish,Swedish,Norwegian,Slovenian,Croatian,Hungarian,Polish,Russian
+ChkBxHZFrei8,TIB_STRINGLIST,TsiLangLinked,siLangLinked1,Version,5.3.1.1,EGrpHZIn.Items,NumOfLanguages,LangDispatcher,MainForm.siLangDispatcher1,OnChangeLanguage,siLangLinked1ChangeLanguage,LangDelim,,,
+EdtSysWA,TCheckBox,stDisplayLabels,stFonts,TfrmKAWST,stMultiLines,TfrmKAWST.HelpFile,stCollections,stCharSets,TfrmKAWST,RUSSIAN_CHARSET,,,,,
+GrpBoxHzIn,TLabel,lblHK1,lblHK2,lblHK3,lblHK4,lblHK5,lblHK6,lblHK7,lblHK8,lblWAHKs,lblWAWW,lblSysHZSoll,lblSysWWSoll,lblHKFrg,EGrpHZIn

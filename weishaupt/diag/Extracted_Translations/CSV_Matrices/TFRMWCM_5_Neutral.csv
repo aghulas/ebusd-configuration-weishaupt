@@ -1,0 +1,104 @@
+Component,Type,German,English,French,Italian,Spanish,Dutch,Danish,Swedish,Norwegian,Slovenian,Croatian,Hungarian,Polish,Russian
+BtnCalib,,&Kalibration,&Calibration,&Calibratura,&Calibration,&Calibratie,&Calibration,&Kalibrering,Kalibrering,&Kalibracija,Kalibracija,Kalibrálni,&Kalibracja,&Calibration,
+BtnFSLoad,,&Laden,&Load,&Charger,&Caricare,&Cargar,&Laden,Indlæs,La&dda,Innles,&Naloži,&pozivati,&Betölteni,&Otwórz,&Çàãðóçèòü
+BtnFSRead,,&Auslesen,&Read,&Lire,&Leggere,&Leer,&Aflezen,Udlæs,&Läs,Avles,&Preberi,&ocitati,&Kiolvasni,&Odczyt,&Ñ÷èòàòü
+BtnFSSave,,&Speichern,&Save,&Enregistrer,&Salvare,&Guardar,&Opslaan,Gem,&Spara,Lagre,&Shrani,&pohraniti,&Tárolni,&Zapis,&Ñîõðàíèòü
+BtnFSSaveClick,TButton,btnSaveAll,Alle &Daten speichern,btnSaveAllClick,,,,,,,,,,,
+BtnFSWrite,,&Eintragen,&Write,&Ecrire,&Scrivere,&Escribir,&Optekenen,Skriv,S&kriv,Skriv inn,&Vnesi,&unositi,&Bevinni,&Zapis w urz.,&Ââåñòè
+BtnHistoryClear,,Rüc&ksetzen,R&eset,&Resettare,Rese&t,&Reset,Reset,&Återställ,Tilbakestill,Po&nastavi,&vrati,&Visszaállítani,R&eset,Ñáðî&ñèòü,
+BtnHistoryLoad,,&Laden,&Load,&Charger,&Caricare,&Cargar,&Laden,Indlæs,La&dda,Innles,&Naloži,&pozivati,&Betölteni,&Otwórz,&Çàãðóçèòü
+BtnHistoryRead,,&Auslesen,&Read,&Lire,&Leggere,&Leer,&Aflezen,Udlæs,&Läs,Avles,&Preberi,&ocitati,&Kiolvasni,&Odczyt,&Ñ÷èòàòü
+BtnHistorySave,,&Speichern,&Save,&Enregistrer,&Salvare,&Guardar,&Opslaan,Gem,&Spara,Lagre,&Shrani,&pohraniti,&Tárolni,&Zapis,&Ñîõðàíèòü
+BtnMenuLoad,,&Laden,&Load,&Charger,&Caricare,&Cargar,&Laden,Indlæs,La&dda,Innles,&Naloži,&pozivati,&Betölteni,&Otwórz,&Çàãðóçèòü
+BtnMenuRead,,&Auslesen,&Read,&Lire,&Leggere,&Leer,&Aflezen,Udlæs,&Läs,Avles,&Preberi,&ocitati,&Kiolvasni,&Odczyt,&Ñ÷èòàòü
+BtnMenuSave,,&Speichern,&Save,&Enregistrer,&Salvare,&Guardar,&Opslaan,Gem,&Spara,Lagre,&Shrani,&pohraniti,&Tárolni,&Zapis,&Ñîõðàíèòü
+BtnMenuWrite,,Save all &Data,Enregistrer &toutes les données,&Salvare tutti i dati,Guardar todos los &datos,&Alle gegevens opslaan,Alle data gemmes,La&gra alla data,Lagre alle data,Shrani vse &podatke,&sve podatke pohraniti,Minden &adatot tárolni,Zapis &wszystkich danych,Ñîõðàíèòü &âñå äàííûå,btnSaveAll
+BtnServiceLoad,,&Laden,&Load,&Charger,&Caricare,&Cargar,&Laden,Indlæs,La&dda,Innles,&Naloži,&pozivati,&Betölteni,&Otwórz,&Çàãðóçèòü
+BtnServiceRead,,&Auslesen,&Read,&Lire,&Leggere,&Leer,&Aflezen,Udlæs,&Läs,Avles,&Preberi,&ocitati,&Kiolvasni,&Odczyt,&Ñ÷èòàòü
+BtnServiceSave,,&Speichern,&Save,&Enregistrer,&Salvare,&Guardar,&Opslaan,Gem,&Spara,Lagre,&Shrani,&pohraniti,&Tárolni,&Zapis,&Ñîõðàíèòü
+BtnServiceWrite,,&Eintragen,&Write,&Ecrire,&Scrivere,&Escribir,&Optekenen,Skriv,S&kriv,Skriv inn,&Vnesi,&unositi,&Bevinni,&Zapis w urz.,&Ââåñòè
+BtnStatisticClear,,Rüc&ksetzen,R&eset,&Resettare,Rese&t,&Reset,Reset,&Återställ,Tilbakestill,Po&nastavi,&vrati,&Visszaállítani,R&eset,Ñáðî&ñèòü,
+BtnStatisticLoad,,&Laden,&Load,&Charger,&Caricare,&Cargar,&Laden,Indlæs,La&dda,Innles,&Naloži,&pozivati,&Betölteni,&Otwórz,&Çàãðóçèòü
+BtnStatisticRead,,&Auslesen,&Read,&Lire,&Leggere,&Leer,&Aflezen,Udlæs,&Läs,Avles,&Preberi,&ocitati,&Kiolvasni,&Odczyt,&Ñ÷èòàòü
+BtnStatisticSave,,&Speichern,&Save,&Enregistrer,&Salvare,&Guardar,&Opslaan,Gem,&Spara,Lagre,&Shrani,&pohraniti,&Tárolni,&Zapis,&Ñîõðàíèòü
+CbBxBetriebsartHZ,,Style,csSimple,ItemHeight,cbBxBetriebsartWW,,,,,,,,,,
+CbBxBetriebsartHZChange,TComboBox,pReadOnly,MaxLength,EditRight,EditWithColor,Standby,LDW Ruhekontaktkontrolle,LDW Arbeitskontaktkontrolle,Vorspülung,Anfahren der Zünddrehzahl,Sicherheitszeit,#Flammenstabilisierung/Regelfreigabe,Ventilkontrolle,Nachspülung,Klappenlaufzeit
+CbBxFCode,,Style,csSimple,ItemHeight,,,,,,,,,,,
+CbBxP10,,Style,csDropDownList,ItemHeight,,,,,,,,,,,
+CbBxP10Change,TComboBox,Ausf.- H,Ausf.- W,Ausf.- H mit Puffer P3,Ausf.- W mit Puffer P3,,,,,,,,,,
+CbBxP13,TComboBox,Style,csDropDownList,ItemHeight,0 - Gasvorventil,1 - Störungsweitermeldung,2 - Kesselpumpe (Hz+WW-Betrieb),3 - Heizkreispumpe,4 - WW-Ladepumpe,6 - Zirkulationspumpe FB#1,7 - Heizkreispumpe FB#1,8 - Dauerspannung,,,
+CbBxP14,TEdit,Style,csDropDownList,ItemHeight,0 - Gasvorventil,1 - Störungsweitermeldung,2 - Kesselpumpe (Hz+WW-Betrieb),3 - Heizkreispumpe,4 - WW-Ladepumpe,6 - Zirkulationspumpe FB#1,7 - Heizkreispumpe FB#1,8 - Dauerspannung,,,
+CbBxP15,TComboBox,Style,csDropDownList,ItemHeight,0 - Gasvorventil,1 - Störungsweitermeldung,2 - Kesselpumpe (Hz+WW-Betrieb),3 - Heizkreispumpe,4 - WW-Ladepumpe,6 - Zirkulationspumpe FB#1,7 - Heizkreispumpe FB#1,,,,
+CbBxP16,TComboBox,Style,csDropDownList,ItemHeight,0 - Heizkreisfreigabe,1 - Heizkreis Absenk/Normal,3 - Stand-By mit Frostschutz,,,,,,,,
+CbBxP17,,Style,csDropDownList,ItemHeight,,,,,,,,,,,
+CbBxP17Change,TEditGroup,P47: dT-Regelung B12/B11#K,P48: dT-Regelung B12/B13#K,P49: Regelintervall Pumpe#s,P50: Überhöhung WW-Ladung#K,P51: Neg. Schaltdifferenz WW#K,P70: Wartungsintervall#h,P71: eBUS-Speisung#,WidthEdit,WidthLabel,WidthUnit,pReadOnly,MaxLength,EditRight,EditWithColor
+CbBxP43,,Style,csDropDownList,ItemHeight,,,,,,,,,,,
+CbBxS5Step,,Style,csSimple,ItemHeight,,,,,,,,,,,
+ChkBx10V,TEdit,0-10V,,,,,,,,,,,,,
+ChkBxHZFrg,TCheckBox,Freigabe,Release,Autorisation,Consenso,Permiso,Vrijgave,Frigivelse,Frigivning,Frigivelse,Sprostitev,odobreno,engedélyezés,Zezwolenie,Ïóñê
+ChkBxPWMinvers,TGroupBox,"nem (-), igen (A)",nie (-) | tak (A),Erdgas (E) | Flüssiggas (F) | Erdgas Abgasklappe (EA) | Flüssiggas Abgasklappe (FA),Natural Gas (E) | Liquid Petroleum Gas (F) | Natural Gas flue gas damper (EA) | Liq. Petrol. Gas flue gas damper (FA),"Gaz naturel (E) | GPL (F) | Clapet fumées gaz naturel (EA) | GPL Clapet fumées gaz naturel (FA)"",",Gas naturale (E) | GPL (F) | Serranda fumi gas nat. (EA) | GPL Serranda fumi gas nat. (FA),Gas natural (E) | Gas GLP(F) | Gas natural clapeta humos (EA) | Gas GLP Gas natural clapeta humos (FA),Aardgas (E) | LPG (F) | Aardgas rookgasklep (EA) | LPG Aardgas rookgasklep (FA),N-gas (E) | F-gas (F) | N-gas røggasklap (EA) | F-gas N-gas røggasklap (FA),Naturgas (E) | Gasol (F) | Naturgas avgasventil (EA) | Gasol Naturgas avgasventil (FA),Zem. plin (E) | UNP (F) | Zem. plin – loputa dim. plinov (EA) | UNP Zem. plin – loputa dim. plinov (FA),"prirodni plin (E)"",UNP(F),""prirodni plin dimovodna zaklopka(EA) | UNP prirodni plin dimovodna zaklopka(FA)",földgáz (E) | pb-gáz (F) | földgáz füstgázcsappantyú (EA) | pb-gáz földgáz füstgázcsappantyú (FA),gaz ziemny (E) | gaz p³ynny (F) | gaz ziemny (wspóln.odprow.spalin) (EA) | gaz p³ynny gaz ziemny (wspóln.odprow.spalin) (FA)
+ChkBxWWFrg,TTabSheet,Freigabe,Release,Autorisation,Consenso,Permiso,Vrijgave,Frigivelse,Frigivning,Frigivelse,Sprostitev,odobreno,engedélyezés,Zezwolenie,Ïóñê
+ChkGrpFSOpt,,OnCheckBoxClick,,,,,,,,,,,,,
+ChkGrpFSOptCheckBoxClick,TEdit,S41: GDW,S42: LDW,S43: Dichtheitskontrolle,S01: Wiederstart,S02: LDW nur während Vorspülung,S03: Ventilkontrolle,test,,,,,,,
+ChkGrpInlets,TGroupBox,Flamme,GDW,LDW,Siphon-DW,WDW,test,,,,,,,,
+ChkGrpOutlets,TGroupBox,MFA1,MFA2,Zündung,Gasventil 1,Gasventil 2,Pumpe,test,,,,,,,
+EdtVariante,TComboBox,EGrpAnlageParas,EGrpFS,EGrpIoValues,EGrpMenu,EGrpP1x,EGrpPumpe,EGrpSetpoints,EGrpStatistic,EGrpStatus,EGrpTemps,EGrpWirkWA,,,
+GrpBoxInlets,TCheckGroup,Eingänge,Inputs,Entrées,Ingressi,Entradas,Ingangen,Indgange,Ingångar,Innganger,Vhodi,ulazi,bemenetek,Wejscia,Âõîäû
+GrpBxFSFile,TButton,Parameterdatei,Parameter file,Fichier paramètres,Archivio dati parametri,Archivo de parámetros,Parameterbestand,Parameter fil,Parameterfil,Datoteka parametrov,podaci parametara,paraméteradatok,plik z parametrami,Ôàéë ïàðàìåòðîâ,
+GrpBxFsDevice,TButton,Geräteparameter,Unit parameter,Paramètres appareil,Parametri apparecchiatura,Parámetros de aparato,Toestelparameters,Enhedsparameter,Apparatparameter,Parametri naprave,parametri kotla,készülékparaméter,parametry urzadzenia,Ïàðàìåòðû ïðèáîðà,
+GrpBxHistoryDevice,TButton,Gerätehistorie,Unit history,Historique appareil,Storico apparecchiatura,Histórico de aparato,Toestelhistoriek,Enhedsparameter,Apparathistorik,Historie,Arhiv naprave,povjest kotla,készüléktörténet,historia urzadzenia,Èñòîðèÿ ïðèáîðà
+GrpBxHistoryFile,TButton,Historiedatei,History file,Fichier historique,Archivio storico dati,Archivo histórico,Historiek,Parameter fil,Historikfil,Historiefil,Arhivska datoteka,povjest podataka,tört.adatok,plik historii,Ôàéë èñòîðèè
+GrpBxMenu,TEditGroup,EGrpMenu,Normaltemperatur-Sollwert#°C,Absenktemperatur-Sollwert#°C,WW-Sollwert Tag#°C,WidthEdit,WidthLabel,WidthUnit,pReadOnly,MaxLength,EditRight,EditWithColor,,,
+GrpBxMenuDevice,TButton,Geräteparameter,Unit parameter,Paramètres appareil,Parametri apparecchiatura,Parámetros de aparato,Toestelparameters,Enhedsparameter,Apparatparameter,Parametri naprave,parametri kotla,készülékparaméter,parametry urzadzenia,Ïàðàìåòðû ïðèáîðà,
+GrpBxMenuFile,TButton,Parameterdatei,Parameter file,Fichier paramètres,Archivio dati parametri,Archivo de parámetros,Parameterbestand,Parameter fil,Parameterfil,Datoteka parametrov,podaci parametara,paraméteradatok,plik z parametrami,Ôàéë ïàðàìåòðîâ,
+GrpBxOutlets,TCheckGroup,Ausgänge,Outputs,Sorties,Uscite,Salidas,Uitgangen,Udgange,Utgångar,Utganger,Izhodi,izlazi,kimenetek,wyjscia,Âûõîäû
+GrpBxPhaseAlarm,TLabel,Status,Stato,Estado,Status,status,státus,status,Ñòàòóñ,,,,,,
+GrpBxPumpensteuerung,TEditGroup,Pumpensteuerung,Pump control,Cde de pompe,Comando pompa,Control de bomba,Pompsturing,Pumpestyring,Pumpstyrning,Pumpestyring,Krmiljenje èrpalke,upravljanje crpkom,szivattyúvezérlés,sterowanie pompy,Óïðàâëåíèå íàñîñîì
+GrpBxServiceDevice,TButton,Geräteparameter,Unit parameter,Paramètres appareil,Parametri apparecchiatura,Parámetros de aparato,Toestelparameters,Enhedsparameter,Apparatparameter,Parametri naprave,parametri kotla,készülékparaméter,parametry urzadzenia,Ïàðàìåòðû ïðèáîðà,
+GrpBxServiceFile,TButton,Parameterdatei,Parameter file,Fichier paramètres,Archivio dati parametri,Archivo de parámetros,Parameterbestand,Parameter fil,Parameterfil,Datoteka parametrov,podaci parametara,paraméteradatok,plik z parametrami,Ôàéë ïàðàìåòðîâ,
+GrpBxSollIst,TEditGroup,Soll-Istwerte,Set-actual value,Valeurs consignes-réelles,Valori nomin./effettivi,Valores consigna/reales,Instel-reële waarde,Beregnet setpunkt,Bör-Ärvärden,Bør- og erverdier,ZahtVred - DejVred,potrebni-stvarni podaci,par-tényértékek,wartosci zmierz.zad.,Çàä.-Ôàêò. çíà÷åíèÿ
+GrpBxStatistic,TEditGroup,I43: Betriebsstunden Brenner,I44: Version CPU,I45: Version CUI,(I46: Brennerbetrieb seit letzter Wartung,bei Wartungsintervall (P70)#h,Anzahl Netz ein,Betriebstunden Kessel,WidthEdit,WidthLabel,WidthUnit,pReadOnly,MaxLength,EditRight,EditWithColor
+GrpBxStatisticDevice,TButton,Gerätestatistik,Unit statistic,Statistiques appareil,Statistica apparecchiatura,Estadística de aparato,Toestelstatistiek,Enhedsstatistik,Apparatstatistik,Apparatstatistikk,Statistika naprave,statistika kotla,készülékstatisztika,statystyka urzadzenia,Ñòàòèñòèêà ïðèáîðà
+GrpBxStatisticFile,TButton,Statistikdatei,Statistic file,Fichier statistiques,Statistica archivio dati,Archivo de estadísticas,Statistiekbestand,Statistik fil,Statistikfil,Statistikkfil,Statistièna datoteka,podaci statistike,statisztikai adatok,plik statystyki,Ôàéë ñòàòèñòèêè
+GrpBxValues,TEditGroup,EditWithColor,Gebläseregelung,Fan control,Régulation turbine,Regolazione ventilatore,Regulación soplante,Ventilatorregeling,Blæserregulering,Fläktreglering,Vifteregulering,Regulacija ventilatorja,regulacija okretaja,vent.szabályzás,reg.pred.obr.dmuchawy
+GrpBxWirkWA,TEditGroup,Wirksame Wärmeanforderung,Effective heat demand,demande de chaleur influante,Richiesta calore attiva,Demanda de calor efectiva,Actieve warmtevraag,Aktivt varmekrav,Aktuellt värmekrav,Aktivt varmekrav,Veljavna zahteva po toploti,djelotvoran toplinski zahtjev,hatásos hoigény,rzecz.zapotrzeb.ciepla,Ôàêòè÷åñêèé çàïðîñ íà òåïëî
+LblAbtast,TEditGroup,EditWithColor,Gebläsedrehzahl-Abtastung: [Hz],Fan speed scan,Contrôle vitesse turbine: [Hz],Nr. giri ventilatore: (Hz),Velocidad soplante: [Hz],Ventilatortoerental-aftasting: [Hz],Blæser omdr.tal-afsøgning: [Hz],Fläktvarvtal-avläsning:[Värme],Vifteturtall avlesing (Varme),Odèitavanje števila vrtljajev ventilatorja: [Hz],okretaji u ispisu [Hz],ventfordszám-letap,Odczyt prêdk.obr.dmuchawy: [Hz]
+LblBetriebsartHZ,TLabel,Betriebsart Heizung,Type of operation heating,Mode de chauffage,Tipo esercizio riscaldamento,Modo calefacción,Bedrijfsaard verwarming,Driftsmåde varme,Driftsätt Värme,Driftstype,Režim Ogrevanje,vrsta rada grijanja,Üzemmód futés,tryb pracy-ogrz.,Ðåæèì îòîïëåíèÿ
+LblBetriebsartWW,TComboBox,Betriebsart Warmwasser,Type of operation domestic hot water,Mode ECS,Tipo esercizio acqua calda,Modo ACS,Bedrijfsaard warm water,Driftsmåde varmtvand,Driftsätt Varmvatten,Dirftstype varmtvann,Režim STV,vrsta rada za PTV,üzemmód HMV,tryb pracy-cwu,Ðåæèì ÃÂÑ
+LblBoilerTemp,TLabel,I30: Kesseltemperatur [°C],I30: Boiler temperature [°C],I30: température chaudière [°C],I30: Temperatura caldaia [°C],I30: Temperatura caldera [°C],I30: Keteltemperatuur [°C],I30: Kedeltemperatur [°C],I3: Panntemperatur [°C],Kjeltemperatur [°C],I30: temperatura kotla [°C],I30:kazánhõmérséklet [°C],I30: temp. w kotle [°C],,
+LblErr1,TLabel,Fehler 1,Error 1,Erreur 1,Errore 1,Error 1,Fout 1,Fejl 1,Fel 1,Feil 1,Napaka 1,kvar 1,hiba 1,Blad 1,Îøèáêà 1
+LblErr2,TLabel,Fehler 2,Error 2,Erreur 2,Errore 2,Error 2,Fout 2,Fejl 2,Fel 2,Feil 2,Napaka 2,kvar 2,hiba 2,Blad 2,Îøèáêà 2
+LblErr3,TLabel,Fehler 3,Error 3,Erreur 3,Errore 3,Error 3,Fout 3,Fejl 3,Fel 3,Feil 3,Napaka 3,kvar 3,hiba 3,Blad 3,Îøèáêà 3
+LblErr4,TLabel,Fehler 4,Error 4,Erreur 4,Errore 4,Error 4,Fout 4,Fejl 4,Fel 4,Feil 4,Napaka 4,kvar 4,hiba 4,Blad 4,Îøèáêà 4
+LblErr5,TLabel,Error 6,Erreur 6,Errore 6,Error 6,Fout 6,Fejl 6,Fel 6,Feil 6,Napaka 6,kvar 6,hiba 6,Blad 6,Îøèáêà 6,lblerr6
+LblErrorCode,TLabel,Fehlercode,Error code,Code erreur,Codice errore,Código de error,Foutcode,Fejlkode,Felkod,Feilkode,Koda napake,kôd kvara,hibakód,Kod blêdu,Êîä îøèáêè
+LblFCode,TLabel,Fehler,Error,Erreur,Errore,Error,Fout,Fejl,Fel,Feil,Napaka,kvar,hiba,B³ad,Îøèáêà
+LblFluegastemp,TLabel,I31: Abgastemperatur [°C],I31:Flue gas temperature [°C],I31: Température fumées [°C],I31: Temperatura fumi [°C],I31: Temp. Humos [ºC],I31: Rookgastemperatuur [°C],I31: Røggastemperatur [°C],I31: Avgastemperatur [°C],131: Røkgasstemperatur [°C],I31: temp. dimnih plinov[°C],I31: temperatura dimnih plinova [°C],I31: füstgázhomérséklet [°C],I31: Temp. spalin [°C],I31: Òåìïåðàòóðà äûìîâûõ ãàçîâ [°C]
+LblOutSensor,TLabel,Außenfühler,External sensor,Sonde extérieure,Sonda esterna,Sonda exterior,Buitenvoeler,Udeføler,Utomhusgivare,Uteföler,Zunanje tipalo,vanjsko pipalo,külso érzékelo,Czujnik temp. zewn.,Íàðóæíûé äàò÷èê
+LblP10,TLabel,P10: Gerätetyp,P10: Type of unit,P10: Type d'appareil,P10: Tipo apparecchio,P10: tipo aparato,P10: Toesteltype,P10: Kedeltype,P10: Apparattyp,P10: Apparattype,P10: tip naprave,P10: tip kotla,P10: készüléktipus,P10: typ urzadzenia,P10: Òèï ïðèáîðà
+LblP11,TLabel,P11: Gasart,P11: Type of gas,P11: Type de gaz,P11: Tipo di gas,P11: tipo de gas,P11: Gassoort,P11: Gasart,P11: Gastyp,P11: Gasstype,P11: vrsta plina,P11: gázfajta,P11: rodzaj gazu,P11: Âèä ãàçà,
+LblP12,TLabel,P12: Kesseladresse,P12: Boiler address,P12: Adresse chaudière,P12. Indirizzo caldaia,P12: dirección caldera,P12: Keteladres,P12: Kedeladresse,P12: Pannadress,P12: Kjeladresse,P12: naslov kotla,P12: adresa kotla,P12: kazáncím,P12: adres kotla,P12: Àäðåñ êîòëà
+LblP13,TLabel,P13: Funktion MFA1,P13: Function MFA1,P13: Fonction MFA1,P13: Funzione MFA1,P13: Función MFA1,P13: Functie MFA1,P13: Funktion MFA1,P13: Funksjon MFA1,P13: funkcija MFA1,P13: MFA1 funkció,P13: funkcja MFA1,P13: Ôóíêöèÿ MFA1,,
+LblP14,TComboBox,P14: Funktion MFA2,P14: Function MFA2,P14: Fonction MFA2,P14: Funzione MFA2,P14: Función MFA2,P14: Functie MFA2,P14: Funktion MFA2,P14: Funksjon MFA2,P14: funkcija MFA2,P14: MFA2 funkció,P14: funkcja MFA2,P14: Ôóíêöèÿ MFA2,,
+LblP15,TLabel,P15: Funktion VA,P15: Function VA,P15: Fonction VA,P15: Funzione VA,P15: Función VA,P15: Functie VA,P15: Funktion VA,P15: Funksjon VA,P15: funkcija VA,P15: VA funkció,P15: funkcja VA,P15: Ôóíêöèÿ VA,,
+LblP16,TLabel,P16: H1,P16: Ingresso H1,P16: H1,P16: Värme1,P16: Varme 1,P16: H1,,,,,,,,
+LblP17,TLabel,P17: H2,P17: Ingresso H2,P17: H2,P17: Värme2,P17: Varme 2,P17: H2,,,,,,,,
+LblPWMPump,TStringGrid,I22: Solldrehzahl PWM-Pumpe,I22: Set speed PWM pump,I22: Consigne vitesse pompe PWM,I22: Setpoint nr. giri pompa PWM,I22: consigna veloc. bomba PWM,I22: Instel-toerental PWM-pomp,I22: Beregnet omdr.tal PWM-pumpe,I22: Börvarvtal PWM-pump,I22: Börturtall PWM-pumpe,I22: zaht. št. vrt. PWM-èrpalke,I22: zadan br.okretaja PWM crpke,I22: PWM-sziv parfordszám,I22: zad.prêdk.obr.pompy PWM,
+LblPhase,TLabel,I10: Betriebsphase,I10: Operating phase,I10: Phase de fonctionnement,I10: Fase esercizio,I10: fase de funcionamiento,I10: Bedrijfsfase,I10: Driftsfase,I10: Driftfas,I10: Driftsfase,I10: faza obratovanja,I10: faza rada,I10: üzemfázis,I10: faza pracy,I10: Ðàáî÷àÿ ôàçà
+LblPowerPosition,TLabel,I11: Laststellung,I11: Load setting,I11: Réglage de puissance,I11: Posizione di carico,I11: posición carga,I11: Lastpositie,I11: Laststilling,I11: Lastläge,I11: Lastposisjon,I11: vrednost moèi,I11: postav snage,I11: telj.pozíció,I11: poz.mocy,I11: Ïîëîæåíèå íàãðóçêè
+LblRLTemp,TLabel,I37: Rücklauftemperatur [°C],I37: Return temperature [°C],I37: Température retour [°C],I37: Temperatura ritorno [°C],I37: Temperatura retorno [°C],I37: Teruglooptemperatuur [°C],I37: Returløbstemperatur [°C],I37: Returledningstemp [°C],Returløpstemperatur [°C],I37: temperatura povratka [°C],I37: temperatura povrata [°C],I37: visszatérhõm [°C],I37: temp. powrotu [°C],PgeCtrlWCM
+Lbl_IoSignal,TLabel,I32: Ionisationssignal,I32: Ionisation signal,I32 : signal d'ionisation,I32: Segnale ionizzazione,I32: señal ionización,I32: Ionisatiesignaal,I32: Ioniseringssignal,I32: Joniseringssignal,132: Ionisasjonssignal,I32: ionizacijski signal,I32: signal ionizacije,I32: ionizációs jel,I32: sygna³ jonizacji,I32: Ñèãíàë èîíèçàöèè
+RGrpMenu,TEdit,W (Winterbetrieb),S (Sommerbetrieb),,,,,,,,,,,,
+RGrpOutSensor,,Nein (-),Ja (A),,,,,,,,,,,,
+RGrpP11,,Erdgas (E),Flüssiggas (F),Erdgas Abgasklappe (EA),Flüssiggas Abgasklappe (FA),,,,,,,,,,
+RGrpP12,TEditGroup,A15: Dauer verz. Heizbetrieb#min,A21: Max. Spreizung VL/RL#K,A22: Max. Spreizung VL/eSTB#K,A23: Max Temp.-Gradient eSTB#K/s,A31: Max. Laufzeit Abgasklappe#s,A32: PWM-Sollwert Pumpe invers,A33: Pumpenleistung Vorspülung#%,WidthEdit,WidthLabel,WidthUnit,pReadOnly,MaxLength,EditRight,EditWithColor
+StrGridHistory,TIB_STRINGLIST,Nederlands,Dansk,Swedish,Norwegian,Slovenski,Hrvatski,Magyar,Polski,Russian,Greece,Language,Deutsch,TranslationData,stCaptions
+TbShtBurner,,Prozesswerte WTC,Process values WTC,Valeur process WTC,Valori di processo WTC,Datos de proceso WTC,Proceswaarde WTC,Procesværdi WTC,Processvärden WTC,Prosessverdier WTC,Procesne vrednosti WTC,WTC podaci procesa,WTC folyértékek,Dane procesowe WTC,Äàííûå ïðîöåññà WTC
+TbShtErrorBuffer,TGroupBox,Fehlerhistorie,Error history,Historique défauts,Storico errori,Histórico de errores,Fouthistoriek,Fejlhistorik,Felhistorik,Feilhistorie,Arhiv napak,povjest kvarova,hibatörténet,Historia b³êdów,Ñïèñîê îøèáîê
+TbShtFailSafe,TGroupBox,Hersteller,Manufacturer,fabricant,Costruttore,Fabricante,Fabrikant,Producent,Tillverkare,Produsent,Proizvajalec,proizvodac,gyártó,Producent,Èçãîòîâèòåëü
+TbShtMenu,TGroupBox,Endanwender,End user,Utilisateur final,Utente finale,Usuario final,Eindgebruiker,Bruger,Användare,Sluttbruker,Konèni uporabnik,korisnik,végfelhasználó,U¿ytkownik,Êîíå÷íûé ïîòðåáèòåëü
+TbShtService,TTabSheet,Heizungsfachmann,Heating specialist,Installateur,Installatore,Técnico de calefacción,Verwarmingsvakman,Fagmanden,"Servicetekniker,FM",Fyringstekniker,Serviser,strucnjak,futéstechnikus,Serwisant,Ñïåöèàëèñò-òåïëîòåõíèê
+TbShtStatistik,TGroupBox,Statistik,Statistic,Statistiques,Statistica,Estadística,Statistiek,Statistik,Statistikk,Statistika,statistika,statisztika,Statystyka,Ñòàòèñòèêà,
+strcFuncP13Kask,,9 - Ansteuerung Abgasklappe,,,,,,,,,,,,,
+strcFuncP16Kask,,4 - Rückmeldung Abgasklappe Auf,,,,,,,,,,,,,
+strcFuncP17Kask,TFrmWCM_5,4 - Rückmeldung Abgasklappe Zu,TFrmWCM_5.HelpFile,stCollections,stCharSets,RUSSIAN_CHARSET,,,,,,,,,

@@ -1,0 +1,19 @@
+Component,Type,German,English,French,Italian,Spanish,Dutch,Danish,Swedish,Norwegian,Slovenian,Croatian,Hungarian,Polish,Russian
+Btn5009,,$50 09 senden,,,,,,,,,,,,,
+Btn5009Click,TTimer,Timer1,Interval,OnTimer,Timer1Timer,,,,,,,,,,
+BtnSend5003,,Senden,,,,,,,,,,,,,
+ChkBxCyclic,,zyklisch senden 5s,,,,,,,,,,,,,
+EdtAdr,TButton,btnReadWrite,Senden,btnReadWriteClick,edtval,,,,,,,,,,
+GrpBx0507,TRadioGroup,05 07,,,,,,,,,,,,,
+GrpBx5003,TLabel,50 03/04,Label6,Wert-Nummer:,,,,,,,,,,,
+RGrpAnzahl,,Anzahl,,,,,,,,,,,,,
+RGrpAnzahlClick,TEditGroup,WidthLabel,WidthUnit,pReadOnly,MaxLength,EditRight,EditWithColor,EGrpResultLow,WidthEdit,WidthLabel,WidthUnit,pReadOnly,MaxLength,EditRight,EditWithColor
+RGrpBrennstoff,TEditGroup,Druck-Sollwert#bar [0-100],Stellgrad#% [0-100],WW-Sollwert#°C [0-100],Weichentemp#°C [0-100],WidthEdit,WidthLabel,WidthUnit,pReadOnly,MaxLength,EditRight,EditWithColor,btnsend,&Senden,btnsendClick
+RGrpI_P,,P-Einstellwert,I-Prozesswert,,,,,,,,,,,,
+RGrpI_PClick,TLMDSpinEdit,SpnEdtWert,Bevel.Mode,bmWindows,Caret.BlinkRate,AutoSelect,CustomButtons,MaxValue,DateTime,,,,,,
+RGrpMasterAdr,TGroupBox,$10,$F1,GroupBox2,CC-Commandos,Label1,Infoadresse,Label2,Wert,Label3,Result,Label4,Result High,Label5,Result Low
+RGrpMasterAdrSending,TGroupBox,MasterAdr des PCs,$FF (PC),$00 (PC),$30 (FB1),$70 (FB2),$F0 (FB3),$17 (FB4),$37 (FB5),$77 (FB6),$F7 (FB7),$1F (FB8),$10 (KA),,
+RGrpReadWrite,,Lesen $50 22,Schreiben $50 23 (MM),Schreiben $50 23 (MS),Broadcast $50 23,,,,,,,,,,
+RGrpTel,,50 03 Lesen,50 04 Schreiben,,,,,,,,,,,,
+RGrpTelClick,TEditGroup,ItemHeight,"0,001","0,01","0,1","0,5",EGrpParawert,Parameterwert,WidthEdit,WidthLabel,WidthUnit,pReadOnly,MaxLength,EditRight,EditWithColor
+RGrpWA,TRadioGroup,TÜV-Funktion (DDh),Reglerstop (Eeh),WW bei Reglerstop (66h),Heizen und WW (BBh),Stufiger Betrieb (44h),RgrpAktor,Aktoranforderung,keine Aktion (00h),Kesselpumpe aus (01h),Kesselpumpe ein (02h),VV aus (03h),VV ein (04h),VV2 aus (05h),VV2 ein (06h)

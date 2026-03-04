@@ -1,0 +1,16 @@
+Component,Type,German,English,French,Italian,Spanish,Dutch,Danish,Swedish,Norwegian,Slovenian,Croatian,Hungarian,Polish,Russian
+CbBxNumber,TEdit,ItemHeight,,,,,,,,,,,,,
+ChkBxPowerSupply,TCheckBox,"po³¹czony,roz³¹czony","ñîåäèíåí, ðàçäåëåí",(IWV) Pulswahl | (MFV) Tonwahl,(IWV) pulse | (MFV) frequence,(IWV) Choix BIP | (MFV) Choix tonalité,(IWV) Selezione a impulsi | (MFV) Selezione a toni,"Marcación por pulsos"", ""Marcación por tonos",(IWV) pulskeuze | (MFV) toonkeuze,(IWV) Pulsvalg | (MFV) Tonevalg,"(IWV) pulsval"", ""(MFV) tonval",(IWV) pulsno biranje | (MFV) tonsko biranje,(IWV) impulzus | (MFV) tonüzemmód,(IWV) wybieranie impulsowe | (MFV) wybieranie tonowe,(IWV) Èìïóëüñíûé íàáîð | (MFV) Òîíîâûé íàáîð
+EdtCodenr,TRadioGroup,PasswordChar,,,,,,,,,,,,,
+GrpBxModem,TLabel,lblCodenr,Codenummer,Code number,Numéro de code,Numero codice,Código,Codenummer,Kode nummer,Kod-nummer,kodni broj,kódszám,nr kodu,Íîìåð êîäà,lblCodenr
+LblNumber,TLabel,Telefonnummer,Phone number,Numéro de téléphone,Numero di telefono,Num. Teléfono,Telefoonnummer,Telefonnummer,Tel.nummer,telefonski broj,telefonszám,nr telefonu,Íîìåð òåëåôîíà,,
+LblVersion,TRadioGroup,Version:,Version :,Versione:,Versión:,Versie:,Version:,verzija,verzió:,wersja:,Âåðñèÿ:,,,,
+LblinitSeq,TLabel,Init-Sequenz,lblCodenr,Codenummer,Init-Sequenz,Init-Sequence,Séquence Init,Sequenza iniziale,Secuencia inicio,Init-sequentie,Init- sekvens,Init-sekvens,Init-Sequenz,sekwencja inicjuj¹ca,Ïîñëåäîâàò. èíèöèàëèçàöèè
+RGrpAdr,TCheckBox,$ 00,$ FF,PC-Bus-Adresse,PC-bus-address,Adresse Bus PC,Indirizzo bus PC,Dirección Bus del PC,PC-Bus-adres,PC-Bus-adresse,PC-Bus-adress,PC-Bus-adresa,PC-busz-cím,Adres magistrali eBus,Àäðåñ ÏÊ íà øèíå
+RGrpComPort,TRadioGroup,COM-Port,Port COM,Porta COM,Puerto COM,COM-Port,COM-port,COM-Port,Port COM,COM-ïîðò,,,,,
+RGrpConnectState,TRadioGroup,verbunden,getrennt,,,,,,,,,,,,
+RGrpConnectionType,,PC-CXe-Adapter,Mobile,Verbindungstyp,Connection type,Type de liaison,Tipo di collegamento,Tipo conexión,Verbindingstype,Forbindelsestype,Anslutningstyp,tip spoja,kapcsolattípus,Rodzaj po³¹czenia,Òèï ñâÿçè
+RGrpConnectionTypeClick,TButton,akTop,akRight,&Verbinden,btnConnectClick,btnTrennen,Anchors,akLeft,akTop,akRight,&Trennen,btnTrennenClick,btnClose,&Schließen,btnCloseClick
+RGrpDialType,TComboBox,(IWV) Pulswahl,(MFV) Tonwahl,,,,,,,,,,,,
+strcUngueltigeCodeNr,,Ungültige Code-Nummer!,Invalid code number,Code non valable !,Numero codice non valido!,Código incorrecto,Ongeldig code-nummer!,Ugyldigt kode-nummer,Ogiltigt kod-nummer,Neispravan kodni broj!,Érvénytelen kódszám!,Niewazny numer kodu!,Íåïðàâèëüíûé íîìåð êîäà!,,
+strcVersion,TCoCoStpDlg,Version,Versione,Versión,Versie,Version:,Version,verzija,változat,wersja,Âåðñèÿ,TCoCoStpDlg.HelpFile,stCollections,stCharSets,RUSSIAN_CHARSET

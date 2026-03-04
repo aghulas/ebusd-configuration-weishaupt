@@ -1,0 +1,6 @@
+Component,Type,German,English,French,Italian,Spanish,Dutch,Danish,Swedish,Norwegian,Slovenian,Croatian,Hungarian,Polish,Russian
+Btnreset,,&Reset,,,,,,,,,,,,,
+CbBxKunde,TEdit,Standard,Giersch,Scheer,Wolf,Viessmann,Brötje,Solvis,Hoval,GEO,Hydrotherm,Rendamax,MAN,Olymp,DHAL
+ChkGrpOptions,TButton,Statistik,(Fehlerhistorie + Pointer-Initialisierung,BCC-ID + Redundanz,Dongle-Nr,Kessbits + Redundanz,test,,,,,,,,
+EdtCRC,TGroupBox,GroupBox1,Optionen,,,,,,,,,,,,
+EdtIdNr,TEdit,edtParaNr,,,,,,,,,,,,,

@@ -1,0 +1,8 @@
+Component,Type,German,English,French,Italian,Spanish,Dutch,Danish,Swedish,Norwegian,Slovenian,Croatian,Hungarian,Polish,Russian
+BtnReadROM,,&Auslesen,,,,,,,,,,,,,
+BtnSave,,&Speichern,,,,,,,,,,,,,
+BtnSaveClick,TTabSheet,akLeft,akTop,akRight,akBottom,DragMode,dmAutomatic,ItemHeight,ListBoxClick,OnDblClick,ListBoxDblClick,OnKeyPress,ListBoxKeyPress,OnMouseDown,ListBoxMouseDown
+LblCRC,TEditGroup,CRC,EGrpROM,WidthEdit,WidthLabel,WidthUnit,pReadOnly,MaxLength,EditRight,EditWithColor,,,,,
+LblDate,TLabel,Datum,,,,,,,,,,,,,
+RGrpAdr,,03H,13H,33H,73H,F3H,1FH,3FH,7FH,10H,F1H,,,,
+TbShtROM,TLabel,ROM,,,,,,,,,,,,,

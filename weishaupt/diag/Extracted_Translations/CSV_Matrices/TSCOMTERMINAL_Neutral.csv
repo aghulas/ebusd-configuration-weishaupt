@@ -1,0 +1,4 @@
+Component,Type,German,English,French,Italian,Spanish,Dutch,Danish,Swedish,Norwegian,Slovenian,Croatian,Hungarian,Polish,Russian
+strcSave_terminal_file,,Save Terminal file,Guardar archivo terminal,Terminal opslaan,Gem terminal file,Spara terminalfil,pohrani datoteku Terminal,terminalfile mentése,Zapis pliku (terminal),Ñîõðàíèòü ôàéë,,,,,
+strcStart,,Start,Inicio,Start,start,Ñòàðò,,,,,,,,,
+strcStop,TSComTerminal,Stop,Stopp,Stop,stop,Ñòîï,TSComTerminal.HelpFile,stCollections,stCharSets,RUSSIAN_CHARSET,,,,,
