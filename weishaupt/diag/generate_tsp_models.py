@@ -149,8 +149,6 @@ def parse_syc_to_tsp(filepath):
         
         if len(reg['bits']) > 0:
             # 1. It's a Struct containing bits
-            
-            # Sort descending (BI7 down to BI0) and remove accidental exact name duplicates
             reg['bits'].sort(key=lambda b: b['pos'], reverse=True)
             clean_bits = []
             seen_bit_names = set()
@@ -166,7 +164,6 @@ def parse_syc_to_tsp(filepath):
             
             bit_lines = []
             for b in clean_bits:
-                # Add an extra 4 spaces of indentation for the properties inside the struct
                 bit_lines.append(f"{prefix}    {b['name']}: BI{b['pos']}")
                 
             dsl_block += ",\n".join(bit_lines) + "\n"
@@ -180,6 +177,22 @@ def parse_syc_to_tsp(filepath):
             dsl_block += f"{prefix}/** {reg['section']} 0x{reg['address']:04X} {reg['name']} */\n"
             dsl_block += f"{prefix}@ext(0x{crc_hex}, {payload_bytes_formatted})\n"
             dsl_block += f"{prefix}model {reg['name']} is Memory<UCH>;\n"
+            
+            # --- NEW: Append the 16-bit UIN block for Even addresses ---
+            if reg['address'] % 2 == 0:
+                # The command byte is always exactly before the address byte
+                # Example: "06010296" -> command is "02", address is "96"
+                cmd_hex = payload[-4:-2]
+                new_cmd_hex = f"{int(cmd_hex, 16) + 0x10:02X}"
+                word_payload = payload[:-4] + new_cmd_hex + payload[-2:]
+                
+                # Calculate CRC for the new word payload
+                word_crc_val = calculate_weishaupt_crc_multi(word_payload)
+                word_crc_hex = f"{word_crc_val:02x}"
+                word_payload_formatted = ", ".join([f"0x{word_payload[i:i+2]}" for i in range(0, len(word_payload), 2)])
+                
+                dsl_block += f"//{prefix}@ext(0x{word_crc_hex}, {word_payload_formatted})\n"
+                dsl_block += f"//{prefix}model {reg['name']} is Memory<UIN>;\n"
             
         if dsl_block.strip():
             parsed_records.append({
