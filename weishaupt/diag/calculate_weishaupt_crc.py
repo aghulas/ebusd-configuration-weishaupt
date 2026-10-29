@@ -50,13 +50,6 @@ test_payload_3 = "73BB13AC"
 result_3 = calculate_weishaupt_crc_multi(test_payload_3)
 print(f"Payload: {test_payload_3} -> Checksum: {hex(result_3)} (Expected: 0x0c)")
 
-
-
-
-
  
-print (hex(calculate_weishaupt_crc_multi('5215')))
 
-print (hex(calculate_weishaupt_crc_multi('5216')))
-
-print (hex(calculate_weishaupt_crc_multi('321A')))
+print (hex(calculate_weishaupt_crc_multi('02AC')))
