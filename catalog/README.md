@@ -34,18 +34,31 @@ screen as 12-byte blocks from 0x01B.
 
 `name`, `zz`, `pbsb`, `id` (CRC included), `factor`, `flags`, `unit`.
 
-## EEPROM blocks protected by a CRC
+## EEPROM blocks protected by a check byte
 
-| Block | Bytes | CRC byte | Fault if wrong |
+| Block | Bytes | Check byte | Fault if wrong |
 |---|---|---|---|
-| Manufacturer | 0x000–0x017 | 0x018 `EE_CONST_CRC` | F52 |
+| Manufacturer | 0x002–0x017 | 0x018 `EE_CONST_CRC` | F52 |
 | Heating specialist | 0x01B–0x050 | 0x051 `KES_DAT_CRC` (bc1 184, bc2 200) | F51 |
-| User (flow setpoint, setback, DHW setpoint, summer/winter) | 0x300–0x303 | 0x304 `EEA_MAINPARACRC` | ? |
+| Heating specialist, copy | 0x053–0x088 | 0x089 `EEAEPKCRC2` | |
+| Manufacturer, copy | 0x08C–0x0A1 | 0x0A2 `EE_CONST_CRC` | |
+| Identification (build state, customer, variant, serial number) | 0x1EE–0x1F5 | 0x1F6 `EEA_PRUEF_CRC` | |
+| User (flow setpoint, setback, DHW setpoint, summer/winter) | 0x300–0x303 | 0x304 `EEA_MAINPARACRC` | |
 
-Further CRC bytes: 0x089 `EEAEPKCRC2`, 0x0A2 `EE_CONST_CRC` (copy), 0x1F6 `EEA_PRUEF_CRC`. The algorithm is not known:
-the Weishaupt telegram CRC, sums, XOR and ~36,000 CRC-8 variants (polynomial, initial value, reflection, final
-XOR, block bounds) do not reproduce the three blocks. **Do not write a byte of these blocks** until an official
-write by WCM-Diagnose has been captured: either the WTC updates the CRC itself, or the tool computes it.
+The check byte is computed as below (WCM-Diagnose 5.5.19, "calculate CRC" button of its EEPROM window,
+function 0x64D5FC; implemented as `block_check()` in `diag/build_catalog.py`). It reproduces the six blocks of both
+burners exactly, with a single possible start address each:
+
+```
+value = 0
+for each byte of the block: value = value * 2; if value > 0xFF: value = (value - 0x100) XOR 0x21; value = value XOR byte
+check byte = 0xFF - value
+```
+
+The bytes 0x01B–0x051 and 0x002–0x018 are identical to their copies 0x053–0x089 and 0x08C–0x0A2 on both burners.
+Changing a parameter therefore means writing the byte and the check byte in both copies. **Still do not write these
+blocks**: how the WTC takes over a new EEPROM value (RAM working copies such as `SONDERNIVEAU` at RAM 0x0B2,
+`EM_EE_REDUND` at XRAM 0xF0B8), and in which order the official tool writes, are not known yet.
 
 ## Known limits
 

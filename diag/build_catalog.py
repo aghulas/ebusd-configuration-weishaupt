@@ -21,8 +21,21 @@ EEPROM_CATEGORIES = {7: "manufacturer", 8: "heating_specialist", 9: "user", 10: 
                      12: "ion_calibration"}
 LEVELS = {"manufacturer": "manufacturer", "heating_specialist": "heating_specialist", "user": "user"}
 
-# EEPROM blocks protected by a CRC byte (F51/F52); the algorithm is not known yet, see README.
-BLOCK_CRCS = [(0x000, 0x017, 0x018), (0x01B, 0x050, 0x051), (0x300, 0x303, 0x304)]
+# EEPROM blocks protected by a check byte (first byte, last byte, check byte), see block_check() and README.
+# 0x053-0x089 and 0x08C-0x0A2 are redundant copies of the heating specialist and manufacturer blocks.
+BLOCK_CRCS = [(0x002, 0x017, 0x018), (0x01B, 0x050, 0x051), (0x053, 0x088, 0x089), (0x08C, 0x0A1, 0x0A2),
+              (0x1EE, 0x1F5, 0x1F6), (0x300, 0x303, 0x304)]
+
+
+def block_check(data: bytes) -> int:
+    """Check byte of an EEPROM block, as computed by WCM-Diagnose (function 0x64D5FC of WCMDiag 5.5.19)."""
+    value = 0
+    for byte in data:
+        value <<= 1
+        if value > 0xFF:
+            value = (value - 0x100) ^ 0x21
+        value ^= byte
+    return 0xFF - value
 
 # WCM-Diagnose parameters matched by symbol name and by the value displayed on 29/10/2026 (bc1)
 PARAMS = {
