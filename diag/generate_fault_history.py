@@ -13,12 +13,12 @@ The most recent entry is the slot ending at the pointer.
 Fault counters: EEPROM 0x0196-0x01D7, one unsigned 16-bit counter per fault code (labels from the WCM-Diagnose
 "Statistic" tab).
 
-Usage: python3 generate_fault_history.py  (writes ../wtc.history.inc)
+Usage: python3 generate_fault_history.py  (writes ../weishaupt/wtc.history.inc)
 """
 
 from pathlib import Path
 
-OUT = Path(__file__).resolve().parents[1] / "wtc.history.inc"
+OUT = Path(__file__).resolve().parents[1] / "weishaupt" / "wtc.history.inc"
 
 # (fault code, EEPROM address, label shown by WCM-Diagnose)
 COUNTERS = [

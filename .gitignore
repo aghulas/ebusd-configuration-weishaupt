@@ -10,7 +10,7 @@ ebusd.eu/
 /memory.csv
 
 # WCM-Diagnose (logiciel Weishaupt) : exécutable modifié et désassemblages, jamais dans ce dépôt public
-weishaupt/diag/*.exe
-weishaupt/diag/*.idc
-weishaupt/diag/FUN_*.txt
+diag/*.exe
+diag/*.idc
+diag/FUN_*.txt
 .DS_Store
