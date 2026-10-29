@@ -60,6 +60,28 @@ Changing a parameter therefore means writing the byte and the check byte in both
 blocks**: how the WTC takes over a new EEPROM value (RAM working copies such as `SONDERNIVEAU` at RAM 0x0B2,
 `EM_EE_REDUND` at XRAM 0xF0B8), and in which order the official tool writes, are not known yet.
 
+## Access rules (measured on 29/10/2026)
+
+Active reads and writes (from Home Assistant or ebusd) always use the Weishaupt CRC, calculated at runtime;
+`0902`/`0903` are kept for passive listening to what the devices exchange (e.g. FS → EM settings).
+
+| Access | Registers (regulators KA, EM, FS, SC) | Memory (WTC) |
+|---|---|---|
+| Passive | `0902` read `reg bank len` (up to 8 bytes = 4 consecutive registers), `0903` write `reg bank value` | — |
+| Active read | `5022 [CRC] reg bank [reg bank …]`: list of up to 4 registers, 2 bytes each, no status byte | `5000 [CRC] desc [desc …]`: short `[(len-1)<<4 \| type] addr` (page 0) or long `06 page [(len-1)<<4 \| type] addr`, mixable; contiguous up to 16 bytes; answer = status `00` + bytes |
+| Active write | `5023 [CRC] reg bank value [reg bank value …]`: up to 3 registers (16 data bytes) | `5001 [CRC] desc value` to the master address of the WTC (slave − 5) |
+
+- One register written with `5023`: accepted, the regulator answers with an empty slave part. Several registers:
+  accepted (values read back changed) but the regulator sends no answer within ebusd's receive timeout, so ebusd
+  reports a timeout and repeats the write. Always read back after a write.
+- The EM regulators do not check the `5023` CRC (they accept a CRC over the ID only, or `00`); the WTC rejects a
+  `5000` read with a wrong CRC. Send the correct CRC anyway.
+- A heating circuit is set in its FS, which pushes the values to its EM with `0903` about every 2 minutes: a value
+  written directly into an EM only lasts until the next push. The room sensor correction (menu 101) is not settable
+  on em1 or FS1 (probably requires a remote control unit).
+- Time programs: 3 slots per day, each register = end, start in quarters of an hour (`0x18` = 06:00, `0x58` =
+  22:00), `0x80 0x80` = unused slot; to be confirmed on a regulator display.
+
 ## Known limits
 
 - P-numbers are matched by symbol name and by the value WCM-Diagnose displayed (bc1, 29/10/2026); P13–P17
