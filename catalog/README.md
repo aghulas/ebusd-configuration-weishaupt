@@ -71,9 +71,11 @@ Active reads and writes (from Home Assistant or ebusd) always use the Weishaupt 
 | Active read | `5022 [CRC] reg bank [reg bank …]`: list of up to 4 registers, 2 bytes each, no status byte | `5000 [CRC] desc [desc …]`: short `[(len-1)<<4 \| type] addr` (page 0) or long `06 page [(len-1)<<4 \| type] addr`, mixable; contiguous up to 16 bytes; answer = status `00` + bytes |
 | Active write | `5023 [CRC] reg bank value [reg bank value …]`: up to 3 registers (16 data bytes) | `5001 [CRC] desc value` to the master address of the WTC (slave − 5) |
 
-- One register written with `5023`: accepted, the regulator answers with an empty slave part. Several registers:
-  accepted (values read back changed) but the regulator sends no answer within ebusd's receive timeout, so ebusd
-  reports a timeout and repeats the write. Always read back after a write.
+- One register written with `5023`: accepted, the regulator acknowledges in time and answers with an empty slave
+  part. Several registers: accepted (values read back changed), but the regulator sends its acknowledge about 75 ms
+  after the CRC (probably while storing), far beyond the eBUS timing, so ebusd reports a timeout and repeats the
+  write; `--receivetimeout` (tested at 100 ms) does not help, it only covers the slave answer. **Write one register
+  per `5023` telegram** (a day of a time program = 3 writes) and always read back after a write.
 - The EM regulators do not check the `5023` CRC (they accept a CRC over the ID only, or `00`); the WTC rejects a
   `5000` read with a wrong CRC. Send the correct CRC anyway.
 - A heating circuit is set in its FS, which pushes the values to its EM with `0903` about every 2 minutes: a value
