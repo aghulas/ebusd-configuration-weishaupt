@@ -1,0 +1,261 @@
+name,comment,menu,register,bank,id,templates,register_inc
+ErrorStatus,,,01,00,010002,,r
+HeatDemand,Heat demand HK,,02,00,020002,_16_Temp10,r
+DHWSetValue,Hot water setpoint,,03,00,030002,_16_Temp10,r
+SupplySetValueHC,Flow temperature setpoint (heating circuit),,04,00,040002,_16_Temp10,r
+NormalSetTemp,Normal target temperature (171),171,05,00,050002,_16_Temp10,rw
+ReducedSetTemp,Setback target temperature (172),172,08,00,080002,_16_Temp10,rw
+ExternalTemperature,Outside temperature,,0C,00,0C0002,_16_Temp10,r
+SupplyTemperatureWTC,Flow temperature WTC,,0D,00,0D0002,_16_Temp10,r
+DHWTemperature,Hot water temperature,,0E,00,0E0002,_16_Temp10,r
+SupplyHCTemp,B6 Supply Sensor Temperature,,0F,00,0F0002,_16_Temp10,r
+Config,?,,10,00,100002,_16_Temp10,r
+RoomTemperature,Room temperature,,11,00,110002,_16_Temp10,r
+RoomSetValue,Room setpoint,,12,00,120002,_16_Temp10,r
+DHWSetpoint,Hot water setpoint (176),176,13,00,130002,_16_Temp10,rw
+343 WW Operation,,,23,00,230002,,rw
+537 Blocking Time,,,25,00,250002,_16_Minutes,rw
+MaxSupplyTemperature,Maximum flow temperature (352),352,28,00,280002,_16_Temp10,rw
+MaxMixerRuntime,Maximum mixer runtime (356),356,2B,00,2B0002,_16_Seconds,rw
+cModGradSoll,Instant Modulation,,2C,00,2C0002,,rw
+576 DHW exceeded,,,2D,00,2D0002,,rw
+?,,,52,00,520002,,r
+?,,,56,00,560002,,r
+?,,,57,00,570002,,r
+Calorifier Top Temp,,,76,00,760002,,rw
+Calorifier Bottom Temp,,,78,00,780002,,rw
+114 Target value reduction for solar yield,,,81,00,810002,,rw
+LegionnairesFunction,Legionella function (363),363,01,01,010102,_16_Legionnairesday,rw
+RoomSensorCorrection,Room Sensor Correction (342),342,09,01,090102,_16_Temp10,rw
+Gradient,Steepness (175),175,0E,01,0E0102,_16_Gradient10,rw
+RoomInfluence,Spatial influence (341),341,0F,01,0F0102,_16_Roominfluence,rw
+383 On Opti Max,Switch-on delay (353),353,10,01,100102,_16_Minutes,rw
+BoilerMKIncrease,Boiler MK increase(355),355,11,01,110102,_16_Temp10,rw
+ProgramChooseSwitch,Program selector switch position,,12,01,120102,_16_ProgramChooseSwitch,rw
+Adaption,Adaption (343),343,15,01,150102,_16_OnOff,rw
+SummerWinterChangeOverTemperature,Summer/winter changeover temperature (174),174,16,01,160102,_16_Temp10,rw
+FloorDryingFunction,Screed function (381),381,1A,01,1A0102,_16_Floordrying,r
+HolidayRuntimeFrom.Day,Start of vacation Day (141),141,1B,01,1B0102,_16_HolidayDay,rw
+HolidayRuntimeFrom.Month,Start of vacation Month (141),141,1C,01,1C0102,_16_HolidayMonth,rw
+HolidayRuntimeFrom.Year,Start of vacation Year (141),141,1D,01,1D0102,,rw
+EndOfHoliday.Day,End of vacation Day (141),141,1E,01,1E0102,_16_HolidayDay,rw
+HolidayRuntimeTo.Month,End of vacation Month (141),141,1F,01,1F0102,_16_HolidayMonth,rw
+HolidayRuntimeTo.Year,End of vacation Year (141),141,20,01,200102,,rw
+SystemDate.WeekDay,Day ? (Sat = 7 ? ),,21,01,210102,,rw
+SystemDate.Day,day,,22,01,220102,,rw
+SystemDate.Month,Mont,,23,01,230102,,rw
+SystemDate.Year,year,,24,01,240102,,rw
+SystemTime.Hour,hour,,25,01,250102,,w
+SystemTime.Minute,minute,,26,01,260102,,rw
+SystemTime.Second,second,,27,01,270102,,rw
+TypeOfConstruction,Construction method (371),371,28,01,280102,_16_Constructiontype,rw
+115 Normal SPL-Set,,,29,01,290102,,rw
+116 Reduced SPL-Set,,,2A,01,2A0102,,rw
+MinSupplyTemperature,Minimum flow temperature (351),351,2B,01,2B0102,_16_Temp10,rw
+HolidayTemp,Holiday temperature (183),183,2D,01,2D0102,_16_TempReduced,rw
+SwitchOffSetting,Switch-off delay (354),354,2E,01,2E0102,_16_Minutes,rw
+MaxPumpSpeed,Max Pump speed (358),358,2F,01,2F0102,_16_Percent,rw
+MinPumpSpeed,Min Pump speed (359),359,30,01,300102,_16_Percent,rw
+SpeedVariation,Speed ​​variant (357),357,31,01,310102,_16_Speedvariation,rw
+Reduct,Reduced (350),350,32,01,320102,_16_TempReduced,rw
+DHWMin,Hot water Min (177),177,33,01,330102,_16_Temp10,rw
+MaxDHWTemp,Max-WW-Temp (362),362,34,01,340102,_16_Temp10,rw
+DHWMode,WW-Mode (361),361,35,01,350102,_16_DhwMode,rw
+DHWOperation,WW operation (360),360,37,01,370102,_16_DhwOperation,rw
+?,,,3B,01,3B0102,,rw
+142 Holiday Temperature Level,,,3D,01,3D0102,,rw
+575 DHW Switch Diff,,,40,01,400102,,rw
+ControlVariationMode,Control Variation (318),318,41,01,410102,_16_CVariation,rw
+577 WW Load Time,,,80,01,800102,,rw
+574 DHW-Max,,,81,01,810102,,rw
+UnknownSensor15,,,8F,01,8F0102,,r
+Version Major,,,99,01,990102,,r
+Version Minor,,,9A,01,9A0102,,r
+Unknown13,,,A9,01,A90102,,r
+Unknown14,,,AA,01,AA0102,,r
+483 Starttemperatur,,,BB,01,BB0102,,rw
+484 Tag Min Temp Fhz,,,BC,01,BC0102,,rw
+ResetMemory,,,7A,02,7A0202,,rw
+%PWM Mixer Pump,,,85,02,850202,,rw
+573 DHW Min Temp,,,8A,02,8A0202,,rw
+540 I Regler,,,9E,02,9E0202,,rw
+539 1/P Regler,,,9F,02,9F0202,,rw
+382 Frost Protection Limit,,,BE,02,BE0202,,rw
+FS_EM_R2_Sensor,,,59,03,590302,,r
+B3Sensor,,,E9,04,E90402,,r
+580 AntiLeg Setp Temp.,,,87,05,870502,,rw
+370 Delay WTC,,,14,06,140602,,rw
+?,,,AE,06,AE0602,,rw
+?,,,AF,06,AF0602,,rw
+485 Max. Temp. Fhz.,,,9C,08,9C0802,,rw
+486 Day Max. Temp. Fhz.,,,9D,08,9D0802,,rw
+487 Day Abkulen Fhz,,,9E,08,9E0802,,rw
+488 Tage Aufheiz Bzh,,,9F,08,9F0802,,rw
+489 Max Temp Bzh,,,A0,08,A00802,,rw
+490 Tage Max Temp Bzh,,,A1,08,A10802,,rw
+491 Tag Abkuhlen Bzh,,,A2,08,A20802,,rw
+Raumen Inflience I,EM ? delau ?,,71,09,710902,,rw
+?,,,72,09,720902,,rw
+HCTypeMode,316 Heating Circuit Type,,73,09,730902,_16_HCType,rw
+583 Circ time,,,B1,09,B10902,,rw
+?,,,00,0A,000A02,,rw
+OutsideWeightedTemp,OutsideWeightedTemp,,0C,0A,0C0A02,,r
+FloorDryingDay,Screed Days (372),372,12,0A,120A02,_16_Day,rw
+FloorDryingTemperature,Screed temperature (383),383,13,0A,130A02,_16_Temp1,rw
+FrostProtection,Room frost protection (173),173,14,0A,140A02,_16_Temp10,rw
+MixedExternalTemperature,Mixed outside temperature,,1A,0A,1A0A02,_16_Temp10,r
+RoomThermostat,Room thermostat (344),344,1C,0A,1C0A02,_16_Temp1,rw
+?,,,2C,0A,2C0A02,,
+H1 Actual KA,,,28,0A,280A02,,r
+H1Status EM,,,29,0A,290A02,,r
+PWT Primaire Exch B24,,,40,0A,400A02,,r
+331 H1 Function,,,5B,0A,5B0A02,,r
+MFA2 Actual,,,8E,0A,8E0A02,,r
+Error History Id,,,9A,0B,9A0B02,,rw
+Error Code,,,9B,0B,9B0B02,,r
+Error Type,,,9C,0B,9C0B02,,r
+Error Instance,,,9D,0B,9D0B02,,r
+Error Minute,,,9F,0B,9F0B02,,r
+Error Hour,,,A0,0B,A00B02,,r
+Error Day,,,A1,0B,A10B02,,r
+Error Month,,,A2,0B,A20B02,,r
+Error Year,,,A3,0B,A30B02,,r
+?,,,1F,0C,1F0C02,,rw
+?,,,21,0C,210C02,,rw
+Currentperformance,,,50,10,501002,,
+Solar Recov. w.legio,,,F1,13,F11302,,rw
+578 Max Load DHW,,,F2,13,F21302,,rw
+582 Circ With Legio,,,F3,13,F31302,,rw
+HP1.Mo.1,Heating program 1 Mo 1 Start/End (User 121),121,10,14,101402,_8_TimeStart _8_TimeEnd,rw
+HP1.Mo.2,Heating program 1 Mo 2 Start/End (User 121),121,11,14,111402,_8_TimeStart _8_TimeEnd,rw
+HP1.Mo.3,Heating program 1 Mo 3 Start/End (User 121),121,12,14,121402,_8_TimeStart _8_TimeEnd,rw
+HP1.Tu.1,Heating program 1 Tu 1 Start/End (User 122),122,20,14,201402,_8_TimeStart _8_TimeEnd,rw
+HP1.Tu.2,Heating program 1 Tu 2 Start/End (User 122),122,21,14,211402,_8_TimeStart _8_TimeEnd,rw
+HP1.Tu.3,Heating program 1 Tu 3 Start/End (User 122),122,22,14,221402,_8_TimeStart _8_TimeEnd,rw
+HP1.We.1,Heating program 1 We 1 Start/End (User 123),123,30,14,301402,_8_TimeStart _8_TimeEnd,rw
+HP1.We.2,Heating program 1 We 2 Start/End (User 123),123,31,14,311402,_8_TimeStart _8_TimeEnd,rw
+HP1.We.3,Heating program 1 We 3 Start/End (User 123),123,32,14,321402,_8_TimeStart _8_TimeEnd,rw
+HP1.Th.1,Heating program 1 Th 1 Start/End (User 124),124,40,14,401402,_8_TimeStart _8_TimeEnd,rw
+HP1.Th.2,Heating program 1 Th 2 Start/End (User 124),124,41,14,411402,_8_TimeStart _8_TimeEnd,rw
+HP1.Th.3,Heating program 1 Th 3 Start/End (User 124),124,42,14,421402,_8_TimeStart _8_TimeEnd,rw
+HP1.Fr.1,Heating program 1 Fr 1 Start/End (User 125),125,50,14,501402,_8_TimeStart _8_TimeEnd,rw
+HP1.Fr.2,Heating program 1 Fr 2 Start/End (User 125),125,51,14,511402,_8_TimeStart _8_TimeEnd,rw
+HP1.Fr.3,Heating program 1 Fr 3 Start/End (User 125),125,52,14,521402,_8_TimeStart _8_TimeEnd,rw
+HP1.Sa.1,Heating program 1 Sa 1 Start/End (User 126),126,60,14,601402,_8_TimeStart _8_TimeEnd,rw
+HP1.Sa.2,Heating program 1 Sa 2 Start/End (User 126),126,61,14,611402,_8_TimeStart _8_TimeEnd,rw
+HP1.Sa.3,Heating program 1 Sa 3 Start/End (User 126),126,62,14,621402,_8_TimeStart _8_TimeEnd,rw
+HP1.Su.1,Heating program 1 Su 1 Start/End (User 127),127,70,14,701402,_8_TimeStart _8_TimeEnd,rw
+HP1.Su.2,Heating program 1 Su 2 Start/End (User 127),127,71,14,711402,_8_TimeStart _8_TimeEnd,rw
+HP1.Su.3,Heating program 1 Su 3 Start/End (User 127),127,72,14,721402,_8_TimeStart _8_TimeEnd,rw
+HP2.Mo.1,Heating program 2 Mo 1 Start/End (User 131),131,10,15,101502,_8_TimeStart _8_TimeEnd,rw
+HP2.Mo.2,Heating program 2 Mo 2 Start/End (User 131),131,11,15,111502,_8_TimeStart _8_TimeEnd,rw
+HP2.Mo.3,Heating program 2 Mo 3 Start/End (User 131),131,12,15,121502,_8_TimeStart _8_TimeEnd,rw
+HP2.Tu.1,Heating program 2 Tu 1 Start/End (User 132),132,20,15,201502,_8_TimeStart _8_TimeEnd,rw
+HP2.Tu.2,Heating program 2 Tu 2 Start/End (User 132),132,21,15,211502,_8_TimeStart _8_TimeEnd,rw
+HP2.Tu.3,Heating program 2 Tu 3 Start/End (User 132),132,22,15,221502,_8_TimeStart _8_TimeEnd,rw
+HP2.We.1,Heating program 2 We 1 Start/End (User 133),133,30,15,301502,_8_TimeStart _8_TimeEnd,rw
+HP2.We.2,Heating program 2 We 2 Start/End (User 133),133,31,15,311502,_8_TimeStart _8_TimeEnd,rw
+HP2.We.3,Heating program 2 We 3 Start/End (User 133),133,32,15,321502,_8_TimeStart _8_TimeEnd,rw
+HP2.Th.1,Heating program 2 Th 1 Start/End (User 134),134,40,15,401502,_8_TimeStart _8_TimeEnd,rw
+HP2.Th.2,Heating program 2 Th 2 Start/End (User 134),134,41,15,411502,_8_TimeStart _8_TimeEnd,rw
+HP2.Th.3,Heating program 2 Th 3 Start/End (User 134),134,42,15,421502,_8_TimeStart _8_TimeEnd,rw
+HP2.Fr.1,Heating program 2 Fr 1 Start/End (User 135),135,50,15,501502,_8_TimeStart _8_TimeEnd,rw
+HP2.Fr.2,Heating program 2 Fr 2 Start/End (User 135),135,51,15,511502,_8_TimeStart _8_TimeEnd,rw
+HP2.Fr.3,Heating program 2 Fr 3 Start/End (User 135),135,52,15,521502,_8_TimeStart _8_TimeEnd,rw
+HP2.Sa.1,Heating program 2 Sa 1 Start/End (User 136),136,60,15,601502,_8_TimeStart _8_TimeEnd,rw
+HP2.Sa.2,Heating program 2 Sa 2 Start/End (User 136),136,61,15,611502,_8_TimeStart _8_TimeEnd,rw
+HP2.Sa.3,Heating program 2 Sa 3 Start/End (User 136),136,62,15,621502,_8_TimeStart _8_TimeEnd,rw
+HP2.Su.1,Heating program 2 Su 1 Start/End (User 137),137,70,15,701502,_8_TimeStart _8_TimeEnd,rw
+HP2.Su.2,Heating program 2 Su 2 Start/End (User 137),137,71,15,711502,_8_TimeStart _8_TimeEnd,rw
+HP2.Su.3,Heating program 2 Su 3 Start/End (User 137),137,72,15,721502,_8_TimeStart _8_TimeEnd,rw
+HP3.Mo.1,Heating program 3 Mo 1 Start/End (User 141),141,10,16,101602,_8_TimeStart _8_TimeEnd,rw
+HP3.Mo.2,Heating program 3 Mo 2 Start/End (User 141),141,11,16,111602,_8_TimeStart _8_TimeEnd,rw
+HP3.Mo.3,Heating program 3 Mo 3 Start/End (User 141),141,12,16,121602,_8_TimeStart _8_TimeEnd,rw
+HP3.Tu.1,Heating program 3 Tu 1 Start/End (User 142),142,20,16,201602,_8_TimeStart _8_TimeEnd,rw
+HP3.Tu.2,Heating program 3 Tu 2 Start/End (User 142),142,21,16,211602,_8_TimeStart _8_TimeEnd,rw
+HP3.Tu.3,Heating program 3 Tu 3 Start/End (User 142),142,22,16,221602,_8_TimeStart _8_TimeEnd,rw
+HP3.We.1,Heating program 3 We 1 Start/End (User 143),143,30,16,301602,_8_TimeStart _8_TimeEnd,rw
+HP3.We.2,Heating program 3 We 2 Start/End (User 143),143,31,16,311602,_8_TimeStart _8_TimeEnd,rw
+HP3.We.3,Heating program 3 We 3 Start/End (User 143),143,32,16,321602,_8_TimeStart _8_TimeEnd,rw
+HP3.Th.1,Heating program 3 Th 1 Start/End (User 144),144,40,16,401602,_8_TimeStart _8_TimeEnd,rw
+HP3.Th.2,Heating program 3 Th 2 Start/End (User 144),144,41,16,411602,_8_TimeStart _8_TimeEnd,rw
+HP3.Th.3,Heating program 3 Th 3 Start/End (User 144),144,42,16,421602,_8_TimeStart _8_TimeEnd,rw
+HP3.Fr.1,Heating program 3 Fr 1 Start/End (User 145),145,50,16,501602,_8_TimeStart _8_TimeEnd,rw
+HP3.Fr.2,Heating program 3 Fr 2 Start/End (User 145),145,51,16,511602,_8_TimeStart _8_TimeEnd,rw
+HP3.Fr.3,Heating program 3 Fr 3 Start/End (User 145),145,52,16,521602,_8_TimeStart _8_TimeEnd,rw
+HP3.Sa.1,Heating program 3 Sa 1 Start/End (User 146),146,60,16,601602,_8_TimeStart _8_TimeEnd,rw
+HP3.Sa.2,Heating program 3 Sa 2 Start/End (User 146),146,61,16,611602,_8_TimeStart _8_TimeEnd,rw
+HP3.Sa.3,Heating program 3 Sa 3 Start/End (User 146),146,62,16,621602,_8_TimeStart _8_TimeEnd,rw
+HP3.Su.1,Heating program 3 Su 1 Start/End (User 147),147,70,16,701602,_8_TimeStart _8_TimeEnd,rw
+HP3.Su.2,Heating program 3 Su 2 Start/End (User 147),147,71,16,711602,_8_TimeStart _8_TimeEnd,rw
+HP3.Su.3,Heating program 3 Su 3 Start/End (User 147),147,72,16,721602,_8_TimeStart _8_TimeEnd,rw
+WP.Mo.1,Hot water program Mo 1 Start/End (User 151),151,10,17,101702,_8_TimeStart _8_TimeEnd,rw
+WP.Mo.2,Hot water program Mo 2 Start/End (User 151),151,11,17,111702,_8_TimeStart _8_TimeEnd,rw
+WP.Mo.3,Hot water program Mo 3 Start/End (User 151),151,12,17,121702,_8_TimeStart _8_TimeEnd,rw
+WP.Tu.1,Hot water program Tu 1 Start/End (User 152),152,20,17,201702,_8_TimeStart _8_TimeEnd,rw
+WP.Tu.2,Hot water program Tu 2 Start/End (User 152),152,21,17,211702,_8_TimeStart _8_TimeEnd,rw
+WP.Tu.3,Hot water program Tu 3 Start/End (User 152),152,22,17,221702,_8_TimeStart _8_TimeEnd,rw
+WP.We.1,Hot water program We 1 Start/End (User 153),153,30,17,301702,_8_TimeStart _8_TimeEnd,rw
+WP.We.2,Hot water program We 2 Start/End (User 153),153,31,17,311702,_8_TimeStart _8_TimeEnd,rw
+WP.We.3,Hot water program We 3 Start/End (User 153),153,32,17,321702,_8_TimeStart _8_TimeEnd,rw
+WP.Th.1,Hot water program Th 1 Start/End (User 154),154,40,17,401702,_8_TimeStart _8_TimeEnd,rw
+WP.Th.2,Hot water program Th 2 Start/End (User 154),154,41,17,411702,_8_TimeStart _8_TimeEnd,rw
+WP.Th.3,Hot water program Th 3 Start/End (User 154),154,42,17,421702,_8_TimeStart _8_TimeEnd,rw
+WP.Fr.1,Hot water program Fr 1 Start/End (User 155),155,50,17,501702,_8_TimeStart _8_TimeEnd,rw
+WP.Fr.2,Hot water program Fr 2 Start/End (User 155),155,51,17,511702,_8_TimeStart _8_TimeEnd,rw
+WP.Fr.3,Hot water program Fr 3 Start/End (User 155),155,52,17,521702,_8_TimeStart _8_TimeEnd,rw
+WP.Sa.1,Hot water program Sa 1 Start/End (User 156),156,60,17,601702,_8_TimeStart _8_TimeEnd,rw
+WP.Sa.2,Hot water program Sa 2 Start/End (User 156),156,61,17,611702,_8_TimeStart _8_TimeEnd,rw
+WP.Sa.3,Hot water program Sa 3 Start/End (User 156),156,62,17,621702,_8_TimeStart _8_TimeEnd,rw
+WP.Su.1,Hot water program Su 1 Start/End (User 157),157,70,17,701702,_8_TimeStart _8_TimeEnd,rw
+WP.Su.2,Hot water program Su 2 Start/End (User 157),157,71,17,711702,_8_TimeStart _8_TimeEnd,rw
+WP.Su.3,Hot water program Su 3 Start/End (User 157),157,72,17,721702,_8_TimeStart _8_TimeEnd,rw
+ZP.Mo.1,Circulation program Mo 1 Start/End (User 161),161,10,1A,101A02,_8_TimeStart _8_TimeEnd,rw
+ZP.Mo.2,Circulation program Mo 2 Start/End (User 161),161,11,1A,111A02,_8_TimeStart _8_TimeEnd,rw
+ZP.Mo.3,Circulation program Mo 3 Start/End (User 161),161,12,1A,121A02,_8_TimeStart _8_TimeEnd,rw
+ZP.Tu.1,Circulation program Tu 1 Start/End (User 162),162,20,1A,201A02,_8_TimeStart _8_TimeEnd,rw
+ZP.Tu.2,Circulation program Tu 2 Start/End (User 162),162,21,1A,211A02,_8_TimeStart _8_TimeEnd,rw
+ZP.Tu.3,Circulation program Tu 3 Start/End (User 162),162,22,1A,221A02,_8_TimeStart _8_TimeEnd,rw
+ZP.We.1,Circulation program We 1 Start/End (User 163),163,30,1A,301A02,_8_TimeStart _8_TimeEnd,rw
+ZP.We.2,Circulation program We 2 Start/End (User 163),163,31,1A,311A02,_8_TimeStart _8_TimeEnd,rw
+ZP.We.3,Circulation program We 3 Start/End (User 163),163,32,1A,321A02,_8_TimeStart _8_TimeEnd,rw
+ZP.Th.1,Circulation program Th 1 Start/End (User 164),164,40,1A,401A02,_8_TimeStart _8_TimeEnd,rw
+ZP.Th.2,Circulation program Th 2 Start/End (User 164),164,41,1A,411A02,_8_TimeStart _8_TimeEnd,rw
+ZP.Th.3,Circulation program Th 3 Start/End (User 164),164,42,1A,421A02,_8_TimeStart _8_TimeEnd,rw
+ZP.Fr.1,Circulation program Fr 1 Start/End (User 165),165,50,1A,501A02,_8_TimeStart _8_TimeEnd,rw
+ZP.Fr.2,Circulation program Fr 2 Start/End (User 165),165,51,1A,511A02,_8_TimeStart _8_TimeEnd,rw
+ZP.Fr.3,Circulation program Fr 3 Start/End (User 165),165,52,1A,521A02,_8_TimeStart _8_TimeEnd,rw
+ZP.Sa.1,Circulation program Sa 1 Start/End (User 166),166,60,1A,601A02,_8_TimeStart _8_TimeEnd,rw
+ZP.Sa.2,Circulation program Sa 2 Start/End (User 166),166,61,1A,611A02,_8_TimeStart _8_TimeEnd,rw
+ZP.Sa.3,Circulation program Sa 3 Start/End (User 166),166,62,1A,621A02,_8_TimeStart _8_TimeEnd,rw
+ZP.Su.1,Circulation program Su 1 Start/End (User 167),167,70,1A,701A02,_8_TimeStart _8_TimeEnd,rw
+ZP.Su.2,Circulation program Su 2 Start/End (User 167),167,71,1A,711A02,_8_TimeStart _8_TimeEnd,rw
+ZP.Su.3,Circulation program Su 3 Start/End (User 167),167,72,1A,721A02,_8_TimeStart _8_TimeEnd,rw
+522 Output MFA 2,,,A4,FD,A4FD02,,rw
+526 Input N1,,,C2,FD,C2FD02,,rw
+533 Boiler Sequence 1,,,CA,FD,CAFD02,,rw
+533 Boiler Sequence 1,,,CB,FD,CBFD02,,rw
+533 Boiler Sequence 2,,,D4,FD,D4FD02,,rw
+533 Boiler Sequence 2,,,D5,FD,D5FD02,,rw
+593 SummerTime Start Day,,,DE,FD,DEFD02,,rw
+593 SummerTime Start Month,,,DF,FD,DFFD02,,rw
+594 SummerTime End Day,,,E0,FD,E0FD02,,rw
+594 SummerTime End Month,,,E1,FD,E1FD02,,rw
+562 Calorfier Switch Difference,,,E2,FD,E2FD02,_16_Temp10,rw
+561 Calorfier exceeded,,,E3,FD,E3FD02,_16_Temp10,rw
+553 De-Couple Max,,,E6,FD,E6FD02,_16_Temp10,rw
+552 De-Couple Min,,,E7,FD,E7FD02,_16_Temp10,rw
+551 De-Couple Exceeded,,,E8,FD,E8FD02,_16_TempK10,rw
+538 Cont. Temp,,,E9,FD,E9FD02,_16_Temp10,rw
+536 Modulation Max,,,EA,FD,EAFD02,_16_Percent,rw
+535 Modulation Min,,,EB,FD,EBFD02,_16_Percent,rw
+532 Change Over Time,,,EC,FD,ECFD02,,rw
+531 Sequence Change Mode,,,ED,FD,EDFD02,,rw
+525 Spectial Level,,,EE,FD,EEFD02,_16_Temp10,rw
+524 Input H1,,,EF,FD,EFFD02,,rw
+VA Actual,,,F0,FD,F0FD02,,r
+523 Output VA,,,F1,FD,F1FD02,,rw
+MFA 1 Actual,,,F2,FD,F2FD02,,r
+521 Output MFA 1,,,F3,FD,F3FD02,,rw
+581 Legio Time,,,F4,FD,F4FD02,,rw
+Unknown8,,,FB,FD,FBFD02,,rw
