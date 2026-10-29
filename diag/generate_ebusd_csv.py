@@ -139,39 +139,35 @@ def parse_syc_to_ebusd(filepath):
         crc_hex = f"{crc_val:02X}"
         addr_hex = f"0x{reg['address']:04X}"
         
-        # Construct the Read Fields ('s') and Write Fields ('m')
+        # Construct the Read Fields ('s')
+        # No write messages: a write must go to the master address of the WTC (slave address - 5) with the CRC
+        # calculated over the data, which needs ebusd with the [WCRC] marker; see notes/wtc-writes.md.
         if len(reg['bits']) > 0:
             reg['bits'].sort(key=lambda b: b['pos'])
             
             r_fields_parts = ["s,_8_Skip,,,"]
-            w_fields_parts = ["m,_8_Skip,,,"]
             
             for b in reg['bits']:
                 r_fields_parts.append(f"{b['name']},s,_{b['name']},,,") # 's' for slave/read
-                w_fields_parts.append(f"{b['name']},m,_{b['name']},,,") # 'm' for master/write
                 
             # CHANGED: Joining with a comma instead of a space to maintain CSV columns
             r_fields_str = ",".join(r_fields_parts)
-            w_fields_str = ",".join(w_fields_parts)
         else:
             # Maintained the exact user requested formatting for single fields
             r_fields_str = f"s,_8_Skip,,, ,,s,_{reg['name']},,," 
-            w_fields_str = f"m,_8_Skip,,, ,,m,_{reg['name']},,," 
 
         # Build lines 
         r_line = f'r,,{reg["name"]},{addr_hex},,,,"{crc_hex}{payload}",,{r_fields_str}'
-        w_line = f'w,,{reg["name"]},{addr_hex},,,,"{crc_hex}{payload}",,{w_fields_str}'
         
         if is_duplicate:
             r_line = f"# {r_line:<90} # Alias of {original_name}"
-            w_line = f"# {w_line:<90} # Alias of {original_name}"
             
         parsed_records.append({
             'section': reg['section'],
             'section_idx': reg['section_idx'],
             'cc': reg['address'] >> 8,
             'yy': reg['address'] & 0xFF,
-            'lines': f"{r_line}\n{w_line}"
+            'lines': r_line
         })
 
     # Sort primarily by Section Index, then CC, then YY
@@ -181,7 +177,6 @@ def parse_syc_to_ebusd(filepath):
     with open(out_filepath, 'w') as out_f:
         out_f.write("# type,circuit,name,comment,QQ,ZZ,PBSB,ID,class,name,type,divider,unit,str\n")
         out_f.write('*r,,,,,,"5000",,,,,,,\n')
-        out_f.write('*w,,,,,,"5001",,,,,,,\n')
         
         current_print_section = None
         for record in parsed_records:
