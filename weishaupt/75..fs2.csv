@@ -11,4 +11,5 @@ cw,,PowerDemand,Heat Demand,,,0507,,Status,,_8_Opdataheat1,,, ,Action,,_8_Opdata
 
 cw,,BootInfo,BootInfo ->KA,,,"5009",,Init,,UCH,,, ,,,
 
-!include,fs.register.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+!include,regulator.active.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+!include,regulator.passive.inc,,Register,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
