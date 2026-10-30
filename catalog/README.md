@@ -90,7 +90,8 @@ Active reads and writes (from Home Assistant or ebusd) always use the Weishaupt 
   weekday reads 1 = Monday (`04` on Thursday, `05` on Friday) but WCM-Diagnose writes 1 = Sunday (`06` on Friday),
   like the template `_16_WeekDay`. `f6` only takes these register writes from the service tool address `ff`: from
   `31` they were acknowledged but not retained, whether with `5023` or `0903`, in the official order and in a burst
-  as fast as WCM-Diagnose; the same burst sent from `ff` (ebusd `hex -s ff`) was retained (30/10/2026).
+  as fast as WCM-Diagnose; the same burst sent from `ff` (ebusd `hex -s ff`) was retained, with `0903` as well as
+  with `5023` and the Weishaupt CRC (30/10/2026). The lock is on the source address only.
 - **Setting the time from ebusd**: broadcast the standard date/time telegram yourself,
   `fe 0700 09 [outside temp, 2 bytes, copied from the last f1 broadcast] [ss mm hh] [dd mm] [weekday] [yy]` (BCD,
   weekday 1 = Monday). `f1` takes over hour and minute, restarts its seconds at 00 on reception and rebroadcasts
