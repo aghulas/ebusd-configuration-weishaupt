@@ -92,6 +92,11 @@ Active reads and writes (from Home Assistant or ebusd) always use the Weishaupt 
   `31` they were acknowledged but not retained, whether with `5023` or `0903`, in the official order and in a burst
   as fast as WCM-Diagnose; the same burst sent from `ff` (ebusd `hex -s ff`) was retained, with `0903` as well as
   with `5023` and the Weishaupt CRC (30/10/2026). The lock is on the source address only.
+- **Writes filtered by source address**: some registers only take writes from the service tool address `ff`
+  (acknowledged but ignored from any other master), others from any master. Measured on 30/10/2026: FS1 room
+  sensor correction (`09 01`) and `f6` date/time (`21 01`–`27 01`) only from `ff` (retained with `5023` and CRC from
+  `ff`); EM2 maximum flow temperature (`28 00`) also from `31`. Never send from `ff` while WCM-Diagnose is connected
+  (two masters with the same address).
 - **Setting the time from ebusd**: broadcast the standard date/time telegram yourself,
   `fe 0700 09 [outside temp, 2 bytes, copied from the last f1 broadcast] [ss mm hh] [dd mm] [weekday] [yy]` (BCD,
   weekday 1 = Monday). `f1` takes over hour and minute, restarts its seconds at 00 on reception and rebroadcasts
