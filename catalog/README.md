@@ -87,8 +87,12 @@ Active reads and writes (from Home Assistant or ebusd) always use the Weishaupt 
   broadcasts (`0700`, BCD). WCM-Diagnose sets the time (Extras → Systemzeit, 30/10/2026) with seven `0903` writes
   from `ff` to `f6` in this order: weekday, day, month, year, minute, second, **hour last**; KA and the FS take the
   new date over. Writing the hour seems to restart the seconds at 00 (clock about 10 s behind afterwards). The
-  weekday reads 1 = Monday (`04` on Thursday, `05` on Friday) but WCM-Diagnose writes 1 = Sunday (`06` on Friday),
-  like the template `_16_WeekDay`. `f6` only takes these register writes from the service tool address `ff`: from
+  weekday reads 1 = Monday (`04` on Thursday, `05` on Friday) but WCM-Diagnose writes 1 = Sunday (`06` on Friday).
+  Template `_16_WeekDay` was corrected on 30/10/2026 to the appliance read convention (1 = Monday … 7 = Sunday,
+  like `_8_Day`); it previously copied the WCM-Diagnose write convention (1 = Sunday) and so decoded reads one day
+  off. Note: the weekday register is not kept in sync with the date — on 30/10 (a Friday) fs1 read raw 1 and sc/ka
+  raw 7 — so it is unreliable and the convention could only be confirmed by a controlled write-read from `ff`.
+  `f6` only takes these register writes from the service tool address `ff`: from
   `31` they were acknowledged but not retained, whether with `5023` or `0903`, in the official order and in a burst
   as fast as WCM-Diagnose; the same burst sent from `ff` (ebusd `hex -s ff`) was retained, with `0903` as well as
   with `5023` and the Weishaupt CRC (30/10/2026). The lock is on the source address only.
