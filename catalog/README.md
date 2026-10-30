@@ -88,8 +88,13 @@ Active reads and writes (from Home Assistant or ebusd) always use the Weishaupt 
   from `ff` to `f6` in this order: weekday, day, month, year, minute, second, **hour last**; KA and the FS take the
   new date over. Writing the hour seems to restart the seconds at 00 (clock about 10 s behind afterwards). The
   weekday reads 1 = Monday (`04` on Thursday, `05` on Friday) but WCM-Diagnose writes 1 = Sunday (`06` on Friday),
-  like the template `_16_WeekDay`. The same seven registers written with `5023` from `31`, hour before minute and
-  second, were acknowledged but not retained.
+  like the template `_16_WeekDay`. The same seven registers written from `31` (with `5023`, or with `0903` in the
+  official order) were acknowledged but not retained: `f6` only takes these register writes from `ff`.
+- **Setting the time from ebusd**: broadcast the standard date/time telegram yourself,
+  `fe 0700 09 [outside temp, 2 bytes, copied from the last f1 broadcast] [ss mm hh] [dd mm] [weekday] [yy]` (BCD,
+  weekday 1 = Monday). `f1` takes over hour and minute, restarts its seconds at 00 on reception and rebroadcasts
+  the time to all modules the next minute. Sent exactly at second 00, the clock is right to about one second
+  (30/10/2026: `fe 0700 09 0006 00 44 06 30 10 05 26` at 06:44:00).
 
 ## Known limits
 
