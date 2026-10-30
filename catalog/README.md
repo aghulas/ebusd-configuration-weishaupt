@@ -83,6 +83,10 @@ Active reads and writes (from Home Assistant or ebusd) always use the Weishaupt 
   on em1 or FS1 (probably requires a remote control unit).
 - Time programs: 3 slots per day, each register = end, start in quarters of an hour (`0x18` = 06:00, `0x58` =
   22:00), `0x80 0x80` = unused slot; to be confirmed on a regulator display.
+- Date and time registers (`21 01`–`27 01`, binary, year on 2 digits): writing them with `5023` on the system
+  module `f6` is acknowledged but not retained (30/10/2026); they mirror the clock broadcast by `f1` (`0700`). The
+  weekday register uses 1 = Monday … 7 = Sunday (`04` on Thursday 29/10/2026), unlike the template `_16_WeekDay`
+  (1 = Sunday) of `_templates.csv`.
 
 ## Known limits
 
