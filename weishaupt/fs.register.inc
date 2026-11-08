@@ -257,8 +257,8 @@ r,,R3B01, ,,,,"3B0102",,,UIN,,,
 w,,R3B01, ,,,,"3B01",,,UIN,,,
 
 #3D 01
-r,,HolidayTempLevel,142 Holiday Temperature Level,,,,"3D0102",HolidayTempLevel,,_16_Temp10,,,
-w,,HolidayTempLevel,142 Holiday Temperature Level,,,,"3D01",HolidayTempLevel,,_16_Temp10,,,
+r,,HolidayTempLevel,142 Holiday Temperature Level,,,,"3D0102",HolidayTempLevel,,_16_TempReduced,,,
+w,,HolidayTempLevel,142 Holiday Temperature Level,,,,"3D01",HolidayTempLevel,,_16_TempReduced,,,
 
 #40 01
 r,,DHWSwitchDiff,575 DHW Switch Diff	,,,,"400102",ControlVariationMode,,_16_TempK10,,,
