@@ -14,6 +14,7 @@ diag/*.exe
 diag/*.idc
 diag/FUN_*.txt
 
-# Dumps bruts de mémoire WTC par page (artefacts de génération du catalogue) : régénérables, non versionnés
-diag/[0-9]*.inc
+# Dumps bruts de mémoire WTC (par page NNNN.inc, par appareil WH*.inc) : artefacts de génération,
+# régénérables depuis les .SYC — non versionnés. Les .inc CHARGÉS par la config vivent dans weishaupt/.
+diag/*.inc
 .DS_Store
