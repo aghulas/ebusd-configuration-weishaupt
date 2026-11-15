@@ -13,4 +13,7 @@ ebusd.eu/
 diag/*.exe
 diag/*.idc
 diag/FUN_*.txt
+
+# Dumps bruts de mémoire WTC par page (artefacts de génération du catalogue) : régénérables, non versionnés
+diag/[0-9]*.inc
 .DS_Store
