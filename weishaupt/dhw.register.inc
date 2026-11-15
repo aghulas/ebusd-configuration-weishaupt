@@ -1112,28 +1112,28 @@ r,,SummerTimeTo.Month, 594 SummerTime End Month,,,,"E1FD02",,,_16_Month,,,
 w,,SummerTimeTo.Month, 594 SummerTime End Month,,,,"E1FD",,,_16_Month,,,
 
 #E2 FD
-r,,CalorfierSwitchDifference, 562 Calorfier Switch Difference,,,,"E2FD02",CalorfierSwitchDifference,,_16_Temp1,,,
-w,,CalorfierSwitchDifference, 562 Calorfier Switch Difference,,,,"E2FD",CalorfierSwitchDifference,,_16_Temp1,,,
+r,,CalorfierSwitchDifference, 562 Calorfier Switch Difference,,,,"E2FD02",CalorfierSwitchDifference,,_16_TempK10,,,
+w,,CalorfierSwitchDifference, 562 Calorfier Switch Difference,,,,"E2FD",CalorfierSwitchDifference,,_16_TempK10,,,
 
 #E3 FD
-r,,CalorfierExceeded, 561 Calorfier exceeded,,,,"E3FD02",CalorfierExceeded,,_16_Temp1,,,
-w,,CalorfierExceeded, 561 Calorfier exceeded,,,,"E3FD",CalorfierExceeded,,_16_Temp1,,,
+r,,CalorfierExceeded, 561 Calorfier exceeded,,,,"E3FD02",CalorfierExceeded,,_16_TempK10,,,
+w,,CalorfierExceeded, 561 Calorfier exceeded,,,,"E3FD",CalorfierExceeded,,_16_TempK10,,,
 
 #E6 FD
-r,,DeCoupleMax, 553 De-Couple Max,,,,"E6FD02",DeCoupleMax,,_16_Temp1,,,
-w,,DeCoupleMax, 553 De-Couple Max,,,,"E6FD",DeCoupleMax,,_16_Temp1,,,
+r,,DeCoupleMax, 553 De-Couple Max,,,,"E6FD02",DeCoupleMax,,_16_Temp10,,,
+w,,DeCoupleMax, 553 De-Couple Max,,,,"E6FD",DeCoupleMax,,_16_Temp10,,,
 
 #E7 FD
-r,,DeCoupleMin, 552 De-Couple Min,,,,"E7FD02",DeCoupleMin,,_16_Temp1,,,
-w,,DeCoupleMin, 552 De-Couple Min,,,,"E7FD",DeCoupleMin,,_16_Temp1,,,
+r,,DeCoupleMin, 552 De-Couple Min,,,,"E7FD02",DeCoupleMin,,_16_Temp10,,,
+w,,DeCoupleMin, 552 De-Couple Min,,,,"E7FD",DeCoupleMin,,_16_Temp10,,,
 
 #E8 FD
-r,,DeCoupleExceeded, 551 De-Couple Exceeded,,,,"E8FD02",DeCoupleExceeded,,_16_Temp1,,,
-w,,DeCoupleExceeded, 551 De-Couple Exceeded,,,,"E8FD",DeCoupleExceeded,,_16_Temp1,,,
+r,,DeCoupleExceeded, 551 De-Couple Exceeded,,,,"E8FD02",DeCoupleExceeded,,_16_TempK10,,,
+w,,DeCoupleExceeded, 551 De-Couple Exceeded,,,,"E8FD",DeCoupleExceeded,,_16_TempK10,,,
 
 #E9 FD
-r,,ContTemp, 538 Cont. Temp,,,,"E9FD02",ContTemp,,_16_Temp1,,,
-w,,ContTemp, 538 Cont. Temp,,,,"E9FD",ContTemp,,_16_Temp1,,,
+r,,ContTemp, 538 Cont. Temp,,,,"E9FD02",ContTemp,,_16_Temp10,,,
+w,,ContTemp, 538 Cont. Temp,,,,"E9FD",ContTemp,,_16_Temp10,,,
 
 #EA FD
 r,,ModulationMax, 536 Modulation Max,,,,"EAFD02",ModulationMax,,_16_Percent,,,
