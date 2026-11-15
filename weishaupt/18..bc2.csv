@@ -12,6 +12,7 @@ dw,,PowerDemand,Heat Demand ->WTC,,,0507,,Status,,_8_Opdataheat1,,, ,Action,,_8_
 
 !include,WH11928.inc,,Rom Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 !include,wtc.history.inc,,Fault history and counters (read only),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+!include,wtc.stats.inc,,Burner service hours (read only),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 #!include,wtc.rom.inc,,Rom Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #!include,wtc.eeprom.inc,,Eeprom Values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
